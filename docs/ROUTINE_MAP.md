@@ -76,7 +76,24 @@ Doing exactly that: the pointer at file offset `0x1BC` resolves to file offset `
 
 **Transferable technique, worth reusing on Unbound too**: chasing CFRU's `rom_locs.h` fixed pointer-redirect slots (there are others besides `gBaseStats`) is a much higher-confidence, lower-effort technique than blind byte-pattern search or exhaustive text search — it works because the *slot address* is a CFRU-engine-level constant, not something Radical Red's own content could have moved, whereas the *target* it points to is naturally hack-specific and gets read out directly.
 
-**Still needed**: matching each of the 82 Gen-9-range indices (1294-1375) to a real species name. The evolution table's equivalent fixed-pointer slot (`gEvolutionTable` at file offset `0x42F6C`, per `rom_locs.h`) was tried the same way but resolved to a target that reads as all-zero for the first several species blocks tested (Bulbasaur/Ivysaur/Charmander evolutions) — **this repoint slot did not pan out on the first attempt**, unlike `gBaseStats`'s. Needs another look (possibly a different fixed offset, a different indexing convention, or RR moved/removed this particular slot) before evolution-family-root reduction can be implemented reliably.
+**Still needed**: matching each of the 82 Gen-9-range indices (1294-1375) to a real species name (see OPEN entry below).
+
+## CONFIRMED — evolution table found the same way, EVOS_PER_MON=16 not stock CFRU's 5
+
+The first attempt at `gEvolutionTable`'s fixed-pointer slot (`0x42F6C` per `rom_locs.h`) read all-zero data because it assumed stock CFRU's `EVOS_PER_MON=5` (40-byte block size) — **wrong assumption, not a wrong address**. Radical Red expanded this to **`EVOS_PER_MON=16`** (128-byte blocks, `16 * sizeof(struct Evolution)` where `struct Evolution` is 8 bytes: `u16 method, param, targetSpecies, unknown`) — the same expansion CFRU's own source comment flags DPE as using ("DPE has 16!!!"), so Radical Red apparently adopted the larger table too, likely to support more complex/precise evolution methods added in later generations.
+
+With `table_base = 0x17CD9B0` (same target the pointer slot resolves to) and `stride = 128`, verified against known evolutions:
+
+| Species | Found | Vanilla | Note |
+|---|---|---|---|
+| Bulbasaur (1) | EVO_LEVEL @ 16 → Ivysaur (2) | EVO_LEVEL @ 16 → Ivysaur | exact match |
+| Ivysaur (2) | EVO_LEVEL @ **36** → Venusaur (3) | EVO_LEVEL @ 32 → Venusaur | **RR rebalance** — evolution level bumped from 32 to 36, target species correct. Plausible for a difficulty-focused hack (delayed evolutions are a common kaizo-hack pattern). |
+| Charmander (4) | EVO_LEVEL @ 16 → Charmeleon (5) | same | exact match |
+| Charmeleon (5) | EVO_LEVEL @ 36 → Charizard (6) | same | exact match |
+| Squirtle (7) | EVO_LEVEL @ 16 → Wartortle (8) | same | exact match |
+| Pikachu (25) | EVO_ITEM(7) param=96 → Raichu (26); **also** EVO_ITEM(7) param=99 → species **1022** | EVO_ITEM (Thunder Stone) → Raichu | Two evolution paths found — the second (different item param, target species 1022, a high/alt-form-range ID) is plausibly an Alolan Raichu / regional-form evolution path, consistent with Radical Red's confirmed regional-forms content. Not yet confirmed what species 1022 actually is (would need the same "match index to name" work as the Gen-9 range below). |
+
+**This solves evolution-family-root reduction for the whole roster** (the mechanism `IsSpeciesAllowedForCharacter` needs to expand a roster entry to its full evolution family) — walk `gEvolutionTable[species]` (16 entries, 8 bytes each) at `table_base + species*128`, same as ROWE/Unbound's own evolution-walk logic, just with RR's own table location/stride.
 
 ## OLD FINDING (SUPERSEDED — kept for the record, do not reuse these conclusions)
 
@@ -87,9 +104,9 @@ Following CFRU's `include/pokemon.h:510` `struct BaseStats` definition, searched
 
 </details>
 
-## OPEN — Gen 9 species names (1294-1375) not yet matched to indices
+## OPEN — Gen 9 species names (1294-1375) not yet matched to indices, and species 1022 unidentified
 
-With the index range now solidly bounded (see CONFIRMED entry above), the remaining gap is purely a naming problem: which of the 82 Gen-9-range indices is Sprigatito, which is Miraidon, etc. Direct vanilla-stat-pattern search for Gen 9 starters (Sprigatito/Fuecoco/Quaxly) found no hits earlier in this session — plausibly because Radical Red rebalanced these too (though that guess was made before the decoy-table confusion was resolved, so it should be re-tested against the confirmed real table before trusting it). Options for a future session: (a) re-run the vanilla-stat-pattern search restricted to just the 1294-1375 index range of the CONFIRMED real table; (b) locate the byte offset of the already-found Gen 9 name-table text (`Sprigatito` etc. at `0x01406xxx`) and figure out its indexing scheme now that we have 82 known-good anchor stat-records to cross-validate candidate name-index pairings against; (c) Ghidra/XREF work on whatever code reads the base-stats table for a definitive index-to-name resolution.
+With the index range now solidly bounded (see CONFIRMED entry above), the remaining gap is purely a naming problem: which of the 82 Gen-9-range indices is Sprigatito, which is Miraidon, etc. Direct vanilla-stat-pattern search for Gen 9 starters (Sprigatito/Fuecoco/Quaxly) found no hits earlier in this session — plausibly because Radical Red rebalanced these too (though that guess was made before the decoy-table confusion was resolved, so it should be re-tested against the confirmed real table before trusting it). Also unidentified: species index **1022**, found as an alternate Pikachu evolution target in the evolution-table finding above — worth checking first since it's a single concrete lead rather than an 82-wide unknown range. Options for a future session: (a) re-run the vanilla-stat-pattern search restricted to just the 1294-1375 index range of the CONFIRMED real table; (b) check species 1022's own base-stats record directly (`table_base + 1022*28`) and see if its stats/types suggest a specific species (e.g. an Alolan Raichu clone of vanilla Raichu's stats would be a strong tell); (c) locate the byte offset of the already-found Gen 9 name-table text (`Sprigatito` etc. at `0x01406xxx`) and figure out its indexing scheme now that we have 82+ known-good anchor stat-records to cross-validate candidate name-index pairings against; (d) Ghidra/XREF work on whatever code reads the base-stats table for a definitive index-to-name resolution.
 
 ## Not yet started
 

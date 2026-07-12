@@ -107,12 +107,22 @@ Porting the "Character Mode" feature from the Pokemon ROWE project (`/home/jbfis
 
 Full detail in `docs/ROUTINE_MAP.md`.
 
+## Status (2026-07-12, v5 — map_species.py written and validated for Gen 1-8)
+
+**Evolution table also solved via the same pointer-redirect technique** — the earlier "failed" attempt just assumed stock CFRU's `EVOS_PER_MON=5`; Radical Red actually uses **`EVOS_PER_MON=16`** (128-byte blocks, matching the expansion CFRU's own source comments attribute to DPE). With that corrected, `table_base=0x17CD9B0` verified exactly against known evolutions (Bulbasaur→Ivysaur@16, Charmander→Charmeleon@16, Squirtle→Wartortle@16 all exact vanilla matches; Ivysaur→Venusaur shows a deliberate RR rebalance, level 36 not vanilla's 32). Also found species **1022 = SPECIES_RAICHU_A (Alolan Raichu)** as a second Pikachu evolution path, cross-confirmed three independent ways (base-stats record exactly matches real Alolan Raichu stats, CFRU's own constant is `0x3FE`=1022, and it showed up as an evolution target) — strong proof the whole Gen 1-8 + alt-form index range can be trusted against `species.h` directly.
+
+**`tools/character_mode/map_species.py` written and run.** Parses `species.h` for `SPECIES_*` constants, derives display names from the constant identifiers (de-sanitized + normalized), builds an evolution-family child→parent map by walking the confirmed real evolution table for species 1-1293, and resolves `rosters_raw.json`'s Bulbapedia-scraped names against it. Result: **184 characters, 4652 total species references, 4510 (97.0%) resolved, 0 empty rosters.** Spot-checked correct (Red's roster includes his anime-crossover Pokémon and Articuno; evolution-family reduction correctly folds e.g. Beautifly→Wurmple, Drapion→Skorupi). `NAME_FIXES` needed real curation, as expected — apostrophe/period-stripped names (Farfetch'd, Mr. Mime), Unicode gender symbols (♂/♀) and accents (é) needed explicit normalization handling, and three species (Basculin, Alcremie, Minior, Urshifu) have no bare base constant in CFRU's `species.h` (only color/form-variant constants) and were mapped to a representative default form.
+
+**The remaining 142 unmatched references (76 unique names) are — as expected — entirely genuine Gen 9 species** (Sprigatito, Fuecoco, Quaxly, Tinkaton, Iron Valiant, Great Tusk, etc.), confirming the mapping logic itself has no other gaps; the sole blocker for 100% resolution is the still-open Gen-9-index-to-name matching (see task/OPEN entry in `docs/ROUTINE_MAP.md`). A background research agent was dispatched this session to look for an authoritative Radical Red Gen 9 stats reference (since RR rebalances stats, vanilla-value pattern matching doesn't reliably identify them) — check its result before continuing that thread.
+
+Outputs written: `tools/character_mode/rosters_mapped.json`, `roster_review.csv`, `unmatched_names.txt`.
+
 ## NEXT
 
-1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE. ~~Seed-list reconciliation~~ DONE. ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open. ~~Species-ID index range~~ SOLVED (see v4 above).
-2. Find the evolution table's real location — the `gEvolutionTable` fixed-pointer slot didn't resolve correctly on the first attempt; try other candidate offsets or re-derive from RR's own binary via XREF.
-3. Match the 82 Gen-9-range base-stats indices (1294-1375) to actual species names — needed before Gen 9 characters can be included in `map_species.py`'s output. Gen 1-8 mapping can proceed now via `tools/cfru_donor/include/constants/species.h`'s `SPECIES_*` constants directly, cross-validated against the confirmed base-stats table.
-4. Write `map_species.py` for real: Gen 1-8 portion is now unblocked; Gen 9 portion blocked on step 3 above (and evolution-family-root reduction blocked on step 2).
+1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE. ~~Seed-list reconciliation~~ DONE. ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open. ~~Species-ID index range~~ SOLVED. ~~Evolution table~~ SOLVED. ~~map_species.py Gen 1-8~~ DONE.
+2. Check the background research agent's findings on Radical Red's actual (rebalanced) Gen 9 stats — use to match the 76 remaining unique Gen-9 species names to their base-stats-table indices (1294-1375).
+3. Once Gen 9 names are resolved, extend `map_species.py`'s species-ID source to cover them (they won't be in `species.h` — will need a small supplementary index→name→id table for just those 82 entries) and re-run for 100% resolution.
+4. Write `emit_characters.py` (adapted from Unbound's flat-binary emitter) to turn `rosters_mapped.json` into `characters.bin`/`rosters.bin`/`names.bin` + manifest — not started yet. Needs `LEGENDARY_BASES` (draft list already in `map_species.py`, Gen 9 legends not yet added), `ASSET_OVERRIDES`, and signature-mon curation (not started).
 5. XREF-confirm which call site referencing the `0x3FE338`+ battle-strings table is `atkF0_givecaughtmon` (needs Ghidra — not yet installed for this project — or continued manual disassembly).
 6. Find a genuine in-game NPC trade dialogue anchor and a Mystery-Gift delivery-relevant anchor (not just the tutorial text found so far).
 7. Sprite table locations and intro-menu hook point remain unsearched.

@@ -1,0 +1,142 @@
+Arven	Bombirdier
+Arven	Brute Bonnet
+Arven	Cetitan
+Arven	Dondozo
+Arven	Flutter Mane
+Arven	Garganacl
+Arven	Great Tusk
+Arven	Iron Hands
+Arven	Iron Jugulis
+Arven	Iron Treads
+Arven	Klawf
+Arven	Mabosstiff
+Arven	Maschiff
+Arven	Nacli
+Arven	Orthworm
+Arven	Pecharunt
+Arven	Scovillain
+Arven	Tatsugiri
+Arven	Toedscool
+Arven	Toedscruel
+Bede	Iron Valiant
+Brassius	Arboliva
+Brassius	Armarouge
+Brassius	Baxcalibur
+Brassius	Dolliv
+Brassius	Fuecoco
+Brassius	Palafin
+Brassius	Smoliv
+Brassius	Tarountula
+Geeta	Espathra
+Geeta	Glimmet
+Geeta	Glimmora
+Geeta	Kingambit
+Geeta	Veluza
+Grusha	Cetitan
+Grusha	Cetoddle
+Grusha	Floragato
+Hassel	Arctibax
+Hassel	Baxcalibur
+Hassel	Dolliv
+Hassel	Fuecoco
+Hassel	Terapagos
+Hilda	Iron Leaves
+Iono	Armarouge
+Iono	Bellibolt
+Iono	Floragato
+Iono	Flutter Mane
+Iono	Kilowattrel
+Iono	Pawmi
+Iono	Quaquaval
+Iono	Quaxly
+Iono	Quaxwell
+Iono	Raging Bolt
+Iono	Sprigatito
+Iono	Tadbulb
+Iono	Wattrel
+Kabu	Fuecoco
+Kabu	Sprigatito
+Katy	Clodsire
+Katy	Floragato
+Katy	Lokix
+Katy	Nymble
+Katy	Spidops
+Katy	Sprigatito
+Katy	Tarountula
+Kofu	Great Tusk
+Kofu	Iron Treads
+Kofu	Veluza
+Kofu	Wugtrio
+Larry	Clodsire
+Larry	Dudunsparce
+Larry	Flamigo
+Larry	Houndstone
+Larry	Lokix
+Larry	Oinkologne
+Larry	Quaxly
+Larry	Quaxwell
+Larry	Smoliv
+Larry	Tinkatink
+Marnie	Cyclizar
+Nemona	Crocalor
+Nemona	Cyclizar
+Nemona	Dolliv
+Nemona	Dudunsparce
+Nemona	Flamigo
+Nemona	Floragato
+Nemona	Fuecoco
+Nemona	Garganacl
+Nemona	Glimmora
+Nemona	Great Tusk
+Nemona	Iron Treads
+Nemona	Kilowattrel
+Nemona	Lechonk
+Nemona	Meowscarada
+Nemona	Orthworm
+Nemona	Pawmi
+Nemona	Pawmo
+Nemona	Pawmot
+Nemona	Quaquaval
+Nemona	Quaxly
+Nemona	Quaxwell
+Nemona	Scream Tail
+Nemona	Skeledirge
+Nemona	Smoliv
+Nemona	Sprigatito
+Nemona	Terapagos
+Nemona	Tinkaton
+Penny	Brute Bonnet
+Penny	Gholdengo
+Penny	Gimmighoul
+Penny	Iron Bundle
+Penny	Iron Hands
+Penny	Mabosstiff
+Penny	Meowscarada
+Penny	Pecharunt
+Penny	Quaxwell
+Penny	Scream Tail
+Penny	Tinkaton
+Penny	Tinkatuff
+Poppy	Bellibolt
+Poppy	Iron Treads
+Poppy	Quaxly
+Poppy	Tinkaton
+Poppy	Tinkatuff
+Rika	Clodsire
+Rika	Floragato
+Rika	Garganacl
+Rika	Great Tusk
+Rika	Lokix
+Ryme	Annihilape
+Ryme	Crocalor
+Ryme	Fuecoco
+Ryme	Greavard
+Ryme	Houndstone
+Ryme	Kilowattrel
+Ryme	Wattrel
+Tulip	Armarouge
+Tulip	Clodsire
+Tulip	Espathra
+Tulip	Farigiraf
+Tulip	Flittle
+Tulip	Garganacl
