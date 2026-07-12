@@ -117,12 +117,19 @@ Full detail in `docs/ROUTINE_MAP.md`.
 
 Outputs written: `tools/character_mode/rosters_mapped.json`, `roster_review.csv`, `unmatched_names.txt`.
 
+## Status (2026-07-12, v6 — roster mapping 100% complete)
+
+**The background research agent found the real answer, and it corrects a v4/v5 assumption.** Indices 1294-1375 are NOT Radical Red's Gen 9 addition — they're mostly Hisuian/alternate forms plus the *later* part of the Paldea dex, plus one joke Palworld-crossover species ("Chillet" at 1375). The actual Gen 9 starters and most other Paldea species are interspersed in the "normal" 1-1293 range (Sprigatito=921, Fuecoco=924, Quaxly=927, Koraidon=1193, Miraidon=1194, Gholdengo=852, Tinkaton=842, etc.) — much closer to National-Dex-adjacent order, which is why the original vanilla-stat search for them around index 1294+ never found anything.
+
+The agent found and verified an authoritative source: the community **Radical Red Pokedex** (`dex.radicalred.net` / `github.com/JwowSquared/Radical-Red-Pokedex`), which ships a full per-species database (name, stats, type, evolutions, and a precomputed evolution-family-base `ancestor` field) for the whole ROM. Cross-checked byte-exact against all 82 of this project's own independently-extracted 1294-1375 records before being trusted. Pulled into the project at `tools/character_mode/rr_pokedex_donor/data.js` (~4.4 MB, provenance noted in that directory's `PROVENANCE.md`).
+
+**`map_species.py` rewritten to use this as the primary species-ID/name source** (superseding the `species.h`-derived-name-matching approach — much simpler, since `data.js`'s `ancestor` field gives the evolution-family base directly, even correctly resolving cases like Pikachu→Pichu that the project's own from-scratch ROM evolution-table walk hadn't been verified that deep). **Result: 100% of the roster resolves cleanly — 184 characters, 4652 species references, 0 unmatched, 0 empty rosters.** Spot-checked Arven/Nemona/Geeta/Iono (the Gen-9-heaviest characters) — all correctly show their real Paldea rosters now.
+
 ## NEXT
 
-1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE. ~~Seed-list reconciliation~~ DONE. ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open. ~~Species-ID index range~~ SOLVED. ~~Evolution table~~ SOLVED. ~~map_species.py Gen 1-8~~ DONE.
-2. Check the background research agent's findings on Radical Red's actual (rebalanced) Gen 9 stats — use to match the 76 remaining unique Gen-9 species names to their base-stats-table indices (1294-1375).
-3. Once Gen 9 names are resolved, extend `map_species.py`'s species-ID source to cover them (they won't be in `species.h` — will need a small supplementary index→name→id table for just those 82 entries) and re-run for 100% resolution.
-4. Write `emit_characters.py` (adapted from Unbound's flat-binary emitter) to turn `rosters_mapped.json` into `characters.bin`/`rosters.bin`/`names.bin` + manifest — not started yet. Needs `LEGENDARY_BASES` (draft list already in `map_species.py`, Gen 9 legends not yet added), `ASSET_OVERRIDES`, and signature-mon curation (not started).
-5. XREF-confirm which call site referencing the `0x3FE338`+ battle-strings table is `atkF0_givecaughtmon` (needs Ghidra — not yet installed for this project — or continued manual disassembly).
-6. Find a genuine in-game NPC trade dialogue anchor and a Mystery-Gift delivery-relevant anchor (not just the tutorial text found so far).
-7. Sprite table locations and intro-menu hook point remain unsearched.
+1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE. ~~Seed-list reconciliation~~ DONE. ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open. ~~Species-ID index range~~ SOLVED. ~~Evolution table~~ SOLVED. ~~map_species.py~~ DONE, 100% resolved.
+2. Write `emit_characters.py` (adapted from Unbound's flat-binary emitter) to turn `rosters_mapped.json` into `characters.bin`/`rosters.bin`/`names.bin` + manifest. `LEGENDARY_NAMES` set already drafted in `map_species.py` (name-based now, not id-based, since `data.js` is the id source) but not yet cross-checked for completeness against the full Gen 9 legendary/Paradox roster; `ASSET_OVERRIDES` and signature-mon curation not started.
+3. XREF-confirm which call site referencing the `0x3FE338`+ battle-strings table is `atkF0_givecaughtmon` (needs Ghidra — not yet installed for this project — or continued manual disassembly).
+4. Find a genuine in-game NPC trade dialogue anchor and a Mystery-Gift delivery-relevant anchor (not just the tutorial text found so far).
+5. Sprite table locations and intro-menu hook point remain unsearched.
+6. Note for Phase 4 (enforcement injection): since `data.js`'s species ids are confirmed to be the exact same numbering as the real ROM's base-stats table index, injected C code can use plain numeric species ids (or a small generated header of `#define`s) without needing CFRU's `species.h` at all for the ~82-entry non-Gen-1-8 range it doesn't cover.
