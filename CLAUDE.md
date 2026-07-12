@@ -50,6 +50,19 @@ Porting the "Character Mode" feature from the Pokemon ROWE project (`/home/jbfis
 
 **5.40 MiB confirmed free** (0xFF-padded, 77 runs >= 0x400 bytes) — over 3.5x what Unbound had (~1.46 MiB), despite Radical Red's denser content (full Gen 1-9 species/moves, Mega/Z-Move/Dynamax/Gigantamax, physical-special split). Two dominant blocks: 1.63 MiB @ 0x00B71D04, ~1.02 MiB @ 0x0085032B. This resolves the plan's open risk #1 favorably — free space is not a bottleneck.
 
+## Status (2026-07-12, v2 — RE session)
+
+**Phase 1 (RE/feasibility): substantial progress, not yet gate-closed.**
+
+**Big win: the CFRU-as-structural-donor bet (Phase 1d) paid off, partially.** Full writeup in `docs/CFRU_CROSSWALK.md`. Key findings:
+- CFRU is a hook-and-patch framework over vanilla FireRed binary, NOT a full decompilation — only subsystems it modifies have public source.
+- **Catch and gift/static-mon delivery share ONE choke point in CFRU source**: `catching.c`'s `atkF0_givecaughtmon()` (wild catch) and `build_pokemon.c`'s `ScriptGiveMon()` (scripted/static/event mons, likely also Mystery Gift's delivery path) both call `GiveMonToPlayer()`, which already has a `SendMonToPC()` fallback built in. This is a real simplification opportunity for Phase 4 versus ROWE's original 6-separate-hook design — **but** `GiveMonToPlayer` is also used by Battle Frontier/Tower rental-mon delivery, so a naive hook would wrongly roster-gate temporary rental teams. Flagged as a Phase 4 design constraint and a Phase 5 test case.
+- Mystery Gift internals (`mevent.h`) and trade internals (`trade.h`) have **no CFRU source at all** — same blind-RE position as Unbound for those two systems specifically.
+- Concrete ROM evidence gathered (see `docs/ROUTINE_MAP.md`): found the "Gotcha" catch-message text at `0x3FD7A2`/`0x3FD7C0`, referenced from a large contiguous `gBattleStringsTable`-shaped pointer array at `0x3FE338`+ — same structural shape Unbound found in its own ROM, strong converging evidence the catch-message plumbing is intact. Also confirmed `"Box is full"` and `"sent to [box] PC"` text in the same region, and CFRU's expanded ball roster (`"Beast Ball"`, `"Dream Ball"`) is present in-ROM.
+- Found a Mystery Gift tutorial-dialogue anchor (`"Mystery Gift"` text at `0x1A6317`) and `"Wonder Card"` text (17 hits) — not yet decoded into a delivery-relevant routine.
+- Tried and ruled out several trade-dialogue leads (Berry Powder shop, Union Room UI text) — no genuine in-game NPC trade anchor confirmed yet, logged in `docs/ROUTINE_MAP.md` so they aren't retried.
+- **Not yet done**: XREF-confirming which of the (likely dozens of) call sites referencing the battle-strings table is actually `atkF0_givecaughtmon` — this is the concrete next RE step, mirrors Unbound's own current blocker.
+
 ## Status (2026-07-12, initial scaffolding session)
 
 **Phase 0 (scaffolding): COMPLETE.**
@@ -68,15 +81,16 @@ Porting the "Character Mode" feature from the Pokemon ROWE project (`/home/jbfis
 - Not yet attempted: any of the enforcement-hook text/pointer anchor searches (catch, gift, Mystery Gift, trade, PC, starter-selection, intro-menu), the CFRU-crosswalk pattern-matching bet, or any Ghidra work.
 
 **Phase 2 (roster data pipeline): partially started.**
-- Seed data sourced: `characters.txt` (205 lines) and `rosters_raw.json` (89,080 bytes) copied from ROWE's originals — confirmed byte-for-byte match to the plan's pre-verified sizes. `scrape_rosters.py` and its Bulbapedia cache (3,761 files) copied alongside.
-- **Not yet done**: seed-list reconciliation against Unbound's pruned copy (to understand the 205-seed → 182-compiled attrition before treating either as this project's exact target), the CFRU-donor species-ID mapping rewrite (`map_species.py`), or the binary emitter adaptation (`emit_characters.py`). These are the next concrete chunks of work — expect real rework here (not a copy), per Unbound's own hard-learned lesson that donor name-table labels don't reliably match species constants and that truncation-convention `NAME_FIXES` need re-deriving per-project.
+- Seed data sourced: `characters.txt` (205 lines / 182 actual character entries, rest are comments/blank generation separators) and `rosters_raw.json` (89,080 bytes) copied from ROWE's originals — confirmed byte-for-byte match to the plan's pre-verified sizes. `scrape_rosters.py` and its Bulbapedia cache (3,761 files) copied alongside.
+- **Seed-list reconciliation DONE — corrects a plan assumption.** Diffed ROWE's 182-character list against Unbound's 156-character list: exactly 26 characters removed, a clean subtraction (no renames — reverse diff is empty). But it's **not purely Gen-9 pruning** as the plan initially assumed — the removed set is: all 15 Gen 9 characters (Geeta, Nemona, Rika, Poppy, Hassel, Katy, Brassius, Iono, Kofu, Larry, Ryme, Tulip, Grusha, Arven, Penny) **plus** Gen 5/6/7 protagonists (Hilbert, Hilda, Nate, Rosa, Calem, Serena, Elio, Selene) **plus** 3 of Gen 7's 4 island kahunas (Hala, Nanu, Hapu — Olivia was kept). So Unbound made a deliberate broader scope cut (no protagonists Gen 5+, partial kahuna trim) specific to that project, not a general/necessary pattern. Since this project targets ROWE's full 182-character breadth (user's explicit full-Gen-1-9 choice), this is moot for what to build — just don't cite "Gen 9 confirmed absent" as the reason Unbound's list is smaller; it's a broader editorial choice than that.
+- **Not yet done**: the CFRU-donor species-ID mapping rewrite (`map_species.py`), or the binary emitter adaptation (`emit_characters.py`). These are the next concrete chunks of work — expect real rework here (not a copy), per Unbound's own hard-learned lesson that donor name-table labels don't reliably match species constants and that truncation-convention `NAME_FIXES` need re-deriving per-project.
 
 **Phases 3-6: not started** (sprite pipeline, enforcement logic injection, testing, packaging) — all gated on Phase 1/2 progressing further.
 
 ## NEXT
 
-1. Commit this initial scaffold to git (Phase 0 checkpoint).
-2. Attempt the CFRU-as-structural-donor bet early (Phase 1d in the plan) — read CFRU's own catch-resolution/gift-mon/Mystery-Gift/trade source for exact function/string targets, time-boxed to 1-2 sessions, record the outcome (payoff or bust) in `docs/CFRU_CROSSWALK.md` either way.
-3. In parallel or as a fallback, run the text/pointer-anchor searches for the enforcement hook taxonomy (catch, gift, Mystery Gift, trade, PC, starter-selection, intro-menu) using mixed-case queries (per the text-convention finding above).
-4. Do the seed-list reconciliation (diff ROWE's 205-line list against Unbound's pruned 199-line copy) before starting the CFRU species-mapping rewrite.
-5. Write `map_species.py` fresh against `tools/cfru_donor/`, expecting to rediscover (not reuse) name-table-position-vs-label-matching behavior and truncation fixes, per Unbound's precedent.
+1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE (partial win, see above). ~~Seed-list reconciliation~~ DONE (Unbound's cut was broader than Gen-9-only, see Phase 2 status). ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open.
+2. XREF-confirm which call site referencing the `0x3FE338`+ battle-strings table is `atkF0_givecaughtmon` (needs Ghidra — not yet installed for this project, see Toolchain section — or continued manual disassembly around the ~190+ dumped table entries).
+3. Find a genuine in-game NPC trade dialogue anchor (Berry Powder shop and Union Room UI text were false positives, logged in `docs/ROUTINE_MAP.md`) and a Mystery-Gift delivery-relevant anchor (not just the tutorial text found so far).
+4. Write `map_species.py` fresh against `tools/cfru_donor/`, expecting to rediscover (not reuse) name-table-position-vs-label-matching behavior and truncation fixes, per Unbound's precedent. This is the next big concrete deliverable — CFRU's `include/species.h`/evolution table are the donor source (need to locate exact paths within `tools/cfru_donor/`).
+5. Sprite table locations and intro-menu hook point remain unsearched.
