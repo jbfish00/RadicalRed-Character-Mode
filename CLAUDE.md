@@ -95,11 +95,24 @@ Porting the "Character Mode" feature from the Pokemon ROWE project (`/home/jbfis
 
 **However, attempting to resolve species IDs positionally (index = species ID, the technique that worked cleanly for Unbound) did NOT work on first attempt.** Walking forward from a confirmed `Bulbasaur` text anchor produces inconsistent blank-entry padding between real names that doesn't match a simple fixed-stride or Dex-order-gap pattern — spot-checks against known CFRU indices (Pikachu=25, Mewtwo=150, Sprigatito=906, etc.) all mismatched. This is **not yet understood** and is now the critical path blocker for Phase 2 (`map_species.py`). Full detail and hypotheses in `docs/ROUTINE_MAP.md`. This is an honest "not solved yet" — do not build `map_species.py` on top of the naive positional walk without first either (a) figuring out the real indexing scheme, or (b) finding a more rigid fixed-size table (e.g. a base-stats table, which is typically fixed-record-size and much easier to walk reliably than variable-length name strings) to cross-validate against.
 
+## Status (2026-07-12, v4 — species-ID resolution SOLVED)
+
+**Major breakthrough, corrects v3's conclusions.** Found that CFRU accesses `gBaseStats` (and other tables) through a **fixed pointer-redirect slot** (`include/new/rom_locs.h`: `#define gBaseStats ((struct BaseStats*) *((u32*) 0x80001BC))`) — a 4-byte pointer *value* at a fixed vanilla ROM address that the compiled game dereferences to find wherever CFRU/Radical Red actually repointed the real table. Reading this directly (file offset `0x1BC` in the RR ROM) resolves to file offset `0x17B98EC` — the REAL, code-referenced base-stats table, verified byte-exact against known species (Bulbasaur, Ivysaur, Venusaur, Charmander, Squirtle, Pikachu, Mewtwo, Mew — all exact vanilla matches) all the way through **index 1375**, where it terminates (all-zero record at 1376, then clearly different data after).
+
+**This means: `NUM_SPECIES` for Radical Red = 1376, `table_base = 0x17B98EC`, `stride = 28` bytes — a fully reliable, byte-exact species-ID authority for the ENTIRE roster, Gen 1 through Gen 9.** Indices 1294-1375 (82 entries) are Radical Red's own Gen 9 extension beyond stock CFRU's 1294-species range, confirmed via plausible/coherent stat records (not garbage).
+
+**v3's conclusions were wrong and are now corrected**: what v3 found via raw byte-pattern search (table at `0x254784`, showing an apparent "Pikachu rebalance" and "garbage" past index ~1290) was reading a decoy/leftover table copy elsewhere in the ROM, not the one the game actually uses. The real table (found via the pointer-redirect technique above) shows unmodified vanilla Pikachu stats and coherent data throughout. **Lesson for future RE work on this or other hacks: prefer chasing CFRU's `rom_locs.h` fixed-pointer slots over raw byte-pattern search when both are available** — pattern search can and did find decoy data that happened to coincidentally match.
+
+**Still open**: the evolution table's equivalent slot (`gEvolutionTable` at file offset `0x42F6C`) was tried the same way but resolved to a target reading all-zero for the first several species tested — did not pan out on the first attempt, needs another look. Also still open: matching each of the 82 Gen-9-range indices (1294-1375) to an actual species name (the index range is now solid, but names aren't yet attached to specific indices in that range).
+
+Full detail in `docs/ROUTINE_MAP.md`.
+
 ## NEXT
 
-1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE (partial win). ~~Seed-list reconciliation~~ DONE. ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open.
-2. **Highest priority**: figure out the real species-ID indexing scheme. Suggested approach for next session — find a fixed-record-size table instead of the variable-length name table (e.g. a base-stats table has fixed-size structs, making entry boundaries unambiguous regardless of blank-name quirks); cross-reference against `tools/cfru_donor/src/Tables/pokemon_tables.c` for the expected base-stats struct layout/field order to search for a matching byte pattern in the RR ROM.
-3. XREF-confirm which call site referencing the `0x3FE338`+ battle-strings table is `atkF0_givecaughtmon` (needs Ghidra — not yet installed for this project — or continued manual disassembly).
-4. Find a genuine in-game NPC trade dialogue anchor and a Mystery-Gift delivery-relevant anchor (not just the tutorial text found so far).
-5. Once species-ID resolution is solid, write `map_species.py` for real — this was attempted this session but blocked on the above.
-6. Sprite table locations and intro-menu hook point remain unsearched.
+1. ~~Commit initial scaffold~~ DONE. ~~CFRU-as-structural-donor bet~~ DONE. ~~Seed-list reconciliation~~ DONE. ~~Enforcement-hook anchor searches~~ done for catch/PC/Mystery-Gift tutorial; trade still open. ~~Species-ID index range~~ SOLVED (see v4 above).
+2. Find the evolution table's real location — the `gEvolutionTable` fixed-pointer slot didn't resolve correctly on the first attempt; try other candidate offsets or re-derive from RR's own binary via XREF.
+3. Match the 82 Gen-9-range base-stats indices (1294-1375) to actual species names — needed before Gen 9 characters can be included in `map_species.py`'s output. Gen 1-8 mapping can proceed now via `tools/cfru_donor/include/constants/species.h`'s `SPECIES_*` constants directly, cross-validated against the confirmed base-stats table.
+4. Write `map_species.py` for real: Gen 1-8 portion is now unblocked; Gen 9 portion blocked on step 3 above (and evolution-family-root reduction blocked on step 2).
+5. XREF-confirm which call site referencing the `0x3FE338`+ battle-strings table is `atkF0_givecaughtmon` (needs Ghidra — not yet installed for this project — or continued manual disassembly).
+6. Find a genuine in-game NPC trade dialogue anchor and a Mystery-Gift delivery-relevant anchor (not just the tutorial text found so far).
+7. Sprite table locations and intro-menu hook point remain unsearched.
