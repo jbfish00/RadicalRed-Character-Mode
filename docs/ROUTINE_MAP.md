@@ -198,6 +198,34 @@ The originally-planned "walk the script bytes with a full opcode-width decoder" 
 
 **The generalized win — `tools/resolve_cfru_hooks.py` + `docs/CFRU_HOOK_SYMBOLS.txt`**: parsing all 623 entries of CFRU's `hooks` file and reading each recorded vanilla address's trampoline literal resolved **539 CFRU functions to their real RR compiled addresses in one pass** — effectively a symbol table for the whole CFRU layer of this ROM, no disassembly needed. Sanity-checked two ways: `ScriptGiveMon` → `0x0907767D` (matches the decompile-verified address above) and `SendMonToPC` → `0x090B6E39` (independently matches the tail-call address extracted from `GiveMonToPlayer`'s decompilation). The 84 unresolved entries are non-trampoline hook types (mid-function byte patches), listed in the output file for the record. **Check this file FIRST before doing any future function-address RE** — most CFRU-layer functions are already in it.
 
+## CONFIRMED — Radical Red's cheat-code entry system, fully decoded: the Character Mode selection vector
+
+RR's new-game flow includes a **cheat-code NPC**: "Would you like to put in a cheat code?" → yes/no → `special 0x12C` opens a text-entry (naming) screen → an event-script chain compares the entered text against each known code → per-code handler sets a flag. The entire mechanism is plain Gen-3 event-script bytecode, decoded end-to-end:
+
+- **Prompt script** at file `0x1050071`: `loadword 0, "Would you like to put in a cheat code?"; callstd 5` (yes/no); `compare 0x800D, 1; goto_if eq → 0x09050086; release; end`.
+- **Entry + check chain** at `0x1050086`: `special 0x12C` (open code-entry screen); `waitstate`; then per code: `loadword 0, <codeString>; special 0x12D` (compare entered text vs loaded string, result → var `0x800D`, 0 = match); `compare 0x800D, 0; goto_if eq → <handler>`. Five codes registered: `Woyaopp` (handler `0x090500F3`, sets flag `0x1040`), `DexAll`, `SO2Toxic`, `TeamPreview`, `EZCatch` (handler `0x09050109`, sets flag `0x109D`).
+- **No-match fallthrough**: `goto 0x09050811` at file offset **`0x10500EE`** → "Invalid code." message; release; end. **This 5-byte goto is the Character Mode insertion point**: repoint it into a free-space extension chain that checks 184 character names the exact same way (`loadword`/`special 0x12D`/`compare`/`goto_if` per name), with per-character handlers doing `setvar VAR_CHARACTER_ID, <index>; setflag FLAG_CHARACTER_MODE; <confirm msgbox>; release; end`, and the extension's own fallthrough continuing to the original `0x09050811`. Zero new UI code — the naming screen, comparator special, and message plumbing are all RR's own, already-working machinery.
+- Handler shape verified by decoding Woyaopp's: `checkflag 0x1040; goto_if set → "already set" (0x09050135); loadword <"...has been set!">; callstd 6; setflag 0x1040; release; end`.
+
+## CONFIRMED — expanded flag/var ranges, and free IDs chosen for Character Mode
+
+CFRU's `src/save.c` (`GetExpandedFlagPointer`/`GetExpandedVarPointer`): with `SAVE_BLOCK_EXPANSION` (which RR demonstrably has — its cheat flags `0x1040`/`0x109D` are in the expanded range and persist), **flags `0x900`–`0x18FF`** live in `gExpandedFlags` and **vars `0x5000`–`0x51FF`** in `gExpandedVars`, both save-persistent. RR's own hooks (`ExpandedFlagsHook` @ vanilla `0x0806E5C0`, `ExpandedVarsHook` @ vanilla `0x0806E454`, per `docs/CFRU_HOOK_SYMBOLS.txt`) route the vanilla accessors through expanded storage — so injected code just calls vanilla `FlagGet`/`VarGet` and expanded IDs work transparently.
+
+Surveyed actual usage in the ROM (byte-pattern scan for flag opcodes `0x29/0x2A/0x2B` and var opcodes `0x16/0x17/.../0x26` with in-range operands — false positives possible, but zero hits is strong evidence of non-use):
+- **`FLAG_CHARACTER_MODE` = `0x18FE`** (zero hits; 115 free candidates existed in `0x1800`–`0x18FF`)
+- **`VAR_CHARACTER_ID` = `0x51FD`** (zero hits; 1-based character index, 0 = none — mirrors ROWE's convention)
+
+## Vanilla function addresses for Phase 4 (from CFRU's own `BPRE.ld` linker script — these are what CFRU itself links against, so they're authoritative for any CFRU-based hack)
+
+`GetMonData` = `0x0803FBE9`, `SetMonData` = `0x0804037D`, `ZeroMonData` = `0x0803D995`, `FlagGet` = `0x0806E6D1`, `FlagSet` = `0x0806E681`, `VarGet` = `0x0806E569`, `VarSet` = `0x0806E585`, `CalculatePlayerPartyCount` = `0x08040C3D`, `CompactPartySlots` = `0x080937DD`, `StringCopy` = `0x8008D85` (all Thumb-bit-set). `SendMonToPC` is commented out in BPRE.ld (CFRU replaces it) — use RR's confirmed `0x090B6E39`.
+
+## Phase 4 hook-design summary (all inputs now confirmed)
+
+- **Enforcement semantics ported from ROWE** (`src/character_mode.c` + call sites there): gifts/statics → off-roster non-egg mons redirect to `SendMonToPC`; ROWE additionally ball-blocks wild catches of off-roster species inside `handleballthrow` — for RR v1, catches use the same PC-redirect shim instead (all vanilla "sent to Box" messaging then works automatically, since both `atkF0_givecaughtmon` and `ScriptGiveMon` already branch on `result != MON_GIVEN_TO_PARTY`).
+- **Shim**: `CM_GiveMonToPlayerGated(mon)` — if `FlagGet(0x18FE)` and `VarGet(0x51FD)` selects a valid character and mon is non-egg and species bit is NOT set in the character's allowed-species bitmap → `return SendMonToPC(mon)`; else `return GiveMonToPlayer(mon)` (`0x0907D791`).
+- **Patch sites**: the two BL instructions at `0x0907DD84` (catch) and `0x090777CE` (scripted gift) retarget to the shim. Thumb BL range is ±4MB: shim must live in the free block at ROM `0x08B71D04`+ (distance ~3.6MB from both sites — in range; the other big block would not be).
+- **Allowed-species bitmaps**: 172 bytes × 184 characters (1376 bits each), precomputed by extending `emit_characters.py` — evolution-family-forward expansion over `data.js`'s evolution graph from each roster base id. O(1) lookup at catch time, no runtime evolution walking.
+
 ## Not yet started
 
-Genuine in-game trade dialogue, starter-selection dialogue, intro/options-menu wording, sprite/trainer-card/battle-pic ROM table addresses (see RULED OUT above — worth re-testing empirically per the correction noted there), the intro-menu hook point, and the identity of `GiveMonToPlayer`'s sixth BL caller (`0x090BC1BE`).
+Genuine in-game trade dialogue, sprite/trainer-card/battle-pic ROM table addresses (worth re-testing empirically per the correction above), the identity of `GiveMonToPlayer`'s sixth BL caller (`0x090BC1BE` — TODO before shipping), and locating where the cheat-code NPC lives on the map (needed for the manual gameplay test path).
