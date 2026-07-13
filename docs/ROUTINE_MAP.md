@@ -119,6 +119,16 @@ For the 82-entry "1294-1375" block and the rest of the roster, a background rese
 
 The full `data.js` donor is now checked into this project (`tools/character_mode/rr_pokedex_donor/data.js`, ~4.4 MB, provenance noted in `PROVENANCE.md` in that directory) and used directly by `map_species.py` as the primary species-ID/name source, superseding the `species.h`-derived-name-matching approach. **Result: 100% of the roster now resolves** (184 characters, 4652 species references, 0 unmatched, 0 empty rosters) — see the map_species.py section of `CLAUDE.md` for the full run summary.
 
+## RULED OUT — sprite/trainer-pic tables are NOT reachable via CFRU's fixed-pointer-redirect trick
+
+Checked whether the pointer-redirect technique that solved `gBaseStats`/`gEvolutionTable` (see the CONFIRMED entries above) also applies to sprite tables, since it would be far cheaper than Ghidra. Result: it doesn't, for two different reasons —
+
+- `tools/cfru_donor/include/new/rom_locs.h` only exposes a **small, specific set** of tables as dynamic pointer-redirect slots: `gBaseStats`, `gEvolutionTable`, `gSpeciesNames`, `gItems`, `gMonIconPaletteIndices`, plus a few battle/script one-offs (`gBitTable`, `gGameVersion`/`gGameLanguage`, `SafariZoneEndScript`, `sBasePaletteGammaTypes`, `sTutorLearnsets` (commented out)). No sprite-related table is in this list at all.
+- `gTrainerFrontPicTable`/`gTrainerFrontPicPaletteTable`/`gTrainerFrontPicCoords` (`src/defines_battle.h`) exist in CFRU's source, but as **hardcoded compile-time addresses** (e.g. `0x823957C`), not pointer-redirect slots — meaning even stock CFRU doesn't relocate this table dynamically; it's just linked at a fixed spot in CFRU's own build. Radical Red's actual compiled binary has no obligation to have this table at the same address, since (unlike the redirect-slot tables, whose *slot* address is an engine-level constant regardless of where the hack's own build relocated the *target*) this address is purely an artifact of CFRU's own linker layout, which Radical Red's developers may have changed simply by adding enough new content before or after it in the link order.
+- No public CFRU source at all references `gObjectEventGraphicsInfoPointers` (the vanilla FireRed overworld-sprite table) — same blind-RE position as Mystery Gift/trade internals.
+
+**Conclusion**: sprite/trainer-pic/OW-graphics table addresses need Ghidra's data-type analysis or manual structure hunting to confirm for real, same conclusion Unbound already reached for its own sprite tables (see `../Unbound-Character-Mode/docs/ROUTINE_MAP.md`). Not worth another blind-pattern-search attempt given the CFRU-crosswalk bet already came up empty for this specific table class. Full asset-coverage planning (which characters have candidate donor art at all, independent of ROM addresses) is done instead — see `docs/SPRITE_COVERAGE.md`.
+
 ## Not yet started
 
-Gift/static-mon handoff routine confirmation (beyond the CFRU-source-level `ScriptGiveMon` lead), genuine in-game trade dialogue, starter-selection dialogue, intro/options-menu wording, sprite/trainer-card/battle-pic tables, and the Gen 9 species-ID range (see OPEN above).
+Gift/static-mon handoff routine confirmation (beyond the CFRU-source-level `ScriptGiveMon` lead), genuine in-game trade dialogue, starter-selection dialogue, intro/options-menu wording, sprite/trainer-card/battle-pic ROM table addresses (see RULED OUT above — needs Ghidra), and the intro-menu hook point.
