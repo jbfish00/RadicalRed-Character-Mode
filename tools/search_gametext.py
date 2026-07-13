@@ -48,6 +48,14 @@ def main():
     query = " ".join(args.text)
     variants = {query, query.upper()}
     if args.icase:
+        # str.capitalize() only capitalizes the string's first letter and
+        # lowercases the rest, so multi-word queries never get a proper
+        # "Each Word Capitalized" variant from it (verified: 'mystery
+        # gift'.capitalize() == 'Mystery gift', not 'Mystery Gift', which is
+        # the actual in-game casing convention for RR's mixed-case text).
+        # Generate both: per-word-capitalized (most common in-game style)
+        # and the plain first-letter-only variant, in case that's needed too.
+        variants.add(" ".join(w.capitalize() for w in query.split(" ")))
         variants.add(query.capitalize())
         variants.add(query.lower())
 
