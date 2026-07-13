@@ -154,6 +154,35 @@ Checked whether the pointer-redirect technique that solved `gBaseStats`/`gEvolut
 
 Copied Unbound's already-built Ghidra 12.0.2 + `pudii/gba-ghidra-loader` install (`tools/ghidra/`, 847 MB, gitignored) rather than reinstalling — same reuse pattern as the `armips`/`flips` binary copies. Imported the ROM headless (`analyzeHeadless ghidra_project RadicalRedCM -import "rom/radicalred 4.1.gba" -noanalysis`): loader correctly auto-detected `GBA Loader` / `ARM:LE:32:v4t:default`, matching Unbound's own result. **Deliberately did not run full-ROM auto-analysis** — Unbound's own experience (see `../Unbound-Character-Mode/docs/ROUTINE_MAP.md`) is that it times out on a 32MB ROM without completing and its `getReferencesTo()` then returns empty for regions it never reached. Copied Unbound's three proven Java scripts instead (`tools/ghidra_scripts/{FindXrefs,InspectRegions,DecompileFunc}.java`, already fixed there for an address-format bug — addresses need the `0x08` ROM-base prefix, e.g. `080CF068` not `000CF068`, or `toAddr()` silently resolves to an unmapped address) — these do targeted, fast, small-window disassembly/decompilation around specific known addresses instead. Not yet run against RadicalRed's own addresses this session (the raw-byte technique above got far enough without needing them yet); ready for a future session to point at `atkF0_givecaughtmon`'s dispatch table once that address is known some other way, or at the script-decoder's findings once written.
 
+## CONFIRMED — gBattleScriptingCommandsTable, atkF0_givecaughtmon, and GiveMonToPlayer all located and verified. THE CATCH-HOOK SEARCH IS CLOSED.
+
+**Technique**: `assembly/data/battle_script_commands_table.s` mixes CFRU-compiled symbols (`.word atkF0_givecaughtmon`) with **hardcoded vanilla handler addresses** (`.word 0x801fd51 @printstring`) for the 108 opcodes CFRU didn't replace. Searched the ROM for a 256-entry pointer table matching all 108 known vanilla values at their exact slot indices. Two candidates found — and the decoy-table lesson from the base-stats work repeated itself exactly:
+
+| candidate | file offset | vanilla slots match | CFRU slots point into | code refs |
+|---|---|---|---|---|
+| A (decoy) | `0x25011C` | 108/108 | `0x0801-0x0802xxxx` (vanilla region — it's the ORIGINAL vanilla table, left in place, dead) | **0** |
+| B (real) | `0x103EF20` | 107/108 | `0x09xxxxxx` (RR's injected-code half of the expanded 32MB ROM) | **5** (literal pools at `0x14C1C`, `0x15A28`, `0x15C6C`, `0x15C98`, `0x1D054` — the vanilla battle-interpreter code region) |
+
+**`gBattleScriptingCommandsTable` (real) = file offset `0x103EF20` (ROM `0x0903EF20`).** Read out the catch-path slots:
+- **`atkEF_handleballthrow` = `0x0907CFF1`** (Thumb; function entry file offset `0x107CFF0`)
+- **`atkF0_givecaughtmon` = `0x0907DD45`** (file offset `0x107DD44`)
+- **`atkF1_trysetcaughtmondexflags` = `0x0907DBD9`** (file offset `0x107DBD8`)
+
+All three start with valid Thumb `push` prologues. **`atkF0_givecaughtmon` decompiled in Ghidra (new script `tools/ghidra_scripts/CreateAndDecompile.java`) and verified structurally against CFRU's `src/catching.c` source — every landmark matches**: the `IsRaidBattle() && FlagGet(0x930) && backupRaidMonItem` intro (so **`FLAG_BATTLE_FACILITY` = `0x930` in this ROM** — add to Phase 4's flag-exclusion list), the `GiveMonToPlayer(mon) != MON_GIVEN_TO_PARTY` gate into the box-full `MULTISTRING_CHOOSER` 0/2/+1 messaging, the `GAME_STAT_CAUGHT_TODAY` (`0x21`) increment-vs-reset branch pair, the `gBattleMons[bank] * 0x58` caught-species read, and the final `++gBattlescriptCurrInstr`.
+
+**`GiveMonToPlayer` = `0x0907D791`** (file offset `0x107D790`) — the call `atkF0` gates on. Decompiled and verified **line-for-line** against CFRU's `src/catching.c:600`: three form-revert calls, `SetMonData` with `MON_DATA_OT_NAME=7`/`MON_DATA_OT_GENDER=0x31`/`MON_DATA_OT_ID=1` (gender/id at `gSaveBlock2+8`/`+10`, matching vanilla layout), the inlined `GetFreeSlotInPartyForMon` 6-slot × 100-byte party loop with `species==0` test at struct offset `0x20`, the `gMain.inBattle` (bit test via `<<0x1E`) `|| gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER` (bit 22 via `<<9`) multi-battle PC-redirect, `CopyMon(dest, mon, 100)`, `gPlayerPartyCount = slot+1`, and the party-full fallback `TryRevertOriginFormes(mon, TRUE)` → `return SendMonToPC(mon)`. **This is THE Phase 4 enforcement choke point** (per `docs/CFRU_CROSSWALK.md`, both wild-catch and `ScriptGiveMon` flow through it — remember the Battle-Tower-rental caveat there before hooking naively).
+
+**Byproduct addresses harvested** (from the confirmed decompilations' call sites and literal pools):
+- `SendMonToPC` = `0x090B6E39` (tail call from GiveMonToPlayer)
+- `LoadTargetPartyData` = `0x0907DBC9` (first call in atkF0)
+- `IsRaidBattle` = `0x0908E0A9`
+- `TryFormRevert` = `0x09099D8D`, `TryRevertMega` = `0x090A94E1`, `TryRevertGigantamax` = `0x0908D63D`, `TryRevertOriginFormes` = `0x0909A199`
+- `CopyMon` = `0x08040B09` (vanilla FRLG address, unchanged)
+- **RAM (all exact vanilla FireRed values — RR did NOT relocate the core RAM layout)**: `gPlayerParty` = `0x02024284`, `gPlayerPartyCount` = `0x02024029`, `gSaveBlock2Ptr` = `0x0300500C`, `gMain` = `0x030030F0` (`.inBattle` at `+0x439`), `gBattleTypeFlags` = `0x02022B4C`. **Phase 4's injected C can use pret/pokefirered's documented symbol addresses for these directly.**
+- A cluster of what look like long-call trampolines/veneers around `0x0907E498`–`0x0907E4A0` (the decompiler shows `SetMonData`/`FlagGet`/`GetMonData`/`StringCopy`-shaped calls all routing through addresses 2-4 bytes apart there) — NOT yet individually mapped; don't cite specific addresses from this cluster without disassembling it properly first.
+
+The originally-planned "walk the script bytes with a full opcode-width decoder" approach was **not needed** — matching the dispatch table's vanilla-pointer fingerprint was cheaper and gave the compiled function addresses directly (the script-side `catchpoke` position stopped mattering once `atkF0`'s function address was in hand).
+
 ## Not yet started
 
-Gift/static-mon handoff routine confirmation (beyond the CFRU-source-level `ScriptGiveMon` lead), genuine in-game trade dialogue, starter-selection dialogue, intro/options-menu wording, sprite/trainer-card/battle-pic ROM table addresses (see RULED OUT above — worth re-testing empirically per the correction noted there before assuming Ghidra is required), a battle-script bytecode decoder (see above), and the intro-menu hook point.
+Gift/static-mon handoff routine confirmation at the binary level (`ScriptGiveMon`'s compiled address — likely findable now by decompiling callers of `GiveMonToPlayer=0x0907D791` via `find_pointer_refs.py` on its literal-pool value), genuine in-game trade dialogue, starter-selection dialogue, intro/options-menu wording, sprite/trainer-card/battle-pic ROM table addresses (see RULED OUT above — worth re-testing empirically per the correction noted there), and the intro-menu hook point.
