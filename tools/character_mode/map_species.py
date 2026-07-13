@@ -75,20 +75,22 @@ def load_dex():
 
 
 def build_name_index(species):
-    """normalized display name -> preferred species id (base form preferred
-    when multiple ids share a display name, e.g. Venusaur vs Venusaur-Mega)."""
-    index = {}
+    """normalized display name -> preferred species id, when multiple ids
+    share a display name (e.g. Venusaur vs Venusaur-Mega; or Rattata vs
+    Rattata-Alola, where BOTH are self-ancestored -- regional variants
+    don't evolve from each other, so "is this a base form" alone can't
+    disambiguate them). Radical Red's species ids append every alt/regional/
+    Mega/Gigantamax form at a HIGHER id than its corresponding base species
+    (verified: every Mega/Alola/Galar/Hisui/Paldea-regional/Gigantamax
+    variant checked in this dataset has a strictly higher id than its base
+    -- see docs/ROUTINE_MAP.md), so the lowest id among same-named
+    candidates is always the intended match for a plain Bulbapedia name.
+    Picking explicitly by min(id) rather than relying on dict insertion
+    order keeps this correct even if data.js's key order ever changes."""
+    groups = {}
     for sid, info in species.items():
-        norm = normalize(info["name"])
-        is_base = sid == info.get("ancestor")
-        if norm not in index:
-            index[norm] = sid
-        else:
-            prev_id = index[norm]
-            prev_is_base = prev_id == species[prev_id].get("ancestor")
-            if is_base and not prev_is_base:
-                index[norm] = sid
-    return index
+        groups.setdefault(normalize(info["name"]), []).append(sid)
+    return {norm: min(ids) for norm, ids in groups.items()}
 
 
 def main():
