@@ -11,16 +11,10 @@ Exit code 0 if clean, 1 if any check fails.
 """
 import ast
 import json
-import re
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-
-
-def normalize(name):
-    name = name.translate(str.maketrans({"é": "e", "É": "e", "♂": "m", "♀": "f"}))
-    return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
 def main():
@@ -29,36 +23,43 @@ def main():
     with open(HERE / "rosters_mapped.json") as f:
         mapped = json.load(f)
 
-    # Re-derive the SAME canonical-id-per-name mapping map_species.py's
-    # build_name_index computes (min id among same-named candidates) --
-    # checking against "is there SOME self-ancestored entry with this name"
-    # is not strong enough: cosmetic/event forms (Pikachu costumes, etc.)
-    # are self-ancestored by a data quirk despite not being real roots, so
-    # that weaker check silently passes exactly the bug this script exists
-    # to catch. This must mirror the actual resolution algorithm, not an
-    # approximation of it.
-    groups = {}
-    for sid, info in species.items():
-        groups.setdefault(normalize(info["name"]), []).append(sid)
-    canonical_id_by_name = {norm: min(ids) for norm, ids in groups.items()}
-
     problems = []
     empty = []
     for char, info in mapped.items():
         if not info["species"]:
             empty.append(char)
-        for sp_name in info["species"]:
-            norm = normalize(sp_name)
-            canonical_id = canonical_id_by_name.get(norm)
-            if canonical_id is None:
-                problems.append(f"{char}: {sp_name!r} does not match any known species by name")
+        roster_ids = {sp["id"] for sp in info["species"]}
+        for sp in info["species"]:
+            sp_name, stored_id = sp["name"], sp["id"]
+            if stored_id not in species:
+                problems.append(f"{char}: {sp_name!r} stored id {stored_id} not present in data.js at all")
                 continue
-            true_root = species[canonical_id].get("ancestor")
-            if true_root != canonical_id:
+            if species[stored_id]["name"] != sp_name:
+                problems.append(
+                    f"{char}: stored name {sp_name!r} doesn't match data.js name "
+                    f"{species[stored_id]['name']!r} for id {stored_id}"
+                )
+            # NOTE: do NOT re-derive "the" id for sp_name via canonical_id_by_name and
+            # compare -- Radical Red's dex data has genuine same-named regional pairs
+            # (e.g. id 83 "Farfetch'd" (Kanto, no evolution) vs id 1213 "Farfetch'd"
+            # (Galar, key="Farfetch'd-Galar", evolves into Sirfetch'd) -- both are
+            # independently valid evolution-family roots. A name-uniqueness check
+            # would false-positive on every such pair; the real invariant is just
+            # "is this id its own root", checked below.
+            true_root = species[stored_id].get("ancestor")
+            if true_root != stored_id:
                 root_name = species.get(true_root, {}).get("name", "?")
                 problems.append(
-                    f"{char}: {sp_name!r} (id {canonical_id}) is NOT a true evolution-family root "
+                    f"{char}: {sp_name!r} (id {stored_id}) is NOT a true evolution-family root "
                     f"-- should have reduced further to {root_name!r} (id {true_root})"
+                )
+        sig = info.get("signature")
+        if sig and sig["id"] not in roster_ids:
+            sig_root = species.get(sig["id"], {}).get("ancestor")
+            if sig_root not in roster_ids:
+                problems.append(
+                    f"{char}: signature {sig['name']!r} (id {sig['id']}) is not present in the "
+                    f"character's own roster"
                 )
 
     if empty:

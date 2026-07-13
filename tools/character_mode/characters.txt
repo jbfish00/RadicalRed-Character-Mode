@@ -168,6 +168,8 @@ Mallow (anime) | Mallow (anime) | anime | 7
 Sophocles | Sophocles (anime) | anime | 7
 
 # --- Generation 8 ---
+Victor | Victor (game) | protagonist | 8
+Gloria | Gloria (game) | protagonist | 8
 Leon | Leon (game) | champion | 8
 Milo | Milo (game) | gymleader | 8
 Nessa | Nessa (game) | gymleader | 8
