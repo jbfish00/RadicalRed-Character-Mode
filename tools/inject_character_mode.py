@@ -63,6 +63,15 @@ GIVEMON_ADDR  = 0x0907D790  # current BL target at both sites (no Thumb bit)
 GOTO_OPERAND_OFF = 0x10500EF          # operand of `goto 0x09050811`
 INVALID_CODE_HANDLER = 0x09050811
 
+# The ONLY live in-game trade in RR v4.1 (docs/ROUTINE_MAP.md): a BG-event
+# console on map 2.11 at tile (0,2) trading the player's Florges (779) for
+# Eternal Flower Floette (848). Script pointer lives in the BG event struct;
+# wrapper gates it on the character's allowed-species bitmap.
+TRADE_BG_SCRIPT_PTR_OFF = 0x3B432C    # BG event struct +8 (script field)
+TRADE_ORIG_SCRIPT = 0x08164B03        # lockall; setvar 0x8004,6; ... trade scene
+TRADE_GIVEN_SPECIES = 848             # what the player RECEIVES (the gated side)
+TRADE_WRAPPER_ADDR = 0x08C8E000
+
 FLAG_CHARACTER_MODE = 0x18FE
 VAR_CHARACTER_ID    = 0x51FD
 
@@ -289,6 +298,34 @@ def main():
     cur_goto = struct.unpack_from("<I", data, GOTO_OPERAND_OFF)[0]
     assert cur_goto == INVALID_CODE_HANDLER, f"goto operand is {cur_goto:#x}, expected {INVALID_CODE_HANDLER:#x}"
     struct.pack_into("<I", data, GOTO_OPERAND_OFF, SCRIPT_ADDR)
+
+    # --- 3b. trade gate: wrap the one live in-game trade ---
+    # Wrapper mirrors the shim's semantics: flag off, char unset (0), or char
+    # out of range -> original trade runs untouched; otherwise the trade is
+    # allowed only for characters whose bitmap permits the received species.
+    allowing = [i + 1 for i in range(len(chars))
+                if bitmaps[i*172 + (TRADE_GIVEN_SPECIES >> 3)] & (1 << (TRADE_GIVEN_SPECIES & 7))]
+    wrapper = bytearray()
+    wrapper += bytes([0x2B]) + struct.pack("<H", FLAG_CHARACTER_MODE)   # checkflag
+    wrapper += op_goto_if(0, TRADE_ORIG_SCRIPT)                          # unset -> orig
+    wrapper += op_compare(VAR_CHARACTER_ID, 0)
+    wrapper += op_goto_if(1, TRADE_ORIG_SCRIPT)                          # char 0 -> orig
+    wrapper += op_compare(VAR_CHARACTER_ID, len(chars) + 1)
+    wrapper += op_goto_if(4, TRADE_ORIG_SCRIPT)                          # >184 -> orig
+    for idx in allowing:
+        wrapper += op_compare(VAR_CHARACTER_ID, idx)
+        wrapper += op_goto_if(1, TRADE_ORIG_SCRIPT)
+    msg_addr = TRADE_WRAPPER_ADDR + len(wrapper) + len(op_loadword(0) + op_callstd(3) + op_end())
+    wrapper += op_loadword(msg_addr)
+    wrapper += op_callstd(3)                                             # sign-style msgbox
+    wrapper += op_end()
+    wrapper += enc_text("Character Mode:\nthis trade is not in your roster.", cm)
+    splice(TRADE_WRAPPER_ADDR, bytes(wrapper), "trade wrapper")
+    cur_bg = struct.unpack_from("<I", data, TRADE_BG_SCRIPT_PTR_OFF)[0]
+    assert cur_bg == TRADE_ORIG_SCRIPT, f"trade BG script ptr is {cur_bg:#x}, expected {TRADE_ORIG_SCRIPT:#x}"
+    struct.pack_into("<I", data, TRADE_BG_SCRIPT_PTR_OFF, TRADE_WRAPPER_ADDR)
+    print(f"trade gate: wrapper {len(wrapper)} B @ {TRADE_WRAPPER_ADDR:#x} "
+          f"({len(allowing)} characters allow species {TRADE_GIVEN_SPECIES})")
 
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)

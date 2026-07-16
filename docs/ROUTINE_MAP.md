@@ -228,7 +228,16 @@ Surveyed actual usage in the ROM (byte-pattern scan for flag opcodes `0x29/0x2A/
 
 ## Not yet started
 
-Genuine in-game trade dialogue (trades unenforced in v1). The sixth-caller, cheat-entry-location, and sprite-table TODOs are all resolved (see entries above/below).
+The sixth-caller, cheat-entry-location, sprite-table, and in-game-trade TODOs are all resolved (see entries above/below). No enforcement gaps remain known.
+
+## CONFIRMED — the in-game trade system, fully mapped; only ONE live trade exists, now gated
+
+The long-open "trade anchor" search is closed. Chain of findings, each cross-verified:
+- **`sInGameTrades` table = file `0x26CF8C`** (found by searching FRLG trade-mon nicknames; "Mimien" hit). Nine 60-byte vanilla-struct records, ALL customized by RR (give species / nickname / requested species): 1216 'Mimien'/63, 508 'Aphrodite'/1164, 1167 'ClubPnguin'/811, 1213 'Ch'ding'/948, 995 'spook'/789, 1169 'Gorochu'/810, **848 'Flowre'/779**, 494 'BestBirb'/198, 1153 'Revenant'/1150.
+- The vanilla trade specials cluster at gSpecials[0xFC..0xFF] (`gSpecials` = file `0x15FD60`, 444 entries — vanilla address held, RR extended it in place). The script-side trade fingerprint is `specialvar 0x800D, 0x1B8` + `special 0x158` (party-selection UI; 0x158 alone is generic and used 16 places).
+- **Only 4 scripts in the whole ROM carry the full trade fingerprint** (trade indices 1, 2, 3, 6 at files `0x161F91`, `0x161504`, `0x16C175`, `0x164B25`) — and a rigorous bounded map-walk (using per-group counts derived from header-array gaps; groups 1/2 are RR-relocated to `0x736E10`/`0x87296C4`) proves **trades 1/2/3's scripts are dead vanilla leftovers with zero real references**. Beware phantom results from unbounded group walks — overruns slide into adjacent groups' header arrays and fabricate convincing-looking maps/objects (this burned several intermediate conclusions this session).
+- **The ONLY live trade: index 6** — Eternal Flower Floette (species 848, standalone form, `ancestor: 848`, evolves to nothing) 'Flowre' for the player's Florges (779). Wired as a **BG event** (console/sign-style, like the cheat entry) at tile (0,2) of **map 2.11** (0 objects, 1 warp, 1 BG event; events struct `0x3B4330`, header `0x3500BC`); script entry `0x08164B03`, pointer at **file `0x3B432C`** (BG struct +8).
+- **Gated in the build** (`inject_character_mode.py`): the BG script pointer is retargeted to a 90-byte wrapper at `0x08C8E000` — flag off / char 0 / char >184 fall through to the original script; otherwise allowed only for characters whose bitmap permits species 848 (computed at build time — currently **zero** of 184, since Eternal Floette is canon-exclusive to AZ, who isn't a playable character), else a sign msgbox "Character Mode: this trade is not in your roster." Verified by `tools/tests/verify_artifacts.py` section 7 (pointer both directions, full wrapper decode, allow-list re-derived from bitmaps).
 
 ## CONFIRMED — the cheat-code entry point is the game console in the player's bedroom
 

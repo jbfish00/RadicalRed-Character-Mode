@@ -58,9 +58,12 @@ Notes:
 
 ## Known v1 limitations
 
-- **In-game trades are not enforced** — a traded-in off-roster Pokemon
-  will join your party. Treat trades as against the spirit of the mode.
 - Characters keep the normal player sprite (no custom character sprites yet).
+
+(In-game trades ARE enforced: Radical Red v4.1 has exactly one live in-game
+trade — the Eternal Flower Floette console — and it politely refuses while
+Character Mode is on, since that Floette is not on any character's canon
+roster.)
 
 ## Character codes
 

@@ -52,6 +52,10 @@ INVALID_CODE_HANDLER = 0x09050811
 FLAG_CM = 0x18FE
 VAR_ID = 0x51FD
 STRIDE = 172
+TRADE_BG_PTR_OFF = 0x3B432C
+TRADE_ORIG = 0x08164B03
+TRADE_WRAPPER_ADDR = 0x08C8E000
+TRADE_SPECIES = 848
 
 failures = []
 
@@ -98,11 +102,17 @@ def main():
     send = soff
     while not all(b == 0xFF for b in patched[send:send + 64]):
         send += 64
+    woff = TRADE_WRAPPER_ADDR - 0x08000000
+    wend = woff
+    while not all(b == 0xFF for b in patched[wend:wend + 64]):
+        wend += 64
     intended = [(SHIM_ADDR - 0x08000000, SHIM_ADDR - 0x08000000 + 0x100),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
+                (woff, wend),
                 *[(s, s + 4) for s in BL_SITES],
-                (GOTO_OPERAND_OFF, GOTO_OPERAND_OFF + 4)]
+                (GOTO_OPERAND_OFF, GOTO_OPERAND_OFF + 4),
+                (TRADE_BG_PTR_OFF, TRADE_BG_PTR_OFF + 4)]
     stray = []
     i = 0
     n = len(orig)
@@ -118,7 +128,7 @@ def main():
             i = j
         else:
             i += 1
-    check("no stray modified bytes outside the 6 intended regions",
+    check("no stray modified bytes outside the 8 intended regions",
           not stray, f"first strays at {[hex(x) for x in stray]}")
 
     print("== 4. BL patches ==")
@@ -160,13 +170,17 @@ def main():
         return raw[:end] if end >= 0 else None
 
     # load ROWE charmap to decode alias strings back to ASCII
+    # reverse charmap; several chars share a byte (e.g. ' ' and the ideographic
+    # space both encode to 0x00) — prefer the ASCII one for round-trip checks
     cmap = {}
     pat = re.compile(r"^'(.)'\s*=\s*([0-9A-Fa-f]{2})\s*$")
     with open("/home/jbfish00/Documents/Pokemon Rowe Alteration/charmap.txt", encoding="utf-8") as f:
         for line in f:
             m = pat.match(line.rstrip("\n"))
             if m:
-                cmap[int(m.group(2), 16)] = m.group(1)
+                b, ch = int(m.group(2), 16), m.group(1)
+                if b not in cmap or (not cmap[b].isascii() and ch.isascii()):
+                    cmap[b] = ch
 
     def alias_for(display):
         if display.endswith(" (anime)"):
@@ -240,6 +254,51 @@ def main():
             h = rd(checks_parsed[i][1], 12)
             check(f"CMDbg{'Give1' if i == 1 else 'Give2'} handler: givepokemon {species} L5",
                   h[0] == 0x79 and struct.unpack_from("<H", h, 1)[0] == species and h[3] == 5)
+
+    print("== 7. trade gate ==")
+    check("trade BG script ptr originally -> live trade script",
+          struct.unpack_from("<I", orig, TRADE_BG_PTR_OFF)[0] == TRADE_ORIG)
+    check("trade BG script ptr retargeted to wrapper",
+          struct.unpack_from("<I", patched, TRADE_BG_PTR_OFF)[0] == TRADE_WRAPPER_ADDR)
+    # decode the wrapper: checkflag CM; goto_if 0 -> orig; compare var,0;
+    # goto_if 1 -> orig; compare var,185; goto_if 4 -> orig; [per-allowing
+    # character compare/goto_if pairs]; loadword msg; callstd 3; end
+    w = TRADE_WRAPPER_ADDR - 0x08000000
+    def u32p(o): return struct.unpack_from("<I", patched, o)[0]
+    ok = (patched[w] == 0x2B and struct.unpack_from("<H", patched, w+1)[0] == FLAG_CM
+          and patched[w+3] == 0x06 and patched[w+4] == 0 and u32p(w+5) == TRADE_ORIG
+          and patched[w+9] == 0x21 and struct.unpack_from("<HH", patched, w+10) == (VAR_ID, 0)
+          and patched[w+14] == 0x06 and patched[w+15] == 1 and u32p(w+16) == TRADE_ORIG
+          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, 185)
+          and patched[w+25] == 0x06 and patched[w+26] == 4 and u32p(w+27) == TRADE_ORIG)
+    check("wrapper preamble decodes (flag/char-0/char-range passthroughs)", ok)
+    p2 = w + 31
+    n_allow = 0
+    while patched[p2] == 0x21:
+        var, idx = struct.unpack_from("<HH", patched, p2+1)
+        good = (var == VAR_ID and 1 <= idx <= 184 and patched[p2+5] == 0x06
+                and patched[p2+6] == 1 and u32p(p2+7) == TRADE_ORIG)
+        if not good:
+            break
+        # the allowing character's bitmap must actually allow the species
+        bmi = (idx-1)*STRIDE
+        if not bitmaps[bmi + (TRADE_SPECIES >> 3)] & (1 << (TRADE_SPECIES & 7)):
+            break
+        n_allow += 1
+        p2 += 11
+    expected_allow = sum(1 for i in range(184)
+                         if bitmaps[i*STRIDE + (TRADE_SPECIES >> 3)] & (1 << (TRADE_SPECIES & 7)))
+    check(f"wrapper allow-list matches bitmaps ({expected_allow} characters)",
+          n_allow == expected_allow)
+    ok_tail = (patched[p2] == 0x0F and patched[p2+1] == 0
+               and patched[p2+6] == 0x09 and patched[p2+7] == 3 and patched[p2+8] == 0x02)
+    msg = ""
+    if ok_tail:
+        ma = u32p(p2+2) - 0x08000000
+        raw = patched[ma:ma+80]
+        msg = "".join(cmap.get(b, "?") for b in raw[:raw.find(0xFF)])
+    check("wrapper tail: msgbox(sign) + end, message decodes",
+          ok_tail and msg.startswith("Character Mode:"), repr(msg))
 
     print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
     return 1 if failures else 0
