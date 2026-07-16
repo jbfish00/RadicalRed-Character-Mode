@@ -50,6 +50,11 @@ Porting the "Character Mode" feature from the Pokemon ROWE project (`/home/jbfis
 
 **5.40 MiB confirmed free** (0xFF-padded, 77 runs >= 0x400 bytes) — over 3.5x what Unbound had (~1.46 MiB), despite Radical Red's denser content (full Gen 1-9 species/moves, Mega/Z-Move/Dynamax/Gigantamax, physical-special split). Two dominant blocks: 1.63 MiB @ 0x00B71D04, ~1.02 MiB @ 0x0085032B. This resolves the plan's open risk #1 favorably — free space is not a bottleneck.
 
+## Cross-project breakthroughs (2026-07-16, from Lazarus/Seaglass — for future maintenance)
+
+- **`../Lazarus-Character-Mode/tools/find_script_cmd_table.py`**: locates the script command table in any pokeemerald/pokefirered-family binary (RR's CFRU base included) in seconds via the cmdTable/cmdTableEnd adjacent-literal-pool-pair signature; entry 0x2B → FlagGet → flags offset, 0x16 → GetVarPointer → vars offset, statically. Would have shortcut parts of this project's Phase 1.
+- **Headless breakpoints**: Seaglass's `mgba-headless` build now supports working `emu:setBreakpoint` when run with `MGBA_HEADLESS_DEBUGGER=1` (stock never fired them — returned -1). Useful for any future RR regression triage without GDB-stub quirks.
+
 ## Status (2026-07-12, v2 — RE session)
 
 **Phase 1 (RE/feasibility): substantial progress, not yet gate-closed.**
