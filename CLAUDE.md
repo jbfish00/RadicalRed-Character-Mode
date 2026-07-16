@@ -198,4 +198,4 @@ Re-ran and re-committed with the fix.
 2. **Manual gameplay verification** (nice-to-have beyond the automated layers): find the cheat-code NPC on the map (new-game flow), type `Red`, confirm the msgbox + Pikachu delivery, then `CMDbgGive2` → Meowth goes to PC. Needs either playing the intro or finding the NPC's map/object id in the map data.
 3. Phase 3 (sprites): empirically re-test `gTrainerFrontPicTable` = `0x823957C` etc. hardcoded addresses (v10/v11 proved such constants often hold); then donor-PNG staging + `CREDITS.md`.
 4. Trade enforcement (v2): still needs a genuine in-game trade dialogue anchor — `search_gametext.py`/`dump_all_strings.py`.
-5. Phase 6 (packaging): README for end users (how to apply the BPS, the code list, debug codes), license/credits.
+5. ~~Phase 6 (packaging): README for end users~~ **DONE** — `README.md` (apply instructions, activation walkthrough, all 184 character codes + 3 debug codes generated from `characters_manifest.json`, v1 limitations). Remaining packaging: credits/license polish if this ever gets published.
