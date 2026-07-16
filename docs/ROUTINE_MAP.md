@@ -191,7 +191,7 @@ The originally-planned "walk the script bytes with a full opcode-width decoder" 
 - `0x0907DD84` — inside `atkF0_givecaughtmon` (wild catch — WILL be enforcement-gated)
 - `0x090777CE` — inside `ScriptGiveMon` (scripted gifts/static encounters — WILL be gated)
 - `0x090791E6`, `0x09079570`, `0x0907A040` — per CFRU `build_pokemon.c` source order, the Battle-Frontier rental-mon givers (`GiveRandomFrontierMonByTier`, `sp06A_GivePlayerFrontierMonByLoadedSpread`, `GivePlayerFrontierMonGivenSpecies`) — **must NOT be gated** (the Phase 4 rental caveat from `docs/CFRU_CROSSWALK.md`, now with concrete addresses). Not individually decompile-verified (identification is by source order within the confirmed build_pokemon.c compile unit — good enough for "don't touch these").
-- `0x090BC1BE` — unidentified sixth caller (possibly egg hatch/daycare or another file's giver). **TODO: decompile before Phase 4 ships** to decide gate/don't-gate.
+- `0x090BC1BE` — **RESOLVED (testing session): RR's own party-restore-from-save routine — must NOT be gated, and isn't.** The containing function (`0x090BC194`, disassembled via objdump; no CFRU source equivalent — this is RR-specific code) reads `gSaveBlock1Ptr` (`0x03005008`), copies the saved `playerPartyCount` (saveblock `+0x34`) into `gPlayerPartyCount`, then loops all 6 saved party slots (saveblock `+0x38 + 100*i`), memcpy'ing each 100-byte mon to a stack buffer and calling `GiveMonToPlayer` on it — i.e., vanilla `LoadPlayerParty` semantics reimplemented through `GiveMonToPlayer`. Gating it would strip the player's own already-owned party on save load. It also can't bypass enforcement: everything it re-gives was gated when originally acquired. Leaving this BL unpatched is definitively correct.
 - Vanilla `GiveMonToPlayer` (`0x08040B15`) is itself a trampoline to the CFRU version (literal at `0x40B18`), so any vanilla-code caller still routes through the same choke point.
 
 **Phase 4 hook design implication**: patch the two BL instructions at `0x0907DD84` and `0x090777CE` to call the injected roster-check shim (which tail-calls the real `GiveMonToPlayer` or reroutes) rather than hooking `GiveMonToPlayer` itself — the rental-mon callers then stay untouched by construction.
@@ -228,4 +228,8 @@ Surveyed actual usage in the ROM (byte-pattern scan for flag opcodes `0x29/0x2A/
 
 ## Not yet started
 
-Genuine in-game trade dialogue, sprite/trainer-card/battle-pic ROM table addresses (worth re-testing empirically per the correction above), the identity of `GiveMonToPlayer`'s sixth BL caller (`0x090BC1BE` — TODO before shipping), and locating where the cheat-code NPC lives on the map (needed for the manual gameplay test path).
+Genuine in-game trade dialogue (trades unenforced in v1), sprite/trainer-card/battle-pic ROM table addresses (worth re-testing empirically per the correction above), and locating where the cheat-code NPC lives on the map (needed for the manual gameplay test path — note the NPC demonstrably exists and works, since RR's own five cheat codes ride it; only its map coordinates are unrecorded). The sixth-caller TODO is resolved (see the caller inventory above).
+
+## CONFIRMED — naming-screen length precedent for the selection codes
+
+RR's own original cheat-code chain (walked backwards from the fallthrough goto at `0x10500EE`) registers exactly five codes: `Woyaopp` (7), `DexAll` (6), `SO2Toxic` (8), `TeamPreview` (11), `EZCatch` (7). **`TeamPreview` at 11 characters proves the `special 0x12C` naming screen accepts 11-char input** — the injected character aliases (asserted ≤11 chars at build time, longest are 11) are within RR's own demonstrated precedent, not an assumption.

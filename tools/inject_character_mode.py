@@ -5,12 +5,13 @@ Pipeline (all addresses CONFIRMED in docs/ROUTINE_MAP.md, pinned to rom.sha1):
   1. Compile src/character_mode.c (the GiveMonToPlayer gate shim) with
      arm-none-eabi-gcc, linked at SHIM_ADDR.
   2. Splice into a ROM copy:
-       shim code            @ SHIM_ADDR    (0x08B71D10)
-       rosters_expanded.bin @ BITMAPS_ADDR (0x08B72000)
-       selection script ext @ SCRIPT_ADDR  (0x08B7A000)
-     — all inside the confirmed 1.63 MiB free block at 0xB71D04. The shim
-     MUST stay in this block: Thumb BL range is ±4 MB from the two patch
-     sites (~0x0907xxxx), and this is the only big free block in range.
+       shim code            @ SHIM_ADDR    (0x08C80000)
+       rosters_expanded.bin @ BITMAPS_ADDR (0x08C80100)
+       selection script ext @ SCRIPT_ADDR  (0x08C88000)
+     — all inside the tail of the confirmed 1.63 MiB free block at
+     0xB71D04. The shim MUST stay in [0xC7DD88, 0xD004D7): Thumb BL range
+     is ±4 MB from the two patch sites (~0x0907xxxx), and this block's
+     tail is the only big free run inside that window.
   3. Patch:
        - BL at 0x107DD84 (atkF0_givecaughtmon)  -> BL shim
        - BL at 0x10777CE (ScriptGiveMon)        -> BL shim
@@ -18,7 +19,7 @@ Pipeline (all addresses CONFIRMED in docs/ROUTINE_MAP.md, pinned to rom.sha1):
          -> selection script chain (chain's own fallthrough continues to
             the original "Invalid code." handler at 0x09050811)
   4. Verify expected original bytes before every patch (refuses to run on a
-     mismatched ROM), write build/radicalred_cm.gba + build/radicalred_cm.ups.
+     mismatched ROM), write build/radicalred_cm.gba + build/radicalred_cm.bps.
 
 The selection UI rides RR's own cheat-code entry system: the player talks
 to the cheat-code NPC and types a character's name (non-alphanumerics
