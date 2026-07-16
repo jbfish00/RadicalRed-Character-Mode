@@ -192,10 +192,16 @@ Re-ran and re-committed with the fix.
 
 **Known v1 limitations (documented, deliberate, not bugs)**: in-game trades unenforced (no trade anchor found yet); character sprites not installed (`sprite_asset_id` still `0xFFFF` — Phase 3's ROM-table hunt remains open); the cheat-code NPC's map location not yet recorded (the NPC provably exists and works — RR's own five cheat codes ride it — but a manual gameplay walkthrough hasn't been done).
 
+## Status (2026-07-15, v13 — cheat-entry location found; sprite tables confirmed at stock addresses)
+
+Two more NEXT items closed (both in `docs/ROUTINE_MAP.md` in full):
+- **Cheat-code entry point located**: it's not an NPC — it's the **game console in the player's bedroom** (map 4.1 = Player's House 2F, BG event #0 at tile (6,5), script `0x0905006F`: `lock; signmsg; msgbox-yesno; goto_if eq -> 0x09050086`). No flag gate; works any time. Found by walking the map-header tree from `gMapGroups` (vanilla `0x3526A8`). README's activation section corrected accordingly. The manual gameplay test is now a 30-second affair: new game → face console → A → yes → type `Red`.
+- **Phase 3 unblocked — trainer-pic tables ARE at stock addresses** (v9's "needs Ghidra" was too pessimistic): `gTrainerFrontPicTable` `0x23957C` (148 entries, seq tags, entry 0 already repointed into RR's `0x09` injected-art region — RR edits the table in place), `gTrainerFrontPicPaletteTable` `0x239A1C` (per `BPRE.ld:381` — pull addresses from BPRE.ld, not memory), `gTrainerBackPicTable` `0x239E7C`. Adding character pics = same in-place repointing RR itself uses.
+
 ## NEXT
 
 1. ~~Phases 1/2/4/5 core~~ **DONE — playable patched .gba + BPS patch, all tests green (see v12).**
-2. **Manual gameplay verification** (nice-to-have beyond the automated layers): find the cheat-code NPC on the map (new-game flow), type `Red`, confirm the msgbox + Pikachu delivery, then `CMDbgGive2` → Meowth goes to PC. Needs either playing the intro or finding the NPC's map/object id in the map data.
-3. Phase 3 (sprites): empirically re-test `gTrainerFrontPicTable` = `0x823957C` etc. hardcoded addresses (v10/v11 proved such constants often hold); then donor-PNG staging + `CREDITS.md`.
+2. **Manual gameplay verification** (only human-in-the-loop item left): new game → bedroom console at (6,5) → type `Red` → confirm msgbox + Lv5 Pikachu; then `CMDbgGive2` → Meowth to PC.
+3. Phase 3 (sprites, now unblocked): donor-PNG staging (`docs/SPRITE_COVERAGE.md` has the 101-character coverage survey), lz77 compress, append/repoint `gTrainerFrontPicTable`/palette entries, set `sprite_asset_id` in `characters.bin`, `CREDITS.md`.
 4. Trade enforcement (v2): still needs a genuine in-game trade dialogue anchor — `search_gametext.py`/`dump_all_strings.py`.
-5. ~~Phase 6 (packaging): README for end users~~ **DONE** — `README.md` (apply instructions, activation walkthrough, all 184 character codes + 3 debug codes generated from `characters_manifest.json`, v1 limitations). Remaining packaging: credits/license polish if this ever gets published.
+5. ~~Phase 6 (packaging): README for end users~~ **DONE** — `README.md` (apply instructions, activation walkthrough with console location, all 184 character codes + 3 debug codes, v1 limitations). Remaining packaging: credits/license polish if this ever gets published.

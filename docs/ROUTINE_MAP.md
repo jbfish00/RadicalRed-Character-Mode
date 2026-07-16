@@ -228,7 +228,20 @@ Surveyed actual usage in the ROM (byte-pattern scan for flag opcodes `0x29/0x2A/
 
 ## Not yet started
 
-Genuine in-game trade dialogue (trades unenforced in v1), sprite/trainer-card/battle-pic ROM table addresses (worth re-testing empirically per the correction above), and locating where the cheat-code NPC lives on the map (needed for the manual gameplay test path — note the NPC demonstrably exists and works, since RR's own five cheat codes ride it; only its map coordinates are unrecorded). The sixth-caller TODO is resolved (see the caller inventory above).
+Genuine in-game trade dialogue (trades unenforced in v1). The sixth-caller, cheat-entry-location, and sprite-table TODOs are all resolved (see entries above/below).
+
+## CONFIRMED — the cheat-code entry point is the game console in the player's bedroom
+
+Found by walking the real map-header tree (`gMapGroups` at vanilla `0x3526A8`, 43 groups) and checking every object/coord/BG-event and map-script pointer for targets inside the cheat-script blob: **map 4.1 (Pallet Town — Player's House 2F, the new-game starting room), BG event #0 at tile (6,5), kind 0, script `0x0905006F`**. The script decodes `lock; signmsg; loadword 0 "Would you like to put in a cheat code?"; callstd 5; compare 0x800D,1; goto_if eq -> 0x09050086 (the special-0x12C entry + check chain); release; end` — i.e., it's a sign-type interactable (the bedroom game console), not an NPC. No flag gate before the prompt, so it works any time the player interacts with it. Manual gameplay test path: new game → face the console at (6,5) → A → yes → type a code.
+
+## CONFIRMED — trainer-pic ROM tables ARE at their stock CFRU/vanilla addresses (Phase 3 unblocked)
+
+The v9 session's pessimism ("sprite tables need Ghidra") was wrong — empirical read of the CFRU `BPRE.ld` hardcoded addresses shows all three tables live and well-formed in this ROM:
+- **`gTrainerFrontPicTable` = file `0x23957C`** — 148 entries of `{u32 lz-data ptr, u16 size=0x800, u16 tag}` with tags sequential 0..147, all pointers valid. Entry 0 already points into `0x093256A8` (RR's injected-art region) — RR edits this table **in place**, repointing individual slots at new art in free space; the same mechanism works for adding character pics.
+- **`gTrainerFrontPicPaletteTable` = file `0x239A1C`** (per `BPRE.ld:381`) — 148 `{u32 pal ptr, u16 tag, u16 0}` entries, tags sequential, entry 0 also into the `0x09` region.
+- **`gTrainerBackPicTable` = file `0x239E7C`** — 8+ well-formed entries checked, sequential tags.
+
+(A first probe at `0x23A004` for the palette table read garbage — that address was misremembered, not evidence of relocation. Always pull the address from `tools/cfru_donor/BPRE.ld` rather than memory.)
 
 ## CONFIRMED — naming-screen length precedent for the selection codes
 

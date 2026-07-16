@@ -26,9 +26,10 @@ select the BPS patch and your v4.1 ROM.)
 
 ## Activating Character Mode
 
-Radical Red's new-game flow includes an NPC who asks
-*"Would you like to put in a cheat code?"* — Character Mode rides that
-same system:
+Radical Red's cheat codes are entered at the **game console in your
+bedroom** (Player's House 2F — where you start a new game). Interact
+with it and it asks *"Would you like to put in a cheat code?"* —
+Character Mode rides that same system:
 
 1. Say yes and, at the text-entry screen, **type your character's code**
    from the tables below (codes are the character's name with spaces and
