@@ -211,8 +211,19 @@ The "trades unenforced" v1 limitation is eliminated. Full RE chain in `docs/ROUT
 - Injector now retargets that BG pointer to a 90-byte data-driven wrapper at `0x08C8E000`: flag-off/char-0/char-out-of-range → original trade; else allowed only for characters whose bitmap permits species 848 (currently zero of 184 — Eternal Floette is AZ-exclusive canon), else sign-msgbox refusal.
 - All three test layers re-run green after the rebuild: shim unit 9/9, boot smoke 4/4, static verification **now 32 checks** including full wrapper decode + allow-list re-derivation (a charmap round-trip quirk was fixed in the verifier: multiple chars share byte encodings — prefer ASCII when reversing). New BPS: 17,747 bytes.
 
+## Status (2026-07-17, v15 — full re-verification + NEW fourth test layer (conflict audit); everything green)
+
+Pre-playthrough audit session. All three existing layers re-run green today: static `verify_artifacts.py` 32/32, boot smoke 4/4 (patched), shim unit 9/9, plus `check_roster_consistency.py` clean. One environment lesson: a leaked `mgba-qt -g` from the Unbound project was squatting GDB port 2345, making the shim test fail with `vMustReplyEmpty: timeout` before any stop — the boot-smoke harness's own `pkill -f "mgba-qt -g"` preamble clears it. GDB tests need `DISPLAY=:1` when run from an SSH shell.
+
+**New: `tools/tests/audit_conflicts.py` — 9/9 PASS** (pure static, no emulator). Covers three gaps none of the other layers checked:
+1. **Alias audit**: 184 aliases re-derived independently — unique, all ≤11 chars, zero exact or case-insensitive collision with RR's five native cheat codes (`Woyaopp`/`DexAll`/`SO2Toxic`/`TeamPreview`/`EZCatch` — which are compared FIRST in the chain, so a collision would have silently shadowed a character), debug codes clean too.
+2. **Flag/var conflict scan**: original ROM has ZERO script-bytecode references to flag `0x18FE` or var `0x51FD` — RR itself never touches the IDs we claimed. (One raw-byte coincidence at `0x11EBC4` was chased down and proven to be mid-instruction bytes in Thumb BL thunk pairs, not script; the audit now filters via specialvar-operand plausibility, documented inline.)
+3. **Signature-in-bitmap**: every character's `givepokemon` signature species AND every roster family-base has its bit set in that character's in-ROM bitmap — the gifted starter can never be confiscated by the shim.
+
+**Remaining automated-test ideas deliberately NOT done** (diminishing returns vs. the manual walkthrough): driving the real script interpreter end-to-end through a selection handler in-emulator (needs scripted input/new-game progression; the static chain walk + shim unit tests already cover both halves of that seam), and a dynamic trade-wrapper execution test (same reasoning — wrapper decode + allow-list re-derivation are statically verified).
+
 ## NEXT
 
-1. ~~Phases 1/2/4/5/6 core + trade enforcement~~ **DONE — playable patched .gba + BPS, all 45 automated checks green (see v12/v14).**
+1. ~~Phases 1/2/4/5/6 core + trade enforcement~~ **DONE — playable patched .gba + BPS, all 54 automated checks across 4 test layers green (see v12/v14/v15).**
 2. **Manual gameplay verification** (only human-in-the-loop item left): new game → bedroom console at (6,5) → type `Red` → confirm msgbox + Lv5 Pikachu; then `CMDbgGive2` → Meowth to PC.
 3. Phase 3 (sprites, unblocked, cosmetic-only): donor-PNG staging (`docs/SPRITE_COVERAGE.md` has the 101-character coverage survey), lz77 compress, append/repoint `gTrainerFrontPicTable`/palette entries, set `sprite_asset_id` in `characters.bin`, `CREDITS.md`.
