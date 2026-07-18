@@ -72,6 +72,23 @@ TRADE_ORIG_SCRIPT = 0x08164B03        # lockall; setvar 0x8004,6; ... trade scen
 TRADE_GIVEN_SPECIES = 848             # what the player RECEIVES (the gated side)
 TRADE_WRAPPER_ADDR = 0x08C8E000
 
+# Wild-encounter override (docs/ROUTINE_MAP.md, "CONFIRMED -- wild-encounter
+# override hook sites"): the four BL sites calling CreateWildMon
+# (0x090C292C, no Thumb bit) from a genuine random-table roll -- primary +
+# double-battle calls inside TryGenerateWildMon (land/cave, surfing, rock
+# smash/headbutt all share these) and inside FishingWildEncounter (every
+# fishing rod tier). Swarms/ghost-battle/raid-scripted/DexNav call
+# CreateWildMon too but were verified NOT to be table rolls and are left
+# untouched -- see src/wild_encounter_mode.c's header comment.
+WILD_SHIM_ADDR    = 0x08CE0000
+WILD_OFFSETS_ADDR = 0x08CE0800  # shim compiles to ~1KB (needs __aeabi_uidivmod)
+WILD_DATA_ADDR    = 0x08CE0C00
+CREATEWILDMON_ADDR = 0x090C292C  # no Thumb bit, current BL target at all 4 sites
+BL_SITE_LAND_MAIN   = 0x10C2FDA  # inside TryGenerateWildMon (primary)
+BL_SITE_LAND_DOUBLE = 0x10C30CE  # inside TryGenerateWildMon (double battle)
+BL_SITE_FISH_MAIN   = 0x10C3A94  # inside FishingWildEncounter (primary)
+BL_SITE_FISH_DOUBLE = 0x10C3AD0  # inside FishingWildEncounter (double battle)
+
 FLAG_CHARACTER_MODE = 0x18FE
 VAR_CHARACTER_ID    = 0x51FD
 
@@ -169,6 +186,41 @@ def main():
     m = re.search(r"^([0-9a-f]+) T CM_GiveMonToPlayerGated$", sym, re.M)
     assert m and int(m.group(1), 16) == SHIM_ADDR, f"shim entry not at SHIM_ADDR:\n{sym}"
     print(f"shim: {len(shim)} bytes @ {SHIM_ADDR:#x}")
+
+    # --- 1b. compile the wild-encounter override shim (separate compile
+    # unit + link address -- keeps this new feature from disturbing the
+    # tightly-packed SHIM_ADDR/BITMAPS_ADDR layout above at all) ---
+    wobj = BUILD / "wild_encounter_mode.o"
+    welf = BUILD / "wild_encounter_mode.elf"
+    wbin = BUILD / "wild_encounter_mode.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    f"-DWILD_OFFSETS_ADDR={WILD_OFFSETS_ADDR:#x}",
+                    f"-DWILD_DATA_ADDR={WILD_DATA_ADDR:#x}",
+                    "-o", str(wobj), str(ROOT / "src" / "wild_encounter_mode.c")],
+                   check=True)
+    # Linked via the gcc driver (not raw ld, unlike the shim above) so that
+    # libgcc's __aeabi_uidivmod/__aeabi_idivmod get pulled in automatically
+    # -- this file uses `%` (Random() % 100, Random() % numFam) where
+    # character_mode.c's shim has no division at all. -nostartfiles keeps
+    # it freestanding (no crt0/_start requirement); the resulting .text is
+    # still a single self-contained relocation-free blob, same as the shim.
+    subprocess.run(["arm-none-eabi-gcc", "-mthumb", "-mcpu=arm7tdmi", "-mtune=arm7tdmi",
+                    "-nostartfiles", "-Wl,-Ttext," + f"{WILD_SHIM_ADDR:#x}",
+                    "-Wl,--entry,CM_CreateWildMonGated",
+                    "-o", str(welf), str(wobj)], check=True)
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(welf), str(wbin)], check=True)
+    wild_shim = wbin.read_bytes()
+    wsym = subprocess.run(["arm-none-eabi-nm", str(welf)], check=True,
+                          capture_output=True, text=True).stdout
+    wm = re.search(r"^([0-9a-f]+) T CM_CreateWildMonGated$", wsym, re.M)
+    assert wm and int(wm.group(1), 16) == WILD_SHIM_ADDR, f"wild shim entry not at WILD_SHIM_ADDR:\n{wsym}"
+    print(f"wild-encounter shim: {len(wild_shim)} bytes @ {WILD_SHIM_ADDR:#x}")
+
+    wild_data = (HERE / "character_mode" / "wild_override.bin").read_bytes()
+    wild_offsets = (HERE / "character_mode" / "wild_override_offsets.bin").read_bytes()
+    assert len(wild_offsets) == 184 * 4, len(wild_offsets)
 
     # --- 2. build the selection script extension ---
     # Layout inside the script blob (single pass with fixups):
@@ -285,6 +337,9 @@ def main():
     splice(SHIM_ADDR, shim, "shim")
     splice(BITMAPS_ADDR, bitmaps, "bitmaps")
     splice(SCRIPT_ADDR, blob, "script")
+    splice(WILD_SHIM_ADDR, wild_shim, "wild-encounter shim")
+    splice(WILD_OFFSETS_ADDR, wild_offsets, "wild-encounter offsets")
+    splice(WILD_DATA_ADDR, wild_data, "wild-encounter data")
 
     # BL retargets (verify current bytes first)
     for site in (BL_SITE_CATCH, BL_SITE_GIFT):
@@ -293,6 +348,15 @@ def main():
         assert cur_bl == expect, (f"BL site {site:#x} bytes {cur_bl.hex()} != expected "
                                   f"BL GiveMonToPlayer {expect.hex()} — wrong ROM or already patched")
         data[site:site + 4] = thumb_bl(0x08000000 + site, SHIM_ADDR)
+
+    for site in (BL_SITE_LAND_MAIN, BL_SITE_LAND_DOUBLE, BL_SITE_FISH_MAIN, BL_SITE_FISH_DOUBLE):
+        cur_bl = bytes(data[site:site + 4])
+        expect = thumb_bl(0x08000000 + site, CREATEWILDMON_ADDR)
+        assert cur_bl == expect, (f"wild BL site {site:#x} bytes {cur_bl.hex()} != expected "
+                                  f"BL CreateWildMon {expect.hex()} — wrong ROM or already patched")
+        data[site:site + 4] = thumb_bl(0x08000000 + site, WILD_SHIM_ADDR)
+    print("wild-encounter override: 4 BL sites retargeted "
+          "(10% chance, non-legendary roster members only)")
 
     # goto retarget
     cur_goto = struct.unpack_from("<I", data, GOTO_OPERAND_OFF)[0]

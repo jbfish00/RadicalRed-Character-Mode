@@ -22,6 +22,13 @@ in the injector's own bookkeeping can't hide itself:
      var/flag ids, givepokemon species == that character's signature
      (roster[0] in characters_manifest.json), and the chain tail gotos the
      original "Invalid code." handler.
+  7. Trade gate wrapper decode + allow-list re-derivation.
+  8. Wild-encounter override (Phase 7): all 4 BL sites decode to the wild
+     shim now / CreateWildMon originally; wild_override.bin/_offsets.bin in
+     ROM match the build artifacts; Red's re-derived family/stage table is
+     well-formed and matches emit_wild_override.py's own sanity checks; and
+     -- checked for EVERY character, not just Red -- no character's table
+     contains any legendary/mythical species id at all.
 
 Usage: verify_artifacts.py   (exit 0 = all pass)
 """
@@ -56,6 +63,13 @@ TRADE_BG_PTR_OFF = 0x3B432C
 TRADE_ORIG = 0x08164B03
 TRADE_WRAPPER_ADDR = 0x08C8E000
 TRADE_SPECIES = 848
+
+# Wild-encounter override (Phase 7)
+WILD_SHIM_ADDR = 0x08CE0000
+WILD_OFFSETS_ADDR = 0x08CE0800
+WILD_DATA_ADDR = 0x08CE0C00
+WILD_BL_SITES = (0x10C2FDA, 0x10C30CE, 0x10C3A94, 0x10C3AD0)
+CREATEWILDMON_ADDR = 0x090C292C
 
 failures = []
 
@@ -106,11 +120,21 @@ def main():
     wend = woff
     while not all(b == 0xFF for b in patched[wend:wend + 64]):
         wend += 64
+    wild_data = (ROOT / "tools" / "character_mode" / "wild_override.bin").read_bytes()
+    wild_offsets = (ROOT / "tools" / "character_mode" / "wild_override_offsets.bin").read_bytes()
+    wsoff = WILD_SHIM_ADDR - 0x08000000
+    wsend = wsoff
+    while not all(b == 0xFF for b in patched[wsend:wsend + 64]):
+        wsend += 64
     intended = [(SHIM_ADDR - 0x08000000, SHIM_ADDR - 0x08000000 + 0x100),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
+                (wsoff, wsend),
+                (WILD_OFFSETS_ADDR - 0x08000000, WILD_OFFSETS_ADDR - 0x08000000 + len(wild_offsets)),
+                (WILD_DATA_ADDR - 0x08000000, WILD_DATA_ADDR - 0x08000000 + len(wild_data)),
                 *[(s, s + 4) for s in BL_SITES],
+                *[(s, s + 4) for s in WILD_BL_SITES],
                 (GOTO_OPERAND_OFF, GOTO_OPERAND_OFF + 4),
                 (TRADE_BG_PTR_OFF, TRADE_BG_PTR_OFF + 4)]
     stray = []
@@ -128,7 +152,7 @@ def main():
             i = j
         else:
             i += 1
-    check("no stray modified bytes outside the 8 intended regions",
+    check(f"no stray modified bytes outside the {len(intended)} intended regions",
           not stray, f"first strays at {[hex(x) for x in stray]}")
 
     print("== 4. BL patches ==")
@@ -299,6 +323,67 @@ def main():
         msg = "".join(cmap.get(b, "?") for b in raw[:raw.find(0xFF)])
     check("wrapper tail: msgbox(sign) + end, message decodes",
           ok_tail and msg.startswith("Character Mode:"), repr(msg))
+
+    print("== 8. wild-encounter override ==")
+    for site in WILD_BL_SITES:
+        tgt = decode_bl(patched[site:site + 4], 0x08000000 + site)
+        check(f"wild BL at {site:#x} -> wild shim", tgt == WILD_SHIM_ADDR, f"decoded {tgt and hex(tgt)}")
+        old = decode_bl(orig[site:site + 4], 0x08000000 + site)
+        check(f"wild BL at {site:#x} originally -> CreateWildMon", old == CREATEWILDMON_ADDR,
+              f"decoded {old and hex(old)}")
+    check("wild shim starts with push {..,lr}",
+          (struct.unpack_from("<H", patched, WILD_SHIM_ADDR - 0x08000000)[0] & 0xFF00) == 0xB500)
+    off_o = WILD_OFFSETS_ADDR - 0x08000000
+    off_d = WILD_DATA_ADDR - 0x08000000
+    check("wild_override_offsets.bin in ROM == build artifact",
+          patched[off_o:off_o + len(wild_offsets)] == wild_offsets)
+    check("wild_override.bin in ROM == build artifact",
+          patched[off_d:off_d + len(wild_data)] == wild_data)
+    check("wild override offsets table has 184 entries", len(wild_offsets) == 184 * 4)
+
+    # re-derive Red's family/stage table from the in-ROM bytes and cross-check
+    # against the same 4 sanity facts emit_wild_override.py itself checks:
+    # Pichu/Pikachu/Raichu/Alolan-Raichu present, Articuno (legendary) absent.
+    red_idx = red  # index computed in section 5
+    red_off = struct.unpack_from("<I", wild_offsets, red_idx * 4)[0]
+    p3 = red_off
+    n_fam = wild_data[p3]; p3 += 1
+    red_species = set()
+    fam_count_ok = n_fam > 0
+    for _ in range(n_fam):
+        n_st = wild_data[p3]; p3 += 1
+        for _ in range(n_st):
+            sid, lo, hi = struct.unpack_from("<HBB", wild_data, p3)
+            p3 += 4
+            red_species.add(sid)
+            fam_count_ok = fam_count_ok and lo <= hi
+    check("wild override: Red family table well-formed (lvlMin <= lvlMax throughout)", fam_count_ok)
+    check("wild override: Red table includes Pichu/Pikachu/Raichu/Alolan-Raichu",
+          {172, 25, 26, 1022} <= red_species)
+    check("wild override: Red table excludes Articuno (legendary)", 144 not in red_species)
+    # cross-character: NO character's table may include ANY legendary id at all
+    # (excluded at the family level, not just Red's) — walk every table once.
+    with open(ROOT / "tools" / "character_mode" / "rr_pokedex_donor" / "data.js") as f:
+        import ast
+        dex_species = ast.literal_eval(f.read())["species"]
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "tools" / "character_mode"))
+    from map_species import LEGENDARY_NAMES  # noqa: E402
+    legendary_ids = {sid for sid, info in dex_species.items() if info["name"] in LEGENDARY_NAMES}
+    bad_legendary = []
+    for ci in range(184):
+        o = struct.unpack_from("<I", wild_offsets, ci * 4)[0]
+        pp = o
+        nf = wild_data[pp]; pp += 1
+        for _ in range(nf):
+            ns = wild_data[pp]; pp += 1
+            for _ in range(ns):
+                sid = struct.unpack_from("<H", wild_data, pp)[0]
+                pp += 4
+                if sid in legendary_ids:
+                    bad_legendary.append((ci, sid))
+    check("wild override: no character's table contains any legendary/mythical species",
+          not bad_legendary, f"{bad_legendary[:5]}")
 
     print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
     return 1 if failures else 0

@@ -252,6 +252,109 @@ The v9 session's pessimism ("sprite tables need Ghidra") was wrong — empirical
 
 (A first probe at `0x23A004` for the palette table read garbage — that address was misremembered, not evidence of relocation. Always pull the address from `tools/cfru_donor/BPRE.ld` rather than memory.)
 
+## CONFIRMED — wild-encounter override hook sites (Phase 7)
+
+Task: give a 10% chance for a random non-legendary roster member (level-fit
+evolution stage) to replace the normal wild-encounter roll, covering
+grass/cave, surfing, rock smash, and all fishing rod tiers, while leaving
+static/scripted encounters untouched.
+
+**`CreateWildMon(u16 species, u8 level, u8 monHeaderIndex, bool8 purgeParty)`
+is the single function every wild-encounter table type funnels through**
+(confirmed structurally against `tools/cfru_donor/src/wild_encounter.c`) —
+but it is also called by scripted/legendary/ghost encounters, so hooking
+its own address would have wrongly overridden those too (the same class of
+mistake the catch-hook design already avoided for `GiveMonToPlayer`/Battle
+Frontier rentals). The real fix is the same one used there: hook the
+specific BL *call sites*, not the shared callee.
+
+**Resolved `CreateWildMon`'s real compiled address via `resolve_cfru_hooks.py`'s
+output (`docs/CFRU_HOOK_SYMBOLS.txt`)**: `CreateWildMon 80829FC 2` resolves to
+**`0x090C292D`** (file offset `0x10C292C`) — verified as a real function
+entry (`b5f0` = `push {r4,r5,r6,r7,lr}` immediately follows a `movs r2,#1`
+GCC scheduled ahead of the push, matching source's early
+`bool8 checkCuteCharm = TRUE;`).
+
+**Full-ROM scan for Thumb BL instructions targeting `0x090C292C`** (same
+encode/decode convention as `inject_character_mode.py`'s `thumb_bl()`)
+found exactly **10 call sites**, matching all 10 static `CreateWildMon(...)`
+call expressions found via `grep -rn "CreateWildMon("` across
+`wild_encounter.c` (8 sites, including both `#ifdef FLAG_DOUBLE_WILD_BATTLE`
+double-battle branches — proving that flag IS compiled into this ROM) and
+`dexnav.c` (2 sites). Each was individually disassembled (`arm-none-eabi-objdump
+-D -b binary -m arm -Mforce-thumb`, reading enough surrounding context to
+find the real function entry and cross-check its argument-loading shapes
+against source — literal pools interleaved with code repeatedly produced
+misleading linear-disassembly artifacts this session; trust control-flow-
+verified boundaries, not raw address order, a repeat of this project's
+recurring "decoy data" lesson):
+
+| site (file off) | containing function | args before the call | verdict |
+|---|---|---|---|
+| `0x108A9A0` | `dexnav.c` re-encounter #1 | `monHeaderIndex` = result of a `FindHeaderIndexWithLetter(species, unownLetter-1)` call | **EXCLUDE** — DexNav targets a species the player already chose, not a random roll |
+| `0x108B3E0` | `dexnav.c` re-encounter #2 | same shape | **EXCLUDE** |
+| `0x10BA058` | unidentified RR-custom scripted encounter | species from a single fixed global, level hardcoded `#15`, `monHeaderIndex=0`, `purgeParty=FALSE` | **EXCLUDE** — no wildMonIndex/table read at all, the signature of a scripted encounter |
+| `0x10C2B28` | `TryGenerateSwarmMon` (confirmed via its `gSwarmTableLength==0` guard and `Random()%100 < 50` check) | species from `gSwarmTable[index].species` (struct+2), level/wildMonIndex/purgeParty all forwarded parameters | **EXCLUDE** — swarms aren't one of the four required table types |
+| `0x10C2BA0` | `sp156_StartGhostBattle` (Old Man Marowak) | species/level from two fixed global addresses (`Var8004`/`Var8005`), `monHeaderIndex` **constant 0** | **EXCLUDE** — scripted |
+| **`0x10C2FDA`** | **`TryGenerateWildMon`** (confirmed via its six-call `TryGetAbilityInfluencedWildMonIndex(wildMon, TYPE_*, ABILITY_*, ...)` chain matching source's Magnet Pull/Static/Lightning Rod/Flash Fire/Harvest/Storm Drain checks exactly, and its `FlagGet(0x910)` double-battle gate) | species from `wildMonInfo->wildPokemon[wildMonIndex].species` (struct+2, computed index), level = `ChooseWildMonLevel()` result, `monHeaderIndex` = wildMonIndex (variable), `purgeParty=TRUE` | **HOOKED** — primary land/water/rock-smash/headbutt/sweet-scent call (all of `RockSmashWildEncounter`/`HeadbuttWildEncounter`/`SweetScentWildEncounter`/`StartRandomWildEncounter` call this same static function) |
+| **`0x10C30CE`** | `TryGenerateWildMon`, double-battle branch | same shape, `purgeParty=FALSE` | **HOOKED** |
+| **`0x10C3A94`** | `FishingWildEncounter` (confirmed via its `LoadProperMonsData(FISHING_MONS_HEADER=2)` call and `gFishingByte=TRUE` store — `GenerateFishingWildMon` is inlined into it at `-O2`, a single-call-site static function) | same struct-based shape, `purgeParty=TRUE` | **HOOKED** — covers every fishing rod tier, since the rod only selects which row `ChooseWildMonIndex_Fishing` reads *before* this call |
+| **`0x10C3AD0`** | `FishingWildEncounter`, double-battle branch | same shape, `purgeParty=FALSE` | **HOOKED** |
+| `0x10C3348` | `sp118_StartRaidBattle`-adjacent scripted/raid encounter | species read via computed offset off a fixed global, `monHeaderIndex` constant `0`, `purgeParty=TRUE`, reached via a shared-tail jump from a `VarGet`-gated branch | **EXCLUDE** — scripted, not a table roll |
+
+**Conclusion: exactly 4 BL sites hooked** (`0x10C2FDA`/`0x10C30CE` for
+land/cave+surfing+rock smash+headbutt+sweet scent, `0x10C3A94`/`0x10C3AD0`
+for every fishing rod tier), all verified byte-exact
+(`thumb_bl(site, 0x090C292C)` matches the ROM's current bytes at all four
+before patching). Swarms, the Ghost Marowak encounter, the raid-adjacent
+scripted encounter, and both DexNav re-encounters keep their original BL
+straight to `CreateWildMon` — confirmed by argument-shape, not guessed.
+
+**Implementation** (`src/wild_encounter_mode.c`, a separate compile+link
+unit from `src/character_mode.c` — deliberately NOT added to that file,
+since its shim is already packed tightly against `BITMAPS_ADDR` with no
+slack for a second function): `CM_CreateWildMonGated(species, level,
+monHeaderIndex, purgeParty)` — if Character Mode is on, a valid character
+is selected, and a `Random() % 100 < 10` roll hits, calls
+`CM_PickWildOverrideSpecies(charIdx, level)`, which reads a per-character
+table (`tools/character_mode/emit_wild_override.py`'s output,
+`wild_override.bin`/`wild_override_offsets.bin`) built by walking each
+non-legendary roster family's real evolution graph (`rr_pokedex_donor/data.js`
+`evolutions` field, excluding `EVO_MEGA=254`/`EVO_GIGANTAMAX=253`) into
+`(species, levelMin, levelMax)` stage records, picks a random family, then
+the stage whose range best fits the rolled level (nearest-distance
+fallback; ties prefer the more-evolved stage — a documented heuristic
+where the ROM has no level-gated boundary between two stages, not canon
+data). Legendary exclusion is done by name (`map_species.py`'s
+`LEGENDARY_NAMES`) directly, NOT via `characters_manifest.json`'s
+`starter_count` split — that split deliberately exempts a character's own
+signature mon from the legendary ban for catch-gate/starter-grant purposes
+(e.g. Gladion's Type: Null), and this feature has no such exemption per the
+task spec. Then falls through to the real `CreateWildMon` with the
+(possibly overridden) species, unchanged level/monHeaderIndex/purgeParty.
+
+Compiled with `arm-none-eabi-gcc` directly (not raw `arm-none-eabi-ld`,
+unlike the give-mon shim) because it uses `%` (division), pulling in
+libgcc's `__aeabi_uidivmod`/`__aeabi_idivmod` automatically via
+`-nostartfiles` rather than needing a hand-written software-divide
+routine. Placed at `0x08CE0000` (shim) / `0x08CE0800` (per-character
+offsets, 736 B) / `0x08CE0C00` (stage-table data, ~37 KB) — a different
+region of the same confirmed 1.63 MiB free block than the existing
+shim/bitmaps/script/trade payloads, chosen specifically to stay within
+Thumb BL ±4 MB of the new patch sites (~`0x090C2FDA`-`0x090C3AD0`), which
+the *existing* shim region (~`0x08C8xxxx`) is just outside of (~4.26 MB
+away) — the two payload clusters don't overlap and don't need to.
+
+**Testing**: `tools/tests/verify_artifacts.py` section 8 (BL decode both
+directions for all 4 sites, artifact-vs-ROM byte equality, Red's re-derived
+table sanity, and an exhaustive scan proving no character's table contains
+any legendary id) and the new `tools/tests/wild_encounter_shim_test.py`
+(GDB-driven, runs the real shim in the real emulator across 300+ trials
+across two characters: empirical override rate lands near 10%, every
+override observed is a real member of that character's own table, never a
+legendary, and Red's/Leaf's override sets differ). Both green; see
+CLAUDE.md's status entry for exact numbers.
+
 ## CONFIRMED — naming-screen length precedent for the selection codes
 
 RR's own original cheat-code chain (walked backwards from the fallthrough goto at `0x10500EE`) registers exactly five codes: `Woyaopp` (7), `DexAll` (6), `SO2Toxic` (8), `TeamPreview` (11), `EZCatch` (7). **`TeamPreview` at 11 characters proves the `special 0x12C` naming screen accepts 11-char input** — the injected character aliases (asserted ≤11 chars at build time, longest are 11) are within RR's own demonstrated precedent, not an assumption.
