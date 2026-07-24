@@ -33,3 +33,32 @@ This is exactly the split the ROWE/Unbound precedent already established and the
 ## Reuse mechanics (once unblocked)
 
 Same credits-file discipline as ROWE (`CREDITS_CHARACTER_MODE.md` pattern) — this project will need its own `CREDITS.md` with the same donor list: pret/pokefirered, sinnoh-remakes/pokeemerald-platinum, PokemonHnS-Development/pokemonHnS, DiegoWT's Gen5-in-Gen4-style resource, StreakOfSprites' Ash sheet (same donors Unbound credited, since the underlying art is the same ROWE-sourced set). Injection differs from ROWE's Makefile-automated pipeline: raw tile/palette data needs manual LZ77 compression and free-space injection with hand-patched pointers (see Phase 3 in the plan file), once the real table addresses are confirmed.
+
+## 2026-07-23 — Ash Gray donor sourcing (anime-only gap partially closed)
+
+Pokemon Ash Gray v4.5.3 (metapod23) was built locally — BPS patch (RAPatches
+mirror) onto a byte-matching pret/pokefirered build — and its sprites ripped
+(`RadicalRed-Character-Mode/tools/rip_frlg_sprites.py`). **19 anime-character
+trainer front pics** now staged as verbatim LZ77 blobs in
+`sprites/donors/ashgray/` (64x64 4bpp + 32 B palette — the same format this
+engine family consumes; see that directory's README for provenance).
+
+Coverage delta for the "never sourced" anime-only list: **Ritchie ✓,
+Tracey ✓, Jessie ✓ + James ✓ (as a duo pic)** — plus new-to-us Duplica, Todd,
+Giselle, A.J., Otoshi, Samurai, Damian, Gary, Cissy, Danny, Rudy, Jessiebelle,
+and anime-style Brock/Misty/Oak/Giovanni alternates. Ash overworld
+(walk/bike/fishing) + back-pic sheet also ripped.
+
+**Still missing** (web-archive survey 2026-07-23 found no GBA-style front
+pics): Drew, Paul, Zoey, Nando, Trip, Lyra; Gen 6-9 policy unchanged
+(portrait-only). Candidate OW-only source if ever needed: spherical-ice's
+"Accurate FireRed Overworld Sprite Resource" (DeviantArt) — has some anime OW
+sprites; The Spriters Resource search is JS-only (not scriptable).
+
+**Pilot injection result (RadicalRed, 2026-07-23)**: all 19 donors injected
+at 0x08CF0000 (15,364 B) by `tools/inject_sprites_pilot.py` (RR repo);
+decode-back from the built ROM byte-exact; `gTrainerFrontPicTable`
+consumption confirmed (12 literal-pool code refs incl. battle engine); the
+all-slots test build boots to free-roam. This project's tables are already CONFIRMED (docs/ROUTINE_MAP.md), so per-character
+wiring (which slot each character's mugshot should own, and any menu/OW use)
+is the only remaining step here.
