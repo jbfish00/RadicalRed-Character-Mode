@@ -62,3 +62,13 @@ consumption confirmed (12 literal-pool code refs incl. battle engine); the
 all-slots test build boots to free-roam. This project's tables are already CONFIRMED (docs/ROUTINE_MAP.md), so per-character
 wiring (which slot each character's mugshot should own, and any menu/OW use)
 is the only remaining step here.
+
+### Outstanding (2026-07-24)
+
+1. Per-character wiring design (mugshot use at the console select and/or dedicated slots);
+   `sprite_asset_id` still 0xFFFF everywhere.
+2. OW sprite table not located (vanilla FRLG candidate 0x39FDB0 — verify + XREF first);
+   OW/back-pic injector step not built (front pics only were piloted).
+3. In-battle render check of a repointed slot = human playthrough item.
+4. Missing art: Drew, Paul, Zoey, Nando, Trip, Lyra; James solo (duo-only). Pipeline reruns in
+   minutes on any new donor hack (see sprites/donors/ashgray/README.md recipe).
