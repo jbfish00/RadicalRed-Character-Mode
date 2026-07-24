@@ -125,7 +125,7 @@ def main():
     species = load_species()
 
     chars = manifest["characters"]
-    assert len(chars) == 184, len(chars)
+    assert len(chars) == 199, len(chars)  # 184 + Tobias + 14 professors (2026-07-23)
 
     data_blob = bytearray()
     offsets = []
@@ -134,23 +134,31 @@ def main():
 
     for rec in chars:
         ids = rec["roster_species_ids"]
-        # Filter by name, NOT rec["starter_count"] -- see the module
-        # docstring: starter_count exempts a character's own signature mon
-        # from the legendary ban (catch-gate semantics), this feature does
-        # not exempt anything (task spec: exclude legendary/mythical roster
-        # members entirely, no carve-out).
-        non_legendary_bases = [i for i in ids if species.get(i, {}).get("name") not in LEGENDARY_NAMES]
-
         offsets.append(len(data_blob))
         fam_blocks = []
-        for base_id in non_legendary_bases:
-            stages = walk_family(base_id, species)
-            if not stages:
-                continue
-            block = bytearray([min(len(stages), 255)])
-            for sid, lo, hi in stages[:255]:
-                block += struct.pack("<HBB", sid, lo, hi)
-            fam_blocks.append(block)
+        if rec["character"] == "Tobias":
+            # SPECIAL CASE (user spec, 2026-07-23): Tobias's roster is exactly
+            # two LEGENDARIES (Darkrai + Latios) and his wild table must
+            # contain them -- legendary-INCLUSIVE, bypassing walk_family's
+            # legendary guard. His override rate is 1% (not 10%), enforced in
+            # src/wild_encounter_mode.c via TOBIAS_CHAR_ID/TOBIAS_CHANCE_PCT.
+            for base_id in ids:
+                fam_blocks.append(bytearray([1]) + struct.pack("<HBB", base_id, 1, 100))
+        else:
+            # Filter by name, NOT rec["starter_count"] -- see the module
+            # docstring: starter_count exempts a character's own signature mon
+            # from the legendary ban (catch-gate semantics), this feature does
+            # not exempt anything (task spec: exclude legendary/mythical roster
+            # members entirely, no carve-out).
+            non_legendary_bases = [i for i in ids if species.get(i, {}).get("name") not in LEGENDARY_NAMES]
+            for base_id in non_legendary_bases:
+                stages = walk_family(base_id, species)
+                if not stages:
+                    continue
+                block = bytearray([min(len(stages), 255)])
+                for sid, lo, hi in stages[:255]:
+                    block += struct.pack("<HBB", sid, lo, hi)
+                fam_blocks.append(block)
 
         data_blob += bytes([min(len(fam_blocks), 255)])
         for block in fam_blocks:

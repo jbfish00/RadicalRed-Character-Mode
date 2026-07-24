@@ -15,7 +15,7 @@ in the injector's own bookkeeping can't hide itself:
      shim entry; the shim's first instruction is a valid push.
   5. Bitmaps in-ROM == rosters_expanded.bin, and Red's bitmap spot-checks
      (allow 25/26/172/1022, reject 0/52) hold in the ROM copy itself.
-  6. Script chain walk: from the retargeted goto operand, decode all 187
+  6. Script chain walk: from the retargeted goto operand, decode all 202
      check blocks (3 debug + 184 characters) instruction-by-instruction,
      following every pointer: each alias string is valid text ending 0xFF,
      each handler decodes to the expected opcode sequence with the right
@@ -52,7 +52,7 @@ FLIPS = ROOT / "tools" / "bin" / "flips"
 ROM_SHA1 = "964f951a0fdaf209e4ea1344883ef0d557bb3a80"
 SHIM_ADDR = 0x08C80000
 BITMAPS_ADDR = 0x08C80100
-SCRIPT_ADDR = 0x08C88000
+SCRIPT_ADDR = 0x08C90000  # keep in sync with inject_character_mode.py (2026-07-23 bitmap-overflow move)
 BL_SITES = (0x107DD84, 0x10777CE)
 GOTO_OPERAND_OFF = 0x10500EF
 INVALID_CODE_HANDLER = 0x09050811
@@ -172,12 +172,15 @@ def main():
     with open(ROOT / "tools" / "character_mode" / "characters_manifest.json") as f:
         manifest = json.load(f)
     chars = [c for c in manifest["characters"] if "roster_species_ids" in c]
-    check("184 characters in manifest", len(chars) == 184)
+    check("199 characters in manifest", len(chars) == 199)
     red = next(i for i, c in enumerate(chars) if c["character"] == "Red")
     bm = patched[off + red * STRIDE: off + (red + 1) * STRIDE]
     def has(s): return bool(bm[s >> 3] & (1 << (s & 7)))
-    check("Red bitmap (in ROM): allows 25/26/172/1022, rejects 0/52",
-          has(25) and has(26) and has(172) and has(1022) and not has(0) and not has(52))
+    check("Red bitmap (in ROM): allows 25/26/172/1022, rejects 0/27",
+          # 52 (Meowth) became a Red roster member on 2026-07-23 (Persian is in
+          # the curated research), so the negative fixture moved to 27
+          # (Sandshrew, genuinely off-roster).
+          has(25) and has(26) and has(172) and has(1022) and not has(0) and not has(27))
 
     print("== 6. script chain walk ==")
     goto_tgt = struct.unpack_from("<I", patched, GOTO_OPERAND_OFF)[0]
@@ -214,7 +217,7 @@ def main():
     p = SCRIPT_ADDR
     checks_parsed = []          # (string_addr, handler_addr)
     chain_ok = True
-    for i in range(187):
+    for i in range(202):  # 3 debug + 199 characters (2026-07-23)
         blk = rd(p, 20)
         if not (blk[0] == 0x0F and blk[1] == 0x00 and blk[6] == 0x25
                 and struct.unpack_from("<H", blk, 7)[0] == 0x12D
@@ -227,13 +230,13 @@ def main():
         checks_parsed.append((struct.unpack_from("<I", blk, 2)[0],
                               struct.unpack_from("<I", blk, 16)[0]))
         p += 20
-    check("all 187 check blocks decode (loadword/special 12D/compare/goto_if)",
-          chain_ok and len(checks_parsed) == 187)
+    check("all 202 check blocks decode (loadword/special 12D/compare/goto_if)",
+          chain_ok and len(checks_parsed) == 202)
     tail = rd(p, 5)
     check("chain tail = goto Invalid-code handler",
           tail[0] == 0x05 and struct.unpack_from("<I", tail, 1)[0] == INVALID_CODE_HANDLER)
 
-    if chain_ok and len(checks_parsed) == 187:
+    if chain_ok and len(checks_parsed) == 202:
         # debug code strings
         dbg_names = ["CMDbgOff", "CMDbgGive1", "CMDbgGive2"]
         for i, name in enumerate(dbg_names):
@@ -293,14 +296,14 @@ def main():
           and patched[w+3] == 0x06 and patched[w+4] == 0 and u32p(w+5) == TRADE_ORIG
           and patched[w+9] == 0x21 and struct.unpack_from("<HH", patched, w+10) == (VAR_ID, 0)
           and patched[w+14] == 0x06 and patched[w+15] == 1 and u32p(w+16) == TRADE_ORIG
-          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, 185)
+          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, 200)
           and patched[w+25] == 0x06 and patched[w+26] == 4 and u32p(w+27) == TRADE_ORIG)
     check("wrapper preamble decodes (flag/char-0/char-range passthroughs)", ok)
     p2 = w + 31
     n_allow = 0
     while patched[p2] == 0x21:
         var, idx = struct.unpack_from("<HH", patched, p2+1)
-        good = (var == VAR_ID and 1 <= idx <= 184 and patched[p2+5] == 0x06
+        good = (var == VAR_ID and 1 <= idx <= 185 and patched[p2+5] == 0x06
                 and patched[p2+6] == 1 and u32p(p2+7) == TRADE_ORIG)
         if not good:
             break
@@ -310,7 +313,7 @@ def main():
             break
         n_allow += 1
         p2 += 11
-    expected_allow = sum(1 for i in range(184)
+    expected_allow = sum(1 for i in range(185)
                          if bitmaps[i*STRIDE + (TRADE_SPECIES >> 3)] & (1 << (TRADE_SPECIES & 7)))
     check(f"wrapper allow-list matches bitmaps ({expected_allow} characters)",
           n_allow == expected_allow)
@@ -339,7 +342,7 @@ def main():
           patched[off_o:off_o + len(wild_offsets)] == wild_offsets)
     check("wild_override.bin in ROM == build artifact",
           patched[off_d:off_d + len(wild_data)] == wild_data)
-    check("wild override offsets table has 184 entries", len(wild_offsets) == 184 * 4)
+    check("wild override offsets table has 199 entries", len(wild_offsets) == 199 * 4)
 
     # re-derive Red's family/stage table from the in-ROM bytes and cross-check
     # against the same 4 sanity facts emit_wild_override.py itself checks:
@@ -371,7 +374,10 @@ def main():
     from map_species import LEGENDARY_NAMES  # noqa: E402
     legendary_ids = {sid for sid, info in dex_species.items() if info["name"] in LEGENDARY_NAMES}
     bad_legendary = []
-    for ci in range(184):
+    tobias_ci = next(i for i, c in enumerate(chars) if c["character"] == "Tobias")
+    for ci in range(185):
+        if ci == tobias_ci:
+            continue  # Tobias's table is legendary-INCLUSIVE by design (1% rate)
         o = struct.unpack_from("<I", wild_offsets, ci * 4)[0]
         pp = o
         nf = wild_data[pp]; pp += 1

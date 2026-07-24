@@ -7,7 +7,7 @@ Pipeline (all addresses CONFIRMED in docs/ROUTINE_MAP.md, pinned to rom.sha1):
   2. Splice into a ROM copy:
        shim code            @ SHIM_ADDR    (0x08C80000)
        rosters_expanded.bin @ BITMAPS_ADDR (0x08C80100)
-       selection script ext @ SCRIPT_ADDR  (0x08C88000)
+       selection script ext @ SCRIPT_ADDR  (0x08C90000)
      — all inside the tail of the confirmed 1.63 MiB free block at
      0xB71D04. The shim MUST stay in [0xC7DD88, 0xD004D7): Thumb BL range
      is ±4 MB from the two patch sites (~0x0907xxxx), and this block's
@@ -53,7 +53,7 @@ CHARMAP = Path("/home/jbfish00/Documents/Pokemon Rowe Alteration/charmap.txt")
 # [0xC7DD88, 0xD004D7) is comfortably the largest free run inside it.
 SHIM_ADDR    = 0x08C80000
 BITMAPS_ADDR = 0x08C80100
-SCRIPT_ADDR  = 0x08C88000
+SCRIPT_ADDR  = 0x08C90000  # moved from 0x08C88000 (2026-07-23): 199-char bitmaps (34,228 B) overflow the old 0x08C80100..0x08C88000 window; script chain is goto-retargeted by absolute pointer, no BL-reach constraint
 FREE_BLOCK_END = 0xD004D7  # end of the 1.63MiB free run
 
 BL_SITE_CATCH = 0x107DD84   # inside atkF0_givecaughtmon
@@ -160,9 +160,9 @@ def main():
     with open(HERE / "character_mode" / "characters_manifest.json") as f:
         manifest = json.load(f)
     chars = [c for c in manifest["characters"] if "roster_species_ids" in c]
-    assert len(chars) == 184, len(chars)
+    assert len(chars) == 199, len(chars)  # 184 + Tobias + 14 professors (2026-07-23)
     bitmaps = (HERE / "character_mode" / "rosters_expanded.bin").read_bytes()
-    assert len(bitmaps) == 184 * 172, len(bitmaps)
+    assert len(bitmaps) == len(chars) * 172, len(bitmaps)
 
     # --- 1. compile shim ---
     BUILD.mkdir(exist_ok=True)
@@ -220,7 +220,7 @@ def main():
 
     wild_data = (HERE / "character_mode" / "wild_override.bin").read_bytes()
     wild_offsets = (HERE / "character_mode" / "wild_override_offsets.bin").read_bytes()
-    assert len(wild_offsets) == 184 * 4, len(wild_offsets)
+    assert len(wild_offsets) == len(chars) * 4, len(wild_offsets)
 
     # --- 2. build the selection script extension ---
     # Layout inside the script blob (single pass with fixups):

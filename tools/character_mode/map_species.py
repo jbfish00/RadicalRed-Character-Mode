@@ -75,6 +75,7 @@ NAME_FIXES = {
 # Hugh, Nate, Victor -- all late-gen protagonists) get no signature and
 # fall back to a random starter, matching ROWE's own documented behavior.
 SIGNATURES = {
+ "Tobias":"Darkrai",
  "Red":"Pikachu","Leaf":"Eevee","Blue":"Pidgeot","Lance":"Dragonite",
  "Lorelei":"Lapras","Bruno":"Machamp","Agatha":"Gengar","Koga":"Weezing",
  "Brock":"Onix","Misty":"Starmie","Lt. Surge":"Pikachu","Erika":"Vileplume",
@@ -163,6 +164,27 @@ def main():
 
     with open(ROSTERS_RAW) as f:
         rosters_raw = json.load(f)
+
+    # User-approved roster additions (2026-07-23 Bulbapedia completeness audit;
+    # partner pools + edge cases included, manga excluded). Kept as a separate
+    # overlay file rather than baked into rosters_raw.json so a future
+    # re-scrape can't silently drop them. See roster_additions.json's _comment.
+    additions_path = HERE / "roster_additions.json"
+    if additions_path.is_file():
+        with open(additions_path) as f:
+            additions = json.load(f)["additions"]
+        added = 0
+        for char_name, extra in additions.items():
+            if char_name not in rosters_raw:
+                print(f"WARNING: roster_additions.json character {char_name!r} "
+                      "not in rosters_raw.json — skipped")
+                continue
+            have = set(rosters_raw[char_name]["species"])
+            new = [s for s in extra if s not in have]
+            rosters_raw[char_name]["species"] = sorted(have | set(new))
+            added += len(new)
+        print(f"roster_additions.json: merged {added} species "
+              f"across {len(additions)} characters")
 
     mapped = {}
     unmatched = []

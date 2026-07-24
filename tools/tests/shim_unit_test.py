@@ -21,10 +21,10 @@ Decision table tested:
   1. flag OFF                                  -> pass-through
   2. flag ON, party empty                      -> pass-through (soft-lock guard)
   3. flag ON, party=1, char=Red, Pikachu(25)   -> pass-through (on-roster)
-  4. flag ON, party=1, char=Red, Meowth(52)    -> SendMonToPC  (off-roster)
+  4. flag ON, party=1, char=Red, Sandshrew(27) -> SendMonToPC  (off-roster)
   5. flag ON, party=1, char=0 (unset)          -> pass-through
   6. flag ON, party=1, char=Red, Meowth EGG    -> pass-through (eggs exempt)
-  7. flag ON, party=1, char=185 (out of range) -> pass-through
+  7. flag ON, party=1, char=200 (out of range) -> pass-through
   8. flag ON, party=1, char=Jessie(?), Meowth  -> pass-through (Meowth IS on
      Team Rocket Jessie's roster... actually Meowth is James/Jessie-adjacent;
      resolved dynamically from the manifest: uses a character that has
@@ -139,10 +139,10 @@ def main():
         {"name": "flag off -> give",                       "flag": 0, "char_id": red_idx, "party": 1, "species": 25, "expect": BP_GIVE},
         {"name": "party empty -> give (soft-lock guard)",  "flag": 1, "char_id": red_idx, "party": 0, "species": 52, "expect": BP_GIVE},
         {"name": "Red + Pikachu -> give (on roster)",      "flag": 1, "char_id": red_idx, "party": 1, "species": 25, "expect": BP_GIVE},
-        {"name": "Red + Meowth -> PC (off roster)",        "flag": 1, "char_id": red_idx, "party": 1, "species": 52, "expect": BP_SENDPC},
+        {"name": "Red + Sandshrew -> PC (off roster)",     "flag": 1, "char_id": red_idx, "party": 1, "species": 27, "expect": BP_SENDPC},  # was Meowth(52) until 2026-07-23: Persian joined Red's curated roster
         {"name": "char 0 -> give",                         "flag": 1, "char_id": 0,       "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + Meowth EGG -> give (eggs exempt)", "flag": 1, "char_id": red_idx, "party": 1, "species": 52, "egg": True, "expect": BP_GIVE},
-        {"name": "char 185 out of range -> give",          "flag": 1, "char_id": 185,     "party": 1, "species": 52, "expect": BP_GIVE},
+        {"name": "char 200 out of range -> give",          "flag": 1, "char_id": 200,     "party": 1, "species": 52, "expect": BP_GIVE},  # 185=Tobias, 186-199=professors since 2026-07-23
         {"name": f"{meowth_ok_name} + Meowth -> give (their roster differs)",
                                                            "flag": 1, "char_id": meowth_ok_idx, "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + species 1375 (Chillet, off-roster) -> PC",

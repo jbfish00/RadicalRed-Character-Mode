@@ -7,7 +7,7 @@ state, and observe the decision -- but this shim takes its four arguments
 (species, level, monHeaderIndex, purgeParty) directly in r0-r3 (no struct
 pointer), so setup is simpler: just set r0-r3 and jump to the entry.
 
-Branch observation point: 0x08CE0052, the single `bl <CreateWildMon thunk>`
+Branch observation point: 0x08CE0040, the single `bl <CreateWildMon thunk>`
 tail call every code path funnels through (early-outs AND a successful
 override both merge back to this one call site -- see the shim's
 disassembly). At the breakpoint, r0 holds the FINAL species about to be
@@ -45,14 +45,19 @@ HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
 
 SHIM_ENTRY = 0x08CE0000
-BP_CALL = 0x08CE0052   # `bl <CreateWildMon thunk>` -- final species is in r0 here
+BP_CALL = 0x08CE0040   # `bl <CreateWildMon thunk>` -- final species is in r0 here
+                       # (moved from 0x08CE0052 when the per-character rate branch
+                       #  for Tobias was added, 2026-07-23; re-derive via objdump of
+                       #  build/wild_encounter_mode.elf if the shim is edited again)
 
 FLAG_BYTE = 0x0203B373   # gExpandedFlags byte holding flag 0x18FE (same slot shim_unit_test.py uses)
 FLAG_MASK = 0x40
 VAR_ADDR = 0x0203B76E    # gExpandedVars slot for var 0x51FD
 TRAMP_ADDR = 0x0203DF00  # scratch EWRAM for the ARM->Thumb entry trampoline
 
-SENTINEL_SPECIES = 52  # Meowth -- confirmed not on either test character's table below
+SENTINEL_SPECIES = 246  # Larvitar -- confirmed absent from both Red's and Leaf's
+                         # (post-2026-07-18 full-roster-rebuild) tables; Meowth(52)
+                         # is no longer safe now that Red's roster grew to 71 species
 N_TRIALS_PER_CHAR = 150
 
 
@@ -131,8 +136,8 @@ def main():
                     "char_id": red_idx0 + 1, "species": SENTINEL_SPECIES, "level": 20})
     trials.append({"name": "char 0 (unset) -> always passthrough", "flag": 1,
                     "char_id": 0, "species": SENTINEL_SPECIES, "level": 20})
-    trials.append({"name": "char 185 (out of range) -> always passthrough", "flag": 1,
-                    "char_id": 185, "species": SENTINEL_SPECIES, "level": 20})
+    trials.append({"name": "char 200 (out of range; 185 is Tobias, 186-199 professors) -> always passthrough", "flag": 1,
+                    "char_id": 200, "species": SENTINEL_SPECIES, "level": 20})
     n_fixed = len(trials)
 
     for i in range(N_TRIALS_PER_CHAR):
@@ -144,6 +149,13 @@ def main():
         trials.append({"name": f"Leaf rate/exclusion trial {i}", "flag": 1,
                         "char_id": leaf_idx0 + 1, "species": SENTINEL_SPECIES,
                         "level": 5 + (i % 60)})
+    # Tobias (char 185): 1% legendary-INCLUSIVE table (Darkrai/Latios only)
+    tobias_idx0 = next(i for i, c in enumerate(chars) if c["character"] == "Tobias")
+    N_TOBIAS = 200
+    for i in range(N_TOBIAS):
+        trials.append({"name": f"Tobias 1%-rate trial {i}", "flag": 1,
+                        "char_id": tobias_idx0 + 1, "species": SENTINEL_SPECIES,
+                        "level": 5 + (i % 60)})
 
     script = HERE / "wild_encounter_shim_test.gdb"
     script.write_text(gdb_script(trials))
@@ -153,7 +165,7 @@ def main():
     try:
         time.sleep(3)
         r = subprocess.run(["gdb-multiarch", "-nx", "-batch", "-x", str(script)],
-                           capture_output=True, text=True, timeout=180)
+                           capture_output=True, text=True, timeout=360)
         out = r.stdout
     finally:
         emu.terminate()
@@ -182,7 +194,8 @@ def main():
         check(trials[i]["name"], ok, f"got species {results[i]}")
 
     red_results = results[n_fixed:n_fixed + n_red]
-    leaf_results = results[n_fixed + n_red:]
+    leaf_results = results[n_fixed + n_red:n_fixed + 2 * n_red]
+    tobias_results = results[n_fixed + 2 * n_red:]
 
     print("=== Red: rate + exclusions ===")
     red_overrides = [s for s in red_results if s != SENTINEL_SPECIES]
@@ -211,7 +224,16 @@ def main():
           set(red_overrides) != set(leaf_overrides) or not red_overrides,
           f"both produced {set(red_overrides)}")
 
-    total_checks = n_fixed + 7
+    print("=== Tobias: 1% rate, legendary-INCLUSIVE Darkrai/Latios table ===")
+    tobias_overrides = [s for s in tobias_results if s != SENTINEL_SPECIES]
+    rate3 = len(tobias_overrides) / len(tobias_results)
+    print(f"    override rate: {len(tobias_overrides)}/{len(tobias_results)} = {rate3:.1%} (target 1%)")
+    check("Tobias override rate within loose statistical bounds [0%, 4.5%]", rate3 <= 0.045, f"{rate3:.1%}")
+    check("Tobias: every override is Darkrai(544) or Latios(408) — his entire table",
+          all(s in (544, 408) for s in tobias_overrides),
+          f"bad: {[s for s in tobias_overrides if s not in (544, 408)][:5]}")
+
+    total_checks = n_fixed + 9
     print(f"\n{total_checks - failures}/{total_checks} checks passed")
     return 1 if failures else 0
 

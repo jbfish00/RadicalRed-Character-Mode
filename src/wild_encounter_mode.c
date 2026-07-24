@@ -48,8 +48,14 @@ typedef unsigned int u32;
 
 #define FLAG_CHARACTER_MODE 0x18FE
 #define VAR_CHARACTER_ID    0x51FD
-#define NUM_CHARACTERS      184
+#define NUM_CHARACTERS      199  /* 184 + Tobias (185) + 14 professors (186-199), 2026-07-23 */
 #define OVERRIDE_CHANCE_PCT 10
+/* Tobias (the 185th character, appended 2026-07-23) is the one exception to
+ * the "non-legendary members only, 10%" rule: his roster IS two legendaries
+ * (Darkrai + Latios), so his wild table deliberately contains them and his
+ * rate is 1% per encounter-table roll (user spec). */
+#define TOBIAS_CHAR_ID      185
+#define TOBIAS_CHANCE_PCT   1
 
 /* Vanilla FRLG functions (CFRU BPRE.ld addresses -- same convention as
  * src/character_mode.c). */
@@ -128,7 +134,8 @@ void CM_CreateWildMonGated(u16 species, u8 level, u8 monHeaderIndex, u8 purgePar
     if (FlagGet(FLAG_CHARACTER_MODE)) {
         u16 id = VarGet(VAR_CHARACTER_ID);
 
-        if (id >= 1 && id <= NUM_CHARACTERS && (Random() % 100) < OVERRIDE_CHANCE_PCT) {
+        u8 chance = (id == TOBIAS_CHAR_ID) ? TOBIAS_CHANCE_PCT : OVERRIDE_CHANCE_PCT;
+        if (id >= 1 && id <= NUM_CHARACTERS && (Random() % 100) < chance) {
             u16 replacement = CM_PickWildOverrideSpecies(id - 1, level);
             if (replacement != 0)
                 species = replacement;
