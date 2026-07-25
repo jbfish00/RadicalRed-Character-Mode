@@ -7253,13 +7253,19 @@
    "name_offset": 1341,
    "roster_offset": 9182,
    "roster_species_ids": [
+    63,
+    155,
     328,
     129,
+    335,
+    499,
     95,
     379,
-    213
+    213,
+    315,
+    220
    ],
-   "starter_count": 5,
+   "starter_count": 11,
    "has_signature": false,
    "signature_id": null,
    "signature_name": null,
@@ -7270,7 +7276,7 @@
    "category": "frontier",
    "generation": 3,
    "name_offset": 1346,
-   "roster_offset": 9194,
+   "roster_offset": 9206,
    "roster_species_ids": [
     361,
     301,
@@ -7294,7 +7300,7 @@
    "category": "frontier",
    "generation": 4,
    "name_offset": 1354,
-   "roster_offset": 9216,
+   "roster_offset": 9228,
    "roster_species_ids": [
     147,
     328,
@@ -7314,7 +7320,7 @@
    "category": "frontier",
    "generation": 4,
    "name_offset": 1361,
-   "roster_offset": 9230,
+   "roster_offset": 9242,
    "roster_species_ids": [
     361,
     295,
@@ -7334,7 +7340,7 @@
    "category": "frontier",
    "generation": 4,
    "name_offset": 1368,
-   "roster_offset": 9244,
+   "roster_offset": 9256,
    "roster_species_ids": [
     228,
     446,

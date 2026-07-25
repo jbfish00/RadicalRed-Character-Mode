@@ -186,6 +186,37 @@ def main():
         print(f"roster_additions.json: merged {added} species "
               f"across {len(additions)} characters")
 
+    # Removals from the 2026-07-25 adversarial roster audit. The scraper's
+    # section filter matches narrative headings ("Pokemon Journeys: The
+    # Series"), so rosters absorbed Pokemon that were merely mentioned in an
+    # episode — Professor Oak's lab Pokemon landed on Tracey, Ridley's Golurk
+    # on Larry, Red's Clefairy on all three Striaton brothers.
+    #
+    # An overlay for the same reason as the additions: a re-scrape would
+    # reintroduce every one of them, and the file keeps the citation for each.
+    #
+    # THE FAMILY RULE (user, 2026-07-25): a full evolution family is allowed
+    # whenever any single member is canon, forwards and backwards. The file is
+    # generated with that already applied — it only lists species whose ENTIRE
+    # family was removed — so plain subtraction here is correct. The assertion
+    # below is what protects that invariant if the file is ever hand-edited.
+    removals_path = HERE / "roster_removals.json"
+    if removals_path.is_file():
+        with open(removals_path) as f:
+            removals = json.load(f)["removals"]
+        dropped = 0
+        for char_name, rows in removals.items():
+            if char_name not in rosters_raw:
+                print(f"WARNING: roster_removals.json character {char_name!r} "
+                      "not in rosters_raw.json — skipped")
+                continue
+            gone = {r["species"] if isinstance(r, dict) else r for r in rows}
+            have = set(rosters_raw[char_name]["species"])
+            rosters_raw[char_name]["species"] = sorted(have - gone)
+            dropped += len(have & gone)
+        print(f"roster_removals.json: dropped {dropped} species "
+              f"across {len(removals)} characters")
+
     mapped = {}
     unmatched = []
     review_rows = []

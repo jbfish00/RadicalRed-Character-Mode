@@ -12437,12 +12437,28 @@
     "gen": 3,
     "species": [
       {
+        "id": 63,
+        "name": "Abra"
+      },
+      {
+        "id": 155,
+        "name": "Cyndaquil"
+      },
+      {
         "id": 328,
         "name": "Feebas"
       },
       {
         "id": 129,
         "name": "Magikarp"
+      },
+      {
+        "id": 335,
+        "name": "Makuhita"
+      },
+      {
+        "id": 499,
+        "name": "Munchlax"
       },
       {
         "id": 95,
@@ -12455,6 +12471,14 @@
       {
         "id": 213,
         "name": "Shuckle"
+      },
+      {
+        "id": 315,
+        "name": "Skitty"
+      },
+      {
+        "id": 220,
+        "name": "Swinub"
       }
     ]
   },
