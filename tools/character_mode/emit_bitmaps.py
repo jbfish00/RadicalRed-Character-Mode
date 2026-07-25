@@ -87,13 +87,15 @@ def main():
     n = len(report)
     print(f"emitted {n} bitmaps x {STRIDE} bytes = {len(out)} bytes -> rosters_expanded.bin")
     # sanity: Red's roster must allow Pikachu(25), Raichu(26), Alolan Raichu(1022)
-    # via the Pichu(172) family, and must NOT allow Meowth(52).
+    # via the Pichu(172) family. Meowth(52) is ALSO allowed since the 2026-07-23
+    # audit adds put it on Red's roster (Let's Go); this fixture used to assert
+    # the opposite and was left stale then -- it only warned, so it slipped by.
     red_i = next(i for i, r in enumerate(report) if r[0] == "Red")
     bm = out[red_i*STRIDE:(red_i+1)*STRIDE]
     def has(s): return bool(bm[s >> 3] & (1 << (s & 7)))
     checks = [("Pichu 172", has(172), True), ("Pikachu 25", has(25), True),
               ("Raichu 26", has(26), True), ("Alolan Raichu 1022", has(1022), True),
-              ("Meowth 52", has(52), False), ("SPECIES_NONE 0", has(0), False)]
+              ("Meowth 52", has(52), True), ("SPECIES_NONE 0", has(0), False)]
     ok = True
     for name, got, want in checks:
         status = "OK" if got == want else "FAIL"

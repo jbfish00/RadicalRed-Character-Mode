@@ -89,8 +89,8 @@ Charizard, Raichu, Clefable, Poliwrath, Alakazam, Victreebel, Dodrio, Dewgong, G
 Charizard, Blastoise, Butterfree, Fearow, Arbok, Nidoqueen, Nidoking, Clefable, Wigglytuff, Dugtrio, Golduck, Poliwrath, Tentacruel, Golem, Slowbro, Dewgong, Cloyster, Exeggutor, Weezing, Seaking, Starmie, Mr. Mime, Gyarados, Lapras, Vaporeon, Jolteon, Flareon, Omastar, Dragonite, Noctowl, Lanturn, Ampharos, Azumarill, Politoed, Sunflora, Quagsire, Espeon, Umbreon, Slowking, Corsola, Mantine, Kingdra, Miltank, Suicune, Wailord, Milotic, Banette, Luvdisc, Latios, Floatzel, Lickilicky, Rhyperior, Togekiss, Leafeon, Glaceon, Cofagrigus, Carracosta, Swanna, Jellicent, Clawitzer, Sylveon, Inteleon, Hatterene, Cursola, Mr. Rime, Runerigus, Clodsire
 
 ### Oak — Professor
-**Final evolutions (20):**
-Venusaur, Charizard, Blastoise, Pidgeot, Raichu, Nidoqueen, Nidoking, Ditto, Vaporeon, Jolteon, Flareon, Articuno, Mewtwo, Mew, Espeon, Umbreon, Leafeon, Glaceon, Sylveon, Melmetal
+**Final evolutions (22):**
+Venusaur, Charizard, Blastoise, Pidgeot, Raichu, Nidoqueen, Nidoking, Ditto, Vaporeon, Jolteon, Flareon, Articuno, Dragonite, Mewtwo, Mew, Espeon, Umbreon, Leafeon, Glaceon, Rotom, Sylveon, Melmetal
 
 ### Red — Protagonist
 **Final evolutions (60):**
