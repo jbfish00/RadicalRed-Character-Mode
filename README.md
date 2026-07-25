@@ -4,7 +4,7 @@ An opt-in game mode where you play as an iconic Pokemon character — a
 protagonist, rival, gym leader, Elite Four member, champion, villain, or
 anime cast member — and are restricted to catching and keeping only that
 character's canon roster (as documented on Bulbapedia, expanded to full
-evolution families). 184 characters, Generations 1 through 9.
+evolution families). 199 characters, Generations 1 through 9.
 
 Ported from the original Character Mode built for Pokemon ROWE.
 
@@ -92,6 +92,7 @@ roster.)
 | `Tracey` | Tracey | anime | Scyther |
 | `Jessie` | Jessie | anime | Ekans |
 | `James` | James | anime | Koffing |
+| `Oak` | Oak | professor | random from roster |
 
 ### Generation 2
 
@@ -114,6 +115,7 @@ roster.)
 | `Silver` | Silver | rival | Totodile |
 | `Archer` | Archer | villain | Houndour |
 | `Ariana` | Ariana | villain | Ekans |
+| `Elm` | Elm | professor | random from roster |
 
 ### Generation 3
 
@@ -140,6 +142,7 @@ roster.)
 | `Maxie` | Maxie | villain | Numel |
 | `Archie` | Archie | villain | Carvanha |
 | `Drew` | Drew | anime | Budew |
+| `Birch` | Birch | professor | random from roster |
 
 ### Generation 4
 
@@ -168,6 +171,8 @@ roster.)
 | `Paul` | Paul | anime | Elekid |
 | `Zoey` | Zoey | anime | Glameow |
 | `Nando` | Nando | anime | Budew |
+| `Tobias` | Tobias | anime | Darkrai |
+| `Rowan` | Rowan | professor | random from roster |
 
 ### Generation 5
 
@@ -202,6 +207,7 @@ roster.)
 | `Ghetsis` | Ghetsis | villain | Deino |
 | `Colress` | Colress | villain | Klink |
 | `Trip` | Trip | anime | Snivy |
+| `Juniper` | Juniper | professor | random from roster |
 
 ### Generation 6
 
@@ -226,6 +232,7 @@ roster.)
 | `Lysandre` | Lysandre | villain | Magikarp |
 | `Alain` | Alain | anime | Charmander |
 | `Sawyer` | Sawyer | anime | Treecko |
+| `Sycamore` | Sycamore | professor | random from roster |
 
 ### Generation 7
 
@@ -251,6 +258,8 @@ roster.)
 | `Lana` | Lana (anime) | anime | Popplio |
 | `Mallow` | Mallow (anime) | anime | Bounsweet |
 | `Sophocles` | Sophocles | anime | Togedemaru |
+| `Burnet` | Burnet | professor | random from roster |
+| `SamsonOak` | Samson Oak | professor | random from roster |
 
 ### Generation 8
 
@@ -275,6 +284,10 @@ roster.)
 | `Rose` | Rose | villain | Cufant |
 | `Goh` | Goh | anime | Scorbunny |
 | `Chloe` | Chloe | anime | Eevee |
+| `Magnolia` | Magnolia | professor | random from roster |
+| `Sonia` | Sonia | professor | random from roster |
+| `Laventon` | Laventon | professor | random from roster |
+| `Cerise` | Cerise | professor | random from roster |
 
 ### Generation 9
 
@@ -295,6 +308,9 @@ roster.)
 | `Grusha` | Grusha | gymleader | Cetoddle |
 | `Arven` | Arven | rival | Maschiff |
 | `Penny` | Penny | rival | Eevee |
+| `Sada` | Sada | professor | random from roster |
+| `Turo` | Turo | professor | random from roster |
+
 ## For developers
 
 `tools/inject_character_mode.py` rebuilds everything (shim, bitmaps,
