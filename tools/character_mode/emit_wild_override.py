@@ -125,7 +125,7 @@ def main():
     species = load_species()
 
     chars = manifest["characters"]
-    assert len(chars) == 199, len(chars)  # 184 + Tobias + 14 professors (2026-07-23)
+    assert len(chars) == 209, len(chars)  # 184 + Tobias + 14 professors + 10 Frontier Brains (2026-07-24)
 
     data_blob = bytearray()
     offsets = []

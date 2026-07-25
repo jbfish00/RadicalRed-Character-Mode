@@ -136,8 +136,8 @@ def main():
                     "char_id": red_idx0 + 1, "species": SENTINEL_SPECIES, "level": 20})
     trials.append({"name": "char 0 (unset) -> always passthrough", "flag": 1,
                     "char_id": 0, "species": SENTINEL_SPECIES, "level": 20})
-    trials.append({"name": "char 200 (out of range; 185 is Tobias, 186-199 professors) -> always passthrough", "flag": 1,
-                    "char_id": 200, "species": SENTINEL_SPECIES, "level": 20})
+    trials.append({"name": "char 210 (out of range; 185 Tobias, 186-199 professors, 200-209 Frontier Brains) -> always passthrough", "flag": 1,
+                    "char_id": 210, "species": SENTINEL_SPECIES, "level": 20})
     n_fixed = len(trials)
 
     for i in range(N_TRIALS_PER_CHAR):

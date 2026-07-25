@@ -505,6 +505,57 @@
       "name": "Gastly"
     }
   },
+  "Anabel": {
+    "page": "Anabel",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 63,
+        "name": "Abra"
+      },
+      {
+        "id": 395,
+        "name": "Bagon"
+      },
+      {
+        "id": 398,
+        "name": "Beldum"
+      },
+      {
+        "id": 133,
+        "name": "Eevee"
+      },
+      {
+        "id": 244,
+        "name": "Entei"
+      },
+      {
+        "id": 408,
+        "name": "Latios"
+      },
+      {
+        "id": 200,
+        "name": "Misdreavus"
+      },
+      {
+        "id": 499,
+        "name": "Munchlax"
+      },
+      {
+        "id": 243,
+        "name": "Raikou"
+      },
+      {
+        "id": 500,
+        "name": "Riolu"
+      },
+      {
+        "id": 215,
+        "name": "Sneasel"
+      }
+    ]
+  },
   "Archer": {
     "page": "Archer (game) + Archer (anime)",
     "category": "villain",
@@ -2067,6 +2118,53 @@
       "id": 16,
       "name": "Pidgey"
     }
+  },
+  "Brandon": {
+    "page": "Brandon + Brandon (anime)",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 144,
+        "name": "Articuno"
+      },
+      {
+        "id": 361,
+        "name": "Duskull"
+      },
+      {
+        "id": 146,
+        "name": "Moltres"
+      },
+      {
+        "id": 301,
+        "name": "Nincada"
+      },
+      {
+        "id": 402,
+        "name": "Regice"
+      },
+      {
+        "id": 539,
+        "name": "Regigigas"
+      },
+      {
+        "id": 401,
+        "name": "Regirock"
+      },
+      {
+        "id": 403,
+        "name": "Registeel"
+      },
+      {
+        "id": 349,
+        "name": "Solrock"
+      },
+      {
+        "id": 145,
+        "name": "Zapdos"
+      }
+    ]
   },
   "Brassius": {
     "page": "Brassius (game) + Brassius (anime)",
@@ -4920,6 +5018,64 @@
       "id": 215,
       "name": "Sneasel"
     }
+  },
+  "Dahlia": {
+    "page": "Dahlia",
+    "category": "frontier",
+    "gen": 4,
+    "species": [
+      {
+        "id": 361,
+        "name": "Duskull"
+      },
+      {
+        "id": 295,
+        "name": "Lotad"
+      },
+      {
+        "id": 356,
+        "name": "Meditite"
+      },
+      {
+        "id": 175,
+        "name": "Togepi"
+      },
+      {
+        "id": 280,
+        "name": "Torchic"
+      },
+      {
+        "id": 145,
+        "name": "Zapdos"
+      }
+    ]
+  },
+  "Darach": {
+    "page": "Darach",
+    "category": "frontier",
+    "gen": 4,
+    "species": [
+      {
+        "id": 244,
+        "name": "Entei"
+      },
+      {
+        "id": 228,
+        "name": "Houndour"
+      },
+      {
+        "id": 446,
+        "name": "Piplup"
+      },
+      {
+        "id": 392,
+        "name": "Ralts"
+      },
+      {
+        "id": 449,
+        "name": "Starly"
+      }
+    ]
   },
   "Dawn": {
     "page": "Dawn (game) + Dawn (anime)",
@@ -7798,6 +7954,41 @@
       "id": 804,
       "name": "Tyrunt"
     }
+  },
+  "Greta": {
+    "page": "Greta",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 133,
+        "name": "Eevee"
+      },
+      {
+        "id": 92,
+        "name": "Gastly"
+      },
+      {
+        "id": 214,
+        "name": "Heracross"
+      },
+      {
+        "id": 335,
+        "name": "Makuhita"
+      },
+      {
+        "id": 356,
+        "name": "Meditite"
+      },
+      {
+        "id": 301,
+        "name": "Nincada"
+      },
+      {
+        "id": 306,
+        "name": "Shroomish"
+      }
+    ]
   },
   "Grimsley": {
     "page": "Grimsley (game) + Grimsley (anime)",
@@ -12240,6 +12431,33 @@
       "name": "Bronzor"
     }
   },
+  "Lucy": {
+    "page": "Lucy",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 328,
+        "name": "Feebas"
+      },
+      {
+        "id": 129,
+        "name": "Magikarp"
+      },
+      {
+        "id": 95,
+        "name": "Onix"
+      },
+      {
+        "id": 379,
+        "name": "Seviper"
+      },
+      {
+        "id": 213,
+        "name": "Shuckle"
+      }
+    ]
+  },
   "Lusamine": {
     "page": "Lusamine (game) + Lusamine (anime)",
     "category": "villain",
@@ -14652,6 +14870,61 @@
       "name": "Chewtle"
     }
   },
+  "Noland": {
+    "page": "Noland",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 382,
+        "name": "Aron"
+      },
+      {
+        "id": 144,
+        "name": "Articuno"
+      },
+      {
+        "id": 1,
+        "name": "Bulbasaur"
+      },
+      {
+        "id": 337,
+        "name": "Electrike"
+      },
+      {
+        "id": 66,
+        "name": "Machop"
+      },
+      {
+        "id": 339,
+        "name": "Numel"
+      },
+      {
+        "id": 127,
+        "name": "Pinsir"
+      },
+      {
+        "id": 54,
+        "name": "Psyduck"
+      },
+      {
+        "id": 111,
+        "name": "Rhyhorn"
+      },
+      {
+        "id": 27,
+        "name": "Sandshrew"
+      },
+      {
+        "id": 306,
+        "name": "Shroomish"
+      },
+      {
+        "id": 332,
+        "name": "Trapinch"
+      }
+    ]
+  },
   "Norman": {
     "page": "Norman (game) + Norman (anime)",
     "category": "gymleader",
@@ -14990,6 +15263,37 @@
       "id": 1160,
       "name": "Milcery"
     }
+  },
+  "Palmer": {
+    "page": "Palmer",
+    "category": "frontier",
+    "gen": 4,
+    "species": [
+      {
+        "id": 541,
+        "name": "Cresselia"
+      },
+      {
+        "id": 147,
+        "name": "Dratini"
+      },
+      {
+        "id": 328,
+        "name": "Feebas"
+      },
+      {
+        "id": 538,
+        "name": "Heatran"
+      },
+      {
+        "id": 539,
+        "name": "Regigigas"
+      },
+      {
+        "id": 111,
+        "name": "Rhyhorn"
+      }
+    ]
   },
   "Paul": {
     "page": "Paul (anime)",
@@ -17945,6 +18249,57 @@
       "name": "Togedemaru"
     }
   },
+  "Spenser": {
+    "page": "Spenser",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 350,
+        "name": "Azurill"
+      },
+      {
+        "id": 318,
+        "name": "Baltoy"
+      },
+      {
+        "id": 1,
+        "name": "Bulbasaur"
+      },
+      {
+        "id": 361,
+        "name": "Duskull"
+      },
+      {
+        "id": 58,
+        "name": "Growlithe"
+      },
+      {
+        "id": 493,
+        "name": "Happiny"
+      },
+      {
+        "id": 131,
+        "name": "Lapras"
+      },
+      {
+        "id": 298,
+        "name": "Seedot"
+      },
+      {
+        "id": 364,
+        "name": "Slakoth"
+      },
+      {
+        "id": 245,
+        "name": "Suicune"
+      },
+      {
+        "id": 41,
+        "name": "Zubat"
+      }
+    ]
+  },
   "Steven": {
     "page": "Steven Stone + Steven (anime)",
     "category": "champion",
@@ -18354,6 +18709,37 @@
       "id": 548,
       "name": "Snivy"
     }
+  },
+  "Tucker": {
+    "page": "Tucker",
+    "category": "frontier",
+    "gen": 3,
+    "species": [
+      {
+        "id": 395,
+        "name": "Bagon"
+      },
+      {
+        "id": 398,
+        "name": "Beldum"
+      },
+      {
+        "id": 4,
+        "name": "Charmander"
+      },
+      {
+        "id": 58,
+        "name": "Growlithe"
+      },
+      {
+        "id": 407,
+        "name": "Latias"
+      },
+      {
+        "id": 283,
+        "name": "Mudkip"
+      }
+    ]
   },
   "Tulip": {
     "page": "Tulip (game) + Tulip (anime)",

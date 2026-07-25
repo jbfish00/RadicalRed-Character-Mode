@@ -224,3 +224,26 @@ Laventon | Professor Laventon | professor | 8
 Cerise | Professor Cerise | professor | 8
 Sada | Sada | professor | 9
 Turo | Turo | professor | 9
+
+# --- Frontier Brains (added 2026-07-24, user request: all Frontier Brains
+# from every game; rosters = union of their game Frontier teams and their
+# anime appearances, same treatment as every other dual-media character).
+# Hoenn Battle Frontier (Emerald) then Sinnoh Battle Frontier (Platinum/HGSS).
+# Caitlin is deliberately NOT here: she is already a playable Elite Four
+# character, and in Platinum she is the Castle's lady, not its Brain (Darach is).
+Anabel | Anabel | frontier | 3
+Tucker | Tucker | frontier | 3
+Greta | Greta | frontier | 3
+Spenser | Spenser | frontier | 3
+Noland | Noland | frontier | 3
+Lucy | Lucy | frontier | 3
+Brandon | Brandon + Brandon (anime) | frontier | 3
+Palmer | Palmer | frontier | 4
+# Thorton TRIMMED: rental-facility Brain (Battle Factory/Hall) with no
+# documented team of his/her own in any game and no anime appearance ->
+# empty roster = unplayable, same rule as Prof. Ivy and Burnet.
+Dahlia | Dahlia | frontier | 4
+Darach | Darach | frontier | 4
+# Argenta TRIMMED: rental-facility Brain (Battle Factory/Hall) with no
+# documented team of his/her own in any game and no anime appearance ->
+# empty roster = unplayable, same rule as Prof. Ivy and Burnet.

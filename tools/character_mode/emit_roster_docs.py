@@ -42,7 +42,7 @@ EVO_METHOD_MEGA = 254
 CATEGORY_LABEL = {
     "protagonist": "Protagonist", "rival": "Rival", "gymleader": "Gym Leader",
     "elite4": "Elite Four", "champion": "Champion", "villain": "Villain",
-    "anime": "Anime", "professor": "Professor",
+    "anime": "Anime", "professor": "Professor", "frontier": "Frontier Brain",
 }
 
 SPRITE_URL = ("https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master"
@@ -55,14 +55,38 @@ def load_species():
         return ast.literal_eval(f.read())["species"]
 
 
+def load_sources():
+    """{character: {family-base species: {"source", "owned_form"}}} from the
+    adversarial roster audit. Absent file = no Source column content, so the
+    docs still generate before/without an audit."""
+    path = os.path.join(HERE, "roster_sources.json")
+    if not os.path.isfile(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f).get("sources", {})
+
+
 def display(name):
     """The donor spells Farfetch'd/Sirfetch'd with a typographic apostrophe;
     every other doc in this repo uses the ASCII one."""
     return name.replace("’", "'")
 
 
+def source_cell(info, shown_name):
+    """"as Bulbasaur — Anime (Indigo League)", or just the source when the
+    character owned the final stage itself."""
+    src = (info or {}).get("source")
+    if not src:
+        return "—"
+    owned = (info or {}).get("owned_form")
+    if owned and owned != shown_name:
+        return "as %s — %s" % (owned, src)
+    return src
+
+
 def main():
     species = load_species()
+    sources = load_sources()
     with open(os.path.join(HERE, "characters_manifest.json")) as f:
         manifest = json.load(f)["characters"]
     with open(os.path.join(HERE, "rosters_expanded.bin"), "rb") as f:
@@ -100,13 +124,27 @@ def main():
         bits = bitmaps[i * STRIDE:(i + 1) * STRIDE]
         allowed = [s for s in range(NUM_SPECIES)
                    if bits[s >> 3] & (1 << (s & 7)) and s in species]
-        finals = {canonical.get(dex_of(s), s) for s in allowed if is_final(s)}
+        finals = {}
+        for s in allowed:
+            if not is_final(s):
+                continue
+            shown = canonical.get(dex_of(s), s)
+            # the roster stores evolution-family bases and the audit is keyed by
+            # them, so remember which base this row descends from
+            finals.setdefault(shown, species[s].get("ancestor") or s)
         ordered = sorted(finals, key=lambda s: (dex_of(s), species[s]["name"]))
+        char_sources = sources.get(rec["character"], {})
+        rows = []
+        for s in ordered:
+            base_name = display(species[finals[s]]["name"])
+            shown_name = display(species[s]["name"])
+            info = char_sources.get(base_name) or char_sources.get(shown_name) or {}
+            rows.append((shown_name, dex_of(s), source_cell(info, shown_name)))
         chars.append({
             "name": rec["character"],
             "gen": rec["generation"],
             "label": CATEGORY_LABEL.get(rec["category"], rec["category"].title()),
-            "finals": [(display(species[s]["name"]), dex_of(s)) for s in ordered],
+            "finals": rows,
         })
 
     by_gen = defaultdict(list)
@@ -137,7 +175,11 @@ def main():
         for c in by_gen[g]:
             out.append("### %s — %s" % (c["name"], c["label"]))
             out.append("**Final evolutions (%d):**" % len(c["finals"]))
-            out.append(", ".join(n for n, _ in c["finals"]))
+            out.append("")
+            out.append("| Pokémon | Source |")
+            out.append("|---|---|")
+            for name, _dex, src in c["finals"]:
+                out.append("| %s | %s |" % (name, src))
             out.append("")
     with open(os.path.join(TARGET, "ROSTERS.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(out).rstrip() + "\n")
@@ -164,9 +206,10 @@ def main():
             page.append("### %s — %s" % (c["name"], c["label"]))
             page.append("<table>")
             row = []
-            for name, num in c["finals"]:
-                row.append('<td align="center" width="80"><img width="56" src="%s">'
-                           "<br><sub>%s</sub></td>" % (SPRITE_URL % num, name))
+            for name, num, src in c["finals"]:
+                note = ("<br><sub><i>%s</i></sub>" % src) if src and src != "—" else ""
+                row.append('<td align="center" width="100"><img width="56" src="%s">'
+                           "<br><sub>%s</sub>%s</td>" % (SPRITE_URL % num, name, note))
                 if len(row) == SPRITES_PER_ROW:
                     page.append("<tr>" + "".join(row) + "</tr>")
                     row = []

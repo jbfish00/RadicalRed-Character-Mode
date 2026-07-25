@@ -172,7 +172,7 @@ def main():
     with open(ROOT / "tools" / "character_mode" / "characters_manifest.json") as f:
         manifest = json.load(f)
     chars = [c for c in manifest["characters"] if "roster_species_ids" in c]
-    check("199 characters in manifest", len(chars) == 199)
+    check("209 characters in manifest", len(chars) == 209)
     red = next(i for i, c in enumerate(chars) if c["character"] == "Red")
     bm = patched[off + red * STRIDE: off + (red + 1) * STRIDE]
     def has(s): return bool(bm[s >> 3] & (1 << (s & 7)))
@@ -217,7 +217,7 @@ def main():
     p = SCRIPT_ADDR
     checks_parsed = []          # (string_addr, handler_addr)
     chain_ok = True
-    for i in range(202):  # 3 debug + 199 characters (2026-07-23)
+    for i in range(212):  # 3 debug + 209 characters (2026-07-24)
         blk = rd(p, 20)
         if not (blk[0] == 0x0F and blk[1] == 0x00 and blk[6] == 0x25
                 and struct.unpack_from("<H", blk, 7)[0] == 0x12D
@@ -230,8 +230,8 @@ def main():
         checks_parsed.append((struct.unpack_from("<I", blk, 2)[0],
                               struct.unpack_from("<I", blk, 16)[0]))
         p += 20
-    check("all 202 check blocks decode (loadword/special 12D/compare/goto_if)",
-          chain_ok and len(checks_parsed) == 202)
+    check("all 212 check blocks decode (loadword/special 12D/compare/goto_if)",
+          chain_ok and len(checks_parsed) == 212)
     tail = rd(p, 5)
     check("chain tail = goto Invalid-code handler",
           tail[0] == 0x05 and struct.unpack_from("<I", tail, 1)[0] == INVALID_CODE_HANDLER)
@@ -296,7 +296,7 @@ def main():
           and patched[w+3] == 0x06 and patched[w+4] == 0 and u32p(w+5) == TRADE_ORIG
           and patched[w+9] == 0x21 and struct.unpack_from("<HH", patched, w+10) == (VAR_ID, 0)
           and patched[w+14] == 0x06 and patched[w+15] == 1 and u32p(w+16) == TRADE_ORIG
-          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, 200)
+          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, 210)
           and patched[w+25] == 0x06 and patched[w+26] == 4 and u32p(w+27) == TRADE_ORIG)
     check("wrapper preamble decodes (flag/char-0/char-range passthroughs)", ok)
     p2 = w + 31
@@ -342,7 +342,7 @@ def main():
           patched[off_o:off_o + len(wild_offsets)] == wild_offsets)
     check("wild_override.bin in ROM == build artifact",
           patched[off_d:off_d + len(wild_data)] == wild_data)
-    check("wild override offsets table has 199 entries", len(wild_offsets) == 199 * 4)
+    check("wild override offsets table has 209 entries", len(wild_offsets) == 209 * 4)
 
     # re-derive Red's family/stage table from the in-ROM bytes and cross-check
     # against the same 4 sanity facts emit_wild_override.py itself checks:

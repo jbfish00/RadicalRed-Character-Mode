@@ -160,7 +160,7 @@ def main():
     with open(HERE / "character_mode" / "characters_manifest.json") as f:
         manifest = json.load(f)
     chars = [c for c in manifest["characters"] if "roster_species_ids" in c]
-    assert len(chars) == 199, len(chars)  # 184 + Tobias + 14 professors (2026-07-23)
+    assert len(chars) == 209, len(chars)  # 184 + Tobias + 14 professors + 10 Frontier Brains (2026-07-24)
     bitmaps = (HERE / "character_mode" / "rosters_expanded.bin").read_bytes()
     assert len(bitmaps) == len(chars) * 172, len(bitmaps)
 

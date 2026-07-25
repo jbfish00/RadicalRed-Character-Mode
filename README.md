@@ -143,6 +143,13 @@ roster.)
 | `Archie` | Archie | villain | Carvanha |
 | `Drew` | Drew | anime | Budew |
 | `Birch` | Birch | professor | random from roster |
+| `Anabel` | Anabel | frontier | random from roster |
+| `Tucker` | Tucker | frontier | random from roster |
+| `Greta` | Greta | frontier | random from roster |
+| `Spenser` | Spenser | frontier | random from roster |
+| `Noland` | Noland | frontier | random from roster |
+| `Lucy` | Lucy | frontier | random from roster |
+| `Brandon` | Brandon | frontier | random from roster |
 
 ### Generation 4
 
@@ -173,6 +180,9 @@ roster.)
 | `Nando` | Nando | anime | Budew |
 | `Tobias` | Tobias | anime | Darkrai |
 | `Rowan` | Rowan | professor | random from roster |
+| `Palmer` | Palmer | frontier | random from roster |
+| `Dahlia` | Dahlia | frontier | random from roster |
+| `Darach` | Darach | frontier | random from roster |
 
 ### Generation 5
 
