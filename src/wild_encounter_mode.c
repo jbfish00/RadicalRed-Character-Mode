@@ -62,7 +62,11 @@ typedef unsigned int u32;
  * the "non-legendary members only, 10%" rule: his roster IS two legendaries
  * (Darkrai + Latios), so his wild table deliberately contains them and his
  * rate is 1% per encounter-table roll (user spec). */
+/* Supplied by the injector (-DTOBIAS_CHAR_ID), derived from the manifest.
+ * The fallback only applies to a hand-compile outside the injector. */
+#ifndef TOBIAS_CHAR_ID
 #define TOBIAS_CHAR_ID      185
+#endif
 #define TOBIAS_CHANCE_PCT   1
 
 /* Vanilla FRLG functions (CFRU BPRE.ld addresses -- same convention as

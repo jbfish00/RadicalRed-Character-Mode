@@ -204,6 +204,10 @@ def main():
     _bm0 = bitmaps[0:_stride]
     _on0 = lambda sp: (_bm0[sp >> 3] >> (sp & 7)) & 1
     dbg_give2 = next(sp for sp in range(1, _nspecies) if not _on0(sp))
+    tobias_char_id = next(
+        (i + 1 for i, c in enumerate(chars) if c["character"] == "Tobias"), 0)
+    assert tobias_char_id, "Tobias not in the manifest -- the 1% wild-rate "\
+        "branch would silently apply to nobody"
     print(f"CMDbgGive2 species (off-roster for {chars[0]['character']}): {dbg_give2}")
     assert len(bitmaps) == num_chars * 172, len(bitmaps)
     print(f"character count: {num_chars} (derived from characters_manifest.json)")
@@ -242,6 +246,13 @@ def main():
                     "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
                     f"-DWILD_OFFSETS_ADDR={WILD_OFFSETS_ADDR:#x}",
                     f"-DNUM_CHARACTERS={num_chars}",
+                    # Derived, not hardcoded: this was a literal 185 in the C.
+                    # It is correct only while nothing is inserted before Tobias
+                    # in characters.txt -- and if that ever happened, some
+                    # unrelated character would silently inherit the 1%
+                    # legendary-inclusive wild rate and Tobias would silently
+                    # get 10%, with no test able to notice.
+                    f"-DTOBIAS_CHAR_ID={tobias_char_id}",
                     f"-DWILD_DATA_ADDR={WILD_DATA_ADDR:#x}",
                     "-o", str(wobj), str(ROOT / "src" / "wild_encounter_mode.c")],
                    check=True)
