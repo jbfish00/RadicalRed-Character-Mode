@@ -142,7 +142,7 @@ def main():
         {"name": "Red + Sandshrew -> PC (off roster)",     "flag": 1, "char_id": red_idx, "party": 1, "species": 27, "expect": BP_SENDPC},  # was Meowth(52) until 2026-07-23: Persian joined Red's curated roster
         {"name": "char 0 -> give",                         "flag": 1, "char_id": 0,       "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + Meowth EGG -> give (eggs exempt)", "flag": 1, "char_id": red_idx, "party": 1, "species": 52, "egg": True, "expect": BP_GIVE},
-        {"name": "char 210 out of range -> give",          "flag": 1, "char_id": 210,     "party": 1, "species": 52, "expect": BP_GIVE},  # 185=Tobias, 186-199=professors, 200-209=Frontier Brains (2026-07-24)
+        {"name": "char 211 out of range -> give",          "flag": 1, "char_id": 211,     "party": 1, "species": 52, "expect": BP_GIVE},  # 185=Tobias, 186-199=professors, 200-209=Frontier Brains (2026-07-24)
         {"name": f"{meowth_ok_name} + Meowth -> give (their roster differs)",
                                                            "flag": 1, "char_id": meowth_ok_idx, "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + species 1375 (Chillet, off-roster) -> PC",

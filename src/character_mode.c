@@ -28,7 +28,7 @@ typedef unsigned int u32;
 
 #define FLAG_CHARACTER_MODE 0x18FE
 #define VAR_CHARACTER_ID    0x51FD
-#define NUM_CHARACTERS      209  /* 184 + Tobias (185) + 14 professors (186-199) + 10 Frontier Brains (200-209), 2026-07-24 */
+#define NUM_CHARACTERS      210  /* 184 + Tobias (185) + 14 professors (186-199) + 10 Frontier Brains (200-209) + Volo (210), 2026-07-25 */
 #define NUM_SPECIES         1376
 #define BITMAP_STRIDE       172
 

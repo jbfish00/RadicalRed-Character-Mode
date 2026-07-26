@@ -19103,6 +19103,41 @@
       "name": "Shinx"
     }
   },
+  "Volo": {
+    "page": "Volo",
+    "category": "villain",
+    "gen": 8,
+    "species": [
+      {
+        "id": 459,
+        "name": "Budew"
+      },
+      {
+        "id": 496,
+        "name": "Gible"
+      },
+      {
+        "id": 540,
+        "name": "Giratina"
+      },
+      {
+        "id": 58,
+        "name": "Growlithe"
+      },
+      {
+        "id": 500,
+        "name": "Riolu"
+      },
+      {
+        "id": 495,
+        "name": "Spiritomb"
+      },
+      {
+        "id": 175,
+        "name": "Togepi"
+      }
+    ]
+  },
   "Wallace": {
     "page": "Wallace (game) + Wallace (anime)",
     "category": "champion",

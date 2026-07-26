@@ -298,6 +298,7 @@ roster.)
 | `Sonia` | Sonia | professor | random from roster |
 | `Laventon` | Laventon | professor | random from roster |
 | `Cerise` | Cerise | professor | random from roster |
+| `Volo` | Volo | villain | random from roster |
 
 ### Generation 9
 

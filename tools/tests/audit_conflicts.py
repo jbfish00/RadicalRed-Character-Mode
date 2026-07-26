@@ -34,7 +34,7 @@ MANIFEST = ROOT / "tools" / "character_mode" / "characters_manifest.json"
 
 BITMAPS_FILEOFF = 0xC80100
 BITMAP_BYTES = 172  # 1376 species bits
-NUM_CHARS = 209  # 184 + Tobias + 14 professors + 10 Frontier Brains (2026-07-24)
+NUM_CHARS = 210  # 184 + Tobias + 14 professors + 10 Frontier Brains + Volo (2026-07-25)
 
 # RR's native cheat codes (docs/ROUTINE_MAP.md, walked from fallthrough 0x10500EE)
 RR_NATIVE_CODES = ["Woyaopp", "DexAll", "SO2Toxic", "TeamPreview", "EZCatch"]

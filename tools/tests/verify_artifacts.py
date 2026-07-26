@@ -50,6 +50,11 @@ BPS = ROOT / "build" / "radicalred_cm.bps"
 FLIPS = ROOT / "tools" / "bin" / "flips"
 
 ROM_SHA1 = "964f951a0fdaf209e4ea1344883ef0d557bb3a80"
+# Character count is derived, not hardcoded: every roster change used to mean
+# hunting scattered literals (209 -> 210 for Volo, 2026-07-25). Read it from the
+# manifest so the checks below track the build automatically.
+NUM_CHARS = len(json.loads((HERE.parent / "character_mode" /
+        "characters_manifest.json").read_text())["characters"])
 SHIM_ADDR = 0x08C80000
 BITMAPS_ADDR = 0x08C80100
 SCRIPT_ADDR = 0x08C90000  # keep in sync with inject_character_mode.py (2026-07-23 bitmap-overflow move)
@@ -172,7 +177,7 @@ def main():
     with open(ROOT / "tools" / "character_mode" / "characters_manifest.json") as f:
         manifest = json.load(f)
     chars = [c for c in manifest["characters"] if "roster_species_ids" in c]
-    check("209 characters in manifest", len(chars) == 209)
+    check(f"{NUM_CHARS} characters in manifest", len(chars) == NUM_CHARS)
     red = next(i for i, c in enumerate(chars) if c["character"] == "Red")
     bm = patched[off + red * STRIDE: off + (red + 1) * STRIDE]
     def has(s): return bool(bm[s >> 3] & (1 << (s & 7)))
@@ -217,7 +222,7 @@ def main():
     p = SCRIPT_ADDR
     checks_parsed = []          # (string_addr, handler_addr)
     chain_ok = True
-    for i in range(212):  # 3 debug + 209 characters (2026-07-24)
+    for i in range(NUM_CHARS + 3):  # 3 debug codes + every character
         blk = rd(p, 20)
         if not (blk[0] == 0x0F and blk[1] == 0x00 and blk[6] == 0x25
                 and struct.unpack_from("<H", blk, 7)[0] == 0x12D
@@ -230,8 +235,8 @@ def main():
         checks_parsed.append((struct.unpack_from("<I", blk, 2)[0],
                               struct.unpack_from("<I", blk, 16)[0]))
         p += 20
-    check("all 212 check blocks decode (loadword/special 12D/compare/goto_if)",
-          chain_ok and len(checks_parsed) == 212)
+    check(f"all {NUM_CHARS + 3} check blocks decode (loadword/special 12D/compare/goto_if)",
+          chain_ok and len(checks_parsed) == NUM_CHARS + 3)
     tail = rd(p, 5)
     check("chain tail = goto Invalid-code handler",
           tail[0] == 0x05 and struct.unpack_from("<I", tail, 1)[0] == INVALID_CODE_HANDLER)
@@ -296,14 +301,14 @@ def main():
           and patched[w+3] == 0x06 and patched[w+4] == 0 and u32p(w+5) == TRADE_ORIG
           and patched[w+9] == 0x21 and struct.unpack_from("<HH", patched, w+10) == (VAR_ID, 0)
           and patched[w+14] == 0x06 and patched[w+15] == 1 and u32p(w+16) == TRADE_ORIG
-          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, 210)
+          and patched[w+20] == 0x21 and struct.unpack_from("<HH", patched, w+21) == (VAR_ID, NUM_CHARS + 1)
           and patched[w+25] == 0x06 and patched[w+26] == 4 and u32p(w+27) == TRADE_ORIG)
     check("wrapper preamble decodes (flag/char-0/char-range passthroughs)", ok)
     p2 = w + 31
     n_allow = 0
     while patched[p2] == 0x21:
         var, idx = struct.unpack_from("<HH", patched, p2+1)
-        good = (var == VAR_ID and 1 <= idx <= 185 and patched[p2+5] == 0x06
+        good = (var == VAR_ID and 1 <= idx <= NUM_CHARS and patched[p2+5] == 0x06
                 and patched[p2+6] == 1 and u32p(p2+7) == TRADE_ORIG)
         if not good:
             break
@@ -313,7 +318,7 @@ def main():
             break
         n_allow += 1
         p2 += 11
-    expected_allow = sum(1 for i in range(185)
+    expected_allow = sum(1 for i in range(NUM_CHARS)
                          if bitmaps[i*STRIDE + (TRADE_SPECIES >> 3)] & (1 << (TRADE_SPECIES & 7)))
     check(f"wrapper allow-list matches bitmaps ({expected_allow} characters)",
           n_allow == expected_allow)
@@ -342,7 +347,7 @@ def main():
           patched[off_o:off_o + len(wild_offsets)] == wild_offsets)
     check("wild_override.bin in ROM == build artifact",
           patched[off_d:off_d + len(wild_data)] == wild_data)
-    check("wild override offsets table has 209 entries", len(wild_offsets) == 209 * 4)
+    check(f"wild override offsets table has {NUM_CHARS} entries", len(wild_offsets) == NUM_CHARS * 4)
 
     # re-derive Red's family/stage table from the in-ROM bytes and cross-check
     # against the same 4 sanity facts emit_wild_override.py itself checks:
