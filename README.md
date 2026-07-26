@@ -47,6 +47,39 @@ Notes:
 - Battle Frontier–style rental Pokemon are never blocked.
 - Your first party slot is never blocked (soft-lock protection).
 - All of Radical Red's own cheat codes still work unchanged.
+- When you pick a character, their portrait is shown next to the
+  confirmation message. 54 of the 210 have no artwork yet and simply show
+  the message on its own.
+
+## Meeting your character's Pokemon in the wild
+
+Being restricted to a roster is no fun if the game never offers you one, so
+Character Mode also seeds your character's Pokemon into wild encounters.
+On every wild encounter — grass, caves, surfing, rock smash, headbutt,
+sweet scent and every fishing rod:
+
+- **~10%** of the time you meet a **non-legendary Pokemon from your
+  character's roster** instead of the area's usual species, at the area's
+  own level (the evolution stage is matched to that level, so you get a
+  Bulbasaur early and a Venusaur late, not a level-5 Venusaur).
+- **~1%** of the time, if your character has a **legendary** on their
+  roster, you meet that instead. Each legendary is offered **until you
+  catch it**, then it stops appearing. A character whose roster is
+  *entirely* legendary (Cogita, Tobias) keeps theirs repeatable, or they
+  would have nothing left to catch.
+- The rest of the time the game's own encounter tables are untouched.
+
+`ENCOUNTERS.md` lists exactly what each character can meet, with level
+bands and effective rates.
+
+## Why some characters aren't listed
+
+238 characters exist in the data, but a character needs at least **six
+fully-evolved Pokemon obtainable in this game** to make a playthrough
+work — unless they own a legendary, which exempts them. **28 fall short
+and are not offered**; their codes are rejected like any unknown code, and
+they are left out of the tables below and out of `ROSTERS.md`. They keep
+their internal slot, so a save that already selected one still works.
 
 ### Debug / utility codes
 
@@ -56,14 +89,19 @@ Notes:
 | `CMDbgGive1` | Test code: gives a Lv. 5 Pikachu (on-roster for Red → joins party) |
 | `CMDbgGive2` | Test code: gives a Lv. 5 Pokemon that is **off the active character's roster** → goes to the PC. The species is derived at build time from that character's own allow-bitmap, so this always tests the enforcement path. |
 
-## Known v1 limitations
+## Known limitations
 
-- Characters keep the normal player sprite (no custom character sprites yet).
+- Your **overworld sprite and trainer card are unchanged** — you still look
+  like the stock player character. Only the selection screen shows your
+  character's portrait. This is deliberate: the patch touches none of the
+  game's own art tables, so real opponents' sprites are never swapped.
+- 54 of the 210 offered characters have no portrait yet.
 
 (In-game trades ARE enforced: Radical Red v4.1 has exactly one live in-game
-trade — the Eternal Flower Floette console — and it politely refuses while
-Character Mode is on, since that Floette is not on any character's canon
-roster.)
+trade — the Eternal Flower Floette console. It politely refuses while
+Character Mode is on, unless you are playing as one of the four characters
+whose roster actually includes that Floette — Shauna, Lysandre, Goh or
+Tulip — in which case the trade proceeds normally.)
 
 ## Character codes
 
