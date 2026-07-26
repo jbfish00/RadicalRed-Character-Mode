@@ -83,6 +83,14 @@ TRADE_WRAPPER_ADDR = 0x08C8E000
 WILD_SHIM_ADDR    = 0x08CE0000
 WILD_OFFSETS_ADDR = 0x08CE0800  # shim compiles to ~1KB (needs __aeabi_uidivmod)
 WILD_DATA_ADDR    = 0x08CE0C00
+
+# --- Phase 3 character sprites (2026-07-25) ---
+# The 0x08B71D04 block that holds everything above has only ~65 KB left below
+# 0x08D00000, and the sprite blobs are ~147 KB. These live in the separate
+# 713 KB 0xFF run at 0x08951E14 instead, which nothing else in this project
+# touches. Verified free by the 0xFF precondition check in splice().
+CM_SPRITE_PTRS_ADDR  = 0x08952000   # NUM_CHARACTERS x {u32 gfx, u32 pal}
+CM_SPRITE_BLOBS_ADDR = 0x08952800   # LZ77 gfx+palette streams, concatenated
 CREATEWILDMON_ADDR = 0x090C292C  # no Thumb bit, current BL target at all 4 sites
 BL_SITE_LAND_MAIN   = 0x10C2FDA  # inside TryGenerateWildMon (primary)
 BL_SITE_LAND_DOUBLE = 0x10C30CE  # inside TryGenerateWildMon (double battle)
@@ -339,6 +347,29 @@ def main():
     splice(SCRIPT_ADDR, blob, "script")
     splice(WILD_SHIM_ADDR, wild_shim, "wild-encounter shim")
     splice(WILD_OFFSETS_ADDR, wild_offsets, "wild-encounter offsets")
+
+    # --- character sprites: blobs, then a table of absolute ROM pointers ---
+    spr_blobs_p = HERE / "character_mode" / "cm_sprite_blobs.bin"
+    spr_offs_p = HERE / "character_mode" / "cm_sprite_offsets.bin"
+    if spr_blobs_p.is_file() and spr_offs_p.is_file():
+        spr_blobs = spr_blobs_p.read_bytes()
+        spr_offs = spr_offs_p.read_bytes()
+        assert len(spr_offs) == len(chars) * 8, (len(spr_offs), len(chars))
+        ptrs = bytearray()
+        wired = 0
+        for i in range(len(chars)):
+            g, pl = struct.unpack_from("<II", spr_offs, i * 8)
+            if g == 0xFFFFFFFF:
+                ptrs += struct.pack("<II", 0, 0)        # no art for this character
+            else:
+                ptrs += struct.pack("<II", CM_SPRITE_BLOBS_ADDR + g,
+                                           CM_SPRITE_BLOBS_ADDR + pl)
+                wired += 1
+        splice(CM_SPRITE_BLOBS_ADDR, spr_blobs, "character sprite blobs")
+        splice(CM_SPRITE_PTRS_ADDR, bytes(ptrs), "character sprite pointer table")
+        print(f"character sprites: {wired}/{len(chars)} wired, "
+              f"{len(spr_blobs):,} B of art @ {CM_SPRITE_BLOBS_ADDR:#x}, "
+              f"table @ {CM_SPRITE_PTRS_ADDR:#x}")
     splice(WILD_DATA_ADDR, wild_data, "wild-encounter data")
 
     # BL retargets (verify current bytes first)

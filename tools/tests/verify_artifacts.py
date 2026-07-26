@@ -73,6 +73,8 @@ TRADE_SPECIES = 848
 WILD_SHIM_ADDR = 0x08CE0000
 WILD_OFFSETS_ADDR = 0x08CE0800
 WILD_DATA_ADDR = 0x08CE0C00
+CM_SPRITE_PTRS_ADDR = 0x08952000   # keep in sync with inject_character_mode.py
+CM_SPRITE_BLOBS_ADDR = 0x08952800
 WILD_BL_SITES = (0x10C2FDA, 0x10C30CE, 0x10C3A94, 0x10C3AD0)
 CREATEWILDMON_ADDR = 0x090C292C
 
@@ -93,6 +95,29 @@ def decode_bl(halfwords_bytes, site_rom_addr):
     if off & 0x200000:
         off -= 0x400000
     return site_rom_addr + 4 + (off << 1)
+
+
+def lz77_decode(buf, off):
+    """Independent LZ77 decoder -- deliberately not imported from png_to_gba.py,
+    so a bug there cannot make its own output verify as correct."""
+    assert buf[off] == 0x10, "no LZ77 header"
+    size = buf[off + 1] | (buf[off + 2] << 8) | (buf[off + 3] << 16)
+    out = bytearray()
+    pos = off + 4
+    while len(out) < size:
+        flags = buf[pos]; pos += 1
+        for bit in range(8):
+            if len(out) >= size:
+                break
+            if flags & (0x80 >> bit):
+                b1, b2 = buf[pos], buf[pos + 1]; pos += 2
+                cnt = (b1 >> 4) + 3
+                disp = (((b1 & 0xF) << 8) | b2) + 1
+                for _ in range(cnt):
+                    out.append(out[-disp])
+            else:
+                out.append(buf[pos]); pos += 1
+    return bytes(out[:size])
 
 
 def main():
@@ -127,6 +152,16 @@ def main():
         wend += 64
     wild_data = (ROOT / "tools" / "character_mode" / "wild_override.bin").read_bytes()
     wild_offsets = (ROOT / "tools" / "character_mode" / "wild_override_offsets.bin").read_bytes()
+    # Phase 3 character sprites (2026-07-25)
+    spr_blobs = (ROOT / "tools" / "character_mode" / "cm_sprite_blobs.bin").read_bytes()
+    spr_offs = (ROOT / "tools" / "character_mode" / "cm_sprite_offsets.bin").read_bytes()
+    spr_ptrs_expected = bytearray()
+    for i in range(len(spr_offs) // 8):
+        g, pl = struct.unpack_from("<II", spr_offs, i * 8)
+        spr_ptrs_expected += (struct.pack("<II", 0, 0) if g == 0xFFFFFFFF else
+                              struct.pack("<II", CM_SPRITE_BLOBS_ADDR + g,
+                                                 CM_SPRITE_BLOBS_ADDR + pl))
+
     wsoff = WILD_SHIM_ADDR - 0x08000000
     wsend = wsoff
     while not all(b == 0xFF for b in patched[wsend:wsend + 64]):
@@ -138,6 +173,10 @@ def main():
                 (wsoff, wsend),
                 (WILD_OFFSETS_ADDR - 0x08000000, WILD_OFFSETS_ADDR - 0x08000000 + len(wild_offsets)),
                 (WILD_DATA_ADDR - 0x08000000, WILD_DATA_ADDR - 0x08000000 + len(wild_data)),
+                (CM_SPRITE_PTRS_ADDR - 0x08000000,
+                 CM_SPRITE_PTRS_ADDR - 0x08000000 + len(spr_ptrs_expected)),
+                (CM_SPRITE_BLOBS_ADDR - 0x08000000,
+                 CM_SPRITE_BLOBS_ADDR - 0x08000000 + len(spr_blobs)),
                 *[(s, s + 4) for s in BL_SITES],
                 *[(s, s + 4) for s in WILD_BL_SITES],
                 (GOTO_OPERAND_OFF, GOTO_OPERAND_OFF + 4),
@@ -395,6 +434,47 @@ def main():
                     bad_legendary.append((ci, sid))
     check("wild override: no character's table contains any legendary/mythical species",
           not bad_legendary, f"{bad_legendary[:5]}")
+
+    print("== 9. character sprites (Phase 3) ==")
+    sp = CM_SPRITE_PTRS_ADDR - 0x08000000
+    sb = CM_SPRITE_BLOBS_ADDR - 0x08000000
+    check("sprite blobs in ROM == cm_sprite_blobs.bin",
+          patched[sb:sb + len(spr_blobs)] == spr_blobs)
+    check("sprite pointer table in ROM == recomputed from offsets",
+          patched[sp:sp + len(spr_ptrs_expected)] == bytes(spr_ptrs_expected))
+
+    # every wired pointer must land inside the blob region and decode to a real
+    # 64x64 4bpp sprite + 16-colour palette. A pointer that merely looks like a
+    # ROM address is not evidence of anything.
+    n_wired, bad = 0, []
+    for i in range(len(chars)):
+        g, pl = struct.unpack_from("<II", patched, sp + i * 8)
+        if not g and not pl:
+            continue
+        n_wired += 1
+        if not (CM_SPRITE_BLOBS_ADDR <= g < CM_SPRITE_BLOBS_ADDR + len(spr_blobs)
+                and CM_SPRITE_BLOBS_ADDR <= pl < CM_SPRITE_BLOBS_ADDR + len(spr_blobs)):
+            bad.append((i, "pointer outside blob region")); continue
+        try:
+            gfx = lz77_decode(patched, g - 0x08000000)
+            pal = lz77_decode(patched, pl - 0x08000000)
+        except Exception as e:
+            bad.append((i, f"decode failed: {e}")); continue
+        if len(gfx) != 2048 or len(pal) != 32:
+            bad.append((i, f"sizes {len(gfx)}/{len(pal)}"))
+    check(f"all {n_wired} wired sprites decode to 64x64 4bpp + 16-colour palette",
+          not bad, f"{bad[:5]}")
+
+    # characters.bin must agree with the pointer table about who has art
+    cbin = (ROOT / "tools" / "character_mode" / "characters.bin").read_bytes()
+    mismatch = []
+    for i in range(len(chars)):
+        sid = struct.unpack_from("<H", cbin, i * 12 + 8)[0]
+        g = struct.unpack_from("<I", patched, sp + i * 8)[0]
+        if (sid == 0xFFFF) != (g == 0):
+            mismatch.append((i, chars[i]["character"], hex(sid), hex(g)))
+    check("characters.bin sprite_asset_id agrees with the in-ROM pointer table",
+          not mismatch, f"{mismatch[:5]}")
 
     print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
     return 1 if failures else 0
