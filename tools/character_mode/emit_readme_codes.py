@@ -68,8 +68,20 @@ def main():
     text = open(README, encoding="utf-8").read()
     start = text.index(SECTION_START)
     end = text.index(SECTION_END)
-    open(README, "w", encoding="utf-8").write(
-        text[:start] + "\n".join(out) + "\n" + text[end:])
+    text = text[:start] + "\n".join(out) + "\n" + text[end:]
+
+    # The intro sentence's count is generated too. Rewriting only the tables left
+    # it reading "199 characters" through both the Volo build (210) and the
+    # 2026-07-25 roster audit (238) -- the same drift this script was written to
+    # stop, one paragraph above the part it was fixing. verify_docs.py now checks
+    # this number, so a silent miss here becomes a test failure.
+    text, n = re.subn(r"\b\d+ characters, Generations 1 through 9\.",
+                      "%d characters, Generations 1 through 9." % len(chars),
+                      text, count=1)
+    if not n:
+        print("  !! could not find the intro character-count sentence in "
+              "README.md -- check it by hand")
+    open(README, "w", encoding="utf-8").write(text)
 
     print("rewrote README.md's character-code tables: %d characters across "
           "generations %s" % (len(chars), ", ".join(str(g) for g in sorted(by_gen))))

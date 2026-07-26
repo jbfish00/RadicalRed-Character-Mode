@@ -24,7 +24,8 @@ Decision table tested:
   4. flag ON, party=1, char=Red, Sandshrew(27) -> SendMonToPC  (off-roster)
   5. flag ON, party=1, char=0 (unset)          -> pass-through
   6. flag ON, party=1, char=Red, Meowth EGG    -> pass-through (eggs exempt)
-  7. flag ON, party=1, char=200 (out of range) -> pass-through
+  7. flag ON, party=1, char=N+1 (out of range) -> pass-through
+     (N = the manifest's character count; derived, never a literal)
   8. flag ON, party=1, char=Jessie(?), Meowth  -> pass-through (Meowth IS on
      Team Rocket Jessie's roster... actually Meowth is James/Jessie-adjacent;
      resolved dynamically from the manifest: uses a character that has
@@ -142,7 +143,11 @@ def main():
         {"name": "Red + Sandshrew -> PC (off roster)",     "flag": 1, "char_id": red_idx, "party": 1, "species": 27, "expect": BP_SENDPC},  # was Meowth(52) until 2026-07-23: Persian joined Red's curated roster
         {"name": "char 0 -> give",                         "flag": 1, "char_id": 0,       "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + Meowth EGG -> give (eggs exempt)", "flag": 1, "char_id": red_idx, "party": 1, "species": 52, "egg": True, "expect": BP_GIVE},
-        {"name": "char 211 out of range -> give",          "flag": 1, "char_id": 211,     "party": 1, "species": 52, "expect": BP_GIVE},  # 185=Tobias, 186-199=professors, 200-209=Frontier Brains (2026-07-24)
+        # DERIVED: the first index past the table, not a literal. A hardcoded 211
+        # silently became a VALID character when the 2026-07-25 roster audit took
+        # the count to 238, and the case then failed as "expected give, got PC" --
+        # which looks like a shim bug and is really a stale fixture.
+        {"name": f"char {len(chars) + 1} out of range -> give", "flag": 1, "char_id": len(chars) + 1, "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": f"{meowth_ok_name} + Meowth -> give (their roster differs)",
                                                            "flag": 1, "char_id": meowth_ok_idx, "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + species 1375 (Chillet, off-roster) -> PC",

@@ -28,7 +28,15 @@ typedef unsigned int u32;
 
 #define FLAG_CHARACTER_MODE 0x18FE
 #define VAR_CHARACTER_ID    0x51FD
-#define NUM_CHARACTERS      210  /* 184 + Tobias (185) + 14 professors (186-199) + 10 Frontier Brains (200-209) + Volo (210), 2026-07-25 */
+/* The injector passes -DNUM_CHARACTERS, derived from characters_manifest.json.
+ * It is NOT hardcoded on purpose: this constant bounds the character-index range
+ * the shim accepts, so a stale value makes the shim trust an index past the end
+ * of the bitmap table instead of rejecting it -- a silent failure, not a build
+ * error. The fallback below only applies to a hand-compile outside the injector.
+ * (Was a bare 210 until the 2026-07-25 roster audit took the count to 238.) */
+#ifndef NUM_CHARACTERS
+#define NUM_CHARACTERS      238
+#endif
 #define NUM_SPECIES         1376
 #define BITMAP_STRIDE       172
 

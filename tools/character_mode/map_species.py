@@ -61,10 +61,26 @@ def normalize(name):
 # Hand-curated fixes for Bulbapedia display-name <-> Radical-Red-Pokedex
 # name mismatches. Discovered via unmatched_names.txt review.
 NAME_FIXES = {
-    # (currently empty after switching to the authoritative dex data source
-    # -- data.js's names match Bulbapedia far more closely than
-    # species.h-derived names did. Re-populate from unmatched_names.txt
-    # if new mismatches turn up.)
+    # data.js's names match Bulbapedia closely, so this stayed empty for a long
+    # time. What refilled it runs the OTHER way: the 2026-07-25 roster audit's
+    # data was produced against ROWE, a pokeemerald-expansion fork whose species
+    # names are capped at 10 characters, and ROWE's own NAME_FIXES had already
+    # rewritten "Iron Valiant" to the in-game "IrnValiant" before the audit saw
+    # it. Those truncations arrived here inside roster_additions.json. This is
+    # the inverse of ROWE's map -- truncated in-game name back to the full
+    # Bulbapedia name that data.js actually uses. Radical Red has no 10-char
+    # cap, so nothing here is a Radical Red spelling.
+    "irnvaliant": "Iron Valiant",
+    "ironjuglis": "Iron Jugulis",
+    "stonjourne": "Stonjourner",
+    "blacefalon": "Blacephalon",
+    "fluttrmane": "Flutter Mane",
+    "brutebonet": "Brute Bonnet",
+    "gougngfire": "Gouging Fire",
+    "roarngmoon": "Roaring Moon",
+    "sandyshock": "Sandy Shocks",
+    "slithrwing": "Slither Wing",
+    "walkngwake": "Walking Wake",
 }
 
 # Known signature/ace Pokemon per character (any stage; reduced to the
@@ -76,6 +92,10 @@ NAME_FIXES = {
 # fall back to a random starter, matching ROWE's own documented behavior.
 SIGNATURES = {
  "Tobias":"Darkrai",
+ # Volo shipped (bb66270) with no signature, so his starter fell back to
+ # roster[0] -- alphabetically Budew, for the Legends: Arceus final boss. His
+ # canon ace is Togekiss (the Togepi line is on his roster).
+ "Volo":"Togekiss",
  "Red":"Pikachu","Leaf":"Eevee","Blue":"Pidgeot","Lance":"Dragonite",
  "Lorelei":"Lapras","Bruno":"Machamp","Agatha":"Gengar","Koga":"Weezing",
  "Brock":"Onix","Misty":"Starmie","Lt. Surge":"Pikachu","Erika":"Vileplume",
@@ -158,9 +178,68 @@ def build_name_index(species):
     return {norm: min(ids) for norm, ids in groups.items()}
 
 
+def build_key_index(species):
+    """data.js `key` -> species id. Unlike `name`, the key disambiguates every
+    regional/Mega/Gigantamax variant ("Arcanine-Hisui" vs "Arcanine"), which is
+    what regional_fallback() needs to resolve a form by name."""
+    return {info["key"]: sid for sid, info in species.items() if info.get("key")}
+
+
+REGION_SUFFIX = {"Hisuian": "Hisui", "Hisui": "Hisui",
+                 "Alolan": "Alola", "Alola": "Alola",
+                 "Galarian": "Galar", "Galar": "Galar",
+                 "Paldean": "Paldea", "Paldea": "Paldea"}
+
+
+def regional_fallback(name, name_index, key_index):
+    """Resolve "Hisuian Arcanine" -> the Hisuian species id, else plain Arcanine.
+
+    build_name_index() keys on the bare display name and deliberately takes
+    min(id), so every regional variant collapses onto its Kanto/base namesake
+    and a prefixed name like "Hisuian Arcanine" matches nothing at all. That is
+    not cosmetic: it cost Volo his only Fire-type, and Palina — whose whole
+    roster is Hisuian forms — mapped to an empty roster.
+
+    The donor's `key` field carries the form ("Arcanine-Hisui"), so try that
+    first. If this ROM has no such form, fall back to the plain species: a
+    regional variant is still that species, and the project's family rule says a
+    family is canon if any member is. Returns None if neither resolves.
+    """
+    parts = name.split(" ", 1)
+    if len(parts) != 2 or parts[0] not in REGION_SUFFIX:
+        return None
+    suffix, base = REGION_SUFFIX[parts[0]], parts[1]
+    sid = key_index.get("%s-%s" % (base, suffix))
+    if sid is not None:
+        return sid
+    return name_index.get(normalize(base))
+
+
+def make_resolver(name_index, key_index):
+    """Bulbapedia/SIGNATURES display name -> data.js species id, or None.
+
+    Module-level so that anything else needing to speak the pipeline's name
+    language (unaudited_families.py, derive_drops.py) resolves names EXACTLY as
+    the mapping does, instead of reimplementing it and drifting.
+    """
+    def resolve(sp_name):
+        norm = normalize(sp_name)
+        fix_name = NAME_FIXES.get(norm)
+        if fix_name:
+            sid = name_index.get(normalize(fix_name))
+            if sid is not None:
+                return sid
+        sid = name_index.get(norm)
+        if sid is None:
+            sid = regional_fallback(sp_name, name_index, key_index)
+        return sid
+    return resolve
+
+
 def main():
     species = load_dex()
     name_index = build_name_index(species)
+    key_index = build_key_index(species)
 
     with open(ROSTERS_RAW) as f:
         rosters_raw = json.load(f)
@@ -180,8 +259,13 @@ def main():
                       "not in rosters_raw.json — skipped")
                 continue
             have = set(rosters_raw[char_name]["species"])
-            new = [s for s in extra if s not in have]
-            rosters_raw[char_name]["species"] = sorted(have | set(new))
+            # Rows are bare species names from the 2026-07-23 pass, or
+            # {species, source, owned_form} dicts from the 2026-07-25 audit
+            # (which carries each add's provenance alongside it).
+            extra_names = {e["species"] if isinstance(e, dict) else e
+                           for e in extra}
+            new = extra_names - have
+            rosters_raw[char_name]["species"] = sorted(have | new)
             added += len(new)
         print(f"roster_additions.json: merged {added} species "
               f"across {len(additions)} characters")
@@ -196,10 +280,11 @@ def main():
     # reintroduce every one of them, and the file keeps the citation for each.
     #
     # THE FAMILY RULE (user, 2026-07-25): a full evolution family is allowed
-    # whenever any single member is canon, forwards and backwards. The file is
-    # generated with that already applied — it only lists species whose ENTIRE
-    # family was removed — so plain subtraction here is correct. The assertion
-    # below is what protects that invariant if the file is ever hand-edited.
+    # whenever any single member is canon, forwards and backwards. This pass is
+    # only the cheap half — it subtracts the exact NAMES the audit listed, before
+    # canonicalization. That is not sufficient by itself; see the family-level
+    # sweep further down, which is what actually enforces the rule.
+    removals = {}
     removals_path = HERE / "roster_removals.json"
     if removals_path.is_file():
         with open(removals_path) as f:
@@ -223,15 +308,48 @@ def main():
     sig_unresolved = []
     sig_not_on_roster = []
 
-    def resolve(sp_name):
-        """Bulbapedia/SIGNATURES display name -> data.js species id, or None."""
-        norm = normalize(sp_name)
-        fix_name = NAME_FIXES.get(norm)
-        if fix_name:
-            sid = name_index.get(normalize(fix_name))
+    resolve = make_resolver(name_index, key_index)
+
+    def family_base(sid):
+        return species[sid].get("ancestor", sid)
+
+    # A removal is a verdict on the whole FAMILY, not on the one name the auditor
+    # was shown, so the name subtraction above is not enough on its own: the
+    # scraper often lists later stages under their own names, and those walk the
+    # family straight back in after canonicalization. Leaf's Charmander was
+    # removed while "Charizard" stayed in her raw list, and she kept the line.
+    # Re-apply the removals here, where an entire family is a single base id.
+    #
+    # ...but a family a wave explicitly KEPT outranks another wave's removal of a
+    # different member, because one canon member makes the family canon (the
+    # user's family rule, both directions). Lana's Milotic is another trainer's
+    # and her Feebas is her own; unshielded, the Milotic verdict eats the Feebas.
+    keeps_path = HERE / "audit_keeps.json"
+    audit_keeps = {}
+    if keeps_path.is_file():
+        with open(keeps_path) as f:
+            audit_keeps = json.load(f).get("keeps", {})
+
+    family_removed = {}
+    shielded = 0
+    for char_name, rows in removals.items():
+        kept_bases = set()
+        for name in audit_keeps.get(char_name, ()):
+            sid = resolve(name)
             if sid is not None:
-                return sid
-        return name_index.get(norm)
+                kept_bases.add(family_base(sid))
+        bases = set()
+        for r in rows:
+            sid = resolve(r["species"] if isinstance(r, dict) else r)
+            if sid is None:
+                continue
+            base_id = family_base(sid)
+            if base_id in kept_bases:
+                shielded += 1
+                continue
+            bases.add(base_id)
+        family_removed[char_name] = bases
+    swept = 0
 
     for char_name, info in rosters_raw.items():
         resolved_bases = {}  # base_id -> base_name
@@ -240,7 +358,10 @@ def main():
             if sid is None:
                 unmatched.append(f"{char_name}\t{sp_name}")
                 continue
-            base_id = species[sid].get("ancestor", sid)
+            base_id = family_base(sid)
+            if base_id in family_removed.get(char_name, ()):
+                swept += 1
+                continue
             base_name = species[base_id]["name"]
             resolved_bases[base_id] = base_name
             review_rows.append((char_name, info["category"], sp_name, species[sid]["key"], base_name, "Y"))
@@ -267,6 +388,12 @@ def main():
                     sig_not_on_roster.append(f"{char_name}\t{ace}\t{species[base_id]['name']}")
 
         mapped[char_name] = entry
+
+    if swept:
+        print(f"roster_removals.json: {swept} more swept at family level")
+    if shielded:
+        print(f"roster_removals.json: {shielded} held back by an audit keep "
+              "on the same family")
 
     with open(HERE / "rosters_mapped.json", "w") as f:
         json.dump(mapped, f, indent=2)

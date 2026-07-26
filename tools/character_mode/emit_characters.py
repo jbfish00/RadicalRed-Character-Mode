@@ -128,8 +128,15 @@ def main():
             has_signature = 1
 
         ordered_ids = starters + legends
-        if not starters:
-            manifest.append({"character": disp, "warning": "all-legendary roster, starter fallback needed"})
+        # An all-legendary roster still gets a record; it just has no eligible
+        # starter, so the grant falls back. The warning used to be appended as
+        # its OWN manifest entry, which silently broke the invariant every
+        # consumer relies on -- that manifest["characters"][i] describes record i.
+        # emit_bitmaps.py carried a special-case skip for it; emit_sprite_table.py
+        # did not, and asserted out the moment a character like this existed
+        # (Cogita, added by the 2026-07-25 roster audit). The warning now rides on
+        # the record itself.
+        warning = None if starters else "all-legendary roster, starter fallback needed"
 
         name_off = len(names_blob)
         names_blob += encode_text(display_name(disp), charmap)
@@ -145,7 +152,7 @@ def main():
 
         records += struct.pack("<IIHBB", name_off, roster_off, sprite_asset_id, generation, flags)
 
-        manifest.append({
+        rec = {
             "character": disp,
             "category": info.get("category"),
             "generation": generation,
@@ -157,7 +164,11 @@ def main():
             "signature_id": sig.get("id") if sig else None,
             "signature_name": sig.get("name") if sig else None,
             "sprite_asset_id": "TBD",
-        })
+        }
+        if warning:
+            rec["warning"] = warning
+            print(f"  WARNING: {disp} -- {warning}")
+        manifest.append(rec)
 
     with open(os.path.join(HERE, "characters.bin"), "wb") as f:
         f.write(records)

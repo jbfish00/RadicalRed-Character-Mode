@@ -32,12 +32,18 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
-def main():
+def load_species():
     with open(HERE / "rr_pokedex_donor/data.js") as f:
-        species = ast.literal_eval(f.read())["species"]
-    with open(HERE / "characters_manifest.json") as f:
-        manifest = json.load(f)
+        return ast.literal_eval(f.read())["species"]
 
+
+def build_indexes(species):
+    """(evolves_to, ids_by_name) -- the two edge kinds expand_roster walks.
+
+    Module-level so derive_drops.py can expand a roster EXACTLY as the injected
+    bitmaps do. If the threshold and the bitmaps disagree about what a roster
+    contains, the docs and the ROM disagree about who is playable.
+    """
     # forward evolution adjacency
     evolves_to = {}
     for sid, info in species.items():
@@ -53,28 +59,51 @@ def main():
     ids_by_name = {}
     for sid, info in species.items():
         ids_by_name.setdefault(norm(info["name"]), set()).add(sid)
+    return evolves_to, ids_by_name
+
+
+def expand_roster(ids, species, evolves_to, ids_by_name):
+    """Roster base ids -> every species id those families allow.
+
+    BFS to fixpoint over two edge kinds: forward evolutions AND same-name
+    alternate forms. Interleaving both means a lateral form's own forward
+    evolutions (e.g. Burmy-Sandy -> Wormadam-Sandy) are picked up too.
+    """
+    allowed = set()
+    frontier = [i for i in ids if 0 < i < NUM_SPECIES]
+    while frontier:
+        nxt = []
+        for s in frontier:
+            if s in allowed:
+                continue
+            allowed.add(s)
+            nxt.extend(t for t in evolves_to.get(s, []) if t not in allowed)
+            nxt.extend(a for a in ids_by_name.get(norm(species[s]["name"]), ())
+                       if a not in allowed)
+        frontier = nxt
+    return allowed
+
+
+def main():
+    species = load_species()
+    with open(HERE / "characters_manifest.json") as f:
+        manifest = json.load(f)
+    evolves_to, ids_by_name = build_indexes(species)
 
     out = bytearray()
     report = []
     for rec in manifest["characters"]:
-        if "warning" in rec and "character" in rec and "roster_species_ids" not in rec:
-            continue  # warning-only entries
+        if "roster_species_ids" not in rec:
+            # Legacy shape: emit_characters.py used to append an all-legendary
+            # warning as its own manifest entry, breaking the one-entry-per-record
+            # invariant. It now attaches the warning to the record instead, so
+            # this only fires on a stale manifest -- regenerate rather than rely
+            # on it.
+            print(f"  skipping warning-only entry for {rec.get('character')!r}"
+                  " -- stale manifest, re-run emit_characters.py")
+            continue
         ids = rec["roster_species_ids"]
-        allowed = set()
-        # BFS to fixpoint over two edge kinds: forward evolutions AND same-name
-        # alternate forms. Interleaving both means a lateral form's own forward
-        # evolutions (e.g. Burmy-Sandy -> Wormadam-Sandy) are picked up too.
-        frontier = [i for i in ids if 0 < i < NUM_SPECIES]
-        while frontier:
-            nxt = []
-            for s in frontier:
-                if s in allowed:
-                    continue
-                allowed.add(s)
-                nxt.extend(t for t in evolves_to.get(s, []) if t not in allowed)
-                nxt.extend(a for a in ids_by_name.get(norm(species[s]["name"]), ())
-                           if a not in allowed)
-            frontier = nxt
+        allowed = expand_roster(ids, species, evolves_to, ids_by_name)
         bm = bytearray(STRIDE)
         for s in allowed:
             bm[s >> 3] |= 1 << (s & 7)

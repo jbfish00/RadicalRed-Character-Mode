@@ -31,6 +31,8 @@ import json
 import os
 from collections import defaultdict
 
+from map_species import build_key_index, build_name_index, make_resolver
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 TARGET = os.path.abspath(os.path.join(HERE, "..", ".."))
 
@@ -43,6 +45,10 @@ CATEGORY_LABEL = {
     "protagonist": "Protagonist", "rival": "Rival", "gymleader": "Gym Leader",
     "elite4": "Elite Four", "champion": "Champion", "villain": "Villain",
     "anime": "Anime", "professor": "Professor", "frontier": "Frontier Brain",
+    # the Legends: Arceus cast, added by the 2026-07-25 roster audit. Without
+    # these the fallback .title() renders "Galaxy" and "Other", which say
+    # nothing about what the character actually is.
+    "warden": "Warden", "galaxy": "Galaxy Team", "other": "Other",
 }
 
 SPRITE_URL = ("https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master"
@@ -55,15 +61,123 @@ def load_species():
         return ast.literal_eval(f.read())["species"]
 
 
-def load_sources():
-    """{character: {family-base species: {"source", "owned_form"}}} from the
-    adversarial roster audit. Absent file = no Source column content, so the
-    docs still generate before/without an audit."""
-    path = os.path.join(HERE, "roster_sources.json")
-    if not os.path.isfile(path):
+def rekey_sources_onto_family_base(sources, species, resolve):
+    """{character: {family-base name: {owned species name: info}}}.
+
+    THE trap this generator has to survive: the audit recorded the species each
+    character actually OWNED ("Charizard", "Greninja"), but a roster stores the
+    evolution-family BASE ("Charmander", "Froakie"), and the doc rows are keyed
+    by base. Looked up as-recorded, only 37% of this repo's source keys match
+    anything and the Source column reads "—" on the other 63%.
+
+    Keeping the owned name inside the inner dict (rather than collapsing to one
+    entry per family) is what lets a row say "as Charizard — Anime": a family can
+    carry several owned forms, and the row wants the one matching its own final.
+    """
+    out = {}
+    for char, rows in sources.items():
+        if char.startswith("_"):
+            continue                      # _meta
+        per_base = {}
+        for owned, info in rows.items():
+            sid = resolve(owned)
+            if sid is None:
+                continue
+            base = species[species[sid].get("ancestor") or sid]["name"]
+            per_base.setdefault(display(base), {})[display(owned)] = info
+        out[char] = per_base
+    return out
+
+
+def pick_source(per_base, base_name, shown_name):
+    """The best-matching source entry for one doc row, deterministically.
+
+    Prefer an entry recording the exact species the row shows, then one naming
+    the family base, then the alphabetically first -- a family with several owned
+    forms must not pick a different one on each run.
+    """
+    entries = per_base.get(base_name) or per_base.get(shown_name) or {}
+    if not entries:
         return {}
+    for key in (shown_name, base_name):
+        if key in entries:
+            return entries[key]
+    return entries[min(entries)]
+
+
+def load_sources():
+    """{character: {owned species: {"source", "owned_form"}}} -- every provenance
+    label this repo holds, from both files that carry one.
+
+    `roster_sources.json` is the audit's own attribution pass. But
+    `roster_additions.json` ALSO records a source and owned_form per added
+    species, and nothing used to read them, so a family that entered a roster
+    through the additions overlay showed a blank Source even though its
+    provenance was sitting right there -- that is why only Hilda, of the four
+    Battle Subway Multi Train partners, had labels for the shared pool.
+
+    roster_sources.json wins on conflict: it is the audit's considered answer,
+    whereas an addition's label is whatever the pass that proposed it wrote down.
+    Absent files = no Source column content, so the docs still generate without an
+    audit at all.
+    """
+    merged = {}
+    add_path = os.path.join(HERE, "roster_additions.json")
+    if os.path.isfile(add_path):
+        with open(add_path, encoding="utf-8") as f:
+            for char, rows in json.load(f).get("additions", {}).items():
+                for row in rows:
+                    if not isinstance(row, dict) or not row.get("source"):
+                        continue
+                    merged.setdefault(char, {})[row["species"]] = {
+                        "source": row["source"],
+                        "owned_form": row.get("owned_form") or row["species"],
+                    }
+    path = os.path.join(HERE, "roster_sources.json")
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            for char, rows in json.load(f).get("sources", {}).items():
+                merged.setdefault(char, {}).update(rows)
+    return merged
+
+
+def load_unselectable():
+    """Characters below the six-fully-evolved threshold, from
+    character_drops.json (GENERATED by derive_drops.py).
+
+    NOT yet used to filter these docs, and that is deliberate. The docs must
+    describe what the menu really offers, and Radical Red's selection path is
+    not gated yet -- the `flags` bit1 = hidden work in `emit_characters.py` plus
+    the cheat-code alias matcher is a separate pass. Until it lands every
+    character is selectable, so every character is documented, and the header
+    reports which ones are thin. Filtering here first would advertise a
+    restriction the ROM does not enforce, which is the same doc/ROM drift this
+    generator exists to prevent -- just pointing the other way.
+    """
+    path = os.path.join(HERE, "character_drops.json")
+    if not os.path.isfile(path):
+        return []
     with open(path, encoding="utf-8") as f:
-        return json.load(f).get("sources", {})
+        return json.load(f).get("unselectable", [])
+
+
+REGION_PREFIX = {"Alola": "Alolan", "Galar": "Galarian", "Hisui": "Hisuian",
+                 "Paldea": "Paldean"}
+
+
+def regional_form(info):
+    """The region a species' donor `key` marks it as, or None.
+
+    Regional forms are listed as their own rows (user, 2026-07-25) -- Persian,
+    Alolan Persian and Perrserker are three different Pokemon to a player, and
+    the ROM allows all three. Mega/Gigantamax/cosmetic keys are NOT forms in
+    that sense: they are battle transformations and stay folded into the base.
+    """
+    key = (info.get("key") or "").replace("’", "'")
+    for region, prefix in REGION_PREFIX.items():
+        if key.endswith("-" + region):
+            return prefix
+    return None
 
 
 def display(name):
@@ -72,21 +186,25 @@ def display(name):
     return name.replace("’", "'")
 
 
+PLACEHOLDER_FORMS = {"normal", "base", "none", "-", ""}
+
+
 def source_cell(info, shown_name):
     """"as Bulbasaur — Anime (Indigo League)", or just the source when the
     character owned the final stage itself."""
     src = (info or {}).get("source")
     if not src:
         return "—"
-    owned = (info or {}).get("owned_form")
-    if owned and owned != shown_name:
+    owned = ((info or {}).get("owned_form") or "").strip()
+    if owned and owned.lower() not in PLACEHOLDER_FORMS and owned != shown_name:
         return "as %s — %s" % (owned, src)
     return src
 
 
 def main():
     species = load_species()
-    sources = load_sources()
+    resolve = make_resolver(build_name_index(species), build_key_index(species))
+    sources = rekey_sources_onto_family_base(load_sources(), species, resolve)
     with open(os.path.join(HERE, "characters_manifest.json")) as f:
         manifest = json.load(f)["characters"]
     with open(os.path.join(HERE, "rosters_expanded.bin"), "rb") as f:
@@ -128,17 +246,27 @@ def main():
         for s in allowed:
             if not is_final(s):
                 continue
-            shown = canonical.get(dex_of(s), s)
+            # a regional form keeps its own row; everything else folds into the
+            # base form it shares a dex number with
+            shown = s if regional_form(species[s]) else canonical.get(dex_of(s), s)
             # the roster stores evolution-family bases and the audit is keyed by
             # them, so remember which base this row descends from
             finals.setdefault(shown, species[s].get("ancestor") or s)
-        ordered = sorted(finals, key=lambda s: (dex_of(s), species[s]["name"]))
+        # The species id is the final tiebreak, and it is not decorative: a
+        # regional form shares both its national dex number AND its display name
+        # with the base form ("Raichu" / "Raichu"), so without it the two rows
+        # sort equal and land in dict-iteration order. Every regeneration then
+        # produced a spurious ~190-line diff with no data change.
+        ordered = sorted(finals, key=lambda s: (dex_of(s), species[s]["name"], s))
         char_sources = sources.get(rec["character"], {})
         rows = []
         for s in ordered:
             base_name = display(species[finals[s]]["name"])
+            region = regional_form(species[s])
             shown_name = display(species[s]["name"])
-            info = char_sources.get(base_name) or char_sources.get(shown_name) or {}
+            if region:
+                shown_name = "%s %s" % (region, shown_name)
+            info = pick_source(char_sources, base_name, shown_name)
             rows.append((shown_name, dex_of(s), source_cell(info, shown_name)))
         chars.append({
             "name": rec["character"],
@@ -159,6 +287,30 @@ def main():
                       "in-ROM enforcement shim tests — do not hand-edit, "
                       "regenerate.")
 
+    # Coverage, stated rather than implied. Both numbers below have been wrong in
+    # a shipped doc before: rows carried no provenance at all, and the character
+    # count drifted from the ROM's three times.
+    all_rows = [r for c in chars for r in c["finals"]]
+    sourced = sum(1 for _n, _d, src in all_rows if src and src != "—")
+    thin = [n for n in load_unselectable()]
+    coverage = [
+        "### Coverage", "",
+        "- **%d characters**, **%d final-evolution rows**; every row is derived "
+        "from the injected allow-bitmaps, so nothing here is promised that the "
+        "ROM refuses." % (len(chars), len(all_rows)),
+        "- **%d of %d rows (%.0f%%) carry a Source.** A blank Source means the "
+        "provenance is not recorded, not that the entry is unverified — the "
+        "2026-07-25 adversarial audit judged every roster in this file."
+        % (sourced, len(all_rows), 100.0 * sourced / max(1, len(all_rows))),
+    ]
+    if thin:
+        coverage.append(
+            "- **%d characters have fewer than six fully-evolved Pokémon** in "
+            "this game's dex (%s). The project's rule hides such characters from "
+            "the menu; that gating is **not injected in this build**, so they are "
+            "still selectable here and are therefore still listed. Expect them "
+            "to be a thin playthrough." % (len(thin), ", ".join(sorted(thin))))
+
     out = ["# Character Mode — Final-Evolution Rosters (%s)" % GAME_TITLE, "",
            "Every playable character and the **final evolutions** their complete "
            "roster resolves to, in **National Pokédex order**. Rosters were "
@@ -166,7 +318,7 @@ def main():
            "and anime) and cross-checked where possible. Regional/cosmetic forms "
            "show as their base species. Off-roster Pokémon are routed to your PC.",
            "", "**%d characters.** Sprite version: `ROSTERS_SPRITES.md`." % len(chars),
-           "", generated_note, "", "## Contents"]
+           "", generated_note, ""] + coverage + ["", "## Contents"]
     for g in gens:
         out.append("- [Generation %d](#generation-%d)" % (g, g))
     out.append("")

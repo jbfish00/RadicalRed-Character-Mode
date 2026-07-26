@@ -175,9 +175,19 @@ def main():
     with open(HERE / "character_mode" / "characters_manifest.json") as f:
         manifest = json.load(f)
     chars = [c for c in manifest["characters"] if "roster_species_ids" in c]
-    assert len(chars) == 210, len(chars)  # 184 + Tobias + 14 professors + 10 Frontier Brains + Volo (2026-07-25)
+    # DERIVE the character count; never hardcode it. This assert read `== 210`
+    # and broke the build the moment the 2026-07-25 roster audit brought the count
+    # to 238 -- the third time a stale literal has cost this project a session
+    # (SPRITE_PLAN.md §5). The three C shims get it via -DNUM_CHARACTERS below for
+    # the same reason: a shim compiled with the wrong count silently accepts an
+    # out-of-range character index instead of rejecting it.
+    num_chars = len(chars)
+    assert num_chars == manifest["record_count"], \
+        (f"manifest lists {num_chars} characters but record_count is "
+         f"{manifest['record_count']} -- re-run emit_characters.py")
     bitmaps = (HERE / "character_mode" / "rosters_expanded.bin").read_bytes()
-    assert len(bitmaps) == len(chars) * 172, len(bitmaps)
+    assert len(bitmaps) == num_chars * 172, len(bitmaps)
+    print(f"character count: {num_chars} (derived from characters_manifest.json)")
 
     # --- 1. compile shim ---
     BUILD.mkdir(exist_ok=True)
@@ -187,6 +197,7 @@ def main():
     subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
                     "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
                     f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
+                    f"-DNUM_CHARACTERS={num_chars}",
                     "-o", str(obj), str(ROOT / "src" / "character_mode.c")],
                    check=True)
     subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{SHIM_ADDR:#x}",
@@ -211,6 +222,7 @@ def main():
     subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
                     "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
                     f"-DWILD_OFFSETS_ADDR={WILD_OFFSETS_ADDR:#x}",
+                    f"-DNUM_CHARACTERS={num_chars}",
                     f"-DWILD_DATA_ADDR={WILD_DATA_ADDR:#x}",
                     "-o", str(wobj), str(ROOT / "src" / "wild_encounter_mode.c")],
                    check=True)
@@ -244,6 +256,7 @@ def main():
     subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
                     "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
                     f"-DSPRITE_PTRS_ADDR={CM_SPRITE_PTRS_ADDR:#x}",
+                    f"-DNUM_CHARACTERS={num_chars}",
                     "-o", str(sobj), str(ROOT / "src" / "character_sprite.c")],
                    check=True)
     subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{CM_SPRITE_SHIM_ADDR:#x}",

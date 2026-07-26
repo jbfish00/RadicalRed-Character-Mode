@@ -34,7 +34,10 @@ MANIFEST = ROOT / "tools" / "character_mode" / "characters_manifest.json"
 
 BITMAPS_FILEOFF = 0xC80100
 BITMAP_BYTES = 172  # 1376 species bits
-NUM_CHARS = 210  # 184 + Tobias + 14 professors + 10 Frontier Brains + Volo (2026-07-25)
+# DERIVED, never hardcoded -- verify_artifacts.py learned this the same way.
+# A stale literal here fails as "210 aliases derived (238)", which reads like an
+# alias bug rather than what it is: this file not knowing the roster grew.
+NUM_CHARS = len(json.loads(MANIFEST.read_text())["characters"])
 
 # RR's native cheat codes (docs/ROUTINE_MAP.md, walked from fallthrough 0x10500EE)
 RR_NATIVE_CODES = ["Woyaopp", "DexAll", "SO2Toxic", "TeamPreview", "EZCatch"]

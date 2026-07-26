@@ -125,7 +125,17 @@ def main():
     species = load_species()
 
     chars = manifest["characters"]
-    assert len(chars) == 210, len(chars)  # 184 + Tobias + 14 professors + 10 Frontier Brains + Volo (2026-07-25)
+    # DERIVE the count, never hardcode it. This assert used to read
+    # `== 210` and it failed the moment the 2026-07-25 roster audit added 28
+    # Legends: Arceus characters -- the same trap that has now bitten this project
+    # three times (SPRITE_PLAN.md §5). A stale literal here surfaces as an
+    # AssertionError if you are lucky and as "wildpool size mismatch" downstream if
+    # you are not, never as "the character count changed".
+    assert len(chars) == manifest["record_count"], \
+        ("manifest lists %d characters but record_count is %d -- re-run "
+         "emit_characters.py" % (len(chars), manifest["record_count"]))
+    assert all("roster_species_ids" in r for r in chars), \
+        "stale manifest shape: an entry has no roster_species_ids"
 
     data_blob = bytearray()
     offsets = []
