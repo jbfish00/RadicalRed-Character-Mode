@@ -222,6 +222,9 @@ Magnolia | Professor Magnolia | professor | 8
 Sonia | Sonia | professor | 8
 Laventon | Professor Laventon | professor | 8
 Cerise | Professor Cerise | professor | 8
+# Volo (Legends: Arceus) added 2026-07-25 by user direction. Roster pinned in
+# rosters_raw.json (ownership verified on Bulbapedia; Garchomp not Braviary).
+Volo | Volo | villain | 8
 Sada | Sada | professor | 9
 Turo | Turo | professor | 9
 
