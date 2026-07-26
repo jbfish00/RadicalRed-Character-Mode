@@ -53,8 +53,14 @@ ROM_SHA1 = "964f951a0fdaf209e4ea1344883ef0d557bb3a80"
 # Character count is derived, not hardcoded: every roster change used to mean
 # hunting scattered literals (209 -> 210 for Volo, 2026-07-25). Read it from the
 # manifest so the checks below track the build automatically.
-NUM_CHARS = len(json.loads((HERE.parent / "character_mode" /
-        "characters_manifest.json").read_text())["characters"])
+_MANIFEST = json.loads((HERE.parent / "character_mode" /
+        "characters_manifest.json").read_text())
+NUM_CHARS = len(_MANIFEST["characters"])
+# Selectable != enforced. Characters below the six-fully-evolved threshold carry
+# flags bit1 and get NO check block in the alias chain, so the chain is shorter
+# than the table. Everything the ROM indexes by character id (bitmaps, wild
+# tables, sprite pointers, the trade wrapper's range guard) still uses NUM_CHARS.
+NUM_SELECTABLE = sum(1 for c in _MANIFEST["characters"] if not c.get("hidden"))
 SHIM_ADDR = 0x08C80000
 BITMAPS_ADDR = 0x08C80100
 SCRIPT_ADDR = 0x08C90000  # keep in sync with inject_character_mode.py (2026-07-23 bitmap-overflow move)
@@ -73,6 +79,8 @@ TRADE_SPECIES = 848
 WILD_SHIM_ADDR = 0x08CE0000
 WILD_OFFSETS_ADDR = 0x08CE0800
 WILD_DATA_ADDR = 0x08CE0C00
+WILD_LEG_OFFSETS_ADDR = 0x08CEA000  # keep in sync with inject_character_mode.py
+WILD_LEG_DATA_ADDR = 0x08CEA400
 CM_SPRITE_PTRS_ADDR = 0x08952000   # keep in sync with inject_character_mode.py
 CM_SPRITE_BLOBS_ADDR = 0x08952800
 CM_SPRITE_SHIM_ADDR = 0x08980000   # mugshot renderer (src/character_sprite.c)
@@ -153,6 +161,8 @@ def main():
         wend += 64
     wild_data = (ROOT / "tools" / "character_mode" / "wild_override.bin").read_bytes()
     wild_offsets = (ROOT / "tools" / "character_mode" / "wild_override_offsets.bin").read_bytes()
+    leg_data = (ROOT / "tools" / "character_mode" / "wild_legendary.bin").read_bytes()
+    leg_offsets = (ROOT / "tools" / "character_mode" / "wild_legendary_offsets.bin").read_bytes()
     # Phase 3 character sprites (2026-07-25)
     spr_blobs = (ROOT / "tools" / "character_mode" / "cm_sprite_blobs.bin").read_bytes()
     spr_offs = (ROOT / "tools" / "character_mode" / "cm_sprite_offsets.bin").read_bytes()
@@ -179,6 +189,13 @@ def main():
                 (msoff, msend),
                 (WILD_OFFSETS_ADDR - 0x08000000, WILD_OFFSETS_ADDR - 0x08000000 + len(wild_offsets)),
                 (WILD_DATA_ADDR - 0x08000000, WILD_DATA_ADDR - 0x08000000 + len(wild_data)),
+                # Registering a new blob here is not optional bookkeeping: an
+                # unregistered one fails as "stray bytes in diff containment",
+                # which reads like a corrupted build rather than a missing entry.
+                (WILD_LEG_OFFSETS_ADDR - 0x08000000,
+                 WILD_LEG_OFFSETS_ADDR - 0x08000000 + len(leg_offsets)),
+                (WILD_LEG_DATA_ADDR - 0x08000000,
+                 WILD_LEG_DATA_ADDR - 0x08000000 + len(leg_data)),
                 (CM_SPRITE_PTRS_ADDR - 0x08000000,
                  CM_SPRITE_PTRS_ADDR - 0x08000000 + len(spr_ptrs_expected)),
                 (CM_SPRITE_BLOBS_ADDR - 0x08000000,
@@ -267,7 +284,7 @@ def main():
     p = SCRIPT_ADDR
     checks_parsed = []          # (string_addr, handler_addr)
     chain_ok = True
-    for i in range(NUM_CHARS + 3):  # 3 debug codes + every character
+    for i in range(NUM_SELECTABLE + 3):  # 3 debug codes + every SELECTABLE character
         blk = rd(p, 20)
         if not (blk[0] == 0x0F and blk[1] == 0x00 and blk[6] == 0x25
                 and struct.unpack_from("<H", blk, 7)[0] == 0x12D
@@ -280,8 +297,16 @@ def main():
         checks_parsed.append((struct.unpack_from("<I", blk, 2)[0],
                               struct.unpack_from("<I", blk, 16)[0]))
         p += 20
-    check(f"all {NUM_CHARS + 3} check blocks decode (loadword/special 12D/compare/goto_if)",
-          chain_ok and len(checks_parsed) == NUM_CHARS + 3)
+    check(f"all {NUM_SELECTABLE + 3} check blocks decode (loadword/special 12D/compare/goto_if)",
+          chain_ok and len(checks_parsed) == NUM_SELECTABLE + 3)
+    # The chain must END here. If a hidden character's block were still emitted,
+    # the loop above would simply stop early and every check would still pass --
+    # so prove the very next block is NOT another check.
+    nxt = rd(p, 20)
+    check("no extra check blocks past the last selectable character",
+          not (nxt[0] == 0x0F and nxt[6] == 0x25
+               and struct.unpack_from("<H", nxt, 7)[0] == 0x12D),
+          f"@{p:#x}: {nxt[:10].hex()}")
     tail = rd(p, 5)
     check("chain tail = goto Invalid-code handler",
           tail[0] == 0x05 and struct.unpack_from("<I", tail, 1)[0] == INVALID_CODE_HANDLER)
@@ -292,7 +317,7 @@ def main():
     # skipped while the suite still reported green. Same trap the count-derivation
     # elsewhere in this file exists to avoid; it just failed by omission here
     # rather than by a wrong-looking error.
-    if chain_ok and len(checks_parsed) == NUM_CHARS + 3:
+    if chain_ok and len(checks_parsed) == NUM_SELECTABLE + 3:
         # debug code strings
         dbg_names = ["CMDbgOff", "CMDbgGive1", "CMDbgGive2"]
         for i, name in enumerate(dbg_names):
@@ -301,16 +326,26 @@ def main():
             check(f"debug code {i} string == {name!r}", decoded == name, repr(decoded))
 
         # character aliases + handlers
+        # The chain carries only SELECTABLE characters, in table order, but the
+        # setvar operand below must still be the TABLE index -- that is what a
+        # save stores. Zipping the two together is the whole point of this walk:
+        # a compacted index here would silently select the wrong character.
+        selectable = [(i, c) for i, c in enumerate(chars) if not c.get("hidden")]
+        hidden_chars = [(i, c) for i, c in enumerate(chars) if c.get("hidden")]
         bad_alias = bad_handler = 0
         show_ops, hide_ops = set(), set()
-        for i, c in enumerate(chars):
-            saddr, haddr = checks_parsed[3 + i]
+        chain_aliases = set()
+        for j, (i, c) in enumerate(selectable):
+            saddr, haddr = checks_parsed[3 + j]
             raw = read_text(saddr)
             decoded = "".join(cmap.get(b, "?") for b in raw) if raw is not None else None
+            if decoded is not None:
+                chain_aliases.add(decoded)
             if decoded != alias_for(c["character"]):
                 bad_alias += 1
                 if bad_alias <= 3:
-                    print(f"    alias mismatch [{i}] {c['character']}: {decoded!r}")
+                    print(f"    alias mismatch [slot {j} / table {i}] "
+                          f"{c['character']}: {decoded!r}")
                 continue
             # setvar(5) setflag(3) givepokemon(15) callnative(5) loadword(6)
             # callstd(2) callnative(5) release(1) end(1) = 43 bytes
@@ -332,12 +367,32 @@ def main():
             if not ok:
                 bad_handler += 1
                 if bad_handler <= 3:
-                    print(f"    handler mismatch [{i}] {c['character']} @{haddr:#x}: {h.hex()}")
-        check(f"all {len(chars)} alias strings decode to expected names",
+                    print(f"    handler mismatch [slot {j} / table {i}] "
+                          f"{c['character']} @{haddr:#x}: {h.hex()}")
+        check(f"all {len(selectable)} alias strings decode to expected names",
               bad_alias == 0, f"{bad_alias} mismatches")
-        check(f"all {len(chars)} handlers: setvar id, setflag, "
+        check(f"all {len(selectable)} handlers: setvar TABLE index, setflag, "
               "givepokemon(signature, L5), show-mugshot, msgbox, hide-mugshot",
               bad_handler == 0, f"{bad_handler} mismatches")
+
+        # --- the threshold gate, checked in the positive direction ---------
+        # "The chain is short" is satisfied by a broken chain just as well as by
+        # a gated one, so name the hidden characters and prove each is absent.
+        leaked = [c["character"] for _i, c in hidden_chars
+                  if alias_for(c["character"]) in chain_aliases]
+        check(f"none of the {len(hidden_chars)} hidden characters' codes are in "
+              "the chain", not leaked, ", ".join(leaked[:6]))
+        # ...and that hiding did not cost anyone else their slot.
+        check(f"chain length == selectable count ({len(selectable)}), "
+              f"table stays {NUM_CHARS}",
+              len(selectable) == NUM_SELECTABLE
+              and len(selectable) + len(hidden_chars) == NUM_CHARS)
+        # A hidden character's ENFORCEMENT data must be untouched: same bitmap
+        # slot, still populated. This is what makes an existing save keep working.
+        empty = [c["character"] for i, c in hidden_chars
+                 if not any(bitmaps[i * STRIDE:(i + 1) * STRIDE])]
+        check("hidden characters keep a populated allow-bitmap (old saves still "
+              "enforce)", not empty, ", ".join(empty[:6]))
 
         # The two callnative operands are re-derived here from the ROM alone --
         # no build artifact says what they should be. Every handler must name
@@ -423,14 +478,26 @@ def main():
           ok_tail and msg.startswith("Character Mode:"), repr(msg))
 
     print("== 8. wild-encounter override ==")
+    # The entry is NOT the first thing in the blob and must not be assumed to be:
+    # gcc reordered it behind a static helper the moment the legendary picker
+    # landed. Resolve it from the linked ELF, the same way the mugshot section
+    # resolves sMugshotTemplate.
+    _wsym = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "wild_encounter_mode.elf")],
+                           check=True, capture_output=True, text=True).stdout
+    _wm = re.search(r"^([0-9a-f]+) T CM_CreateWildMonGated$", _wsym, re.M)
+    check("CM_CreateWildMonGated resolves in the wild shim ELF", bool(_wm))
+    wild_entry = int(_wm.group(1), 16) if _wm else WILD_SHIM_ADDR
+    check(f"wild shim entry {wild_entry:#x} lies inside the blob",
+          wsoff <= wild_entry - 0x08000000 < wsend)
     for site in WILD_BL_SITES:
         tgt = decode_bl(patched[site:site + 4], 0x08000000 + site)
-        check(f"wild BL at {site:#x} -> wild shim", tgt == WILD_SHIM_ADDR, f"decoded {tgt and hex(tgt)}")
+        check(f"wild BL at {site:#x} -> wild shim entry", tgt == wild_entry,
+              f"decoded {tgt and hex(tgt)} expected {wild_entry:#x}")
         old = decode_bl(orig[site:site + 4], 0x08000000 + site)
         check(f"wild BL at {site:#x} originally -> CreateWildMon", old == CREATEWILDMON_ADDR,
               f"decoded {old and hex(old)}")
-    check("wild shim starts with push {..,lr}",
-          (struct.unpack_from("<H", patched, WILD_SHIM_ADDR - 0x08000000)[0] & 0xFF00) == 0xB500)
+    check("wild shim entry starts with push {..,lr}",
+          (struct.unpack_from("<H", patched, wild_entry - 0x08000000)[0] & 0xFF00) == 0xB500)
     off_o = WILD_OFFSETS_ADDR - 0x08000000
     off_d = WILD_DATA_ADDR - 0x08000000
     check("wild_override_offsets.bin in ROM == build artifact",
@@ -468,27 +535,126 @@ def main():
     _sys.path.insert(0, str(ROOT / "tools" / "character_mode"))
     from map_species import LEGENDARY_NAMES  # noqa: E402
     legendary_ids = {sid for sid, info in dex_species.items() if info["name"] in LEGENDARY_NAMES}
+
+    def walk_table(blob, offsets, ci, header=0):
+        """Every species id in character ci's block. `header` skips the
+        legendary table's extra flags byte."""
+        pp = struct.unpack_from("<I", offsets, ci * 4)[0] + header
+        out, well_formed = [], True
+        nf = blob[pp]; pp += 1
+        for _ in range(nf):
+            ns = blob[pp]; pp += 1
+            for _ in range(ns):
+                sid, lo, hi = struct.unpack_from("<HBB", blob, pp)
+                pp += 4
+                out.append(sid)
+                well_formed = well_formed and lo <= hi
+        return out, nf, well_formed
+
     bad_legendary = []
-    tobias_ci = next(i for i, c in enumerate(chars) if c["character"] == "Tobias")
     # NOT range(185): that literal predates the roster growing to NUM_CHARS and
     # made this "exhaustive" scan cover 185/238 while still printing PASS --
     # skipping precisely the newest, least-reviewed rosters. Same bug class as
     # the `== 202` guard fixed above; derive the bound.
+    #
+    # The Tobias exemption that used to live here is GONE, and its absence is
+    # the check: his hand-coded legendary-inclusive 10% table was replaced by the
+    # general 1% rule, so the 10% table is now legendary-free for EVERY
+    # character with no exceptions at all.
     for ci in range(NUM_CHARS):
-        if ci == tobias_ci:
-            continue  # Tobias's table is legendary-INCLUSIVE by design (1% rate)
-        o = struct.unpack_from("<I", wild_offsets, ci * 4)[0]
-        pp = o
-        nf = wild_data[pp]; pp += 1
-        for _ in range(nf):
-            ns = wild_data[pp]; pp += 1
-            for _ in range(ns):
-                sid = struct.unpack_from("<H", wild_data, pp)[0]
-                pp += 4
-                if sid in legendary_ids:
-                    bad_legendary.append((ci, sid))
-    check(f"wild override: no legendary/mythical in any of the {NUM_CHARS} characters' tables",
+        for sid in walk_table(wild_data, wild_offsets, ci)[0]:
+            if sid in legendary_ids:
+                bad_legendary.append((chars[ci]["character"], sid))
+    check(f"wild override: no legendary/mythical in any of the {NUM_CHARS} "
+          "characters' 10% tables (no exemptions)",
           not bad_legendary, f"{bad_legendary[:5]}")
+
+    print("== 8b. legendary encounters (1%) ==")
+    off_lo = WILD_LEG_OFFSETS_ADDR - 0x08000000
+    off_ld = WILD_LEG_DATA_ADDR - 0x08000000
+    check("wild_legendary_offsets.bin in ROM == build artifact",
+          patched[off_lo:off_lo + len(leg_offsets)] == leg_offsets)
+    check("wild_legendary.bin in ROM == build artifact",
+          patched[off_ld:off_ld + len(leg_data)] == leg_data)
+    check(f"legendary offsets table has {NUM_CHARS} entries",
+          len(leg_offsets) == NUM_CHARS * 4)
+
+    # The INVERSE of the scan above, and the one that actually protects this
+    # feature. Every existing wild assertion is of the form "a legendary never
+    # appeared" -- which, once the dex filter can suppress legendaries, is
+    # satisfied just as well by the feature being completely dead. Assert in the
+    # positive direction: the 1% table must be non-empty for the characters that
+    # should have one, and everything in it must BE a legendary.
+    not_legendary, malformed = [], []
+    leg_pool, repeatable = {}, set()
+    for ci in range(NUM_CHARS):
+        base = struct.unpack_from("<I", leg_offsets, ci * 4)[0]
+        if leg_data[base] & 0x1:
+            repeatable.add(chars[ci]["character"])
+        sids, nf, ok = walk_table(leg_data, leg_offsets, ci, header=1)
+        if nf:
+            leg_pool[chars[ci]["character"]] = sids
+        if not ok:
+            malformed.append(chars[ci]["character"])
+        for sid in sids:
+            if sid not in legendary_ids:
+                not_legendary.append((chars[ci]["character"], sid))
+    check("legendary table contains ONLY legendaries/mythicals",
+          not not_legendary, f"{not_legendary[:5]}")
+    check("legendary tables well-formed (lvlMin <= lvlMax throughout)",
+          not malformed, f"{malformed[:5]}")
+
+    # Re-derive who SHOULD have a pool straight from the rosters, independently
+    # of the emitter, and demand an exact match. A silently empty table is the
+    # failure this feature is most exposed to.
+    with open(ROOT / "tools" / "character_mode" / "characters_manifest.json") as f:
+        _mani = json.load(f)["characters"]
+    want_pool = {c["character"] for c in _mani
+                 if any(dex_species.get(s, {}).get("name") in LEGENDARY_NAMES
+                        for s in c["roster_species_ids"])}
+    check(f"every character with a legendary on its roster has a 1% pool "
+          f"({len(want_pool)} of {NUM_CHARS})",
+          set(leg_pool) == want_pool,
+          f"missing {sorted(want_pool - set(leg_pool))[:5]} "
+          f"extra {sorted(set(leg_pool) - want_pool)[:5]}")
+
+    # §1.2: repeatable exactly when the character has NO non-legendary families,
+    # or Cogita catches her one legendary and can then catch nothing all run.
+    want_repeat = {chars[ci]["character"] for ci in range(NUM_CHARS)
+                   if walk_table(leg_data, leg_offsets, ci, header=1)[1]
+                   and not walk_table(wild_data, wild_offsets, ci)[1]}
+    check(f"repeatable flag set exactly for the all-legendary characters "
+          f"({', '.join(sorted(want_repeat)) or 'none'})",
+          repeatable == want_repeat,
+          f"flagged {sorted(repeatable)} expected {sorted(want_repeat)}")
+
+    # Nobody may be left unable to catch anything: that is the catch-nothing
+    # failure READINESS_PLAN.md flags, and the legendary pool is what fixes it.
+    starved = [chars[ci]["character"] for ci in range(NUM_CHARS)
+               if not walk_table(wild_data, wild_offsets, ci)[1]
+               and not walk_table(leg_data, leg_offsets, ci, header=1)[1]]
+    check("no character has an empty pool in BOTH tables", not starved,
+          f"{starved[:5]}")
+
+    # Red is the cross-check with a known answer on both sides at once.
+    check("legendary: Red's pool holds Articuno, and he is not repeatable",
+          144 in leg_pool.get("Red", []) and "Red" not in repeatable)
+
+    # The dex filter converts species -> national dex number before reading the
+    # caught flags, and species id != national dex number here. Re-derive the
+    # table from the ROM's own literal pool and confirm both the conversion
+    # canary and that no legendary in any pool maps to 0 (which the shim treats
+    # as "never caught", so such a legendary could never be retired).
+    natdex_ptr = struct.unpack_from("<I", orig, 0x432B0)[0]
+    check("SpeciesToNationalPokedexNum's literal pool -> gSpeciesToNationalPokedexNum",
+          natdex_ptr == 0x098218F0, hex(natdex_ptr))
+    nb = natdex_ptr - 0x08000000
+    natdex = lambda s: struct.unpack_from("<H", orig, nb + (s - 1) * 2)[0]
+    check("species id != national dex number (species 386 -> 313, Volbeat)",
+          natdex(386) == 313, str(natdex(386)))
+    zero_dex = sorted({s for sids in leg_pool.values() for s in sids if natdex(s) == 0})
+    check("no legendary in any pool maps to national dex 0 (would never retire)",
+          not zero_dex, f"{zero_dex[:5]}")
 
     print("== 9. character sprites (Phase 3) ==")
     sp = CM_SPRITE_PTRS_ADDR - 0x08000000

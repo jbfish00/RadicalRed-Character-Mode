@@ -4453,6 +4453,16 @@
    }
   },
   "Ethan": {
+   "Bulbasaur": {
+    "owned_form": "Bulbasaur",
+    "source": "Games — HeartGold and SoulSilver, Pokegear calls ('Mentioned' section)",
+    "source_ported_from": "ROWE"
+   },
+   "Chikorita": {
+    "owned_form": "Chikorita",
+    "source": "Games — Gold/Silver/Crystal and HeartGold/SoulSilver (protagonist's starter)",
+    "source_ported_from": "ROWE"
+   },
    "Cyndaquil": {
     "owned_form": "Typhlosion",
     "source": "Masters EX"
@@ -4473,6 +4483,11 @@
     "owned_form": "Marill",
     "source": "HeartGold/SoulSilver"
    },
+   "Porygon": {
+    "owned_form": "Porygon",
+    "source": "Games — HeartGold and SoulSilver, Pokegear calls ('Mentioned' section)",
+    "source_ported_from": "ROWE"
+   },
    "Quilava": {
     "owned_form": "Typhlosion",
     "source": "Masters EX"
@@ -4485,9 +4500,19 @@
     "owned_form": "Rattata",
     "source": "HeartGold/SoulSilver"
    },
+   "Tangela": {
+    "owned_form": "Tangela",
+    "source": "Games — HeartGold and SoulSilver, Pokegear calls ('Mentioned' section)",
+    "source_ported_from": "ROWE"
+   },
    "Tauros": {
     "owned_form": "Tauros",
     "source": "HeartGold/SoulSilver"
+   },
+   "Totodile": {
+    "owned_form": "Totodile",
+    "source": "Games — Gold/Silver/Crystal and HeartGold/SoulSilver (protagonist's starter)",
+    "source_ported_from": "ROWE"
    },
    "Typhlosion": {
     "owned_form": "Typhlosion",
@@ -5397,9 +5422,19 @@
    }
   },
   "Gloria": {
+   "Calyrex": {
+    "owned_form": "Calyrex",
+    "source": "Games — Sword and Shield: The Crown Tundra",
+    "source_ported_from": "ROWE"
+   },
    "Cinderace": {
     "owned_form": "Cinderace",
     "source": "Masters EX"
+   },
+   "Eternatus": {
+    "owned_form": "Eternatus",
+    "source": "Games — Sword and Shield (main story)",
+    "source_ported_from": "ROWE"
    },
    "Glastrier": {
     "derived": "wave5-radicalred-2026-07-25",
@@ -5426,6 +5461,11 @@
    "Zacian": {
     "owned_form": "Zacian (Crowned Sword)",
     "source": "Masters EX"
+   },
+   "Zamazenta": {
+    "owned_form": "Zamazenta",
+    "source": "Games — Sword and Shield (post-game, Sordward & Shielbert)",
+    "source_ported_from": "ROWE"
    }
   },
   "Goh": {
@@ -5439,9 +5479,34 @@
     "owned_form": "Aerodactyl",
     "source": "Anime"
    },
+   "Arctozolt": {
+    "owned_form": "Arctozolt",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Bellsprout": {
+    "owned_form": "Bellsprout",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Binacle": {
+    "owned_form": "Binacle",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Bruxish": {
+    "owned_form": "Bruxish",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Bunnelby": {
     "owned_form": "Bunnelby",
     "source": "Anime — Journeys"
+   },
+   "Carvanha": {
+    "owned_form": "Sharpedo",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Caterpie": {
     "derived": "section",
@@ -5456,6 +5521,11 @@
    "Cinderace": {
     "owned_form": "Cinderace",
     "source": "Anime — Journeys"
+   },
+   "Corsola": {
+    "owned_form": "Corsola",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Cubone": {
     "owned_form": "Cubone",
@@ -5490,6 +5560,11 @@
     "owned_form": "Durant",
     "source": "Anime — Journeys"
    },
+   "Ekans": {
+    "owned_form": "Ekans",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Eternatus": {
     "owned_form": "Eternatus",
     "source": "Anime — Journeys"
@@ -5498,10 +5573,20 @@
     "owned_form": "Exeggutor",
     "source": "Anime — Journeys"
    },
+   "Falinks": {
+    "owned_form": "Falinks",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Farfetch'd": {
     "derived": "section",
     "owned_form": "Farfetch'd",
     "source": "Anime"
+   },
+   "Ferroseed": {
+    "owned_form": "Ferrothorn",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Flabébé": {
     "owned_form": "Floette",
@@ -5521,9 +5606,24 @@
     "owned_form": "Froakie",
     "source": "Anime"
    },
+   "Geodude": {
+    "owned_form": "Geodude",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Goldeen": {
+    "owned_form": "Goldeen",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Golurk": {
     "owned_form": "Golurk",
     "source": "Anime — Journeys"
+   },
+   "Gossifleur": {
+    "owned_form": "Gossifleur",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Grimer": {
     "derived": "section",
@@ -5547,15 +5647,40 @@
     "owned_form": "Kingdra",
     "source": "Anime — Journeys"
    },
+   "Krabby": {
+    "owned_form": "Krabby",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Magikarp": {
+    "owned_form": "Magikarp",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Mankey": {
+    "owned_form": "Mankey",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Mantyke": {
     "derived": "section",
     "owned_form": "Mantyke",
     "source": "Anime"
    },
+   "Milcery": {
+    "owned_form": "Milcery",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Misdreavus": {
     "derived": "section",
     "owned_form": "Misdreavus",
     "source": "Anime"
+   },
+   "Morelull": {
+    "owned_form": "Morelull",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Murkrow": {
     "derived": "section",
@@ -5572,19 +5697,59 @@
     "owned_form": "Nidoran♂",
     "source": "Anime — Pokémon Journeys (List of Goh's Pokémon, met in Kanto)"
    },
+   "Nincada": {
+    "owned_form": "Shedinja",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Ninetales": {
     "owned_form": "Ninetales",
     "source": "Anime — Journeys"
+   },
+   "Numel": {
+    "owned_form": "Camerupt",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Oddish": {
+    "owned_form": "Oddish",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Panpour": {
     "derived": "section",
     "owned_form": "Panpour",
     "source": "Anime"
    },
+   "Pansear": {
+    "owned_form": "Pansear",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Paras": {
     "derived": "section",
     "owned_form": "Paras",
     "source": "Manga"
+   },
+   "Passimian": {
+    "owned_form": "Passimian",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Petilil": {
+    "owned_form": "Lilligant",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Phantump": {
+    "owned_form": "Phantump",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Pidgey": {
+    "owned_form": "Pidgey",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Pikachu": {
     "owned_form": "Raichu",
@@ -5599,6 +5764,11 @@
     "owned_form": "Pinsir",
     "source": "Anime — Journeys"
    },
+   "Poliwag": {
+    "owned_form": "Poliwag",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Pyukumuku": {
     "derived": "section",
     "owned_form": "Pyukumuku",
@@ -5608,6 +5778,11 @@
     "owned_form": "Cinderace",
     "source": "Anime — Journeys"
    },
+   "Rattata": {
+    "owned_form": "Rattata",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Regieleki": {
     "owned_form": "Regieleki",
     "source": "Anime — Journeys"
@@ -5616,6 +5791,16 @@
     "derived": "section",
     "owned_form": "Roggenrola",
     "source": "Anime"
+   },
+   "Sandile": {
+    "owned_form": "Sandile",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Scatterbug": {
+    "owned_form": "Scatterbug",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Scizor": {
     "owned_form": "Scizor",
@@ -5652,6 +5837,11 @@
     "owned_form": "Inteleon",
     "source": "Anime — Journeys"
    },
+   "Spearow": {
+    "owned_form": "Spearow",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Spinarak": {
     "derived": "section",
     "owned_form": "Spinarak",
@@ -5661,6 +5851,11 @@
     "derived": "wave5-radicalred-2026-07-25",
     "owned_form": "Stantler",
     "source": "Anime — Pokémon Journeys (List of Goh's Pokémon, met in Johto)"
+   },
+   "Stunfisk": {
+    "owned_form": "Stunfisk",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Suicune": {
     "owned_form": "Suicune",
@@ -5676,20 +5871,50 @@
     "owned_form": "Taillow",
     "source": "Anime"
    },
+   "Tentacool": {
+    "owned_form": "Tentacool",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Trapinch": {
     "derived": "section",
     "owned_form": "Trapinch",
     "source": "Anime"
+   },
+   "Tyrogue": {
+    "owned_form": "Hitmonchan",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    },
    "Venonat": {
     "derived": "section",
     "owned_form": "Venonat",
     "source": "Anime"
    },
+   "Voltorb": {
+    "owned_form": "Voltorb",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
    "Weedle": {
     "derived": "section",
     "owned_form": "Weedle",
     "source": "Anime"
+   },
+   "Wingull": {
+    "owned_form": "Wingull",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Wurmple": {
+    "owned_form": "Wurmple",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
+   },
+   "Zubat": {
+    "owned_form": "Golbat",
+    "source": "Anime — Pokemon Journeys (List of Goh's Pokemon)",
+    "source_ported_from": "ROWE"
    }
   },
   "Gordie": {
@@ -6309,6 +6534,16 @@
     "owned_form": "Scrafty",
     "source": "Black/White (Battle Subway)"
    },
+   "Snivy": {
+    "owned_form": "Snivy",
+    "source": "Games — Black and White first partner (player's choice)",
+    "source_ported_from": "ROWE"
+   },
+   "Tepig": {
+    "owned_form": "Tepig",
+    "source": "Games — Black and White first partner (player's choice)",
+    "source_ported_from": "ROWE"
+   },
    "Throh": {
     "owned_form": "Throh",
     "source": "Black/White (Battle Subway)"
@@ -6475,6 +6710,11 @@
     "owned_form": "Musharna",
     "source": "Black/White & Black 2/White 2 (Battle Subway — Multi Train partner)"
    },
+   "Oshawott": {
+    "owned_form": "Oshawott",
+    "source": "Games — Black and White first partner (player's choice)",
+    "source_ported_from": "ROWE"
+   },
    "Pignite": {
     "owned_form": "Emboar",
     "source": "Masters EX"
@@ -6494,6 +6734,11 @@
    "Scrafty": {
     "owned_form": "Scrafty",
     "source": "Black/White & Black 2/White 2 (Battle Subway — Multi Train partner)"
+   },
+   "Snivy": {
+    "owned_form": "Snivy",
+    "source": "Games — Black and White first partner (player's choice)",
+    "source_ported_from": "ROWE"
    },
    "Tepig": {
     "owned_form": "Emboar",
@@ -6541,9 +6786,19 @@
     "owned_form": "Dubwool",
     "source": "Sword/Shield"
    },
+   "Heatmor": {
+    "owned_form": "Heatmor",
+    "source": "Games — Sword and Shield (Hop's rival battle teams)",
+    "source_ported_from": "ROWE"
+   },
    "Inteleon": {
     "owned_form": "Inteleon",
     "source": "Sword/Shield"
+   },
+   "Phantump": {
+    "owned_form": "Trevenant",
+    "source": "Games — Sword and Shield (Hop's rival battle teams)",
+    "source_ported_from": "ROWE"
    },
    "Pincurchin": {
     "owned_form": "Pincurchin",
@@ -6565,13 +6820,28 @@
     "owned_form": "Rillaboom",
     "source": "Sword/Shield"
    },
+   "Silicobra": {
+    "owned_form": "Silicobra",
+    "source": "Games — Sword and Shield (Hop's rival battle teams)",
+    "source_ported_from": "ROWE"
+   },
    "Snorlax": {
     "owned_form": "Snorlax",
     "source": "Sword/Shield"
    },
+   "Toxel": {
+    "owned_form": "Toxel",
+    "source": "Games — Sword and Shield (Hop's rival battle teams)",
+    "source_ported_from": "ROWE"
+   },
    "Wooloo": {
     "owned_form": "Dubwool",
     "source": "Sword/Shield"
+   },
+   "Yamper": {
+    "owned_form": "Boltund",
+    "source": "Games — Sword and Shield (Hop's rival battle teams)",
+    "source_ported_from": "ROWE"
    },
    "Zacian": {
     "owned_form": "Zacian",
@@ -9067,6 +9337,11 @@
     "owned_form": "Meganium",
     "source": "Masters EX"
    },
+   "Bulbasaur": {
+    "owned_form": "Bulbasaur",
+    "source": "Games - HeartGold/SoulSilver (Pokegear calls)",
+    "source_ported_from": "ROWE"
+   },
    "Celebi": {
     "owned_form": "Celebi",
     "source": "Masters EX"
@@ -9104,6 +9379,11 @@
     "owned_form": "Phanpy",
     "source": "Masters EX"
    },
+   "Porygon": {
+    "owned_form": "Porygon",
+    "source": "Games - HeartGold/SoulSilver (Pokegear calls)",
+    "source_ported_from": "ROWE"
+   },
    "Rattata": {
     "owned_form": "Rattata",
     "source": "HeartGold/SoulSilver"
@@ -9111,6 +9391,16 @@
    "Sentret": {
     "owned_form": "Sentret",
     "source": "Manga — Pokémon HeartGold SoulSilver: Pokédex Completion Comic"
+   },
+   "Tangela": {
+    "owned_form": "Tangela",
+    "source": "Games - HeartGold/SoulSilver (Pokegear calls)",
+    "source_ported_from": "ROWE"
+   },
+   "Tauros": {
+    "owned_form": "Tauros",
+    "source": "Games - HeartGold/SoulSilver (Pokegear calls)",
+    "source_ported_from": "ROWE"
    },
    "Vaporeon": {
     "owned_form": "Vaporeon",
@@ -11624,6 +11914,11 @@
    "Rockruff": {
     "owned_form": "Lycanroc",
     "source": "Anime - Sun & Moon era"
+   },
+   "Stufful": {
+    "owned_form": "Stufful",
+    "source": "Games — Pokemon Sun/Moon/USUM (Olivia's Jewelry Shop and house)",
+    "source_ported_from": "ROWE"
    }
   },
   "Olympia": {
@@ -12180,6 +12475,11 @@
     "owned_form": "Articuno",
     "source": "Masters EX"
    },
+   "Bellsprout": {
+    "owned_form": "Victreebel / Bellsprout",
+    "source": "Anime — Pokemon Origins (Victreebel, PO03 vs Giovanni) + manga Pokemon Adventures (Bellsprout, 'Status unknown', PS009)",
+    "source_ported_from": "ROWE"
+   },
    "Blastoise": {
     "owned_form": "Blastoise",
     "source": "Gold/Silver"
@@ -12196,9 +12496,19 @@
     "owned_form": "Charizard",
     "source": "Anime — Pokémon Origins"
    },
+   "Doduo": {
+    "owned_form": "Dodrio",
+    "source": "Anime — Pokemon Origins PO04 (Red's Dodrio, used vs Agatha's Gengar and Blue's Exeggutor)",
+    "source_ported_from": "ROWE"
+   },
    "Dragonite": {
     "owned_form": "Dragonite",
     "source": "Pokémon Stadium 2"
+   },
+   "Ekans": {
+    "owned_form": "Arbok",
+    "source": "Anime — Pokemon Origins PO04",
+    "source_ported_from": "ROWE"
    },
    "Entei": {
     "owned_form": "Entei",
@@ -12212,9 +12522,24 @@
     "owned_form": "Feraligatr",
     "source": "Pokémon Stadium 2"
    },
+   "Gastly": {
+    "owned_form": "Haunter -> Gengar",
+    "source": "Anime — Pokemon Origins PO03/PO04",
+    "source_ported_from": "ROWE"
+   },
+   "Happiny": {
+    "owned_form": "Chansey",
+    "source": "Anime — Pokemon Origins PO04 (Kanto Safari Zone)",
+    "source_ported_from": "ROWE"
+   },
    "Jolteon": {
     "owned_form": "Jolteon",
     "source": "Pokémon Stadium 2"
+   },
+   "Kabuto": {
+    "owned_form": "Kabutops",
+    "source": "Anime — Pokemon Origins PO03 (used vs Giovanni's Rhyhorn)",
+    "source_ported_from": "ROWE"
    },
    "Lapras": {
     "owned_form": "Lapras",
@@ -12224,22 +12549,67 @@
     "owned_form": "Machamp",
     "source": "Let's Go"
    },
+   "Magikarp": {
+    "owned_form": "Magikarp / Gyarados",
+    "source": "Anime — Pokemon Origins PO02 (sold to Red by the Magikarp salesman) + manga Adventures (Gyara, on hand)",
+    "source_ported_from": "ROWE"
+   },
    "Meganium": {
     "owned_form": "Meganium",
     "source": "Pokémon Stadium 2"
+   },
+   "Meowth": {
+    "owned_form": "Persian",
+    "source": "Anime — Pokemon Origins PO04",
+    "source_ported_from": "ROWE"
+   },
+   "Mewtwo": {
+    "owned_form": "Mewtwo",
+    "source": "Anime — Pokemon Origins PO04 (Cerulean Cave)",
+    "source_ported_from": "ROWE"
+   },
+   "Moltres": {
+    "owned_form": "Moltres",
+    "source": "Anime — Pokemon Origins PO04",
+    "source_ported_from": "ROWE"
+   },
+   "Nidoran♀": {
+    "owned_form": "Nidoqueen",
+    "source": "Manga — Pokemon Adventures PS021 (Kanto Safari Zone, 'Long Live the Nidoking!')",
+    "source_ported_from": "ROWE"
    },
    "Nidoran♂": {
     "derived": "wave5-radicalred-2026-07-25",
     "owned_form": "Nidoran♂",
     "source": "Anime — Pokémon Origins (Red's Nidoran♂); also Pokémon Adventures (Nidorino, in box)"
    },
+   "Pidgey": {
+    "owned_form": "Pidgey",
+    "source": "Anime — Pokemon Origins PO01 (Route 1)",
+    "source_ported_from": "ROWE"
+   },
    "Pikachu": {
     "owned_form": "Pikachu",
     "source": "Gold/Silver"
    },
+   "Ponyta": {
+    "owned_form": "Rapidash",
+    "source": "Anime — Pokemon Origins PO04 (used at the Seafoam Islands vs Articuno)",
+    "source_ported_from": "ROWE"
+   },
+   "Psyduck": {
+    "owned_form": "Psyduck",
+    "source": "Anime — Pokemon Origins PO03",
+    "source_ported_from": "ROWE"
+   },
    "Raikou": {
     "owned_form": "Raikou",
     "source": "Pokémon Stadium 2"
+   },
+   "Rattata": {
+    "owned_form": "Rattata",
+    "source": "Anime — Pokemon Origins PO01",
+    "source_ported_from": "ROWE"
    },
    "Scizor": {
     "owned_form": "Scizor",
@@ -12249,6 +12619,11 @@
     "owned_form": "Snorlax",
     "source": "Gold/Silver"
    },
+   "Spearow": {
+    "owned_form": "Spearow (also Fearow)",
+    "source": "Anime — Pokemon Origins PO01 (caught on Route 1) + PO04 Fearow; manga Adventures Fearow (PS009)",
+    "source_ported_from": "ROWE"
+   },
    "Suicune": {
     "owned_form": "Suicune",
     "source": "Pokémon Stadium 2"
@@ -12257,13 +12632,28 @@
     "owned_form": "Tauros",
     "source": "Pokémon Stadium 2"
    },
+   "Tentacool": {
+    "owned_form": "Tentacool",
+    "source": "Anime — Pokemon Origins PO04",
+    "source_ported_from": "ROWE"
+   },
    "Typhlosion": {
     "owned_form": "Typhlosion",
     "source": "Pokémon Stadium 2"
    },
+   "Tyrogue": {
+    "owned_form": "Hitmonlee",
+    "source": "Anime — Pokemon Origins PO03 (tied with Giovanni's Rhyhorn)",
+    "source_ported_from": "ROWE"
+   },
    "Venusaur": {
     "owned_form": "Venusaur",
     "source": "Gold/Silver"
+   },
+   "Zapdos": {
+    "owned_form": "Zapdos",
+    "source": "Anime — Pokemon Origins PO04",
+    "source_ported_from": "ROWE"
    }
   },
   "Rei": {
@@ -14634,9 +15024,19 @@
    }
   },
   "Victor": {
+   "Calyrex": {
+    "owned_form": "Calyrex",
+    "source": "Games - Pokemon Sword and Shield: The Crown Tundra",
+    "source_ported_from": "ROWE"
+   },
    "Eternatus": {
     "owned_form": "Eternatus",
     "source": "Anime — Pokémon Evolutions"
+   },
+   "Glastrier": {
+    "owned_form": "Glastrier",
+    "source": "Games - Pokemon Sword: The Crown Tundra",
+    "source_ported_from": "ROWE"
    },
    "Greedent": {
     "owned_form": "Greedent",
@@ -14645,6 +15045,11 @@
    "Inteleon": {
     "owned_form": "Inteleon",
     "source": "Anime — Pokémon Evolutions"
+   },
+   "Kubfu": {
+    "owned_form": "Urshifu",
+    "source": "Games - Pokemon Sword and Shield: The Isle of Armor",
+    "source_ported_from": "ROWE"
    },
    "Rillaboom": {
     "owned_form": "Rillaboom",

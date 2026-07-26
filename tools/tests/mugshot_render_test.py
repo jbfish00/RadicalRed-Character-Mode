@@ -64,8 +64,9 @@ def main():
         print("building ROM first...")
         sh([sys.executable, "tools/inject_character_mode.py"], check=True)
 
-    chars = [c["character"] for c in json.loads(
-        (ROOT / "tools" / "character_mode" / "characters_manifest.json").read_text())["characters"]]
+    manifest = json.loads((ROOT / "tools" / "character_mode" /
+                           "characters_manifest.json").read_text())["characters"]
+    chars = [c["character"] for c in manifest]
     tmpl = template_addr()
     print(f"sMugshotTemplate @ {tmpl:#x}")
 
@@ -73,7 +74,11 @@ def main():
     for name, expect_sprite in CASES:
         assert name in chars, f"{name} is no longer in the roster -- update CASES"
         idx = chars.index(name)
-        sh([sys.executable, "tools/tests/build_mugshot_testrom.py", str(idx)]).check_returncode()
+        assert not manifest[idx].get("hidden"), \
+            f"{name} is now hidden below the threshold and has no handler -- update CASES"
+        # The fixture builder takes the NAME and resolves the chain slot itself;
+        # the chain skips hidden characters, so slot != table index.
+        sh([sys.executable, "tools/tests/build_mugshot_testrom.py", name]).check_returncode()
 
         if not STATE.is_file():
             print("making the bedroom checkpoint (this drives the whole intro)...")

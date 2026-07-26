@@ -11,7 +11,14 @@ LOG="$ROOT/build/boot_smoke.$(basename "$ROM" .gba | tr -c 'A-Za-z0-9._-' '_').l
 
 [ -f "$ROM" ] || { echo "ROM missing: $ROM"; exit 1; }
 
-pkill -f "mgba-qt -g" 2>/dev/null && sleep 1
+# Clears a leaked emulator squatting GDB port 2345. It is a BLANKET kill: the
+# sibling projects in this workspace (Unbound, Seaglass, Lazarus) run their own
+# `mgba-qt -g` suites on the same port, and running this while one of them is
+# mid-test kills it. Set CM_NO_PKILL=1 to skip it when you know another session
+# is active -- the run then simply fails on a busy port instead of stealing it.
+if [ "${CM_NO_PKILL:-0}" != "1" ]; then
+    pkill -f "mgba-qt -g" 2>/dev/null && sleep 1
+fi
 
 mgba-qt -g "$ROM" >/dev/null 2>&1 &
 MGBA_PID=$!

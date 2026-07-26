@@ -4,7 +4,7 @@ An opt-in game mode where you play as an iconic Pokemon character — a
 protagonist, rival, gym leader, Elite Four member, champion, villain, or
 anime cast member — and are restricted to catching and keeping only that
 character's canon roster (as documented on Bulbapedia, expanded to full
-evolution families). 238 characters, Generations 1 through 9.
+evolution families). 210 characters, Generations 1 through 9.
 
 Ported from the original Character Mode built for Pokemon ROWE.
 
@@ -89,7 +89,6 @@ roster.)
 | `Ash` | Ash | anime | Pikachu |
 | `Gary` | Gary | anime | Squirtle |
 | `Ritchie` | Ritchie | anime | Pikachu |
-| `Tracey` | Tracey | anime | Scyther |
 | `Jessie` | Jessie | anime | Ekans |
 | `James` | James | anime | Koffing |
 | `Oak` | Oak | professor | random from roster |
@@ -141,7 +140,6 @@ roster.)
 | `Wally` | Wally | rival | Ralts |
 | `Maxie` | Maxie | villain | Numel |
 | `Archie` | Archie | villain | Carvanha |
-| `Drew` | Drew | anime | Budew |
 | `Birch` | Birch | professor | random from roster |
 | `Anabel` | Anabel | frontier | random from roster |
 | `Tucker` | Tucker | frontier | random from roster |
@@ -183,7 +181,6 @@ roster.)
 | `Palmer` | Palmer | frontier | random from roster |
 | `Dahlia` | Dahlia | frontier | random from roster |
 | `Darach` | Darach | frontier | random from roster |
-| `Argenta` | Argenta | frontier | random from roster |
 | `Thorton` | Thorton | frontier | random from roster |
 
 ### Generation 5
@@ -232,15 +229,11 @@ roster.)
 | `Malva` | Malva | elite4 | Fletchling |
 | `Siebold` | Siebold | elite4 | Clauncher |
 | `Wikstrom` | Wikstrom | elite4 | Honedge |
-| `Drasna` | Drasna | elite4 | Noibat |
-| `Viola` | Viola | gymleader | Scatterbug |
-| `Grant` | Grant | gymleader | Tyrunt |
 | `Korrina` | Korrina | gymleader | Riolu |
 | `Ramos` | Ramos | gymleader | Skiddo |
 | `Clemont` | Clemont | gymleader | Helioptile |
 | `Valerie` | Valerie | gymleader | Eevee |
 | `Olympia` | Olympia | gymleader | Espurr |
-| `Wulfric` | Wulfric | gymleader | Bergmite |
 | `Shauna` | Shauna | rival | Chespin |
 | `Lysandre` | Lysandre | villain | Magikarp |
 | `Alain` | Alain | anime | Charmander |
@@ -271,7 +264,6 @@ roster.)
 | `Lana` | Lana (anime) | anime | Popplio |
 | `Mallow` | Mallow (anime) | anime | Bounsweet |
 | `Sophocles` | Sophocles | anime | Togedemaru |
-| `Burnet` | Burnet | professor | random from roster |
 | `SamsonOak` | Samson Oak | professor | random from roster |
 
 ### Generation 8
@@ -286,8 +278,6 @@ roster.)
 | `Kabu` | Kabu | gymleader | Sizzlipede |
 | `Bea` | Bea | gymleader | Machop |
 | `Allister` | Allister | gymleader | Gastly |
-| `Opal` | Opal | gymleader | Milcery |
-| `Gordie` | Gordie | gymleader | Rolycoly |
 | `Melony` | Melony | gymleader | Lapras |
 | `Piers` | Piers | gymleader | Zigzagoon |
 | `Raihan` | Raihan | gymleader | Duraludon |
@@ -297,35 +287,17 @@ roster.)
 | `Rose` | Rose | villain | Cufant |
 | `Goh` | Goh | anime | Scorbunny |
 | `Chloe` | Chloe | anime | Eevee |
-| `Magnolia` | Magnolia | professor | random from roster |
-| `Sonia` | Sonia | professor | random from roster |
 | `Laventon` | Laventon | professor | random from roster |
 | `Cerise` | Cerise | professor | random from roster |
 | `Volo` | Volo | villain | Togepi |
 | `Adaman` | Adaman | rival | random from roster |
 | `Akari` | Akari | protagonist | random from roster |
-| `Arezu` | Arezu | warden | random from roster |
 | `Beni` | Beni | villain | random from roster |
-| `Calaba` | Calaba | warden | random from roster |
-| `Charm` | Charm | villain | random from roster |
-| `Clover` | Clover | villain | random from roster |
 | `Cogita` | Cogita | other | random from roster |
-| `Coin` | Coin | villain | random from roster |
-| `Cyllene` | Cyllene | galaxy | random from roster |
-| `Gaeric` | Gaeric | warden | random from roster |
 | `Irida` | Irida | rival | random from roster |
-| `Iscan` | Iscan | warden | random from roster |
 | `Kamado` | Kamado | villain | random from roster |
 | `Lian` | Lian | warden | random from roster |
-| `Mai` | Mai | warden | random from roster |
-| `Melli` | Melli | warden | random from roster |
-| `Palina` | Palina | warden | random from roster |
-| `Pesselle` | Pesselle | galaxy | random from roster |
 | `Rei` | Rei | protagonist | random from roster |
-| `Ress` | Ress | galaxy | random from roster |
-| `Rye` | Rye | galaxy | random from roster |
-| `Sabi` | Sabi | warden | random from roster |
-| `Sanqua` | Sanqua | galaxy | random from roster |
 | `Zisu` | Zisu | galaxy | random from roster |
 
 ### Generation 9

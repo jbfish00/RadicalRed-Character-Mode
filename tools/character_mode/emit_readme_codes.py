@@ -43,6 +43,13 @@ def main():
     with open(os.path.join(HERE, "rr_pokedex_donor/data.js")) as f:
         species = ast.literal_eval(f.read())["species"]
 
+    # Hidden characters (flags bit1, below the six-fully-evolved threshold) get no
+    # check block in the injected alias chain, so their code is REJECTED. Listing
+    # it here would document a code that does not work -- the exact drift this
+    # generator exists to stop.
+    n_hidden = sum(1 for rec in chars if rec.get("hidden"))
+    chars = [rec for rec in chars if not rec.get("hidden")]
+
     by_gen = defaultdict(list)
     for rec in chars:
         by_gen[rec["generation"]].append(rec)
@@ -83,8 +90,9 @@ def main():
               "README.md -- check it by hand")
     open(README, "w", encoding="utf-8").write(text)
 
-    print("rewrote README.md's character-code tables: %d characters across "
-          "generations %s" % (len(chars), ", ".join(str(g) for g in sorted(by_gen))))
+    print("rewrote README.md's character-code tables: %d selectable characters "
+          "across generations %s (%d hidden below the threshold, omitted)"
+          % (len(chars), ", ".join(str(g) for g in sorted(by_gen)), n_hidden))
 
 
 if __name__ == "__main__":

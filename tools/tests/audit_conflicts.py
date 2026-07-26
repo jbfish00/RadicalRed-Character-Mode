@@ -70,8 +70,15 @@ def main():
     cm = CM_ROM.read_bytes()
 
     print("== 1. alias audit ==")
+    # Deliberately over EVERY character, hidden ones included. Only the injected
+    # chain is filtered by flags bit1; uniqueness and length have to hold for the
+    # whole table so that un-hiding a character later cannot introduce a
+    # collision that no test would then re-check.
     aliases = [alias_for(c["character"]) for c in chars]
+    n_hidden = sum(1 for c in chars if c.get("hidden"))
     check(len(aliases) == NUM_CHARS, f"{NUM_CHARS} aliases derived ({len(aliases)})")
+    print(f"  [INFO] {NUM_CHARS - n_hidden} selectable, {n_hidden} hidden below "
+          f"the six-fully-evolved threshold (chain carries the selectable ones)")
     check(len(set(aliases)) == len(aliases), "all aliases unique")
     check(all(1 <= len(a) <= 11 for a in aliases),
           "all alias lengths in [1, 11] (naming-screen limit)")

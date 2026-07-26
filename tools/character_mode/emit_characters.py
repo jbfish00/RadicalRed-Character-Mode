@@ -29,6 +29,11 @@ and writes real 0x08xxxxxx pointers:
                              equivalent once real ids exist
     u8  generation
     u8  flags             -- bit0: hasSignature: signature ace is roster[0]
+                             bit1: hidden: under the six-fully-evolved
+                                   threshold, so not OFFERED by the selection
+                                   menu. The record still exists and is still
+                                   enforced -- a save that already stores this
+                                   index keeps working. See character_drops.json.
 
 species IDs referenced in rosters.bin are Radical Red's OWN real, ROM-
 verified ids (see docs/ROUTINE_MAP.md: gBaseStats pointer-redirect table at
@@ -79,6 +84,39 @@ def display_name(disp):
     return disp
 
 
+def load_hidden(order):
+    """Resolve character_drops.json's names onto this build's character list.
+
+    derive_drops.py writes names with a trailing " (anime)" stripped, because it
+    reads rosters_mapped.json; characters.txt keeps the suffix. Resolving through
+    display_name() bridges the two.
+
+    Every dropped name MUST resolve. A name that matches nothing would silently
+    leave that character selectable -- the failure mode this whole pass exists to
+    close, and one that no downstream test can distinguish from "the threshold
+    said keep". So it is an assertion, not a skip.
+    """
+    path = os.path.join(HERE, "character_drops.json")
+    if not os.path.isfile(path):
+        return set()
+    with open(path, encoding="utf-8") as f:
+        names = json.load(f).get("unselectable", [])
+    by_display = {}
+    for disp in order:
+        by_display.setdefault(display_name(disp), disp)
+    hidden, unresolved = set(), []
+    for n in names:
+        if n in by_display:
+            hidden.add(by_display[n])
+        else:
+            unresolved.append(n)
+    if unresolved:
+        raise SystemExit(
+            "character_drops.json names %d character(s) this build does not have: "
+            "%s -- re-run derive_drops.py" % (len(unresolved), ", ".join(unresolved)))
+    return hidden
+
+
 def main():
     with open(os.path.join(HERE, "rosters_mapped.json")) as f:
         mapped = json.load(f)
@@ -93,6 +131,8 @@ def main():
             disp = line.split("|")[0].strip()
             if disp in mapped:
                 order.append(disp)
+
+    hidden_names = load_hidden(order)
 
     names_blob = bytearray()
     rosters_blob = bytearray()
@@ -147,7 +187,8 @@ def main():
         rosters_blob += struct.pack("<H", 0)  # SPECIES_NONE terminator
 
         generation = info.get("gen", 0) or 1
-        flags = has_signature & 0x1
+        hidden = disp in hidden_names
+        flags = (has_signature & 0x1) | (0x2 if hidden else 0)
         sprite_asset_id = 0xFFFF  # TBD -- RR OW/trainer-pic table not yet located (Phase 1/3)
 
         records += struct.pack("<IIHBB", name_off, roster_off, sprite_asset_id, generation, flags)
@@ -164,6 +205,8 @@ def main():
             "signature_id": sig.get("id") if sig else None,
             "signature_name": sig.get("name") if sig else None,
             "sprite_asset_id": "TBD",
+            # flags bit1. The record stays -- only the selection menu drops it.
+            "hidden": hidden,
         }
         if warning:
             rec["warning"] = warning
@@ -176,11 +219,16 @@ def main():
         f.write(rosters_blob)
     with open(os.path.join(HERE, "names.bin"), "wb") as f:
         f.write(names_blob)
+    n_hidden = sum(1 for r in manifest if r["hidden"])
     with open(os.path.join(HERE, "characters_manifest.json"), "w") as f:
         json.dump({"record_count": len(order) - len(skipped), "record_size_bytes": 12,
+                   "selectable_count": len(manifest) - n_hidden,
+                   "hidden_count": n_hidden,
                    "skipped_empty_roster": skipped, "characters": manifest}, f, indent=1)
 
     print("emitted %d characters (%d skipped empty)" % (len(order) - len(skipped), len(skipped)))
+    print("  %d selectable, %d hidden below the six-fully-evolved threshold"
+          % (len(manifest) - n_hidden, n_hidden))
     print("  characters.bin: %d bytes (%d records x 12)" % (len(records), len(records) // 12))
     print("  rosters.bin:    %d bytes" % len(rosters_blob))
     print("  names.bin:      %d bytes" % len(names_blob))

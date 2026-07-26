@@ -17,12 +17,18 @@ Checks:
   5. every final evolution the in-ROM bitmap allows is actually listed
   6. the sprite pages mirror ROSTERS.md character for character, row for row
   7. the character counts in ROSTERS.md, ROSTERS_SPRITES.md and README.md agree
+  8. ENCOUNTERS.md lists the same characters, and each one's family counts and
+     repeatable marking match the wild/legendary tables read back out of the
+     BUILT ROM -- not out of the emitted .bin files, which is the same
+     closed-loop problem checks 1-5 exist to avoid
 
-Exit 1 on any mismatch. Run after emit_roster_docs.py, on a built ROM.
+Exit 1 on any mismatch. Run after emit_roster_docs.py + emit_encounter_docs.py,
+on a built ROM.
 """
 import json
 import os
 import re
+import struct
 import sys
 
 import emit_roster_docs as erd
@@ -31,6 +37,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 BUILT = os.path.join(ROOT, "build", "radicalred_cm.gba")
 BITMAPS_ADDR = 0x08C80100          # pinned by tools/inject_character_mode.py
+# keep in sync with tools/inject_character_mode.py
+WILD_OFFSETS_ADDR = 0x08CE0800
+WILD_DATA_ADDR = 0x08CE0C00
+WILD_LEG_OFFSETS_ADDR = 0x08CEA000
+WILD_LEG_DATA_ADDR = 0x08CEA400
 STRIDE = erd.STRIDE
 NUM_SPECIES = erd.NUM_SPECIES
 
@@ -117,18 +128,34 @@ def main():
 
     doc = parse_doc(read(os.path.join(ROOT, "ROSTERS.md")))
     unselectable = set(erd.load_unselectable())
+    hidden = {rec["character"] for rec in manifest if rec.get("hidden")}
 
     for char in doc:
         if char not in rom_allowed:
             fails.append("%s: in ROSTERS.md but not in characters_manifest.json"
                          % char)
-    # Selection gating is not injected yet, so the ROM offers every character and
-    # the docs must list every character. When bit1=hidden lands, subtract
-    # `unselectable` from the expected set here and in emit_roster_docs.
+    # The gate is injected, so the check is "SELECTABLE == documented", not
+    # "enforced == documented": a hidden character still has a bitmap in the ROM
+    # (that is the point -- old saves keep working) but the menu will not offer it,
+    # so documenting it would advertise a code that gets rejected.
     for char in rom_allowed:
+        if char in hidden:
+            if char in doc:
+                fails.append("%s: hidden from the menu but still listed in "
+                             "ROSTERS.md -- re-run emit_roster_docs.py" % char)
+            continue
         if char not in doc:
             fails.append("%s: offered by the ROM but missing from ROSTERS.md"
                          % char)
+    # The manifest bit and the drop list are two different files; if they ever
+    # disagree, one of emit_characters.py / derive_drops.py did not run.
+    stripped = {re.sub(r"\s*\(anime\)$", "", c) for c in hidden}
+    if stripped != unselectable:
+        fails.append("manifest hides %d character(s) but character_drops.json "
+                     "lists %d (%s) -- re-run derive_drops.py then "
+                     "emit_characters.py"
+                     % (len(stripped), len(unselectable),
+                        ", ".join(sorted(stripped ^ unselectable)[:6])))
 
     allowed_name_cache = {}
     for char, listed in doc.items():
@@ -198,14 +225,74 @@ def main():
             fails.append("%s says %d characters, ROSTERS.md lists %d"
                          % (path, got, len(doc)))
 
+    # --- 8. ENCOUNTERS.md vs the tables in the BUILT ROM -------------------
+    enc_path = os.path.join(ROOT, "ENCOUNTERS.md")
+    enc_chars = 0
+    if not os.path.isfile(enc_path):
+        fails.append("ENCOUNTERS.md is missing -- run emit_encounter_docs.py")
+    else:
+        def count_families(addr_off, addr_data, idx, header=0):
+            offs_base = addr_off - 0x08000000
+            off = struct.unpack_from("<I", rom, offs_base + idx * 4)[0]
+            p = addr_data - 0x08000000 + off
+            flags = rom[p] if header else 0
+            p += header
+            return flags, rom[p]
+
+        enc = {}
+        cur = None
+        for line in read(enc_path).splitlines():
+            m = re.match(r"^### (.+?) — ", line)
+            if m:
+                cur = m.group(1).strip()
+                enc[cur] = {"leg": 0, "fam": 0, "repeatable": False}
+                continue
+            if cur is None:
+                continue
+            m = re.match(r"^\*\*Legendary pool \((\d+) famil\w+, (once each|repeatable)\)", line)
+            if m:
+                enc[cur]["leg"] = int(m.group(1))
+                enc[cur]["repeatable"] = m.group(2) == "repeatable"
+            m = re.match(r"^\*\*Roster pool \((\d+) famil", line)
+            if m:
+                enc[cur]["fam"] = int(m.group(1))
+        enc_chars = len(enc)
+
+        if set(enc) != set(doc):
+            fails.append("ENCOUNTERS.md lists %d characters, ROSTERS.md %d "
+                         "(differences: %s)"
+                         % (len(enc), len(doc),
+                            ", ".join(sorted(set(enc) ^ set(doc))[:6])))
+        by_name = {rec["character"]: i for i, rec in enumerate(manifest)}
+        for char, got in enc.items():
+            if char not in by_name:
+                continue
+            i = by_name[char]
+            _f, want_fam = count_families(WILD_OFFSETS_ADDR, WILD_DATA_ADDR, i)
+            flags, want_leg = count_families(WILD_LEG_OFFSETS_ADDR,
+                                             WILD_LEG_DATA_ADDR, i, header=1)
+            if got["fam"] != want_fam:
+                fails.append("%s: ENCOUNTERS.md says %d roster families, the "
+                             "built ROM has %d" % (char, got["fam"], want_fam))
+            if got["leg"] != want_leg:
+                fails.append("%s: ENCOUNTERS.md says %d legendary families, the "
+                             "built ROM has %d" % (char, got["leg"], want_leg))
+            if got["leg"] and got["repeatable"] != bool(flags & 0x1):
+                fails.append("%s: ENCOUNTERS.md marks it %s, the ROM's flags "
+                             "byte says otherwise"
+                             % (char, "repeatable" if got["repeatable"]
+                                else "once each"))
+
     rows = sum(len(v) for v in doc.values())
     print("built ROM:    %d bitmaps read at 0x%08X%s"
           % (n, BITMAPS_ADDR, "" if in_rom == staged else "  (MISMATCH)"))
     print("ROSTERS.md:   %d characters, %d Pokemon rows" % (len(doc), rows))
     print("sprite pages: %d characters, %d cells, %d without a source line"
           % (len(sprite_chars), sprite_rows, missing_src))
-    print("threshold:    %d characters below six fully-evolved (not gated in this "
-          "build, so still documented)" % len(unselectable))
+    print("threshold:    %d of %d characters hidden from the menu (gated in this "
+          "build; records kept so old saves still load)" % (len(hidden), n))
+    print("ENCOUNTERS.md: %d characters, family counts and repeatable flags "
+          "checked against the built ROM's own tables" % enc_chars)
     if fails:
         print("\n%d MISMATCHES:" % len(fails))
         for f in fails[:25]:

@@ -86,6 +86,15 @@ TRADE_WRAPPER_ADDR = 0x08C8E000
 WILD_SHIM_ADDR    = 0x08CE0000
 WILD_OFFSETS_ADDR = 0x08CE0800  # shim compiles to ~1KB (needs __aeabi_uidivmod)
 WILD_DATA_ADDR    = 0x08CE0C00
+# The 1% legendary tables (2026-07-26). They CANNOT share WILD_OFFSETS_ADDR's
+# window: that is 952 of 1,024 B used, i.e. 18 more characters from colliding
+# with WILD_DATA_ADDR. The spec suggested 0x08CE8200, immediately after
+# wild_override.bin -- but measured, that leaves only 250 B of growth room for a
+# table that grows with every roster change, so they go further along the same
+# verified-0xFF run instead, giving wild_override.bin ~8 KB of headroom. The
+# assertions in main() are what actually enforce both gaps.
+WILD_LEG_OFFSETS_ADDR = 0x08CEA000
+WILD_LEG_DATA_ADDR    = 0x08CEA400
 
 # --- Phase 3 character sprites (2026-07-25) ---
 # The 0x08B71D04 block that holds everything above has only ~65 KB left below
@@ -204,10 +213,6 @@ def main():
     _bm0 = bitmaps[0:_stride]
     _on0 = lambda sp: (_bm0[sp >> 3] >> (sp & 7)) & 1
     dbg_give2 = next(sp for sp in range(1, _nspecies) if not _on0(sp))
-    tobias_char_id = next(
-        (i + 1 for i, c in enumerate(chars) if c["character"] == "Tobias"), 0)
-    assert tobias_char_id, "Tobias not in the manifest -- the 1% wild-rate "\
-        "branch would silently apply to nobody"
     print(f"CMDbgGive2 species (off-roster for {chars[0]['character']}): {dbg_give2}")
     assert len(bitmaps) == num_chars * 172, len(bitmaps)
     print(f"character count: {num_chars} (derived from characters_manifest.json)")
@@ -246,14 +251,14 @@ def main():
                     "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
                     f"-DWILD_OFFSETS_ADDR={WILD_OFFSETS_ADDR:#x}",
                     f"-DNUM_CHARACTERS={num_chars}",
-                    # Derived, not hardcoded: this was a literal 185 in the C.
-                    # It is correct only while nothing is inserted before Tobias
-                    # in characters.txt -- and if that ever happened, some
-                    # unrelated character would silently inherit the 1%
-                    # legendary-inclusive wild rate and Tobias would silently
-                    # get 10%, with no test able to notice.
-                    f"-DTOBIAS_CHAR_ID={tobias_char_id}",
+                    # -DTOBIAS_CHAR_ID is gone (2026-07-26). Tobias's hand-coded
+                    # 1% legendary-inclusive table was replaced by the general
+                    # legendary rule, which reproduces it exactly. The three
+                    # sites -- here, the C, and emit_wild_override.py -- were
+                    # deleted together on purpose.
                     f"-DWILD_DATA_ADDR={WILD_DATA_ADDR:#x}",
+                    f"-DWILD_LEG_OFFSETS_ADDR={WILD_LEG_OFFSETS_ADDR:#x}",
+                    f"-DWILD_LEG_DATA_ADDR={WILD_LEG_DATA_ADDR:#x}",
                     "-o", str(wobj), str(ROOT / "src" / "wild_encounter_mode.c")],
                    check=True)
     # Linked via the gcc driver (not raw ld, unlike the shim above) so that
@@ -272,8 +277,18 @@ def main():
     wsym = subprocess.run(["arm-none-eabi-nm", str(welf)], check=True,
                           capture_output=True, text=True).stdout
     wm = re.search(r"^([0-9a-f]+) T CM_CreateWildMonGated$", wsym, re.M)
-    assert wm and int(wm.group(1), 16) == WILD_SHIM_ADDR, f"wild shim entry not at WILD_SHIM_ADDR:\n{wsym}"
-    print(f"wild-encounter shim: {len(wild_shim)} bytes @ {WILD_SHIM_ADDR:#x}")
+    assert wm, f"CM_CreateWildMonGated not in the wild shim ELF:\n{wsym}"
+    # RESOLVED from the ELF, not assumed to be the first thing in the blob. This
+    # used to assert `== WILD_SHIM_ADDR` and held only by luck of source order:
+    # adding the legendary picker's CM_MatchStage helper made gcc emit THAT
+    # first, and the four BL sites would have branched into the middle of a
+    # helper. Exactly the trap the mugshot renderer's two entry points already
+    # sprang -- gcc orders functions however it likes.
+    wild_entry = int(wm.group(1), 16)
+    assert WILD_SHIM_ADDR <= wild_entry < WILD_SHIM_ADDR + len(wild_shim), \
+        f"entry {wild_entry:#x} outside the shim blob"
+    print(f"wild-encounter shim: {len(wild_shim)} bytes @ {WILD_SHIM_ADDR:#x} "
+          f"(entry CM_CreateWildMonGated @ {wild_entry:#x})")
 
     # --- 1c. compile the mugshot renderer (third compile unit; see the
     # CM_SPRITE_SHIM_ADDR comment for why it needs no BL-reach window). Both
@@ -312,6 +327,26 @@ def main():
     wild_data = (HERE / "character_mode" / "wild_override.bin").read_bytes()
     wild_offsets = (HERE / "character_mode" / "wild_override_offsets.bin").read_bytes()
     assert len(wild_offsets) == len(chars) * 4, len(wild_offsets)
+    leg_data = (HERE / "character_mode" / "wild_legendary.bin").read_bytes()
+    leg_offsets = (HERE / "character_mode" / "wild_legendary_offsets.bin").read_bytes()
+    assert len(leg_offsets) == len(chars) * 4, len(leg_offsets)
+    # Both tables grow with the roster and both sit in the same 0xFF run, so the
+    # gaps between them are load-bearing. Without these, an overflow surfaces as
+    # splice()'s generic "target not 0xFF-free", which reads like a free-space
+    # problem rather than "the table outgrew its window".
+    assert WILD_SHIM_ADDR + len(wild_shim) <= WILD_OFFSETS_ADDR, (
+        f"wild shim is {len(wild_shim)} B, past WILD_OFFSETS_ADDR -- only "
+        f"{WILD_OFFSETS_ADDR - WILD_SHIM_ADDR} B of window (it grew from 976 to "
+        f"1344 B when the legendary picker landed)")
+    assert WILD_OFFSETS_ADDR + len(wild_offsets) <= WILD_DATA_ADDR, (
+        f"wild offsets ({len(wild_offsets)} B) overrun WILD_DATA_ADDR -- "
+        f"{(WILD_DATA_ADDR - WILD_OFFSETS_ADDR) // 4} characters is the ceiling here")
+    assert WILD_DATA_ADDR + len(wild_data) <= WILD_LEG_OFFSETS_ADDR, (
+        f"wild_override.bin ({len(wild_data)} B) reaches "
+        f"{WILD_DATA_ADDR + len(wild_data):#x}, past WILD_LEG_OFFSETS_ADDR "
+        f"{WILD_LEG_OFFSETS_ADDR:#x} -- move the legendary tables further along")
+    assert WILD_LEG_OFFSETS_ADDR + len(leg_offsets) <= WILD_LEG_DATA_ADDR, (
+        f"legendary offsets ({len(leg_offsets)} B) overrun WILD_LEG_DATA_ADDR")
 
     # --- 2. build the selection script extension ---
     # Layout inside the script blob (single pass with fixups):
@@ -333,10 +368,36 @@ def main():
         aliases.append(a)
     for code, _ in debug_codes:
         assert code not in seen
+    # Aliases are derived for EVERY character, including hidden ones, so the
+    # uniqueness and length assertions above still cover a character that a later
+    # roster change un-hides. Only the chain below is filtered.
+
+    # --- the threshold gate (push_rosters.md §3) ---------------------------
+    # A character below the six-fully-evolved threshold (flags bit1, set by
+    # emit_characters.py from character_drops.json) gets NO check block and NO
+    # handler: typing its name falls off the end of the chain into Radical Red's
+    # own "Invalid code." handler, exactly as any unrecognised code does.
+    #
+    # What is deliberately NOT filtered: the character's record, its allow-bitmap,
+    # its wild-override table and its sprite pointer all stay at the same index.
+    # Saves store the character INDEX, so a save that already selected a
+    # now-hidden character keeps playing with full enforcement -- only the
+    # selection path refuses. Never gate enforcement on this bit.
+    selectable = [(i, c) for i, c in enumerate(chars) if not c.get("hidden")]
+    hidden = [c["character"] for c in chars if c.get("hidden")]
+    assert selectable, "every character is hidden -- character_drops.json is wrong"
+    # Character 0 is what CMDbgGive2's off-roster species was derived from and
+    # what the debug codes exercise; it must remain reachable.
+    assert not chars[0].get("hidden"), \
+        f"character 0 ({chars[0]['character']}) is hidden -- the debug codes " \
+        "derive their fixtures from it"
+    print(f"selection gate: {len(selectable)} selectable, {len(hidden)} hidden "
+          f"below threshold" + (f" ({', '.join(hidden[:6])}"
+                                f"{', ...' if len(hidden) > 6 else ''})" if hidden else ""))
 
     CHECK_SIZE = len(op_loadword(0) + op_special(0x12D) + op_compare(0x800D, 0) + op_goto_if(1, 0))
     assert CHECK_SIZE == 20
-    n_checks = len(debug_codes) + len(chars)
+    n_checks = len(debug_codes) + len(selectable)
     chain_size = n_checks * CHECK_SIZE + len(op_goto(0))
 
     # handlers
@@ -357,7 +418,7 @@ def main():
         h_addrs[code] = cur
         cur += H_OFF_SIZE if kind == "off" else H_GIVE_SIZE
     char_h_addrs = []
-    for _ in chars:
+    for _ in selectable:
         char_h_addrs.append(cur)
         cur += H_CHAR_SIZE
     strings_addr = cur
@@ -374,12 +435,14 @@ def main():
     add_str("msg:off", "Character Mode is now off.")
     add_str("msg:give_ok", "Debug: tried to give Pikachu.")
     add_str("msg:give_bad", "Debug: off-roster give test.")
-    for i, (c, a) in enumerate(zip(chars, aliases)):
-        add_str(f"alias:{i}", a)
+    # keyed by CHAIN SLOT j, not table index i -- the two diverge once anyone is
+    # hidden, and mixing them up would point a handler at the wrong name.
+    for j, (i, c) in enumerate(selectable):
+        add_str(f"alias:{j}", aliases[i])
         disp = c["character"]
         if disp.endswith(" (anime)"):
             disp = disp[:-len(" (anime)")]
-        add_str(f"msg:{i}", f"Character Mode:\nyou are now {disp}!")
+        add_str(f"msg:{j}", f"Character Mode:\nyou are now {disp}!")
 
     # emit chain
     blob = bytearray()
@@ -388,11 +451,11 @@ def main():
         blob += op_special(0x12D)
         blob += op_compare(0x800D, 0)
         blob += op_goto_if(1, h_addrs[code])
-    for i in range(len(chars)):
-        blob += op_loadword(str_addrs[f"alias:{i}"])
+    for j in range(len(selectable)):
+        blob += op_loadword(str_addrs[f"alias:{j}"])
         blob += op_special(0x12D)
         blob += op_compare(0x800D, 0)
-        blob += op_goto_if(1, char_h_addrs[i])
+        blob += op_goto_if(1, char_h_addrs[j])
     blob += op_goto(INVALID_CODE_HANDLER)
     assert len(blob) == chain_size
 
@@ -408,21 +471,23 @@ def main():
             blob += op_givepokemon(species, 5)
             blob += op_loadword(str_addrs["msg:" + kind])
         blob += op_callstd(6) + op_release() + op_end()
-    for i, c in enumerate(chars):
-        assert SCRIPT_ADDR + len(blob) == char_h_addrs[i]
+    for j, (i, c) in enumerate(selectable):
+        assert SCRIPT_ADDR + len(blob) == char_h_addrs[j]
         sig = c["roster_species_ids"][0]
+        # i, the TABLE index, is what the save stores -- not j, the chain slot.
         blob += op_setvar(VAR_CHARACTER_ID, i + 1)
         blob += op_setflag(FLAG_CHARACTER_MODE)
         blob += op_givepokemon(sig, 5)
         blob += op_callnative(SHOW_MUGSHOT)
-        blob += op_loadword(str_addrs[f"msg:{i}"])
+        blob += op_loadword(str_addrs[f"msg:{j}"])
         blob += op_callstd(6)
         blob += op_callnative(HIDE_MUGSHOT)
         blob += op_release() + op_end()
     assert SCRIPT_ADDR + len(blob) == strings_addr
     blob += strings
     print(f"script extension: {len(blob)} bytes @ {SCRIPT_ADDR:#x} "
-          f"({n_checks} codes: {len(debug_codes)} debug + {len(chars)} characters)")
+          f"({n_checks} codes: {len(debug_codes)} debug + {len(selectable)} "
+          f"selectable characters; {len(hidden)} hidden)")
 
     # --- 3. splice + patch ---
     spliced = []
@@ -473,6 +538,8 @@ def main():
               f"{len(spr_blobs):,} B of art @ {CM_SPRITE_BLOBS_ADDR:#x}, "
               f"table @ {CM_SPRITE_PTRS_ADDR:#x}")
     splice(WILD_DATA_ADDR, wild_data, "wild-encounter data")
+    splice(WILD_LEG_OFFSETS_ADDR, leg_offsets, "legendary-encounter offsets")
+    splice(WILD_LEG_DATA_ADDR, leg_data, "legendary-encounter data")
 
     # BL retargets (verify current bytes first)
     for site in (BL_SITE_CATCH, BL_SITE_GIFT):
@@ -487,9 +554,16 @@ def main():
         expect = thumb_bl(0x08000000 + site, CREATEWILDMON_ADDR)
         assert cur_bl == expect, (f"wild BL site {site:#x} bytes {cur_bl.hex()} != expected "
                                   f"BL CreateWildMon {expect.hex()} — wrong ROM or already patched")
-        data[site:site + 4] = thumb_bl(0x08000000 + site, WILD_SHIM_ADDR)
+        data[site:site + 4] = thumb_bl(0x08000000 + site, wild_entry)
+    n_leg_chars = sum(1 for i in range(len(chars))
+                      if leg_data[struct.unpack_from("<I", leg_offsets, i * 4)[0] + 1])
+    n_repeat = sum(1 for i in range(len(chars))
+                   if leg_data[struct.unpack_from("<I", leg_offsets, i * 4)[0]] & 1)
     print("wild-encounter override: 4 BL sites retargeted "
-          "(10% chance, non-legendary roster members only)")
+          "(1% legendary, then 10% non-legendary roster members)")
+    print(f"legendary encounters: {len(leg_data):,} B @ {WILD_LEG_DATA_ADDR:#x}, "
+          f"offsets @ {WILD_LEG_OFFSETS_ADDR:#x}; {n_leg_chars}/{len(chars)} "
+          f"characters have a legendary pool, {n_repeat} repeatable")
 
     # goto retarget
     cur_goto = struct.unpack_from("<I", data, GOTO_OPERAND_OFF)[0]
@@ -539,7 +613,7 @@ def main():
 
     # summary of typed codes for the report
     print("\nSelection codes (type at the cheat-code NPC):")
-    print("  " + ", ".join(aliases[:8]) + ", ...")
+    print("  " + ", ".join(aliases[i] for i, _ in selectable[:8]) + ", ...")
     print("Debug codes: " + ", ".join(c for c, _ in debug_codes))
 
 
