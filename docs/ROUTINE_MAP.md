@@ -358,3 +358,94 @@ CLAUDE.md's status entry for exact numbers.
 ## CONFIRMED — naming-screen length precedent for the selection codes
 
 RR's own original cheat-code chain (walked backwards from the fallthrough goto at `0x10500EE`) registers exactly five codes: `Woyaopp` (7), `DexAll` (6), `SO2Toxic` (8), `TeamPreview` (11), `EZCatch` (7). **`TeamPreview` at 11 characters proves the `special 0x12C` naming screen accepts 11-char input** — the injected character aliases (asserted ≤11 chars at build time, longest are 11) are within RR's own demonstrated precedent, not an assumption.
+
+---
+
+## CONFIRMED — script `callnative` + the sprite API (mugshot renderer, 2026-07-25)
+
+Everything the Phase 3 render surface (`src/character_sprite.c`) depends on, each
+verified against **this ROM** (rom.sha1) by disassembly rather than taken on trust
+from `tools/cfru_donor/BPRE.ld`. BPRE.ld supplied the candidate addresses; the
+disassembly is what makes them findings.
+
+### gScriptCmdTable = `0x0815F9B4`, 213 commands (0xD5)
+
+Found with `../Lazarus-Character-Mode/tools/find_script_cmd_table.py` (adjacent
+literal-pool pair `cmdTable`/`cmdTableEnd`). Literal-pool references at file
+`0x00069A9C`, `0x00069B1C`, `0x00069B78` — i.e. the script interpreter really uses it.
+
+⚠️ The same tool also reports a 444-entry table at `0x0815FD60`. That is **`gSpecials`**
+(already recorded elsewhere in this file), not a second command table. Do not index
+script commands into it.
+
+**Entry `0x23` = `ScrCmd_callnative` = `0x08069F95`:**
+
+```
+8069f94: b500        push {lr}
+8069f96: f7ff fcbb   bl 0x8069910     @ ScriptReadWord -> the 4-byte operand
+8069f9a: f179 fe05   bl 0x81e3ba8     @ indirect-call thunk (bx r0)
+8069f9e: 2000        movs r0, #0      @ FALSE -> interpreter continues
+8069fa0: bc02        pop {r1}
+8069fa2: 4708        bx r1
+```
+
+So injected C is reachable from event script as `.byte 0x23; .4byte func|1`, with an
+**absolute** operand — this is why the whole mugshot feature has no Thumb-BL ±4 MB
+reach constraint and could be placed at `0x08980000`, far outside the window the
+enforcement shim is confined to.
+
+### struct Sprite layout, read out of CreateSprite / CreateSpriteAt
+
+`CreateSprite = 0x08006F8C`:
+```
+8006f98: ldr r0, [pc, #44]   @ pool @0x8006fc8 = 0x0202063C   -> gSprites
+8006fa0: lsls r0, r3, #4     @ i*16
+8006fa2: adds r0, r0, r3     @ +i      = i*17
+8006fa4: lsls r0, r0, #2     @ *4      = i*68 = 0x44 stride
+8006fa8: adds r0, #62        @ +0x3E
+8006faa: ldrb r0, [r0, #0]
+8006fac: lsls r0, r0, #31    @ test bit 0        -> inUse
+8006fd2: cmp r3, #63                              -> 64 sprites
+```
+`CreateSpriteAt = 0x08007094`:
+```
+8007108: str r1, [r7, #20]   @ r1 = template     -> sprite->template at +0x14
+800710c: str r0, [r7, #28]   @                   -> callback at +0x1C
+800710e: strh r5, [r7, #32]  @                   -> pos x at +0x20 (centre)
+8007110: strh r6, [r7, #34]  @                   -> pos y at +0x22
+800712c: cmp r1, r0 / bne    @ tileTag vs TAG_NONE: images are only consulted
+                            @ when tileTag == 0xFFFF, so a tag-based template
+                            @ must leave images NULL
+```
+
+**Confirmed: `gSprites` = `0x0202063C`, stride `0x44`, 64 entries, `inUse` = `+0x3E`
+bit 0, `template` = `+0x14`, `callback` = `+0x1C`, `pos` = `+0x20`/`+0x22`.**
+
+### Compressed-asset entry points and their struct shapes
+
+`LoadCompressedSpriteSheet = 0x0800EBCC`:
+```
+800ebd2: ldr r0, [r4, #0]    @ +0x00 u32 data
+800ebde: ldrh r1, [r4, #6]   @ +0x06 u16 tag
+800ebe2: ldrh r0, [r4, #4]   @ +0x04 u16 size  (DECOMPRESSED size, 2048 for 64x64)
+800ebea: bl 0x80086dc        @ LoadSpriteSheet
+```
+`LoadCompressedSpritePalette = 0x0800EC28`:
+```
+800ec2e: ldr r0, [r5, #0]    @ +0x00 u32 data
+800ec3a: ldrh r2, [r5, #4]   @ +0x04 u16 tag
+800ec48: bl 0x8008928        @ LoadSpritePalette -> returns 0xFF if no free slot
+```
+Also verified present and correct: `SpriteCallbackDummy = 0x0800760C` (`bx lr`),
+`gDummySpriteAnimTable = 0x08231CF0` (→ `0x08231CEC`),
+`gDummySpriteAffineAnimTable = 0x08231CFC` (→ `0x08231CF4`),
+`DestroySprite = 0x08007280`, `FreeSpriteTilesByTag = 0x0800874C`,
+`FreeSpritePaletteByTag = 0x08008A30`.
+
+### Bedroom console script operand (test fixture)
+
+Console script `0x0905006F` decodes as `lock(1) signmsg(1) loadword(6) callstd 5(2)
+compare 0x800D,1(5) goto_if(6)`, so the `goto_if eq` operand is at file **`0x1050080`**
+and originally reads `0x09050086` (the code-entry chain).
+`tools/tests/build_mugshot_testrom.py` repoints exactly that one word at a character
+handler so headless tests can reach a handler without driving the naming-screen grid.

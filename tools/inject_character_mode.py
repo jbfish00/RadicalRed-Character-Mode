@@ -91,6 +91,12 @@ WILD_DATA_ADDR    = 0x08CE0C00
 # touches. Verified free by the 0xFF precondition check in splice().
 CM_SPRITE_PTRS_ADDR  = 0x08952000   # NUM_CHARACTERS x {u32 gfx, u32 pal}
 CM_SPRITE_BLOBS_ADDR = 0x08952800   # LZ77 gfx+palette streams, concatenated
+# The mugshot renderer (src/character_sprite.c). Sits past the ~147 KB of art in
+# the same 713 KB 0xFF run; the 0xFF precondition in splice() is what actually
+# proves it clear. No BL-reach constraint applies -- every engine call it makes
+# goes through a function pointer (ldr/blx), and the script reaches it by an
+# absolute `callnative` operand, not a relative branch.
+CM_SPRITE_SHIM_ADDR  = 0x08980000
 CREATEWILDMON_ADDR = 0x090C292C  # no Thumb bit, current BL target at all 4 sites
 BL_SITE_LAND_MAIN   = 0x10C2FDA  # inside TryGenerateWildMon (primary)
 BL_SITE_LAND_DOUBLE = 0x10C30CE  # inside TryGenerateWildMon (double battle)
@@ -146,6 +152,7 @@ def op_setvar(var, val):    return bytes([0x16]) + struct.pack("<HH", var, val)
 def op_setflag(f):          return bytes([0x29]) + struct.pack("<H", f)
 def op_clearflag(f):        return bytes([0x2A]) + struct.pack("<H", f)
 def op_callstd(n):          return bytes([0x09, n])
+def op_callnative(addr):    return bytes([0x23]) + struct.pack("<I", addr)
 def op_release():           return bytes([0x6C])
 def op_end():               return bytes([0x02])
 def op_givepokemon(species, level, item=0):
@@ -226,6 +233,39 @@ def main():
     assert wm and int(wm.group(1), 16) == WILD_SHIM_ADDR, f"wild shim entry not at WILD_SHIM_ADDR:\n{wsym}"
     print(f"wild-encounter shim: {len(wild_shim)} bytes @ {WILD_SHIM_ADDR:#x}")
 
+    # --- 1c. compile the mugshot renderer (third compile unit; see the
+    # CM_SPRITE_SHIM_ADDR comment for why it needs no BL-reach window). Both
+    # entry points are resolved from the linked ELF rather than assumed to be
+    # at a fixed order/offset -- gcc is free to emit them in either order, and
+    # the script's `callnative` operands have to be exactly right. ---
+    sobj = BUILD / "character_sprite.o"
+    selfp = BUILD / "character_sprite.elf"
+    sbin = BUILD / "character_sprite.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    f"-DSPRITE_PTRS_ADDR={CM_SPRITE_PTRS_ADDR:#x}",
+                    "-o", str(sobj), str(ROOT / "src" / "character_sprite.c")],
+                   check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{CM_SPRITE_SHIM_ADDR:#x}",
+                    "--entry", "CM_ShowCharacterMugshot",
+                    "-o", str(selfp), str(sobj)], check=True)
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(selfp), str(sbin)], check=True)
+    sprite_shim = sbin.read_bytes()
+    ssym = subprocess.run(["arm-none-eabi-nm", str(selfp)], check=True,
+                          capture_output=True, text=True).stdout
+    def sprite_sym(name):
+        m = re.search(rf"^([0-9a-f]+) [Tt] {name}$", ssym, re.M)
+        assert m, f"{name} not found in:\n{ssym}"
+        a = int(m.group(1), 16)
+        assert CM_SPRITE_SHIM_ADDR <= a < CM_SPRITE_SHIM_ADDR + len(sprite_shim), \
+            f"{name} at {a:#x} outside the spliced blob"
+        return a | 1                      # callnative operands carry the Thumb bit
+    SHOW_MUGSHOT = sprite_sym("CM_ShowCharacterMugshot")
+    HIDE_MUGSHOT = sprite_sym("CM_HideCharacterMugshot")
+    print(f"mugshot renderer: {len(sprite_shim)} bytes @ {CM_SPRITE_SHIM_ADDR:#x} "
+          f"(show {SHOW_MUGSHOT:#x}, hide {HIDE_MUGSHOT:#x})")
+
     wild_data = (HERE / "character_mode" / "wild_override.bin").read_bytes()
     wild_offsets = (HERE / "character_mode" / "wild_override_offsets.bin").read_bytes()
     assert len(wild_offsets) == len(chars) * 4, len(wild_offsets)
@@ -259,8 +299,12 @@ def main():
     # handlers
     H_OFF_SIZE  = len(op_clearflag(0) + op_setvar(0, 0) + op_loadword(0) + op_callstd(6) + op_release() + op_end())
     H_GIVE_SIZE = len(op_givepokemon(0, 5) + op_loadword(0) + op_callstd(6) + op_release() + op_end())
+    # Character handlers additionally bracket the confirm message with the two
+    # mugshot callnatives (callstd 6 blocks until the player dismisses the box,
+    # so the sprite stays up for exactly as long as the message does).
     H_CHAR_SIZE = len(op_setvar(0, 0) + op_setflag(0) + op_givepokemon(0, 5)
-                      + op_loadword(0) + op_callstd(6) + op_release() + op_end())
+                      + op_callnative(0) + op_loadword(0) + op_callstd(6)
+                      + op_callnative(0) + op_release() + op_end())
 
     chain_addr = SCRIPT_ADDR
     handlers_addr = chain_addr + chain_size
@@ -327,25 +371,40 @@ def main():
         blob += op_setvar(VAR_CHARACTER_ID, i + 1)
         blob += op_setflag(FLAG_CHARACTER_MODE)
         blob += op_givepokemon(sig, 5)
+        blob += op_callnative(SHOW_MUGSHOT)
         blob += op_loadword(str_addrs[f"msg:{i}"])
-        blob += op_callstd(6) + op_release() + op_end()
+        blob += op_callstd(6)
+        blob += op_callnative(HIDE_MUGSHOT)
+        blob += op_release() + op_end()
     assert SCRIPT_ADDR + len(blob) == strings_addr
     blob += strings
     print(f"script extension: {len(blob)} bytes @ {SCRIPT_ADDR:#x} "
           f"({n_checks} codes: {len(debug_codes)} debug + {len(chars)} characters)")
 
     # --- 3. splice + patch ---
+    spliced = []
+
     def splice(rom_addr, payload, label):
         off = rom_addr - 0x08000000
         assert off + len(payload) <= FREE_BLOCK_END, f"{label} overruns free block"
         seg = data[off:off + len(payload)]
         assert all(b == 0xFF for b in seg), f"{label}: target not 0xFF-free at {rom_addr:#x}"
+        # The 0xFF precondition alone would miss an overlap whose already-written
+        # bytes happen to be 0xFF, so check the regions against each other too.
+        # A stale hardcoded size elsewhere shows up here as a real error rather
+        # than as garbled data several test layers later.
+        for o_off, o_len, o_label in spliced:
+            assert off >= o_off + o_len or off + len(payload) <= o_off, \
+                (f"{label} @ {rom_addr:#x} (+{len(payload)}) overlaps "
+                 f"{o_label} @ {o_off + 0x08000000:#x} (+{o_len})")
+        spliced.append((off, len(payload), label))
         data[off:off + len(payload)] = payload
 
     splice(SHIM_ADDR, shim, "shim")
     splice(BITMAPS_ADDR, bitmaps, "bitmaps")
     splice(SCRIPT_ADDR, blob, "script")
     splice(WILD_SHIM_ADDR, wild_shim, "wild-encounter shim")
+    splice(CM_SPRITE_SHIM_ADDR, sprite_shim, "mugshot renderer")
     splice(WILD_OFFSETS_ADDR, wild_offsets, "wild-encounter offsets")
 
     # --- character sprites: blobs, then a table of absolute ROM pointers ---

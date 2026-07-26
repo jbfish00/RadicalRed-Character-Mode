@@ -75,6 +75,7 @@ WILD_OFFSETS_ADDR = 0x08CE0800
 WILD_DATA_ADDR = 0x08CE0C00
 CM_SPRITE_PTRS_ADDR = 0x08952000   # keep in sync with inject_character_mode.py
 CM_SPRITE_BLOBS_ADDR = 0x08952800
+CM_SPRITE_SHIM_ADDR = 0x08980000   # mugshot renderer (src/character_sprite.c)
 WILD_BL_SITES = (0x10C2FDA, 0x10C30CE, 0x10C3A94, 0x10C3AD0)
 CREATEWILDMON_ADDR = 0x090C292C
 
@@ -166,11 +167,16 @@ def main():
     wsend = wsoff
     while not all(b == 0xFF for b in patched[wsend:wsend + 64]):
         wsend += 64
+    msoff = CM_SPRITE_SHIM_ADDR - 0x08000000
+    msend = msoff
+    while not all(b == 0xFF for b in patched[msend:msend + 64]):
+        msend += 64
     intended = [(SHIM_ADDR - 0x08000000, SHIM_ADDR - 0x08000000 + 0x100),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
                 (wsoff, wsend),
+                (msoff, msend),
                 (WILD_OFFSETS_ADDR - 0x08000000, WILD_OFFSETS_ADDR - 0x08000000 + len(wild_offsets)),
                 (WILD_DATA_ADDR - 0x08000000, WILD_DATA_ADDR - 0x08000000 + len(wild_data)),
                 (CM_SPRITE_PTRS_ADDR - 0x08000000,
@@ -280,7 +286,13 @@ def main():
     check("chain tail = goto Invalid-code handler",
           tail[0] == 0x05 and struct.unpack_from("<I", tail, 1)[0] == INVALID_CODE_HANDLER)
 
-    if chain_ok and len(checks_parsed) == 202:
+    # Derived, never hardcoded: this was literally `== 202` (the 199-character
+    # era), so from the moment the roster grew to 210 this entire block — debug
+    # strings, every alias round-trip, every handler decode — was silently
+    # skipped while the suite still reported green. Same trap the count-derivation
+    # elsewhere in this file exists to avoid; it just failed by omission here
+    # rather than by a wrong-looking error.
+    if chain_ok and len(checks_parsed) == NUM_CHARS + 3:
         # debug code strings
         dbg_names = ["CMDbgOff", "CMDbgGive1", "CMDbgGive2"]
         for i, name in enumerate(dbg_names):
@@ -290,6 +302,7 @@ def main():
 
         # character aliases + handlers
         bad_alias = bad_handler = 0
+        show_ops, hide_ops = set(), set()
         for i, c in enumerate(chars):
             saddr, haddr = checks_parsed[3 + i]
             raw = read_text(saddr)
@@ -299,22 +312,49 @@ def main():
                 if bad_alias <= 3:
                     print(f"    alias mismatch [{i}] {c['character']}: {decoded!r}")
                 continue
-            h = rd(haddr, 30)
+            # setvar(5) setflag(3) givepokemon(15) callnative(5) loadword(6)
+            # callstd(2) callnative(5) release(1) end(1) = 43 bytes
+            h = rd(haddr, 43)
             ok = (h[0] == 0x16 and struct.unpack_from("<HH", h, 1) == (VAR_ID, i + 1)
                   and h[5] == 0x29 and struct.unpack_from("<H", h, 6)[0] == FLAG_CM
                   and h[8] == 0x79
                   and struct.unpack_from("<H", h, 9)[0] == c["roster_species_ids"][0]
                   and h[11] == 5      # level
-                  and h[23] == 0x0F   # loadword msg
-                  and h[29] == 0x09)  # callstd
+                  and h[23] == 0x23   # callnative CM_ShowCharacterMugshot
+                  and h[28] == 0x0F   # loadword msg
+                  and h[34] == 0x09   # callstd (blocks until the box is dismissed)
+                  and h[36] == 0x23   # callnative CM_HideCharacterMugshot
+                  and h[41] == 0x6C   # release
+                  and h[42] == 0x02)  # end
+            if ok:
+                show_ops.add(struct.unpack_from("<I", h, 24)[0])
+                hide_ops.add(struct.unpack_from("<I", h, 37)[0])
             if not ok:
                 bad_handler += 1
                 if bad_handler <= 3:
                     print(f"    handler mismatch [{i}] {c['character']} @{haddr:#x}: {h.hex()}")
-        check("all 184 alias strings decode to expected names", bad_alias == 0,
-              f"{bad_alias} mismatches")
-        check("all 184 handlers: setvar id, setflag, givepokemon(signature, L5), msgbox",
+        check(f"all {len(chars)} alias strings decode to expected names",
+              bad_alias == 0, f"{bad_alias} mismatches")
+        check(f"all {len(chars)} handlers: setvar id, setflag, "
+              "givepokemon(signature, L5), show-mugshot, msgbox, hide-mugshot",
               bad_handler == 0, f"{bad_handler} mismatches")
+
+        # The two callnative operands are re-derived here from the ROM alone --
+        # no build artifact says what they should be. Every handler must name
+        # the same two entry points, both Thumb, both inside the renderer blob,
+        # and they must not be the same function.
+        check("every handler calls the same mugshot show/hide pair",
+              len(show_ops) == 1 and len(hide_ops) == 1,
+              f"show={[hex(x) for x in show_ops]} hide={[hex(x) for x in hide_ops]}")
+        if len(show_ops) == 1 and len(hide_ops) == 1:
+            show, hide = show_ops.pop(), hide_ops.pop()
+            check("mugshot callnative operands are Thumb pointers into the renderer",
+                  all(a & 1 and msoff + 0x08000000 <= (a & ~1) < msend + 0x08000000
+                      for a in (show, hide)),
+                  f"show={show:#x} hide={hide:#x} blob=[{msoff + 0x08000000:#x},"
+                  f"{msend + 0x08000000:#x})")
+            check("show and hide are distinct entry points", show != hide,
+                  f"both {show:#x}")
 
         # debug handlers
         h = rd(checks_parsed[0][1], 12)
@@ -475,6 +515,50 @@ def main():
             mismatch.append((i, chars[i]["character"], hex(sid), hex(g)))
     check("characters.bin sprite_asset_id agrees with the in-ROM pointer table",
           not mismatch, f"{mismatch[:5]}")
+
+    print("== 10. mugshot renderer ==")
+    ms_bin = ROOT / "build" / "character_sprite.bin"
+    if ms_bin.is_file():
+        blob = ms_bin.read_bytes()
+        check("renderer blob in ROM == build/character_sprite.bin",
+              patched[msoff:msoff + len(blob)] == blob, f"{len(blob)} bytes")
+    check("renderer starts with push {..,lr}", patched[msoff + 1] == 0xB5)
+
+    # Find the SpriteTemplate inside the blob and check every pointer it hands
+    # the engine. A template that assembles cleanly but names a wrong address is
+    # the failure mode that would show up on screen as garbage, not as a crash,
+    # so it is worth pinning here rather than trusting the compiler.
+    #   {u16 tileTag, u16 palTag, u32 oam, u32 anims, u32 images,
+    #    u32 affineAnims, u32 callback}
+    GDUMMY_ANIM, GDUMMY_AFFINE = 0x08231CF0, 0x08231CFC
+    SPRITE_CB_DUMMY = 0x0800760D
+    tmpl = None
+    for off in range(msoff, msend - 24, 4):
+        w = struct.unpack_from("<5I", patched, off + 4)
+        if w[1] == GDUMMY_ANIM and w[3] == GDUMMY_AFFINE and w[4] == SPRITE_CB_DUMMY:
+            tmpl = off
+            break
+    check("SpriteTemplate located in the renderer blob", tmpl is not None)
+    if tmpl is not None:
+        tile_tag, pal_tag = struct.unpack_from("<HH", patched, tmpl)
+        oam_ptr, _, images, _, _ = struct.unpack_from("<5I", patched, tmpl + 4)
+        check("template tile/palette tags are distinct and non-TAG_NONE",
+              tile_tag != pal_tag and 0xFFFF not in (tile_tag, pal_tag),
+              f"{tile_tag:#x}/{pal_tag:#x}")
+        check("template images == NULL (required when tileTag != TAG_NONE)",
+              images == 0, hex(images))
+        check("template oam pointer lands inside the renderer blob",
+              msoff + 0x08000000 <= oam_ptr < msend + 0x08000000, hex(oam_ptr))
+        if msoff + 0x08000000 <= oam_ptr < msend + 0x08000000:
+            attr0, attr1, attr2, _ = struct.unpack_from("<4H", patched,
+                                                        oam_ptr - 0x08000000)
+            # 64x64 = shape square (attr0 bits 14-15 == 0) + size 3 (attr1 bits
+            # 14-15 == 3). Getting this wrong renders a corner of the art at the
+            # wrong scale rather than failing.
+            check("OAM describes a 64x64 4bpp square sprite at priority 0",
+                  (attr0 >> 14) == 0 and ((attr0 >> 13) & 1) == 0
+                  and (attr1 >> 14) == 3 and ((attr2 >> 10) & 3) == 0,
+                  f"attr0={attr0:#06x} attr1={attr1:#06x} attr2={attr2:#06x}")
 
     print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
     return 1 if failures else 0
