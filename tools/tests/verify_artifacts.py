@@ -361,7 +361,18 @@ def main():
         check("CMDbgOff handler: clearflag CM + setvar 0",
               h[0] == 0x2A and struct.unpack_from("<H", h, 1)[0] == FLAG_CM
               and h[3] == 0x16 and struct.unpack_from("<HH", h, 4) == (VAR_ID, 0))
-        for i, species in ((1, 25), (2, 52)):
+        # CMDbgGive2's species is DERIVED here from character 0's in-ROM bitmap,
+        # independently of the injector. It used to be the literal 52 (Meowth),
+        # which joined Red's roster when the roster grew -- so the debug code
+        # silently stopped exercising the off-roster path while this check still
+        # passed. Re-deriving means the check fails if the two ever disagree,
+        # and it also proves the species really is off-roster.
+        bm0 = patched[BITMAPS_ADDR - 0x08000000:BITMAPS_ADDR - 0x08000000 + STRIDE]
+        on0 = lambda sp: (bm0[sp >> 3] >> (sp & 7)) & 1
+        want_give2 = next(sp for sp in range(1, STRIDE * 8) if not on0(sp))
+        check(f"CMDbgGive2 species {want_give2} is genuinely off character 0's roster",
+              not on0(want_give2))
+        for i, species in ((1, 25), (2, want_give2)):
             h = rd(checks_parsed[i][1], 12)
             check(f"CMDbg{'Give1' if i == 1 else 'Give2'} handler: givepokemon {species} L5",
                   h[0] == 0x79 and struct.unpack_from("<H", h, 1)[0] == species and h[3] == 5)
@@ -459,7 +470,11 @@ def main():
     legendary_ids = {sid for sid, info in dex_species.items() if info["name"] in LEGENDARY_NAMES}
     bad_legendary = []
     tobias_ci = next(i for i, c in enumerate(chars) if c["character"] == "Tobias")
-    for ci in range(185):
+    # NOT range(185): that literal predates the roster growing to NUM_CHARS and
+    # made this "exhaustive" scan cover 185/238 while still printing PASS --
+    # skipping precisely the newest, least-reviewed rosters. Same bug class as
+    # the `== 202` guard fixed above; derive the bound.
+    for ci in range(NUM_CHARS):
         if ci == tobias_ci:
             continue  # Tobias's table is legendary-INCLUSIVE by design (1% rate)
         o = struct.unpack_from("<I", wild_offsets, ci * 4)[0]
@@ -472,7 +487,7 @@ def main():
                 pp += 4
                 if sid in legendary_ids:
                     bad_legendary.append((ci, sid))
-    check("wild override: no character's table contains any legendary/mythical species",
+    check(f"wild override: no legendary/mythical in any of the {NUM_CHARS} characters' tables",
           not bad_legendary, f"{bad_legendary[:5]}")
 
     print("== 9. character sprites (Phase 3) ==")

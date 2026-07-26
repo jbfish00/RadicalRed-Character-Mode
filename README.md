@@ -54,7 +54,7 @@ Notes:
 |---|---|
 | `CMDbgOff` | Turn Character Mode off (clears the flag and character selection) |
 | `CMDbgGive1` | Test code: gives a Lv. 5 Pikachu (on-roster for Red → joins party) |
-| `CMDbgGive2` | Test code: gives a Lv. 5 Meowth (off-roster for Red → goes to PC) |
+| `CMDbgGive2` | Test code: gives a Lv. 5 Pokemon that is **off the active character's roster** → goes to the PC. The species is derived at build time from that character's own allow-bitmap, so this always tests the enforcement path. |
 
 ## Known v1 limitations
 

@@ -28,7 +28,10 @@ FLAG_CHARACTER_MODE and delivers the character's signature mon at Lv 5.
 Debug codes (mirroring ROWE's in-game debug-menu test method):
   CMDbgOff    - turn Character Mode off
   CMDbgGive1  - givepokemon Pikachu Lv5  (allowed for Red -> stays in party)
-  CMDbgGive2  - givepokemon Meowth Lv5   (off-roster for Red -> sent to PC)
+  CMDbgGive2  - gives a DERIVED off-roster species Lv5 (-> sent to PC).
+                Derived from character 0's own bitmap at build time, never
+                hardcoded: the previous literal (Meowth) became on-roster
+                when the roster grew and the test quietly stopped testing.
 """
 import hashlib
 import json
@@ -186,6 +189,22 @@ def main():
         (f"manifest lists {num_chars} characters but record_count is "
          f"{manifest['record_count']} -- re-run emit_characters.py")
     bitmaps = (HERE / "character_mode" / "rosters_expanded.bin").read_bytes()
+
+    # CMDbgGive2 must give a species that is genuinely OFF the first character's
+    # roster, or the debug code stops exercising the enforcement path at all.
+    # It was hardcoded to Meowth (52), which joined Red's roster on 2026-07-23
+    # via Persian -- so the code silently became a no-op and the shipped
+    # playthrough checklist started telling testers to expect a PC transfer that
+    # can no longer happen. Derive it, the way Seaglass and Lazarus already do.
+    import re as _re
+    _shim_src = (ROOT / "src" / "character_mode.c").read_text()
+    _stride = int(_re.search(r"#define BITMAP_STRIDE\s+(\d+)", _shim_src).group(1))
+    _nspecies = int(_re.search(r"#define NUM_SPECIES\s+(\d+)", _shim_src).group(1))
+    assert len(bitmaps) == len(chars) * _stride, (len(bitmaps), _stride)
+    _bm0 = bitmaps[0:_stride]
+    _on0 = lambda sp: (_bm0[sp >> 3] >> (sp & 7)) & 1
+    dbg_give2 = next(sp for sp in range(1, _nspecies) if not _on0(sp))
+    print(f"CMDbgGive2 species (off-roster for {chars[0]['character']}): {dbg_give2}")
     assert len(bitmaps) == num_chars * 172, len(bitmaps)
     print(f"character count: {num_chars} (derived from characters_manifest.json)")
 
@@ -343,7 +362,7 @@ def main():
         add_str("code:" + code, code)
     add_str("msg:off", "Character Mode is now off.")
     add_str("msg:give_ok", "Debug: tried to give Pikachu.")
-    add_str("msg:give_bad", "Debug: tried to give Meowth.")
+    add_str("msg:give_bad", "Debug: off-roster give test.")
     for i, (c, a) in enumerate(zip(chars, aliases)):
         add_str(f"alias:{i}", a)
         disp = c["character"]
@@ -374,7 +393,7 @@ def main():
             blob += op_setvar(VAR_CHARACTER_ID, 0)
             blob += op_loadword(str_addrs["msg:off"])
         else:
-            species = 25 if kind == "give_ok" else 52  # Pikachu / Meowth
+            species = 25 if kind == "give_ok" else dbg_give2  # Pikachu / derived off-roster
             blob += op_givepokemon(species, 5)
             blob += op_loadword(str_addrs["msg:" + kind])
         blob += op_callstd(6) + op_release() + op_end()

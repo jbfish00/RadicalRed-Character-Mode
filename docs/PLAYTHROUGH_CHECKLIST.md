@@ -60,7 +60,11 @@ those five facts is enough to reproduce and fix anything.
 
 - [ ] **3.1** `CMDbgGive1` (gives Pikachu): as Red → **joins party**
       (on-roster gift path).
-- [ ] **3.2** `CMDbgGive2` (gives Meowth): as Red → **goes to PC**
+- [ ] **3.2** `CMDbgGive2` (gives a derived off-roster Pokemon): as Red → **goes to PC**
+      (Do NOT expect a specific species here. It used to say "Meowth", which joined
+      Red's roster when the roster grew — so the code became a no-op and this step
+      told testers to expect a PC transfer that could no longer happen. The build
+      now derives the species from the character's own bitmap and prints it.)
       (off-roster gift path).
 - [ ] **3.3** `CMDbgOff` → mode off; catch/receive anything → joins party
       ungated. Re-enter `Red` afterwards to resume (note: this re-gifts the

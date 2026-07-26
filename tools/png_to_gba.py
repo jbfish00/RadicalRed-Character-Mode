@@ -170,14 +170,44 @@ def classify(w, h):
     return "other"
 
 
+def remap_to_16(im: Image.Image) -> Image.Image:
+    """Force the used indices into 0..15, carrying their colours along.
+
+    A PNG can legitimately declare a 256-entry palette while using only 16
+    colours, and those 16 indices need not be 0..15 (Emerald Rogue's
+    unova/cilan.png is exactly this shape). `to_4bpp` masks with & 0xF, so an
+    index of 33 would silently become 1 -- corrupt art that still converts
+    "successfully". Remapping first makes that impossible rather than lucky.
+    """
+    used = sorted(set(im.getdata()))
+    if used == list(range(len(used))) and len(used) <= 16:
+        return im
+    pal = im.getpalette() or []
+    lut = {old: new for new, old in enumerate(used)}
+    out = Image.new("P", im.size)
+    out.putdata([lut[v] for v in im.getdata()])
+    newpal = []
+    for old in used:
+        newpal += pal[old * 3: old * 3 + 3] if old * 3 + 3 <= len(pal) else [0, 0, 0]
+    newpal += [0] * (768 - len(newpal))
+    out.putpalette(newpal)
+    return out
+
+
 def convert(src: Path, outdir: Path):
     im = Image.open(src)
+    if im.mode == "RGBA":
+        # a stray RGBA sprite (Rogue ships one) -- flatten onto the art's own
+        # transparent colour before quantising, or PIL invents a matte
+        bg = Image.new("RGBA", im.size, (0, 0, 0, 0))
+        im = Image.alpha_composite(bg, im).convert("RGB")
     if im.mode != "P":
         im = im.convert("P", palette=Image.ADAPTIVE, colors=16)
     colours = len(set(im.getdata()))
     if colours > 16:
         return {"src": str(src), "ok": False,
                 "error": f"{colours} distinct indices; needs quantising to 16"}
+    im = remap_to_16(im)
     w, h = im.size
     kind = classify(w, h)
     try:
