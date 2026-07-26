@@ -1,0 +1,820 @@
+{{Character Infobox
+|color={{rock color}}
+|bordercolor={{rock color dark}}
+|corecolor={{rock color light}}
+|name=Brock
+|jname=タケシ
+|tmname=Takeshi
+|image=Brock Journeys.png
+|size=150px
+|caption=Brock in ''[[S25|Pokémon: To Be a Pokémon Master]]''
+|age=15<ref>[[#Artwork|Brock's concept art]] of his original design</ref> (as of [[EP005|debut]])
+|gender=Male
+|eyes=Black
+|hair=Brown
+|hometown=[[Pewter City]]
+|region=[[Kanto]]
+|relatives={{ka|Flint}} (father), [[Lola]] (mother), <br>[[Forrest]] (brother),<br> [[Brock's siblings|eight other siblings]]
+}}
+{{Character Infobox/Anime
+|color={{rock color light}}
+|series=''[[Pokémon the Series]]''
+|debut=''[[EP005|Showdown in Pewter City]]''
+|enva=[[Eric Stuart]] <small>([[EP005]]-[[AG145]])</small><br>[[Bill Rogers]] <small>([[AG146]]-[[JN147]], [[The Mastermind of Mirage Pokémon|MoMP]])</small>
+|jpva=[[Yūji Ueda]]
+}}
+{{Character Infobox/Team
+|color={{rock color light}}
+|member=[[Indigo League]] (former)
+|rank=[[Gym Leader]]
+|domain=[[Pewter Gym]]
+|reward={{badge|Boulder}}
+|specialty={{t|Rock}} types
+}}
+{{Character Infobox/Game
+|color={{rock color light}}
+|gen={{gen|I}}, {{gen|II}}, {{gen|III}}, {{gen|IV}}, 
+{{gen|V}}, {{gen|VII}}, {{gen|VIII}}
+|counterpart=[[Brock]]
+|games={{pkmn|Puzzle League}}, {{pkmn|Zany Cards}}
+|trainer=[[Gym Leader]] (former)<br>{{tc|Pokémon Breeder}} (former)<br>[[Pokémon Doctor]]
+}}
+{{Character Infobox/Manga
+|color={{rock color light}}
+|series=''[[Ash & Pikachu]]''<br>''[[The Electric Tale of Pikachu]]''<br>''[[Pokémon Newspaper Strip]]''
+|debut=''[[SP01|Hoppip, the Wind Calls!]]'' (''Ash & Pikachu'')<br>''[[ET02|Play Misty For Me]]'' (''The Electric Tale of Pikachu'')
+}}
+|}
+
+'''Brock''' (Japanese: '''タケシ''' ''Takeshi'') is an aspiring {{tc|Doctor|Pokémon Doctor}} from [[Pewter City]] and a former {{ashfr|traveling companion}} of {{Ash}}. He used to be the [[Gym Leader]] of the [[Pewter Gym]], handing out the {{Badge|Boulder}} to {{pkmn|Trainer}}s who defeated him.
+
+Brock journeyed with Ash through the [[Kanto]], [[Johto]], [[Hoenn]], and [[Sinnoh]] [[region]]s in his pursuit of improving his skills as a {{tc|Pokémon Breeder}}. Eventually, he decided to return home and study to become a Pokémon Doctor. In ''[[S25|Pokémon: To Be a Pokémon Master]]'', Brock would reunite and resume traveling with Ash until he decided to head back home.
+
+==In animation==
+===History===
+====Pre-series====
+[[File:Young Brock.png|thumb|220px|left|A young Brock]]
+Not much is known about Brock's early childhood other than that he grew up at [[Pewter City]] in the [[Kanto]] region. In ''[[AG034|Having a Wailord of a Time]]'', he revealed that his [[List of characters' first Pokémon|first Pokémon]] was an {{TP|Brock|Onix}} he received as a tenth-birthday {{pkmn2|gift}} from his father {{ka|Flint}}.
+
+When he was younger, he participated in {{wp|Little League Baseball}}, as mentioned in ''[[EP125|The Little Big Horn]]''.
+
+Prior to joining {{Ash}} at the end of ''[[EP005|Showdown in Pewter City]]'', Flint left the family home to pursue his own ventures. As a result, Brock assumed the responsibility of running the [[Pewter Gym]] while also taking care of [[Brock's siblings|his nine younger siblings]] on his own.
+
+===={{aniseries|OS}}====
+In ''[[EP005|Showdown in Pewter City]]'', after Brock awarded Ash the {{Badge|Boulder}}, Flint came forward and confessed who he was. Flint took on the responsibilities of the Pewter Gym and his family, leaving Brock free to {{pkmn|journey}} with Ash and {{an|Misty}}.
+
+Brock only became the Gym Leader because he felt it was his responsibility, and he admitted to Ash that he would rather [[Pokémon training#Caretaking|care]] for Pokémon than {{pkmn|battle}} them. It was his dream to become a great {{tc|Pokémon Breeder}}, and when Flint took back control of the Gym, Brock was allowed to start following this dream.
+
+Brock was also able to meet and make advances towards the many beautiful women he met. At first, he was more casual about approaching women, such as [[Officer Jenny]] in ''[[EP007|The Water Flowers of Cerulean City]]'', and more modest as well, such as when he met [[Melanie]] in ''[[EP010|Bulbasaur and the Hidden Village]]''. However, he became more open and passionate towards almost all single young women as time progressed.
+[[File:Brock goodbye EP083.png|thumb|220px|Brock leaving the group to stay with [[Professor Ivy]]]]
+Brock took care of a {{TP|Brock|Vulpix}} that belonged to a Breeder named [[Suzie]].
+
+Brock briefly left the show during the [[S02|Orange Islands saga]] to work for [[Professor Ivy]] on [[Valencia Island]] and so is only seen in a couple of cameos in the [[M02|second movie]]. While there, something happened that will probably remain secret as Brock will only huddle and say "that name" whenever he is asked about it. In the English dub of ''[[M07|Destiny Deoxys]]'', he mentioned his work for her. After this incident, Brock returned to Kanto where he was found by [[Delia Ketchum]], who helped him to regain his strength. Brock then became a rival to [[Mimey]] until he rejoined Ash and Misty as the three traveled to [[Johto]].
+
+===={{aniseries|GS}}====
+In ''[[EP169|Beauty and the Breeder]]'', Brock returned Vulpix to Suzie. Together, they entered Vulpix into the [[Pokémon Beauty Contest]] in [[Bonitaville]].
+
+At the end of Ash and {{ashfr}}' journey in Johto, the three went their separate ways, with Brock's help requested at home by his father.
+
+===={{aniseries|RS}}====
+[[File:Brock family.png|thumb|220px|left|Brock's family]]
+Upon his return home, Brock was dismayed to find that his mother had returned and commandeered the Gym, turning the Rock-type haven into a brightly decorated {{type|Water}} den. Brock battled her for the honor of Rock types and won, promising his brother [[Forrest]] that he would become Gym Leader someday. After getting some new clothes from his mother, Brock set off on a new journey as he goes to [[Hoenn]] region in the hopes of finding Ash there.
+[[File:Brock AG156 ninja.png|thumb|220px|Brock after catching a Pokémon]]
+In ''[[AG004|You Never Can Taillow]]'', Brock arrived in [[Petalburg Woods]] as he was about to eat some lunch until he saw a {{m|Thunderbolt}} attack and hoped it was [[Ash's Pikachu]] as he rushed over to see. Brock ended up being right as he sees Ash and his new friends {{an|May}} and [[Max]] in trouble with a group of {{p|Taillow}}. After rescuing them, Brock formally meets May and Max then informs his intentions to travel with Ash again, which he happily accepts. After that, Brock traveled through Hoenn and Kanto [[Battle Frontier]] with his friends until he decided to return home.
+
+===={{aniseries|DP}}====
+In ''[[DP002|Two Degrees of Separation!]]'', Brock arrived in [[Sinnoh]] through [[Claudina]] as he meet up with Ash. Although he intended to travel with Claudina, Brock changed his mind when he found out that she has a boyfriend and decided to join Ash in his Sinnoh journey. After finding out that another one of Team Rocket's attempt to catch Pikachu got him separate from Ash, Brock joined him in finding the Mouse Pokémon. In the [[DP003|next episode]], Brock meets {{an|Dawn}}, who was the one who found and saved Pikachu, as she joins him and Ash on their journey. 
+
+Near the end of his Sinnoh journey, Brock began to wonder if he was pursuing the same goal that he had been since he set off on his journey. However, after saving a group of Pokémon in ''[[DP190|The Brockster Is In!]]'', Brock decided to use all the experiences he gained while traveling with Ash to become a {{tc|Doctor|Pokémon Doctor}}. Unfortunately, Brock realized that he won't be able to follow Ash to [[Unova]] to advise him, as he decided to remain in Kanto to study. After parting ways with Dawn and returning to Kanto, Brock parted ways from Ash once again and return home.
+
+Brock made an appearance in [[DPS02]], where it was revealed that, while waiting to attend a Pokémon medical school, he had been studying hard at home as well as helping out at the [[Pewter City]] [[Pokémon Center]]. In the episode, he played a major role in helping [[Forrest]] to officially become the Pewter City Gym Leader when it is revealed that his father never informed the [[Pokémon League]] of the title change.
+
+===={{aniseries|BW}}====
+[[File:BWS01.png|thumb|250px|left|Brock meeting {{an|Cilan}}]]
+Brock reappeared in a fantasy in ''[[BW087|Expedition to Onix Island!]]'', when Dawn learned that {{an|Cilan}} cooks for himself, Ash, and {{an|Iris}}. She said this was similar to the way Brock used to for her and Ash before he decided to become a Pokémon Doctor. He also appeared in flashbacks in ''[[BW088|The Mystery of the Missing Cubchoo!]]'' and ''[[BW116|The Fires of a Red-Hot Reunion!]]''. In addition, he appeared in a fantasy in ''[[BW142|The Dream Continues!]]''.
+
+Brock appeared in person in [[BWS01]], where it was revealed that he had attended the Pokémon medical school and had been sent to [[Johto]] to apprentice under a Pokémon Doctor as part of his training. While passing through the town he bumped into [[Pokémon Connoisseur]] Cilan briefly, then encountered him again when Cilan took his {{TP|Cilan|Pansage}} to be treated at the town's [[Pokémon Center]] after it was injured by a {{p|Gyarados}}. While waiting for it to recover, the two encountered the beginning Trainer [[Ayumi]] who was having trouble teaching her {{p|Pikachu}} to use {{m|Thunderbolt}}; Brock was very impressed with Cilan's talents as Cilan helped Pikachu master the move. Later, when the Gyarados that Cilan encountered earlier started to rampage due to being injured by the {{pkmn|hunter}} [[Amer]], Brock spotted that it was injured, so after Pansage's {{m|Grass Whistle}} put it to {{status|sleep}}, Brock was able to quickly treat it. Afterwards, the two said goodbye to each other and continued their separate travels, having never learned their names or that {{Ash}} was a mutual friend of theirs.
+
+===={{aniseries|SM}}====
+[[File:Brock and Lillie.png|thumb|250px|Brock checking on [[Snowy]]]]
+Brock reappeared in several ''[[Pokémon the Series: Sun & Moon]]'' episodes, first reappearing with ''[[SM042|Alola, Kanto!]]''. Brock reunited with Ash when he and {{ashcl}} arrived at the Kanto airport, where he also used his expertise as a Pokémon {{tc|Doctor}} to diagnose {{an|Lillie}}'s [[Snowy]]'s airsickness as harmless. Brock and Misty then compared Kantonian and {{rf|Alolan}} Pokémon with the class at [[Professor Oak's Laboratory]]. Later, Brock and the rest of the group worked together to defeat {{TRT}}, who Brock was angry to find were still up to their old tactics of stealing Pokémon. Afterwards, the group had a party and learned from {{an|Professor Kukui}} that the class had plans to head to [[Cerulean City]] for a Gym battle.
+[[File:Brock showcasing his Key Stone.png|thumb|250px|left|Brock and his Key Stone]]
+In ''[[SM043|When Regions Collide!]]'', the group arrived at Cerulean City, where Brock and Misty assisted Professor Kukui's lecture on the mechanics of Gym battles and the [[Pokémon League]]. Brock had a two-on-one battle against Lillie and {{an|Sophocles}} where he maintained the advantage before it was called off. He then used his [[Mega Evolution|Mega]] {{TP|Brock|Steelix}} to defeat {{an|Kiawe}} and his {{TP|Kiawe|Turtonator}}. He and Misty then bade Ash and his classmates farewell and accepted Ash's offer to visit [[Alola]] sometime in the future.
+
+In ''[[SM102|Alola, Alola!]]'', Brock accompanied Misty to Alola and met up with Ash and his classmates. Stopping by the [[Pokémon Center]], he flirted with Nurse Joy, only to be stopped by Misty. He remained behind to assist Nurse Joy as she treated a {{p|Yungoos}}.
+
+In ''[[SM103|Heart of Fire! Heart of Stone!]]'', Brock and Misty accompanied Ash and his classmates to [[Akala Island]]. They visited [[Paniola Ranch]], where a {{p|Kangaskhan}} was threatening the Pokémon after its baby was injured. Using a {{TP|Brock|Comfey}} that Nurse Joy had given him, Brock was able to treat the baby Kangaskhan's injury. Later, upon meeting [[island kahuna|Kahuna]] [[Olivia]], Brock immediately fell in love with her and they agreed to a battle. Brock used Sudowoodo against her {{p|Lycanroc}}, but the battle was interrupted when Team Rocket attempted to steal the Pokémon. Brock teamed up with Olivia to turn Lycanroc's {{m|Continental Crush}} into the shape of a heart, which defeated Team Rocket. At the end of the episode, Brock returned to Kanto alongside Misty.
+[[File:Brock and Kiawe.png|thumb|250px|Brock and Kiawe]]
+===={{aniseries|JN}}====
+Brock's silhouette appeared in ''[[JN018|Destination: Coronation!]]'' alongside the other Kanto Gym Leaders as the narrator explained how the Gym Leader system works in the [[Pokémon world]].
+Brock was briefly referenced by Dawn in ''[[JN074|Nightfall? Nightmares!]]'', when she talked about her journeys to [[Chloe]]. He reappeared in a brief flashback in [[JN075|the following episode]], when Dawn explained to Chloe how she got experience from him with treating injured Pokémon. Ash also called him out by name when he and Dawn were asked about how they know each other.
+
+Brock reappeared in ''[[JNS02|The Arceus Chronicles (Part 2)]]'', where it was revealed he was working in the [[Oreburgh City]] [[Pokémon Center]] at the time, with {{TP|Brock|Croagunk}} and {{TP|Brock|Blissey}} as his assistants. He later joined Ash, Dawn, and [[Goh]] in helping to stop [[Team Galactic]]'s plan to open a hole in space-time to retrieve [[Cyrus]].
+[[File:JN141 error 1.png|thumb|250px|left|Ash, Brock, and Misty]]
+In ''[[JN106|Radio Lulled the Mischievous Stars!]]'', Brock was seen listening to Team Rocket's radio show while camping out in a forest. During the broadcast of the show, a letter he sent was read by [[Jessie]]. Due to Jessie using a nickname, Brock didn't recognize her, instead feeling happy that the host whose voice he had fallen in love with was reading his mail.
+
+He reappeared in a flashback in ''[[JN114|Friends, Rivals, Lend Me Your Spirit!]]''.
+
+In ''[[JN132|Partners in Time!]]'', Brock appeared alongside {{an|Cilan}} and {{an|Alexa}} watching Ash's [[Masters Eight Tournament]] match against {{an|Leon}}.
+
+In ''[[JN139|Must Be Our Heroes and the Witch!]]'', it was revealed that Brock had started working in a diner. After reuniting with Ash, {{an|Misty}}, and Cilan, Brock was controlled by a wild {{p|Hatterene}} that absorbed the negative feelings he was experiencing after a heartbreak. With the help of his friends, Brock managed to free himself, and right after saying goodbye to Cilan, decided to once again accompany Ash and Misty on their journey.
+
+In ''[[JN143|Ride, Lapras, Ride!]]'', Brock helped Ash and Misty with the final part of rescuing a trapped {{p|Wailord}}. With everyone working together, they managed to free the Float Whale Pokémon.
+
+In ''[[JN144|Getting to the Heart of it All!]]'', Brock helped Ash discover what Banette was looking for by describing the image it gave. Brock also helped Ash search for [[Banette]]’s owner, knowing that it was Nurse Joy's Pokémon.
+
+In ''[[JN145|Rocket Revengers!]]'', Brock, {{TP|Brock|Ludicolo}}, and Croagunk provided assistance to Ash and Misty by diverting the attention of Team Rocket's Pokémon to enable them to help {{TP|James|Mime Jr.}} in accomplishing their objective.
+
+In ''[[JN147|The Rainbow and the Pokémon Master!]]'', Brock separated from Ash and Misty to return to Pewter City.
+
+====Other appearances====
+Brock made a cameo appearance in the ending credits of ''[[M20|I Choose You!]]'', alongside all of Ash's traveling companions at the time.
+
+Brock reappeared in ''[[M22|Mewtwo Strikes Back—Evolution]]'', where he had largely the same role as in ''[[M01|Mewtwo Strikes Back]]''.
+
+===Character===
+[[File:Brock preparing Pokémon food.png|thumb|220px|Brock preparing [[Pokémon food]]]]
+Prior to joining {{Ash}} on his {{pkmn|journey}}, Brock had become increasingly frustrated and harsh towards challengers as a result of his responsibilities as both the [[Pewter City]] [[Gym Leader]] and the main caretaker for his [[Brock's siblings|nine younger siblings]]. Even while traveling, he would think of his family, returning home on several occasions like in ''[[HS01|A Family That Battles Together Stays Together!]]''.
+
+Brock is noticeably mature, wise, and levelheaded, often acting as an older brother and caretaker to the other characters and a voice of reason in disputes. He will usually place others before himself and will support his friends even against his better judgment or at his own expense. Brock always carries books and maps with him, and thus is usually the character who knows where the group is headed and what they can do when they get there. However, in ''[[Pokémon the Series: Ruby and Sapphire]]'', this role was mostly taken over by [[Max]], who owned a [[PokéNav]].
+
+[[File:Max Brock ears.png|thumb|220px|left|Brock being pulled by the ear by Max]]
+He is renowned for his domestic abilities like sewing, vacuuming, and, most notably, cooking, which Ash and the others always enjoy without fail. The capacity of Brock's [[Bag]] is endless, as seen in ''[[EP009|The School of Hard Knocks]]'', where it is capable of containing full tea-sets, tables, and cooking utensils. He also carries a lot of other supplies, such as [[Potion]]s and [[Pokémon food]], though he has to make pit stops in towns so he could restock the group's supplies.
+
+Despite this, all of his maturity and rationality leaves him completely at the sight of a beautiful woman, and he is extremely passionate over the prospect of finding the girl of his dreams, though he is usually never successful in wooing a woman. Despite this, a few women have been known to show interest in him, such as [[Wilhomena]], [[Temacu]], [[Natalie]], [[Lucy]], [[Holly]], {{OBP|Autumn|DP062}}, [[Narissa]], [[Lizabeth]], and [[Olivia]]. Despite his failures, Brock remains determined to find a girl to start a relationship with, and has indicated several times he would stop traveling with Ash and stay with the girl if this happened. This behavior tends to wear on the nerves of other characters, and Misty and Max have both commonly dragged Brock away from women by his ear. In addition, some of Brock's own Pokémon, most notably {{TP|Brock|Croagunk}}, have attacked him for getting too flirtatious with women. Brock has also been shown to be able to identify when women are actually [[cross-dressing]] men in disguise by having a peculiar lack of attraction to them. He's also able to do the opposite. A significant exception to this is Ash, who in the guise of "{{DL|Cross-dressing|Ashley}}" was able to fool Brock.
+
+[[File:Brock and Nurse Joy.png|thumb|250px|Brock flirting with Nurse Joy]]
+He also carries a small blue journal containing information on every girl he meets, referring to it in ''[[M10|The Rise of Darkrai]]'' as his "Little Blue Book of Babes". It most recently appeared in ''[[SM103|Heart of Fire! Heart of Stone!]]'' and featured [[Island kahuna|Kahuna]] [[Olivia]]. His love of the [[Officer Jenny]] and [[Nurse Joy]] family lines, in particular, can be overbearing and embarrassing for his friends. Brock can also tell whether they are real or impostors, as well as make out subtle physical differences between them. This "ability" has been used multiple times in the series.
+
+[[File:Brock Boulder Badge.png|thumb|250px|left|Brock holding a Boulder Badge]]
+Brock was not shown to {{pkmn|battle}} often in spite of his experience as a former Gym Leader, though he happily accepts challenges from girls like [[Miki]], [[Molly Hale]], and Olivia. Instead, he tended to advise Ash on battle strategies and keenly watched matches from the sidelines, seeing the knowledge as valuable to understanding a Pokémon in its entirety.
+
+His goals have played a passive role in his development, and Brock's overall role has generally been one as support for other main characters, usually contributing more in terms of wisdom and comedic antics than the action of the series. Unlike other characters, who aspire to achieve and excel in competitive fields like [[Pokémon training]] and [[Pokémon Contest]]s, his initial aim to become a great {{tc|Pokémon Breeder}} was a quiet one and thus did not get showcased frequently. Brock's experience with {{TP|Brock|Vulpix}} taught him a lot about conditioning and nutrition, while further knowledge came from raising {{TP|Brock|Happiny}} and {{TP|Brock|Bonsly}}. He questioned whether he was actually pursuing his dreams like his friends near the end of ''[[Pokémon the Series: Diamond and Pearl]]'', and ultimately decided to become a Pokémon {{tc|Doctor}} instead.
+{{-}}
+
+===Pokémon===
+[[File:Brock party JN.png|thumb|200px|Brock and some of his Pokémon in {{aniseries|JN}}]]
+As [[Gym]] tradition dictated, Brock's first Pokémon, {{TP|Brock|Onix}} and {{TP|Brock|Geodude}}, were {{t|Rock}} [[types]]. However, once he was able to leave the [[Pewter Gym]] and go on a {{pkmn|journey}}, he has dedicated himself to learn about how to care for a variety of Pokémon. As he has stated in ''[[DP125|Battling A Cute Drama!]]'', his philosophy is that the important thing about being a Pokémon Trainer is the [[friendship|bond]] between Trainer and Pokémon.
+
+His Pokémon thus tend to be an eclectic mix of types and dispositions. However, all of his Pokémon tend to have strong bonds with Brock and have been shown to be very capable battlers, despite the fact that Brock does not go out of his way to {{pkmn|training|train}} his Pokémon. Brock {{pkmn|groomer|grooms}} not only his Pokémon but also those of his friends with whom he travels.
+
+<gallery widths="175">
+Brock party Kanto.png|Brock's Pokémon from {{aniseries|OS}}
+Brock party Johto.png|Brock's Pokémon from {{aniseries|GS}} (prior to ''[[EP165|Hassle in the Castle]]'')
+Brock party Hoenn.png|Brock's Pokémon from {{aniseries|AG}} during Hoenn (prior to ''[[AG105|Once in a Mawile]]'')
+Brock party Battle Frontier.png|Brock's Pokémon from {{aniseries|AG}} during the Battle Frontier arc
+Brock party Sinnoh.png|Brock's Pokémon from {{aniseries|DP}} (prior to ''[[DP190|The Brockster Is In!]]'')
+</gallery>
+
+This listing is of Brock's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+
+====On hand====
+<div class="scrollbox">
+{|width="100%"
+|-
+| {{ActivePoké|Brock|Steelix|Brock Steelix.png|steel|ground|disp=Onix → Steelix}} {{MegaIcon}}
+| {{ActivePoké|Brock|Forretress|Brock Forretress.png|bug|steel|fir=Pineco|size=190px}}
+| {{ActivePoké|Brock|Ludicolo|Brock Ludicolo.png|water|grass|fir=Lotad|mid=Lombre}}
+|-
+| {{ActivePoké|Brock|Marshtomp|Brock Marshtomp.png|water|ground|fir=Mudkip|size=190px}}
+| {{ActivePoké|Brock|Croagunk|Brock Croagunk.png|poison|fighting}} ♂
+| {{ActivePoké|Brock|Blissey|Brock Blissey.png|normal|nick=Egg → Happiny → Chansey → Blissey|link=Brock's Blissey}} ♀
+|}
+</div>
+
+====At Pewter Gym / Home====
+<div class="scrollbox">
+{| width="100%"
+|-
+| {{InactivePoké|Brock|Geodude|Brock Geodude.png|rock|ground|size=200px}}
+| {{InactivePoké|Brock|Crobat|Brock Crobat.png|poison|flying|fir=Zubat|mid=Golbat|size=200px}}
+| {{InactivePoké|Brock|Sudowoodo|Brock Sudowoodo.png|rock|fir=Bonsly|size=200px}} ♂
+| {{InactivePoké|Brock|Comfey|Brock Comfey.png|fairy|size=200px}}
+|-
+|}
+</div>
+
+====Returned====
+{| width="100%"
+|-
+| {{InactivePoké|Brock|Vulpix|Brock Vulpix.png|fire}}
+|
+|
+|
+|}
+
+====Caught for someone else====
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Tauros
+|gender=male
+|type1=Normal
+|img=Tauros Herd.png
+|epnum=EP035
+|epname=
+|desc=Brock caught a {{p|Tauros}} in the {{safari|Kanto}}. However, as this was one of Ash's [[Safari Ball]]s, the Tauros in question is actually one of [[Ash's Tauros]].}}
+
+====Temporary====
+{{MissingInfo|2|java|enva|scope=section}}
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Togepi
+|stage1=Egg
+|type1=Normal
+|img=EP050.png
+|epnum=EP050
+|epname=Who Gets To Keep Togepi?
+|vajp=Satomi Koorogi
+|vaen=Satomi Koorogi
+|desc={{Ash}} found Togepi's Egg in ''[[EP046|Attack of the Prehistoric Pokémon]]'', with Brock deciding he would be in charge of caring for it. When it hatched, Ash, Brock, {{an|Misty}}, and {{MTR}} fought when Togepi was born to decide who would get to raise it. Ash eventually won the four-way miniature tournament, but Togepi decided to stay with Misty instead.}}
+
+{{TrainerPoké
+|trainer=Hagatha
+|pkmn=Hoothoot
+|nick=Hoothoot
+|type1=Normal
+|type2=Flying
+|img=Ash Hoothoot.png
+|cap=Hagatha and Nagatha's Hoothoot
+|epnum=EP121
+|epname=Illusion Confusion
+|desc=Brock, {{Ash}}, and {{an|Misty}} borrowed {{p|Hoothoot}} from {{DL|Hagatha and Nagatha|Hagatha}} in order to navigate the haunted forest. It was returned to her sister, {{DL|Hagatha and Nagatha|Nagatha}} after they were able to get to the exit.
+
+Hoothoot's known moves are {{m|Foresight}} and {{m|Peck}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Totodile
+|gender=male
+|type1=Water
+|img=Ash Totodile debut.png
+|epnum=EP151
+|epname=The Totodile Duel
+|vajp=Chinami Nishimura
+|vaen=Kayzie Rogers
+|desc=When Ash and {{an|Misty}} started arguing whose [[Lure Ball]] had caught a {{pkmn2|wild}} {{p|Totodile}}, Brock took the Big Jaw Pokémon under his custody and declared a {{pkmn|battle|match}} to determine who would get to keep him. After Ash had won the battle, Brock gave the Totodile to him.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Ninetales
+|type1=Fire
+|img=Brock Ninetales.png
+|epnum=EP232
+|epname=Just Waiting on a Friend
+|vajp=Rikako Aikawa
+|vaen=Rachael Lillis
+|desc=Brock commanded a {{p|Ninetales}} during a battle with {{TRT}}.
+
+Ninetales's known moves are {{m|Psychic}}{{tt|*|Ninetales cannot learn Psychic in the games}} and {{m|Flamethrower}}.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Shiftry
+|type1=Grass
+|type2=Dark
+|img=Brock Shiftry.png
+|epnum=AG037
+|epname=Jump for Joy!
+|desc=In order to help Nurse Joy cure a {{p|Nuzleaf}} who is very sick, Brock temporarily rode on {{p|Shiftry}} to retrieve some medicine at the [[Pokémon Center]].
+
+Shiftry's known moves are {{m|Stun Spore}}{{tt|*|Shiftry cannot legally learn Stun Spore in the games}}, {{m|Bullet Seed}}, and {{m|Whirlwind}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Staravia
+|type1=Normal
+|type2=Flying
+|img=Brock Staravia.png
+|epnum=DP002
+|epname=Two Degrees of Separation!
+|vajp=Kiyotaka Furushima
+|vaen=Sarah Natochenny
+|desc=When the group got separated by a {{m|Rollout}} attack coming from {{p|Graveler}} and {{p|Golem}}, {{p|Staravia}} ended up staying with Brock. Similar to its role with Ash, Staravia also served as a lookout Pokémon when Brock was searching for Ash and {{an|Dawn}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Torterra
+|gender=male
+|type1=Grass
+|type2=Ground
+|img=Brock Staravia Turtwig Aipom.png
+|img2=Brock Ash Torterra JN143.png
+|epnum=DP005
+|epname=Gettin' Twiggy With It!
+|vajp=Shin-ichiro Miki
+|vaen=Carter Cathcart{{!}}Billy Beach
+|desc= In ''[[DP046|A Maze-ing Race!]]'', {{p|Turtwig}} stayed with Brock when his Trainer got separated in the maze by a group of Graveler and Golem. Later, when everyone was found on two sides of the maze, Brock commanded Turtwig to use {{m|Razor Leaf}} to break down one side of the wall.
+
+In ''[[JN143|Ride, Lapras, Ride!]]'', Ash lent {{p|Torterra}} to Brock so he could help rescue a {{p|Wailord}} that had become trapped in a mountain.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Aipom
+|gender=female
+|type1=Normal
+|img=Brock Staravia Turtwig Aipom.png
+|epnum=AG179
+|epname=Slaking Kong!
+|vajp=Miyako Itō
+|vaen=Miyako Itō
+|desc={{p|Aipom}} went with Brock after getting separated from her Trainer in the maze by a group of Graveler and Golem. Later, when everyone was found on two sides of the maze, Brock commanded Aipom to use {{m|Swift}} to break down one side of the wall.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Magnemite
+|type1=Electric
+|type2=Steel
+|img=Brock Magnemite.png
+|epnum=DP088
+|epname=Camping It Up!
+|vajp=
+|vaen=Bill Rogers
+|desc=Brock trained a {{p|Magnemite}} during the first day of the summer school academy.
+
+Magnemite's only known move is {{m|Thunder}}.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Onix
+|type1=Rock
+|type2=Ground
+|img=Brock Borrowed Onix.png
+|cap=Brock's temporary Onix
+|epnum=DP091
+|epname=One Team, Two Team, Red Team, Blue Team!
+|desc={{p|Onix}} was used in the first leg of the triathlon.
+
+None of Onix's moves are known.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Feraligatr
+|type1=Water
+|img=Brock Feraligatr.png
+|epnum=DP091
+|epname=One Team, Two Team, Red Team, Blue Team!
+|desc=Brock used a {{p|Feraligatr}} in the second leg of the triathlon.
+
+None of Feraligatr's moves are known.}}
+
+====Befriended====
+{{TrainerPoké
+|main=Lake guardians (anime)
+|pkmn=Uxie
+|type1=Psychic
+|img=Uxie anime.png
+|epnum=DP133
+|epname=Uncrushing Defeat!
+|vajp=Satsuki Yukino
+|vaen=Bella Hudson
+|desc=Brock first encountered Uxie at [[Lake Acuity]] in ''[[DP133|Uncrushing Defeat!]]'' where he saw Uxie's projected soul in the lake. In ''[[DP151|The Needs of the Three!]]'', Brock saw Uxie in its true form. Uxie befriended Brock because of his vast knowledge of Pokémon.}}
+
+====Ride Pokémon====
+{{TrainerPoké
+|main=yes
+|trainer=Kiawe
+|pkmn=Charizard
+|type1=Fire
+|type2=Flying
+|img=Kiawe Charizard.png
+|epnum=SM001
+|epname=Alola to New Adventure!
+|vajp=Unshō Ishizuka
+|vaen=Unshō Ishizuka
+|desc=Brock rode on {{p|Charizard}} in ''[[SM103|Heart of Fire! Heart of Stone!]]'' to travel to [[Akala Island]].}}
+
+===Pokémon competitions===
+[[File:Pokémon Dress-Up Contest prize.png|thumb|220px|The prize for winning the Dress-Up Contest]]
+Brock has competed in the following {{cat|Pokémon competitions}}:
+* [[P1 Grand Prix]] - Round 1 (''[[EP029|The Punchy Pokémon]]'')
+* [[Big P Pokémon Race]] - {{wp|Did Not Finish|DNF}} (''[[EP033|The Flame Pokémon-athon!]]'')
+* [[Pokémon Beauty Contest]] - Unknown (with [[Suzie]]; ''[[EP169|Beauty and the Breeder]]'')
+* [[Pokémon Balloon Race]] - Winner (with {{Ash}} and {{an|Misty}}; tied with [[Skyler]] and [[Tenma]]; ''[[EP202|The Big Balloon Blow-Up]]'')
+* [[Trick House#In animation|Trick House Contest]] - N/A (''[[AG039|A Poké-BLOCK Party!]]'')
+* [[Pokémon Orienteering]] - N/A (''[[AG159|Off the Unbeaten Path]]'')
+* {{to|Gardenia}} {{pkmn|Contest}} - Runner-Up (''[[AG167|What I Did for Love!]]'')
+* [[Pokémon Dress-Up Contest]] - Winner (''[[DP033|All Dressed Up With Somewhere To Go!]]'')
+* [[Hearthome City Tag Battle Competition]] - Top 4 (with [[Holly]]; ''[[DP052|Smells Like Team Spirit!]]'')
+* [[Pastoria Croagunk Festival]] - N/A (''[[DP082|Cream of the Croagunk Crop!]]'')
+* [[Pokémon Summer Academy]] - Winner (with {{DL|Pokémon Summer Academy|Red Team}}; ''[[DP091|One Team, Two Team, Red Team, Blue Team!]]'')
+** [[Pokémon Triathlon]] - N/A (''[[DP091|One Team, Two Team, Red Team, Blue Team!]]'')
+* [[Festival Battle Challenge]] - Top 4 or Top 8 (''[[DP141|Challenging a Towering Figure!]]'')
+
+===Main outfits===
+Brock's main outfits contain different shades of the earthy colors green, brown, and orange.
+<gallery heights="220">
+Brock OS.png|[[Original series]]
+BrockAG.png|''[[Pokémon the Series: Ruby and Sapphire|Ruby and Sapphire]]''
+Brock DP.png|''[[Pokémon the Series: Diamond and Pearl|Diamond and Pearl]]''
+Brock SM.png|''[[Pokémon the Series: Sun & Moon|Sun & Moon]]''
+</gallery>
+
+====Original series====
+One of the most distinct features of Brock's first outfit was his green vest, which had four large pockets on the front. He wore this over an orange short-sleeved shirt, along with brown pants and blue and white sneakers. On either side of his belt, which was black with a gold rectangular buckle, he had attached brown belt pockets. With it, he carried a large, blue backpack with a bedroll seen strapped to it at the top.
+
+It is assumed he keeps many supplies in his many pockets, just as he tends to fill his bag with more supplies than it should be realistically able to hold. However, he has never been seen reaching into these pockets, so their contents remain unknown. The numerous pockets in this outfit were seen in all of his outfits.
+
+Brock wore this outfit from ''[[EP005|Showdown in Pewter City]]'' to ''[[HS01|A Family That Battles Together Stays Together!]]''.
+
+====''Ruby and Sapphire''====
+Brock's second outfit was a brown jacket with an orange collar. Under it, he wore a green undershirt, but he no longer wears a belt. His clothing slightly mirrors that of his game counterpart in Generation III.
+His shoes are dark blue, and his new backpack is blue but has no bedroll.
+
+Brock wore this outfit from ''[[HS01|A Family That Battles Together Stays Together!]]'' to ''[[AG192|Home is Where the Start Is!]]''. In the main series, it was first seen in Brock's comeback episode ''[[AG004|You Never Can Taillow]]''. This is the only one of Brock's main outfits to not appear outside of its debut series.
+
+====''Diamond and Pearl''====
+Brock's third outfit is one step closer to his original series outfit. He wears a vest again, but the colors are reversed. Instead of a green vest and an orange shirt, he wears an orange vest (which also consists of gray) and a green shirt. His new shoes and backpack are still blue, and his backpack does not have a bedroll.
+
+Brock wore this outfit from ''[[DP002|Two Degrees of Separation!]]'' to [[BWS01]]. He returned to wearing this outfit from ''[[JNS02|The Arceus Chronicles (Part 2)]]'' to ''[[JN106|Radio Lulled the Mischievous Stars!]]''.
+
+====''Sun & Moon''====
+Brock's fourth outfit looked almost identical to his original outfit. The only difference is his vest, which now has just two pockets instead of the original four. Brock also holds a [[Key Stone]] necklace inside his shirt and was seen without his vest in ''[[SM043|When Regions Collide!]]''. Brock wore this outfit during his return in ''[[SM042|Alola, Kanto!]]'' and ''When Regions Collide!''. He returned to wearing this outfit in ''[[JN139|Must Be Our Heroes and the Witch!]]''.
+
+===Other outfits===
+====Costumes====
+* Brock wore a {{p|Slowpoke}} costume in  ''[[EP142|A Shadow of a Drought]]''.
+* Brock wore a long, blue, medieval-themed robe for [[DJ Mary]]'s radio show in ''[[EP160|Air Time!]]''.
+* In ''[[M06|Jirachi Wish Maker]]'', Brock wore a clown costume.
+* Brock wore a prince outfit in ''[[AG166|Curbing the Crimson Tide]]''.
+
+====Formal attire====
+* Brock and Ash don party outfits in ''[[EP043|The March of the Exeggutor Squad]]''. Brock wears a white outfit with large pink frills on the sleeves and pant cuffs. He holds a pair of {{wp|maraca}}s with it.
+* Brock fantasizes about wearing a blue {{wp|tuxedo (clothing)|tuxedo}} for a movie premiere in ''[[EP070|Go West Young Meowth]]''.
+* One of Brock's best known outfits is his ''"[[Takeshi's Paradise]]"'' outfit. This was possibly inspired by his outfit in ''[[EP043|The March of the Exeggutor Squad]]''. It is similar in many ways, particularly the pink frills. However, this outfit is purple and red instead of white. Also, he wears a large {{wp|sombrero}} with it, and his {{wp|maraca}}s now look like {{i|Poké Ball}}s. He wore a similar outfit in ''[[DP087|The Psyduck Stops Here!]]''
+* Brock wears a white tuxedo in ''[[EP169|Beauty and the Breeder]]''. He is seen in it again in [[Temacu]]'s wedding fantasy in ''[[EP198|The Heartbreak of Brock]]'' with a rose tucked in the breast pocket.
+* Brock and Misty both wore special outfits for the [[Weekly Pokémon Broadcasting Station]]. Brock's outfit is a lime green tuxedo with an oversized sparkling pink {{wp|bow tie}}.
+* Brock wore a blue suit with white in the middle in ''[[EP232|Just Waiting On a Friend]]''.
+* Brock wears a purple {{wp|suit (clothing)|suit}} in fantasies in ''[[AG117|Berry, Berry Interesting]]'' and ''[[AG141|Hail to the Chef]]''. For some reason, these fantasies also always involve Brock's woman of choice in a red dress with a white hair accessory and drinking milk from a wine glass. However, the suit itself is variable; in the first episode, he wears it with a {{wp|necktie|tie}}, and in the second, with a bow tie.
+* In ''[[M08|Lucario and the Mystery of Mew]]'', the characters dress up in formal medieval-themed outfits. Brock wears a beige robe similar to that of a priest covered by some sort of {{wp|cape}} or {{wp|mantle}} in brown, green, orange, and trimmed with gold, all topped with an orange {{wp|cap|skullcap}}.
+* Brock wore an all white suit in a fantasy in ''[[DP082|Cream of the Croagunk Crop!]]''.
+* In ''[[JN139|Must Be Our Heroes and the Witch!]]'', Brock wore a white and gold chef suit.
+
+====Other clothing====
+* One of Brock's best known accessories is his pink frilly {{wp|apron}}. He frequently wears it while cooking or doing other chores.
+* He also wears an alternate apron, known as the "movie apron" since it is only seen in the [[Pokémon movie]]s. This apron is bright blue with neon green straps.
+* In ''[[Snow Way Out!]]'', Brock wore a pink blanket.
+* In ''[[EP203|The Screen Actor's Guilt]]'', Brock briefly wore a black hat with a teal triangle and the letter P in yellow in the middle.
+* In ''[[EP239|Whichever Way the Wind Blows]]'', Brock wore a face mask.
+* In ''[[AG077|A Fan with a Plan]]'', Brock wore a dark-blue apron in a fantasy. 
+* In ''[[DP025|Oh Do You Know The Poffin Plan!]]'', ''[[DP084|Hungry for the Good Life!]]'', and ''[[DP092|A Lean Mean Team Rocket Machine!]]'', Brock wore a yellow apron.
+* In ''[[JN141|A Squad's Worth of Passion!]]'', Brock wore a pair of the [[Squirtle Squad]] sunglasses.
+
+====Regular clothes====
+[[File:Brock SM2.png|thumb|250px|Brock in his Alola outfit]]
+* In ''[[EP115|A Tent Situation]]'', Brock in a flashback wore a brown jacket and hat.
+* In ''[[AG011|A Bite to Remember]]'', Brock wore a lab coat.
+* In ''[[DP082|Cream of the Croagunk Crop!]]'', ''[[DP083|A Crasher Course in Power!]]'', ''[[DP140|Historical Mystery Tour!]]'', and ''[[DP141|Challenging a Towering Figure!]]'', Brock wore a blue vest with a white on the side and a picture of a {{p|Croagunk}} on the back.
+* Brock wore a stylish outfit with a matching cap in ''[[DP095|Battling The Generation Gap!]]''.
+* In ''[[DP116|The Drifting Snorunt!]]'', Brock wore a light-red poncho.
+* From ''[[SM102|Alola, Alola!]]'' to ''[[SM103|Heart of Fire! Heart of Stone!]]'', Brock wore a summer shirt with a blue, green and white pattern, and cream-colored shorts during his visit to [[Alola]].
+{{-}}
+
+====Sleepwear====
+* In ''[[AG034|Having a Wailord of a Time]]'', a flashback of Brock when he was younger shows him wearing a green t-shirt and pants as pajamas.
+* In ''[[DP088|Camping it Up!]]'', ''[[DP100|Aiding the Enemy!]]'', ''[[DP137|Three Sides to Every Story!]]'', and [[DPS02]], Brock is seen wearing a gray tank top and shorts as sleepwear.
+
+====Sportswear====
+* Brock sometimes wore a red top with the number ninety-one in the middle and red shorts. He wore it in ''[[EP067|The Pi-Kahuna]]'' and ''[[EP074|All Fired Up!]]''.
+* In ''[[EP130|A Bout With Sprout]]'', Brock wore a ballet dancer outfit.
+
+====Uniforms====
+[[File:Brock doctor outfit.png|thumb|200px|Brock in his Pokémon Doctor outfit]]
+* Brock wore a Team Rocket uniform in ''[[EP037|Ditto's Mysterious Mansion]]''.
+* In ''[[EP047|A Chansey Operation]]'', ''[[AG188|Pinch Healing!]]'', ''[[DP051|A Glory Blaze!]]'', and [[BWS01]], Brock would sometimes wear a doctors work coat when he would treat Pokémon.
+* In ''[[EP053|The Purr-fect Hero]]'', Brock fantasizes about wearing {{wp|samurai}} {{wp|ō-yoroi}} armor and a {{wp|sumo}} suit.
+* Brock wore army attire in ''[[EP133|Tanks A Lot!]]'' and ''[[EP218|Plant It Now... Diglett Later]]''.
+* In ''[[EP176|Ariados, Amigos]]'', Brock wore a yellow ninja uniform.
+* In ''[[AG156|From Cradle to Save!]]'', Brock wore blue-and-black-colored ninja clothing and a white headband.
+* In ''[[SM102|Alola, Alola!]]'', Brock wore a nurse outfit similar to the one that the Nurse Joy of [[Melemele Island]] wears.
+* In ''[[JNS02|The Arceus Chronicles (Part 2)]]'' and ''[[JN132|Partners in Time!]]'', Brock wore a {{wp|white coat}} over blue {{wp|medical scrubs}}, with black and white shoes, while working as a Pokémon Doctor.
+{{left clear}}
+
+====Outdoor gear====
+=====Rainwear=====
+* In ''[[EP011|Charmander – The Stray Pokémon]]'' and a flashback scene in ''[[BW116|The Fires of a Red-Hot Reunion!]]'', Brock wore a purple raincoat.
+* In ''[[DP028|Drifloon On the Wind!]]'', Brock wore a blue raincoat.
+
+=====Snow wear=====
+[[File:Brock snow pt.png|thumb|250px|Brock's jacket]]
+* Brock wore a blue jacket, gloves and boots with a white sweater and pants in a fantasy in ''[[EP126|The Chikorita Rescue]]''.
+* Brock wore a red jacket and olive pants in ''[[EP189|Freeze Frame]]'' and ''[[AG108|Let it Snow, Let it Snow, Let it Snorunt!]]''.
+* Brock wore a jacket similar to {{ga|Lucas}}'s in Platinum from ''[[DP125|Battling a Cute Drama!]]'' to ''[[DP129|Pillars of Friendship!]]'', as well as part of the credits of ''[[M12|Arceus and the Jewel of Life]]''.
+* In ''[[JN140|Bearing Down Easy!]]'', Brock wore a green and black jacket.
+
+=====Swimwear=====
+* Brock's first swimwear was a pair of light purple swim trunks with three dark blue diamonds on the sides. From ''[[Pokémon the Series: Ruby and Sapphire]]'' onwards, these trunks were colored dark purple, due to the different palette used in the digitally colored episodes beginning with ''[[EP261|Here's Lookin' at You, Elekid]]''.
+* In ''[[EP081|Pallet Party Panic]]'', Brock wore green swim trunks in a fantasy.
+* In ''[[EP220|The Mystery is History]]'', Brock wore a blue wetsuit and scuba gear.
+* In the end credits of ''[[M06|Jirachi Wishmaker]]'', Brock wore blue swim trunks.
+* In ''[[M09|Pokémon Ranger and the Temple of the Sea]]'', Brock wore a pair of olive green trunks with an orange stripe down the side. These trunks would later become Brock's main swimwear in ''[[Pokémon the Series: Diamond and Pearl]]''. Brock also wore his new trunks in the hot spring scene in ''[[M08|Lucario and the Mystery of Mew]]'', but this is only known from the artwork, as in the scene itself, nothing below Brock's neck was seen above water.
+* Like Ash and Dawn, Brock wore a different swimsuit than his normal one in ''[[M12|Arceus and the Jewel of Life]]'' - in Brock's case, a pair of dark green trunks with white lines on them. Like Ash's and Dawn's new swimwear, Brock's new trunks are quite unique, as he only wore them in that movie.
+
+====Gallery====
+<gallery perrow="5" widths="200">
+File:Brock army outfit.png|Brock in army attire
+File:Misty Hollywood.png|Brock's [[Hollywood]] fantasy outfit
+File:Ninja Suits.png|Brock in a ninja suit
+File:Brock AG156 ninja.png|Brock in a ninja outfit
+File:Brock DP095.png|Brock at [[Lila]]'s shop
+File:Dawn Brock Swimwear.png|Brock's swim trunks from ''[[DP047|Sandshrew's Locker!]]''
+File:Ash Brock outfits EP043.png|Brock and Ash in their dance costumes
+File:Brock pink apron.png|Brock in an apron
+File:Brock Takeshi Paradise outfit.png|Brock in his ''Takeshi's Paradise'' outfit
+File:Brock katana.png|Brock in {{wp|samurai}} armor from ''[[EP053|The Purr-fect Hero]]''
+File:EP160 outfits.png|Ash and his friends in a "prince" story from ''[[EP160|Air Time!]]''
+File:Brock in suit.png|Brock wearing a tuxedo
+File:Dawn Brock raincoats.png|Brock wearing a raincoat
+File:Brock shirt SM.png|Brock without his vest
+File:Brock Jacket JN.png|Brock's second jacket
+</gallery>
+
+
+===Voice actors===
+{{vatable
+| color = {{rock color}}
+| bordercolor = {{rock color light}}
+| ja = うえだゆうじ ''[[Yūji Ueda]]''
+| en = [[Eric Stuart]] ([[EP005]]-[[AG145]], [[M01]]-[[M08]], [[Mewtwo Returns]], [[Pokémon Chronicles]])<br>[[Bill Rogers]] ([[AG146]]-[[JN147]], [[M09]]-[[M13]], [[M22]], [[The Mastermind of Mirage Pokémon]])
+| ar = رأفت بازو ''Rafat Bazoo'' ([[EP005]]-[[EP075]])<br>عادل أبو حسون ''Adel Abo Hassoon'' ([[EP076]]-[[EP083]])<br>نبيل عساف ''Nabil Assaf'' ([[EP115]]-[[EP209]], [[EP263]]-[[AG040]])<br>Unknown voice actor ([[M04]]-[[M07]])<br>هشام أبو سليمان ''Hicham Abou Sleiman'' ([[M22]])<br>جيل يوسف ''Gilles Youssef'' ([[JNS02]]-[[JN147]])
+| bg = Александър Воронов ''Alexander Voronov''
+| zh_cmn = 符爽 ''Fú Shuǎng''<br>梁興昌 ''Liáng Xìngchāng''<br>于正昇 ''Yú Zhèngshēng''
+| hr = Igor Mešin
+| cs = Martin Písařík ([[EP005]]-[[EP209]], [[M01]]-[[M03]])<br>Jan Maxián ([[DP002]]-[[DP135]], [[DP147]]-[[SM103]], [[JNS02]]-[[JNS04]], [[M11]])<br>Michal Holán ([[DP136]]-[[DP146]])<br>Pavel Vondrák ([[JN106]])<br>Jan Battěk ([[JN139]]-[[JN147]])<br>Jiří Balcárek ([[M04]])
+| da = Peter Holst-Beck
+| nl = Fred Meijer<br>Unknown voice actor ([[M04]]-[[M07]])
+| fil = Julius Figueroa
+| fi = Juha Paananen ([[EP005]]-[[AG026]], [[M01]]-[[M04]], [[M22]], [[PK01]]-[[PK07]], [[Mewtwo Returns]])<br>Jari Salo ([[AG041]]-present, [[M10]]-present, [[The Mastermind of Mirage Pokémon]])<br>Christian Lönegren ([[M05]]-[[M07]])
+| fr_ca = Martin Watier
+| fr_eu = Antoni Lo Presti ([[EP005]]-[[EP157]], [[AG146]]-present)<br>Laurent Chauvet ([[EP158]]-[[AG145]])
+| de = Marc Stachel
+| el = Χάρης Γρηγορόπουλος ''Haris Grigoropoulos''
+| he = גיא רושיניאק ''Guy Roshiniak''
+| hi = <!--अभिषेक सिंग ''Abhishek Singh'' (Cartoon Network dub)<br>-->उपलक्ष कोछर ''Uplaksh Kochhar'' (Hungama dub)
+| ta = Sathya (Hungama dub)
+| hu = Sótonyi Gábor<br>Levente Molnar ([[M04]])<br>Zámbori Soma (''[[Pokémon the Series: Diamond and Pearl]]'')
+| is = Friðrik Friðriksson ([[M03]])<br>Björgvin Franz Gíslason ([[M05]])
+| id = Diky Rahman (Kanto saga)<br>Dendri Patma (Johto saga-''[[Pokémon the Series: Diamond and Pearl]]'', [[M02]]-[[M07]])<br>Kamal Nasuti (''[[Pokémon the Series: Diamond and Pearl]]'', [[M08]]-[[M13]])<br>Tri Budi Prakoso (''[[Pokémon the Series: Sun & Moon]]'', RTV dub)<br>Hardianto ([[M22]])<br>Ibnu Mahdiansyah (''[[Pokémon: The Arceus Chronicles]]'')
+| it = Nicola Bartolini Carrassi ([[EP005]]-[[EP105]], [[M01]]-[[M02]], [[M04]]-[[M05]]) <br> Luca Bottale ([[EP115]]-present, [[M03]], [[M06]]-[[M13]], [[M22]], {{TPCi}} redub of [[EP005]]-[[EP157]])
+| ko = 구자형 ''Gu Ja-Hyeong'' ([[Original series]], [[Pokémon movie|original movies]])<br>변영희 ''Byeon Yeong-Hui'' (''[[Pokémon the Series: Ruby and Sapphire]]'' and ''[[Pokémon the Series: Diamond and Pearl]]'') <br>김영선 ''Kim Yeongseon'' (''[[Pokémon the Series: Black & White]]'', [[Pokémon movie|redubbed movies]])
+| no = Eirik Espolin Johnson ([[EP005]]-[[EP083]], [[M01]], [[M03]]-[[M04]])<br>Erik Skøld ([[EP263]]-present, [[M02]], [[M05]]-[[M13]])
+| pl = Marek Włodarczyk ([[EP005]]-[[AG040]], [[DP053]]-present, [[M01]], [[M03]], [[M11]]-[[M13]], [[Mewtwo Returns]])<br>Waldemar Barwiński ([[DP002]]-[[DP052]])
+| pt_br = Alfredo Rollo ([[EP005]]-[[BW116]], [[JN139]]-[[JN147]], [[M01]]-[[M13]], [[M06]]-[[M07]] second dub, [[Pikachu short]]s, ''[[Mewtwo Returns]]'', [[Pokémon Chronicles]], [[The Mastermind of Mirage Pokémon]], [[Pokémon: The Arceus Chronicles]])<br>Sérgio Cantú ([[SM042]]-[[SM103]], [[M22]])<br>Lucas Marcondes ([[M06]]-[[M07]] third dub)<br>Unknown voice actor ([[JN106]])
+| pt_eu = Peter Michael ([[EP005]]-[[EP083]], [[M01]]-[[M02]])<br>Rui Quintas ([[EP115]]-[[AG192]], [[Pokémon Live!]], [[Pokémon Chronicles]])<br>Vítor Emanuel ([[M03]]-[[M04]])<br>Tiago Castro ([[M07]])<br>Luís Barros ([[DP002]]-[[DP052]])<br>Pedro Almendra ([[DP053]]-[[DP191]], [[M10]]-[[M13]] and [[M22]], [[SM042]]-present)
+| ru = Дмитрий Завацкий ''Dmitry Zavatskiy'' ([[EP005]]-[[EP083]])<br>Игорь Письменный ''Igor Pismenny'' ([[M01]], [[M03]])<br>Петр Иващенко ''Petr Ivaschenko'' ([[AG004]]-[[AG192]])<br>Александр Дасевич ''Alexander Dasevich'' ([[M08]]-[[M09]])<br>Антон Батырев ''Anton Batyrev'' ([[DP002]]-[[DP052]])<br>Александр Гаврилин ''Alexander Gavrilin'' ([[DP053]]-[[DP104]]; [[M11]])<br>Александр Коврижных ''Alexandr Kovrizhnykh'' ([[DP105]]-[[DP191]]; [[M10]], [[M12]]-[[M13]])<br>Евгений Вальц ''Evgeny Valtz'' ([[BW116]])<br>Илья Хвостиков ([[SM042]]-[[SM043]], [[SM102]]-[[SM103]]; [[M22]])<br>Глеб Глушенков ''Gleb Glushenkov'' ([[JNS02]]-[[JNS04]])
+| es_la = Gabriel Gama ([[EP005]]-[[DP009]], [[DP011]]-[[DP020]], [[DP158]]-[[JN147]])<br>José Antonio Macías (one scene of [[EP164]])<br>Alan Prieto ([[DP010]], [[DP021]]-[[DP157]])<br>Arturo Mercado Jr. ([[M04]]-[[M05]])
+| es_eu = Javier Balas<br>Sergio Sánchez Sánchez ([[M03]] and [[Mewtwo Returns]])
+| sv = Mattias Knave
+| th = นิรันดร์ บุญยรัตพันธุ์ (น้าต๋อย) ''Nirun Boonyarattaphan (Na Toy)'' ([[EP005]]-[[DP053]])<br>อภินันท์ ธีระนันทกุล ''Apinan Teeranantagun'' ([[DP054]]-present)
+| tr = Tugay Erverdi<br> Arda Aydın ([[M03]])<br> Onur Kırış ([[M05]])
+| vi = Nguyễn Hoài Bảo ([[EP005]]-present, [[M22]])<br>Hồ Tiến Đạt ([[BW116]]-[[SM044]])<br>Lê Nguyễn Tuấn Anh ([[M10]]-[[M13]])
+| ca = Óscar Muñoz (VHS dub)
+}}
+
+===Artwork===
+<div class="scrollbox">
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock OS.png|x250px]]
+| style= "{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock OS anime.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:BrockAG.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock AG.png|x225px]]
+| style="{{roundy|5px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Sugimori Brock AG.jpg|x225px]]
+|-
+| Official artwork from the {{color2|000|original series}}
+| Alternative artwork from the {{color2|000|original series}}
+| Official artwork from<br>''{{color2|000|Pokémon the Series: Ruby and Sapphire}}''
+| Alternative artwork from<br>''{{color2|000|Pokémon the Series: Ruby and Sapphire}}''
+| Artwork by {{color2|000|Ken Sugimori}} for<br>''{{color2|000|Pokémon the Series: Ruby and Sapphire}}''
+|-
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock DP Anime art.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock DP.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:BrockDP.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:TakeshiDP2.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock SM.png|x225px]]
+|-
+| Official artwork from<br>''{{color2|000|Pokémon the Series: Diamond and Pearl}}''
+| colspan=3 | Alternative artwork from<br>''{{color2|000|Pokémon the Series: Diamond and Pearl}}''
+| Official artwork from<br>''{{color2|000|Pokémon the Series: Sun & Moon}}''
+|-
+| style="{{roundy|5px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px" colspan=2 | [[File:Brock face OS concept art.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px" colspan=2 | [[File:JN106 AS.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px" colspan=2 | [[File:JN132 AS.png|x150px]]
+|-
+| colspan=2 | Brock's original concept art that states his age
+| colspan=2 |Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1515570755110830080</ref>
+| colspan=2 |Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1591672205040943105</ref>
+|-
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}" | [[File:To Be a Pokémon Master poster.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px" colspan=2 | [[File:JN140 AS.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px" colspan=2 | [[File:JN146 AS.png|x225px]]
+|-
+| Poster for<br>''{{color2|000|S25|Pokémon: To Be a Pokémon Master}}''
+| colspan=2 |Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1622112786506723328</ref>
+| colspan=2 |Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1637333078136987649</ref>
+|}
+</div>
+
+==In the games==
+[[File:Pokémon Puzzle League Brock and Vulpix.png|thumb|250px|Brock in Pokémon Puzzle League]]
+===In the spin-off games===
+====Pokémon Puzzle League====
+In [[Pokémon Puzzle League]], Brock is one of the opponents in the 1P Stadium mode, and one of the characters available in the 2P Stadium mode.
+
+====Pokémon Zany Cards====
+In [[Pokémon Zany Cards]], Brock and {{an|Misty}} appear as the second opponents in [[Wild Match]] mode.
+
+=====Pokémon=====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Brock|Geodude|074Geodude.png|rock|ground|size=100px}}
+| {{ActivePoké|Brock|Vulpix|037Vulpix.png|fire|size=100px}}
+| {{ActivePoké|Brock|Zubat|041Zubat.png|poison|flying|size=100px}}
+|}
+{{-}}
+
+==In the manga==
+[[File:Brock AP.png|thumb|220px|Brock in Ash & Pikachu]]
+===Ash & Pikachu===
+Brock appears as a main character of [[Ash & Pikachu]], similarly to his role in the {{pkmn|animated series}}.
+
+He temporarily left the group in ''[[SP17|Let's Save Pikachu!!]]'', but rejoined {{Ash}} in ''[[SP18|The Keeper Of The Tree, Treecko!!]]''.
+{{sectionstub}}
+
+====Pokémon====
+{| width="72%"
+|-
+| {{InactivePoké|Brock|Onix|Brock Onix AP.png|Rock|Ground}}
+| {{InactivePoké|Brock|Ludicolo|Brock Ludicolo AP.png|Water|Grass}}
+| {{InactivePoké|Brock|Marshtomp|Brock Marshtomp AP.png|Water|Ground}}
+|}
+{{-}}
+
+===The Electric Tale of Pikachu===
+[[File:Brock EToP.png|thumb|220px|Brock in The Electric Tale of Pikachu]]
+Brock is a frequently recurring character in [[The Electric Tale of Pikachu]]. Like in the animated series, he is a traveling companion of {{OBP|Ash Ketchum|EToP|Ash}} and {{an|Misty}}.
+
+Brock first appears in ''[[ET02|Play Misty For Me]]'', where Ash challenges him for the {{Badge|Boulder}}. After defeating Brock and earning the Badge, Ash leaves [[Pewter City]] and continues his journey alone.
+
+Brock reappears in ''[[ET04|Haunting My Dreams]]'', meeting Ash by coincidence in [[Saffron City]]. He becomes a steady traveling companion of Ash in ''[[ET05|The Human Race and the Pokémon Race]]'', though he separates from Ash in ''[[ET11|Days of Gloom and Glory]]'' while he prepares for the [[Indigo Plateau Conference]].
+
+Like in the animated series, Brock is the Leader of the [[Pewter Gym]], but he takes a break from his duties as [[Gym Leader]] to travel. Unlike in the animated series, however, he does not hand control of the Gym to his {{ka|Flint|father}} or his {{TP|Brock|siblings}}. Instead, he closes the Gym completely while he travels. Brock has a weakness for pretty girls such as the [[Sensational Sisters]], and he is the only character that can tell the many [[Nurse Joy]]s and [[Officer Jenny]]s apart.
+
+====Pokémon====
+{{anchor|Onix 2}}{{TrainerPoké
+|main=yes
+|trainer=Brock
+|width=72
+|pkmn=Onix
+|type1=Rock
+|type2=Ground
+|img=Brock Onix EToP.png
+|img_size=200px
+|epnum=ET02
+|epname=Play Misty For Me
+|desc=Brock used {{p|Onix}} during his challenge as a Gym Leader against Ash; however, Onix was defeated. Later, it fought against the [[Black Fog]] along with Brock's Geodude but was defeated by the move {{m|Dream Eater}}.}}
+
+{{TrainerPoké
+|main=Brock's Geodude
+|trainer=Brock
+|pkmn=Geodude
+|nick=Geodude (×2)
+|type1=Rock
+|type2=Ground
+|img=Brock Geodude EToP.png
+|img_size=200px
+|epnum=ET02
+|epname=Play Misty For Me
+|desc=Brock used these {{p|Geodude}} during his challenge as a Gym Leader against Ash. Later, they fought against the [[Black Fog]] along with Onix but they were defeated by its {{m|Dream Eater}}.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Graveler
+|type1=Rock
+|type2=Ground
+|img=Brock Graveler EToP.png
+|img_size=200px
+|epnum=ET10
+|epname=Clefairy in Space
+|desc={{p|Graveler}} was used to try to impress Professor Oak but was never shown to him because of Brock's nervousness paralyzing him.
+
+None of Graveler's moves are known.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Golem
+|type1=Rock
+|type2=Ground
+|img=Brock Golem EToP.png
+|img_size=200px
+|epnum=ET10
+|epname=Clefairy in Space
+|desc={{p|Golem}} was used to try to impress Professor Oak but was never shown to him because of Brock's nervousness paralyzing him.
+
+None of Golem's moves are known.}}
+
+=====Other=====
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Vileplume
+|type1=Grass
+|type2=Poison
+|img=Brock Vileplume EToP.png
+|epnum=ET05
+|epname=The Human Race and the Pokémon Race
+|desc=Brock used this {{p|Vileplume}} as a bouquet to try to impress Misty's sisters.
+
+None of Vileplume's moves are known.}}
+
+===Magical Pokémon Journey===
+[[File:Ash and Brock MPJ.png|thumb|220px|Ash and Brock in Magical Pokémon Journey]]
+Brock, along with {{Ash}} and {{an|Misty}}, made cameo appearances in bonus chapters. In those, Brock and company have mistakenly wandered into the world Magical Pokémon Journey is set in. The bonus chapters chronicle their attempts to return to their own world (of the {{pkmn|animated series}}) and their encounters with various aspects of the Magical Pokémon Journey [[canon]] which differ from the animated series' canon (such as the use of [[Poké Ball]]s).
+{{-}}
+
+===Movie adaptations===
+[[File:DP series trio.png|thumb|220px|Brock with his friends]]
+As Brock appeared in every movie prior to ''[[Pokémon the Series: Black & White]]'', he has appeared in every manga adaptation of it. He has the same team in the manga as he would in the actual movies.
+{{-}}
+
+==In the TCG==
+This listing is of cards mentioning or featuring the animated series version of Brock or his Pokémon in the [[Pokémon Trading Card Game]].
+{{cardlist/header|Brock's Pokémon|Fighting|char=yes}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Zubat|24}}|type=Grass|enset=Gym Heroes|enrarity=Rare|ennum=24/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Vulpix|73}}|type=Fire|enset=Gym Heroes|enrarity=Common|ennum=73/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common|jpset2=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Zubat|74}}|type=Grass|enset=Gym Heroes|enrarity=Common|ennum=74/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common}}{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Vulpix|37}}|type=Fire|enset=Gym Challenge|enrarity=Uncommon|ennum=37/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Theater VS Pack|Brock's Crobat|2}}|type=Grass|jpset=Theater Limited VS Pack|jpnum=002/018}}
+{{cardlist/entry|cardname={{TCG ID|ADV-P Promo|Brock's Mudkip|38}}|type=Water|jpset=ADV-P Promotional cards|jpnum=038/ADV-P}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Brock's Forretress|11}}|type=Metal|jpset=Movie Commemoration VS Pack: Aura's Lucario|jpnum=011/020}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Brock's Marshtomp|8}}|type=Fighting|jpset=Movie Commemoration VS Pack: Sea's Manaphy|jpnum=008/019}}
+{{cardlist/entry|cardname=[[Croagunk M (Movie Random Pack 13)|Croagunk]] {{SP|M}}|type=Psychic|jpset=Movie Commemoration Random Pack|jpnum=013/022}}
+{{cardlist/footer|Fighting}}
+
+==Trivia==
+* Brock was designed by [[Atsuko Nishida]].<ref>[https://twitter.com/El_Aleph87/status/1632063563744378884 Press release of "Hometown Story"]</ref>
+* Brock is among the longest-running main characters in the [[Pokémon animated series]], having been present in nearly every episode between ''[[EP005|Showdown in Pewter City]]'' and ''[[DP191|Memories are Made of Bliss!]]'', with the notable exception of the {{DL|List of original series episodes|Orange League arc|Orange Islands saga}}, the [[EP274|final episode of ''Pokémon the Series: Gold and Silver'']], the first three episodes of ''[[Pokémon the Series: Ruby and Sapphire]]'', and the [[DP001|first episode of ''Pokémon the Series: Diamond and Pearl'']]. His tenure is ranked under {{Ash}}, {{AP|Pikachu}}, the [[Team Rocket trio]], and {{TP|Jessie|Wobbuffet}}.
+[[File:Brock Memories.png|thumb|250px|Some [[Photography|old memories]] of Brock with his traveling companions]]
+* Most official sources do not give Brock a last name. However, several sources suggest that in the animated series, his last name is Harrison. In the July 2006 issue of [[K-Zone]] Magazine, [[Eric Stuart]] was interviewed, and he said Brock's last name is '''Harrison'''.<ref>https://web.archive.org/web/20061216014724/http://www.totalpokemon.com/anime/stuartview1</ref>
+** In ''[[EP153|Love, Totodile Style]]'', Brock confirmed that he does indeed have a last name, although did not give it.
+* Brock captured a new Pokémon sooner after his debut than any other main character, even {{Ash}}, by capturing {{TP|Brock|Zubat}} in ''[[EP006|Clefairy and the Moon Stone]]'', exactly one episode after [[EP005|his debut]].
+* Brock has owned four Pokémon [[List of cross-generational evolutionary lines|whose Evolutions debuted in a different generation]] than that Pokémon ({{TP|Brock|Onix}}, {{TP|Brock|Golbat}}, {{TP|Brock|Bonsly}}, and {{TP|Brock|Happiny}}). All of them have since [[Evolution|evolved]].
+** In addition to this, all of their final evolutionary stages debuted in [[Generation II]].
+* ''[[Pokémon the Series: XY]]'' is the only series with Ash as a main character where Brock does not appear and is never mentioned.
+** However, the ear pull {{an|Misty}} and [[Max]] did on Brock was referenced by {{an|Shauna}} and {{an|Tierno}} in ''[[XY138|The First Day of the Rest of Your Life!]]''.
+* Brock is the first of [[Ash's friends]] to have obtained a new Pokémon within the main series after retiring from the main cast.
+* Brock is the only one of Ash's male friends to have more than one main outfit.
+* Brock ranked first place in a 20th anniversary poll leading up to ''[[M20|I Choose You!]]'' concerning former cast members viewers want to see return.<ref>https://s.animeanime.jp/article/2017/05/11/33827.html</ref>
+* In ''[[JNS02|The Arceus Chronicles (Part 2)]]'', Brock is seen driving a mini-plane of sorts, an indication that at some point after his adventures with Ash, he may have acquired a driver's license.
+* Among the animated series characters, Brock has the most known family members, with a total of 11.
+* Brock's Pokémon have experienced the most [[Methods of Evolution]] of any main character, with his team having evolved at a certain level, known a certain move, evolved at a [[Time-based Evolution|certain time]], used an [[Evolution item]], [[Trade Evolution|transfered ownership]], had high [[friendship]], and been exposed to an [[Evolution stone]].
+* Brock was the first main character to use [[Mega Evolution]].
+
+===Hidaka interview about Brock's short absence from the animated series===
+There had been some debate between members of the fanbase in regards to why Brock was removed from the main cast during the Orange Islands arc, why [[Tracey Sketchit]] was created, and why Brock returned later. In an [http://www.pokebeach.com/news/0708/second-pokemon-interview-with-masamitsu-hidaka-many-interesting-points interview] with former Pokémon animation director and storyboard artist [[Masamitsu Hidaka]], he stated his own reason why Brock was removed from the cast and why he eventually returned. He revealed that the true reason they replaced Brock is because, once they realized Pokémon was going global, there was a chance that Americans, if not anyone else outside of Japan, would view Brock as a racist stereotype because of his eyes (even though there wasn't an actual complaint yet). So they created a "tall, Anglo-Saxon looking person to be on the safe side". They later replaced Tracey with Brock again once they realized that no one really cared as to what Brock looks like, and actually enjoyed his character. However, this was only stated by Hidaka and not by any other staff member.
+
+==Names==
+{{main|Brock#Names|Brock → Names}}
+
+==References==
+<references/>
+
+==External links==
+*{{wp|Brock (Pokémon)|Article on Wikipedia}}
+
+==Related articles==
+* [[Brock]]
+* {{cat|Episodes focusing on Brock}}
+
+{{Brock's Pokémon}}
+{{animecharacters|rock}}
+{{Ash and Pikachu characters}}
+{{Electric Tale of Pikachu characters}}
+{{Pokémon Live}}
+{{Project Anime notice|no}}
+
+[[Category:Ash's friends]]
+[[Category:Pokémon Breeders]]
+[[Category:Laboratory assistants]]
+[[Category:Gym Leaders]]
+[[Category:Rock-type Trainers]]
+[[Category:Trainers who use Mega Evolution]]
+[[Category:Doctors]]
+[[Category:Animation characters]]
+[[Category:Animated series running gags]]
+[[Category:Manga characters]]
+[[Category:Electric Tale of Pikachu characters]]
+[[Category:Ash & Pikachu characters]]
+[[Category:Pokémon Newspaper Strip characters]]
+[[Category:Pokémon Live!]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Rocko (Animecharakter)]]
+[[es:Brock (anime)]]
+[[fr:Pierre (Kanto)/Pokémon, la série]]
+[[it:Brock (serie animata)]]
+[[ja:タケシ (アニメ)]]
+[[zh:小剛（動畫）]]

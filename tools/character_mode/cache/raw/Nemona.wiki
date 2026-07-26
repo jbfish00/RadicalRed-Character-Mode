@@ -1,0 +1,2878 @@
+{{spoilers}}
+{{Character Infobox
+|color={{scarlet color}}
+|corecolor={{scarlet color light}}
+|bordercolor={{scarlet color dark}}
+|name=Nemona
+|jname=ネモ
+|tmname=Nemo
+|text=fff
+|image=Scarlet Violet Nemona.png
+|size=150px
+|caption=Artwork from Scarlet
+|gender=Female
+|height=5'7½" (1.72 m)<ref name=PSW>[[Pokémon Scale World]]</ref>
+|colors=yes
+|eyes=Orange
+|hair=Black
+|hometown=[[Cabo Poco]] (original hometown unknown)
+|region=[[Paldea]] (original region unknown)<ref name="LeagueClub">'''Nemona:''' ''"I actually moved to Paldea when I was seven."'' ([[Pokémon Scarlet and Violet]]: [[The Indigo Disk|The Hidden Treasure of Area Zero Part 2: The Indigo Disk]], second unique League Club interaction)</ref>
+|relatives=Unnamed father, mother,<br>and older sister
+}}
+{{Character Infobox/Game
+|color={{scarlet color light}}
+|gen={{gen|IX}}
+|games={{pkmn|Scarlet and Violet|Scarlet, Violet}}<br>{{pkmn|Masters EX}}
+|trainer=[[Pokémon Trainer]], {{pkmn|Champion}}
+|counterpart=[[Nemona (Masters)]]
+|enva=Cristina Milizia<ref name="Cristina Milizia">[https://imgur.com/a/EkwNHpk Email from Cristina Milizia]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Aya Uchida <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Team
+|color={{scarlet color light}}
+|member=[[Paldea League]]
+|rank=Champion
+}}
+{{Character Infobox/Anime
+|color={{scarlet color light}}
+|series=''[[Pokémon Horizons: The Series]]''<br>''[[Pokémon: Paldean Winds]]''
+|counterpart=[[Nemona (anime)]]
+|debut=''[[HZ010|Nemona and Brassius and…]]'' <small>([[Pokémon Horizons: The Series|Horizons]])</small><br>''[[PPW01|Breathe Out]]'' <small>([[Pokémon: Paldean Winds|PW]])</small>
+|enva=Yolis Arroyo <small>([[Pokémon Horizons: The Series|Horizons]])</small><br>Olivia Vidas <small>([[Pokémon: Paldean Winds|PW]])</small>
+|jpva=[[Eri Kitamura]] <small>([[Pokémon Horizons: The Series|Horizons]])</small><br>Eriko Matsui <small>([[Pokémon: Paldean Winds|PW]])</small>
+}}
+{{Character Infobox/Manga
+|color={{scarlet color light}}
+|series=''[[Pokémon Adventures]]''
+|counterpart=[[Nemona (Adventures)]]
+|debut=''[[PASV01|Speeding! Paldea's Prince of Speed!!]]''
+}}
+|}
+
+'''Nemona''' (Japanese: '''ネモ''' ''Nemo'') is a character introduced in {{g|Scarlet and Violet}}. She is the [[player character]]'s [[friend]] and hopes to find an equal [[rival]]ry with them. Nemona is the president of the academy's student council and one of [[Paldea]]'s {{pkmn|Champion}}-ranked Trainers.
+
+==In the core series games==
+===Personality===
+Nemona is an energetic and fun girl who adores battling with Pokémon. As an experienced Pokémon Trainer, she is among the strongest [[Paldea|Paldean]] trainers, ranked as a {{pkmn|Champion}}, after moving to the region at the age of just seven.<ref name="LeagueClub" /> Despite her skill, she is not very good at throwing [[Poké Ball]]s. She serves as a guide for the player. She, along with the player, is enrolled in the {{wp|general studies|general studies}} track of the [[Naranja Academy|Naranja]]{{sup/9|S}}/[[Uva Academy|Uva]]{{sup/9|V}} Academy, with her homeroom teacher being [[Jacq]]. Due to her love for battles, Nemona tries to squeeze in a battle at every moment she gets, and strives to have someone in equals with. Nemona occasionally drops Spanish words or a Spanish accent in her dialect in English, in reference to Paldea being based on the real-world country of {{wp|Spain}}.
+
+Along with the player, who Nemona begins a quick [[friend]]ship with, Nemona also meets [[Arven]] and [[Penny]] over the course of Scarlet and Violet. She doesn't get along with the other two at first, often misunderstanding their viewpoints and clashing with their interests, but get along by game's end. Nemona has an admiration for stronger trainers, such as [[Geeta]], the strongest member of Paldea's [[Pokémon League]].
+
+Nemona lives in the same hometown of [[Cabo Poco]] as the player, living in the same neighborhood. She is the daughter of one of the [[Rotom Phone]] company's board members, coming from a wealthier family. Her father, mother and older sister all go unnamed. Nemona's Student ID at the academy is 805C001.
+
+===Appearance===
+[[File:Violet Nemona concept art.jpg|thumb|250px|Nemona's [[Pokémon Scarlet and Violet|Pokémon Violet]] concept art]]
+Nemona is a young girl who attends Paldea's academy; due to the school changing based on what version is being played, so does her outfit. Her design otherwise relatively stays the same. Nemona has long black hair with most of it being tied in the back in the form of a ponytail. Three bangs stick out from her forehead, the two larger ones being a shade of green as opposed to her normal black coloring. She has large, angular eyes with orange irises and large black pupils. She has three eyelashes on each eye. Her angular eyebrows are thin and black
+
+She wears a magenta arm brace on her right arm. This arm brace covers her knuckles and stops halfway up to her forearm. The bottom side is black and goes all around her arm up to her bicep. The magenta covering is stopped by a thick white cuff. Her shoes are the same colors as her arm brace, having a white back and soles, the upper half being mostly magenta and the tongue being white and black. She wears all-black leggings that go underneath her school shorts.
+
+Nemona will always wear the summer attire of her school's uniform, sporting a short-sleeved T-shirt and shorts. The T-shirt has the school's emblem on her left sleeve. In [[Pokémon Scarlet and Violet|Pokémon Scarlet]], the shirt is all off-white tinted blue, with a collar that goes around the neck, topped with an orange necktie. A singular front pocket on the left side of her chest. Her shorts are orange with lighter orange stripes. These shorts have two pockets on both sides of her legs, with larger pockets underneath that stick out, buttoned together by blue buttons. She has two blue strings on the front of her pants. In Pokémon Violet, her shirt is gray instead and has a purple tie. her shorts also look nearly identical, with the blue buttons and strings being yellow and the pants themselves being completely purple with no pattern.
+{{left clear}}
+
+===History===
+====Background====
+'''Website blurb:''' ''"Your friend, Nemona, has a sunny and energetic disposition, and she absolutely loves Pokémon battles. She’s an experienced Pokémon Trainer and serves as a reliable guide for you on your adventures. She has undisputed skill in battle—though it does also seem that she’s not the best at throwing Poké Balls."''
+
+Prior to the events of Scarlet and Violet, unlike previous rival and friend characters, Nemona is already a [[Pokémon Trainer]] and a Champion, and implies that she is starting fresh with a new [[party|team]] of Pokémon. She already attends the school that the player will attend to.
+
+==== [[Pokémon Scarlet and Violet]] ====
+
+===== Victory Road =====
+Nemona is first met in [[Cabo Poco]], where she introduces herself as the player's neighbor. Despite being a {{pkmn|Champion}}-ranked Trainer, she chooses to raise a new Pokémon team alongside the player to be more on their level, choosing the [[first partner Pokémon]] that is weak to the {{player}}'s. After having her first battle with the player, the two set off to the city of [[Mesagoza]] to go to the Academy. The player has a troubling situation with {{ga|Koraidon}}{{sup/9|S}}/{{ga|Miraidon}}{{sup/9|V}} on [[Inlet Grotto]], and returns to Nemona. Nemona is glad that the player is safe and brings them to a nearby lighthouse on [[Poco Path]], where they meet [[Arven]], a boy who seems to know about the Pokémon the player has found. After some clashing of heads and explanation of the player's new ride, Nemona escorts them to [[Mesagoza]] through [[Los Platos]] and gives them a tutorial on [[Pokémon Center]]s and the [[Terastal phenomenon]] in front of Mesagoza's doors. Inside the city, Nemona brings them to the school's stairs (which she seems to have a frustration with on account of being too long and steep) where the two of them will be studying. There, they encounter more strangers, [[Team Star]], a group of students who bully other students, and [[Penny]], a shy girl who also seems to butt heads with Nemona. 
+
+Once the player starts studying at the academy, Nemona urges them to challenge [[Gym]]s around Paldea so they can challenge the {{pal|Pokémon League}}. Along the way, Nemona will occasionally appear to gauge the player's progress by battling them. Once the player has defeated all 8 of Paldea's Gyms, she becomes excited and awaits their progress at the Pokémon League. Once the player has passed the test and became a Champion-ranked member of the Pokémon league, Nemona is thrilled and wants to battle them immediately. The two of them think on where this champion themed battle should be held, deciding on Megagoza's battlefield in the middle of the city. Nemona loses to the player, but is filled with pride and excitement, happy to have such a fruitful battle against them. She asks for more, hoping the fun never stops.
+
+===== The Way Home =====
+Once the player has passed the Champion Assessment, Nemona will challenge them to one more battle, where she doesn't hold back. After the player has finished Victory Road and the two other stories, She later accompanies the player, [[Arven]], and [[Penny]] on a journey to [[Area Zero]], battling alongside the player as a battle partner to fight against any [[Paradox Pokémon]] they may come across.
+
+In the post-credits story, Nemona participates in the [[Academy Ace Tournament]], although she has to manage the admin work when it is held for the first time, she can be battled as a random opponent in subsequent Academy Ace Tournaments.
+
+===== [[Mochi Mayhem]] =====
+Nemona joins Arven and Penny to hang out with the player at their house. Later, they are invited to join the player in visiting [[Kieran]] in [[Kitakami]]. Upon their arrival, Nemona immediately challenges Kieran to a battle, having heard of his former status as BB League Champion, and though she wins handily, she is greatly impressed by his skills. Just then, [[Carmine]] arrives, performing a weird dance and not acting her usual self. Kieran is concerned by his sister's peculiar behavior, though Nemona and the others encourage him to stay positive. That night, Nemona stops by {{DL|Mossui Town|Peachy's}} to buy soda for the group and ends up unwittingly eating {{ga|Pecharunt}}'s toxic mochi before returning to the {{DL|Mossui Town|Community Center}}. During their race to find the remote for the TV display, Nemona eventually falls under Pecharunt's influence and wanders out of the Community Center, heading for [[Kitakami Hall]] and presumably infecting more citizens. The player and Kieran spot her and give chase, only to contend with Kieran's infected [[Yukito and Hideko|grandparents]] instead.
+
+The player and Kieran later confront the controlled Nemona and Pecharunt itself at [[Loyalty Plaza]]. Realizing the player is the only one who can beat Nemona in battle, Kieran decides to back them up by holding off an approaching horde of possessed villagers. Meanwhile, the player fights and defeats Nemona, who retains a modicum of her battle-frenzied personality despite Pecharunt's control. After the player defeats and catches Pecharunt, Nemona and the others are freed from its influence, with Nemona believing her battle with the player to be a "crazy realistic dream" that she would like to have again. After spending some more peaceful time in Kitakami and battling Carmine and Kieran a dozen times each, the player, Nemona and the others return to Paldea.
+
+===Pokémon===
+===={{g|Scarlet and Violet}}====
+Nemona uses the [[first partner Pokémon]] with a [[type]] disadvantage to the one the player chooses. As shown in the game's opening cutscene, she also owns a Combat Breed {{rf|Paldean}} {{p|Tauros}}. She is never seen using him elsewhere, although she can trade one to the player in [[The Indigo Disk]]. She is also implied to have more Pokémon that are unseen by the player, as she became a Champion prior to her first battle with the player and repeatedly mentions needing to select a perfect team for her battles. The official website for Pokémon Scarlet and Violet claims that Nemona uses {{p|Lechonk}} and {{p|Smoliv}}, even though she is never seen using either of these Pokémon.<ref>[https://scarletviolet.pokemon.com/en-us/pokemon/lechonk/ Lechonk — Pokémon Scarlet and Pokémon Violet | Official Website]</ref><ref>[https://scarletviolet.pokemon.com/en-us/pokemon/smoliv/ Smoliv — Pokémon Scarlet and Pokémon Violet | Official Website]</ref>
+
+=====First battle=====
+Winning this battle is not mandatory. The player will not [[black out]] and the story will progress either way.
+
+During this battle, both the player's and Nemona's Pokémon are prevented from scoring [[critical hit]]s.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}300
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Cabo Poco
+| game = SV
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0912
+| pokemon = Quaxly
+| gender = male
+| level = 5
+| type1 = Water
+| ability = Torrent
+| move1 = Pound | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+| move3 = Water Gun | move3type = Water | move3cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}300
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Cabo Poco
+| game = SV
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0906
+| pokemon = Sprigatito
+| gender = male
+| level = 5
+| type1 = Grass
+| ability = Overgrow
+| move1 = Scratch | move1type = Normal | move1cat = Physical
+| move2 = Tail Whip | move2type = Normal | move2cat = Status
+| move3 = Leafage | move3type = Grass | move3cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}300
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Cabo Poco
+| game = SV
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0909
+| pokemon = Fuecoco
+| gender = male
+| level = 5
+| type1 = Fire
+| ability = Blaze
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+| move3 = Ember | move3type = Fire | move3cat = Special
+}}
+{{Party/end}}
+
+=====Second battle=====
+Winning this battle is not mandatory. The player will not [[black out]] and the story will progress either way.
+
+Nemona will {{Tera}}stallize her {{p|Pawmi}} at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}540
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = South Province (Area One)
+| game = SV
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0912
+| pokemon = Quaxly
+| gender = male
+| level = 8
+| type1 = Water
+| ability = Torrent
+| move1 = Pound | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+| move3 = Water Gun | move3type = Water | move3cat = Special
+| move4 = Work Up | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0921
+| pokemon = Pawmi
+| gender = male
+| level = 9
+| type1 = Electric
+| tera = Electric
+| icon = tera
+| ability = Static
+| move1 = Thunder Shock | move1type = Electric | move1cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}540
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = South Province (Area One)
+| game = SV
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0906
+| pokemon = Sprigatito
+| gender = male
+| level = 8
+| type1 = Grass
+| ability = Overgrow
+| move1 = Scratch | move1type = Normal | move1cat = Physical
+| move2 = Tail Whip | move2type = Normal | move2cat = Status
+| move3 = Leafage | move3type = Grass | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0921
+| pokemon = Pawmi
+| gender = male
+| level = 9
+| type1 = Electric
+| tera = Electric
+| icon = tera
+| ability = Static
+| move1 = Thunder Shock | move1type = Electric | move1cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}540
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = South Province (Area One)
+| game = SV
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0909
+| pokemon = Fuecoco
+| gender = male
+| level = 8
+| type1 = Fire
+| ability = Blaze
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+| move3 = Ember | move3type = Fire | move3cat = Special
+| move4 = Round | move4type = Normal | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0921
+| pokemon = Pawmi
+| gender = male
+| level = 9
+| type1 = Electric
+| tera = Electric
+| icon = tera
+| ability = Static
+| move1 = Thunder Shock | move1type = Electric | move1cat = Special
+}}
+{{Party/end}}
+
+=====Third battle=====
+Winning this battle is not mandatory. The player will not [[black out]] and the story will progress either way.
+
+Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}1,320
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Third Gym
+| game = SV
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0744
+| pokemon = Rockruff
+| gender = female
+| level = 21
+| type1 = Rock
+| ability = Vital Spirit
+| move1 = Double Team | move1type = Normal | move1cat = Status
+| move2 = Rock Throw | move2type = Rock | move2cat = Physical
+| move3 = Howl | move3type = Normal | move3cat = Status
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0921
+| pokemon = Pawmi
+| gender = male
+| level = 21
+| type1 = Electric
+| ability = Static
+| move1 = Charge | move1type = Electric | move1cat = Status
+| move2 = Nuzzle | move2type = Electric | move2cat = Physical
+| move3 = Dig | move3type = Ground | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0913
+| pokemon = Quaxwell
+| gender = male
+| level = 22
+| type1 = Water
+| tera = Water
+| icon = tera
+| ability = Torrent
+| move1 = Double Hit | move1type = Normal | move1cat = Physical
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Wing Attack | move3type = Flying | move3cat = Physical
+| move4 = Work Up | move4type = Normal | move4cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}1,320
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Third Gym
+| game = SV
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0744
+| pokemon = Rockruff
+| gender = female
+| level = 21
+| type1 = Rock
+| ability = Vital Spirit
+| move1 = Double Team | move1type = Normal | move1cat = Status
+| move2 = Rock Throw | move2type = Rock | move2cat = Physical
+| move3 = Howl | move3type = Normal | move3cat = Status
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0921
+| pokemon = Pawmi
+| gender = male
+| level = 21
+| type1 = Electric
+| ability = Static
+| move1 = Charge | move1type = Electric | move1cat = Status
+| move2 = Nuzzle | move2type = Electric | move2cat = Physical
+| move3 = Dig | move3type = Ground | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0907
+| pokemon = Floragato
+| gender = male
+| level = 22
+| type1 = Grass
+| tera = Grass
+| icon = tera
+| ability = Overgrow
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Magical Leaf | move2type = Grass | move2cat = Special
+| move3 = Hone Claws | move3type = Dark | move3cat = Status
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}1,320
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Third Gym
+| game = SV
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0744
+| pokemon = Rockruff
+| gender = female
+| level = 21
+| type1 = Rock
+| ability = Vital Spirit
+| move1 = Double Team | move1type = Normal | move1cat = Status
+| move2 = Rock Throw | move2type = Rock | move2cat = Physical
+| move3 = Howl | move3type = Normal | move3cat = Status
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0921
+| pokemon = Pawmi
+| gender = male
+| level = 21
+| type1 = Electric
+| ability = Static
+| move1 = Charge | move1type = Electric | move1cat = Status
+| move2 = Nuzzle | move2type = Electric | move2cat = Physical
+| move3 = Dig | move3type = Ground | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0910
+| pokemon = Crocalor
+| gender = male
+| level = 22
+| type1 = Fire
+| tera = Fire
+| icon = tera
+| ability = Blaze
+| move1 = Incinerate | move1type = Fire | move1cat = Special
+| move2 = Yawn | move2type = Normal | move2cat = Status
+| move3 = Bite | move3type = Dark | move3cat = Physical
+| move4 = Round | move4type = Normal | move4cat = Special
+}}
+{{Party/end}}
+
+=====Fourth battle=====
+Winning this battle is not mandatory. The player will not [[black out]] and the story will progress either way.
+
+Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}4,320
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Fifth Gym
+| game = SV
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 36
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Accelerock | move2type = Rock | move2cat = Physical
+| move3 = Bite | move3type = Dark | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0704
+| pokemon = Goomy
+| gender = female
+| level = 36
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Flail | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0922
+| pokemon = Pawmo
+| gender = male
+| level = 36
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Spark | move1type = Electric | move1cat = Physical
+| move2 = Arm Thrust | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = 37
+| type1 = Water
+| type2 = Fighting
+| tera = Water
+| icon = tera
+| ability = Torrent
+| move1 = Air Slash | move1type = Flying | move1cat = Special
+| move2 = Aqua Step | move2type = Water | move2cat = Physical
+| move3 = Aqua Jet | move3type = Water | move3cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}4,320
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Fifth Gym
+| game = SV
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 36
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Accelerock | move2type = Rock | move2cat = Physical
+| move3 = Bite | move3type = Dark | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0704
+| pokemon = Goomy
+| gender = female
+| level = 36
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Flail | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0922
+| pokemon = Pawmo
+| gender = male
+| level = 36
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Spark | move1type = Electric | move1cat = Physical
+| move2 = Arm Thrust | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = 37
+| type1 = Grass
+| type2 = Dark
+| tera = Grass
+| icon = tera
+| ability = Overgrow
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Flower Trick | move2type = Grass | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x75px
+| prize = {{PDollar}}4,320
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Fifth Gym
+| game = SV
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 36
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Accelerock | move2type = Rock | move2cat = Physical
+| move3 = Bite | move3type = Dark | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0704
+| pokemon = Goomy
+| gender = female
+| level = 36
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Flail | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0922
+| pokemon = Pawmo
+| gender = male
+| level = 36
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Spark | move1type = Electric | move1cat = Physical
+| move2 = Arm Thrust | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = 37
+| type1 = Fire
+| type2 = Ghost
+| tera = Fire
+| icon = tera
+| ability = Blaze
+| move1 = Snarl | move1type = Dark | move1cat = Special
+| move2 = Torch Song | move2type = Fire | move2cat = Special
+| move3 = Lick | move3type = Ghost | move3cat = Physical
+}}
+{{Party/end}}
+
+=====Fifth battle=====
+Winning this battle is not mandatory. The player will not [[black out]] and the story will progress either way.
+
+Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}7,740
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Seventh Gym
+| game = SV
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 42
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Crunch | move2type = Dark | move2cat = Physical
+| move3 = Rock Slide | move3type = Rock | move3cat = Physical
+| move4 = Sand Attack | move4type = Ground | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0705
+| pokemon = Sliggoo
+| gender = female
+| level = 42
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Flail | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 42
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Spark | move1type = Electric | move1cat = Physical
+| move2 = Arm Thrust | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = 43
+| type1 = Water
+| type2 = Fighting
+| tera = Water
+| icon = tera
+| ability = Torrent
+| move1 = Air Slash | move1type = Flying | move1cat = Special
+| move2 = Aqua Step | move2type = Water | move2cat = Physical
+| move3 = Aqua Jet | move3type = Water | move3cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}7,740
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Seventh Gym
+| game = SV
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 42
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Crunch | move2type = Dark | move2cat = Physical
+| move3 = Rock Slide | move3type = Rock | move3cat = Physical
+| move4 = Sand Attack | move4type = Ground | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0705
+| pokemon = Sliggoo
+| gender = female
+| level = 42
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Flail | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 42
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Spark | move1type = Electric | move1cat = Physical
+| move2 = Arm Thrust | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = 43
+| type1 = Grass
+| type2 = Dark
+| tera = Grass
+| icon = tera
+| ability = Overgrow
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Flower Trick | move2type = Grass | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}7,740
+| class = Pokémon Trainer
+| name = {{color2|000|Nemona}}
+| location = Paldea League#Gym Leaders
+| locationname = Seventh Gym
+| game = SV
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 42
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Crunch | move2type = Dark | move2cat = Physical
+| move3 = Rock Slide | move3type = Rock | move3cat = Physical
+| move4 = Sand Attack | move4type = Ground | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0705
+| pokemon = Sliggoo
+| gender = female
+| level = 42
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+| move3 = Flail | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 42
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Spark | move1type = Electric | move1cat = Physical
+| move2 = Arm Thrust | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = 43
+| type1 = Fire
+| type2 = Ghost
+| tera = Fire
+| icon = tera
+| ability = Blaze
+| move1 = Snarl | move1type = Dark | move1cat = Special
+| move2 = Torch Song | move2type = Fire | move2cat = Special
+| move3 = Lick | move3type = Ghost | move3cat = Physical
+}}
+{{Party/end}}
+=====Sixth battle=====
+The player's Pokémon will not gain any [[experience]] during this battle. Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona 2 {{rand/2|S|V}}.png
+| size = x100px
+| prize = none
+| class = Champion
+| classlink = Pokémon Champion
+| name = Nemona
+| location = Mesagoza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 65
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 65
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = 65
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = 65
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 65
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = 66
+| type1 = Water
+| type2 = Fighting
+| tera = Water
+| icon = tera
+| ability = Torrent
+| move1 = Aqua Step | move1type = Water | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+| move3 = Aerial Ace | move3type = Flying | move3cat = Physical
+| move4 = Ice Spinner | move4type = Ice | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona 2 {{rand/2|S|V}}.png
+| size = x100px
+| prize = none
+| class = Champion
+| classlink = Pokémon Champion
+| name = Nemona
+| location = Mesagoza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 65
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 65
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = 65
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = 65
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 65
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = 66
+| type1 = Grass
+| type2 = Dark
+| tera = Grass
+| icon = tera
+| ability = Overgrow
+| move1 = Flower Trick | move1type = Grass | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Shadow Claw | move3type = Ghost | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona 2 {{rand/2|S|V}}.png
+| size = x100px
+| prize = none
+| class = Champion
+| classlink = Pokémon Champion
+| name = Nemona
+| location = Mesagoza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 65
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 65
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = 65
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = 65
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 65
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = 66
+| type1 = Fire
+| type2 = Ghost
+| tera = Fire
+| icon = tera
+| ability = Blaze
+| move1 = Torch Song | move1type = Fire | move1cat = Special
+| move2 = Earth Power | move2type = Ground | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Snarl | move4type = Dark | move4cat = Special
+}}
+{{Party/end}}
+=====Area Zero Multi Battle partner=====
+Nemona uses these teams as a [[Multi Battle]] partner against a wild {{p|Glimmora}}, then later against an escaping {{p|Great Tusk}}{{sup/9|S}}/{{p|Iron Treads}}{{sup/9|V}}:
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = none
+| class = Champion
+| classlink = Pokémon Champion
+| name = Nemona
+| location = Area Zero
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 65
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 65
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = 65
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = 65
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 65
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = 66
+| type1 = Water
+| type2 = Fighting
+| ability = Torrent
+| move1 = Aqua Step | move1type = Water | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+| move3 = Aerial Ace | move3type = Flying | move3cat = Physical
+| move4 = Ice Spinner | move4type = Ice | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = none
+| class = Champion
+| classlink = Pokémon Champion
+| name = Nemona
+| location = Area Zero
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 65
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 65
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = 65
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = 65
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 65
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = 66
+| type1 = Grass
+| type2 = Dark
+| ability = Overgrow
+| move1 = Flower Trick | move1type = Grass | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Shadow Claw | move3type = Ghost | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = none
+| class = Champion
+| classlink = Pokémon Champion
+| name = Nemona
+| location = Area Zero
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 65
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 65
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = 65
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = 65
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 65
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = 66
+| type1 = Fire
+| type2 = Ghost
+| ability = Blaze
+| move1 = Torch Song | move1type = Fire | move1cat = Special
+| move2 = Earth Power | move2type = Ground | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Snarl | move4type = Dark | move4cat = Special
+}}
+{{Party/end}}
+=====[[Academy Ace Tournament]]=====
+Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona 2 {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}{{tt|8,640|Before completing The Indigo Disk}}/{{tt|19,200|Between The Indigo Disk and Mochi Mayhem}}
+| class = Champion
+| classlink = Pokémon Champion
+| name = {{color2|000|Nemona}}
+| location = Mesagoza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = {{tt|72|Before completing The Indigo Disk}}/{{tt|80|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Water
+| type2 = Fighting
+| tera = Water
+| icon = tera
+| ability = Torrent
+| move1 = Aqua Step | move1type = Water | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+| move3 = Aerial Ace | move3type = Flying | move3cat = Physical
+| move4 = Ice Spinner | move4type = Ice | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona 2 {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}{{tt|8,640|Before completing The Indigo Disk}}/{{tt|19,200|Between The Indigo Disk and Mochi Mayhem}}
+| class = Champion
+| classlink = Pokémon Champion
+| name = {{color2|000|Nemona}}
+| location = Mesagoza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = {{tt|72|Before completing The Indigo Disk}}/{{tt|80|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Grass
+| type2 = Dark
+| tera = Grass
+| icon = tera
+| ability = Overgrow
+| move1 = Flower Trick | move1type = Grass | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Shadow Claw | move3type = Ghost | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona 2 {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}{{tt|8,640|Before completing The Indigo Disk}}/{{tt|19,200|Between The Indigo Disk and Mochi Mayhem}}
+| class = Champion
+| classlink = Pokémon Champion
+| name = {{color2|000|Nemona}}
+| location = Mesagoza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0982
+| pokemon = Dudunsparce
+| image = 0982Dudunsparce-Three.png
+| gender = male
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Normal
+| ability = Serene Grace
+| move1 = Hyper Drill | move1type = Normal | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Dragon Rush | move3type = Dragon | move3cat = Physical
+| move4 = Coil | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0968
+| pokemon = Orthworm
+| gender = female
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Steel
+| ability = Earth Eater
+| move1 = Iron Tail | move1type = Steel | move1cat = Physical
+| move2 = Body Press | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Blast | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = {{tt|71|Before completing The Indigo Disk}}/{{tt|79|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = {{tt|72|Before completing The Indigo Disk}}/{{tt|80|Between The Indigo Disk and Mochi Mayhem}}
+| type1 = Fire
+| type2 = Ghost
+| tera = Fire
+| icon = tera
+| ability = Blaze
+| move1 = Torch Song | move1type = Fire | move1cat = Special
+| move2 = Earth Power | move2type = Ground | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Snarl | move4type = Dark | move4cat = Special
+}}
+{{Party/end}}
+=====Seventh battle=====
+Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona Mochi Mayhem.png
+| size = x100px
+| prize = {{PDollar}}20,880
+| class = Pokemon Trainer
+| name = Nemona
+| location = Loyalty Plaza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 86
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0784
+| pokemon = Kommo-o
+| gender = female
+| level = 86
+| type1 = Dragon
+| type2 = Fighting
+| ability = Soundproof
+| move1 = Clangorous Soul | move1type = Dragon | move1cat = Status
+| move2 = Drain Punch | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Punch | move3type = Electric | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 86
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0743
+| pokemon = Ribombee
+| gender = female
+| level = 86
+| type1 = Bug
+| type2 = Fairy
+| ability = Shield Dust
+| move1 = Bug Buzz | move1type = Bug | move1cat = Special
+| move2 = Moonblast | move2type = Fairy | move2cat = Special
+| move3 = Energy Ball | move3type = Grass | move3cat = Special
+| move4 = Psychic | move4type = Psychic | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 86
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = 87
+| type1 = Water
+| type2 = Fighting
+| tera = Fighting
+| icon = tera
+| ability = Torrent
+| move1 = Aqua Step | move1type = Water | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+| move3 = Aerial Ace | move3type = Flying | move3cat = Physical
+| move4 = Ice Spinner | move4type = Ice | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona Mochi Mayhem.png
+| size = x100px
+| prize = {{PDollar}}20,880
+| class = Pokemon Trainer
+| name = Nemona
+| location = Loyalty Plaza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 86
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0784
+| pokemon = Kommo-o
+| gender = female
+| level = 86
+| type1 = Dragon
+| type2 = Fighting
+| ability = Soundproof
+| move1 = Clangorous Soul | move1type = Dragon | move1cat = Status
+| move2 = Drain Punch | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Punch | move3type = Electric | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 86
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0350
+| pokemon = Milotic
+| gender = female
+| level = 86
+| type1 = Water
+| ability = Competitive
+| move1 = Draining Kiss | move1type = Fairy | move1cat = Special
+| move2 = Surf | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Mud Shot | move4type = Ground | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 86
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = 87
+| type1 = Grass
+| type2 = Dark
+| tera = Dark
+| icon = tera
+| ability = Overgrow
+| move1 = Flower Trick | move1type = Grass | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Shadow Claw | move3type = Ghost | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona Mochi Mayhem.png
+| size = x100px
+| prize = {{PDollar}}20,880
+| class = Pokemon Trainer
+| name = Nemona
+| location = Loyalty Plaza
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 86
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0784
+| pokemon = Kommo-o
+| gender = female
+| level = 86
+| type1 = Dragon
+| type2 = Fighting
+| ability = Soundproof
+| move1 = Clangorous Soul | move1type = Dragon | move1cat = Status
+| move2 = Drain Punch | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Punch | move3type = Electric | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0706
+| pokemon = Goodra
+| gender = female
+| level = 86
+| type1 = Dragon
+| ability = Sap Sipper
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Muddy Water | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Sludge Bomb | move4type = Poison | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0477
+| pokemon = Dusknoir
+| gender = female
+| level = 86
+| type1 = Ghost
+| ability = Pressure
+| move1 = Earthquake | move1type = Ground | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Shadow Sneak | move3type = Ghost | move3cat = Physical
+| move4 = Ice Punch | move4type = Ice | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 86
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = 87
+| type1 = Fire
+| type2 = Ghost
+| tera = Ghost
+| icon = tera
+| ability = Blaze
+| move1 = Torch Song | move1type = Fire | move1cat = Special
+| move2 = Earth Power | move2type = Ground | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Snarl | move4type = Dark | move4cat = Special
+}}
+{{Party/end}}
+=====[[League Club Room]]/Academy Ace Tournament (after [[Mochi Mayhem]])=====
+Nemona will {{Tera}}stallize her [[first partner Pokémon]] at the first opportunity.
+
+{{Party
+| caption = {{PlayerChoice|0906|Sprigatito}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}20,880
+| class = Champion
+| name = Nemona
+| location = Blueberry Academy
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 86
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Play Rough | move3type = Fairy | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0784
+| pokemon = Kommo-o
+| gender = female
+| level = 86
+| type1 = Dragon
+| type2 = Fighting
+| ability = Soundproof
+| move1 = Clangorous Soul | move1type = Dragon | move1cat = Status
+| move2 = Drain Punch | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Punch | move3type = Electric | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0724
+| pokemon = Decidueye
+| gender = female
+| level = 86
+| type1 = Grass
+| type2 = Ghost
+| ability = Overgrow
+| move1 = Spirit Shackle | move1type = Ghost | move1cat = Physical
+| move2 = Leaf Blade | move2type = Grass | move2cat = Physical
+| move3 = Dual Wingbeat | move3type = Flying | move3cat = Physical
+| move4 = Sucker Punch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0743
+| pokemon = Ribombee
+| gender = female
+| level = 86
+| type1 = Bug
+| type2 = Fairy
+| ability = Shield Dust
+| move1 = Bug Buzz | move1type = Bug | move1cat = Special
+| move2 = Moonblast | move2type = Fairy | move2cat = Special
+| move3 = Energy Ball | move3type = Grass | move3cat = Special
+| move4 = Psychic | move4type = Psychic | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 86
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Mach Punch | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0914
+| pokemon = Quaquaval
+| gender = male
+| level = 87
+| type1 = Water
+| type2 = Fighting
+| tera = Fighting
+| icon = tera
+| ability = Torrent
+| move1 = Aqua Step | move1type = Water | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+| move3 = Aerial Ace | move3type = Flying | move3cat = Physical
+| move4 = Triple Axel | move4type = Ice | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0909|Fuecoco}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}20,880
+| class = Champion
+| name = Nemona
+| location = Blueberry Academy
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 86
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Play Rough | move3type = Fairy | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0784
+| pokemon = Kommo-o
+| gender = female
+| level = 86
+| type1 = Dragon
+| type2 = Fighting
+| ability = Soundproof
+| move1 = Clangorous Soul | move1type = Dragon | move1cat = Status
+| move2 = Drain Punch | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Punch | move3type = Electric | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0392
+| pokemon = Infernape
+| gender = female
+| level = 86
+| type1 = Fire
+| type2 = Fighting
+| ability = Blaze
+| move1 = Mach Punch | move1type = Fighting | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Flare Blitz | move3type = Fire | move3cat = Physical
+| move4 = Stone Edge | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0350
+| pokemon = Milotic
+| gender = female
+| level = 86
+| type1 = Water
+| ability = Competitive
+| move1 = Draining Kiss | move1type = Fairy | move1cat = Special
+| move2 = Surf | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Mud Shot | move4type = Ground | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 86
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Mach Punch | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0908
+| pokemon = Meowscarada
+| gender = male
+| level = 87
+| type1 = Grass
+| type2 = Dark
+| tera = Dark
+| icon = tera
+| ability = Overgrow
+| move1 = Flower Trick | move1type = Grass | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Throat Chop | move3type = Dark | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0912|Quaxly}}
+| background = {{scarlet color}}
+| border = {{scarlet color dark}}
+| headcolor = {{scarlet color light}}
+| sprite = VSNemona {{rand/2|S|V}}.png
+| size = x100px
+| prize = {{PDollar}}20,880
+| class = Champion
+| name = Nemona
+| location = Blueberry Academy
+| game = SV
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0745
+| pokemon = Lycanroc
+| gender = female
+| level = 86
+| type1 = Rock
+| ability = Sand Rush
+| move1 = Accelerock | move1type = Rock | move1cat = Physical
+| move2 = Drill Run | move2type = Ground | move2cat = Physical
+| move3 = Play Rough | move3type = Fairy | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0784
+| pokemon = Kommo-o
+| gender = female
+| level = 86
+| type1 = Dragon
+| type2 = Fighting
+| ability = Soundproof
+| move1 = Clangorous Soul | move1type = Dragon | move1cat = Status
+| move2 = Drain Punch | move2type = Fighting | move2cat = Physical
+| move3 = Thunder Punch | move3type = Electric | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0658
+| pokemon = Greninja
+| gender = female
+| level = 86
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Water Shuriken | move1type = Water | move1cat = Special
+| move2 = Dark Pulse | move2type = Dark | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Grass Knot | move4type = Grass | move4cat = Special
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0477
+| pokemon = Dusknoir
+| gender = female
+| level = 86
+| type1 = Ghost
+| ability = Pressure
+| move1 = Earthquake | move1type = Ground | move1cat = Physical
+| move2 = Thunder Punch | move2type = Electric | move2cat = Physical
+| move3 = Shadow Sneak | move3type = Ghost | move3cat = Physical
+| move4 = Ice Punch | move4type = Ice | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0923
+| pokemon = Pawmot
+| gender = male
+| level = 86
+| type1 = Electric
+| type2 = Fighting
+| ability = Volt Absorb
+| move1 = Double Shock | move1type = Electric | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Ice Punch | move3type = Ice | move3cat = Physical
+| move4 = Mach Punch | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 9
+| ndex = 0911
+| pokemon = Skeledirge
+| gender = male
+| level = 87
+| type1 = Fire
+| type2 = Ghost
+| tera = Ghost
+| icon = tera
+| ability = Blaze
+| move1 = Torch Song | move1type = Fire | move1cat = Special
+| move2 = Earth Power | move2type = Ground | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Alluring Voice | move4type = Fairy | move4cat = Special
+}}
+{{Party/end}}
+=====Traded to the player=====
+Upon the third unique interaction with Nemona in the League Club Room, she will trade a Paldean Tauros to the player in exchange for almost any Pokémon excluding {{Shiny}}, {{pkmn2|Legendary}}, or [[Mythical Pokémon]].
+
+{{SVievent
+|ndex=0128
+|ball=Poké
+|pokemon=Tauros
+|image=0128Tauros-Paldea Combat
+|gender=m
+|level=50
+|teratype=Fighting
+|type=Fighting
+|ot=Nemona
+|id=933665
+|ability=Intimidate
+|nature=Jolly
+|met=a Link Trade
+|ribbon=Partner
+|hpiv=31
+|atkiv=31
+|defiv=26
+|spaiv=31
+|spdiv=31
+|speiv=31
+|move1=Raging Bull|move1type=Fighting|move1cat=Physical
+|move2=Wild Charge|move2type=Electric|move2cat=Physical
+|move3=Double-Edge|move3type=Normal|move3cat=Physical
+|move4=Close Combat|move4type=Fighting|move4cat=Physical
+|method=[[In-game trade]] (League Club Room)
+|scale=128
+|trade=yes
+|gift=yes}}
+
+==In the spin-off games==
+[[File:Masters EX Nemona Debut Artwork.png|thumb|175px|Artwork of Nemona and Pawmot illustrated by [[Megumi Mizutani]] for [[Pokémon Masters EX]]]]
+===[[Pokémon Masters EX]]===
+{{main|Nemona (Masters)}}
+Nemona, in her {{pkmn|Scarlet and Violet|Scarlet}} design, forms a [[sync pair]] with {{p|Pawmot}}, {{form|Lycanroc|Midday Form}} {{p|Lycanroc}}, {{p|Scream Tail}}, and {{p|Quaxly}} in [[Pokémon Masters EX]]. Nemona became a playable sync pair on August 8, 2023.
+
+{{PairDex/h|Scarlet}}
+{{PairDex|173|Nemona|trainerlink=Nemona (Masters)#Pawmot|trainerimg=Nemona|0923|Pawmot|gender=male|buddy=yes|Electric|Psychic|Sprint|exrole=Field|6|Poké Fair Sync Pair Scout}}
+{{PairDex|173|Nemona|trainerlink=Nemona (Masters)#Lycanroc (Midday Form)|trainerimg=Nemona|0745|Lycanroc|form={{Form|Lycanroc|Midday Form}}|gender=female|Rock|Steel|Field|6|Training Ticket Exchange}}
+{{PairDex|173|Nemona|trainerlink=Nemona (Masters)#Scream Tail|trainerimg=Nemona Sygna|sygna=[[Sygna suit|Sygna Suit]]|0985|Scream Tail|master=yes|buddy=yes|Fairy|Poison|Physical Strike|exrole=Sprint|6|Master Fair Sync Pair Scout}}
+{{PairDex|173|Nemona|trainerlink=Nemona (Masters)#Quaxly|trainerimg=Nemona|0912|Quaxly|gender=male|Water|Electric|Special Strike|exrole=Tech|6|Six-Year Anniversary Event<br>''Terastal Festival''}}
+|}
+
+==Quotes==
+{{main|Nemona/Quotes}}
+
+==In animation==
+[[File:Nemona anime.png|thumb|250px|Nemona in {{aniseries|HZ}}]]
+===''Pokémon Horizons: The Series''===
+{{main|Nemona (anime)}}
+Nemona is a supporting character in {{aniseries|HZ}}. Introduced as a Champion of the Paldea region, Nemona quickly befriended [[Liko]], [[Roy]], and [[Dot]] despite her competitive nature.
+
+Throughout the series, she often helped mentor Roy and served as a friendly rival to him.
+
+===Pokémon: Paldean Winds===
+[[File:Nemona Paldean Winds.png|250px|thumb|left|Nemona in Pokémon: Paldean Winds]]
+Nemona first appeared in ''[[PPW01|Breathe Out]]''. Nemona was first seen being watched by [[Aliquis]] as she taught some children the concept of {{Tera}}stallization. Later, during [[Ohara]]'s performance, she was seen attending the concert with [[Naranja Academy]]'s academic staff. During the events of the episode, it was revealed that Nemona had a battle to wage against Aliquis.
+
+In ''[[PPW02|Breathe In]]'', Nemona defeated Aliquis in battle, some time later, Nemona had a new battle against her rival, this time a [[Full Battle]]. Initially, Nemona was winning again, but the battle scenario changed when Aliquis made peace with his {{TP|Aliquis|Meowscarada}}, upon seeing Aliquis's determination, Nemona decided to continue the battle with each of the Trainers Terastallizing their Pokémon. With new determination, the battle between Nemona and Aliquis continued.
+
+In ''[[PPW03|Take a Breath]]'', it was revealed that Nemona managed to beat Aliquis in the last battle, thus achieving a score of three victories against her biggest rival in the Academy.
+
+In ''[[PPW04|Breathe Together]]'', during the presentation of Naranja Academy's introduction video for new students, Nemona appeared presenting a talk to some students and then to the rest of the Academy's student body.
+
+====Character====
+Just like her game counterpart, Nemona is an avid battler. She also has a legion of fans at the Naranja Academy, which gained even more strength when she became a [[Champion]].
+
+====Pokémon====
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Kilowattrel
+|type1=electric
+|type2=flying
+|img=Nemona Kilowattrel PPW.png
+|epnum=PPW02
+|epname=Breathe In
+|vajp=
+|vaen=
+|desc={{p|Kilowattrel}} is Nemona's first known Pokémon. It defeated [[Aliquis's Meowscarada]] in their {{pkmn|Trainer}}s' first [[Full Battle]]. During their [[rematch]], it fell to [[Aliquis]]'s {{p|Garganacl}}.
+
+None of Kilowattrel's moves are known.}}
+
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Tauros
+|tera=Fighting
+|gender=male
+|type1=fighting
+|img=Nemona Tauros PPW.png
+|img2=Nemona Tauros Terastal PPW.png
+|epnum=PPW02
+|epname=Breathe In
+|vajp=Kensuke Satō
+|vaen=Kensuke Satō
+|desc={{form|Tauros|Combat Breed}} {{rf|Paldean}} {{p|Tauros}} is Nemona's second known Pokémon. In Nemona and  Aliquis's rematch, he took down Aliquis's Garganacl and {{p|Flamigo}} with ease before facing off against Meowscarada. After Aliquis {{Tera}}stallized the {{pkmn|category|Magician Pokémon}}, Nemona also Terastallized Tauros.
+<!-- Do not add Wild Charge to Tauros's list of known moves. He was shown using an Electric-type move against Aliquis's Flamigo and it's implied to be Wild Charge due to it being the only Electric-type move Tauros can learn, but it was not outright stated as such, so don't assume. -->
+
+Tauros's known moves are {{m|Double-Edge}} and {{m|Close Combat}}.}}
+''Note: Nemona has at least four other Pokémon on hand since she faced [[Aliquis]] in a [[Full Battle]].''
+
+====Achievements====
+=====Pokémon League=====
+Nemona has competed in the [[Paldea League]]. Her rank is as follows:
+* {{pkmn|Champion}} (prior to ''[[PPW01|Breathe Out]]'')
+
+====Voice actors====
+{{vatable|color={{scarlet color light}}|bordercolor={{scarlet color}}
+|ja=松井恵理子 ''Eriko Matsui''
+|it=Federica Russello
+|pt_br=Laura Castro
+|es_la=Lourdes Arruti
+|es_eu=Laura Nogales
+|zh_yue=陳雪瑩
+|zh_cmn=劉如蘋
+|he=דפנה מירוצ'ניקוב ''Dafna Mirochnikov''}}
+
+===Biri-Biri===
+[[File:Nemona Biri-Biri.png|250px|thumb|Nemona in [[Biri-Biri]]]]
+Nemona had a prominent role in the animated video [[Biri-Biri]].
+{{-}}
+
+====Pokémon====
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Meowscarada
+|tera=Grass
+|stage1=Sprigatito
+|stage2=Floragato
+|type1=Grass
+|type2=Dark
+|img=Nemona Sprigatito Biri-Biri.png
+|cap=Nemona's Sprigatito
+|img2=Nemona Meowscarada Biri-Biri.png
+|cap2=Nemona's Meowscarada
+|epnum=Biri-Biri
+|vajp=
+|vaen=
+|desc={{p|Meowscarada}} is Nemona's first known Pokémon. It was first seen as a {{p|Sprigatito}} during a battle against {{ga|Juliana|Anna}}'s {{p|Fuecoco}}. Later, now fully evolved, it was used to battle against Anna's {{p|Skeledirge}} in [[Mesagoza]].
+
+None of Meowscarada's moves are known.}}
+
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Pawmo
+|stage1=Pawmi
+|type1=Electric
+|type2=Fighting
+|img=Nemona Pawmi Anna Fidough Biri-Biri.png
+|cap=Nemona's Pawmi
+|img2=Nemona Pawmo Biri-Biri.png
+|cap2=Nemona's Pawmo
+|epnum=Biri-Biri
+|vajp=
+|vaen=
+|desc={{p|Pawmo}} is Nemona's second known Pokémon. It was first seen as a {{p|Pawmi}} accompanying Nemona during her morning routine alongside Sprigatito. Later, as a Pawmo, it battled against {{ga|Juliana|Anna}}'s {{p|Gengar}}.
+
+None of Pawmo's moves are known.}}
+
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Cyclizar
+|type1=Dragon
+|type2=Normal
+|img=Nemona Cyclizar Biri-Biri.png
+|epnum=Biri-Biri
+|vajp=
+|vaen=
+|desc={{p|Cyclizar}} is Nemona's third known Pokémon. It acted as Nemona's means of transportation, carrying her on its back across a vast plain.
+
+None of Cyclizar's moves are known.}}
+
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Lycanroc
+|type1=Rock
+|img=Nemona Lycanroc Biri-Biri.png
+|epnum=Biri-Biri
+|vajp=
+|vaen=
+|desc={{p|Lycanroc}} is Nemona's fourth known Pokémon. It was seen battling against a {{p|Tinkaton}}.
+
+None of Lycanroc's moves are known.}}
+
+==In literature==
+[[File:Nemona Adventures.png|150px|thumb|Nemona in [[Pokémon Adventures]]]]
+===Pokémon Adventures===
+{{main|Nemona (Adventures)}}
+In the [[Pokémon Adventures]] {{pkmn|manga}}, Nemona is also a Champion-ranked Trainer. She has a one-sided [[rival]]ry with {{Scarlet}}.
+{{-}}
+
+===After the Rain With You===
+[[File:After The Rain SV Web Manga Illustration 5.jpg|200px|thumb|Nemona and [[Juliana (game)#After the Rain With You|Anna]] in an illustration from ''[[After the Rain With You]]'' by [[satoma]]]]
+{{incomplete|section|needs=What was her role?}}
+Nemona appeared as the main character of ''[[After the Rain With You]]''. She is the student council president of [[Naranja Academy]] and becomes [[Juliana (game)#After the Rain With You|Anna]]'s friend and rival after showing her the way the school.
+
+====Pokémon====
+{|
+| {{ActivePoké|Nemona|Pawmo|0922Pawmo.png|Electric|Fighting|fir=Pawmi|size=100px|link=no}}
+| {{ActivePoké|Nemona|Floragato|0907Floragato.png|Grass|fir=Sprigatito|size=100px|link=no}}
+| {{ActivePoké|Nemona|Rockruff|0744Rockruff.png|Rock|size=100px|link=no}}
+|}
+{{-}}
+
+==In the TCG==
+===Nemona===
+{{main|Nemona (Scarlet & Violet 180)}}
+'''Nemona''' was introduced as a {{TCG|Supporter card}} in the [[Pokémon Trading Card Game]] during the English Scarlet & Violet Series (the Japanese Scarlet & Violet Era). It was first released in the Japanese {{TCG|ex Starter Sets}} and the English {{TCG|Scarlet & Violet}} expansion, with artwork by [[Sanosuke Sakuma]]. This print features Nemona in her [[Naranja Academy]] uniform. Another version of the card with artwork by the same illustrator, featuring Nemona in her [[Uva Academy]] uniform, was released in the Japanese ex Starter Sets. 
+
+{{TCG|Ultra rare}} and {{TCG|special illustration rare}} versions of the card with artwork by [[Sanosuke Sakuma]] and [[aspara]] respectively was released in the Japanese {{TCG|Shiny Treasure ex}} subset and the English {{TCG|Paldean Fates}} expansion. Nemona's [[Uva Academy]] card from the Japanese ex Starter Sets was also included in the Paldean Fates expansion.
+
+The card lets the player draw three cards.
+
+<div style="margin:center; font-size:125%; margin:auto; max-width:960px; text-align:center; {{roundy|5px}} border:2px solid #{{violet color dark}}; background:#{{violet color dark}}">
+<div style="margin:auto; display: flex; flex-wrap: wrap; align-items: flex-start; font-size:80%; padding: 3px; {{roundy|5px}}; #{{scarlet color dark}}; background: #{{scarlet color}}; text-align:center; gap: 2px;">
+
+<div style="flex: 1; font-size:80%; color:#fff">
+<div style="{{roundy|5px}}; border:2px solid #{{violet color dark}}; background:#FFFFFF; flex-basis: 100px; min-width: 80px; height: 250px; overflow:hidden; display: flex; align-items: center; justify-content: center">[[File:NemonaScarletViolet180.jpg|x250px]]</div>
+<div>'''{{color2|fff|Nemona (Scarlet & Violet 180)|Nemona}}''' <br> {{color2|fff|Scarlet & Violet (TCG)|Scarlet & Violet}} print <br> ''Illus. {{color2|fff|Sanosuke Sakuma}}''</div>
+</div>
+
+<div style="flex: 1; font-size:80%; color:#fff">
+<div style="{{roundy|5px}}; border:2px solid #{{violet color dark}}; background:#FFFFFF; flex-basis: 100px; min-width: 80px; height: 250px; overflow:hidden; display: flex; align-items: center; justify-content: center">[[File:NemonaPaldeanFates82.jpg|x250px]]</div>
+<div>'''{{color2|fff|Nemona (Paldean Fates 82)|Nemona}}''' <br> {{color2|fff|Paldean Fates}} print <br> ''Illus. {{color2|fff|Sanosuke Sakuma}}''</div>
+</div>
+
+<div style="flex: 1; font-size:80%; color:#fff">
+<div style="{{roundy|5px}}; border:2px solid #{{violet color dark}}; background:#FFFFFF; flex-basis: 100px; min-width: 80px; height: 250px; overflow:hidden; display: flex; align-items: center; justify-content: center">[[File:NemonaPaldeanFates229.jpg|x250px]]</div>
+<div>'''{{color2|fff|Nemona (Paldean Fates 229)|Nemona}}''' <br> {{color2|fff|Ultra rare}} print <br> ''Illus. {{color2|fff|Sanosuke Sakuma}}''</div>
+</div>
+
+<div style="flex: 1; font-size:80%; color:#fff">
+<div style="{{roundy|5px}}; border:2px solid #{{violet color dark}}; background:#FFFFFF; flex-basis: 100px; min-width: 80px; height: 250px; overflow:hidden; display: flex; align-items: center; justify-content: center">[[File:NemonaPaldeanFates238.jpg|x250px]]</div>
+<div>'''{{color2|fff|Nemona (Paldean Fates 238)|Nemona}}''' <br> {{color2|fff|Paldean Fates}} {{color2|fff|Special illustration rare}} print <br> ''Illus. {{color2|fff|aspara}}''</div>
+</div>
+
+</div>
+</div>
+
+==Merchandise==
+===Pokémon Trading Card Game===
+====Nemona====
+Nemona has had one series of unique merchandise released exclusively for the Pokémon Trading Card Game, simply known as '''Nemona''', drawn by [[kirisAki]]. It was released on December 1st, 2023, tying in with the release of [[Shiny Treasure ex]].<ref>[https://www.youtube.com/watch?v=tJyXvMEKnJQ 【発売前に開封】「シャイニートレジャーex」と同時発売のポケカ新グッズを実物レビュー！新たなフルサイズプレイマットも登場！【ポケモンカード】]- Pokémon Card Channel, ''YouTube''</ref>
+
+{{MerchGallery2
+|background={{scarlet color}}
+|border={{scarlet color dark}}
+|image1=Nemona Sleeves.jpg
+|caption1=Sleeves
+}}
+====Paldea Pokémon Trainers====
+Nemona and her Pawmo appear alongside other Trainers from Paldea on merchandise from the Paldea Pokémon Trainers line, released on July 11th, 2025 through the online [[Pokémon Center (store)#Online|Pokémon Center]] in the West. 
+
+{{MerchGallery2
+|background={{scarlet color}}
+|border={{scarlet color dark}}
+|image1=Paldea Pokémon Trainers Card Sleeves.png
+|caption1=Sleeves
+|image2=Paldea Pokémon Trainers Double Deck Box.png
+|caption2=Double Deck Box
+|image3=Paldea Pokémon Trainers Playmat.png
+|caption3=Playmat
+|image4=Paldea Pokémon Trainers Zip Binder.png
+|caption4=Binder
+}}
+
+===Trainers Line===
+{{missing images|section|High-quality images of the Nemona t-shirt, plastic keychain, and candy tins from this line}}
+Nemona and her Pawmo were included as part of the Paldea wave of characters added to the Trainers Line and released through the Pokémon Center in Japan on September 14th, 2023.<ref>[https://www.pokemon.co.jp/goods/2023/08/230818_to01.html 「POKÉMON TRAINERS ～パルデア編～」のグッズが、ポケモンセンターに登場！] - Pokemon.co.jp</ref>
+
+{{MerchGallery2
+|background={{scarlet color}}
+|border={{scarlet color dark}}
+|image1=Trainers Merch Nemona and Pawmo Photo Frame Key Chain.png
+|caption1=Acrylic Photo Frame Keychain
+|image2=Trainers Merch Nemona and Pawmo Stand.png
+|caption2=Standee
+|image3=Trainers Merch Nemona and Pawmo Stickers.png.png
+|caption3=Stickers
+|image4=Trainers Merch Nemona and Pawmo Towel.png
+|caption4=Towel
+|image5=Trainers Merch Nemona and Pawmot Iono and Bellibolt Clear Files-1.jpg
+|caption5=A4 clear file also featuring [[Iono]] and [[Bellibolt]] (front)
+|image6=Trainers Merch Nemona and Pawmot Iono and Bellibolt Clear Files-2.jpg
+|caption6=A4 clear file also featuring [[Iono]] and [[Bellibolt]] (back)
+|image7=Trainers Merch Nemona and Pawmot Iono and Bellibolt Sticker Set.jpg
+|caption7=Sticky note set also featuring [[Iono]] and [[Bellibolt]]
+|image8=Pokémon Trainers Nemona Pawmo Sleeves.jpg
+|caption8=TCG Sleeves
+|image9=Trainers Merch Nemona Plush Keychain.png
+|caption9=Plush Keychain
+|image10=Trainers Merch Nemona and Pawmo Candy Tin.png
+|caption10=Candy Tin}}
+
+==Gallery==
+:For images on Nemona in [[Pokémon Masters EX]], see: [[Nemona (Masters)#Gallery|Nemona (Masters)]]
+===Core series game artwork===
+{|style="margin:auto; text-align:center; border:3px solid #{{scarlet color dark}}; background:#{{scarlet color}}; font-size:80%; border-radius: 10px; color:#fff;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:Scarlet Violet Nemona.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{violet color dark}}; background: #{{violet color light}}; overflow:hidden" | [[File:Victory Road story artwork.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:Scarlet Violet Key Visual.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{Violet color dark}}; background: #{{Violet color light}}; overflow:hidden" | [[File:Violet Nemona concept art.jpg|x200px]]
+|-
+| '''{{GameIcon|Sc}}''' <br> Art 
+| '''{{GameIcon|Vi}}''' <br> Victory Road Art
+| '''{{GameIcon|Sc}}{{GameIcon|Vi}}''' <br> Key visual
+| '''{{GameIcon|Vi}}''' <br> Concept art
+|-
+|}
+
+===Core series game assets===
+{{incomplete|section|needs=Violet Mochi Mayhem VS Pose}}
+{|style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color}}; color:#fff"
+| colspan="6" style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color dark}}; font-size:125%; color:white" | '''{{color2|fff|Generation IX}}'''
+|-
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:LCR Nemona icon S.png|x100px]]
+| colspan="2" style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:LCR Nemona icon large S.png|x100px]]
+| colspan="2" style="{{roundy|20px}} border: 2px solid #{{Violet color dark}}; background: #{{Violet color light}}; overflow:hidden" | [[File:LCR Nemona icon large V.png|x100px]] 
+| style="{{roundy|20px}} border: 2px solid #{{Violet color dark}}; background: #{{Violet color light}}; overflow:hidden" | [[File:LCR Nemona icon V.png|x100px]]
+|-
+| '''{{GameIcon|Sc}}''' <br> {{color2|fff|League Club Room#Special Coaches|Special Coach}} icon
+| colspan="2" | '''{{GameIcon|Sc}}''' <br> {{color2|fff|League Club Room#Special Coaches|Special Coach}} sprite
+| colspan="2" | '''{{GameIcon|Vi}}''' <br> {{color2|fff|League Club Room#Special Coaches|Special Coach}} sprite
+| '''{{GameIcon|Vi}}''' <br> {{color2|fff|League Club Room#Special Coaches|Special Coach}} icon
+|-
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:VSNemona S.png|x100px]]
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:VSNemona 2 S.png|x100px]]
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden" | [[File:VSNemona Mochi Mayhem.png|x100px]]
+| style="{{roundy|20px}} border: 2px solid #{{Violet color dark}}; background: #{{Violet color light}}; overflow:hidden" | [[File:VSNemona V.png|x100px]]
+| style="{{roundy|20px}} border: 2px solid #{{Violet color dark}}; background: #{{Violet color light}}; overflow:hidden" | [[File:VSNemona 2 V.png|x100px]]
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{Violet color light}}; overflow:hidden" | [[File:VSNemona Mochi Mayhem V.png|x100px]]
+|-
+| '''{{GameIcon|Sc}}''' <br> Model <br> (VS pose)
+| '''{{GameIcon|Sc}}''' <br> Model <br> (VS pose as Champion)
+| '''{{GameIcon|Sc}}''' <br> Model <br> (VS pose during {{color2|fff|Mochi Mayhem}})
+| '''{{GameIcon|Vi}}''' <br> Model <br> (VS pose)
+| '''{{GameIcon|Vi}}''' <br> Model <br> (VS pose as Champion)
+| '''{{GameIcon|Vi}}''' <br> Model <br> (VS pose during {{color2|fff|Mochi Mayhem}})
+|}
+
+===Animation===
+{|style="margin:auto; text-align:center; border:3px solid #{{scarlet color dark}}; background:#{{scarlet color}}; font-size:80%; border-radius: 10px; color:#fff;"
+|-
+| rowspan=3 style="{{roundy|10px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden"| [[File:Nemona HZ.png|x400px]]
+| style="{{roundy|10px}} border: 2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden" | [[File:HZ eyecatch Nemona Pawmo.png|x200px]]
+| style="{{roundy|10px}} border: 2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden" | [[File:Nemona Anime Expression Sheet.png|x200px]]
+|-
+| ''{{color2|fff|Pokémon Horizons: The Series|Horizons}}'' Eyecatch
+| ''{{color2|fff|Pokémon Horizons: The Series|Horizons}}'' Concept art
+|-
+| style="{{roundy|10px}} border: 2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden" | [[File:Paldean Winds Nemona.jpg|x200px]]
+| style="{{roundy|10px}} border: 2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden" | [[File:Nemona PW.png|x200px]]
+|-
+| ''{{color2|fff|Pokémon Horizons: The Series|Horizons}}'' Art
+| colspan=1 | ''{{color2|fff|Pokémon: Paldean Winds|Paldean Winds}}'' Art
+| colspan=1 | ''{{color2|fff|Pokémon: Paldean Winds|Paldean Winds}}'' Concept art
+|}
+
+===Manga===
+{|style="margin:auto; text-align:center; border:3px solid #{{white color dark}}; background:#{{white color}}; font-size:80%; border-radius: 10px"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden"| [[File:PASV06 Draft.png|x150px]]
+|-
+| {{color2|000|PASV06}}<br>Draft by<br>{{color2|000|Satoshi Yamamoto}}<ref name=PASVO6>[https://archive.is/bPA5v Yamamoto posting the PASV06 draft on Twitter.]</ref>
+|}
+
+==Trivia==
+* Nemona's Student ID at the Academy is 805C001.
+* Nemona is the first [[rival]] to have completed her [[Pokémon journey]] prior to the events of the game.
+* Nemona's [[Badge|Gym Badges]], seen in her dorm room, have a different design than the player's Gym Badges.
+* Nemona's [[Rotom Phone]] uses a [[List of clothing in Pokémon Scarlet and Violet#Rotom Phone|Black Case]].
+* Nemona, [[Clavell]], and [[Iono]] are the only characters in the [[League Club Room]] that don't trade to the player a Pokémon or a pre-Evolution of a Pokemon that they are seen using in battle, that being {{rf|Paldean}} {{p|Tauros}}, {{p|Pawmo}}, and {{p|Magnemite}}, respectively.
+** The Pokémon that Nemona and Clavell trade, however, are references to {{g|Scarlet and Violet}}'s opening cutscene, where she is seen with a Paldean Tauros and he with a {{p|Pawmi}}.
+* At time of release, Nemona was tied with [[Kieran]] for the highest-[[level]] Pokémon owned by a rival character, with her [[first partner Pokémon]] and his {{p|Hydrapple}} reaching level 87 during the [[Mochi Mayhem]] epilogue and the [[Blueberry Academy]] [[rematch]]es. This record was broken in [[Pokémon Legends: Z-A]]'s [[Mega Dimension|DLC expansion]], wherein all of [[Taunie]] and [[Urbain]]'s Pokémon reach Level 100 in their final battle and [[rematch]] teams.
+* Each of the three possible first partner Pokémon that Nemona adds to her team during the Blueberry Academy rematches shares a secondary [[type]] with the [[Paldea first partner Pokémon]] that has a type advantage over it: {{p|Infernape}} shares its {{t|Fighting}} type with {{p|Quaquaval}}, {{p|Greninja}} shares its {{t|Dark}} type with {{p|Meowscarada}}, and {{p|Decidueye}} shares its {{t|Ghost}} type with {{p|Skeledirge}}.
+
+==Names==
+{| class="roundtable" style="background:#{{scarlet color}}; border:3px solid #{{scarlet color dark}}"
+|-
+! style="background:#{{scarlet color light}}; color:#FFFFFF" | Language
+! style="background:#{{scarlet color light}}; color:#FFFFFF" | Name
+! style="background:#{{scarlet color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| ネモ ''Nemo''
+| From the genus ''{{wp|Nemophila}}''
+|-
+| English
+| Nemona
+| Similar to her Japanese name
+|-
+| German
+| Nemila
+| From the genus ''Nemophila''
+|-
+| European Spanish,<br>Latin American Spanish
+| Mencía
+| From ''{{wp|Nemophila menziesii}}'' (scientific name of the baby blue eyes)
+|-
+| French
+| Menzi
+| From ''Nemophila menziesii''
+|-
+| Italian
+| Nemi
+| From the genus ''Nemophila''
+|-
+| Korean
+| 네모 ''Nemo''
+| Transcription of her Japanese name
+|-
+| Chinese (Traditional)
+| 妮莫 ''Nímò'' / ''Nèihmohk''
+| rowspan="2" | Transcription of her Japanese name
+|-
+| Chinese (Simplified)
+| 妮莫 ''Nīmò''
+|-
+| Hindi
+| नेमोना ''Nemona''
+| Transcription of her English name
+|-
+| Indonesian
+| Nemola
+| From the genus ''Nemophila''
+|-
+| Brazilian Portuguese
+| Noêmia
+| From the genus ''Nemophila''
+|-
+| European Portuguese
+| Némona
+| Similar to her English name
+|-
+| Thai
+| เนโม ''Nemo''
+| Transcription of her Japanese name
+|}
+{{-}}
+
+==References==
+<references/>
+
+==Related articles==
+* [[a:Category:Nemona|Images on the Bulbagarden Archives]]
+
+==External links==
+* {{wp|Nemona|Article on Wikipedia}}
+
+{{Rival characters|Scarlet}}
+{{NPC|Scarlet|paldea=yes|kitakami=yes}}
+{{Capture tutor}}
+{{Champions|Scarlet}}
+{{Project CharacterDex notice}}
+
+[[Category:Rival characters]]
+[[Category:Friend characters]]
+[[Category:Scarlet and Violet characters]]
+[[Category:Multi Battle partners]]
+[[Category:Trainers who use Terastallization]]
+[[Category:Pokémon: Paldean Winds characters]]
+
+[[de:Nemila]]
+[[es:Mencía]]
+[[fr:Menzi]]
+[[it:Nemi]]
+[[ja:ネモ]]
+[[zh:妮莫]]

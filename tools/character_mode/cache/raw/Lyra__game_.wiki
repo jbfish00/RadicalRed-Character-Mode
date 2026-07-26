@@ -1,0 +1,451 @@
+{{Character Infobox
+|color={{soulsilver color}}
+|corecolor={{soulsilver color light}}
+|bordercolor={{soulsilver color dark}}
+|name=Lyra
+|jname=コトネ
+|tmname=Kotone
+|image=HeartGold SoulSilver Lyra.png
+|size=190px
+|caption=Artwork from ''{{game|HeartGold and SoulSilver|s}}''
+|height=4'11" (1.52 m)
+|gender=Female
+|eyes=Brown
+|hair=Brown
+|hometown=[[New Bark Town]]
+|region=[[Johto]]
+|relatives={{jo|Mom}} (as player)<br>[[Day-Care Couple|Grandparents]], unnamed father (as NPC)
+}}
+{{Character Infobox/Game
+|color={{soulsilver color light}}
+|trainer=[[Pokémon Trainer]], [[player character]]
+|gen={{gen|IV}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|games=[[Pokémon HeartGold and SoulSilver Versions|HeartGold, SoulSilver]]<br>{{pkmn|Masters EX}}
+|counterpart=[[Lyra (Masters)]]
+|enva=Della Saba<ref name="Della Saba">[https://www.instagram.com/p/B3nJVnKJnw5/ Della Saba on Instagram]</ref> <small>({{pkmn|Masters EX}})</small><br>Madeline Dorroh<ref name="Madeline Dorroh">[https://www.twitter.com/madelinedorroh/status/1537507272854626304 Madeline Dorroh on Twitter]</ref> <small>({{DL|Lyra (Masters)|Sygna Suit Lyra}}; {{pkmn|Masters EX}})</small>
+|jpva=[[Sayaka Senbongi]]<ref name="Sayaka Senbongi">[https://twitter.com/pokemas_game/status/1417367416611483666 Pokémon Masters EX on Twitter] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{soulsilver color light}}
+|series=''[[Pokémon the Series]]''
+|counterpart=[[Lyra (anime)]]
+|debut=''[[DP143|An Egg Scramble!]]''
+|enva=[[Eileen Stevens]] 
+|jpva=[[Megumi Nakajima]]
+}}
+{{Character Infobox/Manga
+|color={{soulsilver color light}}
+|series=''[[Pokémon Adventures]]''
+|counterpart=[[Crystal (Adventures)]]
+|debut=''[[PS117|Slugging It Out with Slugma]]'' <small>({{pkmn|Adventures}})</small>
+}}
+|}
+
+'''Lyra''' (Japanese: '''コトネ''' ''Kotone'') is the female [[player character]] in {{game|HeartGold and SoulSilver|s}}. Her male counterpart is {{ga|Ethan}}. She replaces {{ga|Kris}} from {{game|Crystal}}.
+
+==In the core series games==
+===As the protagonist===
+Lyra's journey as a {{pkmn|Trainer}} begins when [[Professor Elm]] asks her to run an errand for [[Mr. Pokémon]], who lives north of [[Cherrygrove City]]. Because she may encounter dangerous wild {{OBP|Pokémon|species}} along the way, Elm gives her a choice between three Pokémon for protection: {{p|Cyndaquil}}, {{p|Totodile}} or {{p|Chikorita}}.
+
+Lyra meets a strange boy the same age as her watching Elm's Lab from outside. When she tries to talk to him, the boy abruptly shoves her away. The boy, {{ga|Silver}}, will become Lyra's rival, analogous to {{ga|Blue}} in [[Generation I]] and [[Generation III|III]].
+
+Lyra continues onward and finally meets Mr. Pokémon and completes the errand. While there she meets [[Professor Oak]] who, upon realizing Lyra's bond with her new Pokémon, gives her a [[Pokédex]]. On her way back home, Lyra again meets Silver, who has stolen one of Elm's remaining Pokémon. After defeating the boy in battle, she learns his name from his dropped {{ga|Trainer Card}} and relays it to the police in New Bark Town. Professor Elm allows Lyra to keep the Pokémon she chose earlier, and encourages her to compete in the [[Johto League]].
+
+From there Lyra begins on a Pokémon journey in the [[Johto]] [[region]], facing off against its eight [[Gym Leader]]s, defeating and disbanding the revived [[Team Rocket]], and becoming the [[Pokémon Champion|Pokémon League Champion]] by defeating the [[Elite Four]] and its previous Champion, [[Lance]], at [[Indigo Plateau]]. Along the way, she also teaches Silver to respect Pokémon as living creatures, and not just as tools for battle.
+
+After being declared the Pokémon League Champion, Lyra then takes a short trip on a ship, the [[S.S. Aqua]], from [[Olivine City]] to [[Vermilion City]] in [[Kanto]]. Journeying across that region, she battles against its own set of eight Gym Leaders. Upon getting permission from [[Professor Oak]] in [[Pallet Town]], Lyra heads for [[Mt. Silver]] via {{rt|28|Kanto}}. Her journey comes to a close when she comes to the summit and faces the Champion from Pallet Town and Pokémon Trainer, {{ga|Red}}, who had been training there since shortly after he became Pokémon League Champion [[Generation III|three years prior]].
+
+===As a non-playable character===
+[[File:HGSS Prerelease Ethan Lyra.png|thumb|left|200px|Lyra speaking with {{ga|Ethan}}]]
+If playing as {{ga|Ethan}}, Lyra appears as an NPC in the game. When playing as Lyra, Ethan takes on this role instead.
+
+Lyra meets the player in [[New Bark Town]] at the start of the game. In this particular scene, she is seen with a {{TP|Lyra|Marill}}. She teaches the player how to catch Pokémon on {{rt|29|Johto}} (replacing the [[Dude]] from {{3v2|Gold|Silver|Crystal}}). Her grandparents run the [[Pokémon Day Care]] on {{rt|34|Johto}}. She also gives the player the [[Fashion Case]] in [[Goldenrod Tunnel]] and the [[Vs. Recorder]] on {{rt|31|Johto}}.
+
+When called from certain locations, Lyra will mention that something will happen if the player takes a certain Pokémon there.
+{{-}}
+====Pokémon====
+Lyra uses this party to show the {{player}} how to catch Pokémon when {{ga|Ethan}} is selected as the player character in {{game|HeartGold and SoulSilver|s}}.
+{{Party
+| background = {{soulsilver color}}
+| border = {{soulsilver color dark}}
+| headcolor = {{soulsilver color light}}
+| sprite = HGSS Lyra Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Lyra
+| location = Johto Route 29
+| locationname = Route 29
+| game = HGSS
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0183
+| pokemon = Marill
+| gender = both
+| level = 5
+| type1 = Water
+| ability = Thick Fat
+| ability2 = Huge Power
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Defense Curl | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+=====Caught in tutorial=====
+{{Pokémon
+|gen=4
+|ndex=019
+|pokemon=Rattata
+|type1=Normal
+|ability=Run Away|ability2=Guts
+|level=2
+|gender=both
+|move1=Tail Whip|move1type=Normal|move1cat=Status
+|move2=Tackle|move2type=Normal|move2cat=Physical}}
+
+=====Mentioned=====
+When called with the [[Pokégear]] at different locations, Lyra will mention she owns certain Pokémon.
+{| width="100px"
+|-
+| {{ActivePoké|Lyra|Tauros|Spr 4h 128.png|Normal|size=80px|link=no}}♂{{tt|*|Mentioned at Route 38}}
+| {{ActivePoké|Lyra|Bulbasaur|Spr 4h 001.png|Grass|Poison|size=80px|link=no}}{{tt|*|Mentioned at Route 1}}
+| {{ActivePoké|Lyra|Porygon|Spr 4h 137.png|Normal|size=80px|link=no}}{{tt|*|Mentioned at Route 7}}
+| {{ActivePoké|Lyra|Tangela|Spr 4h 114.png|Grass|size=80px|link=no}}{{tt|*|Mentioned at Celadon City}}
+|}
+
+==In the spin-off games==
+===[[Pokémon Masters EX]]===
+{{main|Lyra (Masters)}}
+Lyra, who is based on the NPC character, forms a [[sync pair]] with {{p|Chikorita}} and its evolved forms {{p|Bayleef}} and {{p|Meganium}}, along with {{p|Jigglypuff}}, {{p|Celebi}}, {{p|Vaporeon}}, {{p|Phanpy}}, and {{p|Entei}} in [[Pokémon Masters EX]]. Lyra became a playable sync pair on September 17, 2019.
+
+Lyra has also made notable appearances in one of the game's main stories, the [[villain arc]]. Unlike in the [[core series]], both Lyra and {{mas|Kris}} coexist in the same game.
+
+{{PairDex/h|SoulSilver}}
+{{PairDex|066|Lyra|trainerlink=Lyra (Masters)#Chikorita → Bayleef → Meganium|trainerimg=Lyra|0154 f|Chikorita → Bayleef → Meganium|gender=female|pokemonlink=Chikorita (Pokémon)|Grass|Fire|Support|6|Sync Pair Scout}}
+{{PairDex|066|Lyra|trainerlink=Lyra (Masters)#Jigglypuff|trainerimg=Lyra Summer 2020|sygna=Summer 2020|0039|Jigglypuff|gender=female|Fairy|Steel|Special Strike|exrole=Sprint|6|Seasonal Sync Pair Scout}}
+{{PairDex|066|Lyra|master=yes|trainerlink=Lyra (Masters)#Celebi|trainerimg=Lyra Sygna|sygna=[[Sygna suit|Sygna Suit]]|0251|Celebi|Grass|Bug|Tech|exrole=Field|6|Master Fair Sync Pair Scout}}
+{{PairDex|066|Lyra|trainerlink=Lyra (Masters)#Vaporeon|trainerimg=Lyra|0134|Vaporeon|gender=female|Water|Grass|Tech|exrole=Support|6|Variety Sync Pair Scout}}
+{{PairDex|066|Lyra|trainerlink=Lyra (Masters)#Phanpy|trainerimg=Lyra Special Costume|sygna=Special Costume|0231|Phanpy|gender=female|Ground|Water|Support|6|Costume Sync Pair Scout}}
+{{PairDex|066|Lyra|trainerlink=Lyra (Masters)#Entei|trainerimg=Lyra Champion|0244|sygna={{pkmn|Champion}}|Entei|exmaster=yes|buddy=yes|Fire|Rock|Physical Strike|exrole=Sprint|6|EX Master Fair Sync Pair Scout}}
+|}
+
+===[[Pokémon GO]]===
+{{main|Style (GO)}}
+To commemorate the Johto Festival, Lyra's outfit from {{g|HeartGold and SoulSilver}} were released as free style options in [[Pokémon GO]].
+
+==Quotes==
+{{main|Lyra (game)/Quotes}}
+
+==Counterparts==
+[[File:Lyra anime.png|thumb|250px|Lyra's {{pkmn|animated series}} counterpart]]
+===In animation===
+====''Pokémon the Series''====
+{{main|Lyra (anime)}}
+Shortly after the release of {{game|HeartGold and SoulSilver|s}}, a counterpart of Lyra appeared in {{aniseries|DP}} from ''[[DP143|An Egg Scramble!]]'' to ''[[DP147|Bagged Then Tagged!]]''. Much as with {{an|May}}, {{an|Dawn}}, and {{an|Serena}}, she shares both her English and Japanese names with the player character she is based on. Along with her friend [[Khoury]], she traveled with {{Ash}} and {{ashfr}} for a short time, before ultimately returning to [[Johto]].
+
+====GOTCHA!====
+Lyra briefly appeared in [[GOTCHA!]].
+
+===In the manga===
+[[File:Lyra GGP.png|thumb|left|175px|Lyra in Pocket Monsters HeartGold & SoulSilver Go! Go! Pokéathlon]]
+[[File:Crystal HGSS Adventures 2.png|thumb|150px|Crystal wearing Lyra's clothes in Pokémon Adventures]]
+====Pokémon Adventures====
+{{main|Crystal (Adventures)}}
+Although Lyra doesn't appear separately in [[Pokémon Adventures]], Crystal essentially serves as her counterpart by wearing her outfit during the {{MangaArc|HeartGold & SoulSilver}} due to [[Mirei|her mother]] forcing her to wear it against her will.
+
+====Pocket Monsters HeartGold & SoulSilver Go! Go! Pokéathlon====
+Lyra appeared in [[Pocket Monsters HeartGold & SoulSilver Go! Go! Pokéathlon]]. None of her Pokémon are known.
+
+====Pokémon HeartGold SoulSilver: Pokédex Completion Comic====
+A Trainer with the same design as Lyra appeared in [[Pokémon HeartGold SoulSilver: Pokédex Completion Comic]].
+{{left clear}}
+
+=====Pokémon=====
+{{TrainerPoké
+|trainer=Trainer
+|pkmn=Chikorita
+|type1=Grass
+|img=Chikorita PCC.png
+|epnum=Pokémon HeartGold SoulSilver: Pokédex Completion Comic
+|epname=
+|desc={{p|Chikorita}} is the Trainer's first known Pokémon. It was sent out to battle a {{p|Sentret}}.
+
+Chikorita's only known move is {{m|Tackle}}.}}
+
+{{TrainerPoké
+|trainer=Trainer
+|pkmn=Sentret
+|type1=Normal
+|img=Sentret PCC.png
+|epnum=Pokémon HeartGold SoulSilver: Pokédex Completion Comic
+|epname=
+|desc=The Trainer caught this {{p|Sentret}} after she weakened it using her {{p|Chikorita}}.
+
+None of Sentret's moves are known.}}
+
+==Gallery==
+:For images on {{mas|Lyra}} in {{g|Masters EX}}, see: [[Lyra (Masters)#Gallery|Lyra (Masters)]]
+===Artwork===
+{|style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{SoulSilver color dark}}; background: #{{SoulSilver color light}}; overflow: hidden; width:100px; height:100px"| [[File:Kotobukiya ArtFX J Figure Lyra Chikorita.png|250px]]
+| style="{{roundy|20px}} border: 2px solid #{{SoulSilver color dark}}; background: #{{SoulSilver color light}}; overflow: hidden; width:100px; height:100px"| [[File:Arceus ruins art.png|250px]]
+|-
+| Lyra and {{OBPc|Chikorita|Pokémon|000}} artwork for<br>{{color2|000|Kotobukiya figurines|Kotobukiya}} ArtFx J figurines by {{color2|000|Hitoshi Ariga}}
+| In the {{color2|000|Sinjoh Ruins}}
+|-
+| colspan style="{{roundy|20px}} border: 2px solid #{{SoulSilver color dark}}; background: #{{SoulSilver color light}}; width:100px; height:100px"| [[File:HGSS Walking Pokémon.png|300px]]
+| colspan style="{{roundy|20px}} border: 2px solid #{{SoulSilver color dark}}; background: #{{SoulSilver color light}}; width:100px; height:100px"| [[File:Entei Raikou Suicune.png|300px]]
+|-
+| {{color2|000|Walking Pokémon|Walking with Pokémon}}
+| Watching the {{color2|000|Legendary beasts}} with {{color2|000|Eusine}}
+|}
+
+===Game assets===
+====In the [[core series]]====
+{| style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color}}; color:#000"
+| colspan="7" style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color dark}}; font-size:125%; color:white" |'''{{color2|fff|Generation IV}}'''
+|-
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:Spr HGSS Lyra.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:Spr HGSS Lyra 2.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:HGSS Lyra Back.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:Lyra walking.png|85px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:Lyra opening.png|154px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:Spr LyraHGSSstart.png|45px]]
+|-
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokéathlon}})
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> (Back)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Game_intro#Pokémon_HeartGold_and_SoulSilver|Intro}})
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Game_intro#Pokémon_HeartGold_and_SoulSilver|Intro}})
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Gender#In_the_core_series_games_2|Gender select}})
+|-
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; height:80px; overflow:hidden" |[[File:LyraChallenge.png|96px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:Lyrawalkdown.png|32px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:LyraAthHGSS.png|32px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:LyraTRHGSSwalkdown.png|32px]]
+| style="{{roundy|20px}} border:2px solid #{{SoulSilver color dark}}; background:#{{SoulSilver color light}}; overflow:hidden" |[[File:HGSS Pokégear Icon Lyra.png|20px]]
+|-
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> (VS)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> (Overworld)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokéathlon}}, Overworld)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{tccolor|Team Rocket Grunt}}, Overworld)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokégear}})
+|-
+|}
+
+==Trivia==
+* Lyra is 4'11" (1.52 m) tall and weighs 90.4 lbs (41 kg). This was confirmed by checking the heights and weights of certain Pokémon in the [[Pokédex]]. <!--Gen I to Gen IV examples needed.-->The height was eventually confirmed by the ''Pokémon Scale World'' series of 1/20 scaled figures.<ref>[https://p-bandai.com/sg/item/N2511648001001 Page about the ''Lyra & Bayleef & Natu & Smoochum'' set of figures].</ref>
+** Lyra shares both her height and weight with {{p|Braviary}}, the only known example of a Pokémon having the same height and weight as a trainer.
+* Lyra shares many of her Japanese default names with {{ga|Leaf}} and {{ga|Dawn}}. She also shares all of {{ga|Kris}}'s default Japanese names.
+* Occasionally, Lyra will call and claim that her {{p|Marill}} evolved into {{p|Azumarill}}. Upon meeting her again, however, she will still have a Marill. This mix-up is due to a translation error: in the Japanese version, she talks of how she would be surprised ''if'' she were to turn around on a whim while walking about and find her Marill in the process of evolving, or having evolved, into an Azumarill. She follows that thought up with: "But that would never happen!"
+* According to one source, Lyra replaced Kris as the female player in HeartGold and SoulSilver because [[Takao Unno]] did not consult [[Ken Sugimori]]'s original artwork before beginning Lyra's design.<ref>[https://www.nintendolife.com/news/2023/11/random-pokemon-gold-and-silvers-male-protagonist-was-apparently-a-ninja-in-the-ds-remakes Random: Pokémon Gold & Silver's Male Protagonist Was Apparently A Ninja In The DS Remakes]</ref>
+* In Pokemon Masters EX, when Lyra uses her Sync Move, she motions her arms around in the shape of a heart making a golden heart appear for her special animation. This is in reference to the title of the games she's from, Heartgold.
+
+==Names==
+{| class="roundtable" style="background:#{{soulsilver color}}; border:3px solid #{{soulsilver color dark}}"
+|-
+! style="background:#{{soulsilver color light}}" | Language
+! style="background:#{{soulsilver color light}}" | Name
+! style="background:#{{soulsilver color light}}" | Origin
+|-
+| Japanese
+| コトネ ''Kotone''
+| From 琴音 ''kotone'' (sound of {{wp|Koto (instrument)|koto}})
+|-
+| English, German,<br>Latin American Spanish,<br>Brazilian Portuguese
+| Lyra
+| From ''{{wp|lyre}}''
+|-
+| European Spanish
+| Lira
+| From ''lira'' (lyre)
+|-
+| French
+| Célesta
+| From ''{{wp|celesta}}''
+|-
+| Italian
+| Cetra
+| From ''{{wp|cetra}}''
+|-
+| Korean
+| 금선 ''Geumseon''
+| From 금선 (琴線) ''geumseon'' ([[wp:Traditional Korean musical instruments#Plucked|geum]] string)
+|-
+| Chinese (Traditional)
+| 琴音 ''Qínyīn'' / ''Kàhmyām''
+| rowspan="2" | From 琴音 ''qínyīn / kàhmyām'' (sound of {{wp|guqin|qin}})
+|}
+{{-}}
+
+===Optional names===
+{| class="roundtable" style="background:#{{soulsilver color}}; border:3px solid #{{soulsilver color dark}}"
+|-
+! style="background:#{{soulsilver color light}}" | Japanese
+! style="background:#{{soulsilver color light}}" | English
+! style="background:#{{soulsilver color light}}" | German
+! style="background:#{{soulsilver color light}}" | European Spanish
+! style="background:#{{soulsilver color light}}" | French
+! style="background:#{{soulsilver color light}}" | Italian
+! style="background:#{{soulsilver color light}}" | Korean
+|-
+|<ab>ハート ''Heart''
+ソウル ''Soul''
+キヨミ ''Kiyomi''
+サトコ ''Satoko''
+チホ ''Chiho''
+イオリ ''Iori''
+マキコ ''Makiko''
+ミキコ ''Mikiko''
+ウララ ''Urara''
+ジュンコ ''Junko''
+フウカ ''Fūka''
+リエ ''Rie''
+セツコ ''Setsuko''
+ニッキ ''Nikki''
+マミナ ''Mamina''
+ノリコ ''Noriko''
+ユミカ ''Yumika''
+モモコ ''Momoko''
+ミスズ ''Misuzu''</ab>
+|<ab>Heart
+Soul
+Karla
+Britney
+Kelli
+Lindy
+Heidi
+Miriam
+Trudy
+Aubrey
+Krissa
+Naomi
+Abby
+Dodie
+Tamara
+Linda
+Fiona
+Mari
+Maggie</ab>
+|<ab>Heart
+Soul
+Klara{{sup/4|HG}} / Mandy{{sup/4|SS}}
+Andrea
+Sina
+Sara
+Sigrun
+Elena
+Birgit
+Diana
+Antje
+Suse
+Uta
+Daniela
+Silke
+Linda
+Jamie
+Piera
+Evelin</ab>
+|<ab>Heart
+Soul
+Mena
+Cira
+María
+Lara
+Mariau
+Miriam
+Theresa
+Claudia
+Aída
+René
+Aria
+Margot
+Nuria
+Izarbe
+Silvia
+Mirta
+Susan</ab>
+|<ab>Heart
+Soul
+Hadja{{sup/4|HG}} / Joanna{{sup/4|SS}}
+Becky
+Edith
+Sophie
+Claire
+Brenda
+Madge
+Sayaka
+Noémie
+Linda
+Suzie
+Yuki
+Carmen
+Coralie
+Nadia
+Hélène
+Caro</ab>
+|<ab>Heart
+Soul
+Cinzia
+Luisa
+Amanda
+Bia
+Elisa
+Lorenza
+Tonia
+Gaia
+Fara
+Wilma
+Ivana
+Monia
+Letizia
+Enrica
+Ilaria
+Isotta
+Viviana</ab>
+|<ab>하트 ''Heart''
+소울 ''Soul''
+링링 ''Ringring''
+서연 ''Seoyeon''
+해나 ''Haena''
+아라 ''Ara''
+유경 ''Yugyeong''
+윤혜 ''Yunhye''
+태희 ''Taehui''
+나정 ''Najeong''
+인희 ''Inhui''
+나영 ''Nayeong''
+꽃님 ''Kkotnim''
+설아 ''Seola''
+지나 ''Jina''
+주애 ''Juae''
+사희 ''Sahui''
+미영 ''Miyeong''
+은영 ''Eun'yeong''</ab>
+|}{{-}}
+
+==References==
+<references/>
+
+==Related articles==
+* [[Kris (game)]]
+
+{{Player characters|soulsilver}}
+{{Rival characters|soulsilver}}
+{{Capture tutor}}
+{{NPC|soulsilver|johto=yes}}
+{{Project CharacterDex notice}}
+
+[[Category:HeartGold and SoulSilver characters]]
+[[Category:Champions]]
+[[Category:Friend characters]]
+[[Category:Pocket Monsters HeartGold & SoulSilver Go! Go! Pokéathlon characters]]
+
+[[de:Lyra]]
+[[es:Lira]]
+[[fr:Célesta]]
+[[it:Cetra (gioco)]]
+[[ja:コトネ]]
+[[zh:琴音]]

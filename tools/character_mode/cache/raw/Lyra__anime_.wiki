@@ -1,0 +1,152 @@
+{{CharInfobox
+|color={{soulsilver color}}
+|corecolor={{soulsilver color light}}
+|bordercolor={{soulsilver color dark}}
+|name=Lyra
+|jname=コトネ
+|tmname=Kotone
+|slogan=no
+|image=Lyra anime.png
+|size=250px
+|caption=Lyra
+|colors=yes
+|eyes=Brown
+|hair=Brown
+|gender=Female
+|hometown=[[New Bark Town]]
+|region=[[Johto]]
+|trainer=yes
+|trainerclass={{pkmn|Trainer}}
+|game=counterpart
+|counterpart={{ga|Lyra}}
+|leader=no
+|team=no
+|brain=no
+|anime=yes
+|epnum=DP143
+|epname=An Egg Scramble!
+|enva=[[Eileen Stevens]]
+|java=[[Megumi Nakajima]]
+}}
+
+'''Lyra''' (Japanese: '''コトネ''' ''Kotone'') is a recurring character in {{aniseries|DP}}. She is a [[Pokémon Trainer]] from [[New Bark Town]] and a traveling companion of [[Khoury]].
+
+==History==
+[[File:Lyra and Khoury.png|250px|thumb|left|Lyra and Khoury]]
+===Pre-series===
+As a rookie Trainer, Lyra was given a {{p|Chikorita}} as her [[first partner Pokémon]]. Together, Lyra was able to challenge and defeat the [[Gym Leader]]s of [[Violet City]] and [[Azalea Town]], thus receiving the [[Badge]]s from those Gyms.
+
+===''[[Pokémon the Series: Diamond and Pearl]]''===
+Lyra debuted in ''[[DP143|An Egg Scramble!]]''. {{Ash}} and {{ashfr}} first met her when her {{p|Marill}} wandered off and they found it wedged in between two buildings. She introduced herself as a Trainer from [[Johto]]. She came to [[Sinnoh]] with her friend, [[Khoury]] and [[Khoury's father|his father]] in order to observe the Pokémon residing in the region. Later, she asks {{an|Dawn}} to participate in the [[Johto Festival]]. The two girls had a battle, but Lyra lost and rewarded Dawn with an {{pkmn|Egg}}. At the end of the episode, Lyra and Khoury joined Ash's group because the former wanted to watch the upcoming [[Lilypad Town]] [[Pokémon Contest]] in which Dawn would be participating. 
+
+In ''[[DP144|Gone With the Windworks!]]'', Lyra's {{TP|Lyra|Marill}} was lost inside the [[Valley Windworks]]. During the search, the group also got stuck in place, while trying to escape Lyra uses her {{p|Girafarig}} but to no avail. At the end of the day, the group finally managed to get out of the place and continued their journey to Lilypad Town.
+
+In ''[[DP145|A Rivalry to Gible On!]]'', Lyra and the others found a wild {{p|Gible}}, after the group decided who will capture it, Khoury managed the feat after several complications along the way.
+
+In ''[[DP146|Dressed for Jess Success!]]'', Lyra was finally able to watch the Lilypad Town Pokémon Contest. After Dawn's defeat in the Contest, Lyra joined the others to try to cheer her up.
+
+Lyra last appeared in ''[[DP147|Bagged Then Tagged!]]'', where she and Khoury had a [[Multi Battle|Tag Battle]] against Ash and Dawn in the Lilypad Colosseum. Both Lyra and Khoury eventually lost the battle. Later, they went to the airport to meet with Khoury's father before going back to Johto. Then, {{an|Brock}} suggested that Lyra challenge [[Whitney]] and [[Morty]]. Also, upon her request, she asked Khoury to become her traveling companion and later, they promised Ash and Dawn that they would see them again.
+
+==Character==
+It is implied in ''[[DP144|Gone With the Windworks!]]'' that Lyra has an interest in {{Ash}}. She admires his bravery and wishes [[Khoury]] acted more like him. Lyra has even asked {{an|Dawn}} if she and Ash are a couple, though Dawn informed her that they are just friends. Perhaps Lyra was interested in Ash's spontaneity, something that Khoury lacks. In ''[[DP145|A Rivalry to Gible On!]]'', Lyra attempted to pair Khoury and Dawn together as a couple, despite Dawn's refusal, before eventually realizing she had feelings for the former.
+
+==Pokémon==
+{{MissingInfo|2|enva|java}}
+This listing is of Lyra's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+
+===On hand===
+{{TrainerPoké
+|main=yes
+|trainer=Lyra
+|pkmn=Marill
+|type1=Water
+|img=Lyra Marill.png
+|epnum=DP143
+|epname=An Egg Scramble!
+|vajp=Chinami Nishimura
+|vaen=Kayzie Rogers
+|desc={{p|Marill}} is one of Lyra's main Pokémon and appears to be very affectionate towards her. Marill first appeared in ''[[DP143|An Egg Scramble!]]'' and it was because of Marill that {{Ash}} and {{ashfr}} met Lyra.}}
+
+{{TrainerPoké
+|trainer=Lyra
+|pkmn=Chikorita
+|type1=Grass
+|img=Lyra Chikorita.png
+|epnum=DP143
+|epname=An Egg Scramble!
+|vajp=Kei Shindō
+|vaen=Kei Shindō
+|desc={{p|Chikorita}} is Lyra's [[first partner Pokémon]] and was used by Lyra to battle [[Dawn's Piplup]] in ''[[DP143|An Egg Scramble!]]'' as part of the Johto Festival. Despite the type-advantage, Chikorita was defeated by Piplup's supereffective {{m|Peck}}.
+
+Chikorita's next appearance was in ''[[DP147|Bagged Then Tagged!]]'' where it was used in a Tag Battle alongside [[Khoury's Totodile]] against [[Ash's Monferno]] and [[Dawn's Cyndaquil]]. Although Chikorita was weak against both Fire types, it still put up a good fight but was defeated by Cyndaquil's {{m|Flame Wheel}} and Monferno's {{m|Flamethrower}}.
+
+Chikorita's known moves are {{m|Razor Leaf}}, {{m|Light Screen}}, {{m|Solar Beam}} and {{m|Tackle}}.}}
+
+{{TrainerPoké
+|trainer=Lyra
+|pkmn=Girafarig
+<!--Do not add Girafarig's gender as male. Nothing including gender differences confirmed the gender of this Pokémon.-->
+|type1=Normal
+|type2=Psychic
+|img=Lyra Girafarig.png
+|epnum=DP144
+|epname=Gone With the Windworks!
+|desc=Lyra's {{p|Girafarig}} made a brief appearance in ''[[DP144|Gone With the Windworks!]]'' when it was used by Lyra to try to help the gang escape from the Valley Windworks after becoming trapped. Despite its power, Girafarig was unable to break down the door keeping the gang contained.
+
+Girafarig's only known move is {{m|Double Hit}}.}}
+
+===Given away===
+{{TrainerPoké
+|pkmn=Egg
+|type1=???
+|main=Dawn's Cyndaquil
+|epnum=DP143
+|epname=An Egg Scramble!
+|img=Cyndaquil Egg.png
+|desc=When Dawn defeated Lyra in their battle as part of the Johto Festival exhibition match in ''[[DP143|An Egg Scramble!]]'', she gifted Dawn a [[Pokémon Egg]] that hatched into {{TP|Dawn|Cyndaquil}} by the end of the episode.}}
+
+==Achievements==
+[[File:Lyra Badges.png|thumb|250px|Lyra's Badges]]
+===Badges obtained===
+This listing is of the [[Badge]]s Lyra has obtained in the [[Johto]] [[region]]:
+* {{badge|Zephyr}} (prior to ''[[DP143|An Egg Scramble!]]'')
+* {{badge|Hive}} (prior to ''[[DP143|An Egg Scramble!]]'')
+{{-}}
+
+==Voice actors==
+{{vatable|color={{soulsilver color}}|bordercolor={{soulsilver color light}}
+|ja=中島愛 ''[[Megumi Nakajima]]''
+|en=[[Eileen Stevens]]
+|nl=Nicoline van Doorn
+|da=Mette Skovmark
+|es_eu=Beatriz Berciano
+|fi=Heljä Heikkinen
+|fr_eu=Béatrice Wegnez
+|it=Francesca Bielli
+|cs=Nikola Votočková
+|id=Jane Leisilla Zahara
+|pt_br=Bianca Alencar
+|es_la=Andrea De Gyves
+|pl=Monika Pikuła}}
+
+==Trivia==
+* Lyra is the first {{pkmn|animated series}} character based on a female [[player character]] ''shown'' to have Badges, although {{jo|Marina}} is known to have entered the [[Silver Conference]].
+* She owns the female variation of the [[Pokédex]], as well as the pink model of the [[Pokégear]] introduced in {{game|HeartGold and SoulSilver|s}}.
+* In the Japanese version, Lyra makes a pun of her own name by saying ''koto ne?'', which means "right?", at the end of her sentences.
+* Lyra mispronounces Dawn's name as '''Dane''' (Japanese: '''ヒカリン''' ''Hikarin'').
+** [[Marilyn]] also called Dawn ''Hikarin'' in the original Japanese version. However, she instead refers to her as '''Dawny''' in the English [[dub]].
+
+==Names==
+{{main|Lyra (game)#Names|Lyra (game) → Names}}
+
+==Related articles==
+* [[Lyra (game)]]
+{{Animecharacters|soulsilver}}
+{{Project Anime notice|no}}
+[[Category:Animation characters]]
+
+[[es:Lyra/Lira (anime)]]
+[[fr:Célesta/Pokémon, la série]]
+[[it:Cetra (serie animata)]]
+[[ja:コトネ (アニメ)]]
+[[zh:琴音（動畫）]]

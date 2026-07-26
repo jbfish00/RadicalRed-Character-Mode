@@ -1,0 +1,841 @@
+{{Character Infobox
+|color={{fairy egg color}}
+|corecolor={{fairy egg color light}}
+|bordercolor={{fairy egg color dark}}
+|name=Olivia
+|jname=ライチ
+|tmname=Lychee
+|jtranslit=Raichi
+|image=Sun Moon Olivia.png
+|size=200px
+|caption=Artwork from {{g|Sun and Moon}}<br>Illustrated by [[Ken Sugimori]]<ref>[[a:File:OliviaBurningShadows119.jpg|Olivia (Burning Shadows 119)]]</ref>
+|gender=Female
+|eyes=Dark gray, purple (anime)
+|hair=Black, dark purple (anime)
+|hometown=[[Konikoni City]]
+|region=[[Alola]]
+}}
+{{Character Infobox/Game
+|color={{fairy egg color light}}
+|gen={{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|games={{pkmn|Sun and Moon|Sun, Moon}}, {{pkmn|Ultra Sun and Ultra Moon|Ultra Sun, Ultra Moon}}<br>{{pkmn|Masters EX}}
+|counterpart=[[Olivia (Masters)]]
+|trainer=[[Island kahuna|Island Kahuna]], [[Elite Four]]
+|enva=Julia McIlvaine<ref name="Julia McIlvaine">[https://twitter.com/JuliaMcIlvaine/status/1167144165072703488 Julia McIlvaine on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=[[Hitomi Nabatame]]<ref name="Hitomi Nabatame">[https://twitter.com/pokemas_game/status/1414466300508884992 Pokémon Masters EX on Twitter] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Team
+|color={{fairy egg color light}}
+|member=[[Island challenge]]
+|rank=[[Island kahuna]]
+|domain=[[Akala Island]]
+|title=Kahuna
+|rewardtype=Z-Crystal
+|reward=[[Rockium Z]]
+|specialty={{t|Rock}} types
+}}
+{{Character Infobox/Team
+|color={{fairy egg color light}}
+|member=[[Alola League]]
+|rank=[[Elite Four]]
+|specialty={{t|Rock}} types
+}}
+{{Character Infobox/Anime
+|color={{fairy egg color light}}
+|series=''[[Pokémon the Series]]''
+|debut=''[[SM011|Young Kiawe Had a Farm!]]''
+|enva=[[Marisa Kennedy]]
+|jpva=[[Miyuki Sawashiro]]
+}}
+{{Character Infobox/Manga
+|color={{fairy egg color light}}
+|series=''[[Pokémon Adventures]]''<br>''[[Pokémon Horizon]]''
+|debut=''[[PASM02|The Delivery of Rotom and the Girl]]'' <small>({{pkmn|Adventures}})</small><br>''[[HOR07|Attack on the Headquarters]]'' <small>({{pkmn|Horizon}})</small>
+}}
+|}
+
+'''Olivia''' (Japanese: '''ライチ''' ''Lychee'') is a character introduced in {{g|Sun and Moon}}. She is the [[Island kahuna|kahuna]] of [[Akala Island]] and a member of the [[Alola]] [[Elite Four]]. She [[Type expert|specializes]] in {{type|Rock}} {{OBP|Pokémon|species}}. She grants the [[Trainer Card (game)#Stamps|Akala Trial Completion stamp]]  to Trainers who defeat her in a [[Island challenge|grand trial.]]
+
+==In the core series games==
+===Character profile===
+{{incomplete|section|needs=needs better write up on personality and character, appearance section}}
+In addition to being Akala's kahuna, Olivia owns a jewelry and accessory store in her hometown of [[Konikoni City]]. Despite being chosen as a kahuna at such a young age, Olivia maintains that she is just an average girl. The {{player}} eventually battles her in the [[island challenge|grand trial]] of Akala.
+
+Olivia is later revealed to be one of the {{pkmn|Trainer}}s [[Professor Kukui]] invited to act as the [[Elite Four]] of the {{al|Pokémon League}} of Alola.
+
+===Pokémon Sun, Moon, Ultra Sun, and Ultra Moon===
+====Background====
+'''Website blurb''': ''"Olivia is the kahuna of Akala Island, the second island you visit on your island challenge. Her skill is extraordinary, as can only be expected from someone chosen to serve as kahuna at such a young age. Yet she still insists that she is just a normal girl."''
+
+Olivia is one of [[Alola]]'s four [[island kahuna]]s, who first debuts in {{g|Sun and Moon}} and returns in {{g|Ultra Sun and Ultra Moon}}. As kahuna of [[Akala Island]] she helps govern the island and participates in battle for the grand trials on Akala Island.
+
+====Story====
+Once the player and their [[friend]]s makes their way to [[Heahea City]] on [[Akala Island]], Olivia, as well as [[Mallow]], one of Akala's [[Trial Captain]]s, will greet them. The two were in the middle of Mallow's deliveries before spotting the group. She forms of friendly banter with [[Professor Kukui]] and tells [[Hau]] and the player that she is excited for their grand trials. Olivia leaves with Mallow. If the player attemps to leave for [[Diglett's Tunnel]] before doing all three of Akala's trials, Olivia will prevent the player from going deep within the area. Depending on what trials and areas the player has visted, she'll direct them on where to go.
+
+By the time all three trials have been completed and once the player has visted the [[Dimensional Research Lab]], she will appear in Diglett's Tunnel and tells tells them that she will be waiting at her jewelry shop in [[Konikoni City]]. However, making it to her store reveals that she is missing. Her {{p|Probopass}} brings the protagonist a note saying that Olivia is currently doing work for {{p|Tapu Lele}} at the [[Ruins of Life]]. Making it to the ruins, she is seen with [[Lillie]], who has managed to get lost and [[Professor Burnet]] has brought her to Olivia for protection. Olivia challenges the player to the grand trial, to which Lillie and [[Nebby]] happily watch for their own enjoyment. After the battle, Olivia provides the player with a [[Rockium Z]] and then questions Lillie's purpose for coming to the ruins despite not being a [[Pokémon Trainer]], where as most people and Pokémon tend to stay away from the tapu due to fear. Olivia is pleased with Lillie's answer of coming for Nebby's sake, and brings the two back to Konikoni before being stopped by [[Hau]] who tells the player about their upcoming visit to [[Aether Paradise]]. Off screen, Olivia battles Hau for his grand trial. At the [[Hano Grand Resort]], she sees the player and Hau off, giving them some advice, ''"Your greatest opponent is always yourself. Your greatest allies, the Pokémon beside you."'' Once a day, after her grand trial, when ordering a Z-set from [[Mallow]]'s restaurant, Olivia will appear and order for both herself and the player. Additionally, she will give the player the two [[Heart Scale]]s as part of the dish order, giving the player a total of four.
+
+In {{g|Ultra Sun and Ultra Moon}}, after {{ga|Necrozma}} unleashes several [[Ultra Beast]]s into [[Alola]], Olivia is briefly seen facing either a {{p|Buzzwole}} in Ultra Sun or a {{p|Pheromosa}} in Ultra Moon at the [[Ruins of Life]].
+
+After [[Professor Kukui]] has successfully set up the [[Alola Pokémon League]] on [[Mount Lanakila]], it is revealed that Olivia was asked to be one of Alola's [[Elite Four]]. In {{g|Sun and Moon}} exclusively, Olivia appears in a photograph with her {{p|Lycanroc}} eating at Mallow's restaurant.
+
+Olivia can be encountered in her own house in [[Konikoni City]] in the post-game.
+
+===Pokémon===
+Olivia [[Type expert|specializes]] in using Rock-Type Pokémon. Her {{p|Lycanroc}}, who is in its Midnight form, is seen in every battle against the protagonist and is considered her main partner Pokémon. Lycanroc makes further appearance in Sun and Moon's end credits. It returns in other media such as [[Pokémon Masters EX]]. She is also affiliated with {{p|Nosepass}} and more prominently, {{p|Probopass}}, also having either of the two except for the Grand Trial match in Ultra Sun and Ultra Moon.
+
+A Probopass is often seen around her Jewelry store and provides the player with directions to her to take on the Grand Trial. This Probopass is different from the Nosepass and Probopass that accompany her in battles. A Single Stufful is found among her fake moving toys.
+
+Olivia's Pokémon in battle are all kept in [[Ultra Ball]]s.
+====[[Pokémon Sun and Moon]]====
+=====Grand trial battle=====
+{{Party
+| background = {{fairy egg color}}
+| border = {{fairy egg color dark}}
+| headcolor = {{fairy egg color light}}
+| sprite = VSOlivia.png
+| size = 150px
+| prize = {{pdollar}}4,320
+| class = Island Kahuna
+| classlink = Island kahuna
+| name = Olivia
+| location = Ruins of Life
+| game = SM
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0299
+| pokemon = Nosepass
+| gender = female
+| level = 26
+| type1 = Rock
+| ability = Sturdy
+| move1 = Rock Slide | move1type = Rock | move1cat = Physical
+| move2 = Spark | move2type = Electric | move2cat = Physical
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0525
+| pokemon = Boldore
+| gender = male
+| level = 26
+| type1 = Rock
+| ability = Sturdy
+| move1 = Rock Blast | move1type = Rock | move1cat = Physical
+| move2 = Mud-Slap | move2type = Ground | move2cat = Special
+| move3 = Headbutt | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0745
+| pokemon = Lycanroc
+| form = -Midnight
+| icon = z-power
+| gender = male
+| level = 27
+| type1 = Rock
+| ability = Vital Spirit
+| held = Rockium Z
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Rock Throw | move2type = Rock | move2cat = Physical | z-move2 = Continental Crush
+}}
+{{Party/end}}
+=====Pokémon League battle=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = VSOlivia 2.png
+| size = 150px
+| prize = {{pdollar}}11,000
+| class = Elite Four
+| name = Olivia
+| location = Pokémon League (Alola)
+| locationname = Pokémon League
+| game = SM
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0369
+| pokemon = Relicanth
+| gender = male
+| level = 54
+| type1 = Water
+| type2 = Rock
+| ability = Swift Swim
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ancient Power | move2type = Rock | move2cat = Special
+| move3 = Yawn | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0703
+| pokemon = Carbink
+| gender = none
+| level = 54
+| type1 = Rock
+| type2 = Fairy
+| ability = Clear Body
+| move1 = Power Gem | move1type = Rock | move1cat = Special
+| move2 = Moonblast | move2type = Fairy | move2cat = Special
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0076
+| pokemon = Golem
+| form = -Alola
+| gender = female
+| level = 54
+| type1 = Rock
+| type2 = Electric
+| ability = Sturdy
+| move1 = Thunder Punch | move1type = Electric | move1cat = Physical
+| move2 = Rock Blast | move2type = Rock | move2cat = Physical
+| move3 = Steamroller | move3type = Bug | move3cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0476
+| pokemon = Probopass
+| gender = female
+| level = 54
+| type1 = Rock
+| type2 = Steel
+| ability = Sturdy
+| move1 = Earth Power | move1type = Ground | move1cat = Special
+| move2 = Power Gem | move2type = Rock | move2cat = Special
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Sandstorm | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0745
+| pokemon = Lycanroc
+| form = -Midnight
+| icon = z-power
+| gender = male
+| level = 55
+| type1 = Rock
+| ability = Keen Eye
+| held = Rockium Z
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical | z-move2 = Continental Crush
+| move3 = Counter | move3type = Fighting | move3cat = Physical
+| move4 = Rock Climb | move4type = Normal | move4cat = Physical
+}}
+{{Party/end}}
+=====Pokémon League rematch=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = VSOlivia 2.png
+| size = 150px
+| prize = {{pdollar}}12,600
+| class = Elite Four
+| name = Olivia
+| location = Pokémon League (Alola)
+| locationname = Pokémon League
+| game = SM
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0369
+| pokemon = Relicanth
+| gender = male
+| level = 63
+| type1 = Water
+| type2 = Rock
+| ability = Swift Swim
+| move1 = Head Smash | move1type = Rock | move1cat = Physical
+| move2 = Waterfall | move2type = Water | move2cat = Physical
+| move3 = Yawn | move3type = Normal | move3cat = Status
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0703
+| pokemon = Carbink
+| gender = none
+| level = 63
+| type1 = Rock
+| type2 = Fairy
+| ability = Clear Body
+| move1 = Power Gem | move1type = Rock | move1cat = Special
+| move2 = Moonblast | move2type = Fairy | move2cat = Special
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0076
+| pokemon = Golem
+| form = -Alola
+| gender = female
+| level = 63
+| type1 = Rock
+| type2 = Electric
+| ability = Sturdy
+| move1 = Thunder Punch | move1type = Electric | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Heavy Slam | move4type = Steel | move4cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0476
+| pokemon = Probopass
+| gender = female
+| level = 63
+| type1 = Rock
+| type2 = Steel
+| ability = Sturdy
+| move1 = Earth Power | move1type = Ground | move1cat = Special
+| move2 = Power Gem | move2type = Rock | move2cat = Special
+| move3 = Dazzling Gleam | move3type = Fairy | move3cat = Special
+| move4 = Flash Cannon | move4type = Steel | move4cat = Special
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0745
+| pokemon = Lycanroc
+| form = -Midnight
+| icon = z-power
+| gender = male
+| level = 63
+| type1 = Rock
+| ability = Keen Eye
+| held = Rockium Z
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical | z-move2 = Continental Crush
+| move3 = Brick Break | move3type = Fighting | move3cat = Physical
+| move4 = Rock Climb | move4type = Normal | move4cat = Physical
+}}
+{{Party/end}}
+====[[Pokémon Ultra Sun and Ultra Moon]]====
+=====Grand trial battle=====
+{{Party
+| background = {{fairy egg color}}
+| border = {{fairy egg color dark}}
+| headcolor = {{fairy egg color light}}
+| sprite = VSOlivia USUM.png
+| size = 150px
+| prize = {{pdollar}}4,480
+| class = Island Kahuna
+| classlink = Island kahuna
+| name = Olivia
+| location = Ruins of Life
+| game = USUM
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0347
+| pokemon = Anorith
+| gender = male
+| level = 27
+| type1 = Rock
+| type2 = Bug
+| ability = Battle Armor
+| move1 = Bug Bite | move1type = Bug | move1cat = Physical
+| move2 = Smack Down | move2type = Rock | move2cat = Physical
+| move3 = Metal Claw | move3type = Steel | move3cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0345
+| pokemon = Lileep
+| gender = female
+| level = 27
+| type1 = Rock
+| type2 = Grass
+| ability = Suction Cups
+| move1 = Giga Drain | move1type = Grass | move1cat = Special
+| move2 = Ancient Power | move2type = Rock | move2cat = Special
+| move3 = Brine | move3type = Water | move3cat = Special
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0745
+| pokemon = Lycanroc
+| form = -Midnight
+| icon = z-power
+| gender = male
+| level = 28
+| type1 = Rock
+| ability = Vital Spirit
+| held = Rockium Z
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Rock Tomb | move2type = Rock | move2cat = Physical | z-move2 = Continental Crush
+}}
+{{Party/end}}
+=====Pokémon League battle=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = VSOlivia 2 USUM.png
+| size = 150px
+| prize = {{pdollar}}11,400
+| class = Elite Four
+| name = Olivia
+| location = Pokémon League (Alola)
+| locationname = Pokémon League
+| game = USUM
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0348
+| pokemon = Armaldo
+| gender = male
+| level = 56
+| type1 = Rock
+| type2 = Bug
+| ability = Battle Armor
+| move1 = Crush Claw | move1type = Normal | move1cat = Physical
+| move2 = X-Scissor | move2type = Bug | move2cat = Physical
+| move3 = Rock Blast | move3type = Rock | move3cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0346
+| pokemon = Cradily
+| gender = female
+| level = 56
+| type1 = Rock
+| type2 = Grass
+| ability = Suction Cups
+| move1 = Rock Tomb | move1type = Rock | move1cat = Physical
+| move2 = Energy Ball | move2type = Grass | move2cat = Special
+| move3 = Stealth Rock | move3type = Rock | move3cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0526
+| pokemon = Gigalith
+| gender = male
+| level = 56
+| type1 = Rock
+| ability = Sand Stream
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Bulldoze | move2type = Ground | move2cat = Physical
+| move3 = Iron Head | move3type = Steel | move3cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0476
+| pokemon = Probopass
+| gender = female
+| level = 56
+| type1 = Rock
+| type2 = Steel
+| ability = Sturdy
+| move1 = Earth Power | move1type = Ground | move1cat = Special
+| move2 = Power Gem | move2type = Rock | move2cat = Special
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Sandstorm | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0745
+| pokemon = Lycanroc
+| form = -Midnight
+| icon = z-power
+| gender = male
+| level = 57
+| type1 = Rock
+| ability = Keen Eye
+| held = Rockium Z
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical | z-move2 = Continental Crush
+| move3 = Counter | move3type = Fighting | move3cat = Physical
+| move4 = Rock Climb | move4type = Normal | move4cat = Physical
+}}
+{{Party/end}}
+=====Pokémon League rematch=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = VSOlivia 2 USUM.png
+| size = 150px
+| prize = {{pdollar}}12,600
+| class = Elite Four
+| name = Olivia
+| location = Pokémon League (Alola)
+| locationname = Pokémon League
+| game = USUM
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0348
+| pokemon = Armaldo
+| gender = male
+| level = 66
+| type1 = Rock
+| type2 = Bug
+| ability = Battle Armor
+| move1 = Crush Claw | move1type = Normal | move1cat = Physical
+| move2 = X-Scissor | move2type = Bug | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Liquidation | move4type = Water | move4cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0346
+| pokemon = Cradily
+| gender = female
+| level = 66
+| type1 = Rock
+| type2 = Grass
+| ability = Suction Cups
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Seed Bomb | move2type = Grass | move2cat = Physical
+| move3 = Sludge Wave | move3type = Poison | move3cat = Special
+| move4 = Earth Power | move4type = Ground | move4cat = Special
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0526
+| pokemon = Gigalith
+| gender = male
+| level = 66
+| type1 = Rock
+| ability = Sand Stream
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Iron Head | move3type = Steel | move3cat = Physical
+| move4 = Throat Chop | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0476
+| pokemon = Probopass
+| gender = female
+| level = 66
+| type1 = Rock
+| type2 = Steel
+| ability = Sturdy
+| move1 = Earth Power | move1type = Ground | move1cat = Special
+| move2 = Power Gem | move2type = Rock | move2cat = Special
+| move3 = Dazzling Gleam | move3type = Fairy | move3cat = Special
+| move4 = Flash Cannon | move4type = Steel | move4cat = Special
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0745
+| pokemon = Lycanroc
+| form = -Midnight
+| icon = z-power
+| gender = male
+| level = 66
+| type1 = Rock
+| ability = Keen Eye
+| held = Rockium Z
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical | z-move2 = Continental Crush
+| move3 = Fire Punch | move3type = Fire | move3cat = Physical
+| move4 = Rock Climb | move4type = Normal | move4cat = Physical
+}}
+{{Party/end}}
+====Jewelry Shop and house====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Olivia|Probopass|476Probopass.png|Rock|Steel|size=100px|link=no}}
+|-
+|}
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Olivia|Stufful|759Stufful.png|Normal|Fighting|size=100px|link=no}}
+|-
+|}
+{{-}}
+
+==In the spin-off games==
+===[[Pokémon Masters EX]]===
+{{main|Olivia (Masters)}}
+Olivia forms a [[sync pair]] with {{form|Lycanroc|Midnight Form}} {{TP|Olivia|Lycanroc}} and {{p|Carbink}} in [[Pokémon Masters EX]]. Olivia became a playable sync pair since the game's release.
+
+{{PairDex/h|fairy egg}}
+{{PairDex|057|Olivia|trainerlink=Olivia (Masters)#Lycanroc (Midnight Form)|trainerimg=Olivia|0745Mn|Lycanroc|gender=male|pokemonlink=Olivia's Lycanroc|form={{Form|Lycanroc|Midnight Form}}|Rock|Grass|Physical Strike|6|Sync Pair Scout}}
+{{PairDex|057|Olivia|trainerlink=Olivia (Masters)#Carbink|trainerimg=Olivia|0703|Carbink|Rock|Steel|Support|4EX|Battle Points}}
+|}
+
+==Quotes==
+{{main|Olivia/Quotes}}
+
+==In animation==
+===''Pokémon the Series''===
+===={{aniseries|SM}}====
+[[File:Olivia anime.png|thumb|220px|Olivia in {{aniseries|SM}}]]
+While not mentioned by name, in ''[[SM002|The Guardian's Challenge]]'', it is revealed that {{an|Kiawe}} completed Olivia's grand trial and received a [[Z-Ring]] from her prior to the start of {{aniseries|SM}}.
+
+She partially appeared in ''[[SM011|Young Kiawe Had a Farm!]]'' during a flashback, when Kiawe told {{Ash}} that the Z-Ring and [[Firium Z]] he had received from Olivia was his [[Kiawe's grandfather|grandfather]]'s. She was also mentioned in ''[[SM027|A Glaring Rivalry!]]'' when {{an|Gladion}} revealed that he obtained his [[Rockium Z]] from completing her grand trial.
+
+Olivia physically debuted in ''[[SM031|The Island Whisperer!]]'', where she traveled to [[Melemele Island]] and visited the [[Pokémon School]], taking {{Ash}} and {{ashcl}} to visit [[Akala Island]]. She continued to appear during throughout Ash and his classmates' stay on the island, first in ''[[SM032|Treasure Hunt, Akala Style!]]'', where she organized a class involving treasure hunting using [[Poké Ride|Stoutland Search]]. During the treasure hunt, {{an|Lana}} found a [[Sparkling Stone]], which Olivia took to be converted into a Z-Ring. The finished Z-Ring was returned to Lana in the [[SM033|next episode]].
+
+In ''[[SM035|Currying Favor and Flavor!]]'', Olivia sent Ash and his classmates on a search for ingredients for the famous "Akala Curry". Ash was paired up with {{an|Mallow}}, with their search eventually leading them to [[Lush Jungle]], where Ash was challenged by {{pkmn2|Totem}} {{p|Lurantis}}. After Ash defeated Lurantis, Olivia showed up and revealed that the entire search had actually been a part of Ash's trial, and he now qualified to take on her grand trial.
+
+In ''[[SM036|Trials and Determinations!]]'', she battled Ash in his Akala Island grand trial at the [[Ruins of Life]], using Lycanroc and {{p|Probopass}} in a [[Double Battle]] against {{AP|Rowlet}} and {{AP|Rockruff}}. Despite their two opponents giving them a lot of trouble, Rowlet finally managed to defeat Probopass with {{m|Bloom Doom}}, only for Rockruff to impulsively attack and knock out Rowlet out of its desire to battle Lycanroc alone. Despite this setback, Rockruff was still able to defeat its evolved form, winning the battle for Ash. After the battle, Olivia gave Ash a [[Rockium Z]] and told him that Rockruff's behavior was a sign of it being ready to [[Evolution|evolve]] soon.
+
+In ''[[SM055|The Professors' New Adventure!]]'', Olivia attended the wedding of {{an|Professor Kukui}} and {{an|Professor Burnet}}.
+
+She reappeared in flashbacks in ''[[SM075|Some Kind of Laziness!]]'' and ''[[SM080|Not Caving Under Pressure!]]''.
+
+In ''[[SM088|Full Moon and Many Arms!]]'', Olivia was seen praying at the Ruins of Life while she waited for the [[Manalo Festival]] to begin. In ''[[SM090|Securing the Future!]]'', she joined the rest of Alola in restoring {{an|Necrozma}} to its {{DL|List of Pokémon with form differences|Necrozma|true form}} by lending it some of her [[Z-Power]].
+
+In ''[[SM103|Heart of Fire! Heart of Stone!]]'', Olivia met up with Ash and his classmates again when they visited Akala alongside {{an|Brock}} and {{an|Misty}}, who were visiting Alola. Brock became infatuated with her, resulting in Misty dragging him away. She agreed to a battle and used Lycanroc against {{TP|Brock|Sudowoodo}} but the battle was interrupted by {{TRT}} who attempted to steal the Pokémon. Brock and Olivia avoided capture and teamed up to attack Team Rocket with a heart shaped {{m|Continental Crush}}.
+
+In ''[[SM115|The Dealer of Destruction!]]'', Olivia, her fellow kahunas, and {{an|Lusamine}} helped Professor Kukui reveal the [[Alola League]] to the public.
+
+In ''[[SM121|A Recipe for Success!]]'', Olivia was visiting [[Aina's Kitchen]] when [[Abe]] asked Mallow to collect some ingredients from {{an|Oranguru}}. Mallow was gone for a while helping out at the Café, so Olivia started helping Abe at the Kitchen and was later joined by Ash and the rest of his classmates. Olivia later watched as Mallow returned with a [[Grassium Z]] given by {{DL|Guardian deities (anime)|Tapu Koko}}, and a [[Z-Ring]] given by Oranguru. She then cleaned and decorated the Z-Ring before giving it back to Mallow for her to use.
+
+In ''[[SM129|Battle Royal 151!]]'', Olivia appeared alongside her fellow kahunas, acting as a [[Battle judge|referee]] during the [[Battle Royal]] preliminary round of the [[Manalo Conference]]. In ''[[SM130|Battling Besties!]]'', Olivia refereed the second pair of first-round matches: one between [[Hau]] and [[Samson Oak]], and the other between Mallow and Lana. From ''[[SM132|Imitation Is the Sincerest Form of Strategy!]]'' to ''[[SM134|The Road to The Semifinals!]]'', she continued observing the Manalo Conference battles. She then refereed the semifinals battle between Kiawe and {{an|Gladion}} in ''[[SM135|The Final Four!]]'' and ''[[SM136|Getting Down to The Ire!]]''. Afterwards, in ''[[SM138|Final Rivals!]]'' and ''[[SM139|Enter the Champion!]]'', she watched the finals battle between Ash and Gladion in the stands. After the final battle ended, Olivia attended the award ceremony for the winner, only for it to be interrupted when a {{DL|Ultra Beasts (anime)|Manalo Stadium Guzzlord|Guzzlord}} arrived at the stadium through an [[Ultra Wormhole]].
+
+In ''[[SM140|Z-Move Showdown!]]'', Olivia and the other island kahunas joined forces to battle Guzzlord. The guardian deities later came to their assistance, using their powers to keep Guzzlord in place long enough for Olivia and the others to fire off their [[Z-Move]]s. The combined attacks launched Guzzlord back into the wormhole it came out of, successfully sending it back into [[Ultra Space]].
+
+In ''[[SM141|Exhibition Unmasked!]]'', ''[[SM143|Fiery Surprises!]]'', and ''[[SM144|From Z to Shining Z!]]'', Olivia watched the {{wp|exhibition game|exhibition match}} between Ash and Professor Kukui.
+
+In ''[[SM145|Dreams of the Sun and Moon!]]'', Olivia acted as the referee during Ash's battle against Kiawe. After the battle, Olivia spoke with Ash and motivated him to travel around the world.
+
+====Character====
+Olivia is highly energetic and sweet by nature. However, she is also very clumsy, constantly getting knocked to the ground during simple tasks like walking up the stairs or opening a door. She also possesses the unique ability to communicate with Pokémon on a different level than most people, giving her a natural affinity even with highly guarded and aggressive Pokémon such as [[Kiawe's Turtonator]] and [[Ash's Litten]].
+
+====Pokémon====
+This listing is of Olivia's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+{{MissingInfo|1|java}}
+=====On hand=====
+{{TrainerPoké
+|main=Olivia's Lycanroc
+|trainer=Olivia
+|pkmn=Lycanroc
+|stage1=Rockruff
+|type1=Rock
+|img=Olivia Lycanroc.png
+|epnum=SM031
+|epname=The Island Whisperer!
+|vajp=Yūji Ueda
+|vaen=Mike Liscio
+|desc=Midday {{p|Lycanroc}} is Olivia's first known Pokémon which evolved from a {{p|Rockruff}}. When it was still a Rockruff it ran away from Olivia right before it was going to evolve. When it returned to Olivia, it had already evolved into Lycanroc. Some time later, Lycanroc was used in Olivia's [[Island challenge|grand trial]] battle against {{an|Kiawe}} and his {{TP|Kiawe|Turtonator}} and was defeated, earning Kiawe [[Kiawe's grandfather|his grandfather]]'s [[Z-Ring]] and a [[Firium Z]].}}
+
+{{TrainerPoké
+|trainer=Olivia
+|pkmn=Probopass
+|type1=Rock
+|type2=Steel
+|img=Olivia Probopass.png
+|epnum=SM036
+|epname=Trials and Determinations!
+|vajp=
+|vaen=Carter Cathcart
+|desc={{p|Probopass}} is Olivia's second known Pokémon. It was used during Olivia's grand trial battle against Ash, where it teamed up with Lycanroc to battle Ash's Rockruff and Rowlet. Despite proving to be powerful and troubling opponent, Probopass was eventually defeated by Rowlet's {{m|Bloom Doom}}.
+
+It appeared again in ''[[SM080|Not Caving Under Pressure!]]'', during a flashback.
+
+Probopass's known moves are {{m|Stealth Rock}}, {{m|Magnet Bomb}}, {{m|Zap Cannon}}, and {{m|Giga Impact}}.}}
+
+=====Ride Pokémon=====
+{{TrainerPoké
+|trainer=Olivia
+|pkmn=Tauros
+|type1=Normal
+|gender=male
+|img=Olivia Tauros.png
+|cap=A Poké Ride Tauros
+|epnum=SM033
+|epname=Big Sky, Small Fry!
+|vajp=
+|vaen=
+|desc=Olivia used a [[Poké Ride]] {{p|Tauros}} to travel through [[Paniola Town]] in ''[[SM033|Big Sky, Small Fry!]]''.
+
+None of Tauros's moves are known.}}
+
+====Voice actors====
+{{vatable|color={{fairy egg color light}}|bordercolor={{fairy egg color dark}}
+|ja=沢城みゆき ''[[Miyuki Sawashiro]]''
+|da=Mette Skovmark
+|en=[[Marisa Kennedy]]
+|fi=Katja Sirkiä ([[SM031]]-[[SM037]])<br>Unknown voice actress ([[SM055]])
+|fr_eu=Célia Torrens
+|de=Jaqueline Belle
+|id=Elly Simanjuntak (RTV dub)
+|el=Μιχαέλα Αντωνίου ''Michaela Antoniou''
+|pt_br=Ana Lúcia Menezes
+|pl=Marta Kurzak
+|es_la=Alicia Barragán
+|es_eu=Pepa Castro
+}}
+
+===GOTCHA!===
+Olivia briefly appeared in [[GOTCHA!]].
+
+==In the manga==
+===Pokémon Adventures===
+[[File:Olivia Adventures.png|thumb|180px|Olivia in [[Pokémon Adventures]]]]
+Olivia debuted in ''[[PASM02|The Delivery of Rotom and the Girl]]''. She was first seen with [[Hala]] and [[Nanu]] at [[Malie Garden]], where they discussed the sightings of the [[guardian deities]] around Alola. They speculated that the normally reclusive guardians appearing before people was a sign that they were angered by something.
+
+In ''[[PASM03|Pokémon Move Specialist Professor Kukui]]'', Olivia and Nanu battled each other to test a stage for an upcoming festival in [[Iki Town]]. Nanu teased Olivia about her romance troubles, which angered her into using a [[Z-Move]]. Nanu tried retaliating with his own, but both were stopped by Hala. The three decided the festival would be used to test Alolan youths by having they battle each other. The strongest participants would travel around Alola's four islands, imitating the [[island challenge]], in order to calm the guardian deities' rage.
+
+In ''[[PASM04|The Decision and the Tournament of Six]]'', {{adv|Moon}} helped Olivia determine the festival tournament roster. At one point, they encountered [[Lillie]], a girl entered in the tournament due to a misunderstanding. When Lillie tried to explain the situation, [[Nebby]] escaped from her bag and ran off. Moon and Lillie chased after Nebby to [[Mahalo Trail]] while Olivia went to tell inform Hala. After returning, Olivia witnessed {{p|Tapu Koko}} rescuing Moon and Nebby from falling in the water before leaving. Olivia offered to have Lillie withdrawn from the tournament, but Moon decided to take her place instead.
+
+In ''[[PASM21|Thieving and Boss Crabominable]]'', Olivia, Hala, and Nanu met at Hala's house, where they decided to name [[Hapu]] the next kahuna of [[Poni Island]]. Olivia and Nanu decided to head to their respective islands to help the [[Trial Captain]]s fend off the [[Ultra Beasts]] that appeared in Alola. Before they could leave, a {{p|Kartana}} and {{p|Buzzwole}} burst into the building and attacked. Hala decided to fight the two beasts alone and told Olivia and Nanu to go defend their islands.
+
+In ''[[PASM26|Adventure in the Dark Dimension]]'', the island kahunas and Trial Captains were revealed to have spent six months on [[Exeggutor Island]] {{pkmn|training}} to prepare for another clash with the Ultra Beasts. At some point, Olivia made a [[Z-Ring]] for [[Hau]]. Once the training was finished, Olivia and [[Kahili]] left to join the others and deliver a repaired Z-Ring [[Kiawe]]. While they traveled, Kahili revealed a suitcase full of [[Z-Crystal]]s she had spent the last six months gathering. One of the Z-Crystals was a [[Lycanium Z]], which Olivia had never seen before.
+
+After meeting with the others, [[Sophocles]] and [[Molayne]] took everyone to [[Mount Lanakila]], where a wormhole had opened up earlier. Shortly after they arrived, their ship was attacked by a group of {{tc|Aether Foundation Employee}}s and their Ultra Beasts. During the battle, Olivia was assisted by {{p|Tapu Koko}}, who transported her to [[Melemele Island]] in order to battle with {{p|Guzzlord}}.
+
+====Pokémon====
+
+{| width="50%"
+|-
+| {{ActivePoké|Olivia|Lycanroc|Olivia Lycanroc Adventures.png|Rock|size=100px|link=Olivia's Lycanroc#Pokémon Adventures}}
+|
+|
+|}
+
+===Pokémon Horizon===
+[[File:Olivia Horizon.png|thumb|180px|Olivia in Pokémon Horizon]]
+Olivia appeared in ''[[HOR07|Attack on the Headquarters]]'', during a flashback of {{hor|Akira}}'s adventures. She was shown handing him a [[Rockium Z]] after being defeated by him.
+
+====Pokémon====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Olivia|Nosepass|299Nosepass.png|Rock|size=100px|link=no}}
+|-
+|}
+{{-}}
+
+==In the TCG==
+[[File:OliviaCrimsonInvasion111.jpg|200px|thumb|Full Art print of Olivia]]
+{{main|Olivia (Burning Shadows 119)}}
+'''Olivia''' was introduced as a {{TCG|Supporter card}} in the [[Pokémon Trading Card Game]] during the English Sun & Moon Series (the Japanese Sun & Moon Era). It was first released in the {{TCG|Facing a New Trial}} subset before debuting in English in the {{TCG|Burning Shadows}} expansion, with an illustration based on the [[Ken Sugimori]] artwork of the character. It was also released as a {{TCG|Full Art card}} in both expansions, with an illustration by [[Naoki Saito]]. Olivia allows the player to search their deck for up to 2 {{TCG|Pokémon-GX}}, reveal them, and put them into their hand. The player then shuffles their deck.
+{{-}}
+
+==Gallery==
+===Concept art===
+===Artwork===
+{|style="margin:auto; text-align:center; border:3px solid #{{fairy egg color dark}}; background:#{{fairy egg color}}; font-size:80%; border-radius: 10px"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background:#{{fairy egg color light}}; overflow:hidden;" | [[File:Olivia concept art.png|350px]]
+|- 
+| Concept art from {{color2|000|Pokémon Sun and Moon|Sun and Moon}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background:#{{fairy egg color light}}" | [[File:Z-Power Ring USUM concept art.png|250px]]
+|- 
+| Concept art for her {{color2|000|Z-Power Ring}} from {{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun and Ultra Moon}}
+|}
+
+===Game assets===
+{|style="margin:auto; text-align:center; border:3px solid #{{fairy egg color dark}}; background:#{{fairy egg color}}; font-size:80%; border-radius: 10px"
+|-
+|style="{{roundy|15px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:SM Ending Screen 3.png|400px]]
+|- 
+| Ending screenshot with {{color2|000|Mallow}} from {{color2|000|Pokémon Sun and Moon|Sun and Moon}}
+|}
+===Sprites and models===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color}}; font-size: 80%"
+|-
+|style="{{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:VSOlivia.png|200px]]
+|style="{{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:VSOlivia 2.png|200px]]
+|style="{{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:VSOlivia USUM.png|200px]]
+|style="{{roundy|20px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:VSOlivia 2 USUM.png|200px]]
+|-
+| Island Kahuna VS model from<br>{{color2|000|Pokémon Sun and Moon|Sun and Moon}}
+| Elite Four VS sprite from<br>{{color2|000|Pokémon Sun and Moon|Sun and Moon}}
+| Island Kahuna VS model from<br>{{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun and Ultra Moon}}
+| Elite Four VS sprite from<br>{{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun and Ultra Moon}}
+|-
+| colspan=2 style="{{roundy|80px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:Spr SM Olivia.png|120px]]
+| colspan=2 style="{{roundy|80px}} border: 2px solid #{{fairy egg color dark}}; background: #{{fairy egg color light}};"| [[File:Olivia SM OD.png|120px]]
+|-
+| colspan=2 | High-poly model from<br>{{color2|000|Pokémon Sun and Moon|Sun, Moon}} {{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun and Ultra Moon}}
+| colspan=2 | Overworld model from<br>{{color2|000|Pokémon Sun and Moon|Sun, Moon}}, {{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun, and Ultra Moon}}
+|}
+
+
+==Trivia==
+* In {{g|Ultra Sun and Ultra Moon}}, she is the only character to be both an [[island kahuna]] and an [[Elite Four]] member.
+* Olivia is the only kahuna whose type specialty is not weak to one of her island guardian's types.
+* Olivia is the only island kahuna in {{aniseries|PTS}} to give {{Ash}} the same [[Z-Crystal]] that she gives out in the {{pkmn|games}}.
+* Olivia is the only {{type|Rock}} Elite Four member.
+* Olivia is the only member of the Alola Elite Four to use a signature Pokémon of a single type.
+
+==Names==
+{| class="roundtable" style="background:#{{fairy egg color}}; border:3px solid #{{fairy egg color dark}}"
+|-
+! style="background:#{{fairy egg color light}}" | Language
+! style="background:#{{fairy egg color light}}" | Name
+! style="background:#{{fairy egg color light}}" | Origin
+|-
+| Japanese
+| ライチ ''Lychee''
+| From ''{{wp|lychee}}''
+|-
+| English, Indonesian, Latin American Spanish
+| Olivia
+| From ''{{wp|Alyxia stellata|Alyxia oliviformis}}'' ({{wp|Synonym (taxonomy)|synonym}} for maile) and possibly ''{{wp|olivine}}''
+|-
+| German, European Spanish
+| Mayla
+| From ''maile''
+|-
+| French, Italian
+| Alyxia
+| From the genus ''{{wp|Alyxia}}''
+|-
+| Korean
+| 라이치 ''Lychee''
+| From 라이치 ''lychee''
+|-
+| Chinese (Traditional)
+| 麗姿 ''Lìzī'' / ''Laihjī''
+| rowspan="2" | From 荔枝 ''lìzhī / laihjī'' (lychee) and 麗姿 / 丽姿 ''lìzī / laihjī'' (beautiful form)
+|-
+| Chinese (Simplified)
+| 丽姿 ''Lìzī''
+|-
+| Brazilian Portuguese
+| Olívia
+| Similar to her English name
+|-
+| Russian
+| Оливия ''Oliviya''
+| Transcription of her English name
+|-
+| Thai
+| ไรจิ ''Raichi''
+| Transcription of her Japanese name
+|}
+{{-}}
+
+==References==
+<references/>
+
+==Related articles==
+{{Captains and Kahunas of Alola}}<br>
+{{Alola League}}
+{{Project CharacterDex notice}}
+
+[[Category:Sun and Moon characters]]
+[[Category:Ultra Sun and Ultra Moon characters]]
+[[Category:Island Kahunas]]
+[[Category:Elite Four Trainers]]
+[[Category:Rock-type Trainers]]
+[[Category:Trainers who use Z-Moves]]
+[[Category:Animation characters]]
+[[Category:Pokémon Adventures characters]]
+[[Category:Pokémon Horizon characters]]
+[[Category:Animated series running gags]]
+
+[[de:Mayla]]
+[[es:Mayla]]
+[[fr:Alyxia]]
+[[it:Alyxia]]
+[[ja:ライチ]]
+[[zh:麗姿]]

@@ -1,0 +1,271 @@
+{{Character Infobox
+|color={{shield color}}
+|corecolor={{shield color light}}
+|bordercolor={{shield color dark}}
+|name=Gloria
+|jname=ユウリ
+|tmname=Yuuri
+|text=fff
+|image=Sword Shield Gloria.png
+|size=170px
+|caption=Official artwork from {{g|Sword and Shield}} by [[Ken Sugimori]]<ref>[[a:File:GloriaBrilliantStars141.jpg|Gloria (Brilliant Stars 141))]]</ref>
+|gender=Female
+|eyes=Brown{{tt|*|Top-left and bottom-right PC default}}, Light blue{{tt|*|Top-right PC default}}, Gray{{tt|*|Bottom-left PC default}}
+|hair=Brown{{tt|*|Top-left and bottom-right PC default}}, Blond{{tt|*|Top-right PC default}}, Black{{tt|*|Bottom-left PC default}}
+|hometown=[[Postwick]]
+|region=[[Galar]]
+|relatives={{gal|Mum|Unnamed mother}} and father
+}}
+{{Character Infobox/Game
+|color={{shield color light}}
+|gen={{gen|VIII}}, {{gen|IX}}
+|games={{pkmn|Sword and Shield|Sword, Shield}}<br>{{pkmn|Masters EX}}
+|counterpart=[[Gloria (Masters)]]
+|trainer=[[Pokémon Trainer]], [[player character]]
+|enva=Stephanie Southerland<ref name="Stephanie Southerland">[https://twitter.com/StephSouthVO Stephanie Southerland‘s Twitter banner]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Eri Yukimura<ref name="Eri Yukimura">[https://www.youtube.com/watch?v=j4A7kyAzCFM Pokémon Masters EX Youtube] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{shield color light}}
+|series=''[[Pokémon: Twilight Wings]]''
+|debut=''[[TW07|Sky]]''
+|enva=Unknown
+|jpva=[[Yuna Ogata]]
+}}
+{{Character Infobox/Manga
+|color={{shield color light}}
+|series=''[[Pokémon Adventures]]''
+|counterpart=[[Casey Shield]]
+|debut=''[[PASS01|Wow!! That's One Big Pokémon]]''
+}}
+|}
+
+'''Gloria''' (Japanese: '''ユウリ''' ''Yuuri'') is the female [[player character]] in {{g|Sword and Shield}}. Her male counterpart is {{ga|Victor}}.
+
+==In the core series games==
+===Character profile===
+Gloria is a young girl who lives with her mother in the town of [[Postwick]] in the [[Galar]] [[region]]. One day, her friend [[Hop]] invites her to meet his big brother [[Leon]], the {{pkmn|Champion}} of the [[Galar League]], so that they both can receive a [[first partner Pokémon]] from him. After also receiving an [[endorsement]] from Leon later on, as well as obtaining a [[Dynamax Band]] from [[Professor Magnolia]], each of them sets out on their Gym Challenge, collecting eight [[Badge]]s from [[Gym Leader]]s across the region, while also dealing with the troublesome actions of [[Team Yell]] along the way. During her Gym Challenge, she also develops a rivalry with [[Bede]], a pretentious boy endorsed by the Chairman of the Galar League, [[Rose]], and [[Marnie]], a quiet young girl from the rough streets of [[Spikemuth]].
+
+Gloria eventually collects the eight required Badges and travels to [[Wyndon]], the biggest city in Galar and the setting of the Champion Cup, where she competes for the right to challenge Leon. Gloria wins the tournament, but her battle with Leon is interrupted before it can even begin by the actions of the Galar League Chairman Rose, who has awakened a Pokémon known as {{p|Eternatus}} and brought about an event called the [[Darkest Day]], which Galar had previously experienced thousands of years ago. Gloria teams up with Hop and the [[Legendary Pokémon]] {{p|Zacian}} and {{p|Zamazenta}} to defeat Eternatus, before {{pkmn2|caught|catching}} it and ending the second Darkest Day. She then proceeds to battle Leon and defeat him, ending his career as the undefeated Champion of Galar and making Gloria the new Champion.
+
+Later, Gloria and Hop are forced to deal with a group of rampaging [[Dynamax]] Pokémon let loose by a pair of rich brothers named [[Sordward]] and [[Shielbert]], who are trying to reinstate the monarchy of Galar and denigrate Zacian and Zamazenta. Eventually, the brothers' plans are stopped, and both Gloria and Hop end up catching one of the two Legendary Pokémon.
+
+===[[The Isle of Armor]]===
+Sometime during her journey, Gloria travels to the [[Isle of Armor]], where she meets a new rival, [[Klara]]{{sup/8|Sw}}/[[Avery]]{{sup/8|Sh}}, and is taken under the wing of former Champion [[Mustard]] as a student of [[Master Dojo|his Dojo]]. Gloria competes in a series of trials with her new rival, eventually defeating them in a final battle, earning them the right to inheirit the Dojo's "secret armor", the Legendary Pokémon {{p|Kubfu}}. After growing close with her new Pokémon, Gloria and Kubfu challenge one of the [[Towers of Two Fists]], culminating in a battle between Master Mustard and his own Kubfu. The two are successful, and Kubfu learns the secret of the tower, allowing it to [[Evolution|evolve]] into {{DL|List of Pokémon with form differences|Urshifu|Single Strike or Rapid Strike Style}} {{p|Urshifu}}.
+
+After resolving the incident with Sordward and Shielbert, Gloria returns to the dojo, where she finds Hop conducting research on [[Sonia]]'s behalf. Mustard tells her that Urshifu hates the taste of {{DL|Master Dojo|Max Soup}}, so, in order for it to unlock its [[Gigantamax]] potential, a special ingredient is needed to make it drink the Max Soup. He doesn't reveal what this ingredient is, though, and leaves it to the duo to figure it out on their own. After a few bad guesses, Gloria and Hop travel to [[Honeycalm Island]], where Gloria gets thrusted into a [[Max Raid Battle]] against a [[Dynamax]] {{p|Vespiquen}}. After defeating it, she finds the missing ingredient; [[Max Honey]]. Upon returning to the dojo, Mustard informs Gloria that he wants to battle her in a no-holds-barred battle, where he uses his full power. In the battle, Mustard uses his own Gigantamax Urshifu. After being defeated, Mustard declares that he has nothing more to teach her.
+
+===[[The Crown Tundra]]===
+Sometime during her journey, Gloria travels to the [[Crown Tundra]], where she meets the retired Gym Leader [[Peony]], who recruits her as the leader of his exploration team, and tasks her with investigating three mysteries surrounding the tundra. In the [[Legendary Clue 1|first mystery]], Gloria meets {{p|Calyrex}}, the former king of the Crown Tundra, and helps it reunite with its steed, {{p|Glastrier}} or {{p|Spectrier}} (as chosen by the player). In the [[Legendary Clue 2|second mystery]], she investigates ruins scattered around the tundra, encountering and [[caught Pokémon|catching]] the [[legendary giants]]. In the [[Legendary Clue 3|third mystery]], Gloria pursues the [[Galarian form|Galarian]] [[legendary birds]] across Galar. Upon solving these mysteries, Gloria finds a note describing a [[Legendary Clue?|fourth mystery]] that Peony does not recall writing. Upon bringing it to the [[Max Lair]], she learns about [[Ultra Beast]]s and {{p|Necrozma}}, and is eventually able to catch Necrozma in a [[Dynamax Adventure]].
+
+Sometime after the events of the Sordward and Shielbert incident, The Isle of Armor, and The Crown Tundra, Gloria receives a call from Leon, receiving an invitation to a new type of competition called the [[Galarian Star Tournament]] at [[Wyndon Stadium]]. Gloria partners with [[Hop]] or [[Marnie]] in the inaugural [[Multi Battle]] tournament, and emerge victorious after defeating Leon and [[Raihan]] (if her partner is Hop) or Raihan and [[Piers]] (if her partner is Marnie), in the finals.
+===Appearance===
+Gloria is a short, slim young girl with fair skin, chin-length brown hair with a long strand on the left side, and brown eyes. She wears a gray hoodie with light grey connected diamond patterns and brown triangular buttons over a magenta pink button-up dress, tartan green socks, and brown boots with lighter brown laces. She also wears black modesty shorts and dons a dark green and white tam o' shanter on top of her head.
+
+During official matches, Gloria wears a standard numbered Gym Challenger uniform. The initial one is a white striped collared shirt, which bears many logos. She also wears long white socks, as well as white shoes with red outlines, and striped shorts with logos. On her right arm, she wears a thumbless glove next to her Dynamax Band.
+
+In The Isle of Armor, her hair is tied into a single bun. She wears a yellow jacket with a black undershirt. On her waist is a white karate belt and red and blue ends. She wears black shorts with yellow lines and black kneeguards with a yellow Poke Ball logo. She also wear white sneakers with yellow shoelaces and white socks.
+
+In The Crown Tundra, she wears expedition clothing which consists of a red jacket and trousers with pockets and white zippers on them. She also wears black gloves, brown boots and a black hard hat with [[Peony]]'s logo on them. There's a red cloth tied to her left arm.
+
+Her appearance can be customized during the game.
+
+==In the spin-off games==
+===[[Pokémon GO]]===
+{{main|Style (GO)}}
+For the release of {{g|Sword and Shield}}, Gloria's outfit was released as free style options in [[Pokémon GO]]. For each release of the [[Pokémon Sword and Shield Expansion Pass]], style options based on outfits from [[The Isle of Armor]] and [[The Crown Tundra]] have also been made for free.
+
+===[[Pokémon Masters EX]]===
+{{main|Gloria (Masters)}}
+Gloria, who is based on the [[player character]] from {{pkmn|Sword and Shield|Sword}}, forms a [[sync pair]] with {{form|Zacian|Crowned Sword}} {{p|Zacian}}, {{p|Inteleon}}, {{form|Urshifu|Rapid Strike Style}} {{p|Urshifu}}, {{p|Thwackey}}, and {{p|Cinderace}} in [[Pokémon Masters EX]]. Both her Urshifu and Cinderace are capable of [[Gigantamax]]ing, and her Cinderace is also capable of Sync {{Tera}}stallizing into the {{t|Rock}} type. Gloria became a playable sync pair on November 30, 2020.
+
+Gloria has also made notable appearances in the game's main stories, [[Legendary Adventures]] and the [[villain arc]]. Unlike in the original game, both Gloria and {{mas|Victor}} coexist in this game.
+
+{{PairDex/h|Shield}}
+{{PairDex|111|Gloria|trainerlink=Gloria (Masters)#Zacian (Crowned Sword)|trainerimg=Gloria|0888|Zacian|form={{Form|Zacian|Crowned Sword}}|Steel|Fire|Physical Strike|exrole=Tech|6|Poké Fair Sync Pair Scout}}
+{{PairDex|111|Gloria|trainerlink=Gloria (Masters)#Inteleon|trainerimg=Gloria Summer 2021|sygna=Summer 2021|0818|Inteleon|gender=male|Water|Electric|Special Strike|exrole=Sprint|6|Seasonal Sync Pair Scout}}
+{{PairDex|111|Gloria|trainerlink=Gloria (Masters)#Urshifu (Rapid Strike Style)|trainerimg=Gloria Dojo Uniform|sygna=Dojo Uniform|0892R|Urshifu|dynamax=yes|form={{Form|Urshifu|Rapid Strike Style ↔ Gigantamax, Rapid Strike}}|gender=male|Water|Electric|Tech|exrole=Support|6|Poké Fair Sync Pair Scout}}
+{{PairDex|111|Gloria|trainerlink=Gloria (Masters)#Thwackey|trainerimg=Gloria|0811|Thwackey|gender=male|Grass|Fire|Physical Strike|4EX|Trainer Lodge Friendship Level 100}}
+{{PairDex|111|Gloria|trainerlink=Gloria (Masters)#Cinderace (Sync Move: Fire ↔ Flying ↔ Fighting)|trainerimg=Gloria Alt 2|sygna=Alt. 2|0815|Cinderace|dynamax=yes|form=[[Gigantamax]]|gender=male|Fire|Ground|Tech|exrole=Support|6|Poké Fair Sync Pair Scout}}
+{{PairDex|111|Gloria|trainerlink=Gloria (Masters)#Cinderace (Tera Type: Rock)|trainerimg=Gloria Anniversary 2025|sygna=Anniversary 2025|0815 Tera Rock|Cinderace|buddy=yes|gender=male|exmaster=yes|tera=Rock|Rock|Water|Support|exrole=Sprint|6|EX Master Fair Sync Pair Scout}}
+|}
+
+==Gallery==
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{shield color dark}}; background:#{{shield color}}; color:#fff;"
+|-
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}" colspan=3 | [[File:Victor Gloria SwSh concept art.jpg|500px]]
+|- style="font-size:80%"
+| colspan=3 | Concept art from {{color2|fff|Pokémon Sword and Shield|Sword and Shield}}
+|-
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; width:100px" | [[File:Sword Shield Gloria Gym Challenge Uniform.png|100px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; width:100px" | [[File:Sword Shield Gloria Isle of Armor.png|100px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; width:150px" | [[File:Sword Shield Gloria Crown Tundra.png|150px]]
+|- style="font-size:80%"
+| Artwork of Gloria in her {{color2|fff|Gym}} uniform
+| Artwork of Gloria from<br>"{{color2|fff|The Isle of Armor}}" expansion
+| Artwork of Gloria from<br>"{{color2|fff|The Crown Tundra}}" expansion
+|-
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; overflow: hidden;" | [[File:Pokémon Day 2022 Galar Artwork.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; overflow: hidden;" | [[File:The Isle of Armor Key Art.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; overflow: hidden;" | [[File:The Crown Tundra Key Art.png|x250px]]
+|- style="font-size:80%"
+| Artwork of Gloria in a {{color2|fff|Gym}} Battle against {{color2|fff|Milo}} for {{color2|fff|Pokémon Day}} by {{color2|fff|Megumi Mizutani}}
+| Gloria in the key art visual of "The Isle of Armor"
+| Gloria in the key art visual of "The Crown Tundra" by {{color2|fff|Tomohiro Kitakaze}}
+|-
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}" | [[File:Gloria Sobble Pokémon Center Trainer artwork 2.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; overflow: hidden;" | [[File:Gloria Sobble Pokémon Center Trainer artwork.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}; overflow: hidden;" | [[File:Kotobukiya ArtFX J Figure Gloria Sobble.png|x250px]]
+|- style="font-size:80%"
+| colspan=2 | Artwork of Gloria and {{pcolor|Sobble|fff}} for the {{color2|fff|Pokémon Center (store)|Pokémon Center}} Pokémon Trainers merchandise line
+| Gloria and {{pcolor|Sobble|fff}} concept artwork by<br>{{color2|fff|Hitoshi Ariga}} for {{color2|000|Kotobukiya figurines|Kotobukiya}} ArtFx J figurines
+|}
+
+===Sprites===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{shield color dark}}; background:#{{shield color}}; font-size:80%; color:#fff;"
+|-
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}" | [[File:Gloria Icon SWSH-1.png|150px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}" | [[File:Gloria Icon SWSH-2.png|150px]]
+|-
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}" | [[File:Gloria Icon SWSH-3.png|150px]]
+| style="{{roundy|15px}} border:2px solid #{{shield color dark}}; background:#{{shield color light}}" | [[File:Gloria Icon SWSH-4.png|150px]]
+|-
+| colspan=2 | Icons when choosing the player's appearance<br>at the beginning of Sword and Shield
+|}
+
+==Quotes==
+{{main|Gloria (game)/Quotes}}
+
+==Counterparts==
+[[File:Victor Gloria TW.png|thumb|230px|Gloria in [[Pokémon: Twilight Wings]]]]
+===In animation===
+====Pokémon: Twilight Wings====
+Gloria appeared in the post-credits scene of ''[[TW07|Sky]]'', alongside {{ga|Victor}}. They requested a [[Flying Taxi]] to take them somewhere.
+
+=====Voice actors=====
+{{vatable|color={{shield color}}|bordercolor={{shield color dark}}
+|ja=緒方 佑奈  ''Yūna Ogata''
+|en=
+|es_la=}}
+
+[[File:GOTCHA.png|thumb|left|250px|Gloria in [[GOTCHA!]]]]
+====GOTCHA!====
+Gloria briefly appeared in [[GOTCHA!]], using [[Gigantamax]] {{p|Cinderace}} against [[Leon's Charizard]].
+
+[[File:Casey Adventures.png|thumb|120px|Gloria's Pokémon Adventures counterpart, Casey Shield]]
+===In the manga===
+====Pokémon Adventures====
+{{main|Casey Shield}}
+Gloria's counterpart in [[Pokémon Adventures]] is Casey Shield. She is a hyperactive girl with a loud voice who researches [[Dynamax]] as [[Professor Magnolia]]'s [[Professor's assistant|assistant]] and is trying to find the Pokémon she lost a year before.
+{{-}}
+
+==In the TCG==
+The following is a list of cards mentioning or featuring Gloria or her Pokémon in the [[Pokémon Trading Card Game]].
+
+{{cardlist/header|Gloria's Pokémon|Rainbow|char=yes}}
+{{cardlist/entry|cardname=[[Single Strike Urshifu V (Battle Styles 85)|Single Strike Urshifu]]{{TCGV}}|type=Fighting|expanded=yes|enset=Brilliant Stars|enrarity=TGV|ennum=TG18/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=238/184}}
+{{cardlist/entry|cardname=[[Single Strike Urshifu VMAX (Battle Styles 86)|Single Strike Urshifu]]{{VMAX}}|type=Fighting|expanded=yes|enset=Brilliant Stars|enrarity=TGV|ennum=TG19/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=239/184}}
+{{cardlist/entry|cardname=[[Galarian Moltres V (Chilling Reign 97)|Galarian Moltres]]{{TCGV}}|type=Darkness|expanded=yes|enset=Astral Radiance|enrarity=TGV|ennum=TG20/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=242/184}}
+{{cardlist/div|Other related cards|Rainbow}}
+{{cardlist/entry|cardname={{TCG ID|Brilliant Stars|Friends in Galar|140}}|type=Supporter|expanded=yes|enset=Brilliant Stars|enrarity=Uncommon|ennum=140/172|jpset=VMAX Climax|jpnum=149/184|enset2=Silver Tempest|enrarity2=TGU|ennum2=TG23/TG30|jpset2=VMAX Climax|jprarity2=SR|jpnum2=258/184}}
+{{cardlist/entry|cardname={{TCG ID|Brilliant Stars|Gloria|141}}|type=Supporter|enset=Brilliant Stars|expanded=yes|enrarity=Uncommon|ennum=141/172|jpset=VMAX Climax|jpnum=163/184|enset2=Brilliant Stars|enrarity2=TGU|ennum2=TG26/TG30|jpset2=VMAX Climax|jprarity2=SR|jpnum2=276/184}}
+{{cardlist/footer|Rainbow}}
+
+==Trivia==
+* Gloria, along with Victor, was designed by [[Megumi Mizutani]].<ref name=MizutaniSWSHCharDesign>[https://twitter.com/megtany/status/1195496948221894656 Tweet about Victor and Gloria for Pokémon Sword & Shield]</ref>
+* Even though the player can choose the player character's uniform number, [[a:File:Sword Shield Female Trainer Gym Challenge Uniform.png|official artwork]] depicts their uniform number as "227", which can be read in Japanese as {{wp|Numeric substitution in Japanese|goroawase}} for 無事な ''bujina'', meaning "safely". It also could be a reference to [[Pokémon Day|February 27]], the release date of {{game|Red and Green|s}}. {{mas|Gloria}} also has this number on her uniform when she wears it in [[Pokémon Masters EX]].
+* On the [[Nintendo Music]] release of the [[Pokémon Sword - Shield + Expansion Pass Super Music Collection|''Pokémon Sword - Shield + Expansion Pass Super Music Collection'']], Gloria is used in all images used to represent the player.
+
+==Names==
+'''Gloria''' (Japanese: '''ユウリ''' ''Yuuri'') is the most commonly used name for this character, being used in guide books and {{g|Masters EX}}. The name also appears as a placeholder name for the female protagonist in {{g|Sword and Shield}}. However, the character makes no NPC appearances and is never directly named or mentioned by name in the core series games or manuals. 
+
+The internal name used for language selection does not call her either of the aforementioned names in the non-English European languages, but rather uses derivations of the word ''victory'' such as ''Victoria'' in French and European Spanish, ''Vittoria'' in Italian, and ''Tori'' in German. The internal name used for language selection in Asian languages remains mostly consistent with the exception of simplified Chinese using 尤丽 ''Yóulì''.
+
+Pre-release and promotional media for Sword and Shield has also used the name '''Shield''' (Japanese: '''シールド''' ''Shield'').
+
+====Gloria====
+{| class="roundtable" style="background:#{{shield color}}; border:3px solid #{{shield color dark}}"
+|-
+! style="background:#{{shield color light}}; color:#FFFFFF" | Language
+! style="background:#{{shield color light}}; color:#FFFFFF" | Name
+! style="background:#{{shield color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| ユウリ ''Yuuri''
+| From 優 ''yū'' (excellent), forming a pun of 優勝 ''yūshō'' (championship) and 勝利 ''shōri'' (victory) with the 勝る ''masaru'' in マサル ''Masaru'' ({{ga|Victor}})
+|-
+| English, German, European Spanish,<br>French, Italian, Indonesian
+| Gloria
+| From ''glory''
+|-
+| Korean
+| 우리 ''Uri''
+| From 우 (優) ''u'' (excellent), forming a pun of 우승 (優勝) ''useung'' (championship) and 승리 (勝利) ''seungni'' (victory) with 승재 ''Seungjae'' (Victor)
+|-
+| Chinese (Traditional)
+| 小優 ''Xiǎo Yōu'' / ''Síu Yāu''
+| rowspan="2" | From 優 / 优 ''yōu / yāu'' (excellent), forming a pun of 優勝 / 优胜 ''yōushèng / yāusīng'' (championship) with 小勝 / 小胜 ''Xiǎo Shèng'' / ''Síu Sīng'' (Victor)
+|-
+| Chinese (Simplified)
+| 小优 ''Xiǎo Yōu''
+|-
+| Brazilian Portuguese
+| Glória
+| From ''glória'' (glory)
+|-
+| Thai
+| ยูริ ''Yuri''
+| Transcription of her Japanese name
+|}
+{{-}}
+
+====Shield====
+{| class="roundtable" style="background:#{{shield color}}; border:3px solid #{{shield color dark}}"
+|-
+! style="background:#{{shield color light}}; color:#FFFFFF" | Language
+! style="background:#{{shield color light}}; color:#FFFFFF" | Name
+! style="background:#{{shield color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| シールド ''Shield''
+| From ''shield''
+|-
+| English
+| Shield
+| From ''shield''
+|-
+| Korean
+| 실드 ''Shield''
+| From ''shield''
+|-
+| Chinese (Traditional)
+| 盾 ''Dùn'' / ''Téuhn''<br>小盾 ''Xiǎo Dùn'' / ''Síu Téuhn''
+| rowspan="2" | From 盾 ''dùn / téuhn'' (shield)
+|-
+| Chinese (Simplified)
+| 盾 ''Dùn''<br>小盾 ''Xiǎo Dùn''
+|}
+{{-}}
+
+==References==
+<references/>
+
+==Related articles==
+{{Player characters|Shield}}
+{{Project CharacterDex notice}}
+
+[[Category:Sword and Shield characters]]
+[[Category:Trainers who use Dynamax]]
+[[Category:Trainers who use Gigantamax]]
+[[Category:Champions]]
+[[Category:Trainers with Legendary Pokémon]]<!--Eternatus, regardless of whether or not the player does the postgame story-->
+[[Category:Pokémon: Twilight Wings characters]]
+[[Category:Pokémon Evolutions characters]]
+
+[[de:Gloria]]
+[[es:Gloria]]
+[[fr:Gloria]]
+[[it:Gloria]]
+[[ja:ユウリ]]
+[[zh:小優]]

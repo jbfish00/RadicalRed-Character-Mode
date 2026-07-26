@@ -1,0 +1,295 @@
+{{Character Infobox
+|color={{sword color}}
+|corecolor={{sword color light}}
+|bordercolor={{sword color dark}}
+|name=Victor
+|jname=マサル
+|tmname=Masaru
+|text=fff
+|image=Sword Shield Victor.png
+|size=130px
+|caption=Official artwork from {{g|Sword and Shield}}
+|gender=Male
+|eyes=Brown{{tt|*|Top-left and bottom-right PC default}}, Light blue{{tt|*|Top-right PC default}}, Gray{{tt|*|Bottom-left PC default}}
+|hair=Brown{{tt|*|Top-left and bottom-right PC default}}, Blond{{tt|*|Top-right PC default}}, Black{{tt|*|Bottom-left PC default}}
+|hometown=[[Postwick]]
+|region=[[Galar]]
+|relatives={{gal|Mum|Unnamed mother}} and father
+}}
+{{Character Infobox/Game
+|color={{sword color light}}
+|gen={{gen|VIII}}, {{gen|IX}}
+|games={{pkmn|Sword and Shield|Sword, Shield}}<br>{{pkmn|Masters EX}}
+|counterpart=[[Victor (Masters)]]
+|trainer=[[Pokémon Trainer]], [[player character]]
+|enva=Ben Thao<ref name="Ben Thao">[https://twitter.com/Benimetrix/status/1578511684167094273 Ben Thao on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Hiro Shimono <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{sword color light}}
+|series=''[[Pokémon: Twilight Wings]]'',<br>''[[Pokémon Evolutions]]''
+|debut=''[[TW07|Sky]]'' <small>([[Pokémon: Twilight Wings|Twilight Wings]])</small><br>''[[PE01|The Champion]]'' <small>({{pkmn|Evolutions}})</small>
+|enva=Aleks Le <small>({{pkmn|Evolutions}})</small>
+|jpva=Kaichi Miyata <small>([[Pokémon: Twilight Wings|Twilight Wings]])</small><br>[[Kohsuke Tanabe]] <small>({{pkmn|Evolutions}})</small>
+}}
+{{Character Infobox/Manga
+|color={{sword color light}}
+|series=''[[Pokémon Adventures]]''
+|counterpart=[[Henry Sword]]
+|debut=''[[PASS01|Wow!! That's One Big Pokémon]]''
+}}
+|}
+
+'''Victor''' (Japanese: '''マサル''' ''Masaru'') is the male [[player character]] in {{g|Sword and Shield}}. His female counterpart is {{ga|Gloria}}.
+
+==In the core series games==
+===Character profile===
+Victor is a young boy who lives with his mother in the town of [[Postwick]] in the [[Galar]] [[region]]. One day, his friend [[Hop]] invites him to meet his big brother [[Leon]], the {{pkmn|Champion}} of the [[Galar League]], so that they both can receive a [[first partner Pokémon]] from him. After also receiving an [[endorsement]] from Leon later on, as well as obtaining a [[Dynamax Band]] from [[Professor Magnolia]], each of them sets out on their Gym Challenge, collecting eight [[Badge]]s from [[Gym Leader]]s across the region, while also dealing with the troublesome actions of [[Team Yell]] along the way.
+
+Victor eventually collects the eight required Badges and travels to [[Wyndon]], the biggest city in Galar and the setting of the Champion Cup, where he competes for the right to challenge Leon. Victor wins the tournament, but his battle with Leon is interrupted before it can even begin by the actions of the Galar League [[Rose|Chairman Rose]], who has awakened a Pokémon known as {{p|Eternatus}} and brought about an event called the [[Darkest Day]], which Galar had previously experienced thousands of years ago. Victor teams up with Hop and the [[Legendary Pokémon]] {{p|Zacian}} and {{p|Zamazenta}} to defeat Eternatus, before {{pkmn2|caught|catching}} it and ending the second Darkest Day. He then proceeds to battle Leon and defeat him, ending his career as the undefeated Champion of Galar and making Victor the new Champion.
+
+Later, Victor and Hop are forced to deal with a group of rampaging [[Dynamax]] Pokémon let loose by a pair of rich brothers named [[Sordward]] and [[Shielbert]], who are trying to reinstate the monarchy of Galar and denigrate Zacian and Zamazenta. Eventually, the brothers' plans are stopped, and both Victor and Hop end up catching one of the two Legendary Pokémon.
+
+===[[The Isle of Armor]]===
+Sometime during his journey, Victor travels to the [[Isle of Armor]], where he meets a new rival, [[Klara]]{{sup/8|Sw}}/[[Avery]]{{sup/8|Sh}}, and is taken under the wing of former Champion [[Mustard]] as a student of [[Master Dojo|his Dojo]]. Victor competes in a series of trials with his new rival, eventually defeating them in a final battle, earning them the right to inheirit the Dojo's "secret armor", the Legendary Pokémon {{p|Kubfu}}. After growing close with his new Pokémon, Victor and Kubfu challenge one of the [[Towers of Two Fists]], culminating in a battle between Master Mustard and his own Kubfu. The two are successful, and Kubfu learns the secret of the tower, allowing it to [[Evolution|evolve]] into {{DL|List of Pokémon with form differences|Urshifu|Single Strike or Rapid Strike Style}} {{p|Urshifu}}.
+
+After resolving the incident with Sordward and Shielbert, Victor returns to the dojo, where he finds Hop conducting research on [[Sonia]]'s behalf. Mustard tells him that Urshifu hates the taste of {{DL|Master Dojo|Max Soup}}, so, in order for it to unlock its [[Gigantamax]] potential, a special ingredient is needed to make it drink the Max Soup. He doesn't reveal what this ingredient is, though, and leaves it to the duo to figure it out on their own. After a few bad guesses, Victor and Hop travel to [[Honeycalm Island]], where Victor gets thrusted into a [[Max Raid Battle]] against a [[Dynamax]] {{p|Vespiquen}}. After defeating it, he finds the missing ingredient; [[Max Honey]]. Upon returning to the dojo, Mustard informs Victor that he wants to battle him in a no-holds-barred battle, where he uses his full power. In the battle, Mustard uses his own Gigantamax Urshifu. After being defeated, Mustard declares that he has nothing more to teach him.
+
+===[[The Crown Tundra]]===
+Sometime during his journey, Victor travels to the [[Crown Tundra]], where he meets the retired Gym Leader [[Peony]], who recruits him as the leader of his exploration team, and tasks him with investigating three mysteries surrounding the tundra. In the [[Legendary Clue 1|first mystery]], Victor meets {{p|Calyrex}}, the former king of the Crown Tundra, and helps it reunite with its steed, {{p|Glastrier}} or {{p|Spectrier}} (as chosen by the player). In the [[Legendary Clue 2|second mystery]], he investigates ruins scattered around the tundra, encountering and [[caught Pokémon|catching]] the [[legendary giants]]. In the [[Legendary Clue 3|third mystery]], Victor pursues the [[Galarian form|Galarian]] [[legendary birds]] across Galar. Upon solving these mysteries, Victor finds a note describing a [[Legendary Clue?|fourth mystery]] that Peony does not recall writing. Upon bringing it to the [[Max Lair]], he learns about [[Ultra Beast]]s and {{p|Necrozma}}, and is eventually able to catch Necrozma in a [[Dynamax Adventure]].
+
+Sometime after the events of the Sordward and Shielbert incident, The Isle of Armor, and The Crown Tundra, Victor receives a call from Leon, receiving an invitation to a new type of competition called the [[Galarian Star Tournament]] at [[Wyndon Stadium]]. Victor partners with [[Hop]] or [[Marnie]] in the inaugural [[Multi Battle]] tournament, and emerges victorious after defeating Leon and [[Raihan]] (if his partner is Hop) or Raihan and [[Piers]] (if his partner is Marnie), in the finals.
+
+===Appearance===
+Victor is a short young boy with fair skin, short brown hair, and similar shades of brown eyes. He wears a gray beanie with circle patterns, a red T-shirt with a logo that resembles a [[Poké Ball]]  and rolled-up sleeves, and blue jeans with a tartan green pattern for the pockets, along with brown running shoes. He also carries around a huge brown suitcase on his back to store his items. He has a checkered pattern on the pockets of his jeans.
+
+During official matches, Victor wears a standard numbered Gym Challenger uniform. The initial one is a white striped collared shirt, which bears many logos. He also wears long white socks, as well as white shoes with red outlines, and striped shorts with logos. On his right arm, he wears a thumbless glove next to his Dynamax Band.
+
+In [[The Isle of Armor]], his hair is tied into a single bun. He wears a yellow jacket with a black undershirt. On his waist is a white karate belt and red and blue ends. He wears black shorts with yellow lines and black kneeguards with a yellow Poké Ball logo. He also wear white sneakers with yellow shoelaces and white socks.
+
+In [[The Crown Tundra]], he wear expedition clothing which consists of a red jacket and trousers with pockets and white zippers on them. He also wears black gloves, brown boots and a black hard hat with [[Peony]]'s logo on them. There's a red cloth tied to his left arm.
+
+His appearance can be customized during the game.
+
+==In the spin-off games==
+===[[Pokémon GO]]===
+{{main|Style (GO)}}
+For the release of {{g|Sword and Shield}}, Victor's outfit was released as free style options in [[Pokémon GO]]. For each release of the [[Pokémon Sword and Shield Expansion Pass]], style options based on outfits from [[The Isle of Armor]] and [[The Crown Tundra]] have also been made for free.
+
+===[[Pokémon Masters EX]]===
+{{main|Victor (Masters)}}
+Victor forms a [[sync pair]] with {{p|Rillaboom}}, {{p|Spectrier}}, and {{p|Greedent}} in [[Pokémon Masters EX]]. His Rillaboom is capable of [[Gigantamax]]ing, while his Spectrier is capable of [[Dynamax]]ing. Victor became a playable sync pair on October 7, 2022.
+
+Victor first appeared as an NPC during the [[solo event]] [[Severely Strained Relations]]. Victor has also made notable appearances in one of the game's main stories, the [[villain arc]]. Unlike in the original game, both Victor and {{mas|Gloria}} coexist in this game.
+
+{{PairDex/h|Sword}}
+{{PairDex|157|Victor|trainerlink=Victor (Masters)#Rillaboom|trainerimg=Victor|0812|Rillaboom|gender=male|form=[[Gigantamax]]|dynamax=yes|Grass|Fire|Physical Strike|exrole=Sprint|6|Poké Fair Sync Pair Scout}}
+{{PairDex|157|Victor|trainerlink=Victor (Masters)#Spectrier|trainerimg=Victor|0897|Spectrier|dynamax=yes|Ghost|Dark|Field|6|Special Sync Pair Event}}
+{{PairDex|157|Victor|trainerlink=Victor (Masters)#Greedent|trainerimg=Victor Palentines 2024|sygna=Palentine's 2024|0820|Greedent|gender=male|buddy=yes|Normal|Fighting|Support|exrole=Tech|6|Seasonal Sync Pair Scout}}
+|}
+
+==Gallery==
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{sword color dark}}; background:#{{sword color}}; color:#fff;"
+|-
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Victor Gloria SwSh concept art.jpg|250px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Sword Shield Victor Gym Challenge Uniform.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Sword Shield Victor Isle of Armor.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Sword Shield Victor Crown Tundra.png|x250px]]
+|- style="font-size:80%"
+| Concept art from {{color2|fff|Pokémon Sword and Shield|Sword and Shield}}
+| Artwork of Victor in his<br>{{color2|fff|Gym}} Challenge uniform
+| Artwork of Victor from<br>{{color2|fff|The Isle of Armor}} expansion
+| Artwork of Victor from<br>{{color2|fff|The Crown Tundra}} expansion
+|-
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Sword Shield Gym Challenge artwork.png|250px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:The Isle of Armor Key Art.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:The Crown Tundra Key Art.png|x250px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Kotobukiya ArtFX J Figure Gloria Sobble Victor Scorbunny.jpg|x250px]]
+|- style="font-size:80%"
+| Artwork of Victor with Scorbunny battling {{color2|fff|Milo}}
+| Artwork of Victor in The Isle of Armor key art visual
+| Artwork of Victor in The Crown Tundra key art visual
+| Victor and {{pcolor|Scorbunny|fff}} concept artwork by<br>{{color2|fff|Hitoshi Ariga}} for {{color2|000|Kotobukiya figurines|Kotobukiya}} ArtFx J figurines
+|}
+
+===Sprites===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{sword color dark}}; background:#{{sword color}}; font-size:80%; color:#fff;"
+|-
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Victor Icon SWSH-1.png|150px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Victor Icon SWSH-2.png|150px]]
+|-
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Victor Icon SWSH-3.png|150px]]
+| style="{{roundy|15px}} border:2px solid #{{sword color dark}}; background:#{{sword color light}}" | [[File:Victor Icon SWSH-4.png|150px]]
+|-
+| colspan=2 | Icons when choosing the player's appearance<br>at the beginning of Sword and Shield
+|}
+
+==Quotes==
+{{main|Victor (game)/Quotes|Victor (game)/Quotes}}
+
+==Counterparts==
+[[File:Victor Gloria TW.png|thumb|left|230px|Victor in [[Pokémon: Twilight Wings]]]]
+
+===In animation===
+====Pokémon: Twilight Wings====
+Victor appeared in the post-credits scene of ''[[TW07|Sky]]'', alongside {{ga|Gloria}}. They requested a [[Flying Taxi]] to take them somewhere.
+
+=====Voice actors=====
+{{vatable|color={{sword color}}|bordercolor={{sword color dark}}
+|ja=宮田 海地  ''Kaichi Miyata''
+|en=
+|es_la=}}
+{{-}}
+
+====Pokémon Evolutions====
+[[File:Victor Evolutions.png|x250px|thumb|Victor in [[Pokémon Evolutions]]]]
+Prior the events of ''[[PE01|The Champion]]'', Victor had his match against [[Leon]] interrupted before it could even begin because of the [[Darkest Day]]. Although Leon tried to control the situation, Victor and [[Hop]] were forced to take his place when he was unable to stop the event. In the midst of battle against {{p|Eternatus}}, {{p|Zacian}} and {{p|Zamazenta}} appeared and joined the Trainers. With their help, they managed to weaken Eternatus enough for Victor to catch it.
+
+In the present day, Victor prepared to start his [[Galar League|Championship Match]] against Leon.
+{{-}}
+
+=====Pokémon=====
+{{TrainerPoké
+|trainer=Victor
+|pkmn=Inteleon
+|type1=Water
+|img=Victor Inteleon Evolutions.png
+|epnum=PE01
+|epname=The Champion
+|desc={{p|Inteleon}} is Victor's first known Pokémon. He used it to battle against Eternatus.
+
+Inteleon's only known move is {{m|Snipe Shot}}.}}
+
+{{TrainerPoké
+|trainer=Victor
+|pkmn=Eternatus
+|type1=Poison
+|type2=Dragon
+|img=Victor Eternatus Evolutions.png
+|img2=Victor Eternamax Eternatus Evolutions.png
+|epnum=PE01
+|epname=The Champion
+|desc={{p|Eternatus}} is Victor's second known Pokémon. It was caught by him in order to stop the [[Darkest Day]].
+
+None of Eternatus's moves are known.}}
+
+=====Achievements=====
+======Badges obtained======
+This listing is of the [[Badge]]s Victor has obtained:
+* Eight Galar Badges (prior to ''[[PE02|The Champion]]'')
+
+=====Voice actors=====
+{{vatable|color={{sword color}}|bordercolor={{sword color dark}}
+|ja=水中 雅章  ''[[Kohsuke Tanabe]]''
+|en=Aleks Le
+|es_la=Miguel Ángel Leal}}
+
+====GOTCHA!====
+Victor briefly appeared in [[GOTCHA!]], using [[Gigantamax]] {{p|Cinderace}} against [[Leon's Charizard]].
+
+===In the manga===
+[[File:Henry Adventures.png|thumb|130px|Victor's [[Pokémon Adventures]] counterpart, Henry Sword]]
+====Pokémon Adventures====
+{{main|Henry Sword}}
+Victor's counterpart in [[Pokémon Adventures]] is Henry Sword. He specializes in fixing and maintaining tools various Pokémon use in battle, such as {{p|Sirfetch'd}}'s leek.
+{{-}}
+
+==In the TCG==
+The following is a list of cards mentioning or featuring Victor or his Pokémon in the [[Pokémon Trading Card Game]].
+
+{{cardlist/header|Victor's Pokémon|Rainbow|char=yes}}
+{{cardlist/entry|cardname=[[Galarian Articuno V (Chilling Reign 58)|Galarian Articuno]]{{TCGV}}|type=Psychic|expanded=yes|enset=Astral Radiance|enrarity=TGV|ennum=TG16/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=230/184}}
+{{cardlist/entry|cardname=[[Shadow Rider Calyrex V (Chilling Reign 74)|Shadow Rider Calyrex]]{{TCGV}}|type=Psychic|expanded=yes|enset=Astral Radiance|enrarity=TGV|ennum=TG17/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=235/184}}
+{{cardlist/entry|cardname=[[Shadow Rider Calyrex VMAX (Chilling Reign 75)|Shadow Rider Calyrex]]{{VMAX}}|type=Psychic|expanded=yes|enset=Astral Radiance|enrarity=TGV|ennum=TG18/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=236/184}}
+{{cardlist/div|Other related cards|Rainbow}}
+{{cardlist/entry|cardname={{TCG ID|Brilliant Stars|Friends in Galar|140}}|type=Supporter|expanded=yes|enset=Brilliant Stars|enrarity=Uncommon|ennum=140/172|jpset=VMAX Climax|jpnum=149/184|enset2=Silver Tempest|enrarity2=TGU|ennum2=TG23/TG30|jpset2=VMAX Climax|jprarity2=SR|jpnum2=258/184}}
+{{cardlist/footer|Rainbow}}
+
+==Trivia==
+* Victor, along with Gloria, was designed by [[Megumi Mizutani]].<ref name=MizutaniSWSHCharDesign>[https://twitter.com/megtany/status/1195496948221894656 Tweet about Victor and Gloria for Pokémon Sword & Shield]</ref>
+* Even though the player can choose the [[player character]]'s uniform number, [[a:File:Sword Shield Victor Gym Challenge Uniform.png|official artwork]] depicts their uniform number as "227", which can be read in Japanese as {{wp|Numeric substitution in Japanese|goroawase}} for 無事な ''bujina'', meaning "safely". It also could be a reference to [[Pokémon Day|February 27]], the release date of {{game|Red and Green|s}}.
+** Victor's uniform number in [[Pokémon Evolutions]] is 25, a reference to [[Pokémon 25th Anniversary|Pokémon's 25th anniversary]].
+* Victor is the first [[player character]] to appear with a customized playable skin color outside the {{pkmn|games}}, appearing with a darker skin in Pokémon Evolutions.
+
+==Names==
+'''Victor''' (Japanese: '''マサル''' ''Masaru'') is the most commonly used name for this character, being used in guide books and {{g|Masters EX}}. The name also appears as a placeholder name for the male protagonist in {{g|Sword and Shield}}. However, the character makes no NPC appearances and is never directly named or mentioned by name in the [[core series]] games or manuals.
+
+Pre-release and promotional media for Sword and Shield has also used the name '''Sword''' (Japanese: '''ソード''' ''Sword'').
+
+====Victor====
+{| class="roundtable" style="background:#{{sword color}}; border:3px solid #{{sword color dark}}"
+|-
+! style="background:#{{sword color light}}; color:#FFFFFF" | Language
+! style="background:#{{sword color light}}; color:#FFFFFF" | Name
+! style="background:#{{sword color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| マサル ''Masaru''
+| From 勝る ''masaru'' (to surpass), forming a pun of 優勝 ''yūshō'' (championship) and 勝利 ''shōri'' (victory) with the 優 ''yū'' in ユウリ ''Yuuri'' ({{ga|Gloria}})
+|-
+| English, German,<br>European Spanish,<br>French, Italian
+| Victor
+| From ''victory''
+|-
+| Korean
+| 승재 ''Seungjae''
+| From 승 (勝) ''seung'' (victory) and 재 (才) ''jae'' (talent), forming a pun of 우승 (優勝) ''useung'' (championship) and 승리 (勝利) ''seungni'' (victory) with 우리 ''Uri'' (Gloria)
+|-
+| Chinese (Traditional)
+| 小勝 ''Xiǎo Shèng'' / ''Síu Sīng''
+| rowspan="2" | From 勝 / 胜 ''shèng / sīng'' (victory), forming a pun of 優勝 / 优胜 ''yōushèng / yāusīng'' (championship) with 小優 / 小优 ''Xiǎo Yōu'' / ''Síu Yāu'' (Gloria)
+|-
+| Chinese (Simplified)
+| 小胜 ''Xiǎo Shèng''
+|}
+{{-}}
+====Sword====
+{| class="roundtable" style="background:#{{sword color}}; border:3px solid #{{sword color dark}}"
+|-
+! style="background:#{{sword color light}}; color:#FFFFFF" | Language
+! style="background:#{{sword color light}}; color:#FFFFFF" | Name
+! style="background:#{{sword color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| ソード ''Sword''
+| From ''sword''
+|-
+| English
+| Sword
+| From ''sword''
+|-
+| Korean
+| 소드 ''Sword''
+| From ''sword''
+|-
+| Chinese (Traditional)
+| 劍 ''Jiàn'' / ''Gim''<br>阿劍 ''Ā Jiàn'' / ''A Gim''
+| rowspan="2" | From 劍 / 剑 ''jiàn / gim'' (sword)
+|-
+| Chinese (Simplified)
+| 剑 ''Jiàn''<br>阿剑 ''Ā Jiàn''
+|}
+{{-}}
+
+==References==
+{{reflist}}
+
+==Related articles==
+{{Player characters|sword}}
+{{Project CharacterDex notice}}
+
+[[Category:Sword and Shield characters]]
+[[Category:Trainers who use Dynamax]]
+[[Category:Trainers who use Gigantamax]]
+[[Category:Champions]]
+[[Category:Trainers with Legendary Pokémon]]<!--Eternatus, regardless of whether or not the player does the postgame story-->
+[[Category:Pokémon: Twilight Wings characters]]
+[[Category:Pokémon Evolutions characters]]
+
+[[de:Victor]]
+[[es:Victor (personaje)]]
+[[fr:Victor (Galar)]]
+[[it:Victor (gioco)]]
+[[ja:マサル]]
+[[zh:小勝]]

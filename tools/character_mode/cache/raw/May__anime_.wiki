@@ -1,0 +1,453 @@
+{{Character Infobox
+|color={{ruby color}}
+|bordercolor={{ruby color dark}}
+|corecolor={{ruby color light}}
+|name=May
+|jname=ハルカ
+|tmname=Haruka
+|text=fff
+|image=May AG.png
+|size=170px
+|caption=May in ''[[Pokémon the Series: Ruby and Sapphire]]''
+|age=10<ref>''([[AG001]]) May: "Hi. My name's May and I'm '''10 years old'''.''"</ref>
+|gender=Female
+|eyes=Blue
+|hair=Light brown
+|hometown=[[Petalburg City]]
+|region=[[Hoenn]]
+|relatives=[[Max]] (younger brother)<br>[[Norman]] (father)<br>[[Caroline]] (mother)
+}}
+{{Character Infobox/Anime
+|color={{ruby color light}}
+|series=''[[Pokémon the Series]]''
+|debut=''[[AG001|Get the Show on the Road!]]''
+|enva=[[Veronica Taylor]] <small>([[AG001]]-[[AG145]])</small><br>[[Michele Knotz]] <small>([[AG146]]-[[DP079]], [[The Mastermind of Mirage Pokémon|MoMP]])</small>
+|jpva=[[KAORI.]]
+}}
+{{Character Infobox/Manga
+|color={{ruby color light}}
+|series=''[[Ash & Pikachu]]''
+|debut=''[[SP17|Let's Save Pikachu!!]]''
+}}
+{{Character Infobox/Game
+|color={{ruby color light}}
+|gen={{gen|III}}
+|counterpart=[[May (game)|May]]
+|games={{pkmn|Advanced Generation: I've Begun Hiragana and Katakana!}}, {{pkmn|Advanced Generation: Pico for Everyone Pokémon Loud Battle!}}, {{pkmn|Team Rocket Blast Off}}, {{pkmn|Poké Ball Launcher}}, {{pkmn|Seek & Find}}
+|trainer={{pkmn|Coordinator}}
+}}
+|}
+
+'''May''' (Japanese: '''ハルカ''' ''Haruka'') is a [[Pokémon Coordinator]] from [[Petalburg City]] and a former {{ashfr|traveling companion}} of {{Ash}}. She is the daughter of [[Norman]] and [[Caroline]], and her [[first partner Pokémon]] was a {{TP|May|Torchic}} given to her by [[Professor Birch]].
+
+Initially on a {{pkmn|journey}} to meet new places, May found her true calling in [[Pokémon Contest]]s and made it her goal to become a [[Top Coordinator]]. She traveled through [[Hoenn]] and [[Kanto]] with Ash, {{an|Brock}}, and her little brother, [[Max]].
+
+==In animation==
+===History===
+====''Pokémon the Series''====
+=====Pre-series=====
+[[File:Younger May.png|thumb|220px|May during her childhood]]
+May grew up in [[Petalburg City]] in the [[Hoenn]] region with her parents, [[Caroline]] and Petalburg [[Gym Leader]] [[Norman]], and brother, [[Max]]. As revealed in ''[[AG103|A Cacturne for the Worse]]'', May, when she was younger, was playing in the water with some {{p|Tentacool}}, but found herself surrounded by a horde of them. However, when her parents saw this, Caroline tried to catch her because she had mistaken her for a Tentacool. Ever since that experience, May developed a dislike and fear of {{OBP|Pokémon|species}}.
+
+====={{aniseries|RS}}=====
+Years later in ''[[AG001|Get the Show on the Road!]]'', May was old enough to become a [[Pokémon Trainer]], but she used it as an excuse just so she could travel, even though everyone expected her to follow in her father Norman's footsteps. However, after seeing a [[Pokémon Contest]] in ''[[AG013|All Things Bright and Beautifly!]]'', she decided to become a [[Pokémon Coordinator]] instead. Since May initially knew almost nothing about Pokémon or [[move|attack]]s, Ash assumed the role of her mentor. She gradually gained experience through her {{pkmn|journey}} and practice with Ash.
+
+As a Coordinator, May was able to learn more about Pokémon and form stronger bonds with them. In ''[[AG051|Come What May!]]'', after winning the {{to|Fallarbor}} Contest, May told her {{TP|May|Beautifly}} that she loved it. This is an example of her growth — from someone who initially disliked Pokémon to someone who cared deeply for them.
+
+With her {{cat|May's Pokémon|Pokémon}}, May was able to come up with different [[Contest combination|attack combinations]] to use during her [[Contest Battle]]s. For instance, she would use her {{TP|May|Combusken}}'s {{m|Fire Spin}} and her {{TP|May|Squirtle}}'s {{m|Bubble}} to create a combination of fire and water, dubbed "Fire and Water Whirlwind" by [[Lilian Meridian|Lilian]], after witnessing [[Tucker]] use it against Ash with a combination of {{m|Water Pulse}} and {{m|Fire Blast}}. This even made a [[Harley|rival]] of hers angry, thinking she thought he was not worthy of the move as May did not use it against him.
+
+She also developed a love for making her own [[Pokéblock]]s with recipes that she thought up, including ones called "May's Purple Surprise" and "May's Pink Surprise" (Japanese: ''Haruka's Delicious'' and ''Haruka's Delicious 2''). Unfortunately, the only ones who liked her "Purple Surprise" were her {{TP|May|Munchlax}} and [[Jessie]]. Her "Pink Surprise" came from the recipe {{an|Professor Oak}} uses to make [[Ash's Snorlax]]'s {{pkmn|food}}. Thus, after May [[AG118|first fed]] it to her Munchlax, it was automatically made full. This Pokéblock was regularly used to feed Munchlax in order to prevent it from eating the food of others.
+
+[[File:Drew and May.png|thumb|left|220px|May and Drew]]
+During her journey, she found a [[rival]] in [[Drew]], a skilled and sometimes arrogant Coordinator. Drew became one of her main inspirations to try harder to sharpen her skills as a Coordinator. At first, Drew had claimed that May had "no style" as a Coordinator, but by the end of May's second Contest campaign, when she defeated him in the [[Kanto Grand Festival]], he recognized her growth and skill. Another rival of hers, [[Harley]], is a flamboyant man who goes to extremes to beat May and has no qualms about cheating or using unfair tactics. An example of Harley's depravity was seen in ''[[AG103|A Cacturne for the Worse]]'', when he recorded Max telling him a story from May's childhood. May had been wearing a blue swimming cap in the ocean, and her mother had mistaken her for a {{p|Tentacool}} from afar and attempted to {{pkmn2|caught|catch}} May with one of her {{i|Poké Ball}}s. Harley played the recording of this story during the [[Izabe Island]] Pokémon Contest to embarrass May into losing. May was able to beat Harley in the end, but she claimed that she had never been more humiliated. Another example is when Harley joined forces with {{TRT}} in an attempt to sabotage May's performance with Combusken, which ended up contributing to a more dazzling appeal.
+
+At the Kanto Grand Festival, May also competed against [[Solidad]], an experienced Coordinator to whom she lost in the semifinals. At the end of ''[[Pokémon the Series: Ruby and Sapphire]]'', she left to compete with Drew, Harley, and Solidad in the [[Johto]] [[region]], aiming to find her own battling style. The decision to stop traveling with Ash was an important one for May's character. Because Ash played the role of a mentor to her through most of the series, she was largely influenced by his offensive battle style. By the end of their journey through Kanto, May had realized that an offensive style was not necessarily the best for her and for Contests. Her constant use of dazzling attacks ultimately proved to be her downfall at the Kanto Grand Festival, when Solidad was able to recognize and counter these moves by leading May to attack and then successfully dodging. Her goal to find her own style was therefore also a goal to improve her Contest Battle skills and ultimately become a [[Top Coordinator]].
+
+May has [[Contest Pass]]es to compete in Hoenn, Kanto and Johto. She also has a personal [[List of Japanese ending themes|theme song]], ''[[I Won't Lose! ~Haruka's Theme~]]'', performed by [[KAORI.]]. It was first used as background music in ''[[AG166|Curbing the Crimson Tide]]'' and was used multiple times after that during May's Contest [[Appeal|performances]] and [[Contest Battle|battles]]. The song became the ending theme of the show between ''[[AG172|Pokémon Ranger - Deoxys' Crisis! (Part 2)]]'' and ''[[AG192|Home is Where the Start Is!]]''.
+[[File:May DP series.png|thumb|220px|May in {{aniseries|DP}}]]
+====={{aniseries|DP}}=====
+May reappeared from ''[[DP075|Our Cup Runneth Over!]]'' to ''[[DP079|Strategy With a Smile!]]'' to participate in the [[Wallace Cup]]. During this period, she wore her {{ga|May|game counterpart}}'s outfit from {{game|Emerald}}. She shared that many of her Pokémon had [[Evolution|evolved]] and that she had already won three Johto [[Ribbon]]s. {{an|Dawn}} recognized May upon meeting her and said that some people in the [[Sinnoh]] region called her the "Princess of Hoenn", causing May to blush. 
+
+In ''[[DP076|A Full Course Tag Battle!]]'', May spoke with Ash and Brock about her journey in Johto, and revealed that her {{p|Eevee}} had evolved into {{TP|May|Glaceon}} shortly before meeting them. Before starting training for the Wallace Cup, May suggested everyone go to the [[Seven Stars Restaurant]] on the [[Valor Lakefront]]. where they participated in a series of Tag Battles to earn a right to an exclusive meal. Before May and Dawn started their battles, {{TRT}} had stolen the food supply, this motivated May to help find the food and when they found it, May and Dawn battled [[Jessie]] and [[James]], defeating them easily. 
+[[File:Ash May Split Ribbon.png|left|thumb|220px|May and Ash holding their halves of the Terracotta Ribbon]]
+Once everything was resolved, May and Dawn had their battles against [[Roman]] and [[Kylie]], winning using a combination of {{t|Water}}- and {{type|Fire}} moves. At the end of the night, May remembered with Ash the moment they both competed for the [[Ribbon]] of [[Terracotta Town]], and together with Dawn, May discovered that Ash was also interested in the competition.
+
+During the Wallace Cup, May showed the new battle style that she had come up with after leaving Ash, battling against Dawn's rival [[Zoey]] and winning using her Beautifly. She made it all the way to the finals but narrowly lost to Dawn in the end. Afterwards, May returned to Johto to resume competing in Contests there.
+
+May reappeared in a picture on {{an|Brock}}'s memory wall in the special episode [[DPS02]].
+
+====={{aniseries|BW}}=====
+[[File:May Max JN.png|thumb|250px|May in {{aniseries|JN}}]]
+May reappeared in a fantasy in ''[[BW142|The Dream Continues!]]''.
+
+====={{aniseries|JN}}=====
+May reappeared in a flashback of the Wallace Cup in ''[[JN105|Reuniting for the First Time!]]'', alongside Dawn. In the same episode, [[Chloe]] wore a [[Contest Costume]] that {{an|Serena}} mentioned was worn by the "Princess of Hoenn", referencing May's nickname.
+
+In ''[[JN132|Partners in Time!]]'', May was revealed to have returned to [[Hoenn]] when she appeared alongside Max, Serena, and [[Lisia]], watching Ash's [[Masters Eight Tournament]] match against {{an|Leon}}. Soon after, when {{AP|Pikachu}} was at the limit of his strength, May, Max, and Serena were shown to be anxious about the state of the battle, each holding on to another for comfort.
+
+====''I Choose You!''====
+May made a cameo appearance in the ending credits of ''[[M20|I Choose You!]]'', alongside all of Ash's traveling companions at the time.
+
+===Character===
+[[File:Ash and friends AG.png|thumb|220px|left|May, Ash, Brock, and Max]]
+May is generally a very sweet and optimistic girl. She enjoys feminine and cute things as well as shopping. In fact, she and Brock occasionally went on shopping trips together throughout ''Pokémon the Series: Ruby and Sapphire''. May cares about her appearance, sometimes spending so much time in front of the mirror that it caused her traveling companions to become frustrated with her, such as in ''[[AG072|The Bicker the Better]]''. May also is interested in helping other people with their romantic problems.
+
+Though she is generally kind, she occasionally argues with her little brother, [[Max]]. The two had arguments since Max's debut episode, but one of their most notable was in ''[[AG081|Take This House and Shuppet]]''. May's harsh words to Max made him declare that he hated May and he ran away for a portion of the episode. Even though she had been angry, May quickly felt guilty for hurting Max's feelings and became very worried that he would be hurt on his own. In ''[[AG114|Date Expectations]]'', when Max again went missing, May revealed that she had promised her mother to always take care of Max on their journey, and was prepared to miss her last chance of qualifying for the [[Hoenn Grand Festival]] in order to find him. Though the siblings had many quarrels over their joint travels, May deeply cares for her brother and would go to great lengths to protect him.
+[[File:May rage.png|thumb|220px|May's rage at her loss of food]]
+In ''[[AG004|You Never Can Taillow]]'', May heard Brock used to act as a cook during Ash's journeys. As she, Max and Ash were hungry, she was the one who asked Brock if he could prepare some food for them. If a person or a Pokémon were to steal her food she would become extremely angry, which was demonstrated numerous times. Food was one of the few things May would become angry about, so it was an important tool to show a different side to her usually cheerful character. When May returned for ''Pokémon the Series: Diamond and Pearl'', she expressed excitement over the chance to eat at the [[Seven Stars Restaurant]], but having her meal stolen made her enraged. She was later shown enjoying a large cookie, once again affirming her love of food and sweets.
+
+[[File:May shopping bags.png|thumb|left|220px|May after shopping]]
+When May first left her home, she was only interested in the traveling aspect of a [[Pokémon journey]]. This sparked one of May's most memorable quirks in Hoenn, "May's Expeditions". Starting from ''[[AG025|A Mudkip Mission]]'', May would occasionally make a camera lens with her fingers, pretending she was the host of a traveling show. Uniquely for one of {{Ash}}'s {{ashfr|friends}}, May originally didn't like Pokémon and was afraid of them, due to the [[AG103|trauma]] of being swarmed by a group of {{p|Tentacool}} when she was little. However, after seeing Ash risking his life to save his {{AP|Pikachu}} on the day they [[AG001|met]] and later upon forming close bonds with her first two Pokémon, {{TP|May|Torchic}} and {{TP|May|Wurmple}}, May grew to care about Pokémon, which helped her overcome her dislike and fear of them.
+
+As mentioned, May also enjoys making [[Pokéblock]]. She first learned about making Pokéblock in the episode ''[[AG090|Pokéblock, Stock and Berry]]'' when she met {{ho|Kelly}}. She learned that Kelly's mother owned a Pokéblock shop, and May was curious about it. Kelly then taught her how to use a [[Berry Blender]]. May's first attempt of making a Pokéblock was not successful, but that didn't stop her from trying. In the episode ''[[AG117|Berry, Berry Interesting]]'', May continued to make Pokéblock, calling the result '''"May's Purple Surprise"'''. However, only her {{TP|May|Munchlax}} had taken a liking to it. Later on, {{an|Professor Oak}} had created a Pokéblock recipe for May, which May calls '''"May's Pink Surprise"''', that is specially made for Munchlax, similarly to the recipe used to feed [[Ash's Snorlax]]. May uses it to stop her Munchlax from causing too much trouble on many occasions.
+[[File:DP076.png|220px|thumb|May and Dawn]]
+May was unsure on what path and goal to pursue, even though she was expected to become a Pokémon Trainer like her father. However, after witnessing Pokémon Contests in ''[[AG013|All Things Bright and Beautifly!]]'', May decided to become a Pokémon Coordinator, and has been training both herself and her Pokémon since then. In ''[[AG121|Hi Ho Silver Wind!]]'', May revealed that she stayed in contact with many of the friends she made through competing in Pokémon Contests, using emails, phone calls and letters. This included Kelly, [[Savannah]], [[Sandra]], [[Timmy Grimm|Timmy]], [[Dr. Abby]], and [[Janet]]. May also said that being friends with the people she met throughout her journey, and knowing they were cheering for her, gave her the confidence to overcome any nervousness she could face.
+[[File:May catches Skitty.png|thumb|220px|left|May after catching a Pokémon]]
+Throughout her journey with Ash, Brock, and Max, May has changed remarkably as a person and Trainer, but maintains her habit of finding popular food spots and her sweet nature. May has also learned to not take her Pokémon for granted, as seen in ''[[AG078|Cruisin' for a Losin']]'', when she realized how hard she pushed her {{TP|May|Bulbasaur}} in the [[Rubello Town|Rubello]] [[Pokémon Contest]] and that the first [[AG051|two]] [[AG062|ribbons]] that she won were because her Pokémon came through for her. In addition, May has exceptionally improved her battling skills, as shown in her battle against [[Drew]] in the [[Kanto Grand Festival]]. As time passed, May became a well-known coordinator and received the nickname "Princess of Hoenn", which was stated by {{an|Dawn}} in ''[[DP076|A Full Course Tag Battle!]]'' and {{an|Serena}} in ''[[JN105|Reuniting for the First Time!]]''.
+
+May's Contest cry is '''"Take the stage!"''' (Japanese: '''ステージ・オン！''' ''Stage On!''). In the English dub, she also uses variations, such as "On stage!". In the Japanese version, May usually ends her sentences with (Japanese: '''～かも''' ''~kamo''), a word often used to express uncertainty.
+{{-}}
+
+===Pokémon===
+[[File:May Party.png|thumb|220px|May's Pokémon in ''[[Pokémon the Series: Ruby and Sapphire]]]]
+The Pokémon she acquired on the course of her journey appear to resemble the Pokémon that Ash had obtained at some point at the beginning of his own journey. At first, she preferred cute {{OBP|Pokémon|species}} and dazzling techniques, but over the course of her journey, she was able to obtain Pokémon outside that preference. She has a tendency to rely on luck, often using her {{TP|May|Skitty}}'s {{m|Assist}} or her {{TP|May|Munchlax}}'s {{m|Metronome}} to win. Most of May's Pokémon were not caught through battle. Unlike many of [[Ash's friends]], May has never had a consistently [[Obedience|disobedient]] Pokémon.
+
+Throughout her journey, May has used combinations with her Pokémon, as she used her Blaziken, while it was a Combusken, and Wartortle's, while she was a Squirtle, {{t|Fire}} and {{type|Water}} attacks to form the fusion of Fire and Water. Some of May's Pokémon have shown to be naturally inclined to Pokémon Contests, such as her Beautifly, Skitty, and Wartortle. Her Blaziken is usually used in battle as her strongest Pokémon, but it has also been used in the appeal rounds in Pokémon Contests.
+
+<gallery widths="175">
+May party Hoenn.png|May's Pokémon from {{aniseries|AG}} during Hoenn
+May party Battle Frontier.png|May's Pokémon from {{aniseries|AG}} during the Battle Frontier arc
+</gallery>
+
+This listing is of May's {{OBP|Pokémon|species}} in the {{pkmn|animated series}}:
+
+====In rotation====
+{| width="100%"
+|-
+| {{ActivePoké|May|Blaziken|May Blaziken.png|fire|fighting|fir=Torchic|mid=Combusken}}
+| {{ActivePoké|May|Beautifly|May Beautifly.png|bug|flying|fir=Wurmple|mid=Silcoon}}
+| {{ActivePoké|May|Skitty|May Skitty.png|normal}}
+|-
+| {{ActivePoké|May|Venusaur|May Venusaur.png|grass|poison|fir=Bulbasaur|mid=Ivysaur}} ♀
+| {{ActivePoké|May|Munchlax|May Munchlax.png|normal}}
+| {{ActivePoké|May|Wartortle|May Wartortle.png|water|fir=Squirtle}} ♀
+|-
+| {{ActivePoké|May|Glaceon|May Glaceon.png|ice|fir=Egg|mid=Eevee}}
+|}
+
+====Temporary====
+{{MissingInfo|1|java|scope=section}}
+{{TrainerPoké
+|trainer=Professor Birch
+|pkmn=Mudkip
+|type1=Water
+|img=May Mudkip.png
+|epnum=AG001
+|epname=Get the Show on the Road!
+|vajp=
+|vaen=Lindsey Warner
+|desc=When [[Professor Birch]] was attacked by {{p|Poochyena}}, May borrowed {{p|Mudkip}} from his bag to fight the wild Poochyena. However, May's lack of experience in commanding Pokémon led to Mudkip attacking her instead, resulting in Professor Birch having to fend off the Poochyena himself. Later, it reappeared as one of the possible [[first partner Pokémon]] for May, but the previous bad experience led her to not choose it.
+
+It reappeared in a flashback in ''[[AG025|A Mudkip Mission]]'', when May wanted to catch another one.
+
+Mudkip's only known move is {{m|Water Gun}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Jessie
+|pkmn=Wurmple
+|type1=Bug
+|gender=female
+|img=May Jessie Wurmple.png
+|epnum=AG014
+|epname=All in a Day's Wurmple
+|vajp=Chinami Nishimura
+|vaen=Tara Jayne
+|desc=In ''[[AG021|Which Wurmple's Which?]]'', May argued with [[Jessie]] over which one of them had the better {{p|Wurmple}}. After [[Max]] concluded that the two Wurmple were exactly the same, they began battling, but Team Rocket was sent blasting off by {{AP|Pikachu}}. May soon realized that she has Jessie's Wurmple and that Jessie has hers. Eventually, Wurmple was returned to May in exchange for Jessie's Wurmple.}}
+
+{{TrainerPoké
+|trainer=Kyle Hamm
+|pkmn=Hitmonchan
+|gender=male
+|type1=Fighting
+|img=May Hitmonchan.png
+|epnum=AG145
+|epname=Pasta La Vista!
+|vajp=Katsuyuki Konishi
+|vaen=Michael Haigney
+|desc=May borrowed {{p|Hitmonchan}} from [[Kyle Hamm]] after [[Master Hamm]] broke his back.
+
+Hitmonchan's known moves are {{m|Comet Punch}}, {{m|Mach Punch}}, {{m|Agility}}, {{m|Focus Punch}}, and {{m|Sky Uppercut}}.}}
+
+{{TrainerPoké
+|trainer=Matt
+|pkmn=Larvitar
+|type1=Rock
+|type2=Ground
+|img=Matt Larvitar.png
+|epnum=AG188
+|epname=Pinch Healing
+|vajp=Chinami Nishimura
+|vaen=Sarah Natochenny
+|desc= May befriended {{p|Larvitar}} during its stay at the [[Fennel Valley]] [[Pokémon Center]], trying to help it overcome its shyness. After {{TRT}} captured Larvitar and its friends, May commanded it to use {{m|Sandstorm}} to to free everyone from the balloon.
+
+Larvitar's only known move is {{m|Sandstorm}}.}}
+
+====Befriended====
+<!--Do not put in that Manaphy was befriended by May.-->
+{{TrainerPoké
+|trainer=May
+|pkmn=Swablu
+|type1=Normal
+|type2=Flying
+|img=May Swablu.png
+|epnum=AG064
+|epname=True Blue Swablu
+|vajp=List of Japanese voice actors{{!}}Konami Yoshida
+|vaen=
+|desc=May befriended a {{p|Swablu}} after its wing was injured during a lightning storm in a nature preserve. After finding it, she nursed it back to health over several days with the support of {{an|Brock}} and the others, and she also taught it how to fly again.
+
+May intended to return Swablu to its flock, but when the group arrived at the lakeside nesting spot, they couldn't find the flock. May offered Swablu a place on her team, seeing as they had become good friends. However, just then, its flock reappeared, and Swablu reluctantly left with them.
+
+Swablu's only known move is {{m|Sing}}.}}
+
+===Contests===
+[[File:May Hoenn ribbons.png|thumb|220px|May's Hoenn Ribbons]]
+[[File:May Kanto ribbons.png|thumb|220px|May's Kanto Ribbons]]
+[[File:May Johto ribbons.png|thumb|220px|May's Johto Ribbons]]
+====Hoenn Ribbons====
+This listing is of the [[Ribbon]]s May has obtained in the [[Hoenn]] [[region]]:
+* {{to|Fallarbor}} Ribbon (''[[AG051|Come What May!]]'')
+* {{to|Verdanturf}} [[a:File:Verdanturf Ribbon.png|Ribbon]] (''[[AG062|Disguise Da Limit]]'')
+* {{ci|Lilycove}} [[a:File:Lilycove Ribbon.png|Ribbon]] (''[[AG091|Lessons in Lilycove]]'')
+* {{ci|Purika}} Ribbon (''[[AG103|A Cacturne for the Worse]]'')
+* {{to|Pacifidlog}} Ribbon (''[[AG116|Pacifidlog Jam]]'')
+
+====Kanto Ribbons====
+This listing is of the [[Ribbon]]s May has obtained in the [[Kanto]] [[region]]:
+* {{ci|Saffron}} [[a:File:Saffron Ribbon.png|Ribbon]] (''[[AG144|A Hurdle for Squirtle]]'')
+* {{ka|Silver Town|Silver}} Ribbon (''[[AG151|Weekend Warrior]]'')
+* {{isl|Chrysanthemum}} Ribbon (''[[AG162|Spontaneous Combusken!]]'')
+* {{to|Gardenia}} Ribbon (''[[AG167|What I Did for Love!]]'')
+* {{ci|Mulberry}} [[a:File:Mulberry Ribbon.png|Ribbon]] (''[[AG175|Going for Choke!]]'')
+
+====Johto Ribbons====
+This listing is of the [[Ribbon]]s May has obtained in the [[Johto]] [[region]]:
+* Three unknown Ribbons (prior to ''[[DP076|A Full Course Tag Battle!]]'')
+
+====Grand Festival ranking====
+May has competed in the following [[Grand Festival]] tournaments:
+* [[Hoenn Grand Festival]] - Top 8 (''[[AG123|Rhapsody in Drew]]'')
+* [[Kanto Grand Festival]] - Top 4 (''[[AG182|Channeling the Battle Zone!]]'')
+
+====Other achievements====
+May has competed in the following [[Pokémon Contest]]s:
+* {{ci|Slateport}} Contest - Top 8 (''[[AG035|Win, Lose or Drew!]]'')
+* {{to|Rubello}} Contest - Top 4 (''[[AG078|Cruisin' for a Losin']]'')
+* {{to|Wisteria}} Contest - Runner-Up (''[[AG160|Harley Rides Again'']])
+* Unofficial {{to|Terracotta}} Contest - Winner (tied with {{Ash}}; ''[[AG192|Home is Where the Start Is!]]'')
+* [[Wallace Cup]] - Runner-Up (''[[DP079|Strategy with a Smile!]]'')
+
+===Pokémon competitions===
+May has competed in the following {{cat|Pokémon competitions}}:
+* [[Trick House#In animation|Trick House Contest]] - N/A (''[[AG039|A Poké-BLOCK Party!]]'')
+* [[Crossgate PokéRinger]] - Group stage (''[[AG080|That's Just Swellow]]'')
+* [[Pokémon Orienteering]] - N/A (''[[AG159|Off the Unbeaten Path]]'')
+
+===Main outfits===
+[[File:May AG.png|x300px|thumb|May's {{aniseries|AG|''Ruby and Sapphire''}} outfit]]
+====''Ruby and Sapphire''====
+May's first outfit is a red t-shirt with a dark blue circle around her neck, dark blue bike shorts, white skirt, a pair of black socks, red and yellow sneakers, a red bandanna with a white Poké Ball print, a yellow waist-pack, and dark-blue and white gloves. It is based on the outfit her {{ga|May|game counterpart}} wears in {{game|Ruby and Sapphire|s}}. May wore this outfit from ''[[AG001|Get the Show on the Road!]]'' to ''[[AG192|Home Is Where the Start Is]]''.
+
+====''Diamond and Pearl''====
+[[File:May DP series.png|thumb|200px|left|May's {{aniseries|DP|''Diamond and Pearl''}} outfit]]
+May's second outfit is based on the outfit that her {{ga|May|game counterpart}} wears in {{game|Emerald}}. It consists of a green bandanna, a sleeveless and short orange tunic with a black collar, black bike shorts, black socks, white, black and green gloves, and orange and white sneakers. She also carries a green waist-pack similar to the one she carried in ''[[Pokémon the Series: Ruby and Sapphire]]''. When she got off the boat, she was seen with a yellow backpack. It is unknown if she normally carries this or only had it because she was traveling a long distance (to Sinnoh from Johto). May started wearing this outfit prior to ''[[DP075|Our Cup Runneth Over!]]''.
+{{clear}}
+
+===Other outfits===
+====Costumes====
+* May wore a maiden outfit and a [[Nurse Joy]] outfit in ''[[AG104|Claydol Big and Tall]]''.
+
+====Formal attire====
+[[File:May Max JN.png|thumb|250px|May in her Contest Costume]]
+* In ''[[M08|Lucario and the Mystery of Mew]]'', the characters dress up in formal medieval-themed outfits. May wears a pink {{wp|ball gown}} with a white vest and red underskirt, decorated with tiny bows, an ornament sewn similar to {{p|Beautifly}} wings on the back with a green jewel, with a red choker with a tiny green jewel that matches the one on her back. She wears her hair in two different ways in this outfit, with different accessories for each: in one way, she wears a large red rabbit-ear bow styled to look like her regular {{wp|kerchief|bandana}}, and another, she has little pink pom-poms that hold twin tails and tiny red bows on braids. It is unknown how or why she got her second hairstyle in this outfit.
+* During the [[Wallace Cup]], May wore a unique Arabian-style outfit for the Contest. It was a vermilion crop-top with a yellow heart on it with yellow border on the sleeves and neck, a peach-pink veil with a green gem on top, and a light purple skirt with a piece of pink fabric at the waist. She also wore brown sandals and a yellow necklace with a red heart.
+* In ''[[JN132|Partners in Time!]]'', May wears a [[Contest Costume]] that is similar to the one her game counterpart wears in {{g|Omega Ruby and Alpha Sapphire}}. It consists of a pink and white crop top and skirt, with purple and yellow accents. She also wears white earrings, a yellow bracelet on her right wrist, and a part of her hair is tied in a small ponytail with a pink bow that has three ribbons and a gem in the middle.
+
+====Other clothing====
+* May wore a green and yellow apron in ''[[AG090|Pokéblock, Stock, and Berry]]''.
+* May was giving a [[People of the Water]]'s mark bracelet from [[Lizabeth]] in ''[[M09|Pokémon Ranger and the Temple of the Sea]]''.
+* May wore an orange and yellow bow tie with her regular clothes in ''[[AG184|Strategy Tomorrow - Comedy Tonight!]]''.
+
+====Sleepwear====
+* May was seen sleeping in a plain yellow t-shirt in the beginning of ''[[AG021|Which Wurmple's Which?]]'', and in ''[[AG053|Game Winning Assist!]]''.
+* May was seen briefly wearing a white t-shirt in ''[[AG128|Shocks and Bonds]]''.
+* May wore orange pajamas and a white trim-on sweater in ''[[DP078|Pruning a Passel of Pals!]]''.
+
+====Uniforms====
+* May wore sleeveless pink colored ninja clothing in ''[[AG156|From Cradle to Save!]]''. Like Ash, she did not wear a white headband like the majority of the other characters.
+
+====Outdoor gear====
+=====Snow wear=====
+* May wore a red jacket and olive pants in ''[[AG108|Let it Snow, Let it Snow, Let it Snorunt!]]''.
+* On a flashback at the [[Ice Rock]] in ''[[DP076|A Full Course Tag Battle!]]'', May wore a magenta pink winter dress with white fur, a green collar, a lime-green belt, beige mittens, and pink snow boots.
+
+=====Swimwear=====
+* May's most common swimwear is a yellow hearts two-piece swimsuit with shorts. This was shown in ''[[AG012|The Lotad Lowdown]]'' and ''[[AG019|Sharpedo Attack!]]''.
+* May also wore a pink polka-dotted one-piece swimsuit in ''[[AG019|Sharpedo Attack!]]''.
+* May wore a green bikini with red hearts on her hips in ''[[AG020|Brave the Wave]]''.
+* May wore a pink plaid bikini in the end credits of ''[[M06|Jirachi Wishmaker]]''.
+* In ''[[AG103|A Cacturne for the Worse]]'', a flashback of May as a child has her wearing a blue one-piece swimsuit.
+* Twice May wore a pink bikini, first in ''[[M08|Lucario and the Mystery of Mew]]'' and then a second time in ''[[M09|Pokémon Ranger and the Temple of the Sea]].
+
+====Gallery====
+<gallery perrow="5" widths="200">
+File:May Max AG156 ninja.png|May's ninja dress
+File:Nurse May.png|May dressed up as [[Nurse Joy]]
+File:Shrine Maiden.png|May dressed up as a traditional shrine maiden
+File:Ice Rock anime.png|At [[Ice Rock]]
+File:May Yellow Bikini.png| May in yellow bikini
+File:May Swimsuit.png|May in pink one-piece swimsuit
+File:May AG020 swimsuit.png|Green swimsuit
+File:May Dress M08.png|May's dress in ''[[M08|Lucario and the Mystery of Mew]]''
+File:May swimsuit M08.png|May's pink bikini
+File:May swimsuit movie 9.png|May's second pink bikini in the ninth movie
+File:May Pajamas.png|May in her pajamas.
+File:May TShirt.png|May's white t-shirt
+File:May Dawn Zoey tracksuits.png|May in her orange track suit with {{an|Dawn}} and [[Zoey]]
+File:May Wallace Cup.png|May's Wallace Cup outfit
+</gallery>
+
+===Voice actors===
+{{vatable|color={{ruby color}}|bordercolor={{ruby color light}}
+|ja=[[KAORI.]] (credited as 鈴木カオリ ''Kaori Suzuki'' in ''[[Pokémon the Series: Diamond and Pearl]]'')
+|en=[[Veronica Taylor]] ([[AG001]]-[[AG145]], [[M06]]-[[M08]])<br>[[Michele Knotz]] ([[AG146]]-[[DP079]], [[M09]], [[The Mastermind of Mirage Pokémon]])
+|ar=إيمان بيطار ''Iman Bitar''<br>Unknown voice actress ([[M06]]-[[M07]])
+|ru=Жанна Никонова ''Janna Nikonova'' ([[AG001]]-[[AG192]]; [[M08]]-[[M09]])<br>Ольга Шорохова ([[DP075]]-[[DP079]])
+|zh_cmn=傅曼君 ''Fù Mànjūn''
+|da=Annevig Schelde Ebbe
+|cs=Klára Šumanová ([[DP075]]-[[DP079]])<br>Jana Páleníčková ([[M06]]-[[M07]])
+|nl=Nicoline van Doorn<br>Unknown voice actress ([[M06]]-[[M07]])
+|fr_eu=Maia Baran
+|el=Στέλλα Μπονάτσου ''Stella Bonatsou''
+|fi=Aksa Korttila ([[AG001]]-[[AG138]], [[The Mastermind of Mirage Pokémon]])<br>Henni-Liisa Stam ([[AG139]]-[[AG145]])<br>Marjut Heikkinen ([[AG146]]-present)<br>Hanna Salonen ([[M06]]-[[M07]])
+|de=Nicola Grupe<br>Stephanie Kellner ([[M06]]-[[M07]])
+|he=דון לני-גבאי ''Dawn Lanny-Gabay''
+|hi=नेश्मा चेम्बुरकर ''Neshma Chemburkar'' (Hungama dub)
+|hu=Márta Talmács
+|id=Dewi Arifiani
+|it=Serena Clerici
+|ko=서혜정 ''Seo Hyejeong'' (''[[Pokémon the Series: Ruby and Sapphire]]'')<br>지미애 ''Ji Mi-ae'' ([[Pokémon movie|original movies]])<br>김현지 ''Kim Hyeonji'' ([[Pokémon movie|redubbed movies]])
+|pl=[[Julita Kożuszek-Borsuk]] (Julita Kożuszek)
+|pt_br=Tatiane Keplmair ([[AG001]]-[[DP079]], [[M06]]-[[M09]], [[M06]]-[[M07]] second dub)<br>Amanda Tavares ([[M06]] third dub)
+|pt_eu=Carla ([[AG001]]-[[AG108]])<br>Sara Marques ([[M07]])<br>Isabel Ribas ([[AG109]]-[[AG192]])<br>Marta Mota ([[DP075]]-[[DP079]])
+|es_eu=Cristina Yuste
+|es_la=Ana Lobo ([[AG001]]-[[AG044]], [[AG055]]{{tt|*|redub}})<br>Liliana Barba ([[AG033]]-[[AG034]])<br>Mariana Ortiz ([[AG045]]-[[DP079]])<br>Agustina Priscila ([[M06]]-[[M07]])
+|fil=Charmaine Cordoviz
+|sv=Maria Rydberg
+|th=อรุณี นันทิวาส ''Arunee Nuntiwass''
+|tr=Pınar Erengil
+|ta=Sowmiya Kumar(Hungama dub)
+|vi=Nguyễn Thụy Thùy Tiên ([[DP076]]-[[DP079]])
+}}
+
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{ruby color}}; background: #{{ruby color light}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{ruby color}}; background: #FFF; width:80px"| [[File:May AG.png|120px]]
+| style="{{roundy|20px}} border: 2px solid #{{ruby color}}; background: #FFF; width:80px"| [[File:May AG 2.png|100px]]
+| style="{{roundy|20px}} border: 2px solid #{{ruby color}}; background: #FFF; width:80px"| [[File:May AG 3.png|125px]]
+| style="{{roundy|20px}} border: 2px solid #{{ruby color}}; background: #FFF; width:80px"| [[File:JN132 AS.png|250px]]
+|-
+| Official artwork from<br>''{{color2|000|Pokémon the Series: Ruby and Sapphire}}''{{tt|*|Note that this artwork lacks shading.}}
+| colspan=2 | Alternative artwork from<br>''{{color2|000|Pokémon the Series: Ruby and Sapphire}}''
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1591672205040943105</ref>
+|}
+
+==In the manga==
+[[File:May AP.png|thumb|200px|May in Ash & Pikachu]]
+===Ash & Pikachu===
+May first appeared in ''[[SP17|Let's Save Pikachu!!]]'', where she became {{Ash}}'s traveling companion like in the {{pkmn|animated series}}.
+
+====Pokémon====
+{| width="74%"
+|-
+| {{InactivePoké|May|Combusken|May Combusken AP.png|fire|fighting|fir=Torchic}}
+| {{InactivePoké|May|Beautifly|May Beautifly AP.png|bug|flying}}
+| {{InactivePoké|May|Skitty|May Skitty AP.png|normal}}
+|-
+| {{InactivePoké|May|Munchlax|May Munchlax AP.png|normal}}
+|}
+
+===Movie adaptations===
+As May appeared all of the {{aniseries|RS}} movies, she has appeared in each manga adaptations of them.
+
+==In the spin-off games==
+{{missing image|section|Add sprites of May from all the Pico and Perdue games}}
+
+May appears in some games based on the {{pkmn|animated series}}.
+
+===Sega Pico series===
+May appears in [[Pokémon Advanced Generation: I've Begun Hiragana and Katakana!|I've Begun Hiragana and Katakana!]] and [[Pokémon Advanced Generation: Pico for Everyone Pokémon Loud Battle!|Pico for Everyone Pokémon Loud Battle!]].
+
+===Perdue series===
+In [[Pokémon Team Rocket Blast Off]], [[Pokémon Poké Ball Launcher]], and [[Pokémon Seek & Find]], the female player character is May. Her male counterpart in these games is [[Ash Ketchum]].
+
+==In the TCG==
+This listing is of cards mentioning or featuring May or her Pokémon in the [[Pokémon Trading Card Game]].
+
+{{cardlist/header|May's Pokémon|Fire|char=yes}}
+{{cardlist/entry|cardname={{TCG ID|ADV-P Promo|May's Torchic|37}}|type=Fire|jpset=ADV-P Promotional cards|jpnum=037/ADV-P}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|May's Munchlax|8}}|type=Colorless|jpset=Movie Commemoration VS Pack: Aura's Lucario|jpnum=008/020}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|May's Combusken|2}}|type=Fire|jpset=Movie Commemoration VS Pack: Sea's Manaphy|jpnum=002/019}}
+{{cardlist/footer|Fire}}
+
+==Trivia==
+* May is the first:
+** Main character other than {{Ash}} to own a [[first partner Pokémon]].
+** Female character to own a [[Pokédex]].
+** Traveling companion to be based on a [[player character]] from the {{pkmn|games}}.
+* May is the only main character:
+** Other than Ash to wear gloves as part of her character design.
+** Other than Ash to leave a Pokémon at [[Professor Oak's Laboratory]].
+*** She's also the only known character who's not from [[Pallet Town]] to have left a Pokémon with {{an|Professor Oak}}.
+** To, upon her introduction, [[Breaking the fourth wall|introduce herself to the audience]] rather than be introduced by the [[narrator]] or first appear without an introduction at all.
+** Who has participated in more than one official Contest, but has never been seen losing in the [[Appeal|Appeals Round]].
+* May is the only one of Ash's female friends to have obtained a {{type|Grass}} first partner Pokémon.
+* May has competed in at least one [[Pokémon Contest]] in each region where they are known to be held in the {{pkmn|animated series}}, with the exception of the [[Unova]] region.
+* Both of May's unevolved Pokémon are of the {{t|Normal}} [[type]].
+* May is Ash's only traveling companion to have traveled with him in every single episode of a series, namely {{aniseries|RS}}. While they did separate from each other briefly in ''[[AG132|The Scheme Team]]'', she rejoined him in [[AG133|the following episode]]. 
+* May is the first character to own a {{cat|Generation IV Pokémon}}, with {{p|Munchlax}}.
+* Not counting temporary Pokémon, May is the first main character to catch {{TP|May|a Pokémon|Bulbasaur}} species that Ash {{AP|has also caught|Bulbasaur}}.
+* May is the only one of Ash's friends who was not seen in any of her main outfits in {{aniseries|JN}}.
+* May, along with her brother, [[Max]] are the only traveling companions to not reunite with Ash in ''[[Pokémon Journeys: The Series]]''.
+* May has not made any speaking appearances since {{aniseries|DP}}. This could be because her Japanese voice actress, KAORI, came down with a variation of the debilitating disease called {{wp|spasmodic dysphonia}}, as early as 2007 (a year before her reappearances in DP), and hitting its peak by May 2012. This forced her to retire from the [[Pokémon animated series]].<ref>https://dogasu.bulbagarden.net/features/miscellaneous/kaori_hiatus.html</ref>
+
+==Names==
+{{main|May (game)#Names|May → Names}}
+
+==References==
+<references />
+
+==Related articles==
+* {{Cat|Episodes focusing on May}}
+* [[a:Category:May (anime)|Images on the Bulbagarden Archives]]
+* [[May (game)]]
+
+{{May's Pokémon}}
+{{Animecharacters|Ruby}}
+{{Ash and Pikachu characters}}
+{{Project Anime notice|no}}
+
+[[Category:Animation characters]]
+[[Category:Ash's friends]]
+[[Category:Ash & Pikachu characters]]
+[[Category:Coordinators]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Maike (Animecharakter)]]
+[[es:May/Aura (anime)]]
+[[fr:Flora (Hoenn)/Pokémon, la série]]
+[[it:Vera (serie animata)]]
+[[ja:ハルカ]]
+[[zh:小遙（動畫）]]

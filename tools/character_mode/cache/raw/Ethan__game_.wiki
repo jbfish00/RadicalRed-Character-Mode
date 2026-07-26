@@ -1,0 +1,668 @@
+{{Redirect|Hibiki|the [[character of the day]] in ''[[EP169|Beauty and the Breeder]]''|Zane}}
+{{Redirect|Gold (game)|the game titled "Pokémon Gold Version"|Pokémon Gold and Silver Versions}}
+{{Search|male protagonist whose default name is {{j|クリス}} in the Japanese version of {{game|Crystal}}|the female player character in Pokémon Crystal with the same Japanese name|Kris (game)}}
+{{Character Infobox
+|color={{gold color}}
+|corecolor={{gold color light}}
+|bordercolor={{gold color dark}}
+|name=Ethan
+|jname=ヒビキ
+|tmname=Hibiki
+|image=HeartGold SoulSilver Ethan.png
+|size=200px
+|caption=Artwork from {{game|HeartGold and SoulSilver|s}}
+|gender=Male
+|height=4'11" (1.50 m) {{sup/4|HGSS}}
+|eyes=Black{{tt|*|Generation II}}, Gray{{tt|*|Generation IV}}, Brown{{tt|*|HeartGold and SoulSilver opening animation}} 
+|hair=Black{{tt|*|Generation II}}, Dark Blue{{tt|*|Generation IV}}
+|hometown=[[New Bark Town]]
+|region=[[Johto]]
+|relatives={{jo|Mom}} (as player)<br>[[Day-Care Couple|Grandparents]], unnamed father (as NPC)
+}}
+{{Character Infobox/Game
+|color={{gold color light}}
+|trainer=[[Pokémon Trainer]], [[player character]]
+|gen={{gen|II}}, {{gen|IV}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|games=[[Pokémon Gold and Silver Versions|Gold, Silver]], {{v2|Crystal}}, [[Pokémon HeartGold and SoulSilver Versions|HeartGold, SoulSilver]]<br>{{pkmn|Puzzle Challenge}}, {{pkmn|Masters EX}}
+|counterpart=[[Ethan (Masters)]]
+|enva=Ted Sroka<ref>[https://twitter.com/TedSroka/status/1531473379286392832 Ted Sroka on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Daisuke Hirose<ref name="Daisuke Hirose">[https://twitter.com/pokemas_game/status/1395259492292567041 Pokémon Masters EX Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{gold color light}}
+|series=''[[Pokémon the Series]]''<br>''[[Pokémon Generations]]''<br>''[[Pokémon Evolutions]]''
+|counterpart=[[Jimmy (Johto)]]
+|debut=''[[The Legend of Thunder!]]'' <small>([[Pokémon animated series|Animated series]]; Gen II)</small><br>''[[M13|Zoroark: Master of Illusions]]'' <small>([[Pokémon animated series|Animated series]]; Gen IV)</small><br>''[[PG04|The Lake of Rage]]'' <small>({{pkmn|Generations}})</small><br>''[[PE07|The Show]]'' <small>({{pkmn|Evolutions}})</small>
+|enva=[[Sean Schemmel]] <small>({{jo|Jimmy}})</small>
+|jpva=[[Kenji Nojima]] <small>({{jo|Jimmy}})</small>
+}}
+{{Character Infobox/Manga
+|color={{gold color light}}
+|series=''[[Pokémon Adventures]]''<br>''[[Pokémon Pocket Monsters]]''<br>''[[Pokémon Gold & Silver: The Golden Boys]]''<br>''[[Pocket Monsters HGSS Jō's Big Adventure]]''
+|counterpart=[[Gold (Adventures)]], [[Gold (Pocket Monsters)]], [[Gold (Golden Boys)]], [[Jō]]
+|debut=''[[PS091|Murkrow Row]]'' <small>({{pkmn|Adventures}})</small><br>''[[PM062|Welcome Back, Clefairy!!]]'' <small>({{pkmn|Pocket Monsters}})</small><br>''[[GB01|Let's Go! The Journey Towards The Championship]]'' <small>(''[[Pokémon Gold & Silver: The Golden Boys|GB]]'')</small><br>''[[JBA1|Aim to be the Strongest! The Hot-Blooded Brotherly Combination!!]]'' <small>([[Pocket Monsters HGSS Jō's Big Adventure|JBA]])</small>
+}}
+|}
+
+'''Ethan''' (Japanese: '''{{j|ヒビキ}}''' ''Hibiki'') is the main {{player|playable character}} in {{game|Gold and Silver|s}} and is the male choice in {{game|Crystal}} and {{game|HeartGold and SoulSilver|s}}. In Crystal, his female counterpart is {{ga|Kris}}, while in HeartGold and SoulSilver, his female counterpart is {{ga|Lyra}}.
+
+==In the core series games==
+===As the protagonist===
+Ethan's journey as a {{pkmn|Trainer}} begins when [[Professor Elm]] asks him to run an errand for [[Mr. Pokémon]], who lives north of [[Cherrygrove City]] on {{rt|30|Johto}}. Because he may encounter dangerous [[wild Pokémon]] along the way, Elm gives him a choice between three Pokémon to protect him: {{p|Cyndaquil}}, {{p|Totodile}} or {{p|Chikorita}}.
+
+Ethan spots another boy his age watching Elm's Lab from outside. When Ethan tries to talk to him, the boy abruptly shoves him away. This boy, {{ga|Silver}}, will become Ethan's rival.
+
+Ethan continues onward and finally meets Mr. Pokémon and completes his errand. While there he meets [[Professor Oak]] who, upon realizing Ethan's bond with his new Pokémon, gives him a [[Pokédex]]. On his way back home, Ethan again meets Silver, who has stolen one of Elm's remaining Pokémon. After defeating the boy in battle, the boy tells Ethan his name{{sup/2|GSC}}/Ethan learns the boy's name from his dropped {{ga|Trainer Card}}{{sup/4|HGSS}}, and Ethan relays it to the police in New Bark Town. Professor Elm allows Ethan to keep the Pokémon he chose earlier, and also encourages him to compete in the [[Johto League]].
+
+Ethan begins on a Pokémon journey in the [[Johto]] [[region]], facing off against its eight [[Gym Leader]]s, defeating and disbanding the revived [[Team Rocket]], and becoming [[Pokémon Champion|Pokémon League Champion]] by defeating the [[Elite Four]] and its previous Champion, [[Lance]] at [[Indigo Plateau]]. Along the way he also teaches Silver to respect Pokémon as living creatures and not just as tools for battle.
+
+After being declared the Pokémon League Champion, Ethan then journeys by [[S.S. Aqua|ship]] from [[Olivine City]] to [[Vermilion City]] in [[Kanto]]. Traveling around that region, he battles against another set of eight Gym Leaders. Upon getting permission from [[Professor Oak]] in [[Pallet Town]], Ethan heads for [[Mt. Silver]] via {{rt|28|Kanto}}. His journey comes to a close when, deep in Mt. Silver's cave, he faces the Champion from Pallet Town, Pokémon Trainer {{ga|Red}}, who had been training there since shortly after he became Pokémon League Champion [[Generation I|three]] [[Generation III|years prior]].
+
+===As a non-playable character===
+====Pokémon Gold, Silver, and Crystal====
+In {{game|Crystal}}, if {{ga|Kris}} is selected, then the male player character does not appear in the game, except as an opponent in the [[Trainer House]]. Even when playing as Kris, the player's sprite is changed to Ethan's during link battles and in the [[Trainer House]].
+
+====Pokémon HeartGold and SoulSilver====
+In {{game|HeartGold and SoulSilver|s}}, if playing as {{ga|Lyra}}, Ethan appears as an NPC in the game. When playing as Ethan, Lyra takes on this role instead.
+
+Ethan meets the player in [[New Bark Town]] at the start of the game. In this particular scene, he is seen with a {{p|Marill}}. He teaches the player how to catch Pokémon on {{rt|29|Johto}} (replacing the [[Dude]] from {{3v2|Gold|Silver|Crystal}}). His grandparents run the [[Pokémon Day Care]] on {{rt|34|Johto}}. He also gives the player the [[Fashion Case]] in [[Goldenrod Tunnel]] and the [[Vs. Recorder]] on {{rt|31|Johto}}.
+
+When called from certain locations, Ethan will mention that something will happen if the player takes a certain Pokémon there.
+
+====Pokémon====
+Ethan uses this party to show the {{player}} how to catch Pokémon when {{ga|Lyra}} is selected as the player character in {{game|HeartGold and SoulSilver|s}}.
+
+{{Party
+| background = {{gold color}}
+| border = {{gold color dark}}
+| headcolor = {{gold color light}}
+| sprite = HGSS Ethan Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Ethan
+| location = Johto Route 29
+| locationname = Route 29
+| game = HGSS
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0183
+| pokemon = Marill
+| gender = both
+| level = 5
+| type1 = Water
+| ability = Unknown
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Defense Curl | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+=====Caught in tutorial=====
+{{Pokémon
+|gen=4
+|ndex=019
+|pokemon=Rattata
+|type1=Normal
+|ability=Run Away|ability2=Guts
+|level=2
+|gender=both
+|move1=Tail Whip|move1type=Normal|move1cat=Status}}
+
+=====Mentioned=====
+When called with the [[Pokégear]] at different locations, Ethan will mention he owns certain Pokémon.
+
+{| width="100px"
+|-
+| {{ActivePoké|Ethan|Tauros|Spr 4h 128.png|Normal|size=80px|link=no}}♂{{tt|*|Mentioned at Route 38}}
+| {{ActivePoké|Ethan|Bulbasaur|Spr 4h 001.png|Grass|Poison|size=80px|link=no}}{{tt|*|Mentioned at Route 1}}
+| {{ActivePoké|Ethan|Porygon|Spr 4h 137.png|Normal|size=80px|link=no}}{{tt|*|Mentioned at Route 7}}
+| {{ActivePoké|Ethan|Tangela|Spr 4h 114.png|Grass|size=80px|link=no}}{{tt|*|Mentioned at Celadon City}}
+|}
+
+==In the spin-off games==
+[[File:SSBU Pokemon Trainer palette Ethan.png|200px|thumb|The male Pokémon Trainer's Ethan-based alternate palette in [[Super Smash Bros. Ultimate]]]]
+===Pokémon Puzzle Challenge===
+Ethan is the [[player character]] in the Challenge mode of [[Pokémon Puzzle Challenge]]. In this mode, he challenges the [[Gym Leader]]s and [[Elite Four]] of [[Johto]] in puzzle games.
+
+===[[Super Smash Bros. Ultimate]]===
+While Ethan himself does not appear directly, a palette swap color scheme based on Ethan's design appears for the male {{OBP|Pokémon Trainer|Super Smash Bros.}}, who is an incarnation of {{ga|Red}}.
+
+===[[Pokémon Masters EX]]===
+{{main|Ethan (Masters)}}
+Ethan, who is based on the [[player character]], forms a [[sync pair]] with {{p|Cyndaquil}} and its evolved forms {{p|Quilava}} and {{p|Typhlosion}}, along with {{p|Lugia}}, {{p|Ho-Oh}}, and {{p|Raikou}} in [[Pokémon Masters EX]]. Ethan became a playable sync pair on January 15, 2020.
+
+Ethan has also made notable appearances in the game's main stories, [[Legendary Adventures]] and the [[villain arc]]. Unlike in {{game|Crystal}}, both Ethan and {{mas|Kris}} coexist in the same game.
+
+{{PairDex/h|Gold}}
+{{PairDex|075|Ethan|trainerlink=Ethan (Masters)#Cyndaquil → Quilava → Typhlosion|trainerimg=Ethan|0157|Cyndaquil → Quilava → Typhlosion|gender=male|pokemonlink=Cyndaquil (Pokémon)|Fire|Rock|Special Strike|6|Sync Pair Scout}}
+{{PairDex|075|Ethan|master=yes|trainerlink=Ethan (Masters)#Lugia|trainerimg=Ethan Sygna|sygna=[[Sygna suit|Sygna Suit]]|0249|Lugia|Flying|Ghost|Special Strike|exrole=Field|6|Master Fair Sync Pair Scout}}
+{{PairDex|075|Ethan|trainerlink=Ethan (Masters)#Ho-Oh|trainerimg=Ethan|0250|Ho-Oh|buddy=yes|Fire|Rock|Sprint|exrole=Field|6|Variety Sync Pair Scout}}
+{{PairDex|075|Ethan|trainerlink=Ethan (Masters)#Lugia (Arc Suit)|trainerimg=Ethan Arc|sygna=[[Arc suit|Arc Suit]]|0249|Lugia|buddy=yes|arc=yes|Flying|Rock|Multi|exrole=Field|6|Arc Suit Fair Sync Pair Scout}}
+{{PairDex|075|Ethan|trainerlink=Ethan (Masters)#Raikou|trainerimg=Ethan Champion|0243|sygna={{pkmn|Champion}}|Raikou|exmaster=yes|buddy=yes|Electric|Ground|Support|exrole=Field|6|EX Master Fair Sync Pair Scout}}
+|}
+
+===[[Pokémon GO]]===
+{{main|Style (GO)}}
+To commemorate the Johto Festival, Ethan's outfit from {{g|HeartGold and SoulSilver}} was released as a style option in [[Pokémon GO]] which can be purchased with PokéCoins.
+
+==Quotes==
+{{main|Ethan (game)/Quotes}}
+
+==Counterparts==
+[[File:Jimmy.png|thumb|250px|{{jo|Jimmy}}, Ethan's first animated counterpart]]
+===In animation===
+====''Pokémon the Series''====
+=====Jimmy=====
+{{main|Jimmy (Johto)}}
+{{jo|Jimmy}}, the main protagonist of ''[[The Legend of Thunder!]]'', is the first {{pkmn|animation|animated}} counterpart of Ethan, and seems to be based on him in the most basic sense, much more than {{Ash}} was based on his game counterpart, {{ga|Red}}. Jimmy follows Ethan's design from {{game|Gold and Silver|s}}. Much like Ethan, Jimmy is from [[New Bark Town]] and receives [[Jimmy's Typhlosion|a first partner Pokémon]] from Professor Elm. He also encounters the counterparts of [[Silver (game)#Counterparts|Silver]] and [[Marina (Johto)|Kris]] on his journey.
+
+=====Ethan=====
+Ethan's second counterpart has a cameo appearance at the beginning of ''[[M13|Zoroark: Master of Illusions]]'', where he had a {{pkmn|battle}} against Ash. This counterpart follows Ethan's updated design from {{game|HeartGold and SoulSilver|s}}. This counterpart is identified as "Hibiki" (Ethan's Japanese name) in the Japanese DVD of the movie, supporting that this is Ethan and not an updated design for Jimmy.
+
+======Pokémon======
+This listing is of Ethan's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+{{TrainerPoké
+|width=84
+|trainer=Ethan
+|pkmn=Donphan
+|type1=Ground
+|img=Ethan Donphan.png
+|epnum=M13
+|epname=Zoroark: Master of Illusions
+|desc=Ethan used {{p|Donphan}} in a battle against Ash at the beginning of the thirteenth movie. During the battle, it fought {{AP|Pikachu}}. It was not shown who won the battle.
+
+Donphan's only known move is {{m|Rollout}}.}}
+
+[[File:Ethan PG.png|thumb|250px|Ethan in [[Pokémon Generations]]]]
+
+====Pokémon Generations====
+Ethan made two brief appearances in ''[[PG04|The Lake of Rage]]''. First, he and [[Lance]] infiltrated the [[Team Rocket HQ]] separately. He then communicated with Lance through his [[Pokégear]] about updates on their mission, and acted as a decoy for Lance's attacks.
+
+Much like the other [[player character]]s depicted in Pokémon Generations, Ethan doesn't have any lines of dialogue.
+
+[[File:Ethan Evolutions.png|thumb|left|250px|Ethan in [[Pokémon Evolutions]]]]
+====GOTCHA!====
+Ethan briefly appeared in [[GOTCHA!]], using his {{p|Tyranitar}} and {{p|Ampharos}}.
+
+====Pokémon Evolutions====
+Ethan briefly appeared in ''[[PE07|The Show]]'', where he was seen in [[Ecruteak City]].
+{{-}}
+
+===In the manga===
+Ethan, like most player characters, also has several counterparts in the various Pokémon manga series.
+
+====Pokémon Adventures====
+[[File:Gold HGSS Adventures 2.png|thumb|100px|Ethan's Pokémon Adventures counterpart, Gold]]
+{{main|Gold (Adventures)}}
+Gold from [[Pokémon Adventures]] is based on Ethan. He's a stubborn boy with a tendency towards gambling and bragging about himself. Having lived with Pokémon for all his life, he has the ability to make [[Pokémon Egg]]s hatch and draw out the potential of the [[baby Pokémon]] hatched from them.
+
+====Pokémon Pocket Monsters====
+{{main|Gold (Pocket Monsters)}}
+Gold from [[Pokémon Pocket Monsters]] is based on Ethan.
+
+====Pokémon Gold & Silver: The Golden Boys====
+{{main|Gold (Golden Boys)}}
+Gold, the main character of [[Pokémon Gold & Silver: The Golden Boys]], is based on Ethan.
+
+====Pocket Monsters HGSS Jō's Big Adventure====
+{{main|Jō}}
+Jō from [[Pocket Monsters HGSS Jō's Big Adventure]] is based on Ethan.
+
+====Pocket Monsters HeartGold & SoulSilver Go! Go! Pokéathlon====
+{{main|Takashi}}
+Takashi from [[Pocket Monsters HeartGold & SoulSilver Go! Go! Pokéathlon]] is based on Ethan.
+
+====Pokémon HeartGold SoulSilver: Pokédex Completion Comic====
+{{main|Soul (PCC)}}
+Soul from [[Pokémon HeartGold SoulSilver: Pokédex Completion Comic]] is based on Ethan.
+
+==In the TCG==
+The following is a list of cards mentioning or featuring Ethan or his Pokémon in the [[Pokémon Trading Card Game]].
+{{card list/header|Ethan's Pokémon|Fire|nocat=yes}}
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Pinsir|1}}|type=Grass|newmark=I|rows=2}}
+{{card list/release|type=Grass|enset=Destined Rivals|enrarity=Uncommon|ennum=001/182|jpset=Hot Wind Arena|jprarity=U|jpnum=001/063}}
+{{card list/release|type=Grass|jpset=MEGA Dream ex|jpnum=001/193}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Cyndaquil|32}}|type=Fire|newmark=I|rows=1}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Common|ennum=032/182|jpset=Hot Wind Arena|jprarity=C|jpnum=015/063}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Quilava|33}}|type=Fire|newmark=I|rows=1}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Common|ennum=033/182|jpset=Hot Wind Arena|jprarity=C|jpnum=016/063}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Typhlosion|34}}|type=Fire|newmark=I|rows=2}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Rare|ennum=034/182|jpset=Hot Wind Arena|jprarity=R|jpnum=017/063}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Illustration Rare|ennum=190/182|jpset=Hot Wind Arena|jprarity=AR|jpnum=070/063}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Slugma|35}}|type=Fire|newmark=I|rows=2}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Common|ennum=035/182|jpset=Hot Wind Arena|jprarity=C|jpnum=018/063}}
+{{card list/release|type=Fire|enset=Ascended Heroes|enrarity=Common|ennum=023/217|jpset=MEGA Dream ex|jpnum=018/193}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Magcargo|36}}|type=Fire|newmark=I|rows=3}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Rare|ennum=036/182|jpset=Hot Wind Arena|jprarity=R|jpnum=019/063}}
+{{card list/release|type=Fire|enset=Ascended Heroes|enrarity=Rare|ennum=024/217|jpset=MEGA Dream ex|jpnum=019/193}}
+{{card list/release|type=Fire|enset=Ascended Heroes|enrarity=Illustration Rare|ennum=222/217|jpset=MEGA Dream ex|jprarity=AR|jpnum=197/193}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Ho-Oh ex|39|Ethan's Ho-Oh}}{{ex}}|type=Fire|newmark=I|rows=6}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Double Rare|ennum=039/182|jpset=Hot Wind Arena|jprarity=RR|jpnum=020/063}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Ultra Rare|ennum=209/182|jpset=Hot Wind Arena|jprarity=SR|jpnum=077/063}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Special Illustration Rare|ennum=230/182|jpset=Hot Wind Arena|jprarity=SAR|jpnum=086/063}}
+{{card list/release|type=Fire|enset=Destined Rivals|enrarity=Hyper Rare|ennum=239/182|jpset=Hot Wind Arena|jprarity=UR|jpnum=090/063}}
+{{card list/release|type=Fire|jpset=SV-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpnum=254/SV-P}}
+{{card list/release|type=Fire|enset=Ascended Heroes|enrarity=Double Rare|ennum=026/217|jpset=MEGA Dream ex|jprarity=RR|jpnum=021/193}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Pichu|71}}|type=Lightning|newmark=I|rows=2}}
+{{card list/release|type=Lightning|enset=Destined Rivals|enrarity=Common|ennum=071/182|jpset=Hot Wind Arena|jprarity=C|jpnum=036/063}}
+{{card list/release|type=Lightning|jpset=Start Deck 100 Battle Collection|jpnum=241/742}}
+
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Sudowoodo|93}}|type=Fighting|newmark=I|rows=1}}
+{{card list/release|type=Fighting|enset=Destined Rivals|enrarity=Common|ennum=093/182|jpset=Hot Wind Arena|jprarity=C|jpnum=041/063}}
+
+{{card list/divider|Ethan's Trainer cards|Fire}}
+{{card list/card|cardname={{TCG ID|Destined Rivals|Ethan's Adventure|165}}|type=Supporter|newmark=I|rows=4}}
+{{card list/release|type=Supporter|enset=Destined Rivals|enrarity=Uncommon|ennum=165/182|jpset=Hot Wind Arena|jprarity=U|jpnum=063/063}}
+{{card list/release|type=Supporter|enset=Destined Rivals|enrarity=Ultra Rare|ennum=221/182|jpset=Hot Wind Arena|jprarity=SR|jpnum=084/063}}
+{{card list/release|type=Supporter|enset=Destined Rivals|enrarity=Special Illustration Rare|ennum=236/182|jpset=Hot Wind Arena|jprarity=SAR|jpnum=089/063}}
+{{card list/release|type=Supporter|jpset=MEGA Dream ex|jpnum=174/193}}
+{{cardlist/footer|Fire}}
+
+==Gallery==
+:For images on {{mas|Ethan}} in {{g|Masters EX}}, see: [[Ethan (Masters)#Gallery|Ethan (Masters)]]
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; width:25%; height:100px"| [[File:Gold Silver Ethan.png|100px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; width:25%; height:100px"| [[File:Crystal Ethan.png|100px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; width:25%; height:100px"| [[File:Gold Silver Ethan running.png|100px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; width:25%; height:100px"| [[File:Gold Silver Ethan Pokégear.png|150px]]
+|-
+| Artwork from<br>{{color2|000|Pokémon Gold and Silver Versions|Gold and Silver}}
+| Artwork from<br>{{color2|000|Pokémon Crystal Version|Crystal}}
+| Artwork from<br>{{color2|000|Pokémon Crystal Version|Crystal}}
+| Checking his {{color2|000|Pokégear}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Gold Silver Ethan Time Capsule.png|150px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Game Freak Whitney Ethan.jpg|200px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Ruins of Alph.jpg|250px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Pokémon Gallery Encounter with Shining.png|250px]]
+|-
+| Approaching a {{color2|000|Time Capsule}}
+| Artwork from the {{color2|000|Game Freak}} website
+| In front of the {{color2|000|Ruins of Alph}}
+| Encountering a {{color2|000|Shiny Pokémon}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; overflow: hidden; height:100px"| [[File:Arceus ruins art.png|250px]]
+| colspan style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:HGSS Walking Pokémon.png|280px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Kotobukiya ArtFX J Figure Ethan Cyndaquil Lyra Chikorita.png|200px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Pokémon Day 2022 Johto Artwork.png|220px]]
+|
+|-
+| In the {{color2|000|Sinjoh Ruins}}
+| {{color2|000|Walking Pokémon|Walking with Pokémon}}
+| Ethan and {{color2|000|Cyndaquil (Pokémon)|Cyndaquil}} concept artwork for {{color2|000|Kotobukiya figurines|Kotobukiya}} ArtFx J figurines
+| Artwork of Ethan fighting the {{color2|000|Red Gyarados}}<br>at the {{color2|000|Lake of Rage}} for {{color2|000|Pokémon Day}} by {{color2|000|Megumi Mizutani}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:HM Whirlpool artwork.png|220px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Snorlax Stands Tall HGSS Project Snorlax.jpg|220px]]
+| style="{{roundy|20px}} border: 2px solid #{{gold color dark}}; background: #{{gold color light}}; height:100px"| [[File:Ethan Typhlosion Sleeves.jpg|220px]]
+|-
+| Artwork showcasing {{color2|000|Whirlpool (move)|Whirlpool}} from {{color2|000|Pokémon Daisuki Club}}
+| Artwork of Ethan battling {{color2|000|Red (game)|Red}}<br>on the summit of {{color2|000|Mt. Silver Cave|Mt. Silver}} for {{color2|000|Project Snorlax}} by {{color2|000|Kazuma Koda}}
+| TCG sleeve featuring Ethan and {{color2|000|Typhlosion}}
+|}
+
+===Game assets===
+====In the [[core series]]====
+{| style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color}}; color:#000"
+| colspan="7" style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color dark}}; font-size:125%; color:white" |'''{{color2|fff|Generation II}}'''
+|-
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; height:80px; overflow:hidden" |[[File:Spr GS SW97 Ethan.png|56px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; width:80px; height:80px; overflow:hidden" |[[File:Spr GS Ethan.png|56px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; width:80px; height:80px; overflow:hidden" |[[File:Spr C Ethan.png|56px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:SW97 Ethan Back.png|48px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; width:80px; height:80px; overflow:hidden" |[[File:GSC Ethan Back.png|48px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:SW97 Ethan OD.png|16px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; width:80px; overflow:hidden" |[[File:EthanGSCwalkdown.png|14px]]
+|-
+|'''{{GameIcon|G}}{{GameIcon|S}}''' <br> '''{{color2|000|Pokémon Gold and Silver Spaceworld '97 demo|Space World 1997 demo}}''' <br> Sprite
+|'''{{GameIcon|G}}{{GameIcon|S}}''' <br> Sprite
+|'''{{GameIcon|C}}''' <br> Sprite
+|'''{{GameIcon|G}}{{GameIcon|S}}''' <br> '''{{color2|000|Pokémon Gold and Silver Spaceworld '97 demo|Space World 1997 demo}}''' <br> Sprite <br> (Back)
+|'''{{GameIcon|G}}{{GameIcon|S}}{{GameIcon|C}}''' <br> Sprite <br> (Back)
+|'''{{GameIcon|G}}{{GameIcon|S}}''' <br> '''{{color2|000|Pokémon Gold and Silver Spaceworld '97 demo|Space World 1997 demo}}''' <br> Sprite <br> (Overworld)
+|'''{{GameIcon|G}}{{GameIcon|S}}{{GameIcon|C}}''' <br> Sprite <br> (Overworld)
+|-
+| colspan="7" style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color dark}}; font-size:125%; color:white" |'''{{color2|fff|Generation IV}}'''
+|-
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:Spr HGSS Ethan.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:Spr HGSS Ethan 2.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:GoldHGSS beta back.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:HGSS Ethan Back.png|80px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:Ethan walking.png|85px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:Ethan opening.png|139px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:Spr EthanHGSSstart.png|57px]]
+|-
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokéathlon}})
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokémon_HeartGold_and_SoulSilver_beta#Sprites|Pre-release}}, Back)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> (Back)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Game_intro#Pokémon_HeartGold_and_SoulSilver|Intro}})
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Game_intro#Pokémon_HeartGold_and_SoulSilver|Intro}})
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Gender#In_the_core_series_games_2|Gender select}})
+|-
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; height:80px; overflow:hidden" |[[File:EthanChallenge.png|96px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:EthanHGSSwalkdown.png|32px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:EthanAthHGSS.png|32px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:EthanTRHGSSwalkdown.png|32px]]
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; overflow:hidden" |[[File:HGSS Pokégear Icon Ethan.png|20px]]
+|-
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> (VS)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> (Overworld)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokéathlon}}, Overworld)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{tccolor|Team Rocket Grunt}}, Overworld)
+|'''{{GameIcon|HG}}{{GameIcon|SS}}''' <br> Sprite <br> ({{color2|000|Pokégear}})
+|-
+|}
+
+====In [[Spin-off Pokémon games|other games]]====
+{| style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color}}; color:#000"
+| colspan="7" style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color dark}}; font-size:125%; color:white" |'''{{color2|fff|Generation II}}'''
+|-
+| style="{{roundy|20px}} border:2px solid #{{gold color dark}}; background:#{{gold color light}}; width:100px; height:100px; overflow:hidden" |[[File:Puzzle Challenge player.png|17px]]
+|-
+|'''{{color2|000|Pokémon Puzzle Challenge|Puzzle Challenge}}''' <br> Sprite
+|-
+|}
+
+==Trivia==
+[[File:Sugimori Jimmy anime.png|Concept art for ''[[Pokémon the Series]]'' by Ken Sugimori|thumb|220px]]
+* Ethan is the only male player character to have two :
+**female counterparts : {{ga|Kris}} in [[Pokémon Crystal|Crystal]] and {{ga|Lyra}} in {{2v2|HeartGold|SoulSilver}}.
+**{{pkmn|animation}} counterparts : {{jo|Jimmy}} and a cameo appearance at the beginning of ''[[M13|Zoroark: Master of Illusions]]''.
+*** Ethan's first animation counterpart having a different name, Jimmy, likely stems from the fact that Ethan did not become his canon name until {{2v2|HeartGold|SoulSilver}}.
+* The {{2v2|Gold|Silver}} artwork was originally presented in the '''''Official Guidebook of [[Nintendo Space World]] '97''''' (Japanese: '''{{j|NINTENDOスペースワールド'97オフィシャルガイドブック}}'''), along with {{ga|Silver}}, {{prof|Oak}}, {{tc|School Kid|Schoolboy}}, {{tc|Lass}}, {{tc|Firebreather}}, [[Kimono Girl]], {{tc|Fisher}}, {{p|Ho-Oh}}, {{p|Slowking}}, {{p|Ampharos}}, {{p|Donphan}}, and the [[List of Pokémon by New Pokédex number|new Pokédex]].
+* A 1997 pamphlet describing {{2v2|Gold|Silver}} mentions that the protagonist has a brother three years his senior. However, this aspect of his character was discarded by the time of the final release.
+* Ethan is 4'11" (1.50 m) tall and weighs 88.2&nbsp;lbs (40&nbsp;kg) in {{2v2|HeartGold|SoulSilver}}. This is stated when checking the heights and weights of certain {{OBP|Pokémon|species}} in the [[Pokédex]]. As such, {{p|Clefable}} and {{p|Latias}} are both the same weight as Ethan.
+* The majority of his Japanese default names from {{2v2|HeartGold|SoulSilver}} are shared with {{ga|Red}} and {{ga|Lucas}}. The same holds true for their {{ga|Lyra|respective}} {{ga|Leaf|female}} {{ga|Dawn|counterparts}}.
+* On the "Area" map on the [[Pokédex]] in {{2v2|HeartGold|SoulSilver}}, Ethan's headshot sprite shows his hat from {{2v2|Gold|Silver}}. An earlier, unused version of this sprite is also found within other scrapped [[Pokégear]] graphics data, in which {{ga|Kris}} appears instead of {{ga|Lyra}}.
+* In [[Generation IV]], Ethan is depicted with two different hair and eye colors. His eyes are gray and his hair is dark blue in his Generation IV artwork while they are brown and black in the HeartGold and SoulSilver games, as seen in the opening animation and sprites.
+* One of {{SSB|Pokémon Trainer}}'s palette swaps in [[Super Smash Bros. Ultimate]] has a color scheme based on Ethan's appearance in {{game2|Gold|Silver|Crystal}}.
+* The Japanese optional name カケル ''Kakeru'', along with the English optional name ''Chase'', were eventually given to the {{ga|Chase|male protagonist}} of {{LGPE}}.
+
+==Names==
+[[File:Ethan screenshots Pokémon Crystal manual.png|thumb|200px|He is named "'''Chris'''" in screenshots from the manual of {{game|Crystal}}]]
+He was first named '''Ethan''' (Japanese: '''{{j|ヒビキ}}''' ''Hibiki'') when he appeared as a [[non-player character]] in [[Generation IV]] games. He is also known by {{mas|Ethan|the same name}} in [[Pokémon Masters EX]].
+
+In the game manuals from [[Generation II]], his name depends on the game version: '''Gold'''{{sup/2|G}}, '''Silver'''{{sup/2|S}}, or '''Chris'''{{sup/2|C}} (Japanese: '''{{j|ゴールド}}''', '''{{j|シルバー}}''', or '''{{j|クリス}}''').
+
+The different names are seen in the player's story from the game manuals. For instance:
+* ''"The Professor showed '''Gold''' three Pokémon [...]"'' (referring to the player in Pokémon Gold's manual)
+* ''"The Professor showed '''Silver''' three Pokémon [...]"'' (referring to the player in Pokémon Silver's manual)
+
+In the player's story from Pokémon Crystal's manual, the Japanese name '''{{j|クリス}}''' simultaneously refers to either player character. However, this was adapted as "'''you'''" instead in the English version. For instance:
+
+* Japanese version of Crystal's manual:
+*: 「'''クリス'''はパートナーとなる1{{ruby|匹|ぴき}}のポケモンを{{ruby|選|えら}}ぶと」 ('''''Kris/Chris''' chooses 1 partner Pokémon and [...]'')
+* English version of Crystal's manual:
+*: ''"After '''you''' choose your Pokémon [...]"''
+
+In several game screenshots from the English manual of Pokémon Crystal, the male player character is named '''Chris'''.
+
+In the [[Pokémon Gold and Silver Spaceworld '97 demo]], his name is '''{{j|サトシ}}'''{{sup/2|G}} ''Satoshi'' or '''{{j|シゲル}}'''{{sup/2|S}} ''Shigeru''. These are {{Ash}}'s and {{Gary}}'s respective Japanese names, and correspond to the second entry in the list of optional names for {{ga|Red}} and {{ga|Blue}} in {{game|Red and Green|s}}.
+
+In [[Pokémon Puzzle Challenge]], he appears as an unnamed player character.
+
+Before he received an official name in {{game|HeartGold and SoulSilver|s}}, most fans called him '''Gold''' (Japanese: '''{{j|ゴールド}}''' ''Gold'').
+
+<gallery>
+Pokémon Gold manual intro.png|The player's story (named "'''Gold'''") in the manual of [[Pokémon Gold and Silver Versions|Pokémon Gold]]
+Pokémon Silver manual intro.png|The player's story (named "'''Silver'''") in the manual of [[Pokémon Gold and Silver Versions|Pokémon Silver]]
+Pokémon Crystal manual intro.png|The player's story (known as "'''you'''") in the manual of {{game|Crystal}}
+</gallery>
+
+{| class="roundtable" style="background:#{{HeartGold color}}; border:3px solid #{{HeartGold color dark}}"
+|-
+! style="background:#{{HeartGold color light}}" | Language
+! style="background:#{{HeartGold color light}}" | Name
+! style="background:#{{HeartGold color light}}" | Origin
+|-
+| Japanese
+| ヒビキ ''Hibiki''
+| From 響き ''hibiki'' (echo; sound)
+|-
+| English, Latin American Spanish,<br>Indonesian, Brazilian Portuguese
+| Ethan
+| From ''echo''
+|-
+| German
+| Klarin
+| From ''Klarinette'' ({{wp|clarinet}})
+|-
+| European Spanish
+| Eco
+| From ''eco'' (echo)
+|-
+| French
+| Luth
+| From ''luth'' ({{wp|lute}})
+|-
+| Italian
+| Armonio
+| From ''armonio'' ({{wp|harmonium}}) and ''armonia'' (harmony)
+|-
+| Korean
+| 심향 ''Simhyang''
+| From 심 (心) ''sim'' (heart) and  향 (響) ''hyang'' (echo)
+|-
+| Chinese (Traditional)
+| 阿響 ''Ā Xiǎng'' / ''A Héung''
+| rowspan=2 | From 響 / 响 ''xiǎng / héung'' (echo; sound) and the {{wp|Chinese honorifics#Familial honorifics|familial prefix}} 阿 ''ā / a''
+|-
+| Chinese (Simplified)
+| 阿响 ''Ā Xiǎng''
+|-
+| Thai
+| ฮิบิกิ ''Hibiki''
+| Transcription of his Japanese name
+|}
+{{-}}
+
+===Optional names===
+{| class="roundtable" style="background:#{{gold color}}; border:3px solid #{{gold color dark}}"
+|-
+! style="background:#{{gold color light}}" | Games
+! style="background:#{{gold color light}}" | Japanese
+! style="background:#{{gold color light}}" | English
+! style="background:#{{gold color light}}" | German
+! style="background:#{{gold color light}}" | European Spanish
+! style="background:#{{gold color light}}" | French
+! style="background:#{{gold color light}}" | Italian
+! style="background:#{{gold color light}}" | Korean
+|-
+|Gold
+|ゴールド ''Gold''<br>ヒロキ ''Hiroki''<br>テツオ ''Tetsuo''<br>タカシ ''Takashi''
+|GOLD<br>HIRO<br>TAYLOR<br>KARL
+|Gold<br>DANIEL<br>FRITZ<br>KARL
+|ORO<br>HIRO<br>TOMÁS<br>CARLOS
+|GOLD<br>JULIEN<br>JEAN<br>JACQUES
+|ORO<br>PAOLO<br>DIEGO<br>CARLO
+|골드 ''Gold''<br>수호 ''Suho''<br>인철 ''Incheol''<br>강산 ''Gangsan''
+|- style="background: #FFF;"
+|Silver
+|シルバー ''Silver''<br>カモン ''Kamon''<br>トオル ''Tōru''<br>マサオ ''Masao''
+|SILVER<br>KAMON<br>OSCAR<br>MAX
+|Silber<br>THOMAS<br>OSKAR<br>HANS
+|PLATA<br>KAMON<br>OSCAR<br>MÁXIMO
+|SILVER<br>DANIEL<br>PIERRE<br>PAUL
+|ARGENTO<br>LUCA<br>PAOLO<br>MAX
+|실버 ''Silver''<br>청운 ''Cheong'un''<br>지겸 ''Jigyeom''<br>찬호 ''Chanho''
+|- style="background: #FFF;"
+|Crystal
+|クリス ''Chris''<br>ヨウスケ ''Yōsuke''<br>タケヒロ ''Takehiro''<br>タカオ ''Takao''
+|CHRIS<br>MAT<br>ALLAN<br>JON
+|CHRIS<br>ARNOLD<br>GERT<br>JON
+|CRIS<br>ANTONIO<br>ÁLEX<br>EMILIO
+|CHRIS<br>BENJI<br>NICOLAS<br>JEAN
+|CHRIS<br>SERGIO<br>GIACOMO<br>MANUELE
+|
+|- style="background: #FFF;"
+|HeartGold<br>SoulSilver
+|<ab>ハート ''Heart''{{sup/4|HG}}
+ソウル ''Soul''{{sup/4|SS}}
+サトシ ''Satoshi''
+ケン ''Ken''
+カケル ''Kakeru''
+ジャック ''Jack''
+ジャン ''Jean''
+ジョン ''John''
+カモン ''Kamon''
+タカシ ''Takashi''
+テツオ ''Tetsuo''
+トオル ''Tōru''
+ヒロキ ''Hiroki''
+マサオ ''Masao''
+タカオ ''Takao''
+タケヒロ ''Takehiro''
+トウゴ ''Tōgo''
+ヒトシ ''Hitoshi''
+ヨシナオ ''Yoshinao''</ab>
+|<ab>Heart{{sup/4|HG}}
+Soul{{sup/4|SS}}
+Ash
+Nic
+Dion
+Duncan
+Jude
+Ross
+Shae{{sup/4|HG}} / Shea{{sup/4|SS}}
+Darrell
+Terell
+Chris
+Brad
+Dwight
+Talon
+Lonny
+Jess
+Eric
+Chase</ab>
+|<ab>Heart{{sup/4|HG}}
+Soul{{sup/4|SS}}
+Karsten
+Gerd
+Hans
+Jack
+Jan
+John
+Daniel
+Helge
+Uhland
+Tobit
+Ugo
+Berno
+Jon
+Rafik
+Boris
+Thomas
+Silvio</ab>
+|<ab>Heart{{sup/4|HG}}
+Soul{{sup/4|SS}}
+Ash
+Llamin
+Casio
+Job
+Chechu
+Juande
+Javi
+Ral
+Marino
+Toilo
+Nahum
+Max
+Morel
+Ralph
+Russ
+Erminio
+Quinn</ab>
+|<ab>Heart
+Soul
+Dilan
+Gurvan
+Gabriel
+Allane
+Zack
+Marc
+Loris
+Max
+Damien
+Tom
+Greg
+Kamel
+Franck
+Ralph
+Seb
+Daniel
+Thomas</ab>
+|<ab>Heart{{sup/4|HG}}
+Soul{{sup/4|SS}}
+Ash
+Nico
+Elmo
+Mattia
+Silvano
+Rossano
+Kamon
+Karl
+Gabry
+Oscar
+Dino
+Daniel
+Manuele
+Ralph
+Lucio
+Paolo
+Marco
+</ab>
+|<ab>하트 ''Heart''{{sup/4|HG}}
+소울 ''Soul''{{sup/4|SS}}
+지우 ''Jiwoo''
+캔 ''Ken''
+호진 ''Hojin''
+상우 ''Sang'u''
+쟝 ''Jyang''
+재범 ''Jaebeom''
+청운 ''Cheong'un''
+강산 ''Gangsan''
+인철 ''Incheol''
+지겸 ''Jigyeom''
+숙호 ''Sukho''
+찬호 ''Chanho''
+지훈 ''Jihun''
+윤호 ''Yunho''
+케이 ''Kay''
+다인 ''Dain''
+상현 ''Sanghyeon''</ab>
+|}{{-}}
+
+==References==
+<references />
+
+==Related articles==
+{{Player characters|gold}}
+{{Rival characters|gold}}
+{{Capture tutor}}
+{{NPC|gold|johto=yes}}
+{{Project CharacterDex notice}}
+
+[[Category:Gold, Silver and Crystal characters]]
+[[Category:HeartGold and SoulSilver characters]]
+[[Category:Champions]]
+[[Category:Friend characters]]
+[[Category:Pokémon Generations characters]]
+[[Category:Pokémon Evolutions characters]]
+
+[[de:Klarin]]
+[[es:Eco]]
+[[fr:Luth]]
+[[it:Armonio (gioco)]]
+[[ja:ヒビキ]]
+[[zh:阿響]]

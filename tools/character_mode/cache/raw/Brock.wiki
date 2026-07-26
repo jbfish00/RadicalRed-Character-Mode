@@ -1,0 +1,1739 @@
+{{Character Infobox
+|color={{rock color}}
+|bordercolor={{rock color dark}}
+|corecolor={{rock color light}}
+|name=Brock
+|jname=タケシ
+|tmname=Takeshi
+|sloganline=The Rock-Solid Pokémon Trainer!
+|image=Lets Go Pikachu Eevee Brock.png
+|size=x300px
+|caption=Artwork from ''{{LGPE}}''<br>Illustrated by [[Megumi Mizutani]]<ref>[[a:File:BrockGritHiddenFates53.jpg|Brock's Grit (Hidden Fates 53)]]</ref>
+|gender=Male
+|height=5'7" (1.70 m)<ref name=PSW>[[Pokémon Scale World]]</ref>
+|eyes=Black
+|hair=Brown
+|hometown=[[Pewter City]]
+|region=[[Kanto]]
+}}
+{{Character Infobox/Game
+|color={{rock color light}}
+|gen={{Gen|I}}, {{Gen|II}}, {{Gen|III}}, {{Gen|IV}}, {{Gen|V}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|counterpart=[[Brock (Masters)]]
+|games={{game3|Red and Blue|Red, Blue|s}}, {{v2|Yellow}}, {{game3|Gold and Silver|Gold, Silver|s}}, {{v2|Crystal}}, {{game3|FireRed and LeafGreen|FireRed, LeafGreen|s}}, {{game3|HeartGold and SoulSilver|HeartGold, SoulSilver|s}}, {{B2W2|Black 2, White 2}}, [[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu!, Let's Go, Eevee!]]<br>{{pkmn|Stadium}}, {{pkmn|Stadium 2}}, {{pkmn|Masters EX}}
+|trainer=[[Gym Leader]]{{sup/1|RBY}}{{sup/3|FRLG}}{{sup/2|GSC}}{{sup/4|HGSS}}{{sup/7|PE}}<br>[[Pokémon Trainer]]{{sup/5|B2W2}}
+|enva=Tommy Arciniega<ref name="Tommy Arciniega">[https://twitter.com/TawmBauer/status/1166938924888887296 Tommy Arciniega on Twitter] (Archived on [https://archive.is/qadSA archive.is]) Originally known as Tom Bauer.</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Kōsuke Toriumi<ref name="Kōsuke Toriumi">[https://www.oricon.co.jp/news/2138750/full/ Oricon News] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Team
+|color={{rock color light}}
+|member=[[Indigo League]]
+|rank=[[Gym Leader]]
+|domain=[[Pewter Gym]]
+|reward={{badge|Boulder}}
+|specialty={{t|Rock}} types
+}}
+{{Character Infobox/Anime
+|color={{rock color light}}
+|series=''[[Pokémon the Series]]'', ''[[Pokémon Origins]]''
+|counterpart={{an|Brock}}
+|debut=''[[EP005|Showdown in Pewter City]]'' (''Pokémon the Series''), ''[[PO01|File 1: Red]]'' (''Pokémon Origins'')
+|enva=[[Eric Stuart]] ([[EP005]]-[[AG145]]), [[Bill Rogers]] ([[AG146]]-[[JN147]], [[The Mastermind of Mirage Pokémon|MoMP]]) (''Pokémon the Series'')<br>Johnny Yong Bosch (''Pokémon Origins'')
+|jpva=[[Yūji Ueda]] (''Pokémon the Series'')<br>Tomokazu Sugita (''Pokémon Origins'')
+{{Character Infobox/Manga
+|color={{rock color light}}
+|series=''[[Pokémon Adventures]]''
+|debut=''[[PS5|Onix Is On!]]''
+}}
+}}
+|}
+
+'''Brock''' (Japanese: '''タケシ''' ''Takeshi'') is the [[Gym Leader]] of [[Pewter City]]'s [[Gym]], known officially as the [[Pewter Gym]]. He gives the {{Badge|Boulder}} to {{pkmn|Trainer}}s who defeat him in {{pkmn|battle}}. He [[Type expert|specializes]] in {{type|Rock}} {{OBP|Pokémon|species}}.
+
+==In the core series games==
+Brock appears in the [[Kanto]]-based games as the [[Gym Leader]] of the [[Pewter Gym]], which is the first [[Gym]] that the {{player}} challenges on their {{pkmn|journey}}. He is one of the few truly serious professional [[Pokémon Trainer]]s in the [[Pewter City]] area, and many people respect and admire him. He is quite proud of his rock-hard willpower, and uses {{type|Rock}} {{OBP|Pokémon|species}} to complement this. He rarely laughs or drops his serious demeanor, but when he does, he finds it hard to stop. In his free time, he likes to dig for [[Fossil]]s in [[Mt. Moon]]. In addition to the {{badge|Boulder}}, Brock gives out {{TM|34|Bide}} in {{game2|Red|Blue|Yellow}}, {{TM|39|Rock Tomb}} in {{game|FireRed and LeafGreen|s}}, and {{TM|01|Headbutt}} in {{LGPE}}.
+
+In Pokémon Yellow, Let's Go, Pikachu!, and Let's Go, Eevee!, Brock mentions that he is training to become a {{tc|Pokémon Breeder}}, a {{DL|Pokémon Trainer|Trainer class}} that does not exist in these games. This is a [[List of cross-canon references|reference]] to the goal of his {{an|Brock|animated series counterpart}}. In Let's Go, Pikachu! and Let's Go, Eevee!, Brock decides to postpone this goal to have daily [[rematch]]es with the player after they have become {{pkmn|Champion}}. In Let's Go, Pikachu! and Let's Go, Eevee!, the player also meets Brock in [[Celadon City]], where he gives the player some [[Pewter Crunchies]] and the [[Tea]] required to enter [[Saffron City]]. During this encounter, it is revealed that he likes to hit on pretty girls, just like his animated series counterpart, having tried to do so with the girls at the [[Celadon Gym]], only to be turned down by all of them.
+
+Three years later, in the [[Johto]]-based games, Brock remains the Gym Leader of the Pewter Gym, which can be challenged before or after any other Gym (except the [[Viridian Gym]]) during the player's travels through [[Kanto]]. He is surprised to hear that the player is from the Johto [[region]], and happily accepts their challenge. While he does not give out a TM in {{game2|Gold|Silver|Crystal}}, he gives out {{TM|80|Rock Slide}} in {{game|HeartGold and SoulSilver|s}}.
+
+In Pokémon HeartGold and SoulSilver, after all 16 [[Badge]]s have been obtained, Brock can be found in [[Diglett's Cave]] near Pewter City on any day between noon and 3 PM, and will offer his [[Pokégear]] number if spoken to. If he is called on [[Days of the week|Saturday]] [[Time|nights]], he will be up for a rematch at the [[Fighting Dojo]] in [[Saffron City]]. After his Pokégear number has been obtained, he will reappear in Diglett's Cave every day between 5 PM and 8 PM, and the player can have a [[photography|photograph]] taken with him there. After he is defeated at Pewter Gym, if spoken to in Diglett's Cave on a Saturday between 5 PM and 8 PM, he will offer to [[trade]] a {{p|Rhyhorn}} that knows {{m|Thunder Fang}} for a {{p|Bonsly}}.
+
+In {{B2W2}}, Brock appears alongside the other Gym Leaders of [[Kanto]] as an opponent in the [[Kanto Leaders Tournament]] at the [[Pokémon World Tournament]]. He also participates alongside the other Gym Leaders of Kanto, Johto, [[Hoenn]], [[Sinnoh]], and [[Unova]] in the [[World Leaders Tournament]], and other Rock-type experts in the Rock [[Type Expert Tournament]].
+
+===Fame Checker===
+This is a list of the [[Fame Checker]]'s information on Brock in {{game|FireRed and LeafGreen|s}}.
+;[[Pewter City]] - Sign
+* What does this person do?
+:"<sc>Pewter City Pok</sc>é<sc>mon Gym</sc>
+:<sc>Leader: Brock</sc>
+:The Rock-Solid <sc>Pok</sc>é<sc>mon Trainer</sc>!"
+;[[Pewter Gym]] - Brock
+* Favorite kind of {{ScPkmn}}?
+:"My rock-hard willpower is evident in even my {{ScPkmn}}.
+:My {{ScPkmn}} are all rock hard and have true-grit determination.
+:That's right - my {{ScPkmn}} are all the <sc>Rock</sc> type!"
+;Pewter City - Young Man
+* What is this person like?
+:"There aren't many serious {{ScPkmn}} Trainers here.
+:They're all like <sc>{{tc|Bug Catcher}}s</sc>, you know, just hobbyists.
+:But <sc>Pewter Gym</sc>'s <sc>Brock</sc> isn't like that, not one bit."
+;{{rt|4|Kanto}} - Boy
+* What is this person like?
+:"<sc>Brock</sc> is cool. He's not just tough.
+:People like and respect him.
+:I want to become a <sc>Gym Leader</sc> like him."
+;[[Mt. Moon]] - Man
+* What does this person do?
+:"Hi. I'm excavating for fossils here under <sc>Mt. Moon</sc>.
+:Sometimes, <sc>Brock</sc> of <sc>Pewter Gym</sc> lends me a hand."
+;[[Pewter Museum of Science|Pewter Museum]] - {{DL|Magazines in the Pokémon world|Pokémon Journal}}
+* What is this person like?
+:"<sc>Brock</sc> rarely laughs, but is said to be unable to stop if he starts."
+;Message from <sc>Brock</sc>
+* From: <sc>Brock</sc>
+* To: <{{player}}>
+:"In this big world of ours, there must be many tough <sc>Trainers</sc>.
+:Let's both keep training and making ourselves stronger!"
+
+===Pokémon===
+===={{game|Red and Blue|s}}====
+Brock has five [[Full Heal]]s per Pokémon.
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr RG Brock.png
+| prize = {{PDollar}}1386<!--GEN I HAD NO CLASSES-->
+| name = Brock
+| location = Pewter Gym
+| game = RGB
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0074
+| pokemon = Geodude
+| level = 12
+| type1 = Rock
+| type2 = Ground
+| move1 = Tackle | move1type = Normal
+| move2 = Defense Curl | move2type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0095
+| pokemon = Onix
+| level = 14
+| type1 = Rock
+| type2 = Ground
+| move1 = Tackle | move1type = Normal
+| move2 = Screech | move2type = Normal
+| move3 = Bide | move3type = Normal
+}}
+{{Party/end}}
+===={{game|Yellow}}====
+Brock has five [[Full Heal]]s per Pokémon.
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr Y Brock.png
+| prize = {{PDollar}}1188<!--GEN I HAD NO CLASSES-->
+| name = Brock
+| location = Pewter Gym
+| game = Y
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0074
+| pokemon = Geodude
+| level = 10
+| type1 = Rock
+| type2 = Ground
+| move1 = Tackle | move1type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0095
+| pokemon = Onix
+| level = 12
+| type1 = Rock
+| type2 = Ground
+| move1 = Tackle | move1type = Normal
+| move2 = Screech | move2type = Normal
+| move3 = Bind | move3type = Normal
+| move4 = Bide | move4type = Normal
+}}
+{{Party/end}}
+===={{game2|Gold|Silver|Crystal}}====
+Brock has a [[Hyper Potion]].
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr GS Brock.png
+| prize = {{PDollar}}4200
+| class = Leader
+| classlink = Gym Leader
+| name = Brock
+| location = Pewter Gym
+| game = GSC
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0075
+| pokemon = Graveler
+| gender = male
+| level = 41
+| type1 = Rock
+| type2 = Ground
+| move1 = Defense Curl | move1type = Normal
+| move2 = Rock Slide | move2type = Rock
+| move3 = Rollout | move3type = Rock
+| move4 = Earthquake | move4type = Ground
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0111
+| pokemon = Rhyhorn
+| gender = male
+| level = 41
+| type1 = Ground
+| type2 = Rock
+| move1 = Fury Attack | move1type = Normal
+| move2 = Scary Face | move2type = Normal
+| move3 = Earthquake | move3type = Ground
+| move4 = Horn Drill | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0139
+| pokemon = Omastar
+| gender = male
+| level = 42
+| type1 = Rock
+| type2 = Water
+| move1 = Bite | move1type = Dark
+| move2 = Surf | move2type = Water
+| move3 = Protect | move3type = Normal
+| move4 = Spike Cannon | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0141
+| pokemon = Kabutops
+| gender = male
+| level = 42
+| type1 = Rock
+| type2 = Water
+| move1 = Slash | move1type = Normal
+| move2 = Surf | move2type = Water
+| move3 = Endure | move3type = Normal
+| move4 = Giga Drain | move4type = Grass
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 44
+| type1 = Rock
+| type2 = Ground
+| move1 = Bind | move1type = Normal
+| move2 = Rock Slide | move2type = Rock
+| move3 = Bide | move3type = Normal
+| move4 = Sandstorm | move4type = Rock
+}}
+{{Party/end}}
+===={{game|FireRed and LeafGreen|s}}====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr FRLG Brock.png
+| prize = {{PDollar}}1400
+| class = Leader
+| classlink = Gym Leader
+| name = Brock
+| location = Pewter Gym
+| game = FRLG
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 3
+| ndex = 0074
+| pokemon = Geodude
+| gender = male
+| level = 12
+| type1 = Rock
+| type2 = Ground
+| ability = Rock Head
+| move1 = Tackle | move1type = Normal
+| move2 = Defense Curl | move2type = Normal
+}}
+{{Pokémon
+| gen = 3
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 14
+| type1 = Rock
+| type2 = Ground
+| ability = Rock Head
+| move1 = Tackle | move1type = Normal
+| move2 = Harden | move2type = Normal
+| move3 = Bind | move3type = Normal
+| move4 = Rock Tomb | move4type = Rock
+}}
+{{Party/end}}
+===={{game|HeartGold and SoulSilver|s}}====
+=====Gym battle=====
+Brock has three [[Full Restore]]s.
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr HGSS Brock.png
+| prize = {{PDollar}}6240
+| class = Leader
+| classlink = Gym Leader
+| name = Brock
+| location = Pewter Gym
+| game = HGSS
+| pokemon = 5
+}}{{Pokémon
+| gen = 4
+| ndex = 0075
+| pokemon = Graveler
+| gender = male
+| level = 51
+| type1 = Rock
+| type2 = Ground
+| ability = Sturdy
+| move1 = Defense Curl | move1type = Normal | move1cat = Status
+| move2 = Rollout | move2type = Rock | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rock Slide | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0111
+| pokemon = Rhyhorn
+| gender = male
+| level = 51
+| type1 = Ground
+| type2 = Rock
+| ability = Rock Head
+| move1 = Earthquake | move1type = Ground | move1cat = Physical
+| move2 = Sandstorm | move2type = Rock | move2cat = Status
+| move3 = Scary Face | move3type = Normal | move3cat = Status
+| move4 = Horn Drill | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0139
+| pokemon = Omastar
+| gender = male
+| level = 53
+| type1 = Rock
+| type2 = Water
+| ability = Shell Armor
+| move1 = Protect | move1type = Normal | move1cat = Status
+| move2 = Spike Cannon | move2type = Normal | move2cat = Physical
+| move3 = AncientPower | move3type = Rock | move3cat = Special
+| move4 = Brine | move4type = Water | move4cat = Special
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0141
+| pokemon = Kabutops
+| gender = male
+| level = 52
+| type1 = Rock
+| type2 = Water
+| ability = Battle Armor
+| move1 = Endure | move1type = Normal | move1cat = Status
+| move2 = Giga Drain | move2type = Grass | move2cat = Special
+| move3 = Aqua Jet | move3type = Water | move3cat = Physical
+| move4 = Rock Slide | move4type = Rock | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 54
+| type1 = Rock
+| type2 = Ground
+| ability = Sturdy
+| held = Sitrus Berry
+| move1 = Screech | move1type = Normal | move1cat = Status
+| move2 = Sandstorm | move2type = Rock | move2cat = Status
+| move3 = Iron Tail | move3type = Steel | move3cat = Physical
+| move4 = Rock Slide | move4type = Rock | move4cat = Physical
+}}
+{{Party/end}}
+=====[[Rematch]]=====
+Brock has three [[Full Restore]]s.{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr HGSS Brock.png
+| prize = {{PDollar}}6840
+| class = Leader
+| classlink = Gym Leader
+| name = Brock
+| location = Fighting Dojo
+| game = HGSS
+| pokemon = 6
+}}{{Pokémon
+| gen = 4
+| ndex = 0076
+| pokemon = Golem
+| gender = male
+| level = 55
+| type1 = Rock
+| type2 = Ground
+| ability = Sturdy
+| move1 = Sandstorm | move1type = Rock | move1cat = Status
+| move2 = Rock Slide | move2type = Rock | move2cat = Physical
+| move3 = Rock Polish | move3type = Rock | move3cat = Status
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0369
+| pokemon = Relicanth
+| gender = male
+| level = 54
+| type1 = Water
+| type2 = Rock
+| ability = Rock Head
+| held = Lum Berry
+| move1 = Head Smash | move1type = Rock | move1cat = Physical
+| move2 = Aqua Tail | move2type = Water | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Rest | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0139
+| pokemon = Omastar
+| gender = male
+| level = 56
+| type1 = Rock
+| type2 = Water
+| ability = Shell Armor
+| move1 = Protect | move1type = Normal | move1cat = Status
+| move2 = Sandstorm | move2type = Rock | move2cat = Status
+| move3 = Brine | move3type = Water | move3cat = Special
+| move4 = AncientPower | move4type = Rock | move4cat = Special
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0141
+| pokemon = Kabutops
+| gender = male
+| level = 55
+| type1 = Rock
+| type2 = Water
+| ability = Battle Armor
+| move1 = Rock Slide | move1type = Rock | move1cat = Physical
+| move2 = Aqua Jet | move2type = Water | move2cat = Physical
+| move3 = Endure | move3type = Normal | move3cat = Status
+| move4 = Giga Drain | move4type = Grass | move4cat = Special
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 61
+| type1 = Rock
+| type2 = Ground
+| ability = Sturdy
+| held = Sitrus Berry
+| move1 = Stealth Rock | move1type = Rock | move1cat = Status
+| move2 = Rock Slide | move2type = Rock | move2cat = Physical
+| move3 = Rock Polish | move3type = Rock | move3cat = Status
+| move4 = Sandstorm | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0409
+| pokemon = Rampardos
+| gender = male
+| level = 57
+| type1 = Rock
+| ability = Mold Breaker
+| move1 = Earthquake | move1type = Ground | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical
+| move3 = Avalanche | move3type = Ice | move3cat = Physical
+| move4 = Rock Polish | move4type = Rock | move4cat = Status
+}}
+{{Party/end}}
+=====[[Trade]]d to the player=====
+After obtaining Brock's [[Pokégear]] phone number, players can meet him on [[Days of the week|Saturdays]] between 5 PM and 8 PM in [[Diglett's Cave]], where he will offer to trade a {{p|Rhyhorn}} with the [[Egg Move]] {{m|Thunder Fang}} in exchange for a {{p|Bonsly}}.
+
+{{Gen4ievent
+|pokemon=Rhyhorn
+|nick=Hornlette
+|ndex=0111
+|gender=f
+|ball=Poké
+|type=Ground|type2=Rock
+|ot={{color|0070f8|Brock}}
+|id=06845
+|nature=Relaxed
+|item=Passho Berry
+|met=a link trade<br><small>({{color2|000|Diglett's Cave}})
+|hpiv=22
+|atkiv=31
+|defiv=13
+|spaiv=22
+|spdiv=9
+|speiv=0
+|move1=Thunder Fang|move1type=Electric|move1cat=Physical
+|ability=Lightningrod
+|gift=yes
+|trade=yes
+|method=[[In-game trade]] ({{p|Bonsly}})
+|shinylock=yes
+|game=hgss
+}}
+
+===={{B2W2}}====
+=====[[Pokémon World Tournament]]=====
+Brock uses three of these Pokémon in [[Pokémon battle|Single Battles]], four in [[Double Battle|Double]] and [[Rotation Battle]]s, and all six in [[Triple Battle]]s. Brock will always lead with his signature Pokémon, {{p|Onix}}.
+
+======[[Kanto Leaders Tournament]]======
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr B2W2 Brock.png
+| prize = 1{{color2|000|Battle Point|BP}}
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Brock
+| location = Pokémon World Tournament
+| game = B2W2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0095
+| pokemon = Onix
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Ground
+| ability = Rock Head
+| ability2 = Sturdy
+| held = Salac Berry
+| move1 = Sand Tomb | move1type = Ground | move1cat = Physical
+| move2 = Protect | move2type = Normal | move2cat = Status
+| move3 = Stealth Rock | move3type = Rock | move3cat = Status
+| move4 = Sandstorm | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0076
+| pokemon = Golem
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Ground
+| ability = Rock Head
+| ability2 = Sturdy
+| held = Dark Gem
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Sucker Punch | move3type = Dark | move3cat = Physical
+| move4 = Iron Defense | move4type = Steel | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0141
+| pokemon = Kabutops
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Water
+| ability = Swift Swim
+| ability2 = Battle Armor
+| held = Liechi Berry
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Aqua Jet | move2type = Water | move2cat = Physical
+| move3 = Superpower | move3type = Fighting | move3cat = Physical
+| move4 = Swords Dance | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0139
+| pokemon = Omastar
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Water
+| ability = Swift Swim
+| ability2 = Shell Armor
+| held = Rindo Berry
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = AncientPower | move2type = Rock | move2cat = Special
+| move3 = Earth Power | move3type = Ground | move3cat = Special
+| move4 = Ice Beam | move4type = Ice | move4cat = Special
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0142
+| pokemon = Aerodactyl
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Flying
+| ability = Rock Head
+| ability2 = Pressure
+| held = Charti Berry
+| move1 = Rock Slide | move1type = Rock | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Thunder Fang | move3type = Electric | move3cat = Physical
+| move4 = Tailwind | move4type = Flying | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0369
+| pokemon = Relicanth
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Rock
+| ability = Swift Swim
+| ability2 = Rock Head
+| held = Rock Gem
+| move1 = Rock Slide | move1type = Rock | move1cat = Physical
+| move2 = Waterfall | move2type = Water | move2cat = Physical
+| move3 = Rock Polish | move3type = Rock | move3cat = Status
+| move4 = Yawn | move4type = Normal | move4cat = Status
+}}
+{{Party/end}}
+======[[Type Expert Tournament|Type Expert]]/[[World Leaders Tournament]]======
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Spr B2W2 Brock.png
+| prize = 1{{color2|000|Battle Point|BP}}
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Brock
+| location = Pokémon World Tournament
+| game = B2W2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0095
+| pokemon = Onix
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Ground
+| ability = Rock Head
+| ability2 = Sturdy
+| held = Eviolite
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Iron Head | move3type = Steel | move3cat = Physical
+| move4 = Sandstorm | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0076
+| pokemon = Golem
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Ground
+| ability = Rock Head
+| ability2 = Sturdy
+| held = Lum Berry
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Rock Polish | move3type = Rock | move3cat = Status
+| move4 = Sucker Punch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0141
+| pokemon = Kabutops
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Water
+| ability = Swift Swim
+| ability2 = Battle Armor
+| held = Focus Sash
+| move1 = Waterfall | move1type = Water | move1cat = Physical
+| move2 = Rock Slide | move2type = Rock | move2cat = Physical
+| move3 = X-Scissor | move3type = Bug | move3cat = Physical
+| move4 = Swords Dance | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0248
+| pokemon = Tyranitar
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Dark
+| ability = Sand Stream
+| held = Chople Berry
+| move1 = Stone Edge | move1type = Rock | move1cat = Physical
+| move2 = Payback | move2type = Dark | move2cat = Physical
+| move3 = ThunderPunch | move3type = Electric | move3cat = Physical
+| move4 = Ice Punch | move4type = Ice | move4cat = Physical
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0142
+| pokemon = Aerodactyl
+| gender = both
+| level = 50
+| type1 = Rock
+| type2 = Flying
+| ability = Rock Head
+| ability2 = Pressure
+| held = Choice Scarf
+| move1 = Rock Slide | move1type = Rock | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Fire Fang | move3type = Fire | move3cat = Physical
+| move4 = Ice Fang | move4type = Ice | move4cat = Physical
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0464
+| pokemon = Rhyperior
+| gender = both
+| level = 50
+| type1 = Ground
+| type2 = Rock
+| ability = Lightningrod
+| ability2 = Solid Rock
+| held = Expert Belt
+| move1 = Earthquake | move1type = Ground | move1cat = Physical
+| move2 = Stone Edge | move2type = Rock | move2cat = Physical
+| move3 = Megahorn | move3type = Bug | move3cat = Physical
+| move4 = Avalanche | move4type = Ice | move4cat = Physical
+}}
+{{Party/end}}
+====[[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!]]====
+=====Gym battle=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = VSBrock PE.png
+| size = 80px
+| prize = {{PDollar}}1,920
+| class = Gym Leader
+| name = Brock
+| location = Pewter Gym
+| game = PE
+| pokemon = 2
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0074
+| pokemon = Geodude
+| gender = male
+| level = 11
+| type1 = Rock
+| type2 = Ground
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 12
+| type1 = Rock
+| type2 = Ground
+| move1 = Headbutt | move1type = Normal | move1cat = Physical
+| move2 = Bind | move2type = Normal | move2cat = Physical
+| move3 = Rock Throw | move3type = Rock | move3cat = Physical
+}}
+{{Party/end}}
+=====[[Rematch]]=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = VSBrock PE.png
+| size = 80px
+| prize = {{PDollar}}13,680
+| class = Gym Leader
+| name = Brock
+| location = Pewter Gym
+| game = PE
+| pokemon = 5
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 56
+| type1 = Rock
+| type2 = Ground
+| move1 = Stealth Rock | move1type = Rock | move1cat = Status
+| move2 = Iron Tail | move2type = Steel | move2cat = Physical
+| move3 = Rock Slide | move3type = Rock | move3cat = Physical
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0141
+| pokemon = Kabutops
+| gender = female
+| level = 56
+| type1 = Rock
+| type2 = Water
+| move1 = X-Scissor | move1type = Bug | move1cat = Physical
+| move2 = Rock Slide | move2type = Rock | move2cat = Physical
+| move3 = Aqua Jet | move3type = Water | move3cat = Physical
+| move4 = Brick Break | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0139
+| pokemon = Omastar
+| gender = male
+| level = 56
+| type1 = Rock
+| type2 = Water
+| move1 = Blizzard | move1type = Ice | move1cat = Special
+| move2 = Hydro Pump | move2type = Water | move2cat = Special
+| move3 = Seismic Toss | move3type = Fighting | move3cat = Physical
+| move4 = Reflect | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0142
+| pokemon = Aerodactyl
+| gender = male
+| level = 56
+| type1 = Rock
+| type2 = Flying
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Rock Slide | move2type = Rock | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Iron Tail | move4type = Steel | move4cat = Physical
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0076
+| pokemon = Golem
+| gender = male
+| level = 57
+| type1 = Rock
+| type2 = Ground
+| move1 = Earthquake | move1type = Ground | move1cat = Physical
+| move2 = Rock Slide | move2type = Rock | move2cat = Physical
+| move3 = Fire Punch | move3type = Fire | move3cat = Physical
+| move4 = Thunder Punch | move4type = Electric | move4cat = Physical
+}}
+{{Party/end}}
+
+==In the side series games==
+===[[Pokémon Stadium]]===
+Brock appears in [[Pokémon Stadium]] as the first Gym Leader the player faces during the [[Gym Leader Castle]] challenge. As usual for Trainers in this game, he also uses Pokémon outside his specialty type. One such Pokémon is a {{TP|Brock|Vulpix}}, a [[List of cross-canon references|reference]] to Brock's {{an|Brock|animated series counterpart}}, who also owned one at the time of the game's release.
+
+====Pokémon====
+=====Round 1=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Brock Stadium.png{{!}}55px
+| prize = none<!--GEN I HAD NO CLASSES-->
+| name = Brock
+| location = Gym Leader Castle
+| game = Stadium
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0095
+| pokemon = Onix
+| level = 50-100
+| type1 = Rock
+| type2 = Ground
+| move1 = Bind | move1type = Normal
+| move2 = Toxic | move2type = Poison
+| move3 = Earthquake | move3type = Ground
+| move4 = Rock Slide | move4type = Rock
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0075
+| pokemon = Graveler
+| level = 50-100
+| type1 = Rock
+| type2 = Ground
+| move1 = Rock Slide | move1type = Rock
+| move2 = Dig | move2type = Ground
+| move3 = Selfdestruct | move3type = Normal
+| move4 = Seismic Toss | move4type = Fighting
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0104
+| pokemon = Cubone
+| level = 50-100
+| type1 = Ground
+| move1 = Body Slam | move1type = Normal
+| move2 = Fissure | move2type = Ground
+| move3 = Bone Club | move3type = Ground
+| move4 = Submission | move4type = Fighting
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0037
+| pokemon = Vulpix
+| level = 50-100
+| type1 = Fire
+| move1 = Swift | move1type = Normal
+| move2 = Quick Attack | move2type = Normal
+| move3 = Flamethrower | move3type = Fire
+| move4 = Fire Spin | move4type = Fire
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0138
+| pokemon = Omanyte
+| level = 50-100
+| type1 = Rock
+| type2 = Water
+| move1 = Horn Attack | move1type = Normal
+| move2 = Spike Cannon | move2type = Normal
+| move3 = Ice Beam | move3type = Ice
+| move4 = Surf | move4type = Water
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0140
+| pokemon = Kabuto
+| level = 50-100
+| type1 = Rock
+| type2 = Water
+| move1 = Absorb | move1type = Grass
+| move2 = Slash | move2type = Normal
+| move3 = Hydro Pump | move3type = Water
+| move4 = Blizzard | move4type = Ice
+}}
+{{Party/end}}
+
+=====Round 2=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = Brock Stadium.png{{!}}55px
+| prize = none<!--GEN I HAD NO CLASSES-->
+| name = Brock
+| location = Gym Leader Castle
+| game = Stadium
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0095
+| pokemon = Onix
+| level = 50-100
+| type1 = Rock
+| type2 = Ground
+| move1 = Bind | move1type = Normal
+| move2 = Rock Slide | move2type = Rock
+| move3 = Earthquake | move3type = Ground
+| move4 = Screech | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0042
+| pokemon = Golbat
+| level = 50-100
+| type1 = Poison
+| type2 = Flying
+| move1 = Confuse Ray | move1type = Ghost
+| move2 = Wing Attack | move2type = Flying
+| move3 = Bide | move3type = Normal
+| move4 = Take Down | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0076
+| pokemon = Golem
+| level = 50-100
+| type1 = Rock
+| type2 = Ground
+| move1 = Rock Slide | move1type = Rock
+| move2 = Dig | move2type = Ground
+| move3 = Explosion | move3type = Normal
+| move4 = Seismic Toss | move4type = Fighting
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0038
+| pokemon = Ninetales
+| level = 50-100
+| type1 = Fire
+| move1 = Bide | move1type = Normal
+| move2 = Confuse Ray | move2type = Ghost
+| move3 = Flamethrower | move3type = Fire
+| move4 = Fire Spin | move4type = Fire
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0051
+| pokemon = Dugtrio
+| level = 50-100
+| type1 = Ground
+| move1 = Dig | move1type = Ground
+| move2 = Slash | move2type = Normal
+| move3 = Rock Slide | move3type = Rock
+| move4 = Sand-Attack | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0139
+| pokemon = Omastar
+| level = 50-100
+| type1 = Rock
+| type2 = Water
+| move1 = Double-Edge | move1type = Normal
+| move2 = Toxic | move2type = Poison
+| move3 = Ice Beam | move3type = Ice
+| move4 = Surf | move4type = Water
+}}
+{{Party/end}}
+
+===[[Pokémon Stadium 2]]===
+Brock returns in {{g|Stadium 2}} as part of the Kanto Gym Leader Castle.
+
+During the game's [[Game credits|end credits]], Brock is seen having a battle with [[Jasmine]] at the [[Olivine Gym]].
+
+====Pokémon====
+=====Round 1=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = S2 Gym Leader Brock.png
+| prize = none
+| class = Gym Leader
+| name = Brock
+| location = Gym Leader Castle
+| locationname = Kanto Gym Leader Castle
+| game = Stadium2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0095
+| pokemon = Onix
+| gender = male
+| level = 50-100
+| type1 = Rock
+| type2 = Ground
+| held = Quick Claw
+| move1 = Rock Throw | move1type = Rock
+| move2 = Earthquake | move2type = Ground
+| move3 = Strength | move3type = Normal
+| move4 = Bide | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0076
+| pokemon = Golem
+| gender = male
+| level = 50-100
+| type1 = Rock
+| type2 = Ground
+| held = Scope Lens
+| move1 = Rock Throw | move1type = Rock
+| move2 = Magnitude | move2type = Ground
+| move3 = Defense Curl | move3type = Normal
+| move4 = Rollout | move4type = Rock
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0139
+| pokemon = Omastar
+| gender = male
+| level = 50-100
+| type1 = Rock
+| type2 = Water
+| held = MiracleBerry
+| move1 = AncientPower | move1type = Rock
+| move2 = Surf | move2type = Water
+| move3 = Blizzard | move3type = Ice
+| move4 = Bite | move4type = Dark
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0127
+| pokemon = Pinsir
+| gender = male
+| level = 50-100
+| type1 = Bug
+| held = Focus Band
+| move1 = Fury Cutter | move1type = Bug
+| move2 = Strength | move2type = Normal
+| move3 = Seismic Toss | move3type = Fighting
+| move4 = Submission | move4type = Fighting
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0205
+| pokemon = Forretress
+| gender = female
+| level = 50-100
+| type1 = Bug
+| type2 = Steel
+| held = Mint Berry
+| move1 = Take Down | move1type = Normal
+| move2 = Giga Drain | move2type = Grass
+| move3 = Defense Curl | move3type = Normal
+| move4 = Rollout | move4type = Rock
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0141
+| pokemon = Kabutops
+| gender = male
+| level = 50-100
+| type1 = Rock
+| type2 = Water
+| held = PRZCureBerry
+| move1 = AncientPower | move1type = Rock
+| move2 = Surf | move2type = Water
+| move3 = Slash | move3type = Normal
+| move4 = Sleep Talk | move4type = Normal
+}}
+{{Party/end}}
+
+=====Round 2=====
+{{Party
+| background = {{rock color}}
+| border = {{rock color dark}}
+| headcolor = {{rock color light}}
+| sprite = S2 Gym Leader Brock.png
+| prize = none
+| class = Gym Leader
+| name = Brock
+| location = Gym Leader Castle
+| locationname = Kanto Gym Leader Castle
+| game = Stadium2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0208
+| pokemon = Steelix
+| gender = male
+| level = 50-100
+| type1 = Steel
+| type2 = Ground
+| held = Scope Lens
+| move1 = Rock Slide | move1type = Rock
+| move2 = Earthquake | move2type = Ground
+| move3 = Return | move3type = Normal
+| move4 = Fissure | move4type = Ground
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0214
+| pokemon = Heracross
+| gender = male
+| level = 50-100
+| type1 = Bug
+| type2 = Fighting
+| held = Focus Band
+| move1 = Megahorn | move1type = Bug
+| move2 = Reversal | move2type = Fighting
+| move3 = Counter | move3type = Fighting
+| move4 = Earthquake | move4type = Ground
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0112
+| pokemon = Rhydon
+| gender = female
+| level = 50-100
+| type1 = Ground
+| type2 = Rock
+| held = Quick Claw
+| move1 = Rock Slide | move1type = Rock
+| move2 = Earthquake | move2type = Ground
+| move3 = Double-Edge | move3type = Normal
+| move4 = Fissure | move4type = Ground
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0080
+| pokemon = Slowbro
+| gender = female
+| level = 50-100
+| type1 = Water
+| type2 = Psychic
+| held = BrightPowder
+| move1 = Surf | move1type = Water
+| move2 = Psychic | move2type = Psychic
+| move3 = Flamethrower | move3type = Fire
+| move4 = Fissure | move4type = Ground
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0217
+| pokemon = Ursaring
+| gender = male
+| level = 50-100
+| type1 = Normal
+| held = Mint Berry
+| move1 = Defense Curl | move1type = Normal
+| move2 = Rollout | move2type = Rock
+| move3 = Slash | move3type = Normal
+| move4 = Focus Energy | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0213
+| pokemon = Shuckle
+| gender = male
+| level = 50-100
+| type1 = Bug
+| type2 = Rock
+| held = Leftovers
+| move1 = Defense Curl | move1type = Normal
+| move2 = Rollout | move2type = Rock
+| move3 = Safeguard | move3type = Normal
+| move4 = Wrap | move4type = Normal
+}}
+{{Party/end}}
+
+==In the spin-off games==
+[[File:BrockGeneticApex271.png|thumb|200px|Super Rare print of [[Brock (Genetic Apex 224)|Brock]]]]
+===[[Pokémon Puzzle League]]===
+{{main|Brock (anime)}}
+The {{pkmn|animated series}} incarnation of {{an|Brock}} appears in [[Pokémon Puzzle League]], which is based on {{aniseries|OS}} during the [[Orange Islands]] arc.
+
+===[[Pokémon Zany Cards]]===
+{{Main|Brock (anime)}}
+Brock and {{an|Misty}}, based on their appearances in the animated series, appear as the second opponents in [[Wild Match]] mode.
+
+===[[Pokémon Masters EX]]===
+{{main|Brock (Masters)}}
+Brock, in his {{game|HeartGold and SoulSilver|s}} design, forms a [[sync pair]] with {{TP|Brock|Onix}}, {{p|Tyranitar}}, and {{p|Kabutops}} in [[Pokémon Masters EX]]. Brock has been a playable sync pair since the game's release, with him joining the {{player}} at the beginning of the game.
+
+{{PairDex/h|Rock}}
+{{PairDex|002|Brock|trainerlink=Brock (Masters)#Onix|trainerimg=Brock|0095|Onix|gender=male|pokemonlink=Brock's Onix|Rock|Grass|Tech|3EX|Story<br>''Start''}}
+{{PairDex|002|Brock|trainerlink=Brock (Masters)#Tyranitar|trainerimg=Brock Sygna|sygna=[[Sygna suit|Sygna Suit]]|0248|Tyranitar|gender=male|Rock|Fighting|Physical Strike|3EX|Story<br>''Interlude 01''}}
+{{PairDex|002|Brock|trainerlink=Brock (Masters)#Kabutops|trainerimg=Brock|0141|Kabutops|gender=male|Rock|Grass|Support|exrole=Field|6|Gym Scout}}
+{{PairDex|002|Brock|trainerlink=Brock (Masters)#Onix (Arc Suit)|trainerimg=Brock Arc|sygna=[[Arc suit|Arc Suit]]|0095|Onix|pokemonlink=Brock's Onix|gender=male|buddy=yes|arc=yes|Rock|Grass|Multi|exrole=Physical Strike|6|Arc Suit Fair Sync Pair Scout}}
+|}
+
+===[[Pokémon Trading Card Game Pocket]]===
+{{main|Brock (Genetic Apex 224)}}
+Brock makes an appearance as a {{TCG|Supporter}} card in [[Pokémon Trading Card Game Pocket]]'s first expansion, {{TCGP|Genetic Apex}}. When the player plays this card, they can take a {{TCG|Fighting}} {{TCG|Energy}} from their Energy Zone and attach it any card named {{TCGP|Golem}} or {{TCGP|Onix}}.
+
+{{TCGPocketCardList/Header|Cards featuring Brock|Fighting|nocat=yes}}
+{{TCGPocketCardList/Card|cardname={{TCG ID|Genetic Apex|Brock|224}}|type=Supporter|rows=2}}
+{{TCGPocketCardList/Release|type=Fighting|set=Genetic Apex|rarity=Diamond|rarity count=2|num=224/226}}
+{{TCGPocketCardList/Release|type=Fighting|set=Genetic Apex|rarity=Star|rarity count=2|num=271/226}}
+{{TCGPocketCardList/Footer|type=Fighting}}
+
+===[[Pokémon Pokopia]]===
+Brock is the subject of the [[Human Records|Human Record]] "Gym Leader Monthly (July Issue)", which can be found at the top of a series of ladders in [[Rocky Ridges]]. Reading this record rewards {{poko|Ditto}} with the Rock-solid outfit, which resembles Brock.
+
+==Gallery==
+===Artwork===
+{|style="margin:auto; text-align:center; border:3px solid #{{rock color dark}}; background:#{{rock color}}; font-size:80%; border-radius: 10px"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:RG Brock.png|x125px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:RB Brock.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Yellow Brock.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:FireRed LeafGreen Brock.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:HeartGold SoulSilver Brock.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock PO.png|x225px]]
+| style="{{roundy|20px}} border:2px solid #{{rock color dark}}; background:#{{rock color light}}; overflow:hidden;" | [[File:Brock LGPE concept art.jpg|x225px]]
+|-
+| Headshot from<br>{{color2|000|Pokémon Red and Green Versions|Red and Green}}
+| Official artwork from<br>{{color2|000|Pokémon Red and Blue Versions|Red and Blue}}
+| Official artwork from<br>{{color2|000|Pokémon Yellow Version|Yellow}} by {{color2|000|Ken Sugimori}}<ref>[[a:File:BrockGymHeroes15.jpg|Brock (Gym Heroes 15)]]</ref>
+| Official artwork from<br>{{color2|000|Pokémon FireRed and LeafGreen Versions|FireRed and LeafGreen}}
+| Official artwork from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| Official artwork from<br>{{color2|000|Pokémon Origins}}
+| Concept art from<br>{{color2|000|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!}}
+|}
+
+===Sprites and models===
+====In the [[core series]]====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color}}; font-size:80%"
+|-
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Spr RG Brock.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Spr Y Brock.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Spr GS Brock.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Spr FRLG Brock.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Spr HGSS Brock.png]]
+|style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:VSBrock.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Spr B2W2 Brock.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:VSBrock PE.png|100px]]
+|-
+| Sprite from<br>{{color2|000|Pokémon Red and Blue Versions|Red and Blue}}
+| Sprite from<br>{{color2|000|Pokémon Yellow Version|Yellow}}
+| Sprite from<br>{{color2|000|Generation II}}
+| Sprite from<br>{{color2|000|Pokémon FireRed and LeafGreen Versions|FireRed and LeafGreen}}
+| Sprite from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| VS sprite from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| Sprite from<br>{{color2|000|Pokémon Black and White Versions 2|Black 2 and White 2}}
+| VS model from<br>{{color2|000|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!}}
+|-
+|colspan=2 style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Rocker I OD.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock II OD.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock III OD.png]]
+|colspan=2 style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock IV OD.png]]
+|style="{{roundy|80px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:Brock OD.png]]
+|style="{{roundy|40px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px"| [[File:ODBrock PE.png|30px]] 
+|-
+| colspan=2 | Overworld sprite from<br>{{color2|000|Generation I}}
+| Overworld sprite from<br>{{color2|000|Generation II}}
+| Overworld sprite from<br>{{color2|000|Pokémon FireRed and LeafGreen Versions|FireRed and LeafGreen}}
+| colspan=2 | Overworld sprite from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| Overworld sprite from<br>{{color2|000|Pokémon Black and White Versions 2|Black 2 and White 2}}
+| Overworld model from<br>{{color2|000|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!}}
+|}
+
+====In other games====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color}}; font-size:80%"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:80px" | [[File:Brock Stadium.png]]
+| style="{{roundy|20px}} border: 2px solid #{{rock color dark}}; background: #{{rock color light}}; width:190px" | [[File:S2 Gym Leader Brock.png]][[File:S2 Gym Leader Brock alt.png]][[File:S2 Gym Leader Brock alt2.png]]
+|-
+| Portrait from<br>{{color2|000|Pokémon Stadium|Stadium}}
+| Portraits from<br>{{color2|000|Pokémon Stadium 2|Stadium 2}}
+|}
+
+==Quotes==
+{{main|Brock/Quotes}}
+
+==In animation==
+[[File:Brock doctor outfit.png|thumb|250px|Brock in {{aniseries|JN}}]]
+===''Pokémon the Series''===
+{{main|Brock (anime)}}
+In {{aniseries|PTS}}, like later Gym Leaders, Brock appeared primarily as an opponent to [[Ash Ketchum]] in his [[EP005|debut episode]]; unlike later Gym Leaders, he requested to join Ash on his {{pkmn|journey}}, aiming to be the world's greatest {{tc|Pokémon Breeder}}. In doing so, Brock left the Gym in the hands of his father, {{ka|Flint}}, who had finally revealed himself to have returned from his journey. Brock advised Ash throughout the [[Kanto]] [[region]], then left briefly during the [[Orange Islands]] arc to assist [[Professor Ivy]]. He returned to Ash's side in [[Johto]], and with brief returns to [[Pewter City]] at the end of each series, joined him for his journeys in [[Hoenn]] and [[Sinnoh]] as well. However, towards the end of {{aniseries|DP}}, Brock decided to become a {{tc|Doctor|Pokémon Doctor}} and parted ways from traveling with Ash. Despite this, Brock reunites with Ash from time to time, meeting up with him in {{aniseries|SM}}. More recently, he reappeared in {{aniseries|JN}} for a [[Pokémon: The Arceus Chronicles|four-part special]] set in Sinnoh and resumed traveling with Ash before returning home.
+
+Brock mainly provides an advisory role to the other main characters of ''Pokémon the Series'', being several years older than the rest of them. His knowledge of Pokémon battles is great, causing him to often referee matches between Ash and others. Brock also fancies himself as something of a ladies' man, though each time he hits on someone he is either rejected outright; pulled away by {{an|Misty}} or [[Max]]; or, more recently, {{m|Poison Jab}}bed by his {{TP|Brock|Croagunk}}.
+
+===Pokémon Origins===
+[[File:Brock Poké Balls PO.png|250px|thumb|left|Brock in Pokémon Origins]]
+In [[Pokémon Origins]], Brock is the only Gym Leader to have a key role other than [[Giovanni]]. Much like his role in the {{pkmn|games}}, Brock is the Gym Leader of the Pewter Gym.
+
+Brock is first seen in ''[[PO01|File 1: Red]]'', watching a [[Pokémon battle]] between {{OBP|Red|Origins}} and {{OBP|Blue|Origins}}. After Red is defeated, Brock talks to Red and teaches him about the basics of Pokémon battling and training.
+
+A calm, eloquent, and dignified young man, Brock is presented as both wise and experienced in the field of Pokémon.
+  
+Later, Red discovers that Brock is the Gym Leader of Pewter City and goes to challenge Brock to earn his first Badge. There, they have a Gym battle in which Brock teaches Red about type matchups and strategy. Brock is shown to have many Pokémon, and selects Geodude and Onix when Red confirms that he has no [[Badge]]s. This implies that all Gym Leaders have Pokémon of varying strengths in reserve in order to keep each challenge a fair fight. After a lengthy and tough battle, Red eventually defeats Brock by using all of his Pokémon to slowly weaken Brock's Onix until it falls. Having lost the battle, Brock awards Red with the Boulder Badge and {{TM|34|Bide}}. After imparting some final words of wisdom, Brock sends the blossoming Red on his way.
+
+Unlike most other characters in Pokémon Origins, whose designs were based on their {{game|FireRed and LeafGreen|s}} designs, Brock's design is more akin to his {{game|HeartGold and SoulSilver|s}} design.
+
+====Pokémon====
+{{MissingInfo|2|java|enva|scope=section}}
+{{TrainerPoké
+|main=yes
+|trainer=Brock
+|pkmn=Geodude
+|type1=Rock
+|type2=Ground
+|img=Brock Geodude PO.png
+|epnum=PO01
+|epname=File 1: Red
+|desc={{p|Geodude}} was the first Pokémon Brock used in his Gym battle against {{OBP|Red|Origins}}. It nearly defeated Red's {{TP|Red|Charmander}}, forcing him to switch out for his {{p|Nidoran♂}}, who was able to defeat Geodude with a {{m|Double Kick}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Brock
+|pkmn=Onix
+|type1=Rock
+|type2=Ground
+|img=Brock Onix PO.png
+|epnum=PO01
+|epname=File 1: Red
+|vaen=List of English voice actors{{!}}Keith Silverstein
+|desc={{p|Onix}} was the second Pokémon Brock used during his Gym battle against Red. It manage to defeat Red's {{p|Nidoran♂}}, {{p|Spearow}}, {{p|Rattata}}, and {{p|Metapod}}. With the help of Metapod's {{m|String Shot}} reducing its speed, Onix was later defeated by Red's Charmander.}}
+
+====Voice actors====
+{{vatable|color={{rock color}}|bordercolor={{rock color light}}
+|ja=杉田智和 ''Tomokazu Sugita''
+|en=Johnny Yong Bosch
+|es_eu=Víctor Martínez
+|fr=Pierre Lognay
+|de=Michael Deffert
+|it=Federico Zanandrea}}
+
+===GOTCHA!===
+Brock briefly appeared in [[GOTCHA!]].
+
+==In the manga==
+===Ash & Pikachu===
+{{main|Brock (anime)#Ash & Pikachu|Brock (anime)}}
+Brock appears in [[Ash & Pikachu]], a {{pkmn|manga}} based on the {{pkmn|animated series}}. Like in the animated series, he is a traveling companion of {{Ash}} alongside {{an|Misty}}.
+
+===The Electric Tale of Pikachu===
+{{main|Brock (anime)#The Electric Tale of Pikachu|Brock (anime)}}
+As [[The Electric Tale of Pikachu]] is based on the {{aniseries|OS}}, {{an|Brock}} is a commonly recurring character, although he does not appear in every chapter and he does not travel with {{Ash}} and {{an|Misty}} constantly.
+
+===Magical Pokémon Journey===
+[[File:Ash and Brock MPJ.png|thumb|200px|Ash and Brock in Magical Pokémon Journey]]
+Brock, along with {{Ash}} and {{an|Misty}}, make cameo appearances in bonus chapters of [[Magical Pokémon Journey]]. In the bonus chapters, Brock and co. have mistakenly wandered into the world Magical Pokémon Journey is set in. The bonus chapters chronicle their attempts to return to their own world (of the {{pkmn|animated series}}) and their encounters with various aspects of the Magical Pokémon Journey canon which differ from the animated series' canon (such as the use of [[Poké Ball]]s).
+{{-}}
+
+===Movie adaptations===
+[[File:DP series trio.png|thumb|200px|Brock with his friends]]
+As Brock has appeared in every movie prior to ''[[Pokémon the Series: Black & White]]'', he has appeared in every manga adaptation of it. His team in the manga adaptations are the same as in the films.
+
+===Pokémon Adventures===
+[[File:Brock Misty Erika Blaine Adventures.png|thumb|251x251px|Brock's (top) current appearance in Pokémon Adventures]]
+Aside from being a Gym Leader, Brock also works as a security guard at the [[Pewter Museum of Science]].
+
+====History====
+====={{MangaArc|Red, Green & Blue}}=====
+Brock debuts in ''[[PS005|Onix Is On!]]'', though he is mentioned earlier by {{adv|Blue}} in ''[[PS004|Wanted: Pikachu!]]'', who described him as being bored by no one being able to defeat him, or even get past the preliminaries. To gain access to Brock, a Trainer must win several rounds of battles against special Trainers of the Gym, and all of those battles are watched by him from a special room.
+
+Brock is a brave Trainer, and he assists [[Erika]] and [[Misty]] in their {{pkmn|battle}}s against [[Team Rocket]]. He also gave {{adv|Yellow}} a {{p|Graveler}} after the good [[Gym Leader]]s of [[Kanto]] battled [[Agatha]]'s mind-controlling {{p|Gastly}}. However, he is also shown to be quick to anger and restless in his search for a good battle, and when discovering that {{adv|Red}}'s [[Pika]], the only remaining Pokémon of his, was disobedient, deemed his wins "dumb luck" and sought for a finisher attack instantly. However, when the boy begins to gain his Pokémon's trust, it chooses to fight for him and defeats his Onix.
+
+====={{MangaArc|Yellow}}=====
+After {{adv|Blaine}} figured out that Red must have been at [[Mt. Moon]] before going missing, Brock volunteered to search there, since Mt. Moon is closest to [[Pewter City]]. He then found a cast of Red frozen in ice there and contacted Blaine. Before all of the information could be exchanged, he found out that [[Pewter City]] was under attack by a group of [[Bruno]]'s {{p|Machop}} that was searching for Brock's {{badge|Boulder}}, and he left to protect it.
+
+====={{MangaArc|Gold, Silver & Crystal}}=====
+A few years later, he, along with Erika and Misty, traveled to [[Johto]] for the Gym Leader Tournament at the [[Indigo Plateau]], where he faced off against the expert of the newly discovered {{type|Steel}}, [[Jasmine]]. He lost the match and later fought against Team Rocket on the [[Magnet Train]].
+
+====Pokémon====
+This listing is of Brock's Pokémon in Pokémon Adventures.
+
+=====On hand=====
+{{TrainerPoké
+|main=Brock's Geodude
+|trainer=Brock
+|pkmn=Geodude (×6)
+|gender=male
+|type1=Rock
+|type2=Ground
+|img=Brock Geodude Adventures.png
+|cap=Brock's Geodude
+|epnum=PS005
+|epname=Onix Is On!
+|desc=Brock owns six {{p|Geodude}}, nicknamed Geoone, Geotwo, Geothree, and so on. One of them appeared in ''[[PS005|Onix Is On!]]'' watching the battles with his Trainer. The other five first appeared in ''[[PS064|Putting It On The Line...Against Arcanine]]''. They often grasp each others' wrists in order to circle around Brock to protect him. During the {{MangaArc|Gold, Silver & Crystal}}, they used their {{m|Magnitude}} to stop the Magnet Train. However, the impact sent it off course, causing it to almost crash before it was saved by {{adv|Red}}'s {{p|Snorlax}}, [[Snor]].}}
+
+{{anchor|Onix 2}}{{TrainerPoké
+|main=yes
+|trainer=Brock
+|pkmn=Onix
+|gender=male
+|type1=Rock
+|type2=Ground
+|img=Brock Onix Adventures.png
+|epnum=PS005
+|epname=Onix Is On!
+|desc={{p|Onix}} is arguably Brock's most powerful Pokémon and is apparently well known for its speed, which causes shock waves when it moves. Onix was first used in battle against {{adv|Red}}'s {{p|Pikachu}}, [[Pika]]. Despite the type advantage, Onix was defeated by the small Electric-type after it came to fight for Red of its own will. Three years later, Onix was sent out by Brock to use as a bridge when a bridge in the [[Tohjo Falls]] went out while Brock, Erika, and Misty were heading to Johto, during which Misty is joined by {{p|Suicune}}. However, it itself collapsed when they were all attacked by a large group of {{p|Zubat}}, {{p|Golbat}} and {{p|Crobat}}. Once the group finally made it to the Indigo Plateau, Brock used Onix in his battle with [[Jasmine]]. It lost to [[Jasmine's Steelix]], which he initially mistook as an Onix of a different variety due to its rock covering used to hide the fact that it was a new, undiscovered species at the time.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Kabutops
+|stage1=Kabuto
+|type1=Rock
+|type2=Water
+|img=Brock Kabuto Adventures.png
+|cap=Brock's Kabuto
+|img2=Brock Kabutops Adventures.png
+|epnum=PS077
+|epname=Striking Golduck
+|desc=Brock met {{p|Kabutops}} when it was a {{p|Kabuto}} in the [[Pewter Museum of Science]] during the [[Elite Four]]'s invasion of [[Kanto]], and received and later evolved it for protecting it during the ordeal. It knows many ancient attacks and is a very powerful member of Brock's team; it was able to easily hold its own against Jasmine's {{p|Ampharos}}, [[Amphy]], nearly winning him the match despite the type disadvantage.
+
+Kabutops's only known move is {{m|Ancient Power}}, and its Ability is {{a|Battle Armor}}.}}
+
+=====Given away=====
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Graveler
+|type1=Rock
+|type2=Ground
+|gender=male
+|img=Brock Graveler Adventures.png
+|epnum=PS005
+|epname=Onix Is On!
+|desc=Brock's {{p|Graveler}} was first seen as he watched Red battle the Trainers in the [[Pewter Gym]]. Later on, Brock gave him to {{adv|Yellow}}, who named him Gravvy. He has since evolved it into a {{p|Golem}}.
+
+Graveler's known moves are {{m|Mega Punch}}, {{m|Rock Throw}}, {{m|Take Down}}, and {{m|Defense Curl}}, and his Ability is {{a|Sturdy}}.}}
+
+===Pocket Monsters HGSS Jō's Big Adventure===
+[[File:Kanto Gym Leaders JBA.png|thumb|200px|Brock in Pocket Monsters HGSS Jō's Big Adventure]]
+Brock appeared as a silhouette in [[JBA5]] alongside his {{TP|Brock|Onix}} and the other Kanto Gym Leaders.
+
+====Pokémon====
+This is a listing of Brock's known Pokémon in the Pocket Monsters HGSS Jō's Big Adventure manga:
+
+{{anchor|Onix 3}}{{TrainerPoké
+|trainer=Brock
+|pkmn=Onix
+|img=Kanto Gym Leaders JBA.png
+|main=yes
+|width=74
+|type1=Rock
+|type2=Ground
+|epnum=JBA5
+|desc={{p|Onix}} is Brock's only known Pokémon. It only appeared as a silhouette.}}
+{{-}}
+[[File:Brock PM.png|thumb|140px|Brock in the Pocket Monsters manga]]
+[[File:Brock Misty PMRS.png|thumb|left|140px|Brock in the Pokémon Ruby-Sapphire manga]]
+
+===Pokémon Pocket Monsters===
+Brock debuted in ''[[PM003|Take Out The Rival Onix!!]]''. Before {{PPM|Red}} arrived in Pewter City, {{PPM|Green}} got there and took Brock on. However, Brock was brutally strong as he managed to knock Green and his {{TP|Green|Charmander}} back into a window. The impact caused him to tell Red about Brock's strength. Despite Green's advice, Red decided to go to the Gym anyway. Red noticed Brock's collection of Pokémon he had caught over the years and one of them turned out to be {{TP|Red|Clefairy}}'s cousin, {{TP|Red|Pikachu|Pikachu (Pocket Monsters)}}. Brock then came and Red had his first Gym battle with him. Red used Clefairy while Brock used {{TP|Brock|Onix}}. Clefairy managed to defeat Onix by having it chase its own tail, earning Red the {{badge|Boulder}}.
+
+Brock reappeared in ''[[PMRSs1|Clefairy, Form Teacher Of Class 1P!!]]'' in a form of a cameo. He was seen wearing his outfit from {{game|FireRed and LeafGreen|s}}.
+<br>
+====Pokémon====
+=====On hand=====
+{{anchor|Onix 4}}{{TrainerPoké
+|main=yes
+|link=Brock's Onix
+|trainer=Brock
+|pkmn=Onix
+|gender=Unknown
+|type1=Rock
+|type2=Ground
+|img=Brock Onix PM.png
+|epnum=PM003
+|epname=Bring Down the Powerful Opponent Onix!!
+|desc={{p|Onix}} is Brock's signature Pokémon. Onix is frequently used in Brock's Gym battles.}}
+
+{{TrainerPoké
+|trainer=Brock
+|pkmn=Other Pokémon
+|gender=Unknown
+|type1=Unknown
+|img=Brock Pokémon PPM.png
+|epnum=PM003
+|epname=Bring Down the Powerful Opponent Onix!!
+|desc=Brock is shown with a large Pokémon collection at the [[Pewter Gym]]. Many of them are [[List of disputed and unidentified Pokémon|not identifiable]] as currently known Pokémon.
+
+None of their move's are known.}}
+
+=====Given away=====
+{| style="float:left; width: 25%"
+|-
+| {{InactivePoké|Red|Pikachu|Brock Pikachu PM.png|Electric|link=Red's Pikachu (Pocket Monsters)}} ♂
+|}
+{{left clear}}
+
+===Pokémon Zensho===
+[[File:Brock Zensho.png|thumb|150px|Brock in Pokémon Zensho]]
+Brock appears in [[PZ02]] as the first Gym Leader that {{Zensho|Satoshi}} battled. Initially, {{zensho|Satoshi's Charmander}} was losing against [[Brock's Onix]], but eventually, the small {{type|Fire}} managed to defeat Onix by chopping off its horn, winning Satoshi his first Badge.
+
+====Pokémon====
+{| style="float:left; width: 25%"
+|-
+| {{InactivePoké|Brock|Onix|Brock Onix Zensho.png|Rock|Ground|size=100px|link=Brock's Onix#In the Pokémon Zensho manga}}
+|}
+{{-}}
+
+==In the TCG==
+Brock has an {{TCG|Brock|eponymous}} [[Theme Deck]] in the {{TCG|Gym Heroes}} expansion. Its {{TCG|Nivi City Gym|Japanese counterpart}} is based on the Pewter Gym.
+
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color}}; font-size:80%"
+|-
+|rowspan=3 style="{{roundy|20px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:NiviCityGymDeck.jpg|130px]]
+|style="{{roundy|5px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:Brocktrainer.jpg|180px]]
+|style="{{roundy|5px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:Brock-TCG1.jpg|180px]]
+|style="{{roundy|5px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:Brocks-Training-Method.jpg|180px]]
+|-
+| Brock and the Boulder Badge
+| Brock and the Boulder Badge
+| Brock feeds {{color2|000000|Brock's Steelix|his Onix}}
+|-
+|style="{{roundy|5px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:Brocks-Protection.jpg|180px]]
+|style="{{roundy|5px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:Blaine-Quiz3.jpg|180px]]
+|style="{{roundy|20px}} border: 2px solid #{{tcg fighting color dark}}; background: #{{tcg fighting color light}}; width:80px"| [[File:BrockVS.png|150px]]
+|- style=""
+| Artwork from the<br>{{color2|000|Nivi City Gym (TCG)|Nivi City Gym}} {{color2|000|Theme Deck (TCG)|Theme Deck}}
+| Brock wears a "Rocky" Onix shirt
+| Brock gets frustrated with {{color2|000000|Blaine}}'s quizzes
+| Brock's updated {{color2|000000|Pokémon VS (TCG)|VS}} art
+|}
+
+===Cards===
+Brock has an {{TCG|Brock|eponymous}} {{TCG|Theme Deck}} in the {{TCG|Gym Heroes}} expansion. All cards mentioning or featuring Brock or his Pokémon in the [[Pokémon Trading Card Game|Pokémon TCG]] are listed below.
+
+{{cardlist/header|Brock's Pokémon|Fighting|char=yes}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Rhydon|2}}|type=Fighting|enset=Gym Heroes|enrarity=Rare Holo|ennum=2/132|jpset=Leaders' Stadium|jprarity=Rare Holo|jpset2=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Golem|20}}|type=Fighting|enset=Gym Heroes|enrarity=Rare|ennum=20/132|jpset=Leaders' Stadium|jprarity=Rare}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Onix|21}}|type=Fighting|enset=Gym Heroes|enrarity=Rare|ennum=21/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Rhyhorn|22}}|type=Fighting|enset=Gym Heroes|enrarity=Rare|ennum=22/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Sandslash|23}}|type=Fighting|enset=Gym Heroes|enrarity=Rare|ennum=23/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Zubat|24}}|type=Grass|enset=Gym Heroes|enrarity=Rare|ennum=24/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Geodude|38}}|type=Fighting|enset=Gym Heroes|enrarity=Uncommon|ennum=38/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Golbat|39}}|type=Grass|enset=Gym Heroes|enrarity=Uncommon|ennum=39/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Graveler|40}}|type=Fighting|enset=Gym Heroes|enrarity=Uncommon|ennum=40/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Lickitung|41}}|type=Colorless|enset=Gym Heroes|enrarity=Uncommon|ennum=41/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Geodude|66}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=66/132|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Mankey|67}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=67/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Mankey|68}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=68/132|jpset=Leaders' Stadium|jprarity=Common|jpset2=Unnumbered Promotional cards}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Onix|69}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=69/132|jpset=Challenge from the Darkness|jprarity=Common|jpset2=Unnumbered Promotional cards}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Rhyhorn|70}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=70/132|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Sandshrew|71}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=71/132|jpset=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Sandshrew|72}}|type=Fighting|enset=Gym Heroes|enrarity=Common|ennum=72/132|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Vulpix|73}}|type=Fire|enset=Gym Heroes|enrarity=Common|ennum=73/132|jpset=Leaders' Stadium|jprarity=Common|jpset2=Nivi City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Zubat|74}}|type=Grass|enset=Gym Heroes|enrarity=Common|ennum=74/132|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Ninetales|3}}|type=Fire|enset=Gym Challenge|enrarity=Rare Holo|ennum=3/132|jpset=Leaders' Stadium|jprarity=Rare Holo}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Dugtrio|22}}|type=Fighting|enset=Gym Challenge|enrarity=Rare|ennum=22/132|jpset=Leaders' Stadium|jprarity=Rare}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Graveler|34}}|type=Fighting|enset=Gym Challenge|enrarity=Uncommon|ennum=34/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Primeape|35}}|type=Fighting|enset=Gym Challenge|enrarity=Uncommon|ennum=35/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Sandslash|36}}|type=Fighting|enset=Gym Challenge|enrarity=Uncommon|ennum=36/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Vulpix|37}}|type=Fire|enset=Gym Challenge|enrarity=Uncommon|ennum=37/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Diglett|67}}|type=Fighting|enset=Gym Challenge|enrarity=Common|ennum=67/132|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Geodude|68}}|type=Fighting|enset=Gym Challenge|enrarity=Common|ennum=68/132|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|VS|Brock's Omastar|68}}|type=Fighting|jpset=Pokémon VS|jprarity=Common|jpnum=068/141}}
+{{cardlist/entry|cardname={{TCG ID|VS|Brock's Kabutops|69}}|type=Fighting|jpset=Pokémon VS|jprarity=Common|jpnum=069/141}}
+{{cardlist/entry|cardname={{TCG ID|Theater VS Pack|Brock's Crobat|2}}|type=Grass|jpset=Theater Limited VS Pack|jpnum=002/018}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Brock's Forretress|11}}|type=Metal|jpset=Movie Commemoration VS Pack: Aura's Lucario|jpnum=011/020}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Brock's Marshtomp|8}}|type=Fighting|jpset=Movie Commemoration VS Pack: Sea's Manaphy|jpnum=008/019}}
+{{cardlist/entry|cardname={{TCG ID|ADV-P Promo|Brock's Mudkip|38}}|type=Water|jpset=ADV-P Promotional cards|jpnum=038/ADV-P}}
+{{cardlist/entry|cardname=[[Croagunk M (Movie Random Pack 13)|Croagunk]] {{SP|M}}|type=Psychic|jpset=Movie Commemoration Random Pack|jpnum=013/022}}
+{{cardlist/div|Other related cards|Fighting}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock|15}}|type=Trainer|enset=Gym Heroes|enrarity=Rare Holo|ennum=15/132|jpset=Nivi City Gym|enset2=Gym Heroes|enrarity2=Rare|ennum2=98/132|jpset2=Leaders' Stadium|jprarity2=Rare}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Brock's Training Method|106}}|type=Trainer|enset=Gym Heroes|enrarity=Uncommon|ennum=106/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Pewter City Gym|115}}|type=Trainer|type2=Stadium|enset=Gym Heroes|enrarity=Uncommon|ennum=115/132|jpset=Leaders' Stadium|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Brock's Protection|101}}|type=Trainer|enset=Gym Challenge|enrarity=Rare|ennum=101/132|jpset=Leaders' Stadium|jprarity=Rare}}
+{{cardlist/entry|cardname=[[Blaine's Quiz 3 (Gym Challenge 112)|Blaine's Quiz #3]]|type=Trainer|enset=Gym Challenge|enrarity=Uncommon|ennum=112/132|jpset=Challenge from the Darkness|jprarity=Uncommon}}
+{{cardlist/entry|cardname={{TCG ID|Evolutions|Brock's Grit|74}}|type=Supporter|expanded=yes|enset=Evolutions|enrarity=Uncommon|ennum=74/108|jpset=Expansion Pack 20th Anniversary|jprarity=U|jpnum=086/087|enset2=Evolutions|enrarity2=Rare Ultra|ennum2=107/108|jpset2=Expansion Pack 20th Anniversary|jprarity2=SR|jpnum2=100/087|enset3=Team Up|enrarity3=Uncommon|ennum3=135/181|jpset3=Tag Bolt|jprarity3=U|jpnum3=087/095|enset4=Team Up|enrarity4=Rare Ultra|ennum4=172/181|jpset4=Tag Bolt|jprarity4=SR|jpnum4=108/095|enset5=Hidden Fates|enrarity5=Uncommon|ennum5=53/68|jpset5=Brock of Pewter City Gym Trainer Battle Deck|jpnum5=024/031}}
+{{cardlist/entry|cardname={{TCG ID|XY Promo|Gym Badge|203}}|expanded=yes|type=Item|enset=XY Black Star Promos|ennum=XY203|jpset=XY-P Promotional cards}}
+{{cardlist/entry|cardname={{TCG ID|Hidden Fates|Brock's Pewter City Gym|54}}|type=Stadium|expanded=yes|enset=Hidden Fates|enrarity=Uncommon|ennum=54/68|jpset=Brock of Pewter City Gym Trainer Battle Deck|jpnum=030/031}}
+{{cardlist/entry|cardname={{TCG ID|Hidden Fates|Brock's Training|55}}|type=Supporter|expanded=yes|enset=Hidden Fates|enrarity=Rare Holo|ennum=55/68|jpset=Brock of Pewter City Gym Trainer Battle Deck|jpnum=025/031}}
+{{cardlist/entry|cardname={{TCG ID|Battle Partners|Brock's Scouting|96}}|type=Supporter|enset=Journey Together|enrarity=Uncommon|ennum=146/159|jpset=Battle Partners|jprarity=U|jpnum=096/100}}
+{{cardlist/footer|Fighting}}
+
+==In the TFG==
+{{TFG ID|Next Quest|Brock|39}} appears as a rare {{TFG|Trainer figure}} in the launch set, {{TFG|Next Quest}}, of the [[Pokémon Trading Figure Game]].
+
+==Trivia==
+* In {{5v2|Red|Blue|Yellow|FireRed|LeafGreen}}, all of Brock's {{OBP|Pokémon|species}} are part {{type|Ground}} as well as part {{type|Rock}}.
+* Despite being a Rock-type [[Type expert|expert]], none of Brock's Pokémon in [[Generation I]] know any Rock-type [[move]]s, only knowing {{type|Normal}} ones. This was changed in FireRed and LeafGreen.
+* In Pokémon Yellow, Brock's {{p|Onix}} knows {{m|Bind}} at [[level]] 12, despite Onix not learning the move until level 15 in that generation.
+* Brock is one of two [[Gym Leader]]s not to give the {{player}} a [[TM]] of his specialty type, the other being [[Falkner]]. This is only true in Generations I and VII, however, as in FireRed and LeafGreen, Brock's chosen TM changed from {{TM|34|Bide}} to {{TM|39|Rock Tomb}}.
+* In HeartGold and SoulSilver, Brock trades the player a Rhyhorn knowing {{m|Thunder Fang}} (an [[Egg Move]]) in exchange for a {{p|Bonsly}}. This may be a reference to his {{an|Brock|animated series counterpart}}, who is a {{tc|Pokémon Breeder}} and once owned a [[Brock's Sudowoodo|Bonsly]].
+* As seen in HeartGold and SoulSilver, Brock's [[Trainer ID number]] is 06845.
+* Out of all of Brock's Pokémon in the [[core series]] games, only three do not suffer from a double weakness to {{t|Grass}}: {{p|Rampardos}}, {{p|Aerodactyl}}, and {{p|Tyranitar}}.
+* In the [[Pokémon Stadium series]], Brock has been shown with several non-Rock-type Pokémon that his animated series counterpart would later come to own, namely {{p|Golbat}} in {{pkmn|Stadium}}'s Round 2 fight, {{p|Forretress}} in {{pkmn|Stadium 2}}'s Round 1 fight, and {{p|Steelix}} in Stadium 2's Round 2 fight.
+* Brock shares his French name (Pierre) with {{Steven}}, the {{pkmn|Champion}} of the [[Hoenn]] [[region]].
+* It can be inferred from conceptual art that Brock wasn't originally planned to be the first Gym Leader in {{2v2|Red|Green}}.<ref>https://twitter.com/SUPER_32X/status/611129653110026241</ref>
+
+==Names==
+{| class="roundtable" style="background:#{{rock color}}; border:3px solid #{{rock color dark}}"
+|-
+! style="background:#{{rock color light}}" | Language
+! style="background:#{{rock color light}}" | Name
+! style="background:#{{rock color light}}" | Origin
+|-
+| Japanese
+| タケシ ''Takeshi''
+| From 竹 ''take'' ({{wp|bamboo}}), 岳 ''take'' (mountain peak), 武し ''takeshi'' (brave), and possibly 石 ''ishi'' (stone)
+|-
+| English, European Spanish,<br>Latin American Spanish, Italian,<br>Catalan, Danish, Hindi, Malay,<br>Norwegian, Dutch, Polish,<br>Brazilian Portuguese, Swedish,<br>Tamil, Telugu, Turkish
+| Brock
+| From ''rock''
+|-
+| German
+| Rocko
+| From ''rock''
+|-
+| French
+| Pierre
+| From ''pierre'' (stone)
+|-
+| Korean
+| 웅 ''Ung''
+| From 웅 (雄) ''ung'' (manly; heroic) or 웅 (熊) ''ung'' (bear)
+|-
+| Chinese (Traditional)
+| 小剛 ''Xiǎo Gāng'' / ''Síu Gōng''
+| rowspan="2" | From the Japanese name 剛 ''{{wp|Takeshi}}'' , 剛 / 刚 ''gāng / gōng'' (tough, firm), and the {{wp|diminutive}} prefix 小 ''xiǎo / síu''
+|-
+| Chinese (Simplified)
+| 小刚 ''Xiǎo Gāng''
+|-
+| Bulgarian, Russian
+| Брок ''Brok''
+| Transcription of his English name
+|-
+| Hebrew
+| ברוק ''Brock''
+| Transcription of his English name
+|-
+| Indonesian
+| Brock<ref group=n>[[Pokémon Trading Card Game|Pokémon TCG]], [[Pokémon animated series]] ([[Original series|Pokémon the Series: The Beginning]])</ref><br>Takeshi<ref group=n>Pokémon animated series ([[Original series|Pokémon the Series: Gold and Silver]] onwards)</ref><br>Brok<ref group=n>[[Pokémon Pocket Monsters]]</ref>
+| Same as his English name<br>Transcription of his Japanese name<br>Similar to his English name
+|-
+| Russian
+| Брок ''Brok''
+| Transcription of his English name
+|-
+| Thai
+| ทาเคชิ ''Thakhechi''
+| Transcription of his Japanese name
+|-
+| Vietnamese
+| Takeshi
+| Transcription of his Japanese name
+|}
+{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==External links==
+* {{wp|Brock (Pokémon)|Article on Wikipedia}}
+
+==References==
+{{reflist}}
+
+{{Gym Leaders of Kanto}}
+{{Brock's Pokémon}}
+{{Project CharacterDex notice}}
+
+[[Category:Manga characters]]
+[[Category:Pokémon Adventures characters]]
+[[Category:Pokémon Pocket Monsters characters]]
+[[Category:Pokémon Zensho characters]]
+[[Category:Pokémon Origins characters]]
+[[Category:Red, Blue and Yellow characters]]
+[[Category:Gold, Silver and Crystal characters]]
+[[Category:FireRed and LeafGreen characters]]
+[[Category:HeartGold and SoulSilver characters]]
+[[Category:Black 2 and White 2 characters]]
+[[Category:Let's Go, Pikachu! and Let's Go, Eevee! characters]]
+[[Category:Stadium characters]]
+[[Category:Stadium 2 characters]]
+[[Category:Gym Leaders]]
+[[Category:Rock-type Trainers]]
+
+[[de:Rocko]]
+[[es:Brock]]
+[[fr:Pierre (Kanto)]]
+[[it:Brock]]
+[[ja:タケシ]]
+[[zh:小剛]]

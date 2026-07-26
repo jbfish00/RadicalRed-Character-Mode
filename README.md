@@ -4,7 +4,7 @@ An opt-in game mode where you play as an iconic Pokemon character — a
 protagonist, rival, gym leader, Elite Four member, champion, villain, or
 anime cast member — and are restricted to catching and keeping only that
 character's canon roster (as documented on Bulbapedia, expanded to full
-evolution families). 199 characters, Generations 1 through 9.
+evolution families). 238 characters, Generations 1 through 9.
 
 Ported from the original Character Mode built for Pokemon ROWE.
 
@@ -183,6 +183,8 @@ roster.)
 | `Palmer` | Palmer | frontier | random from roster |
 | `Dahlia` | Dahlia | frontier | random from roster |
 | `Darach` | Darach | frontier | random from roster |
+| `Argenta` | Argenta | frontier | random from roster |
+| `Thorton` | Thorton | frontier | random from roster |
 
 ### Generation 5
 
@@ -218,6 +220,7 @@ roster.)
 | `Colress` | Colress | villain | Klink |
 | `Trip` | Trip | anime | Snivy |
 | `Juniper` | Juniper | professor | random from roster |
+| `Ingo` | Ingo | frontier | random from roster |
 
 ### Generation 6
 
@@ -298,7 +301,32 @@ roster.)
 | `Sonia` | Sonia | professor | random from roster |
 | `Laventon` | Laventon | professor | random from roster |
 | `Cerise` | Cerise | professor | random from roster |
-| `Volo` | Volo | villain | random from roster |
+| `Volo` | Volo | villain | Togepi |
+| `Adaman` | Adaman | rival | random from roster |
+| `Akari` | Akari | protagonist | random from roster |
+| `Arezu` | Arezu | warden | random from roster |
+| `Beni` | Beni | villain | random from roster |
+| `Calaba` | Calaba | warden | random from roster |
+| `Charm` | Charm | villain | random from roster |
+| `Clover` | Clover | villain | random from roster |
+| `Cogita` | Cogita | other | random from roster |
+| `Coin` | Coin | villain | random from roster |
+| `Cyllene` | Cyllene | galaxy | random from roster |
+| `Gaeric` | Gaeric | warden | random from roster |
+| `Irida` | Irida | rival | random from roster |
+| `Iscan` | Iscan | warden | random from roster |
+| `Kamado` | Kamado | villain | random from roster |
+| `Lian` | Lian | warden | random from roster |
+| `Mai` | Mai | warden | random from roster |
+| `Melli` | Melli | warden | random from roster |
+| `Palina` | Palina | warden | random from roster |
+| `Pesselle` | Pesselle | galaxy | random from roster |
+| `Rei` | Rei | protagonist | random from roster |
+| `Ress` | Ress | galaxy | random from roster |
+| `Rye` | Rye | galaxy | random from roster |
+| `Sabi` | Sabi | warden | random from roster |
+| `Sanqua` | Sanqua | galaxy | random from roster |
+| `Zisu` | Zisu | galaxy | random from roster |
 
 ### Generation 9
 

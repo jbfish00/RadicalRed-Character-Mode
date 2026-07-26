@@ -1,0 +1,306 @@
+{{Redirect|White (game)|the game titled "Pokémon White Version"|Pokémon Black and White Versions}}
+{{Character Infobox
+|color={{white color}}
+|corecolor={{white color light}}
+|bordercolor={{white color dark}}
+|name=Hilda
+|jname=トウコ
+|tmname=Touko
+|jtranslit=Tōko
+|image=Black White Hilda.png
+|size=185px
+|caption=Art from {{2v2|Black|White}}
+|gender=Female
+|hair=Dark brown
+|eyes=Blue
+|age=14-15<ref>[http://raim2005.blog18.fc2.com/blog-entry-980.html 【BW/BW2】ファンミーティング情報のまとめ blue skY]</ref><ref>[https://pk-mn.com/n/b2w2-fan-meeting-n-nenrei/ 「ポケモン ブラック２ ホワイト２」のファンミーティングで、「N」や「チェレン」の年齢、怒ったNのイラストなどの設定資料が公開 - ポケモンメモ]</ref>
+|hometown=[[Nuvema Town]]
+|region=[[Unova]]
+|relatives={{OBP|Mom|Black and White}}, mentioned father (as player)
+}}
+{{Character Infobox/Game
+|color={{white color light}}
+|gen={{gen|V}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|games=[[Pokémon Black and White Versions|Black, White]]<br>{{pkmn|Masters EX}}
+|trainer=[[Pokémon Trainer]], [[player character]]
+|counterpart=[[Hilda (Masters)]]
+|enva=[[Erica Mendez]]<ref name="Erica Mendez">[https://twitter.com/tsunderica/status/1178749361343234048 Erica Mendez on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Mariko Nagai<ref name="Mariko Nagai">[https://twitter.com/nagadon0103/status/1178891551851679745 Mariko Nagai on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{white color light}}
+|series=''[[Pokémon Evolutions]]''
+|debut=''[[PE04|The Plan]]''
+|enva=Unknown
+|jpva=Hina Natsume
+}}
+{{Character Infobox/Manga
+|color={{white color light}}
+|series=''[[Pokémon Adventures]]''
+|counterpart=[[White (Adventures)]]
+|debut=''[[PS465|Lights, Camera...Action!]]''
+}}
+|}
+
+'''Hilda''' (Japanese: '''トウコ''' ''Touko'') is the female [[player character]] in {{game|Black and White|s}}. Her male counterpart is {{ga|Hilbert}}.
+
+==In the core series games==
+==={{game|Black and White|s}}===
+====As the protagonist====
+Hilda is a 14-year-old girl who lives in [[Nuvema Town]], along with her childhood friends [[Cheren]] and [[Bianca]]. If chosen as the player, she will receive a [[first partner Pokémon]] and a [[Pokédex]] from [[Professor Juniper]]. After setting off on her [[Pokémon journey]] at the same time as Cheren and Bianca, Hilda will at some point be asked by [[Fennel]] to do some sort of quest; in return for its completion, Hilda will receive a [[C-Gear]].
+
+As well as encountering and battling her childhood friends at various points during her journey, Hilda will also meet a young man known as [[N]], who wishes to create separate worlds for humans and Pokémon. In order to achieve his goals, he and Hilda will battle several times during the course of the game. Hilda will also battle [[Team Plasma]] at various stages of her journey. At the game's climax, Hilda is recognized as a hero by {{p|Reshiram}}{{Sup/5|B}}/{{p|Zekrom}}{{Sup/5|W}}.
+
+====As a non-playable character====
+If not chosen as the player, Hilda appears as the player's partner in the [[Battle Subway]] when choosing to ride the Multi-Train. Two of the following Pokémon are picked from the corresponding list, depending on what the player wants her to base her team on. If the player chooses "A balance between the two," Hilda's Pokémon are chosen from either list.
+
+==={{B2W2}}===
+In Black 2 and White 2, the protagonist of Black and White was said to be searching for N in a faraway region and has not yet returned home. Her mom mistakes the player for her.
+
+===Pokémon===
+{{SubwayPartner
+|color={{white color}}
+|headcolor={{white color light}}
+|bordercolor={{white color dark}}
+|sprite=BW Hilda Back
+|name=Hilda
+|game=BW}}
+
+==In the spin-off games==
+[[File:SSBU Pokemon Trainer palette Hilda.png|200px|thumb|The female Pokémon Trainer's Hilda-based alternate palette in [[Super Smash Bros. Ultimate]]]]
+===[[Super Smash Bros. Ultimate]]===
+While Hilda herself does not appear directly, a palette swap color scheme based on Hilda's design appears for the female {{OBP|Pokémon Trainer|Super Smash Bros.}}, who is an incarnation of {{ga|Leaf}}.
+
+===[[Pokémon Masters EX]]===
+{{main|Hilda (Masters)}}
+Hilda, who is based on the [[Battle Subway]] partner, forms a [[sync pair]] with {{p|Tepig}} and its evolved forms {{p|Pignite}} and {{p|Emboar}}, along with {{p|Diancie}}, {{Shiny}} {{p|Grapploct}}, {{p|Victini}}, {{p|Leafeon}}, {{form|Tornadus|Incarnate Forme}} {{p|Tornadus}}, {{p|Iron Leaves}}, and {{p|Mienfoo}} in [[Pokémon Masters EX]]. Her Diancie is capable of [[Mega Evolution|Mega Evolving]]. Hilda became a playable sync pair on September 30, 2019.
+
+Hilda first appeared as an NPC during the eighteenth chapter of the [[PML arc]]. She also made a notable appearance later in the [[villain arc]]. 
+
+{{PairDex/h|White}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Tepig → Pignite → Emboar|trainerimg=Hilda|0500|Tepig → Pignite → Emboar|gender=female|pokemonlink=Tepig (Pokémon)|Fire|Water|Physical Strike|6|Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Diancie|trainerimg=Hilda Special Costume|sygna=Special Costume|0719M|Diancie|mega=Diancite|form=[[Mega Evolution|Mega Diancie]]|Rock|Steel|Physical Strike|6|Costume Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Grapploct|trainerimg=Hilda Summer 2022|sygna=Summer 2022|0853 s|shiny=yes|Grapploct|gender=female|Fighting|Psychic|Support|exrole=Sprint|6|Seasonal Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Victini|trainerimg=Hilda Sygna|sygna=[[Sygna suit|Sygna Suit]]|0494|Victini|Fire|Dark|Physical Strike|exrole=Support|6|Poké Fair Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Leafeon|trainerimg=Hilda|0470|Leafeon|gender=female|Grass|Fire|Tech|exrole=Support|6|Variety Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Tornadus (Incarnate Forme)|trainerimg=Hilda|0641|Tornadus|gender=male|form={{Form|Forces of Nature|Incarnate Forme}}|buddy=yes|Flying|Ice|Field|exrole=Support|6|Variety Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Iron Leaves|trainerimg=Hilda Champion|1010|sygna={{pkmn|Champion}}|Iron Leaves|exmaster=yes|buddy=yes|Psychic|Bug|Physical Strike|exrole=Sprint|6|EX Master Fair Sync Pair Scout}}
+{{PairDex|068|Hilda|trainerlink=Hilda (Masters)#Mienfoo|trainerimg=Hilda|0619|Mienfoo|gender=female|Fighting|Flying|Support|4EX|Trainer Lodge Friendship Level 100}}
+|}
+
+== Main Outfit ==
+Hilda’s outfit exudes confidence and adventure, perfect for travel. She wears a white tank top under a black open vest, paired with rugged blue denim shorts frayed at the edges. A white-and-red cap with a Poké Ball emblem sits atop her high brown ponytail, while black wristbands add a sporty touch. A bright pink crossbody bag rests at her hip, and tall black boots with pink laces and soles tie the color scheme together for a look that’s both bold and stylish.
+
+==Quotes==
+{{main|Hilda (game)/Quotes}}
+
+==Counterparts==
+[[File:Hilda Evolutions.png|thumb|250px|Hilda in [[Pokémon Evolutions]]]]
+===In animation===
+====Pokémon Evolutions====
+Hilda appeared in ''[[PE04|The Plan]]''. She was first seen in a flashback, playing with her {{p|Tepig}} and being attracted to watch [[Ghetsis]]'s speech in [[Accumula Town]]. In the present day, she appeared at [[N's Castle]], showing Ghetsis that she had obtained the [[Light Stone]], before stepping into the castle's throne room to battle [[N]].
+
+=====Pokémon=====
+{{TrainerPoké
+|trainer=Hilda
+|pkmn=Tepig
+|type1=Fire
+|img=Hilda Tepig Evolutions.png
+|epnum=PE04
+|epname=The Plan
+|vajp=
+|vaen=
+|desc={{p|Tepig}} appeared in a flashback, where Hilda was seen playing with and taking care of it in [[Accumula Town]].
+
+None of Tepig's moves are known.}}
+
+=====Voice actors=====
+{{vatable|color={{white color}}|bordercolor={{white color light}}
+|ja=夏目妃菜 ''Hina Natsume''
+|en=}}
+
+====GOTCHA!====
+Hilda briefly appeared in [[GOTCHA!]].
+
+===In the manga===
+[[File:White Adventures.png|thumb|130px|White, Hilda's Pokémon Adventures counterpart]]
+====Pokémon Adventures====
+{{main|White (Adventures)}}
+Hilda has a counterpart in [[Pokémon Adventures]] named White, who debuted in the {{MangaArc|Black & White}}. She works for an advertisement company called the [[BW Agency]], and she gets the idea to hire {{adv|Black}} upon seeing the bond the latter's {{p|Tepig}} had with a female of its species. In this [[canon]], she is the founder of the [[Pokémon Musical]] and [[Pokéstar Studios]].
+{{-}}
+
+==Merchandise==
+===Kotobukiya ArtFX J Figure===
+Hilda and her partner Pokémon, Tepig, were released as a [[Kotobukiya figurines|Kotobukiya figurine]] on March 2018 and November 2019. It features artwork drawn by [[Hitoshi Ariga]].<ref name=ArtistKotobukiya>[https://web.archive.org/web/20221018150225/https://en.kotobukiya.co.jp/product/product-0000004140/ The Kotobukiya site confirming Ariga designed the Hilda, Tepig, Rosa & Snivy figure.]</ref>
+
+{{MerchGallery2
+|background={{white color}}
+|border={{white color dark}}
+|image1=Kotobukiya ArtFX J Figure Hilda Tepig.png
+|image2=Kotobukiya Hilda and Tepig Figure.jpg
+|caption1=Key art
+|caption2=Figure
+}}
+
+===Pokémon Friends 3DS theme===
+Hilda was featured on a [[Nintendo 3DS themes|theme for the Nintendo 3DS]] known as '''Pokémon Friends''', named '''Pokémon Black/White "Let's Go Together!"''' in Japan.
+
+'''Japan:''' March 11, 2015<ref name=3DSTheme>[https://www.nintendo.co.jp/hardware/3dsseries/theme/archive/pokemon.html Official 3DS theme website in Japan.]</ref>
+<br>'''North America:''' March 12, 2015
+<br>'''Europe:''' March 13, 2015
+
+{{MerchGallery2
+|background={{white color}}
+|border={{white color dark}}
+|image1=Pokémon Friends 3DS theme.png
+|caption1=Theme
+}}
+
+==Gallery==
+''For images related to [[Pokémon Masters EX]], see [[Hilda (Masters)#Gallery|Hilda (Masters).]] ''
+===Core series game artwork===
+This is a selection of artwork featuring Hilda from the core series Pokémon games.
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color}}; font-size:80%;"
+|-
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; width:80px"| [[File:Black White Hilda.png|x250px]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow: hidden; width:80px"| [[File:Victini-Liberty Garden Island.png|x250px]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow: hidden; width:80px"| [[File:Battle Subway artwork.png|x250px]]
+|-
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}'''
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> {{colorlink|Liberty Garden Island|000}}
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> {{colorlink|Battle Subway|000}}
+|}
+
+===Other game artwork===
+This is a selection of artwork featuring Hilda from other Pokémon games.
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color}}; font-size:80%;"
+|-
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow: hidden; width:80px"| [[File:Dream Radar Pitch.png|x200px]]
+|-
+| '''{{color2|000|Pokémon Dream Radar|Dream Radar}}''' <br> Project pitch by <br> {{color2|000|Takao Unno}}<ref name=DreamRadarPitch>[https://www.gamefreak.co.jp/blog/dir_english/2013/02/index.html Masuda's blog showcasing the Dream Radar pitch, drawn by Unno.]</ref>
+|}
+
+===Core series game assets===
+This is a selection of game assets featuring Hilda from the core series Pokémon games.
+{|style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{white color dark}}; background:#{{white color}}; color:#000"
+| colspan="4" style="{{roundy|20px}} border:2px solid #{{white color dark}}; background:#{{white color dark}}; font-size:125%; color:white" | '''{{color2|fff|Generation V}}'''
+|-
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Spr BW Hilda.png]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Spr BW Hilda 2.png]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:BW Hilda Back.png]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:HildaChallenge.png]]
+|-
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Sprite <br> ({{color2|000|Wonder Launcher}})
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Back sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> VS sprite
+|-
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Hildawalkdown.png]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:BW Surf F.png]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Hilda intro.png]]
+|style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Hilda Xtransceiver.png]]
+|-
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Overworld sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Overworld sprite <br> (Surfing)
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Opening sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> {{color2|000|Xtransceiver}} sprite
+|-
+|colspan="2" style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Spr B2W2 Hilda.png]]
+|colspan="2" style="{{roundy|20px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow:hidden"| [[File:Spr B2W2 Hilda 2.png]]
+|-
+|colspan="2" | '''{{GameIcon|B2}}{{GameIcon|W2}}''' <br> Sprite
+|colspan="2" | '''{{GameIcon|B2}}{{GameIcon|W2}}''' <br> Sprite <br> ({{color2|000|Wonder Launcher}})
+|}
+
+===Other artwork===
+This is a selection of other artwork featuring Hilda.
+{| style="margin:auto; text-align:center; {{roundy|10px}} border: 2px solid #{{white color dark}}; background: #{{white color}}; font-size:80%;"
+|-
+|style="{{roundy|10px}} border: 2px solid #{{white color dark}}; background: #{{white color light}}; overflow: hidden; width:80px"| [[File:HM Surf artwork.png|x250px]]
+|-
+| {{color2|000|Pokémon Daisuki Club|Daisuki Club}} <br> {{color2|000|HM}}s
+|}
+
+== In the TCG ==
+[[File:HildaWhiteFlare164.jpg|200px|thumb|Full Art print of Hilda in the TCG]]
+{{main|Hilda (White Flare 84)}}
+'''Hilda''' was introduced as a {{TCG|Supporter card}} in the [[Pokémon Trading Card Game]] during the English Scarlet & Violet Series (the Japanese Scarlet & Violet Era). It was first released in the Japanese {{TCG|Black Bolt/White Flare|White Flare}} expansion before debuting in {{TCG|White Flare|the English expansion of the same name}}, with artwork by [[yuu]]. An {{TCG|ultra rare}} version with artwork by the same illustrator and a {{TCG|special illustration rare}} version with artwork by [[Naoki Saito]] were released in the same sets. This card lets the player search their deck for an [[:Category:Evolution cards|Evolution Pokémon]] and an {{TCG|Energy card}}, and put them into their hand.
+{{-}}
+
+==Trivia==
+* [[Pokémon Black 2 and White 2 beta#Pokémon World Tournament|Unused text]] in {{B2W2}} indicates that Hilda and {{ga|Hilbert}} were originally planned to be battled at the [[Pokémon World Tournament]].
+* Hilda and Hilbert are the first [[player character]]s in the [[core series]] {{pkmn|games}} not to have pre-programmed names either by choice or in case one isn't specified.
+* In the May 2010 volume of [[CoroCoro]] Comics and the January 2011 volume of Nintendo Dream, it was stated that Hilda and Hilbert are older than previous player characters, but it is not said how much older they actually are.
+** According to game scenario author [[Toshinobu Matsumiya]], Hilda and Hilbert were initially visualized to be at the age of 16.<ref>[http://archive.is/THahx Twitter | マツミや @matsumiyan]</ref>
+
+==Names==
+This character is named '''Hilda''' (Japanese: '''トウコ''' ''Touko'') in her NPC appearance in the Battle Subway. It is also her most commonly used name, being used in merchandising and the {{g|Masters EX}} [[Spin-off Pokémon games|spin-off game]]. Her Japanese name was spelled as '''Touko''' on the packaging of [[Kotobukiya figurines|Kotobukiya ArtFX J Figure]].
+
+She was named '''White''' (Japanese: '''ホワイト''' ''White'') in certain pre-release material. English demos for Black and White refer to the character as '''Whitlea''', while English screenshots refer to her as '''Shiro'''. If a transferred Pokémon that has a trainer with a [[Poké Transporter#Censored words|prohibited name]] comes from Black or Black 2, the Pokémon's OT will be set to '''Kuro*''' (Japanese: '''ブラック．''' ''Black.''), while Pokémon from White or White 2 will have their OT set to '''Shiro*''' (Japanese: '''ホワイト．''' ''White.'')
+
+{| class="roundtable" style="background:#{{white color}}; border:3px solid #{{white color dark}}"
+|-
+! style="background:#{{white color light}}" | Language
+! style="background:#{{white color light}}" | Name
+! style="background:#{{white color light}}" | Origin
+|-
+| Japanese
+| トウコ ''Touko''
+| From 闘 ''tō'' (fight) and ～子 ''-ko'' (common suffix in Japanese feminine names) 
+|-
+| English, Indonesian,<br>Brazilian Portuguese
+| Hilda
+| From ''{{wp|Hilda (name)|Hilda}}'', a feminine name derived from the {{wp|Germanic languages|Germanic}} element ''hild'' (battle)
+|-
+| German
+| Lotta
+| From ''lotta'' (Italian for "fight")
+|-
+| European Spanish,<br>Latin American Spanish
+| Liza
+| From ''liza'' (battle; arena)
+|-
+| French
+| Ludvina
+| From ''lutte'' (fight) or the feminine variant of the name ''{{wp|Ludwig (given name)|Ludwig}}'', a Germanic name derived from the Germanic elements ''hlud'' (famous) and ''wig'' (battle)
+|-
+| Italian
+| Anita
+| Possibly from ''Atena'' ({{wp|Athena}}, the Greek goddess of wisdom and warfare) or ''{{wp|Anita Garibaldi}}'' (a revolutionary who is the wife and comrade-in-arms of the Italian national hero {{wp|Giuseppe Garibaldi}})
+|-
+| Korean
+| 투희 ''Tuhui''
+| From 투 (鬪) ''tu'' (fight) and 희 ''{{wp|Hee (Korean name)|hui}}'' (common element in Korean feminine names) 
+|-
+| Chinese (Traditional)
+| 鬥子 ''Dòuzǐ'' / ''Daují''
+| From 鬥 ''dòu / dau'' (fight) and an orthographic borrowing of Japanese 子 ''ko''
+|-
+| Thai
+| โทโกะ ''Toko''
+| Transcription of her Japanese name
+|}
+{{-}}
+
+==References==
+{{reflist}}
+
+==Related articles==
+* [[a:Category:Hilda|Images on the Bulbagarden Archives]]
+{{Player characters|white}}
+{{NPC|white|unova=yes}}
+{{Project CharacterDex notice}}
+
+[[Category:Black and White characters]]
+[[Category:Champions]]
+[[Category:Multi Battle partners]]
+[[Category:Trainers with Legendary Pokémon]]
+[[Category:Pokémon Evolutions characters]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Lotta]]
+[[es:Liza (personaje)]]
+[[fr:Ludvina]]
+[[it:Anita (gioco)]]
+[[ja:トウコ]]
+[[zh:鬥子]]

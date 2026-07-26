@@ -1,0 +1,568 @@
+{{samename|character from [[Hoenn]]|Serena (AG092)}}
+{{Character Infobox
+|color={{y color}}
+|corecolor={{y color light}}
+|bordercolor={{y color dark}}
+|text=fff
+|name=Serena
+|jname=セレナ
+|tmname=Serena
+|image=Serena XY2.png
+|caption=Artwork from ''[[Pokémon the Series: XY]]''
+|gender=Female
+|eyes=Blue
+|hair=Honey
+|hometown=[[Vaniville Town]]
+|region=[[Kalos]]
+|relatives={{kal|Grace}} (mother)
+}}
+{{Character Infobox/Anime
+|color={{y color light}}
+|series=''[[Pokémon the Series]]''
+|debut=''[[XY001|Kalos, Where Dreams and Adventures Begin!]]''
+|counterpart=[[Serena (game)|Serena]]
+|enva=[[Haven Paschall]]
+|jpva=[[Mayuki Makiguchi]]
+}}
+|}
+'''Serena''' (Japanese: '''セレナ''' ''Serena'') is a [[Pokémon Performer]] and a former {{ashfr|traveling companion}} of {{Ash}}, who debuted in ''[[XY001|Kalos, Where Dreams and Adventures Begin!]]''. Her [[List of characters' first Pokémon|first Pokémon]] was a {{TP|Serena|Fennekin}} that she received from {{an|Professor Sycamore}}.
+
+She is a rising [[Pokémon Performer]] who aspires to become the {{DL|Pokémon Performer|Kalos Queen}}. In ''[[Pokémon Journeys: The Series]]'', she is revealed to have become a successful [[Pokémon Coordinator]] as well.
+
+==In animation==
+===History===
+====Pre-series====
+[[File:Young Serena.png|thumb|left|250px|Young Serena]]
+Serena grew up in [[Vaniville Town]] in the [[Kalos]] region with her mother, {{kal|Grace}}. During her childhood, Serena was taught about {{p|Rhyhorn}} racing by her mother, who was a famous Rhyhorn racer, and to know how to handle the {{pkmn|category|Spikes Pokémon}}. Serena also practiced riding {{p|Skiddo}}, but she got scared during one of her practices and hugged her mother for comfort.
+
+Sometime later, Serena was sent to [[Kanto]] against her will to attend a [[Pokémon Summer Camp]], which was hosted by {{an|Professor Oak}}. One day while at the camp, she got lost in a nearby forest and was startled by a {{p|Poliwag}}, falling over and hurting her knee. She then met [[Ash Ketchum]], who was looking for the same Poliwag, and spotted Serena. Noticing her knee injury, he pulled out a handkerchief and wrapped it around her wounded knee, saying that it was a good-luck charm and that the pain would go away. However, when Serena's knee continued to hurt, Ash told her "Don't give up till it's over" and helped her up, before escorting her out of the forest. Afterward, she returned to Kalos, bringing along the handkerchief and the memory of her meeting with Ash.
+{{left clear}}
+
+===={{aniseries|XY}}====
+[[File:Ash and friends XY.png|thumb|250px|Serena, Ash, Clemont, and Bonnie]]
+Serena debuted in ''[[XY001|Kalos, Where Dreams and Adventures Begin!]]'', where she was forcibly woken up by her mother's {{p|Fletchling}}. In ''[[XY002|Lumiose City Pursuit!]]'', she attempted to practice Rhyhorn racing after being encouraged by her mother. However, Serena's attempts at controlling her mother's Rhyhorn ended with her being sent crashing into the ground.
+
+Later that evening, Serena complained about her earlier practice leaving several scratches on her face. She sat down to watch a news report on an incident that was occurring in [[Lumiose City]]. On the screen, she saw Ash trying to calm down a rampaging {{p|Garchomp}} at Prism Tower and recognized Ash as a boy she had known in her childhood. The next day, while feeding Rhyhorn, Serena thought aloud that something interesting was going to happen and that it involved Ash.
+
+Serena began her [[Pokémon journey]] in ''[[XY003|A Battle of Aerial Mobility!]]'' when she set off to {{an|Professor Sycamore}}'s lab in Lumiose City. Immediately upon arriving, Serena questioned the Professor about the boy on television and he confirmed that it was indeed Ash Ketchum. However, to Serena's disappointment, Ash had already left Lumiose City for the [[Santalune City]] [[Santalune Gym|Gym]] the previous day. Serena was then offered to choose her [[first partner Pokémon]].
+
+In ''[[XY004|A Shockingly Cheeky Friendship!]]'', Serena chose {{TP|Serena|Fennekin}}, received a [[Pokédex]], and started her journey. Later that day, she continued to travel with Fennekin but didn't want to camp out for the night after seeing some wild {{p|Venipede}}. She was attacked by a wild {{p|Vespiquen}} that she mistook for a person, only for Fennekin to scare Vespiquen away. Afterward, Serena met a [[Nurse Joy]], who told her where to find the nearest Pokémon Center.
+
+In ''[[XY005|A Blustery Santalune Gym Battle!]]'', she finally reached Santalune City and found Ash during his [[Gym]] battle with [[Viola]]. She introduced herself to him, {{an|Clemont}}, and {{an|Bonnie}}, after returning his backpack when it was left behind at the Gym. At the end of the episode, she asks Ash if he remembers her, at which point the episode abruptly ends.
+
+In ''[[XY006|Battling on Thin Ice!]]'', she revealed that the two of them met at the Pokémon Summer Camp when they were younger. Although Ash remembered the camp, he didn't specifically remember meeting Serena, much to her disappointment. Serena quickly regained her composure and reminded him that he once told her to never give up. Hearing these words helped Ash continue his training to win the rematch against Viola. During the rematch, Ash was visibly becoming overwhelmed by Viola's battling strategy, but Serena yelled at him to never give up. The inspiration that he had once given Serena was now being given to him, and these words encouraged him to continue the battle. At the end of the episode, after winning the Bug Badge, Ash asked Serena what her plans for the future were.
+
+Serena officially began traveling with Ash and his friends in ''[[XY007|Giving Chase at the Rhyhorn Race!]]''. This was when Serena revealed why she began her journey in the first place. After seeing Ash on TV, she decided that she would begin a Pokémon journey to return the handkerchief he used to mend her knee injury. After she returned the handkerchief, Ash remembered their encounter and called her the "girl with the straw hat".
+
+Later on, Serena helped teach Ash how to ride and race on a Rhyhorn when he expressed an interest in Rhyhorn racing. While doing so, Serena's opinion on Rhyhorn and Rhyhorn riding quickly changed when the Rhyhorn were very friendly towards her. Later, while she was helping Ash learn to ride, she called out similar words Serena's mother had yelled to her during her Rhyhorn riding lessons at home. At that moment, Serena realized that she had misjudged the sport of Rhyhorn racing and that perhaps she did not hate it as much as she thought. Serena expressed in the same episode that she did not dislike Rhyhorn racing but that she wanted to find a goal that she liked even more.
+
+The next day, Ash was captured by {{TRT}} and Serena had to help rescue him. This was when Serena had her first Pokémon battle, commanding Fennekin to use {{m|Ember}} on the criminals. At the end of the episode, she gave Ash a pouch of cookies, saying it was her way of thanking him for all he had done for her.
+
+In ''[[XY009|Clemont's Got a Secret!]]'', Serena learned from Clemont's father, [[Meyer]], that Clemont is the Lumiose City [[Gym Leader]]. Although initially angry with Clemont for keeping this secret from her along with Ash, she helped take back the [[Gym]] from the malfunctioning [[Clembot]]. She battled [[Clemont's Magneton]] with her Fennekin, but it managed to avoid Fennekin's attack, forcing {{AP|Pikachu}} and {{AP|Froakie}} to step in and defeat it. Later, she watched Clemont battle and defeat Clembot for the control of the [[Lumiose Gym]].
+
+[[File:Miette and Serena.png|thumb|220px|Serena and Miette]]
+In ''[[XY021|A Pokévision of Things to Come!]]'', Serena decided to make a [[Pokévision]] video. After watching some sample Pokévision videos in the Pokémon Center, Serena decided to make one of her own with her Fennekin. She rented a camera and began filming with Fennekin. The two of them dressed up in multiple outfits and the video featured them posing and baking together. However, during the filming of the video, Fennekin was captured by Team Rocket. Serena was able to rescue Fennekin, and in the process she remembered all that they had been through together. Her feelings of [[friendship]] were conveyed to her Pokémon, and Fennekin was able to learn {{m|Flamethrower}} in the battle against Team Rocket. After this event, Serena was able to finish her filming and was proud of her final product.
+
+In ''[[XY026|A Battle by Any Other Name!]]'', Serena participated in the [[Poké Puff Contest]], but she did not emerge victorious. Before the event, she met another competitor named [[Miette]]. The two of them compared their [[Poké Puff]]s to see whose were superior, which led to a spark of rivalry between them. After comparing the two Poké Puffs, the group realized that Serena's Poké Puffs were more suited for [[human]]'s tastes than Pokémon's. This was part of the reason that Serena was not able to win the Poké Puff competition.
+
+Serena had her first official Pokémon battle in ''[[XY039|Summer of Discovery!]]'' against {{an|Shauna}}. Shauna and her friends, {{an|Tierno}} and {{an|Trevor}}, had seen the Pokévision video that Serena filmed in Lumiose City and recognized her from it. Serena accepted Shauna's challenge, and alongside Fennekin she faced off against Shauna and her {{p|Bulbasaur}}. Despite having a type advantage, Serena was unable to win. Serena talked with Shauna throughout the episode and learned that Shauna was aiming to be someone who could put on performances with Pokémon. Her conversations with Shauna were a catalyst in helping her realize that she was the only one of her friends who didn't have a set goal. At the end of the episode, Serena sat alone brushing Fennekin's tail and wondering what her dream was.
+
+In ''[[XY040|Day Three Blockbusters!]]'', Shauna informed Serena about [[Pokémon Showcase]]s and told her that she was planning on becoming a [[Pokémon Performer]], and this inspired Serena to become one as well. In ''[[XY047|Dreaming a Performer's Dream!]]'', Serena witnessed her first Pokémon Showcase. She saw an exhibition performance by {{an|Aria}}, the current Kalos Queen, and also saw a {{pkmn2|wild}} {{p|Pancham}} interrupt a contestant's performance on stage. Later, outside, that same Pancham stole Ash and Clemont's belongings. Serena managed to track Pancham down and saw that he was performing with no one around. This made her realize that Pancham loved performing and simply wanted to show that to everyone. With this in mind she announced to her friends she wanted to {{pkmn2|caught|catch}} it. Battling with Fennekin, she managed to weaken and successfully catch it. After that, Serena gave Pancham a pair of her favorite sunglasses.
+
+In ''[[XY053|A Race for Home!]]'', she met up with her mother, but at first didn't dare to tell her about her intention to be a Performer. Later, Serena finally told her mother about her dream and challenged her to a Rhyhorn race to prove her determination under the condition that if she lost she would go back home and train to become a Rhyhorn racer. However, her mother suggested that they race on {{p|Skiddo}}, knowing that Skiddo could sense the rider's feelings. Serena managed to beat her mother in the race when the Skiddo she was riding sensed her determination, and thus her mother gave her permission to become a Pokémon Performer.
+
+In ''[[XY059|Under the Pledging Tree!]]'', after helping her friends thwart Team Rocket's plot to crash the Pledging Tree festival and returning the stolen presents to their rightful owners, Serena gave a ribbon to Fennekin and new sunglasses to {{TP|Serena|Pancham}} in honor of the event. The group then found a present not addressed to a Pokémon but to Serena herself. The present was a new dress for the upcoming Coumarine Showcase from her mother, left under the care of Nurse Joy. At the end of the episode, Ash gave Serena the blue ribbon he had won in a giveaway from the Coumarine Monorail staff.
+
+[[File:Serena Showcase debut.png|thumb|left|220px|Serena's Showcase debut]]
+In ''[[XY060|A Showcase Debut!]]'', she made her debut as a Pokémon Performer in the [[Coumarine City]] [[Pokémon Showcase]] Rookie Class, along with Shauna and Jessie. However, during the Theme Performance, Fennekin tripped over a bow that Serena had decorated her with. This eliminated her from the competition, and she watched as Shauna went on to win the Showcase. Although Serena acted like she took the loss well, in private she was very upset. Early the next morning, she walked out to a pier with Fennekin and Pancham, finally releasing her bottled up feelings and began to cry inconsolably. Having comfort and reassurance from her two partners, she drew scissors from her [[Bag|backpack]] and cut her hair to her shoulders after a reflection on her journey so far. Later, she donned a new outfit, featuring the ribbon she received from Ash, to signify her resolve.
+
+After this, Serena continued to practice for her next Pokémon Showcase. However, in ''[[XY064|Battling with Elegance and a Big Smile!]]'', one of these training sessions went wrong when Serena ended up yelling at Fennekin and Pancham after they were fighting, leading to Fennekin accidentally hitting Serena with Flamethrower. Realizing what she had done and feeling useless as a Performer, Serena ran off in shame. She was later approached by a {{an|Aria|young woman calling herself Ariana}} and the two spent the rest of the day shopping together. During this time, Ariana learned what Serena had been through and encouraged her to make up with her Pokémon and remember the close bond they had, which Serena did later that evening. The two girls later had a [[Double Battle]], during which Fennekin evolved into Braixen, but the match was called off after Ariana was forced to leave when she got a call. The next day, Serena discovered that "Ariana" was in fact Aria all along (having previously felt she looked familiar) and secretly thanked her for all her help.
+
+In ''[[XY080|Performing with Fiery Charm!]]'', Serena participated in her second Pokémon Showcase, competing against Miette and a disguised Jessie. She passed through the first round, the Poké Puff Baking competition, with flying colors. However, prior to her Freestyle Performance, Jessie bumped into her, ripping her dress. Thanks to the never-give-up attitude she learned from Ash, as well as her own quick thinking and skill at tailoring, Serena was able to modify the dress just before she was called up. During the second round, she delivered a performance that left the audience very impressed. As a result, she was the most voted Performer, winning the competition and receiving her first {{DL|Pokémon Showcase|Princess Key}} despite the anxiety she still felt from her debut performance.
+
+After arriving in [[Anistar City]] in ''[[XY091|A Performance Pop Quiz!]]'', Serena participated in her third Pokémon Showcase. In the Theme Performance, she was able to beat Nini and {{kal|Lily}} in the Pokémon Quiz segment, earning her a spot in the Freestyle Performance. However, before she could go on stage, her {{TP|Serena|Eevee}} went missing after being scared by the performance Jessie had delivered and Serena left to find her, almost missing her performance in the process. After reuniting with Eevee and receiving her support, Serena gave her performance using choreography based on Eevee's dancing, which earned her enough votes to win the Showcase and obtain her second Princess Key.
+
+In ''[[XY101|A Dancing Debut!]]'', Serena participated in her fourth Pokémon Showcase. During the Theme Performance, she and her Pancham were able to bake a Poké Puff while entertaining the audience in the process. Thanks to their performance, Serena received enough votes to advance to the Freestyle Performance. In the Freestyle Performance, Serena used her Braixen and Eevee. Everything was going smoothly until Eevee got distracted by the crowd and fell to the ground. Eevee was discouraged until Serena motivated her to keep on dancing. Serena and her Pokémon finished their performance without any more problems, but Eevee's mishap caused Serena to lose the Showcase. Later, Serena comforted Eevee and assured her they would do better next time.
+
+In ''[[XY105|Party Dancecapades!]]'', Serena and Eevee attended a dance party hosted by [[Monsieur Pierre]] with Clemont and Bunnelby as their partners. She was upset, because she couldn't dance with Ash. Later when she battled alongside Ash against Miette and James, her Eevee evolved into Sylveon.
+
+In ''[[XY109|Master Class Choices!]]'', Serena entered the {{ci|Fleurrh}} Showcase Rookie Class in hopes of winning her third and final Princess Key. In the Theme Performance, in which Performers had to lure as many Rhyhorn as possible to their part of the field before time ran out, Serena easily defeated [[Concetta]] and [[Kazalie]] and advanced to the Freestyle Performance. There, she performed with Braixen, Pancham, and Sylveon. Their performance was well received by the audience and she was the most voted Performer of the round. As a result, she was declared the winner of the event, receiving the Fleurrh City Princess Key and qualifying for the Master Class.
+
+[[File:Serena Master Class.png|thumb|250px|Serena in the Master Class]]
+Serena entered the {{ci|Gloire}} Showcase Master Class in ''[[XY112|Master Class is in Session!]]'' where she met up with all of her [[rival]]s. In the first round, she was grouped with [[Miette]] and [[Sara Lee]]. Her performance received the highest number of votes and she quickly made her way to the semifinals of the competition, where she found herself up against {{an|Shauna}} and [[Jessie|Jessilee]]. In [[XY113|the following episode]], she tried a risky move and ended up bruising her wrist. She was about to fall but Sylveon helped Serena using her feelers, saving the performance. She was the most voted Performer of the round and as such was allowed to move on to the finals, where she faced the reigning {{DL|Pokémon Performer|Kalos Queen}} {{an|Aria}}. Despite her best efforts, Serena couldn't defeat Aria, who retained her title. After that, Serena was approached by Palermo who invited her to become her protégé so she could become a better performer and have a chance at becoming the next Kalos Queen. Serena, however, declined the offer, telling Palermo that her journey with her friends has helped her develop, and until she finishes she can't go with Palermo. Palermo told Serena to call her after she finishes her journey and gives Serena her business card before leaving off.
+
+In ''[[XY115|Battling at Full Volume!]]'', Serena decided to pose as Ash who had gotten a cold from training with Greninja and Pikachu, to face off against an eccentric {{tc|guitarist}} named [[Jimmy (XY115)|Jimmy]] with Ash's Pikachu against his Pikachu, Spike. Her disguise pulls through and they ended up battling well against each other before almost getting exposed by Clemont and Bonnie. As she continued the battle, Pikachu and Spike were captured by Team Rocket, by which Jessie managed to see through her disguise to her dismay. Upon Ash's recovery, she discarded her disguise and commanded her Pokémon to simultaneously attack Team Rocket, who were eventually sent blasting off by Pikachu and Spike in the end. She apologized to Jimmy for deceiving him and invited him to join her and the others for lunch.
+
+In ''[[XY121|Seeing the Forest for the Trees!]]'', Serena became concerned about Ash when he became depressed after his defeat in a Gym battle with [[Wulfric]]. When he ran off into the woods, she chased after him on her own. Serena found Ash in the middle of the woods, still despondent over his defeat. She began to talk with Ash, telling him she was helped by the advice he gave her when they were young during their journey together, and also while she was training for her Showcases. However, the agitated Ash yelled at her, causing Serena to become angry at him for not acting like himself. In response, she threw a few snowballs at Ash before leaving. When it began to snow, Serena grew concerned about Ash again and led the others to find him. Meanwhile, Ash reflected on his actions and Serena's words. Later in the episode, Ash apologized to Serena for yelling at her and also told her that he was able to "figure things out" thanks to her words of encouragement.
+
+In ''[[XY132|A Towering Takeover!]]'', she helped destroy some of the giant roots that were attacking Lumiose City, which [[Z2]] was causing. In [[XY133|the following episode]], she spearheaded a mission to rescue [[Chespie]] from [[Lysandre Labs]] with the help of [[Mairin]] and Professor Sycamore. While on their way to Lysandre Labs, a friendly news crew offered to take them there in their helicopter.
+
+In ''[[XY134|The Right Hero for the Right Job!]]'', she initially fought [[Mable]] when the latter attacked their helicopter using her {{p|Weavile}}, although {{Steven}} eventually came to help them. When [[Celosia]] attempted to stop them, the news crew revealed themselves to be Team Rocket and faced Celosia in battle, allowing Serena and the rest to save Chespie. She then battled multiple grunts with difficulty, but Steven managed to catch up and help take them out.
+
+In ''[[XY135|Rocking Kalos Defenses!]]'', she called Ash using the device Clemont gave them, asking him to find Clemont inside the gym. She, along with Mairin, Steven and Sycamore started investigating the research conducted by Team Flare. Before Steven could explain what he found, the [[Giant Rock]] was activated and absorbed Chespie, causing the building to collapse. The four of them tailed the Giant Rock towards [[Anistar City]] while Serena informed Ash, Alain, Clemont, Blaziken Mask, and Bonnie about the current situation of Chespie. She, along with Sycamore and Steven then fought the Giant Rock using Braixen, Garchomp, and Metagross. Her Braixen was thrown off Metagross by some of the vines from the Giant Rock, but Alain's Charizard managed to save her in time. After Ash managed to get Greninja to launch a {{m|Water Shuriken}} at Chespie's location in the Giant Rock, she assisted Steven, Sycamore, and Alain to fight their way through, but none of their attacks were able to hold it off.
+
+[[File:Serena and Aria.png|thumb|left|250px|Serena and Aria]]
+In ''[[XY136|Forming a More Perfect Union!]]'', after all the Gym Leaders, including [[Diantha]], arrived to help Ash and his friends, Serena stayed behind to protect Mairin and Bonnie while the rest used their Pokémon's abilities to fight their way through the Giant Rock. A few large vines surrounded the three of them but Serena managed to have Braixen, Pancham and Sylveon to prevent them from getting hurt. Serena then rushed to protect Mairin as a vine was heading towards her direction, but was saved by Ash and Alain managing to rescue Chespie in time. All of them then tried to attack the Giant Rock but ended up injuring themselves instead. Squishy and Z2 managed to transform into the Complete Forme and battled the Giant Rock and defeat [[Lysandre]]. Serena then reunites with Ash, Clemont, and Bonnie and watches Bonnie say goodbye to Squishy as it leaves along with Z2.
+
+In ''[[XY137|Battling With a Clean Slate!]]'', Serena helped Bonnie to clean the Lumiose Gym in preparation for the relighting of Prism Tower. Later, she went with Ash, Clemont and Bonnie to Professor Sycamore's Lab when they heard Alain was returning, only to find Mairin on the floor with decorations all over her. She helped Mairin bake the cake for the welcome party that Mairin decided to host. When Alain entered the lab, they all welcomed him and had a feast together with Professor Sycamore. Later, along with Ash, Alain and Clemont, Serena battled and managed to defeat Team Rocket who were trying to steal Pikachu again. The next day, she watched the battle between [[Clembot]] and [[Alvin]], with Alvin coming out as the winner. After the gym battle, Professor Sycamore gave out medals to Serena, her Pokémon, as well as to Ash, Clemont, Bonnie, Mairin, Alain and their Pokémon. All of them gathered and posed for the group photo with the medals.
+
+At night, Ash, Serena, Clemont and Bonnie watched as Prism Tower relights. Clemont asks what Serena is going to do to which she was hesitating to accept the offer Palermo gave earlier. Ash cheered her on and Serena happily thanks him for his constant support.
+
+In ''[[XY138|The First Day of the Rest of Your Life!]]'', Serena saw on the news that the residents of Lumiose City were still recovering from injuries and decided to ask Professor Sycamore to help host a Pokémon Showcase event. Serena, Shauna, and even Jessilee put up a collaboration performance which made the residents smile and enjoy themselves. By witnessing how everyone started dancing along and smiling, Serena realized how much she loves performing and wants to do more. The next day, after saying goodbye to her mother, Ash asked Serena for a battle after seeing her lost in thoughts. Serena agreed as Ash said by battling, she would be able to decide what's next for her. During the battle, Serena was able to work well with Braixen and use her techniques well against Ash's Pikachu. Ash called off the battle and encouraged Serena that she always has her Pokémon by her side and he would be rooting for her. After the battle, Serena called Palermo, making her final answer to reject Palermo's offer. Serena told her seeing how everyone was smiling during her performance earlier that made her want to travel more and make more people smile like Aria and improve her skills. Palermo advised her to compete in [[Pokémon Contest]]s in [[Hoenn]] and Serena happily agreed. After that, she announced to the group that she would go to visit other regions to further develop her skills as a Performer, starting with Hoenn.
+
+[[File:Serena arriving in Hoenn.png|thumb|250px|Serena arriving in Hoenn]]
+In ''[[XY139|Facing the Needs of the Many!]]'', just before she, Ash, and the others were heading back to the Lumiose airport, a big plant pops up. After Xerosic captures Clemont and when the van drives away, Ash-Greninja jumps in front of the van, which frightens Serena. Later, Serena goes with Ash and Bonnie to rescue Clemont by jumping from the top of a cliff and then getting rescued by Ash-Greninja's tongue. After Clemont gets rescued and Xerosic is arrested, she, along with the others bid farewell to Ash's Greninja, which goes along with Squishy and Z2 to find the negative energy where those roots were spawning.
+
+In ''[[XY140|Till We Compete Again!]]'', Serena officially left the group to follow Palermo's advice and travel the Hoenn region. At the airport, Serena told Ash she vowed to become better, especially for him the next time they met. She then leaned towards him, and the scene heavily implies that she kissed him on the lips, with Clemont, Bonnie, Pikachu, and Dedenne all shocked and Ash left momentarily stunned. Serena then thanked him for the journey and his guidance before leaving. She was last seen happily arriving in Hoenn.
+
+===={{aniseries|JN}}====
+[[File:Serena JN.png|thumb|250px|left|Serena in {{aniseries|JN}}]]
+In the time since she started traveling alone, Serena became a rising star in [[Hoenn]] and garnered a lot of local attention in [[Lilycove City]]. She also became friends and rivals with Hoenn's top contest idol, [[Lisia]], and helped her to liven up the local Contests.
+[[File:Serena and Lisia.png|thumb|250px|Serena and Lisia]]
+Serena reappeared in ''[[JN105|Reuniting for the First Time!]]'', where she met [[Chloe]] and her {{TP|Chloe|Eevee}}. After giving her some suggestions for her future and encouraging her to take part in a Pokémon Contest Spectacular, Serena participated in the event as well. While Chloe participated in the {{OBP|Rank|Contest|Normal Rank}} Contest Spectacular, Serena took part in the Master Rank competition, tying for first place with Lisia. As Chloe was departing at the docks, Serena revealed that Lisia approached her after the Contest to ask if she wanted to team up with her and form an idol duo together, which Serena is unsure about as of yet. Shortly afterwards, Ash and Goh arrived, and Serena briefly reunited with Ash, with the two promising to keep cheering for each other as they parted ways again. Serena waved goodbye and waited at the docks watching Ash depart, before leaving with renewed confidence to continue her journey.
+
+In ''[[JN132|Partners in Time!]]'', Serena appeared alongside {{an|May}}, [[Max]], and Lisia, watching Ash's [[Masters Eight Tournament]] match against {{an|Leon}}. Soon after, when Pikachu was at the limit of his strength, Serena, May, and Max were shown to be anxious about the state of the battle, each holding on to another for comfort.
+
+Serena reappeared in a fantasy in ''[[JN135|Heroes Unite!]]'', alongside the Trainers Chloe and her Eevee had met.
+
+====Other appearances====
+Serena made a cameo appearance in the ending credits of ''[[M20|I Choose You!]]'', alongside all of Ash's traveling companions at the time. She appears using her original look.
+
+===Character===
+[[File:Grace and Serena.png|thumb|left|250px|Serena and her mother]]
+Serena is a kind and polite girl, but she can also be openly rebellious towards her [[mother]], {{kal|Grace}}. In ''[[XY001|Kalos, Where Dreams and Adventures Begin!]]'', she refused to wake up when Grace ordered her to and gave a sassy response to her mother's call to watch the news. This tumultuous relationship was best demonstrated when Grace made her practice {{p|Rhyhorn}} riding, an activity Serena had hated doing. However, their relationship is also very loving as shown in later episodes. Although shown to have a strong will, Serena can be sensitive and insecure at times as seen in ''[[XY064|Battling with Elegance and a Big Smile!]]''. When she was frustrated with her Pokémon, she lashes out when at her limit and leaves to cool off in shame. She is also shown to lose her composure when pushed to a wall, becoming unsure of herself. Despite this however, Serena manages to pick herself back up by reminding herself to not give up, bringing up her confidence and also encouraging her Pokémon to do their best despite the odds. This is shown when two of [[Serena's Braixen|her]] [[Serena's Sylveon|Pokémon]] evolve from responding to her resolve. While battling isn't her primary focus, Serena has shown herself to be a competent battler, at least partially due to picking up Ash's battling style after seeing him battle countless times.
+[[File:Sky Trainer Serena.png|thumb|250px|Serena's {{tc|Sky Trainer}} outfit]]
+Serena was uncertain about what path or career to pursue in life and expressed little ambition toward becoming a full-time [[Pokémon Trainer]] in the early stages of her journey. However, in ''[[XY039|Summer of Discovery!]]'', she began to think that not having an established goal was a problem for her future as a Trainer. During her time in the [[Pokémon Summer Camp]], she began seriously considering what she wanted to do with herself and {{cat|Serena's Pokémon|her Pokémon}} after seeing how passionate the Trainers around her were. It was in ''[[XY047|Dreaming a Performer's Dream!]]'' that she decided that her goal was to be a [[Pokémon Performer]] and she has been diligently training both herself and her Pokémon ever since. After losing her first [[Pokémon Showcase]], Serena strengthened her resolve to do even better, and to symbolize this she cut her hair short.
+
+Unlike with {{an|Dawn}}, Serena chose to not follow in her mother's footsteps as a Rhyhorn racer. However, she is shown to be a competent Rhyhorn racer and is quite knowledgeable about them. She possesses a unique charm when it comes to Rhyhorn, possibly due to her upbringing, as nearly all of those that she encounters gravitate towards her playfully as seen in ''[[XY007|Giving Chase at the Rhyhorn Race!]]'' and ''[[XY109|Master Class Choices!]]''. Due to her mother's training, she can easily tame Rhyhorn and manage them well. Additionally, because of those skills, she is also able to calmly guide a Mamoswine through a steep hill in ''[[XY083|Over the Mountain of Snow!]]''.
+[[File:Serena catches a Pokémon.png|thumb|left|250px|Serena after catching a Pokémon]]
+Serena has been shown to have a phobia of the supernatural. When {{ashfr|the group}} entered an abandoned house where a {{pkmn2|wild}} {{p|Espurr}} was staying in ''[[XY014|Seeking Shelter From the Storm!]]'', she would assume the worst or that a supernatural being was in play whenever the group was spooked by anything. Likewise, in ''[[XY038|Forging Forest Friendships!]]'', when {{Ash}} had been kidnapped by a {{p|Trevenant}}, she became worried that Ash would be eaten after {{an|Clemont}} told her the rumors surrounding the forest. This is seen again in ''[[XY072|Scary Hospitality!]]''. On such occasions, she often speaks without thinking, continually making assumptions about the scary houses that made Ash or Clemont cringe, and she promptly covered her mouth when she realized what she had said. She has also been shown to be afraid of crossing unstable bridges across high ravines.
+[[File:Serena and Chloe.png|thumb|250px|Serena and Chloe]]
+Serena seems to have a sisterly bond with {{an|Bonnie}}, as she is shown caring for her similar to the way Clemont does, such as protecting her in dangerous situations, comforting her, and cheering her up when she is sad. She also allows her to help her with various tasks, such as baking and grooming. Serena also gets along pretty well with Clemont, and they are normally seen taking care of the table together during meal times, with Clemont making the main dishes while Serena provides dessert. However, when it comes to his inventions, Serena has shown both a bit of marvel as well as caution, due to the usual result being an explosion. Serena quickly became very good friends with [[Chloe]] after meeting her, and appears to empathize with her after hearing her uncertainness about what goal to pursue in life.
+
+Serena has shown a deep and loving affectionate feelings for Ash, having remembered how he found her when she was lost and alone in a forest when she was young, and how he kindly guided her out. After several years, she still recognized him after seeing him on [[television]]. After picking her [[first partner Pokémon]] and starting her {{pkmn|journey}}, her first order of business was to meet up with him to return the handkerchief he once used to bandage her leg at the Pokémon Summer Camp all those years ago. Ash proved to be a source of inspiration for her with his never-give-up attitude and love for Pokémon, to the point that she still recites the motivational phrases he taught her to motivate herself and others during her time competing in Hoenn's contest spectaculars.
+[[File:Serena Bonnie Pochette.png|thumb|250px|left|Serena holding Bonnie's modified pochette]]
+Serena has a love for fashion and clothing. An early example of this is in ''[[XY003|A Battle of Aerial Mobility!]]'', when she spent time carefully selecting an outfit and was troubled over which of two hats looked best. Serena then asked her mother, who selected a beret. However, she promptly tossed the beret aside and picked up the other hat, saying that whatever her mother did not choose was certain to be the cuter one. She has also expressed excitement about visiting the clothing boutiques in [[Lumiose City]]. In ''[[XY021|A Pokévision of Things to Come!]]'', she was eager to dress up in many different outfits while making her [[Pokévision]] video. Despite her love for fashion and performances, she rarely displays vanity or over confidence. She usually acts somewhat subdued and humble in both of these areas, though she is not above commenting that she thinks something she has done is "cute," usually when dressing up her Pokémon for a Showcase.
+
+Serena has displayed some skill in tailoring, slightly altering her Rhyhorn racing gear in ''Giving Chase at the Rhyhorn Race!'', as well as being able to modify the furisode she wore in her second Showcase on-the-fly in ''[[XY080|Performing with Fiery Charm!]]'', when it was accidentally torn before her Free Performance. Serena also likes baking and is quite skilled at it. An example of this was demonstrated in ''Giving Chase at the Rhyhorn Race!'', when she stayed up late at night to bake cookies for Ash and the gang, which they seemed to enjoy. Also, in ''[[XY010|Mega-Mega Meowth Madness!]]'', she had baked some macarons for the group, but they were stolen by a {{TP|Clemont|Chespin}}. In ''[[XY026|A Battle by Any Other Name!]]'', she also participated in [[Poké Puff Contest|a Poké Puff baking competition]]. In ''[[XY043|Origins of Mega Evolution!]]'', Serena showed that she knows how to dance when she attempted to help Ash with his training. This skill would later come in handy as she decided to become a Performer, having to choreograph the moves of both her Pokémon and herself when training for Showcases.
+
+Serena's catchphrase is '''Ta-da!''' (Japanese: ジャジャーン! ''Ja-jān!''), which she usually says whenever she is presenting something.
+{{-}}
+
+===Pokémon===
+[[File:Serena Party.png|thumb|250px|Serena's current [[party]]]]
+Serena's Pokémon consists of cute and are naturally inclined to Pokémon Performances, such as her {{TP|Serena|Pancham}} and {{TP|Serena|Sylveon}}, who are both great dancers. Also, Serena and her Pokémon are shown to have a tight-knit bond with each other, as she cares for them greatly and likewise. Like {{an|Iris}}, Serena does not have a full party by the end of the series unlike the {{an|Misty|previous}} {{an|May|female}} {{an|Dawn|companions}}. Although she manages to gain her Pokémon's obedience, it took time for Serena to fully utilize {{p|Eevee}} to her potential due to her shyness around others. After the events of ''[[XY105|Party Dancecapades!]]'', Serena is able to manage her team effectively.
+
+Serena frequently cares for her Pokémon's appearance as seen in ''[[XY095|Love Strikes! Eevee, Yikes!]]'', by grooming their coats with her brush. She also {{pkmn|training|trains}} her Pokémon to execute their [[move]]s creatively for their routines in the Freestyle Performances for [[Pokémon Showcase]]s. While Serena does not regularly participate in {{pkmn|battle}}s, her Pokémon are somewhat skilled in battles against other Trainers as seen in ''[[XY090|Tag Team Battle Inspiration!]]''. Her {{TP|Serena|Delphox}} is usually used in battle as her strongest Pokémon, but she has used her in both Pokémon Showcases and Contests.
+
+This listing is of Serena's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+
+====On hand====
+{| width="100%"
+| {{ActivePoké|Serena|Delphox|Serena Delphox.png|fire|psychic|fir=Fennekin|mid=Braixen}} ♀
+| {{ActivePoké|Serena|Pancham|Serena Pancham.png|fighting}} ♂
+| {{ActivePoké|Serena|Sylveon|Serena Sylveon.png|fairy|fir=Eevee}} ♀
+|}
+
+====Temporary====
+{{MissingInfo|2|enva|java}}
+{{TrainerPoké
+|trainer1=Orsay City
+|trainer2=Baa de Mer Ranch
+|pkmn=Rhyhorn (×2)
+|type1=Ground
+|type2=Rock
+|img=Serena Rhyhorn M17.png
+|cap=Orsay City Rhyhorn
+|img2=Serena Rhyhorn.png
+|cap2=Baa de Mer Ranch's Rhyhorn
+|epnum=M17
+|epname=Diancie and the Cocoon of Destruction
+<!--|vajp=
+|vaen=-->
+|desc=In ''[[M17|Diancie and the Cocoon of Destruction]]'', Serena borrowed a {{p|Rhyhorn}} from the Rhyhorn racing track of [[Orsay City]]. She did so with {{an|Clemont}} and {{an|Bonnie}} to escape with {{an|Diancie}}, who was being chased by thieves. She and Rhyhorn quickly ran past the racers on the track, before going off-track and riding inside a forest. After getting to safety, Serena thanked Rhyhorn for its help and it went back to the racing track.
+
+In ''[[XY053|A Race for Home!]]'', Serena used another Rhyhorn, this time to chase after {{TRT}}.
+
+Baa de Mer Ranch's Rhyhorn's only known move is {{m|Tackle}}{{tt|*|Rhyhorn cannot legally learn Tackle in the games}}.}}
+
+{{TrainerPoké
+|trainer=Baa de Mer Ranch
+|pkmn=Skiddo
+|type1=Grass
+|img=Serena Grace Skiddo.png
+|cap=
+|epnum=XY053
+|epname=A Race for Home!
+|vajp=
+|vaen=Kayzie Rogers
+|desc=In ''[[XY053|A Race for Home!]]'', Serena raced her mother {{kal|Grace}} on a {{p|Skiddo}}. Grace pushed Serena to do so and after some arguing Serena agreed to it. After falling off once she later won the race.
+
+It reappeared in ''[[XY060|A Showcase Debut!]]'', during a flashback.
+
+It appeared again in ''[[XY140|Till We Compete Again!]]'', during a flashback.
+
+None of Skiddo's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Goomy
+|type1=Dragon
+|img=Serena Bonnie Goomy.png
+|cap=
+|epnum=XY055
+|epname=A Slippery Encounter!
+|vajp=Chinatsu Akasaki
+|vaen=Tom Wayland
+|desc=In ''[[XY056|One for the Goomy!]]'', Serena, along with Bonnie, temporarily used Ash's Goomy in a battle against Team Rocket, but it ran off after remembering the terrible experience it had with Bug-type Pokémon.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Frogadier
+|type1=Water
+|img=Serena Frogadier.png
+|epnum=XY001
+|epname=Kalos, Where Dreams and Adventures Begin!
+|vajp=Yūji Ueda
+|vaen=Billy Bob Thompson
+|desc=After a group of {{p|Pangoro}} caused Ash, {{ashfr|his friends}}, their Pokémon, and {{TRT}} to scatter, Serena, Frogadier, and {{TP|Clemont|Chespin}} found themselves separated from everyone else. Frogadier guarded Serena and Chespin, scouting ahead for danger, and using its Frubbles to buy time for them to escape one of the Pangoro searching for them. Serena and company were eventually found by Ash, {{TP|Serena|Pancham}}, {{AP|Fletchinder}}, {{AP|Hawlucha}}, and {{TP|Clemont|Luxray}}, and Frogadier returned to its Trainer.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Clemont
+|pkmn=Chespin
+|type1=Grass
+|img=Serena Chespin.png
+|epnum=XY010
+|epname=Mega-Mega Meowth Madness!
+|vajp=Hitomi Nabatame
+|vaen=Suzy Myers
+|desc=After a group of {{p|Pangoro}} caused Ash, {{ashfr|his friends}}, their Pokémon, and {{TRT}} to scatter, Serena, Chespin, and {{AP|Frogadier}} found themselves separated from everyone else. After seeing Serena praise Frogadier for acting as a bodyguard, Chespin became jealous and sprinted ahead to scout for danger as well. However, it ended up grabbing the attention of one of the Pangoro. After reuniting with Ash's group, {{AP|Fletchinder}} eventually found {{an|Clemont}}, {{AP|Pikachu}}, {{TP|Serena|Braixen}}, and {{TP|Clemont|Bunnelby}}, and Chespin was returned to its trainer.}}
+
+{{TrainerPoké
+|trainer=Serena
+|pkmn=Mamoswine
+|type1=Ice
+|type2=Ground
+|img=Ash Serena Mamoswine.png
+|cap=A rented Mamoswine
+|epnum=XY083
+|epname=Over the Mountain of Snow!
+|vajp=Kensuke Satō
+|vaen=Marc Thompson
+|desc=Serena temporarily rode on a {{p|Mamoswine}}, along with Ash, to cross the snowy mountains and through the [[Frost Cavern]].
+
+None of Mamoswine's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Pikachu
+|gender=male
+|type1=Electric
+|img=Serena Pikachu.png
+|epnum=EP001
+|epname=Pokémon - I Choose You!
+|vajp=Ikue Ohtani
+|vaen=Ikue Ohtani
+|desc=Serena temporarily used Ash's Pikachu to battle {{OBP|Jimmy|XY115}} and his {{p|Pikachu}}, instead of Ash, who was ill.}}
+
+{{TrainerPoké
+|trainer=Ash
+|pkmn=Talonflame
+|main=yes
+|type1=Fire
+|type2=Flying
+|img=<!--Serena-->Ash Talonflame.png
+|epnum=XY003
+|epname=A Battle of Aerial Mobility!
+|vajp=Kiyotaka Furushima
+|vaen=List of English voice actors{{!}}Alex Haynes
+|desc=Serena commanded Talonflame in ''[[M19|Volcanion and the Mechanical Marvel]]'' when [[Alva]]'s {{p|Gengar}} attacked.}}
+
+===Showcases===
+[[File:Serena Current Keys.png|thumb|250px|Serena's Princess Keys]]
+====Princess Keys obtained====
+This listing is of the {{DL|Pokémon Showcase|Princess Key}}s Serena has obtained:
+* {{to|Dendemille}} [[a:File:Serena Princess Key.png|Princess Key]] (''[[XY080|Performing with Fiery Charm!]]'')
+* {{ci|Anistar}} [[a:File:Serena second Princess Key.png|Princess Key]] (''[[XY091|A Performance Pop Quiz!]]'')
+* {{ci|Fleurrh}} [[a:File:Serena third Princess Key.png|Princess Key]] (''[[XY109|Master Class Choices!]]'')
+
+====Master Class ranking====
+Serena has achieved the following ranking in the Master Class tournament:
+* {{ci|Gloire}} Showcase - Runner-Up (''[[XY113|Performing a Pathway to the Future!]]'')
+
+====Other achievements====
+Serena has competed in the following Rookie Class tournaments:
+* {{ci|Coumarine}} Showcase - Theme Performance (''[[XY060|A Showcase Debut!]]'')
+* {{to|Couriway}} Showcase - Top 5 (''[[XY101|A Dancing Debut!]]'')
+
+===Contests===
+====Hoenn Ribbons====
+This listing is of the [[Ribbon]]s Serena has obtained in the [[Hoenn]] [[region]]:
+* {{ci|Lilycove}} Ribbon (Master Rank; tied with [[Lisia]]; ''[[JN105|Reuniting for the First Time!]]'')
+
+===Pokémon competitions===
+Serena has competed in the following {{cat|Pokémon competitions}}:
+* [[Poké Puff Contest]] - Top 3 (''[[XY026|A Battle by Any Other Name!]])
+* [[Pokémon Summer Camp]] - Winner (with {{Ash}}, {{an|Clemont}}, and {{an|Bonnie}}; ''[[XY042|Battling Into the Hall of Fame!]]'')
+
+===Main outfits===
+[[File:Serena XY.png|thumb|x300px|Serena's first outfit]]
+=====''XY''=====
+[[File:Serena XY2.png|thumb|left|x200px|Serena's second outfit]]
+Serena is the first of Ash's traveling companions to permanently change her main outfit in the middle of a series.
+
+Serena's first outfit was worn from ''[[XY003|A Battle of Aerial Mobility!]]'' to ''[[XY060|A Showcase Debut!]]''. It consisted of a grayish-black tank-top with a white collar, a red pleaded skirt, a dark pink hat with a black bow and hatband, black stockings, and black shoes, with a pink backpack to carry her goods. The tank-top is likely the same one she dons for her second outfit. She also had a lower part of her hair tied to a ponytail. This first outfit was nearly identical to her {{ga|Serena|game counterpart}}'s with the exception of her hat, collar, bag, and the lack of sunglasses.
+
+Serena began wearing her second outfit from ''A Showcase Debut!'' to ''[[XY140|Till We Compete Again!]]''. It consisted of a light pink dress over a grayish-black tank-top with a white collar. The dress was tied at the collar with a blue ribbon that Ash gave her in ''[[XY059|Under the Pledging Tree!]]''. Over her dress, she wore a long red vest with large pockets. She also wore black stockings and brown boots. On her head, she wore a pink-red fedora with a black hatband and carried a pink backpack with a black Poké Ball design to store her belongings. Serena was seen without her red vest in ''[[XY123|A Diamond in the Rough!]]'' while in the spring.
+{{-}}
+
+[[File:Serena JN.png|thumb|250px|Serena's {{aniseries|JN|''Journeys''}} outfit]]
+=====''Journeys''=====
+Serena changed her outfit prior to ''[[JN105|Reuniting for the First Time!]]''. It consists of a black turtleneck tank top with a red and white plaid skirt. She also wears a pair of red bow earnings, a pink bracelet on her left wrist, black stockings, and long brown and black boots. On her head, she wears a gray felt hat. Aside from the bracelet and earrings, all of these were clothing items in {{g|X and Y}}.
+{{-}}
+
+===Other outfits===
+====Costumes====
+* In a giveaway quiz featured in ''[[XY010|Mega-Mega Meowth Madness!]]'' for ''[[M16|Pokémon the Movie: Genesect and the Legend Awakened]]'' and ''[[PK25|Eevee & Friends]]'' DVDs, and the ''Get Pokémon TV'' set, Serena wore a Santa outfit.
+* In ''[[XY021|A PokéVision of Things to Come!]]'', for filming her PokéVision video, she dressed up in a {{p|Fennekin}} {{pkmn|cosplay}}, consisting of a pink bow, a short top, a pair of wristbands and skirt with Fennekin ears, tail and boots.
+* During the [[Gourgeist Festival]] in ''[[XY082|A Festival Trade! A Festival Farewell?]]'', Serena wore a costume based on Red Flower {{p|Florges}}.
+
+====Formal outfits====
+[[File:SerenaLilycove.png|thumb|250px|Serena in her Contest Costume]]
+* In ''[[XY021|A PokéVision of Things to Come!]]'', Serena wore a magenta hair ribbon with white in the center with indigo flowers, a full-sized medium pink gown with a magenta ribbon at the back with baby pink ruffles.
+* In ''[[XY058|The Green, Green Grass Types of Home!]]'', Serena wore a pink dress with a pink ribbon.
+* In ''[[XY060|A Showcase Debut!]]'', Serena dressed formally for her first Showcase. She wore this outfit again in ''[[XY091|A Performance Pop Quiz!]]'' for the [[Anistar City]] [[Pokémon Showcase]] and the rest of her Showcases afterward. She wore a white and pink dress with a red ribbon on the chest area, a black and red mini-skirt, black pantyhose, pink bracelets on either wrist as well as white gloves, a black choker with a gold medallion, a thin black waistband, red flats with gold gems with a black sole, turquoise drop-shaped earrings, and part of her hair is tied by a pink ribbon. She also wears a turquoise pearl beaded headband with the pink hair ribbon attached when she has short hair.
+* In ''[[XY073|A Fashionable Battle!]]'', Serena wore a furisode based on a Red Flower Florges at Valerie's fashion show. She later wore it at the {{to|Dendemille}} {{pkmn|Showcase}} in ''[[XY080|Performing with Fiery Charm!]]'', modified after it was torn.
+* In ''[[XY091|A Performance Pop Quiz!]]'', Serena wore a red academic dress with orange linings and a hat.
+* In ''[[XY105|Party Dancecapades!]]'', Serena wore a strapless red ball gown with a floor-length peach skirt, dark red frills, and medium red ribbons.
+* In ''[[XY109|Master Class Choices!]]'', Serena wore an outfit that looks similar to a breeder's outfit for the [[Pokémon Showcase]] Theme Performance.
+* In ''[[JN105|Reuniting for the First Time!]]'', ''[[JN132|Partners in Time!]]'', and ''[[JN135|Heroes Unite!]]'' in Chloe's fantasy, Serena wore a crop top and skirt [[Contest Costume]] featuring orange, red, yellow, white, and black. She also wore an orange and red bow with a light-blue gem in the middle on the back, a hair clip, various light-blue jewelry, and a light-blue bead anklet with a bow on her left leg. 
+
+===== Images =====
+<gallery widths="200">
+File:Serena ball gown.png|Serena in a ball gown
+File:Serena in a gown.png|Serena in a gown for her first [[Pokévision]]
+File:Serena XY060 showcase.png|Serena in her first Showcase
+File:Serena Bonnie Furisode.png|Serena in her Red Flower {{p|Florges}} furisode
+File:Serena Furisode XY080.png|Serena's modified Red Flower {{p|Florges}} furisode
+File:Serena Rhyhorn Herding outfit.png|Serena in a breeder-like outfit
+File:Serena Nini Showcase Quiz.png|Serena in an Academic dress
+</gallery>
+
+====Other clothing====
+* In ''[[XY002|Lumiose City Pursuit!]]'', ''[[XY007|Giving Chase at the Rhyhorn Race!]]'' and ''[[XY053|A Race for Home!]]'', Serena wore a pink jumpsuit while practicing for the Rhyhorn race and wore the same outfit while riding a Skiddo albeit with a red hat.
+* When Serena is baking, she wore a baby pink apron with white flower prints.
+* In ''[[XY021|A PokéVision of Things to Come!]]'', Serena wore an ivory bathrobe while cleaning up.
+* In ''[[XY036|Battles in the Sky!]]'', Serena wore a pink sky trainer's suit along with a pink helmet and tall pink boots.
+* In ''[[XY053|A Race for Home!]]'', Serena as a child wore a pink racing suit with pink boots and her hair tied with red ribbons in pigtails.
+* In ''[[XY089|A Frolicking Find in the Flowers!]]'', Serena wore a pink and white flower crown that she made.
+
+====Regular clothes====
+* As shown in ''[[XY007|Giving Chase at the Rhyhorn Race!]]'', Serena as a child wore a straw hat with a pink bow tied around it and a pink dress with pink Mary Jane flats.
+* In ''[[M17|Diancie and the Cocoon of Destruction]]'', while on a boat, Serena wore a burgundy tracksuit with white stripes. Serena has worn several outfits in along with Bonnie and Diancie while at a shopping mall.
+* In the ''[[DreamDream]]'' ending, Serena and her Pokémon wore three different outfits:
+** A white top with yellow buttons, short ruffled sleeves, two black stripes, and a bright blue ribbon sewn to the chest. Her skirt was a large and black with baby blue frills and a second layer that's bright blue with a baby blue stripe and white frills with a bright blue ribbon in the back attached to a waistband. The outfit also had white frilled tube socks with black baby-doll flats that have a small bright blue bow on each strap, as well as white gloves with a small blue ribbon and scalloped cuff on each wrist. Her hair is held up by two pigtails tied with bright blue hair ribbons and a yellow barrette.
+** A white top hat with two pink hearts, a sleeveless coat with the tails sticking out with light pink and magenta accents that has two gold buttons, a magenta bow sewn to the chest, matching wrist cuffs, a white and magenta miniskirt, black thigh-length socks, and magenta flats with a light pink heart resting on the foot.
+** A bright yellow crop top with loose sleeves with dark yellow cuffs, a black choker, black and yellow suspenders, green short shorts to match her shoes, white socks with two yellow lines to match her wristband on her left wrist, and a white and green baseball cap that has green with a shooting star design as well as yellow frames.
+* In the second and third variant of the ''[[Mad-Paced Getter]]'' opening and the Limited Pokémon Edition cover art of the ''[[DreamDream (single)|Dream Dream]]'', Serena wore a marching band outfit with her Pokémon.
+* In ''[[XY115|Battling at Full Volume!]]'', Serena posed as Ash by wearing his clothing.
+
+====Sleepwear====
+* In ''[[XY001|Kalos, Where Dreams and Adventures Begin!]]'', Serena wore pink pajamas based on the ones her game counterpart wears at the beginning of {{g|X and Y}}.
+* When Serena sleeps, she wore a lavender sweater and dark-pink shorts as pajamas. She also wears it as inside clothing in ''[[XY002|Lumiose City Pursuit!]]'', and ''[[XY007|Giving Chase at the Rhyhorn Race!]]''.
+* In ''[[M19|Volcanion and the Mechanical Marvel]]'', Serena has a purple, pink, and white dress shirt with purple capris as pajamas.
+
+====Sportswear====
+* During a training session in ''[[XY040|Day Three Blockbusters!]]'', Serena wore a training suit. It consists of a pink shirt and her tracksuit which she wears for Rhyhorn races. The tracksuit is open, with the top half wrapped around her middle. She also wears a whistle around her neck.
+
+====Uniforms====
+* In ''[[XY084|Adventures in Running Errands!]]'', Serena, along with Bonnie, dressed up as [[Nurse Joy]] to help her with the Pokémon while the power within the Pokémon Center was out.
+
+====Outdoor gear====
+=====Snow wear=====
+* In the freezer room in ''[[XY023|Coming Back into the Cold!]]'', Serena, along with Ash, Clemont, Alexa, and Bonnie, wore an orange snowsuit.
+* In ''[[XY083|Over the Mountain of Snow!]]'', Serena wore a hot-pink snow jacket, gray snow pants, a pale-pink snow hat, pale-pink snow mittens, a dark orange neck scarf, and hot-pink snow boots.
+* In ''[[XY119|A Full-Strength Battle Surprise!]]'' to ''[[XY122|A Real Icebreaker!]]'', Serena was sometimes seen wearing a pink winter coat, with the same colored leg warmers above her usual boots and golden-brown mittens.
+
+=====Swimwear=====
+* During ''[[Peace Smile!]]'', the second ending of ''Pokémon the Series: XY'', Serena wears a dark pink bikini.
+* In a brief scene in ''[[M17|Diancie and the Cocoon of Destruction]]'', Serena wore a green two piece swimsuit.
+
+====Gallery====
+<gallery widths="200">
+File:Serena without vest.png|Serena without her red vest
+File:Serena racing suit.png|Serena's Rhyhorn racing suit
+File:Serena Rhyhorn Racing outfit.png|Serena's Rhyhorn racing suit with a red hat
+File:Young Serena Rhyhorn Racing Outfit.png|Serena as a child in a Rhyhorn racing suit
+File:XY group swimsuits.png|Serena's bikini in {{aniseries|XY}}
+File:Serena training suit.png|Serena's training suit
+File:Sky Trainer Serena.png|Serena's Sky Trainer outfit
+File:DreamDream Limited Pokémon.jpg|Serena's marching band outfit
+File:Serena Bonnie Diancie M17 Swimsuits.png|Serena wearing a green two piece swimsuit in ''[[M17|Diancie and the Cocoon of Destruction]]''
+File:XY023 Winter Jackets.png| Serena's snow wear
+File:XY group snow wear XY083.png|Serena's second snow wear
+File:XY119 Ash Serena Snow Wear.png|Serena's third snow wear
+File:Serena as Ash.png|Serena in Ash's clothes
+File:Serena DreamDream Outfit.png|Serena's first DreamDream outfit
+File:Serena DreamDream Outfit2.png|Serena's second DreamDream outfit
+File:Serena DreamDream Outfit3.png|Serena's third DreamDream outfit
+File:Young Ash and Serena Clothes.png|Young Serena and Ash
+File:Serena pajamas.png|Serena in her pajamas
+File:Serena Apron.png|Serena in her hoodie and an apron
+File:Ash Serena Bonnie pajamas.png|Serena in her hoodie
+File:Serena Bonnie Nurse Joy outfit.png|Serena in a Nurse Joy outfit
+File:Serena Fennekin Cosplay.png|Serena cosplaying as Fennekin
+File:Serena Gourgeist Festival Costume.png|Serena in her Red Flower Florges costume
+File:Serena M17 Outfit.png|Serena in a dessert dress
+File:Serena M17 Outfit2.png|Serena in a royal blue and white dress
+File:Serena M17 Outfit3.png|Serena in a red and black dress
+File:Serena Bonnie Diancie M17 Outfits.png|Serena in a fancy white and crimson dress
+File:Serena Bonnie Diancie M17 Outfits2.png|Serena wearing an outfit with make-up
+File:Serena Bonnie Diancie M17 Outfits3.png|Serena wearing a musical themed brown dress
+File:Serena Bonnie Diancie M17 Outfits4.png|Serena in casual clothing
+File:Serena Bonnie Diancie M17 Outfits5.png|Serena in a puffy periwinkle knee-length dress with blue roses
+File:Serena Bonnie Diancie M17 Outfits6.png|Serena in a racing outfit
+File:Serena Bonnie Christmas Present.png|Serena's Santa outfit in a giveaway quiz
+</gallery>
+
+===Voice actors===
+{{vatable|color={{y color light}}|bordercolor={{y color}}
+|ja=牧口真幸 ''[[Mayuki Makiguchi]]''
+|en=[[Haven Paschall]]
+|ar=سهير ناصر الدين ''Souhair Naser El Deen'' ([[JN105]])
+|zh_yue=凌晞 ''Ling Hei''
+|zh_cmn=詹雅菁 ''Zhān Yǎjīng''
+|cs=Rozita Erbanová
+|da=Clara Rugaard-Larsen<br>Josephine S. Ellefsen
+|nl=Tara Hetharia
+|fil=Sofia Pablo ([[XY094]]-present)
+|fi=Alina Tomnikov
+|fr_eu=Sophie Frisson
+|de=Gabrielle Pietermann
+|el=Αφροδίτη Αντωνάκη ''Aphrodite Antonaki''
+|he=טליה ברקאי ''Talia Barkai''
+|hi=सयूरी हरलकर ''Sayuri Haralkar'' (Hungama dub)
+|id=Clara Dewanti
+|it=Deborah Morese
+|ko=김현지 ''Kim Hyun-Ji''
+|pl=Dominika Sell
+|pt_br=Michelle Giudice ([[S17]]-[[S18]])<br>Bruna Laynes ([[S19]])<br>Loretta Martins ([[S25]])
+|pt_eu=Sissi Martins
+|ru=Мария Иващенко ''Mariya Ivashenko''
+|es_la=Verania Ortiz
+|es_eu=Isatxa Mengíbar
+|th=ธันยนันท์ พิพัฒน์ไชยศิริ ''Thanyanan Piphatchaisiri''
+|tr=Işıl Kılıç
+|vi=Võ Ngọc Quyên<br>Cao Thụy Thanh Hồng (First Trailer)
+|ta=''Yamuna'' (Hungama dub)
+}}
+
+===Artwork===
+====Original outfit====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size:80%; color:#fff;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:auto"| [[File:Serena XY.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XY 2.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XY 3.png|x240px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XY 4.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XY 5.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XY 6.png|x250px]]
+|-
+| Official artwork<br>from the ''{{color2|fff|Pokémon the Series: XY}}''
+| colspan=5 | Alternative artwork from the ''{{color2|fff|Pokémon the Series: XY}}''
+|}
+
+====Second outfit====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size:80%; color:#fff;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XY2 2.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena New Outfit XY.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena New Outfit XY2.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena New Outfit XY3.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena M18.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena XYZ.png|x200px]]
+|-
+| colspan=4 | Alternative artwork from the ''{{color2|fff|Pokémon the Series: XY}}''
+| Artwork from {{color2|fff|M18|the eighteenth movie}}
+| Artwork from {{color2|fff|M19|the nineteenth movie}}
+|}
+
+====Journeys outfit====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size:80%; color:#fff;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Serena Chloe Lisia JN.png|x250px]]
+|-
+| Alternative artwork from<br>''{{color2|fff|Pokémon Journeys: The Series}}''
+|}
+
+====Other artwork====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size:80%; color:#fff;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{fairy  color dark}}; background: #{{fairy  color light}}; width:80px"| [[File:JN105 AS.png|200px]]
+| style="{{roundy|20px}} border: 2px solid #{{fairy  color dark}}; background: #{{fairy  color light}}; width:80px"| [[File:JN132 AS.png|300px]]
+|-
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1513713567861997578</ref>
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1591672205040943105</ref>
+|}
+
+==In the manga==
+[[File:Serena M18 manga.png|thumb|180px|Serena in ''{{ma|Hoopa and the Clash of Ages}}'']]
+===Movie adaptations===
+Serena appeared in ''{{ma|Diancie and the Cocoon of Destruction}}'' and ''{{ma|Hoopa and the Clash of Ages}}'', serving the same role as in the respective movies they were based on.
+{{-}}
+
+==Trivia==
+<!--Please don't add trivia about Serena having the most changes from her game counterpart. Since you can customize your character, it is considered moot.
+Also, do not add trivia about Serena kissing Ash, it was not confirmed to be a kiss and the only evidence available has conflicting statements.-->
+* Out of all of {{Ash}}'s {{ashfr|traveling companions}}, Serena took the longest time to officially join Ash's group after being introduced, taking [[XY007|seven episodes]] to do so.
+** She also took the longest time to both reveal her goal in life (choosing to become a [[Pokémon Performer]]) and catch [[Serena's Pancham|her first Pokémon]], both accomplished [[XY047|46 episodes]] after her debut.
+* Serena is the first main character to not have a Pokémon under her ownership by the end of their introduction episode, not counting [[Max]] and {{an|Bonnie}}.
+* Not counting temporary Pokémon, Serena is the first of Ash's friends to catch a Pokémon that another one of his friends also had: {{an|May}} and {{TP|May|Eevee}}.
+** She is also the first traveling companion to have been invited into the group by Ash.
+* Serena is the first female traveling partner to not get herself or her [[Bicycle|bike]] shocked by {{AP|Pikachu}} at the start of her respective [[series]], as {{an|Misty}}, May, and {{an|Dawn}} all had their bikes electrocuted, while {{an|Iris}} and Bonnie were directly shocked by Pikachu.
+* Serena is the last one of Ash's traveling companions to be based on a [[player character]].
+* Serena is the only one of Ash's female companions to have a confirmed canon crush on him.
+** Serena is also the only one of Ash's female friends to not have a unique "[[twerp]]" title from {{TRT}}.
+* Serena is the only main character to indefinitely change her outfit in the middle of a series, and the only one to permanently change her hairstyle at all.
+* Serena is the only one of Ash's traveling companions to have met him before the [[EP001|beginning of the series]].
+* Serena is the only main character other than Ash to have obtained a new [[Pokédex]] in a middle of a regional journey.
+* Serena's new appearance was first teased in preliminary images of a {{pkmn|Tretta}} [[Pancham (U1-01)|puck]] featuring her and her Pancham, which featured her in a silhouette.
+** It was first teased for the dub in the trailer for ''[[M18|Hoopa and the Clash of Ages]]''.
+* Serena's second outfit from ''[[Pokémon the Series: XY]]'' resembles clothing and a hairstyle from the [[Trainer customization]] feature found in [[Pokémon X and Y]]. The clothing Serena currently wears resembles the Red Fedora, Brown Riding Boots, and Black Knee Socks; and her hairstyle resembles the short hair with bangs.
+** Discounting Iris's occasional {{pkmn|Champion}} outfit, Serena is the only companion to receive an entirely new outfit in ''[[Pokémon Journeys: The Series]]''.
+* Serena's second [[Bag]] is designed after a [[Heal Ball]].
+
+==Names==
+{{main|Serena (game)#Names|Serena → Names}}
+
+==References==
+{{reflist}}
+
+==External links==
+*{{wp|Serena (Pokémon)|Article on Wikipedia}}
+
+==Related articles==
+* [[Serena (game)]]
+* [[Mirror Serena]]
+* {{cat|Episodes focusing on Serena}}
+* [[a:Category:Serena (anime)|Images on the Bulbagarden Archives]]
+
+{{Serena's Pokémon}}
+{{animecharacters|y}}
+{{Project Anime notice|no}}
+
+[[Category:Animation characters]]
+[[Category:Ash's friends]]
+[[Category:Performers]]
+[[Category:Coordinators]]
+
+[[de:Serena (Animecharakter)]]
+[[es:Serena (anime)]]
+[[fr:Serena/Pokémon, la série]]
+[[it:Serena (serie animata)]]
+[[ja:セレナ (アニメ)]]
+[[zh:莎莉娜（動畫）]]

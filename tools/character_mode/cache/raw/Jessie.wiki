@@ -1,0 +1,1328 @@
+{{Character Infobox
+|color=666
+|bordercolor=C00
+|corecolor=CCC
+|name=Jessie
+|jname=ムサシ
+|tmname=Musashi
+|text=fff
+|image=Jessie JN.png
+|size=187px
+|caption=Jessie in ''[[Pokémon Journeys: The Series]]''
+|age=Adult<ref name="age"/> <!--Not confirmed in M02, see https://dogasu.bulbagarden.net/learn/rumor_guide/movie_02_reveals_rockets_age.html-->
+|gender=Female
+|eyes=Blue
+|hair=Dark Pink <small>([[EP002]]&ndash;[[EP080]])</small><br>Crimson <small>([[EP081]]&ndash;[[EP260]])</small><br>Magenta <small>([[EP261]]&ndash;present)</small>
+|hometown=Unknown
+|region=[[Kanto]]
+|relatives=[[Miyamoto]] (mother), [[James]] (husband, [[The Electric Tale of Pikachu|EToP]] only)
+}}
+{{Character Infobox/Anime
+|color=CCC
+|series=''[[Pokémon the Series]]''
+|debut=''[[EP002|Pokémon Emergency!]]''
+|enva=[[Rachael Lillis]] <small>([[EP002]]-[[AG145]])</small><br>[[Michele Knotz]] <small>([[AG146]]-[[JN147]])</small>
+|jpva=[[Megumi Hayashibara]] <small>([[EP002]]-[[AG084]], [[AG093]]-[[JN147]])<br></small>[[Akiko Hiramatsu]]<small> ([[AG085]]-[[AG092]])
+}}
+{{Character Infobox/Team
+|color=CCC
+|member=[[Team Rocket]]
+|rank=Agent
+}}
+{{Character Infobox/Team
+|color=CCC
+|member=[[Aether Foundation]] <small>([[SM046]] - [[SM049]]; [[SM096]])</small>
+|rank={{tc|Aether Foundation Employee|Employee}}
+}}
+{{Character Infobox/Game
+|color=CCC
+|gen={{gen|I}}, {{gen|II}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|counterpart=[[Jessie (Masters)]]
+|games={{v2|Yellow}}, [[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu!, Let's Go, Eevee!]]<br>{{pkmn|Puzzle League}}, {{pkmn|Zany Cards}}, {{pkmn|GO}}, {{pkmn|Masters EX}}, {{pkmn|Mezastar}}
+|trainer=[[Team Rocket|Agent]], {{pkmn|Coordinator}}, {{pkmn|Performer}}, {{tc|Aether Foundation Employee}} (former)<br>{{tc|Team Rocket Grunt|Rocket}}{{sup/1|Y}}/[[Team Rocket]]{{sup/7|PE}}<br>[[Team GO Rocket]]<sup>'''{{color2|{{night color}}|Pokémon GO|GO}}'''</sup>
+|enva=[[Rachael Lillis]] <small>({{pkmn|Puzzle League}})</small><br>[[Michele Knotz]] <small>({{pkmn|Masters EX}})</small>
+|jpva=[[Megumi Hayashibara]] <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Team
+|color=CCC
+|member=[[Team GO Rocket]]
+|rank={{tc|Team GO Rocket Grunt|Grunt}}
+}}
+{{Character Infobox/Manga
+|color=CCC
+|series=''[[The Electric Tale of Pikachu]]''<br>''[[Ash & Pikachu]]''<br>''{{ma|Pokémon Journeys}}''
+|debut=''[[ET07|Pikachu's Excellent Adventure]]'' (''The Electric Tale of Pikachu'')<br>''[[SP01|Hoppip, the Wind Calls!]]'' (''Ash & Pikachu'')<br>''[[JNM04|Flash of the Titans!]]'' (''Pokémon Journeys'')
+}}
+|}
+
+'''Jessie''' (Japanese: '''ムサシ''' ''Musashi'') is a member of [[Team Rocket]], and one of the main antagonists of {{aniseries|PTS}} as part of the [[Team Rocket trio]]. Alongside [[James]] and {{MTR}}, she follows [[Ash Ketchum]] and {{ashfr}} around the [[Pokémon world]], usually trying to steal [[Ash's Pikachu]].
+
+==In animation==
+===''Pokémon the Series''===
+====History====
+=====Pre-series=====
+[[File:Jessie Nurse School.png|thumb|220px|Jessie at the Pokémon Nurse School]]
+Jessie's mother, [[Miyamoto]], was a high-ranking [[Team Rocket]] agent. When Jessie was around the age of five, Miyamoto left on a mission to the {{wp|Andes}} to record the voice of the elusive Pokémon {{p|Mew}}. However, after Miyamoto disappeared, Jessie was put into a foster home which had very little money. There were times when she had no choice but to eat snow because of a lack of food, but she revealed in ''[[Snow Way Out!]]'' that the "snowgasboard" meals were one of her few happy childhood memories.
+
+In ''[[DP073|Crossing Paths]]'', it was revealed that she had a crush on a boy she had gone to school with, named [[Astin]], who was leaving to become a [[Pokémon Coordinator]], and who has a current-day counterpart [[Austin|with a similar name]]. She refused to go with him because she and two friends were training to become pop idols. Unfortunately, while her two friends passed, Jessie's audition didn't go well and her idol dreams were quashed.
+[[File:Chainer Jessie.png|thumb|220px|left|Jessie as "Chainer Jessie" when she was part of the bridge bike gang]]
+When she was old enough, she left home to become a Pokémon nurse. However, she was unable to go to a regular nursing school and went to the [[Pokémon Nurse School]], which was intended for {{p|Chansey}}. She was quite skilled at things such as bandaging, and even showed [[Nurse Joy's Blissey|a Chansey]] how to do it. She quickly became good friends with that Chansey. However, because she was not a Chansey herself, Jessie couldn't do things like use {{m|Sing}} to soothe Pokémon, instead falling asleep herself. Ultimately, she failed to graduate, and on graduation day, she simply packed a bag and left. As she was leaving, Chansey came up to her and offered her her nurses' hat, but Jessie refused to take it. Chansey then broke her egg-shaped pendant she got as proof of graduating in half and gave one half to Jessie so that they would have something to remember each other by. In the episode ''[[EP129|Ignorance is Blissey]]'', Jessie was reunited with that same Chansey, which had since evolved into a {{p|Blissey}}.
+
+In ''[[EP009|The School of Hard Knocks]]'', Jessie and [[James]] told {{MTR}} that while they were at the [[Pokémon Trainer]]s' school [[Pokémon Tech]], they both received the lowest scores in the history of the school. The school later brought back bad memories for both Jessie and James.
+
+After this, as revealed in ''[[EP036|The Bridge Bike Gang]]'', Jessie and James joined a bicycle gang in [[Sunnytown]], where Jessie was known for swinging a chain above her head as she rode her bike, acquiring the nicknames "Big Jess" and "Chainer Jessie".
+
+It was revealed in ''[[EP188|Spring Fever]]'' that she was supposedly a model at one point.
+
+Upon arriving at [[Littleroot Town]]'s port in ''[[EP274|Hoenn Alone]]'', Jessie indicated that she had been to the town sometime before and referred to it as "the city whose colors will never change", though she didn't elaborate further. Her past connection to [[Hoenn]] was again hinted in ''[[AG013|All Things Bright and Beautifly!]]'', when Jessie was revealed to have an expired Hoenn [[Contest Pass]].
+
+Sometime before joining Team Rocket, she had several boyfriends, all of whom left her and/or treated her badly. In ''[[EP234|Xatu the Future]]'', she revealed that she had once worked at a TV station as the weathergirl. In ''[[AG156|From Cradle to Save]]'', it was revealed that she once was a ninja.
+
+Due to conflicts in [[canon]] between Kanto and Johto episodes and the special episode ''[[HS12|Training Daze]]'', what happened between Jessie and James after the bike gang is unknown. What is known, as shown in the special episode, is that they joined Team Rocket separately and were on initially unfriendly terms after being grouped with {{MTR}} but they quickly made up and became good friends. While Jessie and [[Cassidy]] quickly became bitter rivals, she had befriended trainee-hopeful {{OBP|Christopher|DP117}} and inspired him to pursue his ambitions outside of Team Rocket.
+
+Team Rocket member {{OBP|Wendy|EP231}} held a grudge against Jessie for failing to pay for a drink and instead made Wendy pay, but she got her revenge way later and added the charge to Jessie's overall Team Rocket bill.
+
+====={{aniseries|OS}}=====
+[[File:Jessie and James first appearance.png|thumb|left|220px|Jessie and James's first appearance in ''[[EP002|Pokémon Emergency!]]'']]
+Jessie made her debut in ''[[EP002|Pokémon Emergency]]''. Alongside James and Meowth, they set their sights on the injured Pokémon in the {{ci|Viridian}} [[Pokémon Center]]. Sending out their {{TP|Jessie|Ekans}} and {{TP|James|Koffing}} from their [[Team Rocket's mechas|Meowth balloon]], they quickly overtook the Pokémon Center, which only had [[Nurse Joy]], {{Ash}} and {{an|Misty}} inside. Before they could steal any of the Pokémon, however, [[Ash's Pikachu]], who teamed up with many other {{p|Pikachu}} in the Pokémon Center, used an electric attack, causing the entire Pokémon Center to explode. It was here that Team Rocket decided to capture Pikachu, deeming him as an exceptionally powerful Pokémon, and made it their goal to capture him.
+
+In ''[[EP014|Electric Shock Showdown]]'', after hearing that Pikachu would fight to defend his own honor and Ash's, the trio were inspired to cheer on Pikachu before his rematch against {{gy|Vermilion}} [[Gym Leader]] [[Lt. Surge]]'s {{TP|Lt. Surge|Raichu}}.
+
+In ''[[EP015|Battle Aboard the St. Anne]]'', the Team Rocket trio worked together with other {{tc|Team Rocket Grunt}}s to steal the Pokémon of all the {{pkmn|Trainer}}s on board the [[S.S. Anne]]. Out on the open ocean, Team Rocket began taking the Pokémon of everyone by force. Ash led a counterattack against the Rockets, leading to a large battle and many of the members of Team Rocket being blasted off through the side of the ship. Afterwards, the S.S. Anne started taking on water and sunk, trapping Team Rocket, Ash, and his friends underwater. [[EP016|When the two groups met up]], they initially fought, but Misty took charge and directed all of them in an emergency escape plan before the ship fell into the depths of the sea floor. They eventually found an exit, with Team Rocket nearly drowning due to having to rely on [[James's Magikarp]] to swim them to safety. After getting stranded, Magikarp evolved into {{p|Gyarados}} and sent them all flying with a cyclone made from {{m|Dragon Rage}}.
+
+In ''[[EP029|The Punchy Pokémon]]'', Jessie entered the [[P1 Grand Prix]] after stealing {{OBP|Giant|EP029}}'s clothes and {{p|Hitmonlee}}. She used Giant's clothes as a disguise. She did not make it as Hitmonlee lost to {{AP|Primeape}}.
+[[File:EP052.png|thumb|220px|Jessie in the Princess Festival]]
+In ''[[EP052|Princess vs. Princess]]'', Jessie participated in the [[Princess Festival]]. She caught a {{TP|Jessie|Lickitung}} beforehand when it was caught stealing stuff from {{TRT}} with its tongue, claiming to deal with it later. Jessie competed in the contest of the Princess Festival but was eliminated by Misty despite her Lickitung nearly defeating the entirety of the team that Misty used.
+
+In ''[[EP056|The Ultimate Test]]'', Jessie decided to take the [[Pokémon League Admissions Exam]] to see if she could enter the [[Indigo Plateau Conference]] and add that achievement to her résumé. However, during the theory test, she rose from her seat and started to argue with [[Pokémon League entrance exam instructor|the instructor]], which led to her being expelled.
+
+In ''[[EP063|The Battle Of The Badge]]'', Jessie, James, and Meowth were made the temporary [[Gym Leader]]s of the [[Viridian Gym]] in Giovanni's place. Having rigged the platforms so that the Trainer feels the pain their Pokémon feels, they battled against Ash. Despite using Giovanni's Pokémon and cheating, they ultimately lost and were sent [[blasting off]].
+
+The Team Rocket trio [[EP081|continued to follow]] Ash to the [[Orange Islands]], where they were ordered by Giovanni to operate a blimp in an attempt to get rid of them. The three performed their duty as wait staff before realizing no one was piloting the blimp, and because of this it drifted straight into a storm. They then found Ash and friends and started a battle, which tore a hole in the blimp. Meowth attempted to make a parachute from some of the broken fabric, but {{an|Jigglypuff}} landed on top of it and {{m|Sing|sang a song}}. Meowth, unable to stay awake, let go of the fabric, causing the trio to fall into the ocean and drift away.
+
+====={{aniseries|GS}}=====
+In ''[[EP173|Wobbu-Palooza!]]'', she fought the [[Wobbuffet Festival crashers]] with her {{TP|Jessie|Wobbuffet}} and single-handedly defeated them. When she, James, and Meowth were leaving the [[Wobbuffet Festival|festival]], they were caught with stolen food from the festival. Ash and his friends easily defeated them and got the food back.
+
+In ''[[EP175|The Trouble with Snubbull]]'', Team Rocket first tried using Meowth as bait for a newly evolved {{TP|Madame Muchmoney|Granbull}} so they could collect a reward from the Granbull's owner, [[Madame Muchmoney]]. This failed, and they subsequently used a Meowth-shaped mecha for their next attempt. Through a misunderstanding over Meowth trying to release Granbull from the mecha's tail, Team Rocket were mistakenly assumed to have tricked Madame Muchmoney. When Team Rocket was blasted off following a battle between the mecha and Granbull, Granbull returned home and no longer followed Meowth.
+
+In ''[[EP196|Control Freak!]]'', she wore an ancient mask and scepter belonging to a queen from a long time ago. Using the items, Jessie possessed some Pokémon that she chose except for {{TP|Brock|Golbat}} who was apparently unaffected. She was about to get away with the items but {{an|Brock}}'s newly evolved Crobat sliced the Dig-a-tron and separated her from the mask and scepter.
+
+In ''[[EP231|Dues and Don'ts]]'', the Team Rocket trio learned they'd been disbanded from Team Rocket for unpaid dues. However, a [[Rocket Scout]] informed them she could get them back in if they prove themselves to her by defeating Ash and his friends. The three begged to borrow her {{OBP|Delibird|Team Rocket}} to help them, which she agreed to. Even with the support, they failed to complete the mission, but were reinstated anyway due to a labor shortage. Their signing bonus helped pay off their bills, but the Rocket Scout informed them Delibird would be following them to make sure it didn't happen again. By ''[[EP270|Can't Beat the Heat!]]'', Delibird stopped following them, satisfied with the money they earned during the [[Silver Conference]].
+
+====={{aniseries|RS}}=====
+[[File:Jessie Jessebella.png|thumb|left|220px|As Jessebella]]
+[[File:Jessadia.png|thumb|220px|As Jessadia]]
+Starting in [[Hoenn]], Jessie became a [[Pokémon Coordinator]], entering every Contest that she could. She frequently made it to the battle round, but usually lost there. Although Jessie entered mostly every Contest in Hoenn and Kanto, she lost in all of them, whether it was the first match of the Battle Rounds or the finals.
+
+In the Kanto Contests, Jessie [[List of Team Rocket's disguises|disguised]] herself as '''Jessebella''' (Japanese: '''ムサぴょん''' ''Musa-pyon'') wearing a red dress and glasses. Eventually, Ash, Brock, May, and Max found out her true identity in the last Contest.
+
+In ''[[AG089|A Scare to Remember!]]'', Pikachu developed amnesia after an attack by Team Rocket and their machine. Team Rocket took advantage of this and tricked Pikachu into joining them. Trying to get Pikachu back, Ash jumped on their balloon, and the trio ordered Pikachu to hit Ash with Thunderbolt. This caused them to get blasted off, while Ash and Pikachu fell into a river. As Ash protected him, Pikachu managed to regain his memory and got rid of Team Rocket once again.
+
+During the [[Kanto Grand Festival]], Jessie dressed up as '''Jessadia''' (Japanese: '''プリティ・ムサリン''' ''Pretty Musalin'') and wore glasses, long white socks, a yellow and orange dress, and had her hair in pigtails. She worked there as an announcer and [[Lilian Meridian]]'s assistant; Lilian herself said she did not really like Jessadia's style, but recognized her talent.
+
+In ''[[AG159|Off the Unbeaten Path]]'', Jessie entered [[Potpourri Island]]'s [[Pokémon Orienteering]] with {{MTR}} as her partner Pokémon. The duo had trouble finding the checkpoints and decided to drop out of the competition. They planned on letting [[James]] and his {{TP|James|Mime Jr.}} collect the five stamps, thinking James would share the sample of [[Berry|fruit]] prize with them. To assure James's victory, they dug several pitfall traps throughout the island so as to slow down the other contestants. When James was declared the winner, Jessie was certain she would get to eat some fruits. However, James was more interested in the Pokémon Teamwork Medal and he agreed to donate the fruits after [[Nurse Joy]] asked him to, much to Jessie's disappointment.
+
+Jessie's odd Contest style caught the eye of [[Harley]], and they quickly struck up a friendship of sorts during the [[Mulberry City]] Contest. Harley was determined to sabotage May's chances of getting her final [[Ribbon]], and he subsequently paired up with Team Rocket, even giving Jessie his Pokémon to borrow for the event. Jessie lost to May in the final round, much to Harley's annoyance. Later, in ''[[AG187|The Unbeatable Lightness of Seeing!]]'', Harley suggested that Jessie should accompany him to [[Johto]] to compete in Contests. She refused his offer, admitting that she was already committed to Team Rocket.
+
+In ''[[AG176|The Ole' Berate and Switch!]]'', following a failed attempt of getting Ash's Pikachu, Jessie separated with James and Meowth, and met up with [[Butch]]. Jessie went back with James and Meowth after Team Rocket were caught stealing a load of Poké Balls.
+
+====={{aniseries|DP}}=====
+In ''[[DP002|Two Degrees of Separation!]]'', {{an|Giovanni}} approved the trio's plans to set up Team Rocket in [[Sinnoh]].
+
+[[File:Jessilina.png|thumb|220px|As Jessilina]]
+In ''[[DP011|Mounting a Coordinator Assault!]]'', Jessie disguised herself as '''Jessilina''' (Japanese: '''キャンディ・ムサリーナ''' ''Candy Musalina'') in order to compete in the [[Jubilife City]] [[Pokémon Contest]]. When the results were announced in ''[[DP012|Arrival of a Rival!]]'', it was shown that Jessie's performance had secured her a place in the second round, where she lost to [[Zoey]] and her {{TP|Zoey|Glameow}} in the finals. The disguise adopted for the Jubilife Contest was used in every official Pokémon Contest Jessie entered in the Sinnoh [[region]] and the [[Hearthome Collection]] as well. As Jessilina, she would form an unfriendly [[Rival|rivalry]] with [[Dawn (anime)|Dawn]] throughout the entire Sinnoh Contest circuit.
+
+After rescuing [[Ash's Aipom]] from falling off a cliff in ''[[DP022|Borrowing on Bad Faith!]]'', Jessie managed to persuade {{Ash}} to let her borrow Aipom for an informal Pokémon Contest that would be held in a small village as part of a festival. Jessie then decided to practice for the competition, asking Aipom to show off all of her moves. Jessie's {{pkmn|training}} session paid off as she easily advanced to the second round of the Contest, where she faced {{an|Dawn}} and her {{TP|Dawn|Pachirisu}}. During their battle, Jessie used a [[Contest combination]] to drop Dawn's points before commanding Aipom to attack Pachirisu with {{m|Focus Punch}}, which caused the {{type|Electric}} Pokémon to [[fainting|faint]], thereby eliminating Dawn from the Contest and giving Jessie her first Contest victory.
+
+The trio were hired by [[Team Galactic]] to steal the [[Adamant Orb]] from the [[Eterna Historical Museum]] in ''[[DP036|A Secret Sphere of Influence!]]''.  Team Rocket successfully made the theft, framing [[Nando]] in the process, but ultimately failed to get away with the orb.
+
+In ''[[DP061|Team Shocker!]]'', Jessie entered the {{to|Solaceon}} Contest with her {{TP|Jessie|Dustox}}. Their performance left the three judges, [[Raoul Contesta]], [[Mr. Sukizo]], and [[Nurse Joy]], very impressed as {{pkmn|Coordinator}} and {{OBP|Pokémon|species}} were in sync with one another. This secured Jessie a place in the [[Contest Battle|Battle Round]], where she quickly made her way to the finals. There, Jessie faced {{si|Kenny}} and his {{TP|Kenny|Prinplup}} using her Dustox. She was able to win the battle by taking advantage of Kenny's techniques, having used Prinplup's [[move]]s to favor her Dustox. This victory gave Jessie her first {{pkmn|Contest}} [[Ribbon]].
+
+In ''[[DP065|Sleight of Sand!]]'', the trio argued with Butch and Cassidy over who would steal a {{p|Hippowdon}}. Their constant bickering made it easy for Ash and his friends to save the Heavyweight Pokémon.
+
+In ''[[DP073|Crossing Paths]]'', Jessie was in the middle of a training session on the shores of a mountain lake when her Dustox got distracted and flew away. Jessie hurried after her and found her with a {{Shiny}} {{p|Dustox}} belonging to a {{pkmn|Trainer}} named [[Austin]]. Austin told Jessie about the Dustox Crossing, a time when Dustox gather at the lake and pair up before flying over [[Mt. Coronet]] towards the [[Dustox Flower Field]], where they start their families. After hearing this and noticing her Dustox's crush on Austin's Dustox, Jessie remembered her school days when she had a crush on a boy called [[Astin]]. One day, Astin decided to leave town to become a {{DL|Grand Festival|Top Coordinator}} and invited Jessie to come along with him, but Jessie declined the offer. To this day, Jessie wonders how her life would have turned out if she had joined Astin in his {{pkmn|journey}}. Jessie was determined to prevent Dustox from making the same mistake, and decided to {{pkmn2|released|release}} her so she could take part in the Crossing with Austin's Dustox. When Dustox refused to leave, Jessie broke Dustox's {{i|Poké Ball}}, telling Dustox to go follow its heart. As Dustox fluttered off with her partner, Jessie remembered their time together before calling out to Dustox telling her to go fall in love with all of her heart and to do it for the both of them.
+
+[[File:Jessilina and Wallace.png|thumb|left|220px|Jessilina meeting Wallace]]
+In ''[[DP075|Our Cup Runneth Over!]]'', Jessie announced her plans to enter the [[Wallace Cup]] and said she would dedicate her performance to her released Dustox. She also decided to go looking for [[Wallace]], thinking that meeting Wallace would increase her chances of winning the special Pokémon Contest bearing his name. After finding him, she showed him her {{TP|Jessie|Seviper}} dressed up as a {{p|Milotic}} and asked him to award her some bonus points during the Wallace Cup. She later watched as Wallace delivered a performance with his Milotic, and asked him to teach {{m|Aqua Ring}} to her Seviper, but Wallace said Seviper could not learn the move.
+
+When Jessie entered the Wallace Cup in ''[[DP077|Staging a Heroes' Welcome!]]'', she was counting on James and {{MTR}} to make sure she would be the one taking the {{DL|Ribbon|Aqua Ribbon}} home, as she believed they had plotted a scheme for her to win the Solaceon Town Pokémon Contest. However, they admitted to her that they did not use any cheats back then and told her that she won the Solaceon Ribbon all by herself thanks to her skills as a Pokémon Coordinator. Later, Jessie used {{TP|Jessie|Wobbuffet}} in the first round of the Wallace Cup. She started the performance by running towards Wobbuffet while he ran at her using {{m|Counter}}. When the two collided in the middle of the stage, Jessie was sent flying in the air. She then finished it off by landing on top of Wobbuffet's head, but failed to impress the panel of judges. For this reason, Jessie didn't make it past the Performance Stage. Jessie then reappeared in the Wallace Cup in her Contest announcer persona "Jessadia", interviewing Coordinators backstage.
+
+In ''[[DP102|Shield with a Twist!]]'', Jessie found out a Pokémon Contest would be held in [[Majolica Town]] and decided to participate. After advancing to the second round, where she managed to defeat all of her opponents, Jessie won the prestigious Majolica Ribbon, her second Contest Ribbon overall.
+
+In ''[[DP146|Dressed for Jess Success!]]'', Jessie was determined to win her third Contest Ribbon. However, she was sick and unable to take part in the {{to|Lilypad}} Contest, so she persuaded James to go dressed as Jessilina and compete in her place. She watched the whole competition on television, in which James managed to defeat {{an|Dawn}} in the semifinals.
+
+Jessie competed against several Coordinators in the [[Neighborly Town]] Pokémon Contest in ''[[DP167|Teaching the Student Teacher!]]''. She made it through the Performance Stage and managed to defeat each one of her opponents in the Battle Stage, winning the event with the help of her Seviper and earning the Neighborly Ribbon, her fourth Contest Ribbon overall.
+
+In ''[[DP171|Dawn of a Royal Day!]]'', Jessie entered the {{to|Arrowroot}} Contest hoping to win her fifth and final Ribbon. Not knowing that Dawn and [[Princess Salvia]] had switched places for the day, she was puzzled when she saw Dawn backstage, as Dawn had already completed her requirement to compete in the [[Grand Festival]]. During the first round, she delivered a performance that assured her progression to the Battle Stage. There, she quickly made her way to the finals, where she found herself up against a disguised Salvia. Using her Seviper against [[Dawn's Togekiss|Salvia's Togekiss]], Salvia was able to make a comeback after hearing some encouraging words from the real Dawn, defeating Jessie and earning the Arrowroot Ribbon. Later, Salvia approached Jessie backstage and gave her the Contest Ribbon as a token of gratitude for their battle in the finals. Jessie was confused and furious for receiving what she called a pity Ribbon. She was about to throw away the Ribbon but James convinced her to keep it so she could take part in the Grand Festival; as she had obtained her fifth Contest Ribbon fair and square, she was now qualified to compete.
+[[File:Jessie in Grand Festival.png|thumb|left|250px|Jessilina in the Grand Festival]]
+Jessie entered the [[Sinnoh Grand Festival]] in ''[[DP174|Last Call — First Round!]]''. When the results were announced, it was revealed that Jessie was among the 32 Coordinators advancing to the [[Contest Battle]]s. In ''[[DP175|Opposites Interact!]]'', she defeated her first opponent in the Battle Stage with the help of her Yanmega and Seviper. After advancing to the semifinals of the competition in ''[[DP176|Coming Full-Festival Circle!]]'', she used her Seviper and Carnivine to face off against Dawn and her {{TP|Dawn|Buneary}} and {{TP|Dawn|Cyndaquil}}. Despite her efforts, she ended up losing the battle.
+
+After her loss to Dawn, Jessie got furious as her dream of becoming {{DL|Grand Festival|Top Coordinator}} was destroyed. Regardless, she told Dawn that since she had been defeated by her, she wouldn't forgive her for as long as she lived if Dawn didn't end up as Top Coordinator, thus showing that Jessie was rooting for Dawn despite the two being [[rival]]s. When Dawn lost to [[Zoey]] in the finals of the [[Grand Festival]] in ''[[DP177|A Grand Fight for Winning!]]'', Jessie was enraged and decided she was done with [[Pokémon Contest]]s. She then discarded her Jessilina costume before storming away. None of the main characters ever learned that Jessie and Jessilina were the same person.
+
+====={{aniseries|BW}}=====
+[[File:Jessie BW anime.png|thumb|220px|Jessie in ''[[Pokémon the Series: Black & White]]'' from ''[[BW001|In The Shadow of Zekrom!]]'' to ''[[BW022|A Venipede Stampede!]]'']]
+In ''Pokémon the Series: Black & White'', Jessie, James, and Meowth were sent to the [[Unova]] region under orders from Giovanni after they were promoted in ''[[DP191|Memories are Made of Bliss!]]''. Now wearing black uniforms instead of their previous white ones, Jessie and James, along with Meowth, followed various missions given to them by Giovanni through other people. To prevent them from getting too much attention, Giovanni did not allow their other Pokémon to be sent to them, only making them use Pokémon native to Unova. Unbeknownst to the two, Giovanni was not certain that they would be successful; however, he sees that their presence in the region will force [[Team Plasma]] to reveal themselves.
+
+The trio completed multiple missions for Giovanni in the early episodes of this series, with their first mission coming in ''[[BW005|Triple Leaders, Team Threats!]]''. After arriving in [[Striaton City]], Giovanni ordered them to visit a former laboratory located at the nearby [[Dreamyard]], where they were tasked to take control of the area's mysterious ‘Future Energy'. [[BW006|They arrive]] and assemble a machine to collect data to be sent back to headquarters, though the machine ended up alerting Ash, his friends, and [[Officer Jenny]] of their plan. The machine is destroyed, but not before they transmitted the data back to HQ for analysis.
+
+In ''[[BW009|The Bloom Is On Axew!]]'', Giovanni instructed the trio to head to the [[Desert Resort]] and meet up with another Team Rocket agent to investigate a [[Meteonite|meteorite fragment]] located there. [[BW010|Upon arriving]] at the meetup location, the trio were surrounded by the police. As Officer Jenny prepared to arrest them, the agent-[[Pierce]]-arrived and rescued them. As they escaped, Pierce handed a briefcase to James with vital information.
+
+In ''[[BW011|A Home for Dwebble!]]'', the trio succeeded in their mission to steal data concerning the Meteonite from the [[Antimony Research Lab]].
+
+In ''[[BW014|A Night in the Nacrene City Museum!]]'', the trio was given a mission to break into the [[Nacrene Museum]] and swap out a fake meteorite with the real one, which they accomplished in the [[BW015|next episode]], and [[BW017|later]] handed it off to [[Dr. Zager]].
+
+In ''[[BW022|A Venipede Stampede!]]'', they located the Meteonite in the Desert Resort. This would be their final mission from Giovanni, and after this they were advised to act on their own in the best interest of Team Rocket. The three decided to focus on what they do best-trying to capture Ash's Pikachu.
+
+In ''[[BW060|Stopping the Rage of Legends! Part 2]]'', [[BW057|after]] [[BW058|destroying]] the shrines of {{an|Forces of nature|Tornadus}} and {{an|Forces of nature|Thundurus}}, Team Rocket tried to capture the forces of nature, but were thwarted by Ash and his friends.
+
+In ''[[BW075|A Restoration Confrontation! Part 1]]'', the trio were given a mission by Dr. Zager to obtain a [[Cover Fossil]] inside [[Twist Mountain]], which would be used to open a time gate to steal countless [[Fossil|Fossil Pokémon]] from the past.  Once they stole one from [[Ferris]], they retreated to Dr. Zager's helicopter. The Cover Fossil was successfully revived into a {{p|Tirtouga}}, but it escaped from the group. Team Rocket chased it down-where it evolved into a {{p|Carracosta}}-and held it down in front of the Time Gate. As they were about to pass through the gate, Ash and his friends arrived to stop them. This, along with Carracosta from the past, forced Team Rocket to flee emptyhanded.
+[[File:Team Rocket saving Giovanni.png|thumb|250px|left|Team Rocket rescuing Giovanni]]
+The trio reappeared in ''[[BW082|An Epic Defense Force!]]'', where they tried to capture a {{an|Meloetta}} for a future job: Operation
+Tempest. The plan continued in ''[[BW085| All for the Love of Meloetta!]]'', where they were able to injure Meloetta before it was found by Ash and {{an|Cynthia}}. In ''[[BW096|Meloetta and the Undersea Temple!]]'', the operation began in full, with the trio capturing Ash, Pikachu, and Meloetta and bringing them to the [[Abyssal Ruins]].
+
+Once there, Giovanni used Meloetta's song to summon the [[Reveal Glass]] and the forces of nature. During the battle, Giovanni was possessed by the Reveal Glass, and Meowth, Jessie, and James jumped in and removed him from its influence. He then ordered a full retreat from the Unova region, with the trio joining him.
+
+Along with James and Meowth, Jessie reappeared in ''[[BW109|New Places... Familiar Faces!]]'', returning to their original plan of catching Ash's Pikachu. They've also added new Pokémon to their team, with Jessie catching a {{TP|Jessie|Frillish}} sometime before meeting up with Ash and company. However, she is forced to give it and her {{TP|Jessie|Woobat}} away to Giovanni in ''[[BW142|The Dream Continues!]]'' under the pretense that she captured them for him. She also regained Wobbuffet as part of her team in the episode.
+
+====={{aniseries|XY}}=====
+Jessie returned once again in ''Pokémon the Series: XY'', following Ash to the [[Kalos]] [[region]]. In Kalos, Jessie became a [[Pokémon Performer]], competing under the aliases '''Jessilee''' and '''Jessilia''' (Japanese: '''ムサヴィ''' ''Musavie'').
+
+In ''[[XY003|A Battle of Aerial Mobility!]]'', Giovanni approved the trio's plan to steal as many rare and powerful Pokémon as they could in Kalos.
+
+In ''[[XY011|The Bamboozling Forest!]]'', she {{pkmn2|caught}} a {{TP|Jessie|Pumpkaboo}}.
+
+In ''[[XY026|A Battle by Any Other Name!]]'', the Team Rocket trio entered the [[Poké Puff Contest]]. After failing the preliminary round, the three decided to instead steal all the food and Pokémon at the event. They are stopped by a combined attack from the twerps Pokémon.
+
+In ''[[XY060|A Showcase Debut!]]'', Jessie entered the Rookie Class [[Pokémon Showcase]] that was being held in [[Coumarine City]]. In the first round, she competed against {{an|Shauna}} and [[Alouette]] using her Pumpkaboo, which she dressed up as a scarecrow. Jessie however had misunderstood what she meant to do, as the point of the Showcase was to show off the Pokémon's beauty whereas she had chosen to make Pumpkaboo as scary as possible. As a result, she was the least voted Performer and thus was eliminated from the competition.
+
+[[File:XY063.png|thumb|left|250px|Jessie trying to release Wobbuffet]]
+In ''[[XY063|A Fork in the Road! A Parting of the Ways!]]'', Jessie and Wobbuffet got lost after [[blasting off]] when trying to steal {{AP|Pikachu}}. As she and Wobbuffet searched for [[James]] and {{MTR}} they came across a {{pkmn2|wild}} {{p|Gloom}} which Jessie tried to shoo away by shoving sand at it, but instead it used {{m|Stun Spore}} on her and Wobbuffet causing them to fall into a nearby river. Jessie and Wobbuffet were saved from drowning by [[Dr. White]] and his female Wobbuffet. Dr. White took Jessie and Wobbuffet back to his clinic in order to recover. There, Jessie noticed the two Wobbuffet had a connection and started to fall in love with Dr. White. Later, after being found out by Ash and his friends, Jessie confided in them that she was done with Team Rocket. Unbeknownst to Jessie, James and Meowth were listening in on the conversation, but they didn't do anything to try and stop her. After realizing Dr. White didn't have feelings for her, and learning that {{TP|Jessie|Pumpkaboo}}, {{TP|James|Inkay}}, and Meowth were captured by a Pokémon Hunter, Jessie decided to leave Wobbuffet behind and save her friends. As she was rescuing her friends, Wobbuffet came back to her and helped her. At the end of the episode, she was seen holding flowers that Dr. White gave her as a gift, but she decided to stick with her friends instead.
+
+In ''[[XY080|Performing with Fiery Charm!]]'', Jessie attempted to earn her first {{DL|Pokémon Showcase|Princess Key}} by competing in the {{to|Dendemille}} Rookie Class Showcase. During the Theme Performance, she was seen baking some [[Poké Puff]]s for the judges along with Meowth and Wobbuffet. Meowth had heard what [[flavor]]s the judges' Pokémon preferred and told Jessie to give her an advantage. As a result, the three were able to advance to the Freestyle Performance. There, they delivered a performance that impressed [[Delilah]] and some other audience members. However, it was not enough to bring Jessie the victory.
+[[File:Jessilee Couriway Showcase.png|thumb|250px|Jessilee in the Couriway Showcase]]
+In ''[[XY082|A Festival Trade! A Festival Farewell?]]'', Jessie and her fellow Team Rocket members attended the [[Gourgeist Festival]], during which she {{pkmn|cosplay|dressed up as}} a {{p|Mismagius}}. She met a man named [[Count Pumpka]] who had a {{p|Pumpkaboo}} that had fallen in love with Jessie's. Count Pumpka offered to [[trade]] his {{p|Mawile}} for Jessie's Pumpkaboo, and after hearing that Mawile could [[Mega Evolution|Mega Evolve]], Jessie became very excited and a fight broke out between Jessie and Pumpkaboo. As a result of the fight Jessie agreed to the trade. As soon as Count Pumpka called Pumpkaboo out she [[Evolution|evolved]], which caused Count Pumpka's Pumpkaboo to lose his interest in her. After remembering all the good times she had with Pumpkaboo Jessie wanted to trade the two Pokémon back, to which Count Pumpka agreed. During a blast off, which happened as a result of battling Ash and his friends, Jessie was hugging {{TP|Jessie|Gourgeist}} the entire time, happy to have her back.
+
+Jessie entered the [[Couriway Town]] Pokémon Showcase in ''[[XY101|A Dancing Debut!]]'', where she succeeded in getting past the Theme Performance, which consisted of baking Poké Puffs while simultaneously delivering a performance, with the help of Meowth and Wobbuffet. During the Freestyle Performance, she performed a dance routine alongside her Gourgeist and Wobbuffet that excited the audience. When the round was over and the audience was asked to vote on the Performer who had performed the best, a majority voted for Jessie, who earned her first Princess Key from [[Monsieur Pierre]] as a reward.
+
+In ''[[XY105|Party Dancecapades!]]'', Jessie and her team members decided to attend a dance party hosted by [[Monsieur Pierre]]. After seeing Serena and her friends go inside, Meowth noted that it would be a perfect chance to catch Pikachu. Jessie, however, decided to let go of these plans in favor of attending the dance party and decided on James being her date while Gourgeist decided Inkay to be hers. Later, she was seen flailing James during their dance. With the dance party over, Monsieur Pierre announced a Tag Battle and Miette and James were partnered against Ash and Serena. Despite James's chagrin, Jessie sternly told him to win the battle but he lost, leading to her and her Gourgeist eating from the table behind them out of frustration.
+
+In ''[[XY107|An Explosive Operation!]]'', Jessie, James, and Meowth were first seen contacting Giovanni and informed them about [[Team Flare]] and [[Squishy|a powerful Pokémon which can exhibit various Formes]]. Intrigued, Giovanni assigned them with the task to catch the {{p|Zygarde|Pokémon}}. As the trio searched for Squishy, they met up with [[Z2|another Pokémon resembling Squishy but having a blue core]] and Team Flare scientists [[Aliana]] and [[Mable]]. After James's Inkay successfully damaged the device which was used by Team Flare to catch Z2, Jessie sent out her Gourgeist to attack [[Mable#Weavile|Mable's Weavile]] and [[Aliana#Druddigon|Aliana's Druddigon]] with {{m|Seed Bomb}} which created smoke, successfully allowing Team Rocket to flee with Z2. She and her teammates were confronted once again by Team Flare but despite putting up a good fight, her Gourgeist ended up being knocked out. Later, she witnessed Z2 transform into its 50% Forme to fight against Team Flare's Pokémon and later [[Alain's Charizard]]. When the Order Pokémon lost, she along with her teammates jumped in front of Z2 to rescue it from Team Flare but ended up being blasted off by Mable's {{p|Weavile}} and Aliana's {{p|Druddigon}}.
+[[File:Jessie Gloire Showcase.png|thumb|250px|left|Jessie in the Master Class Showcase]]
+In ''[[XY112|Master Class Is in Session!]]'', having gained the two Princess Keys needed to enter the Master Class, she entered the [[Gloire City]] [[Pokémon Showcase]] Master Class. In the first round, she performed against [[Nini]] and [[Concetta]], where she dazzled the audience with {{m|Shadow Ball}} from her Gourgeist. When the second part of the first round began, she chose to strike a series of poses with her Gourgeist while [[Nini]] and Concetta appealed to the audience, but later joined the appeals, commanding Shadow Ball from her Gourgeist which enveloped the stage in a lilac smoke. Due to her appeals, she managed to advance to the next round in which she participated with Meowth, and made it through to the top three semi-finalists. Jessilee seemed pleased when Monsieur Pierre announced the rules for the semi-final round [[XY113|in the next episode]], claiming she just has to do what she has been since doing. Despite putting up a good performance with Meowth and her Gourgeist, she was defeated, and despite her partners' fear, did not seem sad about it, instead being happy that Kalos could see her beauty. When the Master Class was over, she was seen walking through [[Gloire City]] rather silently, causing James, Meowth, Inkay and her Pokémon to worry and fear her wrath. However, she shrugged their fears and decided that she just wanted to give a feast to them, which shall be financed by James, for supporting her.
+
+She along with her teammates and her Wobbuffet worked as [[Malva]]'s assistants during the [[Lumiose Conference]] from ''[[XY125|A League of His Own!]]'' to ''[[XY131|Down to the Fiery Finish!]]'', with the aim of earning money and capturing any strong Pokémon in the [[Lumiose Conference|Kalos League]]. However, they were not very pleased with their jobs and felt that they were over-working; despite this, they did not quit their jobs. In ''[[XY129|Kalos League Passion with a Certain Flare!]]'', they made it a point to steal the two finalists, Ash and [[Alain]]'s, Pokémon after the battle, but could not execute their plan due to Team Flare wreaking havoc in [[Lumiose City]]. When Malva decided to abandon the broadcasting and confront [[Lysandre]] in ''[[XY132|A Towering Takeover!]]'', Jessie, as '''Jessimurrow''', took to narrating the calamity herself, until the broadcast was interrupted by Team Flare. In ''[[XY133|Coming Apart at the Dreams!]]'', she, in disguise of a news reporter, set out with her teammates, {{an|Serena}}, [[Mairin]], and [[Professor Sycamore]] towards [[Lysandre Labs]] in an attempt to take over the base and bring Team Flare down.
+
+They reached the Lysandre Labs in ''[[XY134|The Right Hero for the Right Job!]]'', where a surprise attack from [[Celosia#Drapion|Celosia's Drapion]] caused her, and her teammates, to be enraged enough to remove their disguises and take on Celosia and {{p|Drapion}} with her Gourgeist. In [[XY135|the next episode]], she finally defeated [[Celosia]] and [[Mable]] with her Wobbuffet, and after the [[Giant Rock]] transformed into a Zygarde, fled the Lysandre Labs along with her teammates on their helicopter. She took to reporting the entire event surrounding the Rock as they followed it on the helicopter on its way towards [[Anistar City]], and like her teammates, was utterly surprised to see the seven [[Gym Leader]]s and Kalos Champion [[Diantha]] arrive on the scene to deal with the Giant Rock. She later assisted Ash and Alain in infiltrating the Giant Rock by sending out her Gourgeist in ''[[XY136|Forming a More Perfect Union!]]'' to fight the Megalith Zygarde. One of the roots, however, blasted her and her teammates out of the helicopter, but they were saved by [[Diantha's Gardevoir]].
+
+After the disaster, she and her teammates claimed sole credit for defeating Team Flare to Giovanni.
+
+In ''[[XY138|The First Day of the Rest of Your Life!]]'', she and Gourgeist participated in an Exhibition Showcase held in Lumiose City, specifically planned to help the citizens recover from the gloom of the disaster by spreading happiness and excitement.
+
+====={{aniseries|SM}}=====
+[[File:Jessie catching Mimikyu.png|thumb|250px|Jessie catching Mimikyu]]
+In ''[[SM003|Loading the Dex!]]'', the trio arrived in the [[Alola]] region to obtain some rare Alolan Pokémon for Giovanni, as well as Ash's Pikachu, which they were surprised to find on [[Melemele Island]]. They had also left Inkay and Gourgeist behind at headquarters. They allied with a {{TP|Jessie|Mimikyu}}, which hated Pikachu, but at the end of the episode, a {{pkmn2|wild}} {{an|Bewear}} kidnapped Jessie and James. In ''[[SM004|First Catch in Alola, Ketchum-Style!]]'', the Bewear looked after the trio, giving them food and shelter at its den. Jessie used James's [[Luxury Ball]] to capture Mimikyu.
+
+It was revealed in ''[[SM012|The Sun, the Scare, the Secret Lair!]]'' that Jessie has a dislike for Giovanni's secretary [[Matori]], who regularly displays a contemptuous and condescending attitude towards the trio and acts as if she is their boss. Jessie in turn sees Matori as a rival figure and even calls her "four eyes".
+
+In ''[[SM018|A Seasoned Search!]]'', the trio completed their secret base in Bewear's den.
+
+In ''[[SM025|A Team-on-Team Tussle!]]'', the trio, upon learning about [[Z-Move]]s, began their search for a [[Z-Crystal]]. They discovered a [[Darkinium Z]] in a nest of {{rf|Alolan}} {{p|Rattata}} and {{p|Raticate}}, led by a {{pkmn2|Totem}} Raticate, and attempted to retrieve it. However, they were intercepted by members of [[Team Skull]], also after the same Z-Crystal. Ultimately, after a clash with the other team, and with the Totem Pokémon, the trio obtained the Z-Crystal for themselves.
+
+In ''[[SM028|Pulling Out the Pokémon Base Pepper!]]'', it was revealed that Jessie has a star-crush on [[Oluolu]], a famous [[Baseball|Pokémon Base]] player from [[Melemele Island]]. In the episode, she, along with her teammates, played Pokémon Base against Ash and {{ashcl}} in an effort to get Oluolu's autograph, but lost. In appreciation for a good game, Oluolu offered Jessie his autograph anyway; however, Bewear charged through and carried Team Rocket off before she could accept it.
+
+In ''[[SM038|Mimikyu Unmasked!]]'', Jessie sent Mimikyu out to battle Ash during another attempt to steal Pikachu, but Team Rocket was quickly blasted off. This separated Mimikyu and its Trainer from James, Meowth, and Wobbuffet, while also ripping Mimikyu's rag in the process. Wearing a malasada bag, Mimikyu and its Trainer went shopping to find a replacement for its rag, but the Disguise Pokémon became irritated by Jessie's different outfits and stormed out of the store. Jessie convinced Mimikyu to hand over its rag to her for a repair. When she later opened another bag of malasadas, a trio of {{p|Murkrow}} stole them, but also accidentally took Mimikyu's rag. Jessie, however, was able to retrieve it. When a larger flock of Murkrow returned for an attack, Mimikyu slid into its repaired rag and protected its Trainer from the flock. Later, Team Rocket returned to Ash for a rematch. Nevertheless, Mimikyu still ignored her commands to attack {{AP|Lycanroc}} and attacked Pikachu instead, leaving Team Rocket open to Lycanroc's {{m|Continental Crush}}, sending them flying until Bewear arrived to take them to its den.
+
+In ''[[SM042|Alola, Kanto!]]'', Team Rocket was revealed to have flown to Kanto as per orders from the headquarters. At the airport, the trio noticed Misty and Brock meet up with Ash and his classmates, and after eavesdropping on the group's conversation, decided to steal Pokémon off of [[Professor Oak's Laboratory]] and present them to Giovanni. However, their attempt to steal the group's Pokémon was thwarted, and they were carried back to Alola by Bewear in ''[[SM043|When Regions Collide!]]''.
+[[File:Team Rocket and Z-Power Ring.png|thumb|left|250px|Team Rocket having obtained a Z-Power Ring]]
+In ''[[SM073|Why Not Give Me a Z-Ring Sometime?]]'', [[James's Mareanie]] learned {{m|Knock Off}}, meaning the trio finally had a move that worked with their Darkinium Z. They reported this to Giovanni and Matori, who informed them they needed a Z-Ring to use it. Giovanni told them to head to [[Ula'ula Island]] to meet [[Nanu]], an old acquaintance of his who could help them out. They later arrived on the island and ran into a {{p|Gengar}}-nicknamed Greedy Rapooh-who stole their Darkinium Z. They chased it down, with Mimikyu attacking it with Shadow Ball. Greedy Rapooh jumps from body to body possessing them; James used the distraction to retrieve the Darkinium Z. As the battle continued, Nanu arrived and gave the trio a [[Z-Power Ring]]. The Greedy Rapooh is then defeated with Mareanie's {{m|Black Hole Eclipse}}. Afterwards, Jessie was given a [[Mimikium Z]] from [[Acerola]].
+
+In ''[[SM076|A Battle Hand-Off!]]'', Team Rocket acted as Ash's opponent during his {{OBP|Thrifty Megamart|Abandoned Site}} [[Island challenge|trial]]. Mimikyu battled Pikachu, and eventually Mimikyu used {{m|Let's Snuggle Forever}}, with all of Team Rocket working together to provide the Z-Power. However, Pikachu was able to survive the Z-Move when he shielded himself with his newly learned {{m|Electroweb}}. When Ash's [[Electrium Z]] turned into a [[Pikashunium Z]], Pikachu was able to use {{m|10,000,000 Volt Thunderbolt}}, which defeated Mimikyu.
+
+In ''[[SM122|Spying for the Big Guy!]]'', Giovanni informed the trio that he wanted them to send Bewear to him, as they had earlier stated they had caught her. They attempted to catch her before realizing it would be impossible, after which Matorni and her Meowth appeared demanding the Strong Arm Pokémon. They managed to stall by promising other strong Pokémon-namely those belonging to Ash and his friends and [[Grandpa Forest]]. Both attempts failed, and Matori settled for taking {{p|Stufful}}. Unable to let their friend be taken, the trio tricked Matori into taking Meowth disguised as Stufful. When the ruse was discovered, Matori's Meowth attacked, which summoned Bewear to the rescue.
+
+In ''[[SM129|Battle Royal 151!]]'', Jessie entered the [[Manalo Conference]] alongside James. Disguised as '''Jessina''' (Japanese: '''ムサジーナ''' ''Musasina''), Jessie was among the 151 Trainers taking part in the [[Battle Royal]] preliminary round. Despite intending to keep herself hidden and avoid elimination until the battle was over, Mimikyu kept running around the battlefield, attacking any Pikachu it could find. By the end, Jessie was one of the 16 Trainers still standing at the end of the round. The match-ups for the next round revealed that she would be battling James.
+
+In ''[[SM131|The Battlefield of Truth and Love!]]'', Jessie and Wobbuffet battled James and his {{TP|James|Mareanie}}. Fully confident in her own victory, she allowed Wobbuffet to act however he pleased, which he did by repeatedly using {{m|Counter}} and {{m|Mirror Coat}} against Mareanie's {{m|Spike Cannon}} and {{m|Sludge Bomb}}. However, Mareanie ultimately managed to defeat Wobbuffet with a relentless Spike Cannon barrage after James gained a newfound resolve to win, thus eliminating Jessie from the competition.
+
+In ''[[SM146|Thank You, Alola! The Journey Continues!]]'', Team Rocket received a call from HQ to return to headquarters. Unable to believe Mimikyu and Mareanie would be happy there, they released the two Pokémon before returning to Kanto.
+
+====={{aniseries|JN}}=====
+In ''[[JN003|Ivysaur's Mysterious Tower!]]'', Giovanni ordered Jessie, James, Meowth, and Wobbuffet to steal strong and rare Pokémon for the organization and make Team Rocket known and feared across the world. He then promised to deliver them a new secret weapon meant to help them achieve these objectives: The [[Rocket Prize Master]]. They used it for the first time against Ash and [[Goh]], receiving a {{p|Tyranitar}} and {{p|Gyarados}}. Despite the powerful Pokémon, they lost to Ash's Pikachu.
+
+Sometime prior to ''[[JN017|Kicking It from Here Into Tomorrow!]]'', Team Rocket was revealed to have made a secret base in [[Vermilion City]].
+[[File:Team Rocket Kublock Ditto.png|thumb|250px|Team Rocket encouraging Ditto]]
+In ''[[JN019|A Talent for Imitation!]]'', Team Rocket encountered a movie-star {{p|Ditto}} who'd run away due to its inability to properly {{m|Transform}} and its [[Kublock|Trainer]]'s short temper. Deciding to make Ditto a new member of Team Rocket, the group worked to teach Ditto to control its nerves and transform properly. After learning that Ditto was needed back, however, Team Rocket pretended they'd kidnapped Ditto to cover up the fact it ran away. The trio provoked Ash and Pikachu to blast them off, and with that Ditto was returned to the studio.
+
+In ''[[JN024|A Little Rocket R & R!]]'', Team Rocket was ordered to go on vacation to the [[Resort Area]] in [[Sinnoh]]. However, the reward was a ploy by Matori and her agents, who planned to steal many Pokémon from the Resort Area. After overhearing her insulting them, the four decided to get their revenge by helping Ash and Goh free the Pokémon. The subsequent battle quickly turned against Matori and her unit, and when [[Officer Jenny]] arrived, they retreated.
+
+In ''[[JN043|Sword and Shield: The Darkest Day!]]'', the trio were sent to [[Galar]] on Giovanni's command. During the trip, the [[Darkest Day]] began, and the trio planned on using the opportunity to capture {{TP|Goh|Eternatus}}. The plan failed, however, when Meowth was hit by a beam of [[Dynamax]] energy, causing him to [[Gigantamax]]. Unable to handle the energy, he began to attack his teammates. He [[JN045|eventually]] regained control of himself and went to attack Eternatus with {{m|G-Max Gold Rush}}, but was robbed of his [[Dynamax]] energy and subsequently sent [[blasting off]] by the Gigantic Pokémon.
+
+[[File:JN106.png|thumb|250px|left|Team Rocket's radio show]]
+In ''[[JN095|The Good, The Bad, and The Lucky!]]'', Team Rocket met up with Cassidy, who was running a café in a small snowy village with her {{p|Raticate}}. James grew to like the place and was encouraged by the other to stay, which he agreed to. Jessie and Meowth later found Butch running a bakery in a quiet coastal village alongside a female Meowth. Meowth fell in love, and Jessie persuaded Meowth to stay with it. The two later reunited with her after getting kicked out and rejected.
+
+In ''[[JN106|Radio Lulled the Mischievous Stars!]]'', Team Rocket was ordered by Giovanni to recruit new members for Team Rocket. They figured radio was the best method, and as a result started a new late-night radio show. However, after their first episode, they discovered not a single person tuned in to listen. The second episode went no better, and as a result they gave the show a major overhaul. Through many changes, Team Rocket's radio program started to become more and more popular, but along the way they forgot about the goal of recruitment. They were later scolded by Giovanni for this, though they occasionally did the show for fun.
+
+In ''[[Team Rocket Expedition which stands by the evils of love and truth]]'', Jessie briefly travels alongside James and Meowth to the [[Paldea]] region.
+[[File:JN145.png|thumb|250px|Team Rocket reuniting with all of their current Pokémon]]
+In ''[[JN145|Rocket Revengers!]]'', Jessie, James, and Meowth reunited with their Pokémon that had been residing at {{an|Team Rocket HQ}}. Realizing the potential of such a large group, the team hatched a scheme to isolate Ash's Pikachu and capture him. The trio waited at the end of the trap, where they ambushed an isolated Pikachu. Despite their efforts, however, Pikachu was able to evade capture, and a wild {{an|Latias}} that had been following Ash intervened and sent the evil group [[blasting off]]. Upset over the failure, the trio decided it was time to go their separate ways. 
+
+In ''[[JN146|Ash and Latios]]'', she returned to the headquarters and gained a job working in the cafeteria, though the work was harder than she imagined. She [[JN147|later]] snuck out to try and steal Pikachu once again, where she unexpectedly ran into James and Meowth, who had gotten the same idea. Tired of working at the cafeteria, the Team Rocket trio rekindled their friendship and decided to work together once more. They launched their attack, snatching Pikachu in a net and reciting their motto to celebrate their reunion. [[Ash's Pidgeot]] came to Ash and Pikachu's rescue, and Pikachu delivered the usual blast-off Thunderbolt. Despite failing once again, the Team Rocket trio were happy to be together again and vowed to never give up on chasing after Pikachu as a team as they disappeared into the distance.
+
+====Character====
+[[File:Jessie enraged.png|thumb|left|220px|Jessie enraged]]
+She has a long-standing bitter rivalry with [[Cassidy]], another member of Team Rocket. Beginning in ''[[Pokémon the Series: Sun & Moon]]'', she has a rivalry with [[Matori]], Giovanni's secretary and an elite Team Rocket operative.
+
+Jessie seems to have a special preference for snake-like Pokémon, owning both an {{TP|Jessie|Arbok}} and a {{TP|Jessie|Seviper}}. In ''[[EP032|The Ninja-Poké Showdown]]'', she expressed a preference for {{type|Poison}} Pokémon in general, though several {{type|Bug}} and {{type|Ghost}} Pokémon have since appeared on her team including {{TP|Jessie|Yanmega}}, {{TP|Jessie|Gourgeist}}, and {{TP|Jessie|Mimikyu}}.
+
+Jessie is prone to vanity and explosive anger. She values her appearance, and she can get furious when her face or hair is damaged, such as in ''[[EP023|The Tower of Terror]]'', ''[[EP097|Tracey Gets Bugged]]'', ''[[EP117|Don't Touch That 'dile!]]'', ''[[AG008|A Tail with a Twist]]'', ''[[AG049|Maxxed Out!]]'', ''[[DP156|A Meteoric Rise to Excellence!]]'', ''[[XY056|One for the Goomy!]]'', and ''[[XY065|Good Friends, Great Training!]]''. When this happens, she may do things like beat up a Pokémon such as {{MTR}} or her {{TP|Jessie|Seviper}}. Furthermore, Jessie goes into a violent outrage whenever someone insults her beauty by calling her old, such as in the episode ''[[EP040|The Battling Eevee Brothers]]'' when {{an|Misty}} calls Jessie an "old hag" (Japanese: ''oba-san''). She shares this trait with James, who hates being referred to as an old man. She is also angered (compared to her companions, who are usually depressed when they fail at something) when missions are either failed or botched, which is a regular thing. At times, her anger is also shown to scare James and Meowth, usually when they are expecting it or if she really loses her temper. This intense anger was demonstrated in the Indigo League, Orange Islands, and part of the Johto League story arcs. However, her anger tantrums have become less frequent and eruptive over the next story arcs.
+
+While she is very incompetent when it comes to stealing Pokémon, Jessie eventually becomes a highly accomplished Performer and a Master Class semi-finalist. Indeed, after she loses to Serena, she is overjoyed by her steady progress, instead of going on her usual rants or crying like the others.
+
+Jessie seems to have an ability to enjoy food that others dislike, as shown in several episodes; in ''[[Snow Way Out!]]'', she was shown to have eaten snow as a child due to her not being able to afford proper food, and offered some snow rolls to her teammates; in ''[[EP193|Sick Daze]]'', she loved the poorly made stew cooked by {{an|Misty}}, which even Misty herself had come to find horrible; and in ''[[AG117|Berry, Berry Interesting]]'', she was the only person (and one of only two individuals besides a then-{{pkmn2|wild}} {{TP|May|Munchlax}}) who actually enjoyed "{{an|May}}'s Purple Surprise" [[Pokéblock]]s, which every other human and Pokémon who had tasted them had found utterly disgusting.
+
+During her time in [[Hoenn]], Jessie revealed herself to have been a former [[Pokémon Coordinator]] and re-assumed this role throughout her time in the region. Still, almost every time, she performed terribly. Her skills significantly improved during her time in [[Sinnoh]], during which Jessie proved herself to be a talented Coordinator. Her skills and knowledge of Contests were further showcased in ''[[DP061|Team Shocker!]]'', where Jessie criticized {{an|Dawn}}'s performance after her {{TP|Dawn|Ambipom}}'s attack proved distracting. Jessie tended to showcase her relationships with her Pokémon. She was consistently noted for her unique style and enthusiasm, literally throwing herself into her performances and enduring attacks. Despite being defeated on many occasions, Jessie has nonetheless been able to win a few Contests on her own, including defeating Kenny in the finals of the {{to|Solaceon}} Contest and being praised by [[Top Coordinator]] [[Johanna]] for her winning performance in the {{to|Neighborly}} Contest.
+[[File:Jessie Party.png|thumb|250px|Jessie's current [[party]], excluding Wobbuffet]]
+
+====Pokémon====
+As with the standards set by the Team Rocket organization, Jessie initially started off with mainly {{type|Poison}} Pokémon, but as the series continued onward, her team has diversified. Most of her other Pokémon tend to be unusual in appearance and don't usually fit the general image of "cute". However, she does display a desire to obtain Pokémon that are considered "adorable" when the opportunity presents itself, especially feminine Pokémon such as {{p|Happiny}} or {{p|Smoochum}}. She was also attracted to a {{p|Weavile}} in ''[[AG185|Duels of the Jungle!]]''.
+
+Occasionally, she manages to take control of some powerful Pokémon, but due to either inexperience or hubris, this often backfires and loses control of them. She doesn't appear to train her Pokémon that often. Instead, they are often used to fight against {{Ash}} and {{ashfr}}. When she enters [[Pokémon Contest]]s, she tends to involve herself in her Pokémon's appeals.
+{{-}}
+<gallery widths="175">
+File:Team Rocket party Original series.png|Jessie and James's Pokémon from {{aniseries|OS}}
+File:Team Rocket party Johto.png|Jessie and James's Pokémon from {{aniseries|GS}} (excluding {{TP|Jessie|Lickitung}})
+File:Battle Frontier - Team Rocket 2.png|Jessie and James's Pokémon from {{aniseries|AG}}
+File:Team Rocket party Sinnoh.png|Jessie and James's Pokémon from {{aniseries|DP}} (excluding {{TP|James|Cacnea}} and {{TP|Jessie|Dustox}})
+File:Team Rocket party Best Wishes series.png|Jessie and James's Pokémon from {{aniseries|BW}}
+File:Team Rocket party XY series.png|Jessie and James's Pokémon from {{aniseries|XY}}
+File:Team Rocket party SM series.png|Jessie and James's Pokémon from {{aniseries|SM}}
+File:Team Rocket and Morpeko.png|Jessie and James's  Pokémon from {{aniseries|JN}}
+</gallery>
+
+=====On hand=====
+{| width="100%"
+|-
+|{{ActivePoké|Jessie|Wobbuffet|Jessie Wobbuffet.png|psychic}} ♂
+| {{ActivePoké|Jessie|Seviper|Jessie Seviper.png|poison}}
+| {{ActivePoké|Jessie|Yanmega|Jessie Yanmega.png|bug|flying|fir=Yanma}} ♀
+|-
+| {{ActivePoké|Jessie|Woobat|Jessie Woobat.png|psychic|flying}} ♂
+| {{ActivePoké|Jessie|Frillish|Jessie Frillish.png|water|ghost}} ♀
+| {{ActivePoké|Jessie|Gourgeist|Jessie Gourgeist.png|ghost|grass|fir=Pumpkaboo}} ♀
+|}
+
+=====Travels with=====
+This section is for the Pokémon that Jessie currently travels with, but has not caught.
+{| width="100%"
+|-
+| {{ActivePoké||Meowth|Meowth Team Rocket.png|normal|link=Meowth (Team Rocket)}} [[File:Dynamax icon.png|25px|link=Gigantamax]] ♂
+| {{ActivePoké|||nick=Rotom Phone|Team Rocket Rotom Phone.png|electric|ghost|link=Rotom Phone}}
+|
+|}
+
+=====Released=====
+{| width="100%"
+|-
+| {{InactivePoké|Jessie|Arbok|Jessie Arbok.png|poison|fir=Ekans}}
+| {{InactivePoké|Jessie|Dustox|Jessie Dustox.png|bug|poison|fir=Wurmple|mid=Cascoon}} ♀
+| {{InactivePoké|Jessie|Mimikyu|Jessie Mimikyu.png|ghost|fairy|size=200px}}
+|
+|}
+
+=====Traded away=====
+{| width="100%"
+|-
+| {{InactivePoké|Jessie|Lickitung|Jessie Lickitung.png|normal}}
+| {{InactivePoké|Jessie|Mawile|Count Pumpka Mawile.png|steel|fairy|link=List of Pokémon temporarily owned by the Team Rocket trio#Mawile|size=200px}}
+|
+|}
+
+=====Evolved with another Pokémon=====
+{| width="100%"
+|-
+| {{InactivePoké|Jessie|Shellder|Jessie Shellder.png|water|link=List of Pokémon temporarily owned by the Team Rocket trio#Shellder}}
+|
+|
+|}
+
+=====Lived with=====
+This section is for the Pokémon that Jessie lived with, but has not caught.
+{| width="100%"
+|-
+| {{InactivePoké||Bewear|Bewear anime.png|normal|fighting|link=Bewear (anime)|size=200px}} ♀
+| {{InactivePoké||Stufful|Stufful anime.png|normal|fighting|link=Stufful (anime)|size=200px}}
+|
+|}
+
+=====Befriended=====
+{| width="100%"
+|-
+| {{InactivePoké|Nurse Joy|Blissey|Nurse Joy Blissey EP129.png|Normal|fir=Chansey}} ♀
+|
+|}
+
+=====Temporarily owned=====
+:''Main articles: [[List of Pokémon temporarily owned by the Team Rocket trio]]'' and ''[[Rocket Prize Master]]''
+
+=====Status unknown=====
+{{TrainerPoké
+|trainer=Jessie
+|pkmn=Starmie
+|type1=Water
+|type2=Psychic
+|img=Jessie Starmie.png
+|epnum=AG156
+|epname=From Cradle to Save
+|desc=During a flashback, Jessie used a {{p|Starmie}} similar to a {{wp|shuriken}}, telling it to use "water magic" {{m|Water Gun}} as it hit others while spinning. However, it was heavily implied that Jessie made this up.
+
+Starmie's only known move is {{m|Water Gun}}.}}
+
+====Contests====
+=====Sinnoh Ribbons=====
+[[File:Jessilina Ribbons.png|thumb|220px|Two of Jessilina's Ribbons as seen in ''[[DP117|Noodles! Roamin' Off!]]'']]
+This listing is of the [[Ribbon]]s Jessie obtained in the [[Sinnoh]] [[region]] as Jessilina:
+* {{to|Solaceon}} [[a:File:Solaceon Ribbon.png|Ribbon]] (''[[DP061|Team Shocker!]]'')
+* {{to|Majolica}} [[a:File:Majolica Ribbon.png|Ribbon]] (''[[DP102|Shield with a Twist!]]'')
+* {{to|Lilypad}} [[a:File:Lilypad Ribbon.png|Ribbon]] (''[[DP146|Dressed for Jess Success!]]''; received from [[James]])
+* {{to|Neighborly}} Ribbon (''[[DP167|Teaching The Student Teacher!]]'')
+* {{to|Arrowroot}} [[a:File:Arrowroot Ribbon.png|Ribbon]] (''[[DP171|Dawn of a Royal Day!]]''; received from [[Salvia]])
+
+=====Grand Festival ranking=====
+Jessie has competed in the following [[Grand Festival]] tournaments as Jessilina:
+* [[Sinnoh Grand Festival]] - Top 4 (''[[DP176|Coming Full-Festival Circle!]]'')
+
+=====Other achievements=====
+* {{ci|Rustboro}} Contest - Appeal Round (as "Mademoiselle Jessica"; ''[[AG013|All Things Bright and Beautifly!]]'')
+* {{to|Fallarbor}} Contest - Top 4 (as "Jessica"; ''[[AG051|Come What May!]]'')
+* {{to|Verdanturf}} Contest - Top 4 (as "Jesslana"; ''[[AG062|Disguise Da Limit]]'')
+* {{ci|Lilycove}} Contest - Top 4 (as "Jessafina"; ''[[AG091|Lessons in Lilycove]]'')
+* {{to|Pacifidlog}} Contest - Top 4 (as "The Jester"; ''[[AG116|Pacifidlog Jam]]'')
+* {{ci|Saffron}} Contest - Top 8 (as "Empress Jessibella"; ''[[AG144|A Hurdle for Squirtle]]'')
+* [[Chrysanthemum Island|Chrystanthemum]] Contest - Top 8 (as "Jessibella"; ''[[AG162|Spontaneous Combusken!]]'')
+* {{ci|Mulberry}} Contest - Runner-Up (as "Jessibella"; ''[[AG175|Going for Choke!]]'')
+* {{ci|Jubilife}} Contest - Runner-Up (as "Jessilina"; ''[[DP012|Arrival of a Rival!]]'')
+* Unofficial Contest - Winner (as herself; ''[[DP022|Borrowing on Bad Faith!]]'')
+* {{to|Floaroma}} Contest - Top 8 (as "Jessilina"; ''[[DP027|Settling a Not-So-Old Score!]]'')
+* {{ci|Hearthome}} Contest - Top 4 (as "Jessilina"; ''[[DP049|Dawn's Early Night!]]'')
+* [[Wallace Cup]] - Appeal Round (as "Jessilina"; ''[[DP077|Staging a Heroes' Welcome!]]'')
+* {{to|Celestic}} Contest - Appeal Round (as "Jessilina"; ''[[DP095|Battling The Generation Gap!]]'')
+* {{to|Chocovine}} Contest - Top 4 (as "Jessilina"; ''[[DP114|Another One Gabites the Dust!]]'')
+* {{to|Sandalstraw}} Contest - Top 4 (as "Jessilina"; ''[[DP123|Old Rivals, New Tricks!]]'')
+* {{to|Brussel}} Contest - Unknown (as "Jessilina"; ''[[DP155|Double-Time Battle Training!]]'')
+* {{to|Daybreak}} Contest - Top 8 (as "Jessilina"; ''[[DP162|Playing the Performance Encore!]]'')
+* {{to|Arrowroot}} Contest - Runner-Up (as "Jessilina"; ''[[DP171|Dawn of a Royal Day!]]'')
+
+====Showcases====
+=====Princess Keys obtained=====
+[[File:Jessie Princess Key.png|thumb|250px|Jessie's Princess Keys as of ''[[XY101|A Dancing Debut!]]'']]
+This listing is of the {{DL|Pokémon Showcase|Princess Key}}s Jessie obtained as Jessilee:
+* {{to|Couriway}} Princess Key (''[[XY101|A Dancing Debut!]]'')
+* At least two unknown Princess Keys (prior to ''[[XY112|Master Class is in Session!]]'')
+
+=====Master Class ranking=====
+Jessie has achieved the following ranking in the Master Class tournament as Jessilee:
+* {{ci|Gloire}} Showcase - Top 4 (''[[XY113|Performing a Pathway to the Future!]]'')
+
+=====Other achievements=====
+* {{ci|Coumarine}} Showcase - Theme Performance (as "Jessilee"; ''[[XY060|A Showcase Debut!]]'')
+* {{to|Dendemille}} Showcase - Fifth (as "Jessilia"; ''[[XY080|Performing with Fiery Charm!]]'')
+* {{ci|Anistar}} Showcase - Third (as "Jessilee"; ''[[XY091|A Performance Pop Quiz!]]")
+
+====Pokémon League====
+Jessie has competed in the following [[Pokémon League Conference]]s as Jessina:
+* [[Manalo Conference]] - Top 16 (''[[SM131|The Battlefield of Truth and Love!]]'')
+
+====Pokémon competitions====
+Jessie has competed in the following {{cat|Pokémon competitions}}:
+* [[Beach Beauty and Pokémon Costume Contest]] - N/A (with James as "Rocket Boosters"; ''[[EP018|Beauty and the Beach]]'')
+* [[P1 Grand Prix]] - Runner-Up (with James as "Giant"; ''[[EP029|The Punchy Pokémon]]'')
+* [[Queen of the Princess Festival]] - Runner-Up (''[[EP052|Princess vs. Princess]]'')
+* [[Sunflora Festival]] - Disqualified (with James as "Eta" and "Rock"; ''[[EP135|Grin to Win!]]'')
+* [[Seaking Catching Competition]] - N/A (''[[EP168|Hook, Line, and Stinker]]'')
+* [[Pokémon Beauty Contest]] - Disqualified (with James; ''[[EP169|Beauty and the Breeder]]'')
+* [[Grass Tournament]] - Disqualified (as "Eissej"; ''[[EP178|The Grass Route]]'')
+* [[Sumo Conference]] - Disqualified (as "Jessiyaki"; ''[[EP194|Ring Masters]]'')
+* [[Pokémon Balloon Race]] - {{wp|Did Not Finish|DNF}} (with James; ''[[EP202|The Big Balloon Blow-Up]]'')
+* [[Trick House#In animation|Trick House Contest]] - DNF (''[[AG039|A Poké-BLOCK Party!]]'')
+* [[Pokémon Orienteering]] - N/A (''[[AG159|Off the Unbeaten Path]]'')
+* [[Pokémon Dress-Up Contest]] - N/A (''[[DP033|All Dressed Up With Somewhere To Go!]]'')
+* [[Pastoria Croagunk Festival]] - N/A (with James; ''[[DP082|Cream of the Croagunk Crop!]]'')
+* [[Hearthome Collection]] - Round 1 (as "Jessilina"; ''[[DP086|Arriving in Style!]]'')
+* [[Pokémon Summer Academy]] - Third (with {{DL|Pokémon Summer Academy|Green Team}}; ''[[DP091|One Team, Two Team, Red Team, Blue Team!]]'')
+** [[Pokémon Triathlon]] - N/A (''[[DP091|One Team, Two Team, Red Team, Blue Team!]]'')
+* [[Pokémon Ping Pong Tournament]] - Disqualified (as "Jessielinlin"; ''[[DP124|To Thine Own Pokémon Be True!]]'')
+* [[Scalchop King Competition]] - Disqualified (with James as "Jesty" and "Jacen"; ''[[BW126|Crowning the Scalchop King!]]'')
+* [[Pokémon Sumo Tournament]] - Top 16 (as "Jessicalinda"; ''[[BW134|The Journalist from Another Region!]]'')
+* [[Poké Puff Contest]] - Preliminary round (with James; ''[[XY026|A Battle by Any Other Name!]]'')
+* [[Pokémon Sky Relay]] - Disqualified (with James as "Team R"; ''[[XY077|A Relay in the Sky!]]'')
+* [[Pokémon Pancake Race]] - Disqualified (''[[SM013|Racing to a Big Event!]]'')
+* [[Charjabug race|Charjabug race Koko Cup]] - Disqualified (with James as "Bewear Max"; ''[[SM041|Mounting an Electrifying Charge!]]'')
+* [[Pokémon Sled Jump Games]] - DNF (as "Jessigold"; ''[[SM060|Getting a Jump on the Competition!]]'')
+* [[Pokémon Ping-Pong tournament]] - Round 1 (as "Gorgeous"; ''[[SM066|Smashing with Sketch!]]'')
+* [[Alola Bread Festival]] - Unknown (with James and Meowth; ''[[SM072|Sours for the Sweet!]]'')
+
+====Outfits====
+{{main|Team Rocket trio's clothing}}
+Jessie and [[James]] typically wear the same white [[Team Rocket uniform|uniforms]] across their appearances. However, early on in {{aniseries|BW}}, they temporarily swapped these out for black uniforms instead. They also frequently wear [[List of Team Rocket's disguises|disguises]] and have been known to [[Cross-dressing|cross-dress]] on numerous occasions.
+
+====Voice actors====
+{{vatable
+| color = 666
+| bordercolor = C00
+| ja = 林原めぐみ ''[[Megumi Hayashibara]]'' ([[EP002]]-[[AG084]], [[AG093]]-present)<br>平松晶子 ''[[Akiko Hiramatsu]]'' ([[AG085]]-[[AG092]])
+| en = [[Rachael Lillis]] ([[EP002]]-[[AG145]], [[M01]]-[[M08]], ''[[Pokémon Chronicles]]'', ''[[Mewtwo Returns]]'')<br>[[Michele Knotz]] ([[AG146]]-[[JN147]], [[M09]]-[[M23]], ''[[The Mastermind of Mirage Pokémon]]'')
+| zh_cmn = 盧敘榮 ''Lú Xùróng''<br>姚敏敏 ''Yáo Mǐnmǐn''<br>詹雅菁 ''Zhān Yǎjīng''
+| ar = فاطمة سعد ''Fatima Saad'' ([[EP002]]-[[EP105]])<br>كلوديا مرشليان ''Claudia Marchalian'' ([[EP106]]-[[EP157]])<br>إيمان بيطار ''Iman Bitar'' ([[EP158]]-[[EP209]]; [[EP263]]-[[AG040]])<br>Unknown voice actress ([[M04]]-[[M07]])<br>أسمهان بيطار ''Asmahan Bitar'' ([[JN003]]-[[JN147]], [[M22]]-[[M23]])
+| ca = Azucena Díaz (VHS dub)<br>Ariadna de Guzmán ([[Pokémon Journeys: The Series]])<br>Marina Vinyals (Valencian dub)
+| hr = Mila Elegović
+| cs = Dana Černá ([[EP002]]-[[EP209]], [[M01]]-[[M03]], [[M06]]-[[M07]])<br>Eva Spoustová ([[DP001]]-[[XY008]], [[M11]])<br>Radka Stupková ([[XY009]]-[[JN147]], [[M17]]-[[M23]])<br>Radka Přibyslavská ([[M04]])
+| da = Ann Hjort
+| nl = Hilde de Mildt ([[EP002]]-[[JN147]], [[M01]]-[[M03]], [[M08]]-[[M23]])<br>Unknown voice actor ([[M04]]-[[M07]])
+| fil = Charmaine Cordoviz
+| fi = Mari Laari ([[EP002]]-[[EP183]], [[AG041]]-[[AG056]], [[M01]]-[[M04]], [[Mewtwo Returns]])<br>Karolina Blom ([[EP263]]-[[AG026]], [[AG057]]-[[AG092]])<br>Kiti Kokkonen ([[AG093]]-[[DP052]], [[M10]], ''[[The Mastermind of Mirage Pokémon]]'')<br>Susa Saukko ([[DP053]]-[[JN147]], [[M11]]-[[M23]])
+| fr_ca = Christine Séguin
+| fr_eu = Catherine Conet
+| de = Scarlet Lubowski<br>Nicola Grupe (child)<br>Claudia Lössl ([[M04]]-[[M07]], [[M10]])
+| el = Μιχαέλα Αντωνίου ''Michaéla Antoníou''
+| hi = नंदिनी शर्मा ''Nandini Sharma'' (CN dub)<hr>शगुफ्ता बेग ''{{wp|Shagufta Baig}}'' (Hungama dub, S01 - S09, S17)<br>नताशा जॉन Natasha John (Hungama dub, S11 - S25)
+| he = מאיה בר שלום Maya Bar Shalom<br>ענת ניב ''Anat Niv'' ([[EP240]]-[[EP262]])
+| hu = Erika Kiss
+| is = Ester Talia Casey ([[M03]], [[M05]])
+| id = Saras B. Palupi (Kanto saga)<br>Nurhayati (Johto saga-[[DP191]], [[M02]]-[[M13]])<br>Jane Leisilla Zahara (''[[Pokémon the Series: Black and White]]'', ''[[Pokémon the Series: Sun & Moon]]'', [[M16]])<br>Clara Dewanti (''[[Pokémon the Series: Black and White]]'', Disney dub)<br>Mayadifka (''[[Pokémon the Series: XY]]'', [[XY001]]-[[XY093]])<br>Wan Leoni Mutiarza (''[[S19|Pokémon the Series: XYZ]]'', [[XY094]]-[[XY140]])<br>Fika Damayanti ([[M22]])<br>Melati Pertiwi Putri ([[original series]], [[EP001]]-[[EP037]], [[EP039]]-[[EP053]], YouTube dub, ''[[Pokémon the Series: Black and White]]'', [[BW001]]-[[BW024]], Disney dub)
+| it = Emanuela Pacotto
+| ko = 이선 ''I Seon'' ([[EP002]]-[[EP274]])<br>우정신 ''U Jeong-Shin'' ([[AG001]]-[[JN147]])
+| no = Lena Meieran
+| pl = Dorota Lanton ([[EP002]]-[[AG040]], [[M01]]-[[M03]], [[Mewtwo Returns]])<br>Izabela Dąbrowska ([[DP001]]-[[JN147]], [[M11]]-[[M23]], [[EP012]]{{tt|*|Redub - one scene}}, [[EP016]]{{tt|*|Redub - one scene}}, [[EP019]]{{tt|*|Redub - one scene}}, [[EP034]]{{tt|*|Redub}})
+| pt_br = Isabel de Sá ([[EP002]]-[[XY093]], [[M01]]-[[M18]], [[M06]]-[[M07]] second dub)<br>Flávia Saddy ([[XY094]]-[[SM146]], [[M19]]-[[M22]])<br>Evie Saide ([[JN003]]-[[JN147]], [[M23]])<br>Amanda Moreira ([[M06]] third dub)
+| pt_eu = Teresa Madruga ([[EP002]]-[[EP041]], [[EP100]] to [[EP128]], [[M01]]-[[M02]])<br>Sandra de Castro ([[EP042]]-[[EP99]], [[EP263]]-[[AG065]])<br>Dora Cruz ([[EP129]]-[[EP209]])<br>Carmen Santos ([[M03]]-[[M04]])<br>Catarina Santos ([[M07]])<br>Raquel Ferreira ([[EP210]]-[[EP262]], [[AG093]]-[[DP049]])<br>Rita Fernandes ([[DP050]]-[[DP052]])<br>Bárbara Lourenço ([[AG066]]-[[AG092]] and [[Pokémon Chronicles]])<br>Raquel Rosmaninho ([[DP053]]-[[JN147]], [[M10]]-[[M23]])
+| ro = Mariana Presecan ([[Original series]])<br>Florentina Țilea (''[[Pokémon the Series: Diamond and Pearl]]'')
+| ru = Наталья Синенко ''Natalia Sinenko'' ([[EP002]]-[[EP004]])<br>Елена Хижная ''Elena Khiznaya'' ([[EP005]]-[[EP105]])<br>Ольга Кузнецова ''Olga Kuznetsova'' ([[M01]]-[[M03]])<br>Мария Фортунатова ''Maria Fortunatova'' ([[DP001]]-[[DP052]])<br>Марина Бакина ''Marina Bakina'' ([[DP053]]-[[DP104]]; [[M11]])<br>Дарья Фролова ''Daria Frolova'' ([[AG001]]-[[AG192]], [[DP105]]-[[JN147]]; [[M08]]-[[M10]], [[M12]]-[[M23]])
+| es_la = Diana Pérez ([[EP002]]-[[JN048]])<br>Elena Ramírez ([[EP159]]-[[EP167]], [[EP169]], [[EP192]]-[[EP205]], [[EP230]]-[[EP233]], [[EP274]]-[[AG017]], [[AG033]]-[[AG034]], [[AG093]]-[[AG100]], one scene of [[AG133]])<br>Rebeca Gomez ([[JN049]]-[[JN147]])<br>Mayra Arellano (young, [[AG156]])
+| es_eu = Amparo Valencia<br>Ana Jiménez ([[M03]] and [[Mewtwo Returns]])
+| sv = Annelie Berg Bhagavan ([[S01]]-[[S03]], [[S06]]-present)<br>Mia Hansson ([[S03]]-[[S05]])
+| th = สุลักษณา เทพหัสดิน ณ อยุธยา ''Sulaksana Tephadsadin na Ayutthaya''<br>คนธนันท์ วัฒนชาติวงศ์ ''Kontanun watanachatwong'' ([[DP054]]-present)<br>เบญจวรรณ วนิชจิวพันธ์ ([[M22]])
+| tr = Figen Aksoy Harman<br>Müge Oruçkaptan ([[SM001]]-present)<br> Berna Terzierol ([[M05]])
+| uk = Тетяна Зіновенко ''Tetyana Zinovenko''
+| vi = Trương Ngọc Châu ([[BW001]]-[[BW097]], [[M22]])<br>Võ Huyền Chi ([[EP002]]-[[EP080]], [[BW109]]-present, [[M19]])<br>Nguyễn Thụy Thùy Tiên ([[M10]]-[[M18]])
+}}
+
+===''I Choose You!'' trilogy===	
+{{incomplete|section|2=Expansion of role in M20, full role in M21, M23, and JNS05}}	
+[[File:Team Rocket trio M21.png|thumb|250px|Jessie in ''[[M21|The Power of Us]]'']]
+Jessie has appeared in ''[[M20|I Choose You!]]'', which is set in [[I Choose You! trilogy|a different continuity]] from {{aniseries|PTS}}. She first appeared in disguise with [[James]] and {{MTR}} in a Pokémon Center, being wanted for stealing Pokémon. When a Trainer who had just battled an {{p|Entei}} hurried inside the Pokémon Center, Team Rocket eavesdropped on the conversation and decided to hunt for Entei themselves. While looking for Entei in the forest, they were blasted off by a raging {{p|Onix}}.
+
+In ''[[M21|The Power of Us]],'' Team Rocket hid behind some bushes as Ash meets Margo. Meowth asks the team how they are going to steal Pikachu, and Jessie suggests starting a juice business, in effect making them rich. That day, before the catch race, Team Rocket is in the background selling Lum Berries. Later that evening, Team Rocket are trying to steal from Toren's lab. This is when Jessie reveals that she has "no idea" what moves and abilities are. Team Rocket is about to begin stealing when the Smeargle ink spills and Toren comes into the room to investigate so Team Rocket hides outside.
+
+The next day while Toren is presenting his research, Harriet finds Team Rocket backstage and asks them who they are. Jessie starts saying the Team Rocket motto but Meowth interrupts them. James drops a smoke bomb and they run to the forest but while they are running Jessie thinks that she tossed the Effect Spore to Meowth but it turns out she didn't and she actually dropped it.
+
+After the Effect Spore started spreading across the city, Team Rocket took their Lum Berry cart and went to the Pokémon Center. As they caught their breath, Toren was given permission to take all of their Lum Berries to stop the spread of and reverse the effects of the Effect Spore.
+
+====Pokémon====
+=====On hand=====
+{| width="100%"
+|-
+|{{ActivePoké|Jessie|Wobbuffet|Jessie Wobbuffet M20.png|psychic|link=Jessie's Wobbuffet#I Choose You! trilogy}} ♂
+|
+|
+|}
+
+=====Travels with=====
+This section is for the Pokémon that Jessie currently travels with, but has not caught.
+{| width="100%"
+|-
+| {{ActivePoké||Meowth|Team Rocket trio M20.png|normal|link=Meowth (Team Rocket)#I Choose You! trilogy}} ♂
+|
+|
+|}
+
+====Outfits====
+{{main|Team Rocket trio's clothing}}
+In ''[[M20|I Choose You]]'', Jessie and [[James]] wore their main [[Team Rocket uniform|uniforms]] from the {{aniseries|PTS}} continuity. In ''[[M21|The Power of Us]]'' and ''[[M22|Secrets of the Jungle]]'', they wore unique, alternate variations of their uniforms.
+
+====Voice actors====
+{{vatable|color=666|bordercolor=C00
+|ja=林原めぐみ ''[[Megumi Hayashibara]]''
+|en=[[Michele Knotz]]
+|ar=أسمهان بيطار ''Asmahan Bitar''
+|cs=Radka Stupková
+|fi=Susa Saukko
+|fr_eu=Catherine Conet
+|he=מאיה בר שלום ''Maya Bar Shalom''
+|hi=नताशा जॉन ''Natasha John'' (M23)
+|it=Emanuela Pacotto
+|nl=Hilde de Mildt
+|pl=Izabela Dąbrowska
+|pt_br=Flávia Saddy
+|pt_eu=Raquel Rosmaninho ([[DP053]]-[[JN147]], [[M10]]-[[M23]])
+|ru=Дарья Фролова ''Darja Frolova''
+|es_la=Diana Pérez
+|es_eu=Amparo Valencia
+|tr= Figen Harman<br>Müge Oruçkaptan
+|vi=Võ Huyền Chi
+}}
+
+==Gallery==
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #C00; background:#666; font-size:80%"
+| style="{{roundy|20px}} border:2px solid #C00; background:#CCC; width:auto" | [[File:Jessie OS anime.png|130px]]
+| style="{{roundy|20px}} border:2px solid #C00; background:#CCC; width:96px" | [[File:Jessie anime.png|130px]]
+| style="{{roundy|20px}} border:2px solid #C00; background:#CCC; width:96px" | [[File:Jessie BW.png|130px]]
+| style="{{roundy|20px}} border:2px solid #C00; background:#CCC; width:96px" | [[File:Jessie SM.png|130px]]
+| style="{{roundy|20px}} border:2px solid #C00; background:#CCC; width:96px" | [[File:Jessie Pokémon Radio Show.png|130px]]
+| style="{{roundy|20px}} border:2px solid #C00; background:#CCC; width:96px" | [[File:SugimoriJessie.png|150px]]
+|- style="color:#fff;"
+| Official artwork from the<br>{{color2|fff|original series}}
+| Official artwork from<br>''{{color2|fff|Pokémon the Series: Ruby and Sapphire}}''
+| Official artwork from<br>''{{color2|fff|Pokémon the Series: Black & White}}''
+| Official artwork from<br>''{{color2|fff|Pokémon the Series: Sun & Moon}}''
+| Official artwork from the<br>{{color2|fff|Team Rocket's Secret Empire|Pokémon Radio Show}}
+| Official artwork from the<br>{{color2|fff|EX Team Rocket Returns (TCG)|Trading Card Game}} by {{color2|fff|Ken Sugimori}}<ref>[[a:File:HereComesTeamRocketEXTeamRocketReturns111.jpg|Here Comes Team Rocket! (EX Team Rocket Returns 111)]]</ref>
+|}
+
+===Sprites and models===
+{{missing image|section|Missing overworld and in-battle models and story info from LGPE; need higher-quality VS model from LGPE}}
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #C00; background:#666; font-size:80%"
+|style="{{roundy|80px}} border: 2px solid #C00; background:#CCC; width:80px"| [[File:Spr Y Jessie James.png]]
+|style="{{roundy|80px}} border: 2px solid #C00; background:#CCC; width:80px"| [[File:VSJessie PE.png|100px]]
+|- style="color:#fff;"
+| Jessie and {{color2|fff|James}}'s sprite from<br>{{color2|fff|Pokémon Yellow Version|Yellow}}
+| Jessie's VS model from<br>{{color2|fff|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!}}
+|-
+|style="{{roundy|80px}} border: 2px solid #C00; background:#CCC; width:80px"| [[File:Jessie OD.png]]
+|
+|- style="color:#fff;"
+| Jessie's overworld sprite from<br>{{color2|fff|Pokémon Yellow Version|Yellow}}
+|}
+
+==In the core series games==
+[[File:Game Freak Jessie and Arbok.jpg|thumb|200px|Artwork of Jessie and her Arbok from the [[Game Freak]] website]]
+Both Jessie and James appear in {{game|Yellow}} as in-game bosses, collectively referred to as the {{tc|Team Rocket Grunt|Rocket}} Trainer class rather than by name. They first attack the {{player}} in [[Mt. Moon]] while trying to take one of the rare [[Fossil]]s uncovered there.
+
+Later, in [[Celadon City]]'s [[Team Rocket Hideout|Rocket Hideout]], Jessie and James guard Giovanni's room. During that time, as the player runs into them, they are eager for revenge after {{ga|Red}} busted up their plans at Mt. Moon.
+
+They hold Mr. Fuji hostage at [[Pokémon Tower]], attacking the player on the seventh floor.
+
+Finally, at [[Silph Co.]] in [[Saffron City]], Jessie and James make their final appearance, once again trying to stall the main character from reaching [[Giovanni|their Boss]].
+
+Unlike in ''[[Pokémon the Series]]'', Jessie and James do not follow the main character around and come up with their usual evil plans to capture {{OBP|Pikachu|Yellow}}.
+
+Jessie and James appear in {{LGPE}} on the same level as admins. They are more powerful than other Team Rocket Grunts and will always challenge the player to a [[Double Battle]]. If the player tries to leave Viridian City without delivering Oak's Package, they will be blocking the north exit to the city. Above the entrance to Mt. Moon, {{p|Meowth}} is sleeping, but when the player takes a few steps into the cave, Jessie and James appear, Meowth wakes up and joins them, and the trio runs away, leaving the player to follow them into Mt. Moon. When the player gets a Fossil and starts leaving the cave, Jessie and James challenge them to a battle.
+
+===Pokémon===
+===={{game|Yellow}}====
+=====First battle=====
+{{Party
+| background = 666
+| border = C00
+| headcolor = CCC
+| sprite = Spr Y Jessie James.png
+| prize = {{Pdollar}}420
+| name = {{tccolor|Team Rocket Grunt|000|Rocket}}
+| location = Mt. Moon
+| game = Y
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0023
+| pokemon = Ekans
+| level = 14
+| type1 = Poison
+| move1 = Wrap | move1type = Normal
+| move2 = Leer | move2type = Normal
+| move3 = Poison Sting | move3type = Poison
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0052
+| pokemon = Meowth
+| level = 14
+| type1 = Normal
+| move1 = Scratch | move1type = Normal
+| move2 = Growl | move2type = Normal
+| move3 = Bite | move3type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0109
+| pokemon = Koffing
+| level = 14
+| type1 = Poison
+| move1 = Tackle | move1type = Normal
+| move2 = Smog | move2type = Poison
+}}
+{{Party/end}}
+=====Second battle=====
+{{Party
+| background = 666
+| border = C00
+| headcolor = CCC
+| sprite = Spr Y Jessie James.png
+| prize = {{Pdollar}}750
+| name = {{tccolor|Team Rocket Grunt|000|Rocket}}
+| location = Team Rocket Hideout
+| locationname = Rocket Hideout
+| game = Y
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0109
+| pokemon = Koffing
+| level = 25
+| type1 = Poison
+| move1 = Tackle | move1type = Normal
+| move2 = Smog | move2type = Poison
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0052
+| pokemon = Meowth
+| level = 25
+| type1 = Normal
+| move1 = Growl | move1type = Normal
+| move2 = Bite | move2type = Normal
+| move3 = Pay Day | move3type = Normal
+| move4 = Screech | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0023
+| pokemon = Ekans
+| level = 25
+| type1 = Poison
+| move1 = Bite | move1type = Normal
+| move2 = Leer | move2type = Normal
+| move3 = Poison Sting | move3type = Poison
+| move4 = Glare | move4type = Normal
+}}
+{{Party/end}}
+=====Third battle=====
+{{Party
+| background = 666
+| border = C00
+| headcolor = CCC
+| sprite = Spr Y Jessie James.png
+| prize = {{Pdollar}}810
+| name = {{tccolor|Team Rocket Grunt|000|Rocket}}
+| location = Pokémon Tower
+| game = Y
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0052
+| pokemon = Meowth
+| level = 27
+| type1 = Normal
+| move1 = Growl | move1type = Normal
+| move2 = Bite | move2type = Normal
+| move3 = Screech | move3type = Normal
+| move4 = Pay Day | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0024
+| pokemon = Arbok
+| level = 27
+| type1 = Poison
+| move1 = Bite | move1type = Normal
+| move2 = Leer | move2type = Normal
+| move3 = Poison Sting | move3type = Poison
+| move4 = Glare | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0110
+| pokemon = Weezing
+| level = 27
+| type1 = Poison
+| move1 = Tackle | move1type = Normal
+| move2 = Smog | move2type = Poison
+| move3 = Sludge | move3type = Poison
+}}
+{{Party/end}}
+=====Fourth battle=====
+{{Party
+| background = 666
+| border = C00
+| headcolor = CCC
+| sprite = Spr Y Jessie James.png
+| prize = {{Pdollar}}930
+| name = {{tccolor|Team Rocket Grunt|000|Rocket}}
+| location = Silph Co.
+| game = Y
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0110
+| pokemon = Weezing
+| level = 31
+| type1 = Poison
+| move1 = Tackle | move1type = Normal
+| move2 = Smog | move2type = Poison
+| move3 = Sludge | move3type = Poison
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0024
+| pokemon = Arbok
+| level = 31
+| type1 = Poison
+| move1 = Bite | move1type = Normal
+| move2 = Leer | move2type = Normal
+| move3 = Poison Sting | move3type = Poison
+| move4 = Glare | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0052
+| pokemon = Meowth
+| level = 31
+| type1 = Normal
+| move1 = Growl | move1type = Normal
+| move2 = Bite | move2type = Normal
+| move3 = Pay Day | move3type = Normal
+| move4 = Screech | move4type = Normal
+}}
+{{Party/end}}
+====[[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!]]====
+=====First battle=====
+{{Party/2
+| background = 666
+| bordercolor = C00
+| headcolor = CCC
+| location = Mt. Moon
+| game = LGPE
+| prize = {{Pdollar}}1,152
+| t-background = F5BCE2
+| t-border = E44EB2
+| sprite = VSJessie PE.png
+| size = 80x80px
+| class = Team Rocket
+| classlink = Team Rocket
+| name = Jessie
+| pokemon = 1
+| t-background2 = CCDDFF
+| t-border2 = 4D88FF
+| sprite2 = VSJames PE.png
+| size2 = 80x80px
+| class2 = Team Rocket
+| classlink2 = Team Rocket
+| name2 = {{color2|000|James}}
+| pokemon2 = 1
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0023
+| pokemon = Ekans
+| gender = male
+| level = 12
+| type1 = Poison
+| move1 = Wrap | move1type = Normal | move1cat = Physical
+| move2 = Acid | move2type = Poison | move2cat = Special
+}}
+{{Party/2/div|t-background2 = CCDDFF}}
+{{Pokémon
+| gen = PE
+| ndex = 0109
+| pokemon = Koffing
+| gender = male
+| level = 12
+| type1 = Poison
+| move1 = Poison Gas | move1type = Poison | move1cat = Status
+| move2 = Tackle | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+=====Second battle=====
+{{Party/2
+| background = 666
+| bordercolor = C00
+| headcolor = CCC
+| location = Team Rocket Hideout
+| game = LGPE
+| prize = {{Pdollar}}3,072
+| t-background = F5BCE2
+| t-border = E44EB2
+| sprite = VSJessie PE.png
+| size = 80x80px
+| class = Team Rocket
+| classlink = Team Rocket
+| name = Jessie
+| pokemon = 1
+| t-background2 = CCDDFF
+| t-border2 = 4D88FF
+| sprite2 = VSJames PE.png
+| size2 = 80x80px
+| class2 = Team Rocket
+| classlink2 = Team Rocket
+| name2 = {{color2|000|James}}
+| pokemon2 = 1
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0024
+| pokemon = Arbok
+| gender = male
+| level = 32
+| type1 = Poison
+| move1 = Poison Jab | move1type = Poison | move1cat = Physical
+| move2 = Glare | move2type = Normal | move2cat = Status
+| move3 = Crunch | move3type = Dark | move3cat = Physical
+}}
+{{Party/2/div|t-background2 = CCDDFF}}
+{{Pokémon
+| gen = PE
+| ndex = 0110
+| pokemon = Weezing
+| gender = male
+| level = 32
+| type1 = Poison
+| move1 = Toxic | move1type = Poison | move1cat = Status
+| move2 = Sludge | move2type = Poison | move2cat = Special
+}}
+{{Party/end}}
+=====Third battle=====
+{{Party/2
+| background = 666
+| bordercolor = C00
+| headcolor = CCC
+| location = Pokémon Tower
+| game = LGPE
+| prize = {{Pdollar}}3,264
+| t-background = F5BCE2
+| t-border = E44EB2
+| sprite = VSJessie PE.png
+| size = 80x80px
+| class = Team Rocket
+| classlink = Team Rocket
+| name = Jessie
+| pokemon = 1
+| t-background2 = CCDDFF
+| t-border2 = 4D88FF
+| sprite2 = VSJames PE.png
+| size2 = 80x80px
+| class2 = Team Rocket
+| classlink2 = Team Rocket
+| name2 = {{color2|000|James}}
+| pokemon2 = 1
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0024
+| pokemon = Arbok
+| gender = male
+| level = 34
+| type1 = Poison
+| move1 = Poison Jab | move1type = Poison | move1cat = Physical
+| move2 = Glare | move2type = Normal | move2cat = Status
+| move3 = Crunch | move3type = Dark | move3cat = Physical
+}}
+{{Party/2/div|t-background2 = CCDDFF}}
+{{Pokémon
+| gen = PE
+| ndex = 0110
+| pokemon = Weezing
+| gender = male
+| level = 34
+| type1 = Poison
+| move1 = Dark Pulse | move1type = Dark | move1cat = Special
+| move2 = Sludge Bomb | move2type = Poison | move2cat = Special
+}}
+{{Party/end}}
+=====Fourth battle=====
+{{Party/2
+| background = 666
+| bordercolor = C00
+| headcolor = CCC
+| location = Silph Co.
+| game = LGPE
+| prize = {{Pdollar}}3,456
+| t-background = F5BCE2
+| t-border = E44EB2
+| sprite = VSJessie PE.png
+| size = 80x80px
+| class = Team Rocket
+| classlink = Team Rocket
+| name = Jessie
+| pokemon = 1
+| t-background2 = CCDDFF
+| t-border2 = 4D88FF
+| sprite2 = VSJames PE.png
+| size2 = 80x80px
+| class2 = Team Rocket
+| classlink2 = Team Rocket
+| name2 = {{color2|000|James}}
+| pokemon2 = 1
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0024
+| pokemon = Arbok
+| gender = male
+| level = 36
+| type1 = Poison
+| move1 = Poison Jab | move1type = Poison | move1cat = Physical
+| move2 = Glare | move2type = Normal | move2cat = Status
+| move3 = Crunch | move3type = Dark | move3cat = Physical
+| move4 = Rock Slide | move4type = Rock | move4cat = Physical
+}}
+{{Party/2/div|t-background2 = CCDDFF}}
+{{Pokémon
+| gen = PE
+| ndex = 0110
+| pokemon = Weezing
+| gender = male
+| level = 36
+| type1 = Poison
+| move1 = Sludge Bomb | move1type = Poison | move1cat = Special
+| move2 = Dark Pulse | move2type = Dark | move2cat = Special
+| move3 = Flamethrower | move3type = Fire | move3cat = Special
+| move4 = Thunderbolt | move4type = Electric | move4cat = Special
+}}
+{{Party/end}}
+=====Fifth battle=====
+{{Party/2
+| background = 666
+| bordercolor = C00
+| headcolor = CCC
+| location = Kanto Route 17
+| locationname = Route 17
+| game = LGPE
+| prize = {{Pdollar}}4,992
+| t-background = F5BCE2
+| t-border = E44EB2
+| sprite = VSJessie PE.png
+| size = 80x80px
+| class = Team Rocket
+| classlink = Team Rocket
+| name = Jessie
+| pokemon = 1
+| t-background2 = CCDDFF
+| t-border2 = 4D88FF
+| sprite2 = VSJames PE.png
+| size2 = 80x80px
+| class2 = Team Rocket
+| classlink2 = Team Rocket
+| name2 = {{color2|000|James}}
+| pokemon2 = 1
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0024
+| pokemon = Arbok
+| gender = male
+| level = 52
+| type1 = Poison
+| move1 = Poison Jab | move1type = Poison | move1cat = Physical
+| move2 = Glare | move2type = Normal | move2cat = Status
+| move3 = Crunch | move3type = Dark | move3cat = Physical
+| move4 = Rock Slide | move4type = Rock | move4cat = Physical
+}}
+{{Party/2/div|t-background2 = CCDDFF}}
+{{Pokémon
+| gen = PE
+| ndex = 0110
+| pokemon = Weezing
+| gender = male
+| level = 52
+| type1 = Poison
+| move1 = Sludge Bomb | move1type = Poison | move1cat = Special
+| move2 = Dark Pulse | move2type = Dark | move2cat = Special
+| move3 = Flamethrower | move3type = Fire | move3cat = Special
+| move4 = Thunderbolt | move4type = Electric | move4cat = Special
+}}
+{{Party/end}}
+==In the spin-off games==
+===[[Pokémon Puzzle League]]===
+[[File:Pokémon Puzzle League Spa Service Intro.png|thumb|200px|Jessie in Pokémon Puzzle League]]
+Along with many other ''[[Pokémon the Series]]'' characters, both Jessie and James appeared in {{pkmn|Puzzle League}}, where they appeared with a {{TP|James|Weezing}}, an {{TP|Jessie|Arbok}}, and a {{p|Golbat}}. They are the main opponents in the "Spa Service" line clear challenge.
+
+===[[Pokémon Zany Cards]]===
+[[File:Zany Cards Jessie James.png|thumb|200px|Jessie in Pokémon Zany Cards]]
+Jessie and James are the first opponents in both Wild Match mode and Special Seven mode.
+
+===[[Pokémon GO]]===
+In [[Pokémon GO]], Jessie is a member of [[Team GO Rocket]]. From July 7 to September 30, 2020, from December 14, 2020, to February 28, 2021, and from October 1, 2021, to October 15, 2021, she can be encountered if a Meowth balloon appears in the overworld and will battle the {{player}}. After she is defeated, a battle against [[James#Pokémon GO|James]] will immediately follow. Like with other {{tc|Team GO Rocket Grunt}}s, {{stardust}}500 and a [[Mysterious Component]] are rewarded upon defeating her. When Jessie and James are active in game, they may both Photobomb when taking [[Photography#Pokémon_GO|snapshots]] of Pokémon, this will provoke a {{p|Meowth}} or {{p|Wobbuffet}} encounter.
+
+====Pokémon====
+Jessie uses a team of three {{OBP|Shadow Pokémon|GO}} in a {{OBP|Trainer Battle|GO}}. {{highlight|Green-colored cells|{{green color light}}}} denote the Pokémon that may be encountered during the bonus challenge. The Shadow Pokémon Jessie leaves behind also has a chance of becoming [[Shiny Pokémon (GO)|Shiny]], as denoted by the {{shinystar/GO}} icon.
+
+=====December 14, 2020 - February 28, 2021 & October 1 - 15, 2021=====
+{| class=roundy style="display:inline-table; margin:2px; background:#600; border:3px solid #c00; text-align:center; width:240px"
+|- style="background:#ccc
+| colspan=3 style="{{roundytop|5px}}" |
+{| style="text-align:left; width:100%"
+|-
+! <big>{{color2|000|Jessie#Pokémon GO|Jessie}}</big><br>Team GO Rocket
+| style="text-align:right" | [[File:VSJessie GO.png|80px]]
+|}
+|- style="background:#aaa"
+! style="width:80px" | #1
+! style="width:80px" | #2
+! style="width:80px" | #3
+|- style="background:#fff; vertical-align:top"
+| style="{{roundybl|5px}}; background:#{{green color light}}" | {{MSP/GO|shadow=yes|123|Scyther|size=80|shiny=yes}}
+| {{MSP/GO|shadow=yes|023|Ekans|size=80}}
+| style="{{roundybr|5px}}" | {{MSP/GO|shadow=yes|234|Stantler|size=80}}
+|}
+
+=====July 7 to September 30, 2020=====
+{| class=roundy style="display:inline-table; margin:2px; background:#600; border:3px solid #c00; text-align:center; width:240px"
+|- style="background:#ccc
+| colspan=3 style="{{roundytop|5px}}" |
+{| style="text-align:left; width:100%"
+|-
+! <big>{{color2|000|Jessie#Pokémon GO|Jessie}}</big><br>Team GO Rocket
+| style="text-align:right" | [[File:VSJessie GO.png|80px]]
+|}
+|- style="background:#aaa"
+! style="width:80px" | #1
+! style="width:80px" | #2
+! style="width:80px" | #3
+|- style="background:#fff; vertical-align:top"
+| style="{{roundybl|5px}}; background:#{{green color light}}" | {{MSP/GO|shadow=yes|023|Ekans|size=80|shiny=yes}}
+| {{MSP/GO|shadow=yes|123|Scyther|size=80}}
+| style="{{roundybr|5px}}" | {{MSP/GO|shadow=yes|371|Bagon|size=80}}
+|}
+
+===[[Pokémon Masters EX]]===
+{{main|Jessie (Masters)}}
+Jessie forms a [[sync pair]] with {{TP|Jessie|Arbok}} in [[Pokémon Masters EX]]. Jessie became a playable sync pair on July 9, 2020.
+
+In this game, Jessie, from [[I Choose You! trilogy|the alternate movie continuity]], somehow got transported to [[Pasio]] while chasing a {{Shiny}} {{p|Celebi}}. Unlike most characters in Pokémon Masters EX, Jessie's appearance is based directly on her {{aniseries|PTS}} incarnation, and retains her Japanese and English voice actors.
+
+{{PairDex/h|Red|Dark}}
+{{PairDex|097|Jessie|trainerlink=Jessie (Masters)#Arbok|trainerimg=Jessie|0024|Arbok|gender=male|pokemonlink=Jessie's Arbok|Poison|Ground|Special Strike|3|Event<br>''Double Trouble''}}
+|}
+
+==Quotes==
+{{main|Team Rocket trio/Quotes}}
+
+==In the manga==
+===The Electric Tale of Pikachu===
+[[File:RocketShipping.png|thumb|200px|Jessie and [[James]] as a [[RocketShipping|married couple]] in the manga]]
+[[File:Jessie EToP.png|thumb|left|200px|Jessie in the manga]]
+Jessie appears in [[The Electric Tale of Pikachu]] along with her teammates [[James]] and {{MTR}}.
+
+Her first appearance is in ''[[ET07|Pikachu's Excellent Adventure]]''. She, James and Meowth tag along with a group of lost Pokémon, including {{AP|Pikachu}}, to try to find the [[Hidden Village]]. When they arrive, she and James attempt to steal the Pokémon living in the village, but they are quickly expelled by a {{p|Kangaskhan}}. In this chapter, she uses an {{TP|Jessie|Ekans}} in battle.
+
+Jessie's next appearance is in ''[[ET08|You Gotta Have Friends]]''. She and James attempt to steal a herd of wild {{p|Pikachu}}. At this point in the manga, Jessie's {{p|Ekans}} has evolved into {{TP|Jessie|Arbok}}, though its Evolution is not depicted in the manga.
+
+Following this, Jessie and James begin regularly appearing in the manga, following Ash to the [[Pokémon League]] championship at [[Indigo Plateau]] and cheering him on at the [[Orange League]]. Jessie, along with James, seems to maintain a friendship or at least acquaintance with Ash, as he has the [[Team Rocket trio]] deliver a letter to his mother as they are passing [[Pallet Town]] in ''[[ET20|Epilogue: Wild Type]]''. In this epilogue chapter, she is shown as slightly older with a shorter hairdo.
+
+While in the animated series, the nature of Jessie's relationship with James is not explicitly stated, in the epilogue of the manga, James is shown [[RocketShipping|confessing his love to Jessie]]. They are shown afterwards married with Jessie visibly pregnant.
+
+Like many female characters in the manga, Jessie is depicted with an oversized bust, though this is edited down for [[VIZ Media]]'s English translation.
+
+
+====Pokémon====
+=====On hand=====
+{| width="25%"
+|-
+| {{InactivePoké|Jessie|Arbok|Jessie Arbok EToP.png|Poison|fir=Ekans|link=Jessie's Arbok#In the Electric Tale of Pikachu manga}}
+|}
+
+=====Released=====
+{{TrainerPoké
+|trainer=Jessie
+|pkmn=Clefairy (multiple)
+|type1=Normal
+|img=Mimi Clefairy EToP.png
+|cap=Jessie's Clefairy
+|epnum=ET10
+|epname=Clefairy in Space
+|desc=When {{TRT}} cornered Mimi in her house, Jessie caught loads of Clefairy. They were released later on after {{p|Jigglypuff}}'s tune puts everyone to sleep.
+None of Clefairy's moves are known.}}
+
+===Movie adaptations===
+[[File:Jessie M10 manga.png|thumb|200px|Jessie in ''{{ma|The Rise of Darkrai}}'']]
+As Jessie has appeared in every movie to date, she has appeared in the manga adaptations of them.
+
+===Ash & Pikachu===
+[[File:Jessie AP.png|thumb|left|200px|Jessie in Ash & Pikachu]]
+In [[Ash & Pikachu]], which is based on the {{pkmn|animated series}}, Jessie appears along with the rest of the [[Team Rocket trio]], [[James]] and {{MTR}}.
+{{sectionstub}}
+
+====Pokémon====
+=====On hand=====
+{| width="100%"
+|-
+| {{InactivePoké|Jessie|Arbok|Jessie Arbok Acid SP.png|Poison|link=Jessie's Arbok#In the Ash and Pikachu manga}}
+| {{InactivePoké|Jessie|Wobbuffet|Jessie Wobbuffet AP.png|Psychic|link=Jessie's Wobbuffet#In the Ash and Pikachu manga}}
+|
+|
+|}
+
+=====Temporary=====
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Pikachu|Team Rocket Pikachu AP.png|Electric}} ♂
+|
+|
+|
+|}
+
+===Pokémon Journeys===
+[[File:Team Rocket Trio JNM.png|thumb|right|200px|Jessie in the {{ma|Pokémon Journeys}}]]
+Jessie debuted in ''[[JNM04|Flash of the Titans!]]''. In the manga, the role of the Team Rocket trio is quite reduced compared to the animated series, so their participation ends up being removed or much smaller than the episodes on which each chapter is based.
+
+====Pokémon====
+=====On hand=====
+{| width="50%"
+|-
+|{{ActivePoké|Jessie|Wobbuffet|Jessie Wobbuffet JNM.png|size=150px|Psychic}}
+|
+|}
+
+=====[[Rocket Prize Master]]=====
+{| width="50%"
+|-
+|{{ActivePoké|Jessie|Bellsprout|Bellsprout JNM.png|size=150px|Grass|Poison|link=Rocket_Prize_Master#Pok.C3.A9mon_used_by_Jessie}}
+|{{ActivePoké|Jessie|Chewtle|Chewtle Team Rocket JNM.png|size=190px|Water|link=Rocket_Prize_Master#Pok.C3.A9mon_used_by_Jessie}}
+|
+|}
+
+==In the TCG==
+Jessie has an {{TCG|Jessie|eponymous}} {{TCG|Theme Deck}} in the {{TCG|EX Team Rocket Returns}} expansion. This listing is of cards mentioning or featuring Jessie or her Pokémon in the [[Pokémon Trading Card Game]].
+
+{{cardlist/header|Jessie's Pokémon|Darkness|char=yes}}
+{{cardlist/entry|cardname=[[Meowth M (Movie Random Pack 17)|Meowth]] {{SP|M}}|type=Colorless|jpset=Movie Commemoration Random Pack|jpnum=017/022}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Wobbuffet|8}}|type=Psychic|jpset=Ash vs Team Rocket Deck Kit|jpnum=008/026}}
+{{cardlist/entry|cardname=[[Team Rocket's Mimikyu-GX (Ash vs Team Rocket Deck 10)|Team Rocket's Mimikyu]]{{GX}}|type=Psychic|jpset=Ash vs Team Rocket Deck Kit|jpnum=010/026}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Bewear|18}}|type=Colorless|jpset=Ash vs Team Rocket Deck Kit|jpnum=018/026}}
+{{cardlist/entry|cardname={{TCG ID|Hidden Fates|Arbok|27}}|type=Psychic|expanded=Yes|enset=Hidden Fates|enrarity=Rare|ennum=27/68|jpset=Sky Legend|jprarity=U|jpnum=026/054}}
+{{cardlist/div|Other related cards|Darkness}}
+{{cardlist/entry|cardname={{TCG ID|Team Rocket|Here Comes Team Rocket!|15}}|type=Trainer|expanded=yes|enset=Team Rocket|enrarity=Rare Holo|ennum=15/82|jpset=Rocket Gang|jprarity=SuperRare Holo|enset2=Team Rocket|enrarity2=Rare|ennum2=71/82|jpnum=048/054}}
+{{cardlist/entry|cardname={{TCG ID|Team Rocket|Here Comes Team Rocket!|15}}|type=Trainer|type2=Supporter|expanded=yes|enset=EX Team Rocket Returns|enrarity=Rare Holo|ennum=111/109|jpset=Rocket Gang Strikes Back|jprarity=Rare Holo|jpnum=085/085}}
+{{cardlist/entry|cardname={{TCG ID|Team Rocket|Here Comes Team Rocket!|15}}|type=Supporter|expanded=yes|enset=Evolutions|enrarity=Rare Secret|ennum=113/108|jpset=Expansion Pack 20th Anniversary|jprarity=U|jpnum=103/087|jpset2=XY-P Promotional cards|jpnum2=278/XY-P}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Team Rocket's Harassment|26}}|type=Supporter|jpset=Ash vs Team Rocket Deck Kit|jpnum=026/026}}
+{{cardlist/entry|cardname={{TCG ID|Hidden Fates|Jessie & James|58}}|type=Supporter|enset=Hidden Fates|enrarity=Rare Holo|ennum=058/068|jpset=Sky Legend|jprarity=R|jpnum=048/054|enset2=Hidden Fates|enrarity2=Rare Ultra|ennum2=68/68|jpset2=Sky Legend|jprarity2=SR|jpnum2=062/054}}<!--Banned in Expanded-->
+{{cardlist/footer|Darkness}}
+
+==Trivia==
+[[File:Jessie Special Lure.png|thumb|200px|Jessie's special lure]]
+* In ''[[EP016|Pokémon Shipwreck]]'', [[James]] implies that Jessie is short for "Jessica".
+* As ''[[EP261|Here's Lookin at You, Elekid]]'' was the first episode in the {{pkmn|animated series}} to feature digital colored animation, Jessie's hair color was changed to magenta in all subsequent episodes. In all of the hand-colored cel animated episodes prior to this point, including {{pkmn|movie}}s like ''[[M07|Destiny Deoxys]]'' and ''[[M08|Lucario and the Mystery of Mew]]'', Jessie's hair was colored red.
+* Jessie is one of only two [[human]] characters, and the only one that is a main character, to appear in [[Who's That Pokémon?|Dare da?]] or its English equivalent, "Who's That Pokémon?", having dressed as a {{p|Venomoth}} in the Dare da? for [[EP161]]. The other is [[Brutella]].
+* Jessie is the only main character to not obtain any Pokémon in ''[[Pokémon Journeys: The Series]]''.
+* Both {{an|Misty}} and Jessie were voiced by [[Rachael Lillis]] in the [[4Kids Entertainment|4Kids]] dub, then they switched to [[Michele Knotz]] when [[TPCi]] took over.
+* In promotional material for the [[Manalo Conference]], Jessie was given the title of (Japanese: 戦場のアクトレス ''Actress of the battlefield'').
+* Early homepage of the anime described Jessie and James being a "couple", although it is not clear whether or not this meant affection between the two.<ref name=archive>Nintendo, [https://web.archive.org/web/19970605093708/http://www.nintendo.co.jp/n10/pmanime/chara/index.html CHARACTER & CAST]</ref>
+
+===Origin===
+Jessie is based on a combination of [[Takeshi Shudō]]'s old girlfriend from when he was in school, and {{wp|Time Bokan#Villains|Majo}}, the female antagonist of the ''{{wp|Time Bokan}}'' anime series.{{specify|Source for this?}}
+
+==Names==
+{| class="roundtable" style="background:#666; border:3px solid #C00"
+|-
+! style="background:#CCC" | Language
+! style="background:#CCC" | Name
+! style="background:#CCC" | Origin
+|-
+| Japanese
+| ムサシ ''Musashi''
+| From 宮本武蔵 ''{{wp|Miyamoto Musashi}}'', a famous Japanese swordsman who defeated his rival {{wp|Sasaki Kojirō}} (James' namesake in Japanese) in his most famous duel
+|-
+| English, German, European Spanish,<br>Latin American Spanish, French, Italian
+| Jessie
+| From ''{{wp|Jesse James}}'', an American outlaw
+|-
+| Korean
+| 로사 ''Rosa''
+| From the starting syllable of 로켓단 ''Rocket-dan'' ([[Team Rocket]]) and similar to 로이 ''Roy'' (James)
+|-
+| Chinese (Traditional)
+| 武藏 ''Wǔzàng'' / ''Móuhchòhng''
+| rowspan="2" | From the Japanese name 武蔵 ''Musashi''
+|-
+| Chinese (Simplified)
+| 武藏 ''Wǔzàng''
+|-
+| Hindi
+| जेसी ''Jesī''
+| Transcription of her English name
+|-
+| Indonesian
+| Musashi<ref group=n>[[Original series|Pokémon the Series: Gold and Silver]] onwards</ref><br>Jessie<ref group=n>[[Original series|Pokémon the Series: The Beginning]]</ref>
+| Transcription of her Japanese name<br>Same as her English name
+|-
+| Russian
+| Джесси ''Dzhessi''
+| Transcription of her English name
+|-
+| Thai
+| มุซาชิ ''Musashi''
+| Transcription of her Japanese name
+|-
+| Vietnamese
+| Musashi
+| Transcription of her Japanese name
+|}
+{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==References==
+<references>
+<ref name="age">
+* In ''[[The Birth of Mewtwo]]'', Jessie's mother [[Miyamoto]] wrote a report 20 years before {{OBP|Mewtwo|M01}}'s creation that says she gave away her daughter to be a foster child as a little girl.
+* Jessie is affected by the same lethargy as other adults in ''[[SM087|Filling the Light with Darkness!]]''
+* In ''[[XY082|A Festival Trade! A Festival Farewell?]]'', Jessie mentions that {{TP|Jessie|Pumpkaboo|Gourgeist}} was the only one who remembered her [[birthday]], which happened some time after she [[XY011|caught]] her.</ref>
+</references>
+
+==Related articles==
+* {{cat|Episodes focusing on Team Rocket}}
+** {{cat|Episodes focusing on Jessie}}
+* [[a:Category:Jessie|Images on the Bulbagarden Archives]]
+
+{|  class="mw-collapsible mw-collapsed" align="center" width="620px"
+! style="background: #{{bulba color light}}; border: 2px solid #{{bulba color dark}}; {{roundy|20px}}; padding:5px;" width=500px | This article is covered by multiple navigation templates. Click "Expand" to view.&nbsp;
+|-
+|{{Team Rocket's Pokémon}}
+|-
+|{{Animecharacters|black|grey}}
+|-
+|{{Team Rocket anime}}
+|-
+|{{Team Rocket}}
+|-
+|{{Aether Foundation}}
+|-
+|{{Team GO Rocket}}
+|-
+|{{Leaguetrainers|black}}
+|-
+|{{Ash and Pikachu characters}}
+|-
+|{{Electric Tale of Pikachu characters}}
+|-
+|{{Pokémon Live}}
+|}
+
+{{Project Anime notice|no}}
+
+[[Category:Animation characters]]
+[[Category:Manga characters]]
+[[Category:Ash & Pikachu characters]]
+[[Category:Electric Tale of Pikachu characters]]
+[[Category:Pokémon Live!]]
+[[Category:Red, Blue and Yellow characters]]
+[[Category:Let's Go, Pikachu! and Let's Go, Eevee! characters]]
+[[Category:Pokémon GO characters]]
+[[Category:Members of Team Rocket]]
+[[Category:Characters named after real people]]
+[[Category:Gym Leaders]]
+[[Category:Coordinators]]
+[[Category:Performers]]
+[[Category:Characters with alter egos]]
+[[Category:Trainers who use Z-Moves]]
+
+[[de:Jessie]]
+[[es:Jessie]]
+[[fr:Jessie]]
+[[it:Jessie]]
+[[ja:ムサシ]]
+[[zh:武藏]]

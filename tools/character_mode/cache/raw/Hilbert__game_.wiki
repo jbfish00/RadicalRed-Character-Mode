@@ -1,0 +1,279 @@
+{{Redirect|Black (game)|the game titled "Pokémon Black Version"|Pokémon Black and White Versions}}
+{{Character Infobox
+|color={{black color}}
+|corecolor={{black color light}}
+|bordercolor={{black color dark}}
+|name=Hilbert
+|jname=トウヤ
+|tmname=Touya
+|text=fff
+|image=Black White Hilbert.png
+|age=14-15<ref>[http://raim2005.blog18.fc2.com/blog-entry-980.html 【BW/BW2】ファンミーティング情報のまとめ blue skY]</ref><ref>[https://pk-mn.com/n/b2w2-fan-meeting-n-nenrei/ 「ポケモン ブラック２ ホワイト２」のファンミーティングで、「N」や「チェレン」の年齢、怒ったNのイラストなどの設定資料が公開 - ポケモンメモ]</ref>
+|size=185px
+|caption=Art from {{2v2|Black|White}}
+|gender=Male
+|hair=Dark brown
+|eyes=Brown
+|hometown=[[Nuvema Town]]
+|region=[[Unova]]
+|relatives={{OBP|Mom|Black and White}}, mentioned father (as player)
+}}
+{{Character Infobox/Game
+|color={{black color light}}
+|gen={{gen|V}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|games=[[Pokémon Black and White Versions|Black, White]]<br>{{pkmn|Masters EX}}
+|trainer=[[Pokémon Trainer]], [[player character]]
+|counterpart=[[Hilbert (Masters)]]
+|enva=Griffin Burns<ref name="Griffin Burns">[https://www.tiktok.com/@mygriffinburns/video/6924480499100503301 Griffin Burns on TikTok]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Junko Minagawa<ref name="Junko Minagawa ">[https://twitter.com/pokemas_game/status/1373878108416221184 Pokémon Masters EX Official Japanese profile on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{black color light}}
+|series=''[[Pokémon Generations]]''
+|debut=''[[PG15|The King Returns]]''
+|enva=N/A
+|jpva=N/A
+}}
+{{Character Infobox/Manga
+|color={{black color light}}
+|series=''[[Pokémon Adventures]]''<br>''[[Be the Best! Pokémon B+W]]''<br>''[[Pocket Monsters BW: The Heroes of Fire and Thunder]]''<br>''[[Pocket Monsters B2 W2 ~ A New Legend ~]]''<br>''[[Pocket Monsters BW]]''
+|counterpart=[[Black (Adventures)]], [[Monta]], [[Shin (FAT)]], [[Hiro]], [[Black (Pocket Monsters BW)]]
+|debut=''[[PS462|Choices]]'' <small>({{pkmn|Adventures}})</small><br>''[[PBW1|Advance Toward the Path of the Strongest!]]'' <small>([[Be the Best! Pokémon B+W|B+W]])</small><br>''[[FAT1|Justice Trainer Shin Appears!]]'' <small>([[Pocket Monsters BW: The Heroes of Fire and Thunder|FAT]])</small><br>[[ANL1]] <small>([[Pocket Monsters B2 W2 ~ A New Legend ~|ANL]])</small><br>[[PMBW01]] <small>([[Pocket Monsters BW]])</small>
+}}
+|}
+
+'''Hilbert''' (Japanese: '''トウヤ''' ''Touya'') is the male [[player character]] in {{game|Black and White|s}}. His female counterpart is {{ga|Hilda}}.
+
+==In the core series games==
+==={{game|Black and White|s}}===
+====As the playable character====
+Hilbert is a 14-year-old boy who lives in [[Nuvema Town]], as do his [[Friend|childhood friends]], [[Cheren]] and [[Bianca]]. If chosen as the player, he will receive a [[first partner Pokémon]] and a [[Pokédex]] from [[Professor Juniper]]. After setting off on his [[Pokémon journey]] at the same time as Cheren and Bianca, Hilbert will at some point be asked by [[Fennel]] to do some sort of quest; in return for its completion, Hilbert will receive a [[C-Gear]].
+
+As well as encountering and battling his childhood friends at various points during his journey, Hilbert will also meet a young man known as [[N]], who wishes to create separate worlds for humans and Pokémon. In order to achieve his goals, he and Hilbert will battle several times during the course of the game. Hilbert also battles [[Team Plasma]] at various stages of his journey. Ultimately, Hilbert is recognized as a hero by {{p|Reshiram}}{{Sup/5|B}}/{{p|Zekrom}}{{Sup/5|W}}.
+
+====As a non-playable character====
+If not chosen as the player, Hilbert appears as the player's partner in the [[Battle Subway]] when choosing to ride the Multi-Train. Two of the following Pokémon are picked from the corresponding list, depending on what the player wants him to base his team on. If the player chooses "A balance between the two," Hilbert's Pokémon are chosen from either list. 
+
+==={{B2W2}}===
+In Black 2 and White 2, the protagonist of Black and White was said to be searching for N in a faraway region and has not yet returned home. His mom mistakes the player for him.
+
+===Pokémon===
+{{SubwayPartner
+|color={{black color}}
+|headcolor={{black color light}}
+|bordercolor={{black color dark}}
+|sprite=BW Hilbert Back
+|name=Hilbert
+|game=BW}}
+
+==In the spin-off games==
+===[[Pokémon Masters EX]]===
+{{main|Hilbert (Masters)}}
+Hilbert, who is based on the [[player character]] from {{game|Black and White|s|Pokémon Black}}, forms a [[sync pair]] with {{p|Oshawott}} and its evolved forms {{p|Dewott}} and {{p|Samurott}}, along with {{p|Mightyena}}, {{p|Genesect}}, {{p|Glaceon}}, {{form|Thundurus|Incarnate Forme}} {{p|Thundurus}}, and {{Shiny}} {{form|Kyurem|White}} {{p|Kyurem}} in [[Pokémon Masters EX]]. Hilbert became a playable sync pair on September 24, 2019.
+
+In this game, his reason for looking for {{mas|N}} during the events of {{B2W2}} is revealed to be due to N having left too suddenly for Hilbert to say goodbye to him, which is similar to what Hilbert's mom also says in Black 2 and White 2. Hilbert first appeared as an NPC during the eighteenth chapter of the [[PML arc]]. He also made a notable appearance later in the [[villain arc]]. 
+
+{{PairDex/h|Black}}
+{{PairDex|067|Hilbert|trainerlink=Hilbert (Masters)#Oshawott → Dewott → Samurott|trainerimg=Hilbert|0503|Oshawott → Dewott → Samurott|gender=male|pokemonlink=Oshawott (Pokémon)|Water|Electric|Support|6|Sync Pair Scout}}
+{{PairDex|067|Hilbert|trainerlink=Hilbert (Masters)#Mightyena|trainerimg=Hilbert Fall 2020|sygna=Fall 2020|0262|Mightyena|gender=male|Dark|Fairy|Physical Strike|exrole=Tech|6|Seasonal Sync Pair Scout}}
+{{PairDex|067|Hilbert|trainerlink=Hilbert (Masters)#Genesect|trainerimg=Hilbert Sygna|sygna=[[Sygna suit|Sygna Suit]]|0649|Genesect|Bug|Fire|Tech|exrole=Special Strike|6|Poké Fair Sync Pair Scout}}
+{{PairDex|067|Hilbert|trainerlink=Hilbert (Masters)#Glaceon|trainerimg=Hilbert|0471|Glaceon|gender=male|Ice|Fighting|Tech|exrole=Support|6|Variety Sync Pair Scout}}
+{{PairDex|067|Hilbert|trainerlink=Hilbert (Masters)#Thundurus (Incarnate Forme)|trainerimg=Hilbert|0642|Thundurus|gender=male|form={{Form|Forces of Nature|Incarnate Forme}}|buddy=yes|Electric|Rock|Field|exrole=Support|6|Variety Sync Pair Scout}}
+{{PairDex|067|Hilbert|trainerlink=Hilbert (Masters)#Kyurem (White Kyurem)|trainerimg=Hilbert Champion|0646W s|sygna={{pkmn|Champion}}|shiny=yes|Kyurem|exmaster=yes|buddy=yes|form={{Form|Kyurem|White Kyurem}}|Ice|Steel|Field|exrole=Special Strike|6|EX Master Fair Sync Pair Scout}}
+|}
+
+==Quotes==
+{{main|Hilbert (game)/Quotes}}
+
+==Counterparts==
+===In animation===
+====Pokémon Generations====
+[[File:Hilbert PG.png|thumb|250px|Hilbert in [[Pokémon Generations]]]]
+Hilbert briefly appeared in ''[[PG15|The King Returns]]'', where he arrived at the [[Giant Chasm]] on the back of his {{p|Zekrom}} to help [[N]] battle [[Ghetsis]] and {{DL|List of Pokémon with form differences|Kyurem|White}} {{p|Kyurem}}.
+
+Much like the other [[player character]]s depicted in [[Pokémon Generations]], Hilbert doesn't have any lines of dialogue.
+
+=====Pokémon=====
+{{TrainerPoké
+|width=68
+|trainer=Hilbert
+|pkmn=Zekrom 
+|type1=Dragon
+|type2=Electric
+|img=Hilbert Zekrom PG.png
+|epnum=PG15
+|epname=The King Returns
+|desc={{p|Zekrom}} is Hilbert's only known Pokémon. It appeared alongside its Trainer to help [[N]] stop [[Ghetsis]].
+
+Zekrom's only known move is {{m|Thunderbolt}}.}}
+
+====GOTCHA!====
+Hilbert briefly appeared in [[GOTCHA!]], with his {{p|Zekrom}}.
+
+===In the manga===
+====Pokémon Adventures====
+[[File:Black Adventures.png|thumb|200px|Black, Hilbert's Pokémon Adventures counterpart]]
+{{main|Black (Adventures)}}
+Black from [[Pokémon Adventures]] is based on Hilbert; his dream is to be the {{pkmn|Champion}} of the Unova Pokémon League.
+
+====Be the Best! Pokémon B+W====
+{{main|Monta}}
+Monta from [[Be the Best! Pokémon B+W]] is based on Hilbert.
+
+====Pocket Monsters BW: Meetings with the Legends====
+{{main|Touya (MWL)}}
+Touya from [[Pocket Monsters BW: Meetings with the Legends]] is based on Hilbert.
+
+====Pocket Monsters BW: The Heroes of Fire and Thunder====
+{{main|Shin (FAT)}}
+Shin from [[Pocket Monsters BW: The Heroes of Fire and Thunder]] is based on Hilbert.
+
+====Pocket Monsters B2 W2 ~ A New Legend ~====
+{{main|Hiro}}
+Hiro from [[Pocket Monsters B2 W2 ~ A New Legend ~]] is based on Hilbert.
+
+====Pocket Monsters BW====
+Black from {{OBP|Pocket Monsters BW|Kosaku Anakubo}} is based on Hilbert.
+
+==Gallery==
+===Artwork===
+====Standard====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color}}; font-size:80%;"
+|- 
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; width:80px"| [[File:Black White Hilbert.png|x250px]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; width:80px"| [[File:Victini-Liberty Garden Island.png|x250px]]
+|- style="color:#FFF;"
+| Artwork from {{color2|FFFFFF|Pokémon Black and White|Black and White}}
+| {{colorlink|Liberty Garden Island|FFF}} artwork with {{color2|FFFFFF|Victini (Pokémon)|Victini}} and {{color2|FFFFFF|Hilda (game)|Hilda}}
+|-
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow: hidden; width:80px"| [[File:Battle Subway artwork.png|x250px]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow: hidden; width:80px"| [[File:Pokémon Day 2022 Unova BW Artwork.png|x250px]]
+|- style="color:#FFF;"
+| {{colorlink|Battle Subway|FFF}} artwork by {{color2|FFF|Yusuke Ohmura}} <ref>[https://x.com/yusuke_omura/status/2023732952346357872]</ref>
+| Artwork of the {{color2|FFF|Pokémon Musical}} for {{color2|FFF|Pokémon Day}} by {{color2|FFF|Megumi Mizutani}}
+|-
+|colspan=2 style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; width:80px"| [[File:Ghetsis and Team Plasma.jpg|x250px]]
+|- style="color:#FFF;"
+|colspan=2 |Promotional artwork by <br> {{color2|FFFFFF|Yusuke Ohmura}}{{fact}}
+|}
+
+====Merchandise====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color}}; font-size:80%;"
+|- 
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; width:80px"| [[File:Pokémon Friends 3DS theme.png|x250px]]
+|style="{{roundy|15px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow: hidden;"| [[File:Kotobukiya ArtFX J Figure Hilbert Victini.jpg|250px]]
+|- style="color:#FFF;"
+| Pokémon Friends {{color2|FFFFFF|Nintendo 3DS themes|3DS theme}} artwork
+| Hilbert and {{color2|FFF|Victini (Pokémon)|Victini}} concept artwork<br>for {{color2|FFF|Kotobukiya figurines|Kotobukiya ArtFx J figurines}}
+|}
+
+===Game assets===
+====Sprites and models====
+This is a selection of game assets featuring Hilbert from the core series Pokémon games.
+{|style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{black color dark}}; background:#{{black color}}; color:white"
+| colspan="4" style="{{roundy|20px}} border:2px solid #{{black color dark}}; background:#{{black color dark}}; font-size:125%; color:white" | '''{{color2|fff|Generation V}}'''
+|-
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Spr BW Hilbert.png]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Spr BW Hilbert 2.png]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:BW Hilbert Back.png]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:HilbertChallenge.png]]
+|-
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Sprite <br> ({{color2|fff|Wonder Launcher}})
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Back sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> VS sprite
+|-
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Hilbert OD.png]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:BW Surf M.png]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Hilbert intro.png]]
+|style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Hilbert Xtransceiver.png]]
+|-
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Overworld sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Overworld sprite <br> (Surfing)
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> Opening sprite
+| '''{{GameIcon|Bl}}{{GameIcon|Wh}}''' <br> {{color2|fff|Xtransceiver}} sprite
+|-
+|colspan="2" style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Spr B2W2 Hilbert.png]]
+|colspan="2" style="{{roundy|20px}} border: 2px solid #{{black color dark}}; background: #{{black color light}}; overflow:hidden"| [[File:Spr B2W2 Hilbert 2.png]]
+|-
+|colspan="2" | '''{{GameIcon|B2}}{{GameIcon|W2}}''' <br> Sprite
+|colspan="2" | '''{{GameIcon|B2}}{{GameIcon|W2}}''' <br> Sprite <br> ({{color2|fff|Wonder Launcher}})
+|}
+
+==Trivia==
+* From a {{wp|bird's-eye view}}, Hilbert's hat looks like a {{i|Poké Ball}}.
+* [[Pokémon Black 2 and White 2 beta#Pokémon World Tournament|Unused text]] in {{B2W2}} indicates that Hilbert and {{ga|Hilda}} were originally planned as opponents at the [[Pokémon World Tournament]].
+* Hilbert and Hilda are the first [[player character]]s in the [[core series]] {{pkmn|games}} not to have pre-programmed names either by choice or in case one isn't specified.
+* In the May 2010 volume of [[CoroCoro]] Comics and the January 2011 volume of Nintendo Dream, it was stated that Hilbert and Hilda are older than previous player characters, but it is not said how much older they actually are.
+** According to game scenario author [[Toshinobu Matsumiya]], Hilbert and Hilda were initially visualized to be at the age of 16. This currently lines up with how old they would be in {{B2W2}}.<ref>[http://archive.is/THahx Twitter | マツミや @matsumiyan]</ref>
+* Hilbert's name may be a reference to {{wp|David Hilbert}}, a German mathematician who developed {{wp|Hilbert's program}} in an attempt to prove mathematical truth. This is similar to the theme of truth and ideals throughout Black and White.
+** This is also similar to [[N]]'s mathematical motifs.
+* [[Ash Ketchum|Ash's]] appearance in ''[[Pokémon the Series: Black & White|Pokėmon the Series: Black and White]]'', is inspired by Hilbert's design. Ash's outfit is slightly altered, having a primarily white jacket with short sleeves and a light blue top; and his hat being white in the front and red in the back (being the inverse of Hilbert's).
+
+==Names==
+This character is named '''Hilbert''' (Japanese: '''トウヤ''' ''Touya'') in his NPC appearance in the [[Battle Subway]]. It is also his most commonly used name, being used in merchandising and in {{g|Masters EX}}. His Japanese name was spelled as '''Touya''' on the packaging of [[Kotobukiya figurines|Kotobukiya ArtFX J Figure]].<ref>[https://www.kotobukiya-collection.com/2026/figures/19412/ Kotobukiya Collection]</ref>
+
+He was named '''Black''' (Japanese: '''ブラック''' ''Black'') in certain pre-release material. English demos for Black and White refer to the character as '''Blair''', while English screenshots refer to him as '''Kuro'''.  If a transferred Pokémon that has a trainer with a [[Poké Transporter#Censored words|prohibited name]] comes from Black or Black 2, the Pokémon's OT will also be set to '''Kuro*''' (Japanese: '''ブラック．''' ''Black.''), while Pokémon from White or White 2 will have their OT set to '''Shiro*''' (Japanese: '''ホワイト．''' ''White.'').
+
+{| class="roundtable" style="background:#{{black color}}; border:3px solid #{{black color dark}}"
+|-
+! style="background:#{{black color light}}; color:#FFFFFF" | Language
+! style="background:#{{black color light}}; color:#FFFFFF" | Name
+! style="background:#{{black color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| トウヤ ''Touya''
+| From 闘 ''tō'' (fight) and ～也 ''-ya'' (common suffix in Japanese masculine names) 
+|-
+| English,<br>Brazilian Portuguese
+| Hilbert
+| From ''{{wp|Hilbert (name)|Hilbert}}'', a masculine name derived from the {{wp|Germanic languages|Germanic}} elements ''hild'' (battle) and ''{{wp|Bert (name)|berht}}'' (bright)
+|-
+| German
+| Warren
+| From ''war''
+|-
+| European Spanish,<br>Latin American Spanish
+| Lucho
+| From ''lucha'' (fight) and the name ''{{wp|Lucho}}'' (diminutive form of the name ''{{wp|Luis}}'', which is itself a {{wp|cognate}} to the name ''Ludwig'')
+|-
+| French
+| Ludwig
+| From ''{{wp|Ludwig (given name)|Ludwig}}'', a Germanic masculine name derived from the Germanic elements ''hlud'' (famous) and ''wig'' (battle)
+|-
+| Italian
+| Alcide
+| From ''Alcide'' (Alcides), birth name of {{wp|Heracles}} (divine hero in Greek mythology) where the former is derived from Ancient Greek ἀλκή ''ălkḗ'' (prowess; battle)
+|-
+| Korean
+| 투지 ''Tuji''
+| From 투지 (鬪志) ''tuji'' (fighting spirit)
+|-
+| Chinese (Traditional)
+| 鬥也 ''Dòuyě'' / ''Dauyáh''
+| From 鬥 ''dòu / dau'' (fight) and an orthographic borrowing of Japanese 也 ''ya''
+|}
+{{-}}
+
+==References==
+{{reflist}}
+
+==Related articles==
+* [[a:Category:Hilbert|Images on the Bulbagarden Archives]]
+{{Player characters|black}}
+{{NPC|black|unova=yes}}
+{{Project CharacterDex notice}}
+
+[[Category:Black and White characters]]
+[[Category:Champions]]
+[[Category:Multi Battle partners]]
+[[Category:Pokémon Generations characters]]
+[[Category:Trainers with Legendary Pokémon]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Warren]]
+[[es:Lucho]]
+[[fr:Ludwig]]
+[[it:Alcide (gioco)]]
+[[ja:トウヤ]]
+[[zh:鬥也]]

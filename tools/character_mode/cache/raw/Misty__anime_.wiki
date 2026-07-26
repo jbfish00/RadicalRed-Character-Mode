@@ -1,0 +1,734 @@
+{{Character Infobox
+|color={{water color}}
+|bordercolor={{water color dark}}
+|corecolor={{water color light}}
+|name=Misty
+|jname=カスミ
+|tmname=Kasumi
+|image=Misty Journeys.png
+|size=150px
+|caption=Misty in ''[[S25|Pokémon: To Be a Pokémon Master]]''
+|age=10<ref name="age">In the Japanese version of ''[[EP003|Ash Catches a Pokémon]]'', Misty mentions that she is ten years old.</ref> (not stated in dub)<br>12<ref>Mentioned in ''[[ET02|Play Misty For Me]]''.</ref> ([[The Electric Tale of Pikachu]])
+|gender=Female
+|eyes=Viridian
+|hair=Orange
+|hometown=[[Cerulean City]]
+|region=[[Kanto]]
+|relatives={{an|Daisy}}, {{an|Violet}}, and {{ka|Lily}} (older sisters)
+}}
+{{Character Infobox/Anime
+|color={{water color light}}
+|series=''[[Pokémon the Series]]''
+|debut=''[[EP001|Pokémon - I Choose You!]]''
+|enva=[[Rachael Lillis]] ([[EP001]] - [[AG134]])<br>[[Michele Knotz]] ([[The Mastermind of Mirage Pokémon|MoMP]], [[BW116]] - [[JN147]])
+|jpva=[[Mayumi Iizuka]]
+}}
+{{Character Infobox/Team
+|color={{water color light}}
+|member=[[Indigo League]]
+|rank=[[Gym Leader]]
+|domain=[[Cerulean Gym]]
+|reward={{badge|Cascade}}
+|specialty={{t|Water}} types
+}}
+{{Character Infobox/Game
+|color={{water color light}}
+|gen={{gen|I}}, {{gen|II}}
+|counterpart=[[Misty]]
+|games={{pkmn|Puzzle League}}, {{pkmn|Zany Cards}}
+}}
+{{Character Infobox/Manga
+|color={{water color light}}
+|series=''[[Ash & Pikachu]]''<br>''[[The Electric Tale of Pikachu]]''<br>''[[Pokémon Newspaper Strip]]''
+|counterpart=[[Misty (Pokémon Newspaper Strip)]]
+|debut=''[[SP01|Hoppip, the Wind Calls!]]'' (''Ash & Pikachu'')<br>''[[ET01|Pikachu, I See You!]]'' (''The Electric Tale of Pikachu'')
+}}
+|}
+
+'''Misty''' (Japanese: '''カスミ''' ''Kasumi'') is an aspiring [[Type expert|Water Pokémon Master]] and a former {{ashfr|traveling companion}} of {{Ash}}. She is also the [[Gym Leader]] of the [[Cerulean Gym]], handing out the {{Badge|Cascade}} to {{pkmn|Trainer}}s who defeat her. She specializes in {{type|Water}} {{OBP|Pokémon|species}}.
+
+Misty journeyed with Ash through [[Kanto]], the [[Orange Islands]], and [[Johto]], sharpening her skills as a Water-type Trainer along the way. Eventually, she decided to return home to preside over her family's Gym. After watching Ash in the [[Masters Eight Tournament]], she was inspired to go on another journey and left the Gym under her sisters' care. During her travels, she reunited and resumed traveling with Ash in ''[[S25|Pokémon: To Be a Pokémon Master]]'' until she decided to return home.
+
+==In animation==
+===History===
+====Pre-series====
+[[File:Baby Misty.png|thumb|220px|Baby Misty]]
+Not much is known about Misty's early childhood other than that she grew up in [[Cerulean City]] in the [[Kanto]] region with her [[Sensational Sisters|three sisters]]. When she was very young, an encounter with a {{p|Gyarados}} at the [[Cerulean Gym]] led to her being frightened of them. In ''[[EP148|No Big Woop!]]'', it was revealed that Misty used to play the tambourine as a toddler. Misty often received hand-me-down toys and clothes from her older sisters, who seemed to have been favored in their family, as seen during flashbacks in ''[[EP052|Princess vs. Princess]]''. Eventually, Misty became one of the [[Gym Leader]]s of the Cerulean Gym alongside her sisters. Bullying and exclusion by her sisters led Misty to leave home and effectively leave her sisters as the Gym Leaders before ''[[EP001|Pokémon, I Choose You!]]'', choosing to prove herself as a {{type|Water}} [[Pokémon Master]].
+
+===={{aniseries|OS}}====
+[[File:Misty Burnt Bike.png|thumb|220px|left|Misty carrying her burnt bike]]
+Misty debuted in ''[[EP001|Pokémon, I Choose You!]]'', [[fishing]] in a nearby river on {{rt|1|Kanto}}. As her fishing rod snagged something, she managed to pull out not a {{type|Water}} Pokémon, but {{Ash}} and his injured {{AP|Pikachu}}, who were being chased by a flock of {{p|Spearow}}. After pointing Ash in the direction of the nearest [[Pokémon Center]], the one in [[Viridian City]], he borrowed her [[bicycle]], saying that he would return it someday.
+
+In ''[[EP002|Pokémon Emergency!]]'', Misty appeared in the Pokémon Center after Ash dropped off his Pikachu, holding her charred bike and demanding a new one right away. She continued following Ash as he headed for [[Pewter City]], telling him in ''[[EP005|Showdown in Pewter City]]'' that she would continue following him until she was paid back for the bike.
+
+Consequently, Misty traveled around the [[Kanto]] [[region]], the [[Orange Islands]], and the [[Johto]] region with Ash. Earlier in the series, she mentioned getting her bicycle replaced several times. By the end of the [[Indigo League]], however, Misty seemed to have forgotten about the bicycle, indicating that her real reason for following along with Ash was that she simply wanted to remain with her friends. While traveling with Ash, Misty often acted as his coach in [[Pokémon battle]]s.
+
+Ash and Misty were later joined by {{an|Brock}}, from ''Showdown in Pewter City'' to ''[[EP083|Poké Ball Peril]]'' and again from the end of ''[[EP116|The Rivalry Revival]]'' to the end of the original series, and {{Tracey}} from ''[[EP084|The Lost Lapras]]'' to ''The Rivalry Revival''. When she and Brock were both traveling with Ash, Misty would pull Brock away by his ear when he approached a beautiful woman. This began in ''[[EP036|The Bridge Bike Gang]]'' and ''[[EP069|Lights, Camera, Quack-tion]]'', and became far more frequent while they were in Johto.
+
+[[File:Misty Daisy Violet Lily.png|thumb|220px|Misty with Daisy, Violet, and Lily]]
+In ''[[EP007|The Water Flowers of Cerulean City]]'', Misty challenged Ash to a [[Gym]] battle after her sisters at the Cerulean Gym nearly gave Ash a {{badge|Cascade}} without a battle and to prove she was as good a Pokémon Trainer as her sisters. Ash and Misty each defeated one Pokémon, but {{TRT}} interrupted the match when they tried to steal the Gym's Water Pokémon. Misty's sisters awarded Ash a Badge when Pikachu saved the Gym with its {{m|Thunderbolt}}, over Misty's objections.
+
+In ''[[EP019|Tentacool & Tentacruel]]'', while waiting for the next ferry to the mainland, Misty saw a large group of {{p|Tentacool}} and a {{pkmn2|giant}} {{p|Tentacruel}} attacking [[Porta Vista]] after human activity destroyed their homes. She convinced the Tentacool and Tentacruel to stop attacking the port, and the humans would no longer occupy Tentacool and Tentacruel's homes in the reef and caught a {{TP|Misty|Horsea}} as well.
+
+Misty became the first main character to look after a [[baby Pokémon]] in ''[[EP050|Who Gets to Keep Togepi?]]'', when the egg that Ash had found in ''[[EP046|Attack of the Prehistoric Pokémon]]'' hatches into a {{TP|Misty|Togepi}}. It imprinted on Misty as its mother when she became the first thing it saw, even after Ash won a tournament to decide who got to keep it. Misty would carry Togepi around without a Poké Ball for the rest of the series.
+
+In ''[[EP103|Misty Meets Her Match]]'', Misty was given a chance to stay in the [[Orange Islands]] when [[Rudy]], the Gym Leader on [[Trovita Island]], offered to let her stay with him. Misty considered the offer, but she ultimately chose to keep traveling with Ash and supported him in his battle against Rudy.
+
+===={{aniseries|GS}}====
+In ''[[EP168|Hook, Line, and Stinker]]'', Misty competed in the annual [[Seaking Catching Competition]]. After Misty and [[Andreas]] both caught {{p|Seaking}} that weighed 55 kg., they battled each other to break the tie. Misty won the competition after her {{TP|Misty|Poliwhirl}} defeated Andreas' {{p|Poliwrath}}.
+
+[[File:Misty and Trinity.png|220px|thumb|left|Misty and Trinity]]
+Misty participated in the [[Whirl Cup]] alongside Ash from ''[[EP215|Octillery the Outcast]]'' to ''[[EP217|The Perfect Match!]]''. She defeated Ash in the second round and made it to the best eight of the competition before she lost to [[Trinity]].
+
+In ''[[EP256|Just Add Water]]'', Misty met a Water-type Trainer named [[Dorian]], after discovering that he is a fan of her sisters, Misty challenged him to a battle. After defeating Team Rocket and ending her battle with Dorian in a draw, Dorian was impressed with Misty's battle skills.
+
+In ''[[EP273|Gotta Catch Ya Later!]]'', Misty returned to the Viridian City Pokémon Center and learned that her bicycle was repaired by the city's [[Nurse Joy]]. Misty was shown to be sad that she no longer had the convenient excuse to travel with Ash — especially when she saw that Ash hadn't learned that and had assumed she followed him because of her bike. In addition, her sisters {{an|Daisy}}, {{ka|Lily}}, and {{an|Violet}}, called Misty at this time to tell her they were going on a world tour, and needed her to return to Cerulean and watch the Gym in their absence. However, Misty saw how Ash truly cared for her when he saved her from a trio of [[Invincible Pokémon Brothers|Pokémon gangsters]]. Misty wanted to stay with Ash, but felt it was her responsibility to take over the Gym, which would be shut down if it was left unattended.
+
+Upon the return of her sisters, Misty remained the sole Cerulean [[Gym Leader]]. Since their return, only Daisy appears to spend a significant amount of time at the Gym. While working in the Gym, Misty sometimes receives help from Tracey when he is either visiting or running an errand for {{an|Professor Oak}}.
+
+===={{aniseries|RS}}====
+[[File:Misty AG.png|thumb|220px|Misty in {{aniseries|RS}}]]
+Misty was first mentioned by Ash in ''[[AG007|Tree's a Crowd]]''.
+
+She reappeared from ''[[AG044|The Princess and the Togepi]]'' to ''[[AG045|A Togepi Mirage!]]'', where she met up with Ash and Brock again in [[Hoenn]], along with meeting {{an|May}} and [[Max]] for the first time. In ''A Togepi Mirage'', her {{P|Togepi}} [[Evolution|evolved]] into a {{TP|Misty|Togetic}} and helped defend the [[Togepi Paradise]]. Towards the end of the episode, Togetic decided to stay with the other Togepi to protect them, sharing one last tearful moment with Misty.
+
+She watched Ash compete in the [[Ever Grande Conference]] in ''[[AG126|Saved by the Beldum]]'' and ''[[AG128|Shocks and Bonds]]''. She traveled with Ash from ''[[AG132|The Scheme Team]]'' to ''[[AG134|A Real Cleffa-Hanger]]'', and was later invited to the [[Mirage Mansion]] by [[Dr. Yung]] in ''[[The Mastermind of Mirage Pokémon]]''. She later appeared in flashbacks in ''[[AG189|Gathering the Gang of Four]]''.
+
+It was revealed in ''[[HS02|Cerulean Blues]]'' that Misty feared {{p|Gyarados}}, having climbed into one's mouth as a baby, and that she doubted her own ability to run Cerulean Gym alone. It wasn't until she selflessly protected her {{TP|Misty|Gyarados}} from a {{m|Poison Sting}} assault that she was not only able to conquer her fears but regain the confidence to run the Gym with a now-obedient Gyarados.
+
+===={{aniseries|DP}}====
+Misty never physically appeared in {{aniseries|DP}}, but she was referenced a couple of times. [[Misty's special lure|Her special lure]] appeared in ''[[DP034|Buizel Your Way out of This!]]'', and she appeared in a picture on {{an|Brock}}'s memory wall in the special episode [[DPS02]].
+
+===={{aniseries|BW}}====
+Misty appeared in a flashback in ''[[BW116|The Fires of a Red-Hot Reunion!]]'' as Ash recalled the important moments of his and {{AP|Charizard}}'s friendship. She was mentioned and reappeared in a fantasy in ''[[BW142|The Dream Continues!]]''.
+
+===={{aniseries|SM}}====
+[[File:Misty showcasing her Key Stone.png|thumb|250px|left|Misty and her Key Stone]]
+Misty made recurring appearances during {{aniseries|SM}}, starting with ''[[SM042|Alola, Kanto!]]''. Misty and Brock reunited with Ash when he and {{ashcl}} arrived at the Kanto airport, then compared Kantonian and {{rf|Alolan}} Pokémon with the class at [[Professor Oak's Laboratory|Professor Oak's lab]]. Later, Misty and the rest of the group worked together to defeat {{TRT}}, who Misty was angry to find were still stealing Pokémon. Afterward, the group had a party and learned from {{an|Professor Kukui}} that the class had plans to head to [[Cerulean City]] for a Gym battle.
+
+In ''[[SM043|When Regions Collide!]]'', the group arrived at Cerulean City, where Misty and Brock assisted Professor Kukui's lecture on the mechanics of Gym battles and the [[Pokémon League]]. Misty nearly defeated {{an|Lana}} and {{an|Mallow}} in a two-on-one battle, but stopped the match before the final blow could be delivered. She then battled against Ash and his {{AP|Pikachu}} with her [[Mega Evolution|Mega]] {{TP|Misty|Gyarados}} and lost. She and Brock bade Ash and his classmates farewell and accepted Ash's offer to visit Alola sometime in the future.
+[[File:Lana and Misty.png|thumb|250px|Misty and Lana]]
+During the time that passed after the visit to Alola, Misty and Lana became close friends, exchanging messages with each other.
+
+In ''[[SM102|Alola, Alola!]]'', Misty and Brock visited Ash and his classmates in [[Alola]] after Lana invited them. She also explained that her sisters took charge, and implied that the Cerulean Gym was facing enough challengers that she simply needed a break. Whilst Brock remained at the Pokémon Center, Misty accompanied Ash and the others to [[Treasure Island]], where they enjoyed [[Mantine Surf]]ing and playing with the Pokémon before the villainous obstacle Team Rocket trio attempted to steal the {{p|Mantine}}. However, with the help of Gyarados and several [[Z-Move]]s, she and the others managed to blast Team Rocket off, foiling their every plan.
+
+In ''[[SM103|Heart of Fire! Heart of Stone!]]'', Misty accompanied Ash, his classmates, and Brock to [[Akala Island]] where they visited [[Paniola Ranch]] and later met [[island kahuna]] [[Olivia]]. At the end of the episode, Brock and Misty left Alola to return to Kanto, although not before expressing interest in visiting Alola again.
+
+===={{aniseries|JN}}====
+In ''[[JN018|Destination: Coronation!]]'', Misty's silhouette was alongside the other Kanto Gym Leaders as the narrator explained how the Gym Leader system works in the [[Pokémon world]].
+[[File:Misty and Goh.png|left|thumb|250px|Misty meeting [[Goh]] and his Inteleon]]
+In ''[[JN132|Partners in Time!]]'', Misty appeared watching Ash's [[Masters Eight Tournament]] match against {{an|Leon}} alongside Psyduck and Gyarados at the Cerulean Gym. During the battle's climax, Misty is shown to be anxious as Pikachu reaches his limit.
+
+In ''[[JN136|This Could be the Start of Something Big!]]'', Misty is seen meeting [[Goh]] and interacting with his {{TP|Goh|Inteleon}} at the Cerulean Gym.
+[[File:Misty JN.png|thumb|250px|Misty in {{aniseries|JN}}]]
+In ''[[JN138|A Fated Face-Off!]]'', Misty reunited with Ash, stopping him from trying to catch a {{TP|Misty|Clauncher}} that she had been trying to catch. After trying to catch Clauncher through fishing, Misty and Ash had a battle to decide who would catch Clauncher. Misty used her Politoed to battle against {{AP|Corphish}} and after a tough battle, Politoed emerged victorious, allowing Misty to add Clauncher to her team. Afterward, Misty decided to rejoin Ash on his journey. She also explained that she decided to go on a new journey, and left the gym under the care of her sisters.
+[[File:Misty catching Clauncher.png|thumb|250px|left|Misty after catching a Pokémon]]
+In ''[[JN139|Must Be Our Heroes and the Witch!]]'', Misty and Ash traveled to a diner. After reuniting with {{an|Brock}} who was working there, they were helped by {{an|Cilan}} to save Brock from the mind control of a wild {{p|Hatterene}}. After everything was resolved, Brock joined the group and they said goodbye to Cilan who went back to travel alone.
+
+In ''[[JN143|Ride, Lapras, Ride!]]'', Misty joined Ash to rescue a {{p|Wailmer}} that was trapped in a mountain. During the rescue, the Pokémon evolved into a {{p|Wailord}}, which made everything more difficult. With Ash's Pokémon, Misty, and Brock, and their respective Trainers working together, they were able to rescue the huge Pokémon.
+
+In ''[[JN144|Getting to the Heart of it All!]]'', Misty joined Ash to give {{p|Banette}} a new heart-shaped hair tie. Ash decided that Misty should give her heart-shaped hair tie to Banette, and she agreed. After a long search for Banette, Ash gave Misty's heart-shaped hair tie to {{p|Banette}}. However, Ash and his friends decided that he and his friends should look for its owner. They scattered around with no hope, leading them to become tired and decide to continue the search the next day. But when Brock realized that Banette's owner was Nurse Joy, they organized a reunion that finally happened.
+
+In ''[[JN145|Rocket Revengers!]]'', Misty attempted to aid [[James's Mime Jr.]], who seemingly defected from its Trainer, in locating [[Officer Jenny]] to refer their latest plot. She held off [[James's Yamask]] and [[Jessie's Frillish]] with her Staryu and Psyduck to allow Ash, Pikachu, and Mime Jr. to continue onward. Soon afterward, however, she and the others deduced something was off and then discovered Mime Jr.'s defection was faked as part of a trap against Pikachu. She eventually witnessed {{an|Latias}}' appearance, recognizing it from what Ash relayed to her and Brock about his earlier encounter with her. She also witnessed her psychic vision of her friend {{p|Latios}} escaping confinement.
+
+In ''[[JN147|The Rainbow and the Pokémon Master!]]'', Misty separated from Ash and Brock to return to Cerulean City.
+
+====Other appearances====
+Misty made a cameo appearance in the ending credits of ''[[M20|I Choose You!]]'', alongside all of Ash's traveling companions at the time.
+
+Misty reappeared in ''[[M22|Mewtwo Strikes Back—Evolution]]'', where she had largely the same role as in ''[[M01|Mewtwo Strikes Back]]''.
+{{-}}
+
+===Character===
+[[File:The gang.png|thumb|220px|Misty and her friends]]
+Misty is a girl who can be sweet and optimistic at times, but she is best known for her vocal frustrations and seething anger. Misty also tended to get very angry whenever {{Ash}} got their party lost, especially in forests. She is very extreme in most of her moods, and she abruptly switches between her emotions. However, as time went on, Misty mellowed and her hyperactive personality was reduced significantly by the end of the [[original series]]. In the Japanese version, she uses the pronoun Atashi in reference to herself.
+
+She is also picky, sensitive, nosy, and grumpy about love. There are many episodes where she is seen getting along with the younger siblings of the family, namely [[Mikey]], [[Sakura]], and [[Max]]. This stems from the fact that she understands what it's like to be the youngest because she has three older sisters.
+
+She is shown to have a somewhat vain side to her, often referring to herself as an "internationally known beauty" ('''世界の美少女''' ''the world's most beautiful girl'') in introductions to others. It is implied that this trait was a result of her inferiority complex towards her older sisters. However, this trait was mostly excluded from the [[dub]] until {{aniseries|SM}}.
+
+[[File:Misty and Ash Oshawott.png|thumb|250px|left|Misty showing her love for Water-type Pokémon]]
+Her goals are not as clear as those of the other main characters (with the possible exception of Ash), but her main interest is {{pkmn|training}} {{type|Water}} {{OBP|Pokémon|species}} with the dream of becoming a Water [[Pokémon Master]]. Misty aggressively defends the Water-type against critics as seen in ''[[EP009|The School of Hard Knocks]]'' and when she first met {{t|Fire}} enthusiast [[Macy]]. She considers all members of the Water-type to be "cute", though her positive opinion on {{p|Tentacool}} in ''[[EP019|Tentacool and Tentacruel]]'' divided Ash and {{an|Brock}}. [[Fishing]] is one of her hobbies, and she even has a {{TP|Misty|special lure}}, which she designed to look like herself. In ''[[AG187|The Unbeatable Lightness of Seeing!]]'', she sent one to Ash as a gift. Sometime before she left for Kanto at the end of ''[[SM103|Heart of Fire! Heart of Stone!]]'', Misty gave Lana another one as thanks for inviting her and Brock to visit Alola.
+[[File:Misty Cascade Badge.png|thumb|250px|Misty holding a Cascade Badge]]
+Misty's battle style was first showcased in ''[[EP007|The Water Flowers of Cerulean City]]'', where she challenged Ash. She had her {{TP|Misty|Staryu}} dive into the water to wash off {{AP|Butterfree}}'s [[Status condition|status]]-inducing [[move]]s. Misty has developed a more rounded battle strategy since becoming the full-time Cerulean Gym Leader, mirroring many of Ash's methods. During {{aniseries|RS}}, Misty was shown to become increasingly confident and focused on her role as the Cerulean [[Gym Leader]]. ''[[HS02|Cerulean Blues]]'' saw her overcome her fear and help calm a raging {{TP|Misty|Gyarados}} which now serves as one of her main Pokémon, while Misty learned about the Gym Badge-making process and began to appreciate her role in ''[[HS05|The Blue Badge of Courage]]''. She continues to improve her Pokémon as seen with {{TP|Misty|Psyduck}}'s mastery of {{m|Water Gun}} and her {{TP|Misty|Corsola}}'s strong defenses make for a tireless battle.
+[[File:Misty fear of bugs.png|thumb|250px|left|Misty showing her fear of Bug Pokémon]]
+The one Pokémon [[type]] that Misty cannot stand are {{type|Bug}}s, as shown in ''[[EP003|Ash Catches a Pokémon!]]'' and more recently in ''[[JN141|A Squad’s Worth of Passion!]]''. The only Bug-type Pokémon Misty is not afraid of are the kinds that she deems "cute" or "pretty", like {{p|Ledyba}} and {{p|Butterfree}}, some belonging to her friends, like [[Tracey's Venonat]], or ones that don't look like bugs, such as {{p|Pineco}}. However, Bug Pokémon are only one of three things Misty strongly dislikes, the other two being {{wp|carrot}}s and {{wp|Bell pepper|peppers}}. When asked how she feels about dual-typed Bug/Water Pokémon, such as {{p|Dewpider}}, Misty replied "that's a tough one".
+
+Her catchphrase when sending out a Pokémon is ('''いくわよ！マーイステディ！''' ''Go! My Steady!''). Like her "beauty" title, this was not carried over into the dub until ''Sun & Moon''.
+
+Early into the series, she was shown to have a more pragmatic view on battling, which is best demonstrated in the third episode where she agreed to Ash fighting against Team Rocket despite the specific battle technically being illegal because it ultimately had the best chances of Ash not losing quickly, and also her disappointment that Ash proceeded to forfeit against Brock instead of taking the lucky advantage against him during his rematch.
+{{-}}
+
+===Pokémon===
+[[File:Misty party JN.png|thumb|250px|Misty and some of her Pokémon in {{aniseries|JN}}]]
+Either through the tradition of her family's Gym or merely her love of them, Misty prefers to train {{type|Water}} Pokémon. She usually bases her choice of Pokémon to train by looks, preferring Pokémon that she thinks of as "cute" over ones that she thinks are "ugly," but is willing to overcome such differences.
+
+Her love of Water Pokémon stems from the fact that they are extremely flexible in battle, meaning that they can easily adapt to the opponent, as she stated in ''[[EP240|Some Like It Hot]]''. Since becoming a Gym Leader, she has overcome her fear of {{p|Gyarados}} and continues to learn more about caring and battling with Water Pokémon as challengers come to the [[Cerulean Gym]].
+
+As an experienced Water-type Pokémon Trainer, Misty has access to many powerful Pokémon and mechanics such as [[Mega Evolution]]. This allows her to be able to battle other powerful Trainers like [[Dorian]], [[Trinity]], or Ash in equal conditions.
+
+<gallery widths="175">
+Misty party Kanto.png|Misty's Pokémon from {{aniseries|OS}} (prior to ''[[EP061|The Misty Mermaid]])''
+Misty party Johto.png|Misty's Pokémon from {{aniseries|GS}} (excluding [[Misty's Togetic|Togepi]])
+</gallery>
+
+This listing is of Misty's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+{{-}}
+
+====In rotation====
+{| width="100%"
+|-
+| {{ActivePoké|Misty|Staryu|Misty Staryu.png|water}}
+| {{ActivePoké|Misty|Starmie|Misty Starmie.png|water|psychic|size=190px}}
+| {{ActivePoké|Misty|Psyduck|Misty Psyduck.png|water}}
+|-
+| {{ActivePoké|Misty|Politoed|Misty Politoed.png|water|fir=Poliwag|mid=Poliwhirl}}
+| {{ActivePoké|Misty|Gyarados|Misty Gyarados.png|water|flying}} {{MegaIcon}}
+| {{ActivePoké|Misty|Azurill|Misty Azurill.png|normal|fir=Egg|size=190px}}
+|-
+| {{ActivePoké|Misty|Clauncher|Misty Clauncher.png|water}} ♂
+|-
+|}
+
+====At Cerulean Gym====
+{| width="100%"
+|-
+| {{InactivePoké|Misty|Goldeen|Misty Goldeen.png|water}}
+| {{InactivePoké|Misty|Horsea|Misty Horsea.png|water}}
+| {{InactivePoké|Misty|Corsola|Misty Corsola.png|water|rock|size=200px}}
+| {{InactivePoké|Misty|Luvdisc|Caserin.png|water|link=Caserin and Luverin|nick=Caserin}} ♂
+|}
+
+She presumably also has access to any other Pokémon at the Gym, such as {{OBP|Dewgong|Cerulean Gym}}, [[Caserin and Luverin|Luverin]], {{DL|Sensational Sisters|Unknown|Seaking, Goldeen, Shellder, and Seel}}, due to being the Gym Leader.
+
+====Released====
+{| width="100%"
+|-
+| {{InactivePoké|Misty|Togetic|Misty Togetic.png|normal|flying|mid=Togepi|fir=Egg}}
+|
+|
+|
+|}
+
+====Temporary====
+{{MissingInfo|2|java|enva|scope=section}}
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Pikachu
+|gender=male
+|type1=Electric
+|img=Misty Ash Pikachu.png
+|epnum=EP001
+|epname=Pokémon - I Choose You!
+|vajp=Ikue Otani
+|vaen=Ikue Otani
+|desc=Misty borrowed Pikachu from {{Ash}} to participate in the [[Princess Festival|Queen of the Princess Festival contest]]. In the tournament, he knocked out Jessie's {{TP|Jessie|Arbok}}, {{TP|James|Weezing}} and {{MTR}}. After Jessie assumes that the battle was over, Meowth reminds her that she has Lickitung left. She calls out her newly caught {{TP|Jessie|Lickitung}} and easily defeats Pikachu.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Ash
+|pkmn=Bulbasaur
+|type1=Grass
+|type2=Poison
+|img=Misty Ash Bulbasaur.png
+|epnum=EP010
+|epname=Bulbasaur and the Hidden Village
+|vajp=Megumi Hayashibara
+|vaen=Tara Jayne
+|desc=Misty borrowed Ash's Bulbasaur to participate in the Queen of the Princess Festival contest. It was sent out after Pikachu got defeated by Lickitung. During the battle, Lickitung defeats Bulbasaur using the same techniques that it used on Pikachu.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Brock
+|pkmn=Vulpix
+|type1=Fire
+|img=Misty Brock Vulpix.png
+|epnum=EP028
+|epname=Pokémon Fashion Flash
+|vajp=Rikako Aikawa
+|vaen=Rachael Lillis
+|desc=Misty borrowed Vulpix from {{an|Brock}} to participate in the Queen of the Princess Festival contest. Similar to the other borrowed Pokémon given to Misty, Vulpix gets knocked out by Lickitung as well.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Golduck
+|gender=male
+|type1=Water
+|img=Misty Golduck.png
+|img_size=180px
+|epnum=EP091
+|epname=Bye Bye Psyduck
+|vajp=Rikako Aikawa
+|vaen=Rikako Aikawa
+|desc=Misty befriends a {{p|Golduck}} which lives on [[Kinnow Island]] who she mistakes for thinking that her {{TP|Misty|Psyduck}} had [[Evolution|evolved]]. He was first seen under Misty's [[bag|backpack]] and after Misty had found him she used him in a battle against {{OBP|Marina|EP091}} and her {{p|Psyduck}}. Psyduck used Confusion on a wave which Golduck rode and was about to crash into Psyduck until {{TRT}} appeared and nabbed Marina's Pokémon. He was used with Marina's {{p|Starmie}} to get them back and Golduck throws [[Team Rocket's mechas|Team Rocket's sub]] onto the beach. He hits the sub with a Water Gun, and stops {{TP|Jessie|Arbok}}'s attack with Disable and then slams Arbok to the floor with a Psychic, and eventually send Team Rocket blasting off with a {{m|Hyper Beam}} and saves Marina's Pokémon.
+
+He was later used in the last part of the battle between Marina and her Starmie, he gets battered with Starmie's {{m|Tackle}} and {{m|Bubble}} but shatters Starmie's {{m|Light Screen}} with another Hyper Beam fainting it. Misty tries to recall Golduck but her Psyduck pops out. Golduck runs off and shows off his skills to a bunch of girls.
+
+Golduck's known moves are {{m|Surf}}{{tt|*|Japanese version only}}, {{m|Water Gun}}, {{m|Disable}}, {{m|Confusion}}, {{m|Psychic}}{{tt|*|Golduck couldn't legitimately learn Psychic in Generation I}}, {{m|Fury Swipes}}, and {{m|Hyper Beam}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Tracey
+|pkmn=Scyther
+|type1=Bug
+|type2=Flying
+|img=Misty Tracey Scyther.png
+|epnum=EP097
+|epname=Tracey Gets Bugged
+|vajp=Unshō Ishizuka
+|vaen=Eric Stuart
+|desc=Tracey loaned Misty his Scyther along with Marill to help put out a fire on [[Ascorbia Island]].}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Tracey
+|pkmn=Marill
+|type1=Water
+|img=Misty Tracey Marill.png
+|epnum=EP087
+|epname=The Crystal Onix
+|vajp=Mika Kanai
+|vaen=Kayzie Rogers
+|desc=Tracey loaned Misty his Marill along with Scyther to help put out a fire on [[Ascorbia Island]].}}
+
+{{TrainerPoké
+|trainer=Hagatha
+|pkmn=Hoothoot
+|nick=Hoothoot
+|type1=Normal
+|type2=Flying
+|img=Ash Hoothoot.png
+|cap=Hagatha and Nagatha's Hoothoot
+|epnum=EP121
+|epname=Illusion Confusion
+|desc={{Ash}}, {{an|Brock}} and Misty borrowed {{p|Hoothoot}} from [[Hagatha and Nagatha#Hagatha|Hagatha]] in order to navigate the haunted forest. It was returned to her sister, [[Hagatha and Nagatha#Nagatha|Nagatha]], after they were able to get to the exit.
+
+Hoothoot's known moves are {{m|Foresight}} and {{m|Peck}}.}}
+
+{{TrainerPoké
+|pkmn=Seaking
+|type1=Water
+|img=Misty Seaking.png
+|epnum=EP168
+|epname=Hook, Line, and Stinker
+|desc=Misty hooked a big {{p|Seaking}} using her [[Misty's special lure|special lure]] for the [[Seaking Catching Competition]]. It weighed 55kg which placed Misty equal first with [[Andreas]]. Misty was chosen as the winner with a subsequent [[Pokémon battle]]. Under contest rules, the Seaking was released back into the lake.
+
+None of Seaking's moves are known.}}
+
+====Ride Pokémon====
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Mantine
+|gender=
+|type1=water
+|type2=flying
+|img=Misty Mantine.png
+|cap=A Ride Mantine
+|epnum=SM102
+|epname=Alola, Alola!
+|vajp=
+|vaen=
+|desc=Misty used a {{p|Mantine}} to get from [[Melemele Island]] to [[Treasure Island]].
+
+None of Mantine's moves are known.}}
+
+{{TrainerPoké
+|trainer=Lana
+|pkmn=Dragonair
+|type1=dragon
+|img=Lana Dragonair.png
+|cap=A Ride Dragonair
+|epnum=SM061
+|epname=A Mission of Ultra Urgency!
+|vajp=
+|vaen=
+|desc=Misty rode {{p|Dragonair}} alongside Lana in ''[[SM103|Heart of Fire! Heart of Stone!]]'' to travel to [[Akala Island]].
+
+Dragonair's only known move is {{m|Ice Beam}}.}}
+
+===Pokémon competitions===
+[[File:Misty Medallion.png|thumb|250px|Misty's prize for winning the Tour de Alto Mare]]
+Misty has competed in the following {{cat|Pokémon competitions}}:
+* [[Beach Beauty and Pokémon Costume Contest]] - N/A (''[[EP018|Beauty and the Beach]]'')
+* [[Big P Pokémon Race]] - {{wp|Did Not Finish|DNF}} (''[[EP033|The Flame Pokémon-athon!]]'')
+* [[Queen of the Princess Festival]] - Winner (''[[EP052|Princess vs. Princess]]'')
+* [[Seaking Catching Competition]] - Winner (''[[EP168|Hook, Line, and Stinker]]'')
+* [[Pokémon Balloon Race]] - Winner (with {{Ash}} and {{an|Brock}}; tied with [[Skyler]] and [[Tenma]]; ''[[EP202|The Big Balloon Blow-Up]]'')
+* [[Whirl Cup]] - Top 8/Top 16{{tt|*|Due to inconsistencies in dialogue, either ranking could be correct}} (''[[EP217|The Perfect Match!]]'')
+* [[Tour de Alto Mare]] - Winner (''[[M05|Pokémon Heroes: Latios & Latias]]'')
+
+===Main outfits===
+[[File:Misty SM.png|thumb|120px|Misty's main outfit]]
+====Original series====
+Misty's first outfit, and her best known, is a yellow crop top and jean shorts held up by red suspenders. Most of her midriff is exposed. She wears red, yellow and white sneakers with it, and carries a red drawstring backpack.
+
+This outfit also debuted her hairstyle, which is typically how she always wears it, regardless of her outfit: a small side ponytail. In {{aniseries|SM}}, Misty holds a [[Key Stone]] on her hairband. She occasionally takes her hair down, but only when she is sleeping, bathing, or wearing a formal outfit of some sort. With her mermaid outfit, she wears her hair down with pearl ornaments.
+
+Misty wore this outfit from ''[[EP001|Pokémon - I Choose You!]]'' to ''[[HS11|A Date With Delcatty]]''. She returned to wearing this outfit in ''[[SM042|Alola, Kanto!]]''.
+{{left clear}}
+
+====''Ruby and Sapphire''====
+[[File:Misty AG.png|thumb|200px|left|Misty's {{aniseries|RS|''Ruby and Sapphire''}} outfit]]
+Misty's second outfit is a yellow sleeveless top or vest with a large blue button on the front and matching shorts, worn over some sort of dark red under-all (swimsuit or leotard, etc.). She wears short pale and burnt orange ankle boots with it. Misty changed bags three times while wearing this outfit. She had her red drawstring bag from her original outfit from ''[[AG044|The Princess and the Togepi]]'' to ''[[AG045|A Togepi Mirage!]]'', a {{p|Spheal}}-shaped backpack from ''[[AG133|The Right Place and the Right Mime]]'' to ''[[AG134|A Real Cleffa-Hanger]]'', and a pink purse in ''[[The Mastermind of Mirage Pokémon]]''.
+
+Misty wore this outfit from ''The Princess and the Togepi'' to ''The Mastermind of Mirage Pokémon''.
+{{-}}
+
+===Other outfits===
+====Costumes====
+* Misty wears a mermaid outfit when performing at the Cerulean Gym. It was first seen in ''[[EP061|The Misty Mermaid]]''. The outfit consists of a shell-pattern bikini top, a light blue mermaid fin, and a pearl ornament.
+* Misty wore a {{p|Slowpoke}} costume in  ''[[EP142|A Shadow of a Drought]]''.
+* Misty wore a red and pink dress with long red tights in ''[[EP160|Air Time!]]''. One of the sleeves jutted out, which she used as a perch for {{TP|Misty|Togepi}} to sit on.
+
+====Formal attire====
+[[File:Misty Kimono Girl.png|thumb|120px|Misty in her pink yukata]]
+* Misty wears a {{wp|yukata}} to a summer festival in ''[[EP020|The Ghost of Maiden's Peak]]''. It appears again in the fourth ending theme, ''[[Pokémon Ondo]]''.
+* Misty wears a stage dress designed to look like {{p|Goldeen}} in ''[[EP043|The March of the Exeggutor Squad]]''.
+* Misty wears a pink {{wp|kimono}} for the Princess festival in ''[[EP052|Princess vs. Princess]]''.
+* Misty fantasizes about wearing a red dress for a movie premier in ''[[EP070|Go West Young Meowth]]''.
+* Misty and Brock both wore special outfits for the [[Weekly Pokémon Broadcasting Station]]. Misty's outfit is a red {{wp|Cheongsam}}.
+* Misty wore a yellow dress as part of Brock’s fantasy in ''[[EP165|Hassle in the Castle]]''.
+
+====Other clothing====
+* Misty wore a light-brown blanket in ''[[Snow Way Out!]]''.
+* Misty wore a face mask in ''[[EP239|Whichever Way the Wind Blows]]''.
+* Misty wore an orange life jacket in ''[[SM102|Alola, Alola!]]''.
+* Misty wore a pink heart-shape hair tie in her hair in ''[[JN144|Getting to the Heart of it All!]]''.
+
+====Regular clothes====
+[[File:Misty SM2.png|thumb|250px|Misty in her Alola outfit]]
+* Misty wore a pink blouse and a long, brown skirt in her fantasy of France in ''[[EP009|The School of Hard Knocks]]''.
+* Misty wore a red shirt underneath a pink jacket with green and yellow stripes, that had the image of an {{P|Electrode}}, and blue sunglasses around her neck, and a fortune cookie shape necklace. She also had her hair up in bun tails that was hold up by two pink-heart shape and green circle hair ties, and two pink hair clips in the middle as part of [[Team Rocket]]'s makeover in ''[[EP028|Pokémon Fashion Flash]]''.
+* A flashback in ''[[EP052|Princess vs. Princess]]'' showed Misty as a child, wearing a pink dress with some yellow spots around it and a red bow on the back.
+* Misty wore a blue jacket with a black and red cap as a disguise in ''[[EP057|The Breeding Center Secret]]''.
+* A flashback in ''[[HS02|Cerulean Blues!]]'' showed Misty as a baby, wearing a sky-blue shirt and yellow diaper.
+* Misty wore a sleeveless yellow top with a hood, slightly longer and looser blue shorts, a small white belt with a pink buckle, and reddish-brown penny loafer shoes worn with white socks in ''[[HS16|Luvdisc is a Many Splendored Thing!]]''.
+* Misty wore an orange, summer-oriented outfit during her visit to [[Alola]] from ''[[SM102|Alola, Alola!]]'' to ''[[SM103|Heart of Fire! Heart of Stone!]]''.
+
+====Sleepwear====
+* Misty wore a yellow shirt with sleeves as pajamas in ''[[EP068|Make Room for Gloom]]''.
+
+====Sportswear====
+* Misty sometimes wore a blue shirt with black shorts. She wore it in ''[[EP067|The Pi-Kahuna]]'' and ''[[EP074|All Fired Up!]]''.
+
+====Uniforms====
+* Misty donned a Team Rocket uniform in ''[[EP037|Ditto's Mysterious Mansion]]''.
+* Misty wore a [[Nurse Joy]] outfit while helping out at the clinic in ''[[EP047|A Chansey Operation]]''.
+* Misty wore an army attire in ''[[EP133|Tanks A Lot!]]'' and ''[[EP218|Plant It Now... Diglett Later]]''.
+* Misty wore a blue ninja uniform in ''[[EP176|Ariados, Amigos]]''.
+
+====Outdoor gear====
+[[File:Misty HGSS Jacket.png|thumb|150px|Misty's jacket]]
+;Rainwear
+* Misty wore a pink raincoat in ''[[EP011|Charmander – The Stray Pokémon]]'' and a flashback scene in ''[[BW116|The Fires of a Red-Hot Reunion!]]''.
+* After the weather conditions turned poor in ''[[M02|The Power of One]]'', Misty wore a pink jacket that had a horizontal light blue stripe across the chest.
+
+;Snow wear
+* Misty wore a hot pink with a black stripe on one side jacket in ''[[EP126|The Chikorita Rescue]]''.
+* Misty wore a red jacket and olive pants in ''[[EP189|Freeze Frame]]''.
+* Misty wore a white and light blue jacket in ''[[JN140|Bearing Down Easy!]]'', similar to her {{ga|Misty|game counterpart's}} in {{g|HeartGold and SoulSilver}}.
+
+;Swimwear
+[[File:Misty Blue Bikini.png|thumb|left|250px|Misty in a blue bikini]]
+* Misty's most common swimwear is a red bikini, seen worn in ''[[EP004|Challenge of the Samurai]]'', ''[[EP018|Beauty and the Beach]]'', ''[[EP031|Dig Those Diglett!]]'', ''[[EP066|The Evolution Solution]]'', ''[[EP142|A Shadow of a Drought]]'' and ''[[EP167|A Hot Water Battle]]''.
+* Misty fantasizes about sunbathing in a pink bikini in ''[[EP015|Battle Aboard the St. Anne]]''.
+* Misty wears a yellow bikini with a skirt and a red star on the top in ''[[EP067|The Pi-Kahuna]]''.
+* Misty wore a red and pink bikini in a fantasy in ''[[EP081|Pallet Party Panic]]''.
+* Misty wears a red one-piece bathing suit with white flowers in ''[[EP108|Pokémon Double Trouble]]''.
+* Misty wore a pink and blue wetsuit and scuba gear in ''[[EP214|Mantine Overboard!]]'' and ''[[EP220|The Mystery is History]]''.
+* Misty wears a green and white striped bikini in ''[[HS02|Cerulean Blues]]''.
+* Misty wore a dark blue, two-piece bikini underneath her normal clothes that resembles the one her video game counterpart wore in the [[Generation I]] games in ''[[SM042|Alola, Kanto!]]'', ''[[SM102|Alola, Alola!]]'' and ''[[JN132|Partners in Time!]]''.
+
+======Gallery======
+<gallery>
+File:Baby Misty.png|Misty as a baby
+File:Misty outfit HS16.png|Misty in ''[[HS16|Luvdisc is a Many Splendored Thing!]]''
+File:Misty Ash Kimonos.png|Misty and Ash dancing in their yukatas
+File:Misty EP028 Makeover.png|Misty's makeover
+File:EP052.png|Misty wearing a pink kimono and crown
+File:Misty Hollywood.png|Misty's [[Hollywood]] fantasy outfit
+File:Misty Brock Sports Outfit.png|Misty and Brock in sports wear
+File:Misty Red Bikini.png|Misty in a red bikini
+File:Misty St Anne fantasy.png|Misty's St. Anne Fantasy
+File:Misty Yellow Bikini.png|Misty in a yellow bikini
+File:Misty Green Bikini.png|Misty in a green bikini
+File:Misty Goldeen outfit.png|Misty's Goldeen outfit
+File:Misty Mermaid HS02.png|Misty's Mermaid outfit
+File:Misty France.png|Misty's French fantasy
+File:Misty red dress.png|Misty's red Chinese-style dress
+File:Ninja Suits.png|Misty in a ninja suit
+File:Misty pajamas.png|Misty in her pajamas
+</gallery>
+
+===Voice actors===
+{{vatable
+| color = {{water color}}
+| bordercolor = {{water color light}}
+| ja = 飯塚雅弓 ''[[Mayumi Iizuka]]''
+| en = [[Rachael Lillis]] ([[EP001]]-[[AG134]], [[M01]]-[[M05]])<br>[[Michele Knotz]] ([[The Mastermind of Mirage Pokémon]], [[BW116]]-[[JN147]])
+| ar = مجد ظاظ ''Majd Zaza'' ([[EP001]]-[[EP105]])<br>جمانة الزنجي ''Joumana Zonji'' ([[EP106]]-[[EP209]]; [[M22]]; [[JN138]]-[[JN147]])<br>أسمهان بيطار ''Asmahan Bitar'' ([[EP263]]-[[EP273]])
+| bg = Даринка Митова ''Darinka Mitova''
+| ca = Carmen Ambrós (VHS dub)
+| zh_cmn = 林凱羚 ''Lín Kǎilíng'' ([[EP001]]-[[EP103]])<br>龍顯蕙 ''Lóng Xiǎnhuì'' ([[EP104]]-[[EP207]])<br>謝佼娟 ''Xiè Jiǎojuān'' ([[EP208]]-[[EP259]])<br>林美秀 ''Lín Měixiù'' ([[EP260]]-[[JN147]])
+| hr = Jasna Palić Picukarić<br>Olga Pakalović
+| cs = Eva Spoustová ([[EP001]]-[[EP209]], [[M01]]-[[M04]])<br>Jana Páleníčková ([[BW116]]-[[SM103]], [[M22]])<br>Anna Theimerová ([[JN138]]-[[JN147]])
+| da = Lulu Jacobsen ([[EP001]]-[[EP105]], [[Pokémon movie|movies]])<br>Annevig Schelde Ebbe ([[EP263]]-[[EP273]], [[AG132]]-[[AG134]])<br>Simone Drechsler ([[AG044]]-[[AG045]])
+| nl = Marlies Somers<br>Unknown voice actor ([[M05]]-[[M07]])
+| fil = Candice Arellano
+| fi = Kiti Kokkonen ([[EP001]]-[[EP079]], [[EP125]]-[[EP136]], [[AG044]]-[[AG134]], [[SM042]]-[[SM043]], [[M01]]-[[M04]], [[Pikachu short]]s, [[Mewtwo Returns|MR]], [[The Mastermind of Mirage Pokémon|MoMP]])<br>Outi Alanen ([[EP117]]-[[EP124]])<br>Marjut Heikkinen ([[EP137]]-[[EP183]])<br>Pauliina Virta ([[EP263]]-[[EP273]])<br>Unknown ([[BW116]])<br>Mirjami Heikkinen (SM??-[[JN147]], [[M22]])<br>Hanna Salonen ([[M05]])
+| fr_ca = Kim Jalabert
+| fr_eu = Fanny Roy
+| de = Angela Wiederhut
+| el = Μιχαέλα Αντωνίου ''Mihaela Antoniou''
+| he = עדי בן ישראל ''Adi Ben Israel''<br>נעמה אוזן ''Na'ama Ozen''<br>טליה ברקאי ''Talia Barkai''
+| hu = Eszter Dudás<br>Ilona Molnar ([[M04]])<br>Dora Berkes ([[Mewtwo Returns]])
+| is = Vigdís Pálsdóttir ([[M03]])<br>Freydís Kristófersdóttir ([[M05]])
+| id = Nurhasanah Iskandar (Kanto saga)<br>Wan Leoni Mutiarza (Johto saga, [[M02]]-[[M05]])<br>Jane Leisilla Zahara ([[AG044]]-[[AG045]])<br>Nining Yuningsih ([[Pokémon the Series: Sun & Moon]], RTV dub)<br>Wahyu Murti ([[M22]])
+| it = Alessandra Karpoff ([[EP001]]-[[AG134]], [[SM042]]-present)<br>Benedetta Ponticelli ([[BW116]], {{TPCi}} redub of [[EP001]]-[[EP157]])
+| ko = 지미애 ''Ji Mi-Ae''<br>이지현 ''Lee Chi-Hyeon'' ([[The Mastermind of Mirage Pokémon]])<br>김현지 ''Kim Hyeon-Ji'' ([[BW116]])<br>여민정 ''Yeo Minjeong'' (redubbed [[M02]], [[M03]])
+| no = Anine Kruse
+| pl = Iwona Rulewicz<br>Joanna Pach ([[EP007]]){{tt|*|Redub - one scene}}
+| pt_br = Márcia Regina ([[EP001]]-[[BW116]], [[JN138]]-[[JN147]], [[Pokémon movie|movies]], [[Pikachu short]]s, [[Mewtwo Returns|MR]], [[Pokémon Chronicles]], [[The Mastermind of Mirage Pokémon|MoMP]])<br>Aline Guioli ([[SM042]]-[[SM103]], [[M22]])
+| pt_eu = Helena Montez ([[EP001]]-[[EP128]], [[M01]]-[[M04]] and [[M22]], [[SM042]]-present)<br>Ana Luís Martins ([[EP129]]-[[EP157]])<br>Paula Pais ([[EP158]]-[[EP194]])<br>Alda Joana ([[EP165]]-[[EP219]])<br>Unknown voice actress ([[AG044]]-[[AG045]], [[Pokémon Chronicles]])<br>Isabel Ribas ([[AG132]]-[[AG134]])
+| ro = Mirela Corbeanu
+| ru = Наталья Синенко ''Natalia Sinenko'' ([[EP001]]-[[EP004]])<br>Татьяна Зиновенко ''Tatiana Zinovenko'' ([[EP005]]-[[EP105]])<br>Татьяна Весёлкина ''Tatyana Veselkina'' ([[M01]]-[[M03]])<br>Лариса Брохман ''Larisa Brohman'' ([[AG044]]-[[AG045]])<br>Ольга Голованова ''Olga Golovanova'' ([[AG132]]-[[AG134]])<br>Дарья Фролова ''Daria Frolova'' ([[BW116]])<br>Лина Иванова ''Lina Ivanova'' ([[SM042]]-[[SM043]], [[SM102]])<br>Евгения Ваган ''Evgeniya Vagan'' ([[SM103]])<br>Алёна Созинова ''Alena Sozinova'' ([[M22]])
+| es_la = Xóchitl Ugarte
+| es_eu = Miriam Valencia ([[EP001]]-[[BW116]])<br>Sandra Villa ([[SM042]]-[[JN147]], [[M22]])<br>Pilar Aguado ([[M03]], [[Mewtwo Returns]])
+| sv = Anna Book ([[S01]]-[[S04]], [[M01]]-[[M03]])<br>Annica Smedius ([[S05]]-[[S08]], [[M04]]-[[M05]])<br>Maria Rydberg ([[EP055]])<br>Carla Abrahamsen ([[BW116]])
+| th = ศันสนีย์ วัฒนานุหม่อมชั้น ''Sansanee Watthananumomchan''<br>ธันวา ภักดีอำนาจ ''Thanwa Pakdeeamnat'' ([[M22]])
+| tr = Birtanem Coşkun Candaner<br> Ferda Yalçın Tuncay ([[M03]]) <br> Aysun Topar ([[M05]])
+| vi = Võ Huyền Chi ([[BW116]])<br>Cao Thụy Thanh Hồng ([[EP001]]-present)<br>Phạm Huyền Trang ([[M22]])
+| hi = नेश्मा चेम्बुरकर ''Neshma Chemburkar'' (Cartoon Network dub - [[S01]] and [[S02]])<br>रुचा दिघे ''{{wp|Rucha Dighe}}'' (Hungama dub)
+}}
+
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:80px"| [[File:Misty OS 1.png|130px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:90px"| [[File:Misty OS 3.png|80px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:80px"| [[File:Misty OS 2.png|190px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:90px"| [[File:Misty SM.png|90px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:80px"| [[File:JN132 AS.png|260px]]
+|-
+| colspan=2 | Official artwork from the<br>{{color2|000|original series}}
+| Alternative artwork from the<br>{{color2|000|original series}}
+| Official artwork from <br>''{{color2|000|Pokémon the Series: Sun & Moon}}''
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1591672205040943105</ref>
+|-
+| style="{{roundy|2px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}" | [[File:To Be a Pokémon Master poster.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}" | [[File:JN138 AS.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}" | [[File:JN140 AS.png|x200px]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}" | [[File:JN146 AS.png|x200px]]
+|-
+| Poster for<br>''{{color2|000|S25|Pokémon: To Be a Pokémon Master}}''
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1617039355696263173</ref>
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1622112786506723328</ref>
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1637333078136987649</ref>
+|}
+
+==In the games==
+===In the spin-off games===
+====Pokémon Puzzle League====
+In [[Pokémon Puzzle League]], Misty is one of the opponents in the 1P Stadium mode, and one of the characters available in the 2P Stadium mode.
+
+=====Pokémon=====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Misty|Horsea|116Horsea.png|water|size=100px}}
+| {{ActivePoké|Misty|Psyduck|054Psyduck.png|water|size=100px}}
+| {{ActivePoké|Misty|Staryu|120Staryu.png|water|size=100px}}
+|}
+{{left clear}}
+
+====Pokémon Zany Cards====
+In [[Pokémon Zany Cards]], Misty and {{an|Brock}} appear as the second opponents in [[Wild Match]] mode.
+
+====Pokémon Channel====
+Although Misty herself doesn't physically appear in [[Pokémon Channel]], her likeness is used on a special version of the Japanese version of ''[[Pichu Bros. in Party Panic]]'', due to it featuring her as the narrator.
+
+==In the manga==
+[[File:Misty AP.png|thumb|100px|Misty in Ash & Pikachu]]
+===Ash & Pikachu===
+Misty is a main character in [[Ash & Pikachu]], where she is often portrayed as being bad-tempered. She also talks about being ladylike often, and wishes that {{Ash}} and {{an|Brock}} would treat her with more respect as a lady.
+
+She was revealed to have left the group in ''[[SP17|Let's Save Pikachu!!]]'' sometime before Ash went to Hoenn.
+
+====Pokémon====
+{| width="75%"
+|-
+| {{InactivePoké|Misty|Togepi|Misty Togepi AP.png|normal}}
+| {{InactivePoké|Misty|Psyduck|Ash Psyduck AP.png|water}}
+| {{InactivePoké|Misty|Goldeen|Misty Goldeen AP.png|water}}
+|-
+| {{InactivePoké|Misty|Poliwhirl|Misty Poliwhirl AP.png|water}}
+| {{InactivePoké|Misty|Staryu|Misty Staryu AP.png|water}}
+|}
+
+===The Electric Tale of Pikachu===
+[[File:Misty EToP.png|thumb|200px|Misty in The Electric Tale of Pikachu]]
+Misty is a recurring character in [[The Electric Tale of Pikachu]]. She first appears in ''[[ET01|Pikachu, I See You]]''. She takes a liking to {{OBP|Ash's Pikachu|EToP}} and tells {{OBP|Ash Ketchum|EToP|Ash}} about what it takes to be a professional Pokémon Trainer. Ash steals her [[bicycle]] later to rush Pikachu to a [[Pokémon Center]] after being injured by a flock of {{p|Spearow}}.
+
+She travels with Ash for the following chapter, ''[[ET02|Play Misty For Me]]'', expecting Ash to repay her for her bike. Later, when Ash arrives in [[Cerulean City]], he battles her instead of the [[Sensational Sisters]]. Misty awards Ash the {{Badge|Cascade}} when his {{AP|Fearow}} takes back his {{AP|hat}} from Misty's head.
+
+Misty disappears from the manga until Ash and {{an|Brock}} bump into her at the [[Nomads Independence Day]] festival in ''[[ET05|The Human Race and the Pokémon Race]]''. After this, she is a common traveling companion to Ash and Brock, though they still part ways at times, such as when Misty and [[Duplica]] search for wild {{p|Ditto}} in ''[[ET07|Pikachu's Excellent Adventure]]''.
+
+====Pokémon====
+{{TrainerPoké
+|main=yes
+|width=74
+|trainer=Misty
+|pkmn=Gyarados
+|type1=Water
+|type2=Flying
+|img=Misty Gyarados EToP.png
+|epnum=ET02
+|epname=Play Misty For Me
+|desc=Misty's {{p|Gyarados}} was used in a challenge for Ash to get his hat back. It was defeated when [[Ash's Butterfree]] put it to sleep with {{m|Sleep Powder}}.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Shellder
+|type1=Water
+|img=Misty Shellder EToP.png
+|epnum=ET02
+|epname=Play Misty For Me
+|desc=Misty threw {{p|Shellder}} at Ash after he was constantly staring at her in her swimsuit.
+
+None of Shellder's moves are known.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Lapras
+|type1=Water
+|type2=Ice
+|img=Misty Lapras EToP.png
+|epnum=ET02
+|epname=Play Misty For Me
+|desc={{p|Lapras}} is Misty's mode of {{m|Surf|water transportation}}.
+
+None of Lapras's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Poliwhirl
+|stage1=Poliwag
+|type1=Water
+|img=Misty Poliwhirl EToP.png
+|epnum=ET03
+|epname=Clefairy Tale
+|desc=Misty is shown with a Poliwag in ''[[ET03|Clefairy Tale]]''. Later, in ''[[ET06|To Evolve or Not to Evolve, That is the Question!]]'', she ponders whether she wanted to evolve her {{p|Poliwhirl}} into {{p|Poliwrath}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Psyduck
+|type1=Water
+|img=Misty Psyduck EToP.png
+|epnum=ET07
+|epname=Pikachu's Excellent Adventure
+|desc={{p|Psyduck}} was seen as a cameo where it was floating in the flood of tears created by Ash.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Starmie
+|type1=Water
+|type2=Psychic
+|img=Misty Starmie EToP.png
+|epnum=ET07
+|epname=Pikachu's Excellent Adventure
+|desc=Misty's {{p|Starmie}} was used to rehydrate Ash after he cried too much while Pikachu was gone.}}
+
+===Magical Pokémon Journey===
+[[File:Misty MPJ.png|thumb|200px|Misty in Magical Pokémon Journey]]
+Misty, along with {{Ash}} and {{an|Brock}}, make cameo appearances in bonus chapters of [[Magical Pokémon Journey]]. In the bonus chapters, Misty and her friends have mistakenly wandered into the world Magical Pokémon Journey is set in. The bonus chapters chronicle their attempts to return to their world (of the {{pkmn|animated series}}) and their encounters with various aspects of the Magical Pokémon Journey [[canon]] which differ from the animated series' canon (such as the use of [[Poké Ball]]s).
+{{-}}
+
+===Pokémon Newspaper Strip===
+[[File:Newspaper Misty.png|thumb|200px|Misty in the Pokémon Newspaper Strip]]
+{{main|Misty (Pokémon Newspaper Strip)}}
+Misty is one of the main characters of the [[Pokémon Newspaper Strip]].
+{{-}}
+
+==In the TCG==
+This listing is of cards mentioning or featuring the {{pkmn|animated series}} version of Misty or her Pokémon in the [[Pokémon Trading Card Game]].
+
+{{cardlist/header|Misty's Pokémon|Water|char=yes}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Misty's Goldeen|30}}|type=Water|enset=Gym Heroes|enrarity=Rare|ennum=30/132|jpset=Hanada City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Misty's Psyduck|54}}|type=Water|enset=Gym Heroes|enrarity=Uncommon|ennum=54/132|jpset=Hanada City Gym}}{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Misty's Starmie|56}}|type=Water|enset=Gym Heroes|enrarity=Uncommon|ennum=56/132|jpset=Hanada City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Misty's Goldeen|85}}|type=Water|enset=Gym Heroes|enrarity=Common|ennum=85/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Misty's Horsea|86}}|type=Water|enset=Gym Heroes|enrarity=Common|ennum=86/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Heroes|Misty's Staryu|90}}|type=Water|enset=Gym Heroes|enrarity=Common|ennum=90/132|jpset=Hanada City Gym}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Misty's Horsea|87}}|type=Water|enset=Gym Challenge|enrarity=Common|ennum=87/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Misty's Staryu|92}}|type=Water|enset=Gym Challenge|enrarity=Common|ennum=92/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common|jpset2=Unnumbered Promotional cards}}
+{{cardlist/entry|cardname={{TCG ID|Gym Challenge|Misty's Psyduck|90}}|type=Water|enset=Gym Challenge|enrarity=Common|ennum=90/132|jpsetlink=Gym Heroes|jpset=Leaders' Stadium|jprarity=Common}}
+{{cardlist/entry|cardname={{TCG ID|Theater VS Pack|Misty's Politoed|3}}|type=Water|jpset=Theater Limited VS Pack|jpnum=003/018}}
+{{cardlist/entry|cardname={{TCG ID|Theater VS Pack|Misty's Corsola|4}}|type=Water|jpset=Theater Limited VS Pack|jpnum=004/018}}
+{{cardlist/footer|Water}}
+
+==Trivia==
+* Misty was designed by [[Atsuko Nishida]].<ref>[https://twitter.com/El_Aleph87/status/1632063563744378884 Press release of "Hometown Story"]</ref>
+* Misty is the first victim of the recurring gag in {{aniseries|PTS}} where Ash's Pikachu shocks a main female character's [[bicycle]] or the character herself at the beginning of each series.
+* Misty is the first main character to be seen owning a [[Generation II]] Pokémon, that Pokémon being {{TP|Misty|Togepi}}.
+* Misty is the only main character with a game counterpart to not have any of her main outfits influenced by those worn by [[Misty|her game counterpart]].
+* Out of all of [[Ash's friends]], Misty:
+** Holds the record for having the most Pokémon [[Party|on hand]] at the time of her debut and the largest number of Pokémon with unexplained origins, with three each.
+** Is the first one to have challenged a [[Gym]], albeit an unofficial one, as shown in ''[[EP256|Just Add Water]]''.
+** Is the first one to have released a non-temporary Pokémon permanently.
+* Out of all of Ash's female friends, Misty:
+** Has appeared in the most amount of episodes, at 296.
+** Has owned the most Pokémon, at 12.
+** Is the first one to have had a full team of six Pokémon on hand, having done so thrice.
+** Is the only one to own more than one Pokémon of a given evolutionary line, those being {{TP|Misty|Staryu}} and {{TP|Misty|Starmie}}.
+* Only Misty's Japanese name ('''カスミ''' ''Kasumi'', meaning {{wp|baby's breath}}) references the floral theme behind the name of her older sisters: {{an|Daisy}}, {{an|Violet}}, and {{ka|Lily}}. In all other languages, her name references water.
+* Out of all of Ash's friends who temporarily returned after departing with Ash, Misty:
+** Is the first to return in more than one series.
+*** Furthermore, Misty is the only one that has done so to have changed from ''and'' back to her [[#Main outfits|original outfit]], as she returned to wearing her [[original series]] outfit in ''[[SM042|Alola, Kanto!]]'', after changing into a different outfit from ''[[AG044|The Princess and the Togepi]]'' onward.
+** Is the only one who has had new Pokémon added to her party, those being {{TP|Misty|Gyarados}} and {{TP|Misty|Azurill}}.
+* Both Misty and [[Jessie]] were voiced by [[Rachael Lillis]], and then switched to [[Michele Knotz]] when the 4Kids dub ended in 2006.
+* According to ''[[Pocket Monsters: The Animation]]'', Misty's parents abandoned their children and the Cerulean Gym due to the harsh regulations for Gym duties, thus forcing her and her sisters to run the Cerulean Gym until she left at 10 years old. She also went to school at a girls-only school, with the closest she had to any significant encounter with someone of the opposite sex before meeting Ash was during the third grade where she lured a boy behind the gymnasium to tell him off for picking on one of her friends and beating him up.
+* Former director and storyboard artist of [[Pokémon animation]], [[Masamitsu Hidaka]], stated in [http://www.pokebeach.com/news/0708/interview-with-masamitsu-hidaka-at-anime-expo an interview] that Misty will not return as a main character in future seasons, but she will continue to make guest appearances like she has in the past. He compared it to how {{an|May}} came back for the [[Wallace Cup]] in {{aniseries|DP}}, but said since [[Pokémon Contest]]s "aren't really her thing," it would be for something else like a battle.
+** In ''[[JN138|A Fated Face-Off!]]'', however, Misty returned as a long-term traveling companion of Ash in ''[[S25|Pokémon: To Be a Pokémon Master]]''.
+* In the licensed Brazilian music video "[[The Strength of the Master]]", a boy and a girl appear dressed as Ash and Misty.
+
+==Names==
+{{main|Misty#Names|Misty → Names}}
+
+==References==
+<references/>
+
+==External links==
+*{{wp|Misty (Pokémon)|Article on Wikipedia}}
+
+==Related articles==
+* [[Misty]]
+* {{cat|Episodes focusing on Misty}}
+
+{{Misty's Pokémon}}
+{{animecharacters|water}}
+{{Ash and Pikachu characters}}
+{{Electric Tale of Pikachu characters}}
+{{Pokémon Live}}
+{{Project Anime notice|no}}
+
+[[Category:Animation characters]]
+[[Category:Female characters]]
+[[Category:Gym Leaders]]
+[[Category:Water-type Trainers]]
+[[Category:Trainers who use Mega Evolution]]
+[[Category:Ash's friends]]
+[[Category:Animated series running gags]]
+[[Category:Manga characters]]
+[[Category:Electric Tale of Pikachu characters]]
+[[Category:Ash & Pikachu characters]]
+[[Category:Pokémon Live!]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Misty (Animecharakter)]]
+[[es:Misty (anime)]]
+[[fr:Ondine/Pokémon, la série]]
+[[it:Misty (serie animata)]]
+[[ja:カスミ (アニメ)]]
+[[zh:小霞（動畫）]]

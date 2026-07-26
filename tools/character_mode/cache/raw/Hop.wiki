@@ -1,0 +1,2034 @@
+:''For the move with the Japanese name of Hop, see [[Splash (move)]].''
+{{Character Infobox
+|color={{sword color}}
+|corecolor={{sword color light}}
+|bordercolor={{sword color dark}}
+|name=Hop
+|jname=ホップ
+|tmname=Hop
+|jtranslit=Hoppu
+|image=Sword Shield Hop.png
+|size=100px
+|caption=Art from {{pkmn|Sword and Shield}} by [[Ken Sugimori]]<ref>[[a:File:HopSwordShield165.jpg|Hop (Sword & Shield 165)]]</ref>
+|gender=Male
+|eyes=Yellow
+|hair=Purple
+|hometown=[[Postwick]]
+|region=[[Galar]]
+|relatives=Unnamed mother and father, [[Leon]] (older brother)
+}}
+{{Character Infobox/Game
+|color={{sword color light}}
+|gen={{gen|VIII}}, {{gen|IX}}
+|games={{pkmn|Sword and Shield|Sword, Shield}}<br>{{pkmn|Masters EX}}
+|counterpart=[[Hop (Masters)]]
+|trainer=[[Pokémon Trainer]]
+|enva=Vargus Mason<ref name="Vargus Mason">[https://youtube.com/playlist?list=FLnLyZBzmr7pZfXzJ0Agj8HQ Vargus Mason on YouTube]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=[[Yuko Sanpei]]<ref name="Yūko Sanpei">[https://www.youtube.com/watch?v=BYDY1luFlOQ Pokémon Official Youtube channel]</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{sword color light}}
+|series=''[[Pokémon the Series]]''<br>''[[Pokémon: Twilight Wings]]'',<br>''[[Pokémon Evolutions]]''
+|debut=''[[JN115|Curtain Up! Fight the Fights!]]'' <small>([[Pokémon animated series|Animated series]])</small><br>''[[TW01|Letter]]'' <small>([[Pokémon: Twilight Wings|Twilight Wings]])</small><br>''[[PE01|The Champion]]'' <small>({{pkmn|Evolutions}})</small>
+|enva=AJ Beckles <small>([[Pokémon animated series|Animated series]])</small><br>Griffin Puatu <small>([[Pokémon: Twilight Wings|Twilight Wings]])</small><br>Adriel Varlack <small>({{pkmn|Evolutions}})</small>
+|jpva=Takuto Yoshinaga <small>([[Pokémon animated series|Animated series]])</small><br>[[Yuko Sanpei]] <small>([[Pokémon: Twilight Wings|Twilight Wings]])</small><br>Miyu Irino <small>({{pkmn|Evolutions}})</small>
+}}
+{{Character Infobox/Manga
+|color={{sword color light}}
+|series=''[[Pokémon Adventures]]''
+|debut=''[[PASS06|Watch Out!! Strong Rivals]]''
+}}
+|}
+
+'''Hop''' (Japanese: '''ホップ''' ''Hop'') is one of the [[rival]] characters in [[Pokémon Sword and Shield]], the others being [[Bede]] and [[Marnie]].
+
+==In the core series games==
+Hop is the {{player}}'s neighbor and [[rival]]. His goal is to become the {{pkmn|Champion}}, just like his older brother [[Leon]]. Hop starts his {{pkmn|journey}} with his [[List of characters' first Pokémon|first Pokémon]], {{p|Wooloo}}, and the [[first partner Pokémon]] weak to the player's choice. After meeting a mysterious {{OBP|Pokémon|species}} in the [[Slumbering Weald]] and receiving an [[endorsement]] from Leon, Hop and the player board the train to [[Motostoke]], and their respective journeys begin. While an outwardly earnest boy, Hop's dreams are cast into doubt after a crushing defeat at the hands of [[Bede]] soon after earning his {{badge|Fire}}, compounded by frequent losses to the player and the pressure of following in his brother's footsteps. Believing he is making his brother look weak, Hop begins using different teams to get stronger but still comes up short, losing his first challenge at [[Circhester Stadium]].
+
+After the player wins at Circhester Stadium, Hop and the player learn more about the mysterious Pokémon of Slumbering Weald and their relationship to the hero. Motivated, Hop tells the player he has made up his mind and will no longer doubt himself, challenging them with his new, final team led by his newly evolved {{p|Dubwool}}. Hop completes his Gym challenge and eventually meets the player as their second opponent in the Champion Cup in [[Wyndon Stadium]]. He is eventually defeated, and while visibly upset, Hop congratulates the player.
+
+After the semifinals, Hop and the player search for Leon, who said he would be at the Rose of the Rondelands hotel to join the two for dinner, but he did not show up. With the help of [[Piers]], [[Marnie]], and [[Team Yell]], the player and Hop pursue a member of [[Macro Cosmos]] to [[Rose Tower]], where they find Leon having a discussion with [[Rose]] at the top. Hop later appears to congratulate the player for clearing the final round of the Champion Cup, and after some encouragement from his first partner Pokémon, he decides he is going to cheer for them over his brother. However, after Rose interrupts the Championship match, Hop suggests heading towards the Slumbering Weald to stop the return of {{p|Eternatus}} and the [[Darkest Day]].
+
+In the deepest parts of the Weald, the player and Hop are unable to find the mysterious Pokémon they once saw, and instead, they discover a [[Rusted Sword]] and [[Rusted Shield]]. Hop takes the Shield{{sup/8|Sw}}/Sword{{sup/8|Sh}} and make way to the [[Energy Plant]] in [[Hammerlocke]]. After defeating Rose, the player and Hop join Leon, who tries and fails to catch Eternatus. After the player knocks it out, Eternatus turns into {{DL|List of Pokémon with form differences|Eternatus|Eternamax}} Eternatus. Hop joins the player in a [[Max Raid Battle]] against it, but they are unable to do anything until they use the Rusted Sword and Shield to summon {{p|Zacian}} and {{p|Zamazenta}}. Through the combined efforts of Hop and the {{pkmn2|Legendary}} heroes, the player can catch and stop Eternatus.
+
+After becoming {{pkmn|Champion}}, the player meets Hop again in the Slumbering Weald where Zacian and Zamazenta once slept, saying he felt compelled to come there. After congratulating the player and having another battle, the player and Hop attempt to return the Rusted Sword and Shield, but are stopped by [[Sordward]] and [[Shielbert]], who attempt to steal the artifacts. The player successfully reclaims their artifact in a {{pkmn|battle}} with Sordward{{sup/8|Sw}}/Shielbert{{sup/8|Sh}}, but Hop is defeated by the other brother and loses his artifact. Feeling responsible, Hop quickly pursues the brothers, who are causing Trainers' Pokémon to [[Dynamax]] by force and run amok in [[Gym|Stadiums]]. While helping the Pokémon in Max Raid Battles with the player, Piers, and the other Gym Leaders, Hop expresses newfound doubts, thinking he is only dragging his friends down.
+
+Hop and the player eventually corner the brothers at the Energy Plant, where they drive Zamazenta{{sup/8|Sw}}/Zacian{{sup/8|Sh}} into a berserk state by exposing it to Dynamax energy. The player defeats it in battle, and the Legendary Pokémon runs off after nearly attacking Hop, who was trying to help it. Hop goes after it, leaving Zacian{{sup/8|Sw}}/Zamazenta{{sup/8|Sh}} in the hands of the player, who is challenged by the other Legendary Pokémon. After the player catches Zacian{{sup/8|Sw}}/Zamazenta{{sup/8|Sh}}, they go back to the Slumbering Weald, where they see Hop soothing a distraught Zamazenta{{sup/8|Sw}}/Zacian{{sup/8|Sh}}. Thankful, the Legendary hero offers to join Hop's team. Hop then declares he has a new dream: to become a [[Pokémon Professor]] to help people as he did during the past incidents. However, he also says that he will always see the player as a rival. With that, he and the player have one more battle, with Hop using his new Legendary partner. After the battle, [[Sonia]] offers Hop a position as her [[Professor's assistant|assistant]] to help with his studies, which he accepts.
+
+After the post-game story, Hop can be [[rematch]]ed as one of the challengers of the Champion Cup. This time, he uses a {{gi|Corviknight}}. While not battling, he can be found in Sonia's laboratory at [[Wedgehurst]].
+
+In [[The Isle of Armor]], if the player has completed the post-game story and evolved their {{p|Kubfu}}, Hop will appear at the [[Master Dojo]] and assist the player in figuring out the {{DL|Master Dojo|Max Soup}} ingredient required to make {{p|Urshifu}} eat the dish and gain the ability to Gigantamax. At first, he tests the nectars produced by {{p|Lilligant}} and {{p|Applin}}, but after deeming that neither of them seems right, he deduces that the honey produced by {{p|Vespiquen}} is the correct ingredient. He and the player then travel to [[Honeycalm Island]], where the player gets thrust into a Max Raid Battle against a Dynamax Vespiquen. Once it has been defeated, the player will obtain a comb of [[Max Honey]], the required Max Soup ingredient. Hop will afterwards stay at the dojo, showing the player Pokémon they've not seen yet for their [[Pokédex]].
+
+After the player has completed the events of The Isle of Armor and [[The Crown Tundra]], Hop participates in the [[Galarian Star Tournament]], and is one of two competitors that can be selected as a Multi Battle partner by the player in its first iteration, the other being [[Marnie]]. During the tournament, he will Gigantamax his first partner Pokémon. In subsequent iterations of the tournament, he can optionally be chosen as a partner or faced as an opponent.
+
+===League Cards===
+This is a transcript of the back of Hop's [[League Card]]s in {{g|Sword and Shield}}.
+;Normal League Card
+:"This [[Pokémon Trainer]] got endorsed to take part in the [[Galar League|Gym Challenge]] by his brother—the reigning {{pkmn|Champion}}, [[Leon]]. Hop claims to have watched all Leon's matches. Commentators speculate that as a result, he might be quite the force to be reckoned with. The Champion himself has said that his brother has potential, but his carefully hoarded knowledge can go to waste as he tends to get easily flustered in battle. It's said that Hop's partner {{p|Wooloo}} is a great help to him both in battle and with chores around the house."
+;Rare League Card
+:"This Trainer ultimately was defeated in the final match of the Champion Cup Semifinals. However, many [[Gym Leader]]s speak highly of his battle style, where he will let his Pokémon battle freely and really enjoy themselves. During the incident with {{p|Eternatus}}, he provided vital assistance in resolving the situation, proving beyond doubt that he is a skilled Trainer in his own right. It is expected that his battles with {{player|the new Champion}} will be the stuff of legend."
+
+===Pokémon===
+===={{g|Sword and Shield}}====
+:''For all of Hop's teams in {{g|Sword and Shield}}, see [[Hop/Sword and Shield|here]]''
+
+=====Tenth battle=====
+======Pokémon Sword======
+{{Party
+| caption = {{PlayerChoice|0810|Grookey}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{PDollar}}11,200
+| class = Pokémon Trainer
+| name = {{color2|000|Hop}}
+| location = Slumbering Weald
+| game = Sw
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0871
+| pokemon = Pincurchin
+| gender = female
+| level = 68
+| type1 = Electric
+| ability = Lightning Rod
+| move1 = Zing Zap | move1type = Electric | move1cat = Physical
+| move2 = Poison Jab | move2type = Poison | move2cat = Physical
+| move3 = Liquidation | move3type = Water | move3cat = Physical
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| gender = male
+| level = 69
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical
+| move3 = Swagger | move3type = Normal | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0818
+| pokemon = Inteleon
+| gender = male
+| level = 70
+| type1 = Water
+| ability = Torrent
+| move1 = Snipe Shot | move1type = Water | move1cat = Special
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Dark Pulse | move4type = Dark | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Psychic Fangs | move3type = Psychic | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0813|Scorbunny}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{PDollar}}11,200
+| class = Pokémon Trainer
+| name = {{color2|000|Hop}}
+| location = Slumbering Weald
+| game = Sw
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0871
+| pokemon = Pincurchin
+| gender = female
+| level = 68
+| type1 = Electric
+| ability = Lightning Rod
+| move1 = Zing Zap | move1type = Electric | move1cat = Physical
+| move2 = Poison Jab | move2type = Poison | move2cat = Physical
+| move3 = Liquidation | move3type = Water | move3cat = Physical
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| gender = male
+| level = 69
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical
+| move3 = Swagger | move3type = Normal | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0812
+| pokemon = Rillaboom
+| gender = male
+| level = 70
+| type1 = Grass
+| ability = Overgrow
+| move1 = Drum Beating | move1type = Grass | move1cat = Physical
+| move2 = Slam | move2type = Normal | move2cat = Physical
+| move3 = Knock Off | move3type = Dark | move3cat = Physical
+| move4 = High&nbsp;Horsepower | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Psychic Fangs | move3type = Psychic | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0816|Sobble}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{PDollar}}11,200
+| class = Pokémon Trainer
+| name = {{color2|000|Hop}}
+| location = Slumbering Weald
+| game = Sw
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0871
+| pokemon = Pincurchin
+| gender = female
+| level = 68
+| type1 = Electric
+| ability = Lightning Rod
+| move1 = Zing Zap | move1type = Electric | move1cat = Physical
+| move2 = Poison Jab | move2type = Poison | move2cat = Physical
+| move3 = Liquidation | move3type = Water | move3cat = Physical
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| gender = male
+| level = 69
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical
+| move3 = Swagger | move3type = Normal | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0815
+| pokemon = Cinderace
+| gender = male
+| level = 70
+| type1 = Fire
+| ability = Blaze
+| move1 = Gunk Shot | move1type = Poison | move1cat = Physical
+| move2 = Iron Head | move2type = Steel | move2cat = Physical
+| move3 = Pyro Ball | move3type = Fire | move3cat = Physical
+| move4 = Zen Headbutt | move4type = Psychic | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Psychic Fangs | move3type = Psychic | move3cat = Physical
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+======Pokémon Shield======
+{{Party
+| caption = {{PlayerChoice|0810|Grookey}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{PDollar}}11,200
+| class = Pokémon Trainer
+| name = {{color2|000|Hop}}
+| location = Slumbering Weald
+| game = Sh
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0871
+| pokemon = Pincurchin
+| gender = female
+| level = 68
+| type1 = Electric
+| ability = Lightning Rod
+| move1 = Zing Zap | move1type = Electric | move1cat = Physical
+| move2 = Poison Jab | move2type = Poison | move2cat = Physical
+| move3 = Liquidation | move3type = Water | move3cat = Physical
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| gender = male
+| level = 69
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical
+| move3 = Swagger | move3type = Normal | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0818
+| pokemon = Inteleon
+| gender = male
+| level = 70
+| type1 = Water
+| ability = Torrent
+| move1 = Snipe Shot | move1type = Water | move1cat = Special
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Dark Pulse | move4type = Dark | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Wild Charge | move3type = Electric | move3cat = Physical
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0813|Scorbunny}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{PDollar}}11,200
+| class = Pokémon Trainer
+| name = {{color2|000|Hop}}
+| location = Slumbering Weald
+| game = Sh
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0871
+| pokemon = Pincurchin
+| gender = female
+| level = 68
+| type1 = Electric
+| ability = Lightning Rod
+| move1 = Zing Zap | move1type = Electric | move1cat = Physical
+| move2 = Poison Jab | move2type = Poison | move2cat = Physical
+| move3 = Liquidation | move3type = Water | move3cat = Physical
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| gender = male
+| level = 69
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical
+| move3 = Swagger | move3type = Normal | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0812
+| pokemon = Rillaboom
+| gender = male
+| level = 70
+| type1 = Grass
+| ability = Overgrow
+| move1 = Drum Beating | move1type = Grass | move1cat = Physical
+| move2 = Slam | move2type = Normal | move2cat = Physical
+| move3 = Knock Off | move3type = Dark | move3cat = Physical
+| move4 = High&nbsp;Horsepower | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Wild Charge | move3type = Electric | move3cat = Physical
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0816|Sobble}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{PDollar}}11,200
+| class = Pokémon Trainer
+| name = {{color2|000|Hop}}
+| location = Slumbering Weald
+| game = Sh
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0871
+| pokemon = Pincurchin
+| gender = female
+| level = 68
+| type1 = Electric
+| ability = Lightning Rod
+| move1 = Zing Zap | move1type = Electric | move1cat = Physical
+| move2 = Poison Jab | move2type = Poison | move2cat = Physical
+| move3 = Liquidation | move3type = Water | move3cat = Physical
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| gender = male
+| level = 69
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical
+| move3 = Swagger | move3type = Normal | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0815
+| pokemon = Cinderace
+| gender = male
+| level = 70
+| type1 = Fire
+| ability = Blaze
+| move1 = Gunk Shot | move1type = Poison | move1cat = Physical
+| move2 = Iron Head | move2type = Steel | move2cat = Physical
+| move3 = Pyro Ball | move3type = Fire | move3cat = Physical
+| move4 = Zen Headbutt | move4type = Psychic | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Wild Charge | move3type = Electric | move3cat = Physical
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Party/end}}
+=====Champion tournaments=====
+Hop will [[Gigantamax]] his {{p|Corviknight}} at the first opportunity.
+======Pokémon Sword======
+{{Party
+| caption = {{PlayerChoice|0810|Grookey}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 3.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sw
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0818
+| pokemon = Inteleon
+| gender = male
+| level = 70
+| type1 = Water
+| ability = Torrent
+| move1 = Snipe Shot | move1type = Water | move1cat = Special
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Dark Pulse | move4type = Dark | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical | maxmove1 = Max Steelspike
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical | maxmove2 = G-Max Wind Rage
+| move3 = Light Screen | move3type = Psychic | move3cat = Status | maxmove3 = Max Guard
+| move4 = Swagger | move4type = Normal | move4cat = Status | maxmove4 = Max Guard
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Iron Defense | move3type = Steel | move3cat = Status
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0813|Scorbunny}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 3.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sw
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0812
+| pokemon = Rillaboom
+| gender = male
+| level = 70
+| type1 = Grass
+| ability = Overgrow
+| move1 = Drum Beating | move1type = Grass | move1cat = Physical
+| move2 = Slam | move2type = Normal | move2cat = Physical
+| move3 = Knock Off | move3type = Dark | move3cat = Physical
+| move4 = High&nbsp;Horsepower | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical | maxmove1 = Max Steelspike
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical | maxmove2 = G-Max Wind Rage
+| move3 = Light Screen | move3type = Psychic | move3cat = Status | maxmove3 = Max Guard
+| move4 = Swagger | move4type = Normal | move4cat = Status | maxmove4 = Max Guard
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Iron Defense | move3type = Steel | move3cat = Status
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0816|Sobble}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 3.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sw
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0815
+| pokemon = Cinderace
+| gender = male
+| level = 70
+| type1 = Fire
+| ability = Blaze
+| move1 = Gunk Shot | move1type = Poison | move1cat = Physical
+| move2 = Iron Head | move2type = Steel | move2cat = Physical
+| move3 = Pyro Ball | move3type = Fire | move3cat = Physical
+| move4 = Low Sweep | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical | maxmove1 = Max Steelspike
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical | maxmove2 = G-Max Wind Rage
+| move3 = Light Screen | move3type = Psychic | move3cat = Status | maxmove3 = Max Guard
+| move4 = Swagger | move4type = Normal | move4cat = Status | maxmove4 = Max Guard
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Iron Defense | move3type = Steel | move3cat = Status
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Party/end}}
+======Pokémon Shield======
+{{Party
+| caption = {{PlayerChoice|0810|Grookey}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 3.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sh
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0818
+| pokemon = Inteleon
+| gender = male
+| level = 70
+| type1 = Water
+| ability = Torrent
+| move1 = Snipe Shot | move1type = Water | move1cat = Special
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Dark Pulse | move4type = Dark | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical | maxmove1 = Max Steelspike
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical | maxmove2 = G-Max Wind Rage
+| move3 = Light Screen | move3type = Psychic | move3cat = Status | maxmove3 = Max Guard
+| move4 = Swagger | move4type = Normal | move4cat = Status | maxmove4 = Max Guard
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0813|Scorbunny}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 3.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sh
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0812
+| pokemon = Rillaboom
+| gender = male
+| level = 70
+| type1 = Grass
+| ability = Overgrow
+| move1 = Drum Beating | move1type = Grass | move1cat = Physical
+| move2 = Slam | move2type = Normal | move2cat = Physical
+| move3 = Knock Off | move3type = Dark | move3cat = Physical
+| move4 = High&nbsp;Horsepower | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical | maxmove1 = Max Steelspike
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical | maxmove2 = G-Max Wind Rage
+| move3 = Light Screen | move3type = Psychic | move3cat = Status | maxmove3 = Max Guard
+| move4 = Swagger | move4type = Normal | move4cat = Status | maxmove4 = Max Guard
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0816|Sobble}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 3.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sh
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0143
+| pokemon = Snorlax
+| gender = male
+| level = 68
+| type1 = Normal
+| ability = Thick Fat
+| move1 = Hammer Arm | move1type = Fighting | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Heavy Slam | move3type = Steel | move3cat = Physical
+| move4 = Crunch | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0815
+| pokemon = Cinderace
+| gender = male
+| level = 70
+| type1 = Fire
+| ability = Blaze
+| move1 = Gunk Shot | move1type = Poison | move1cat = Physical
+| move2 = Iron Head | move2type = Steel | move2cat = Physical
+| move3 = Pyro Ball | move3type = Fire | move3cat = Physical
+| move4 = Low Sweep | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0823
+| pokemon = Corviknight
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Flying
+| type2 = Steel
+| ability = Unnerve
+| move1 = Steel Wing | move1type = Steel | move1cat = Physical | maxmove1 = Max Steelspike
+| move2 = Drill Peck | move2type = Flying | move2cat = Physical | maxmove2 = G-Max Wind Rage
+| move3 = Light Screen | move3type = Psychic | move3cat = Status | maxmove3 = Max Guard
+| move4 = Swagger | move4type = Normal | move4cat = Status | maxmove4 = Max Guard
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Party/end}}
+=====Galarian Star Tournament=====
+Hop will [[Gigantamax]] his [[first partner Pokémon]] at the first opportunity.
+======Pokémon Sword======
+{{Party
+| caption = {{PlayerChoice|0810|Grookey}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sw
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Iron Defense | move3type = Steel | move3cat = Status
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0818
+| pokemon = Inteleon
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Water
+| ability = Torrent
+| move1 = Snipe Shot | move1type = Water | move1cat = Special | maxmove1 = G-Max Hydrosnipe
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical | maxmove2 = Max Darkness
+| move3 = Ice Beam | move3type = Ice | move3cat = Special | maxmove3 = Max Hailstorm
+| move4 = Dark Pulse | move4type = Dark | move4cat = Special | maxmove4 = Max Darkness
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0813|Scorbunny}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sw
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Iron Defense | move3type = Steel | move3cat = Status
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0812
+| pokemon = Rillaboom
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Grass
+| ability = Overgrow
+| move1 = Drum Beating | move1type = Grass | move1cat = Physical | maxmove1 = G-Max Drum Solo
+| move2 = Slam | move2type = Normal | move2cat = Physical | maxmove2 = Max Strike
+| move3 = Knock Off | move3type = Dark | move3cat = Physical | maxmove3 = Max Darkness
+| move4 = High&nbsp;Horsepower | move4type = Ground | move4cat = Physical | maxmove4 = Max Quake
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0816|Sobble}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sw
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0889
+| pokemon = Zamazenta
+| gender = none
+| level = 70
+| type1 = Fighting
+| type2 = Steel
+| ability = Dauntless Shield
+| held = Rusted Shield
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Bash | move2type = Steel | move2cat = Physical
+| move3 = Iron Defense | move3type = Steel | move3cat = Status
+| move4 = Play Rough | move4type = Fairy | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0815
+| pokemon = Cinderace
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Fire
+| ability = Blaze
+| move1 = Gunk Shot | move1type = Poison | move1cat = Physical | maxmove1 = Max Ooze
+| move2 = Iron Head | move2type = Steel | move2cat = Physical | maxmove2 = Max Steelspike
+| move3 = Pyro Ball | move3type = Fire | move3cat = Physical | maxmove3 = G-Max Fireball
+| move4 = Low Sweep | move4type = Fighting | move4cat = Physical | maxmove4 = Max Knuckle
+}}
+{{Party/end}}
+======Pokémon Shield======
+{{Party
+| caption = {{PlayerChoice|0810|Grookey}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sh
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0818
+| pokemon = Inteleon
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Water
+| ability = Torrent
+| move1 = Snipe Shot | move1type = Water | move1cat = Special | maxmove1 = G-Max Hydrosnipe
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical | maxmove2 = Max Darkness
+| move3 = Ice Beam | move3type = Ice | move3cat = Special | maxmove3 = Max Hailstorm
+| move4 = Dark Pulse | move4type = Dark | move4cat = Special | maxmove4 = Max Darkness
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0813|Scorbunny}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sh
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0812
+| pokemon = Rillaboom
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Grass
+| ability = Overgrow
+| move1 = Drum Beating | move1type = Grass | move1cat = Physical | maxmove1 = G-Max Drum Solo
+| move2 = Slam | move2type = Normal | move2cat = Physical | maxmove2 = Max Strike
+| move3 = Knock Off | move3type = Dark | move3cat = Physical | maxmove3 = Max Darkness
+| move4 = High&nbsp;Horsepower | move4type = Ground | move4cat = Physical | maxmove4 = Max Quake
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0816|Sobble}}
+| background = {{sword color}}
+| border = {{sword color dark}}
+| headcolor = {{sword color light}}
+| sprite = VSHop 2.png
+| size = 150px
+| prize = {{pdollar}}16,800
+| class = Pokémon Trainer
+| name = Hop
+| location = Wyndon Stadium
+| game = Sh
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0832
+| pokemon = Dubwool
+| gender = male
+| level = 69
+| type1 = Normal
+| ability = Steadfast
+| move1 = Cotton Guard | move1type = Grass | move1cat = Status
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Double-Edge | move3type = Normal | move3cat = Physical
+| move4 = Headbutt | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0888
+| pokemon = Zacian
+| gender = none
+| level = 70
+| type1 = Fairy
+| type2 = Steel
+| ability = Intrepid Sword
+| held = Rusted Sword
+| move1 = Crunch | move1type = Dark | move1cat = Physical
+| move2 = Behemoth Blade | move2type = Steel | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Close Combat | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0815
+| pokemon = Cinderace
+| max = Gigantamax
+| gender = male
+| level = 70
+| type1 = Fire
+| ability = Blaze
+| move1 = Gunk Shot | move1type = Poison | move1cat = Physical | maxmove1 = Max Ooze
+| move2 = Iron Head | move2type = Steel | move2cat = Physical | maxmove2 = Max Steelspike
+| move3 = Pyro Ball | move3type = Fire | move3cat = Physical | maxmove3 = G-Max Fireball
+| move4 = Low Sweep | move4type = Fighting | move4cat = Physical | maxmove4 = Max Knuckle
+}}
+{{Party/end}}
+
+==In the spin-off games==
+===[[Pokémon Masters EX]]===
+{{main|Hop (Masters)}}
+Hop, based on the [[rival]] from {{pkmn|Sword and Shield|Sword}}, forms a [[sync pair]] with {{form|Zamazenta|Crowned Shield}} {{p|Zamazenta}}, {{rf|Galarian}} {{p|Zapdos}}, {{p|Rillaboom}}, {{p|Pincurchin}}, and {{form|Zacian|Crowned Sword}} {{p|Zacian}} in [[Pokémon Masters EX]]. His Rillaboom is capable of [[Dynamax]]ing. Hop became a playable sync pair on August 12, 2021.
+
+Hop has also made notable appearances in the game's main stories, [[Legendary Adventures]] and the [[villain arc]].
+
+{{PairDex/h|Sword}}
+{{PairDex|141|Hop|trainerlink=Hop (Masters)#Zamazenta (Crowned Shield)|trainerimg=Hop|0889|Zamazenta|form={{Form|Zamazenta|Crowned Shield}}|Steel|Fire|Support|exrole=Sprint|6|Legendary Adventures<br>''Howling Shield of Eternity''}}
+{{PairDex|141|Hop|trainerlink=Hop (Masters)#Zapdos (Galarian Form)|trainerimg=Hop Champion|sygna={{pkmn|Champion}}|0145G|Zapdos|master=yes|buddy=yes|form=[[Galarian form|Galarian Form]]|Fighting|Psychic|Tech|exrole=Support|6|Master Fair Sync Pair Scout}}
+{{PairDex|141|Hop|trainerlink=Hop (Masters)#Rillaboom|trainerimg=Hop|0812|Rillaboom|dynamax=yes|gender=male|buddy=yes|Grass|Fire|Field|exrole=Physical Strike|6|Variety Sync Pair Scout}}
+{{PairDex|141|Hop|trainerlink=Hop (Masters)#Pincurchin|trainerimg=Hop|0871|Pincurchin|gender=female|Electric|Ground|Field|6|Training Ticket Exchange}}
+{{PairDex|141|Hop|trainerlink=Hop (Masters)#Zacian (Crowned Sword)|trainerimg=Hop|0888|Zacian|buddy=yes|form={{Form|Zacian|Crowned Sword}}|Steel|Ground|Sprint|exrole=Tech|6|Variety Sync Pair Scout}}
+|}
+
+==Quotes==
+{{main|Hop/Quotes}}
+
+==Gallery==
+===Artwork===
+{|style="margin:auto; text-align:center; border:3px solid #{{sword color dark}}; background:#{{sword color}}; font-size:80%; border-radius: 10px"
+|-
+| style="border:2px solid #{{sword color light}}; background:#{{sword color light}}" | [[File:Leon Hop SwSh concept art.jpg|x250px]]
+|style="{{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color light}}"| [[File:Hop TW.png|x250px]]
+|-
+|Concept art from {{color2|000|Pokémon Sword and Shield|Sword and Shield}}
+|Artwork of Hop and {{pcolor|Wooloo|000}}<br>from {{color2|000|Pokémon: Twilight Wings}}
+|}
+
+===Sprites===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color}}; font-size:80%"
+|style="{{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color light}}"| [[File:GST Hop icon.png|100px]]
+|-
+|Icon from the<br>{{color2|000|Galarian Star Tournament}} menu
+|}
+
+===[[League Card]]s===
+{|style="margin:auto; text-align:center; border:3px solid #{{sword color dark}}; background:#{{sword color}}; font-size:80%; border-radius: 10px"
+|-
+| style="border:2px solid #{{sword color light}}; background:#{{sword color light}}" | [[File:League Card Hop.png|x250px]]
+| style="border:2px solid #{{sword color light}}; background:#{{sword color light}}" | [[File:League Card Hop rare.png|x250px]]
+|-
+|Hop's {{color2|000|League Card}} in<br>{{color2|000|Pokémon Sword and Shield|Sword and Shield}}
+|Hop's rare {{color2|000|League Card}} in<br>{{color2|000|Pokémon Sword and Shield|Sword and Shield}}
+|}
+
+==In animation==
+[[File:Hop anime.png|250px|thumb|Hop in {{aniseries|JN}}]]
+===''Pokémon the Series''===
+====''[[Pokémon Journeys: The Series]]''====
+Hop was briefly mentioned by [[Sonia]], although not by name, in ''[[JN100|Meeting Up with the Monarch!]]''.
+
+Hop debuted in ''[[JN115|Curtain Up! Fight the Fights!]]'', where he met {{Ash}} and [[Goh]] outside [[Wyndon Stadium]] and challenged Ash to a battle. He used his {{p|Wooloo}} to battle against {{AP|Pikachu}}, only for it to be instantly defeated. When the [[Masters Eight Tournament]] started, Hop joined Goh in the audience to watch the battles with him. He continued to serve the same role during the following Masters Eight Tournament battles, although, during the finals, he was instead joined by [[Sonia]], as Goh had been forced to leave for a [[Project Mew]] mission.
+
+In ''[[JN136|This Could be the Start of Something Big!]]'', Hop was shown having a training battle against [[Bea]], using Wooloo to battle against her {{p|Machamp}} while Leon observed the match.
+
+====Pokémon====
+{{TrainerPoké
+|trainer=Hop
+|pkmn=Wooloo
+|type1=Normal
+|img=Hop Wooloo.png
+|epnum=JN115
+|epname=Curtain Up! Fight the Fights!
+|vajp=
+|vaen=Marc Thompson
+|desc={{p|Wooloo}} is Hop's only known Pokémon and is usually seen [[Walking Pokémon|outside of its Poké Ball]]. It was used to battle {{Ash}}, only to be easily defeated by {{AP|Pikachu}} in a single [[move]]. It later joined him in watching the [[Masters Eight Tournament]] battles.
+
+In ''[[JN136|This Could be the Start of Something Big!]]'', Hop used Wooloo in a training battle against [[Bea]], where it went up against her {{p|Machamp}}.
+
+Wooloo's known moves are {{m|Double Kick}}{{tt|*|Mentioned only}} and {{m|Thunder Wave}}.}}
+
+====Voice actors====
+{{vatable|color={{sword color light}}|bordercolor={{sword color dark}}
+|ja=吉永拓斗  ''Takuto Yoshinaga''
+|en=AJ Beckles
+|nl=Jip Bartels
+|ar=جود شهيب ''Joud Chehayeb''
+|fr_eu=Adrien Varsalona
+|it=Andrea Rotolo
+|pt_br=Danilo Diniz
+|pt_eu=Emanuel Oliveira
+|es_la=Emilio Treviño
+}}
+
+====Artwork====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color}}; font-size:80%"
+|style="{{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color light}}"| [[File:JN123 AS.png|x175px]]
+|style="{{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color light}}"| [[File:JN124 AS.png|x175px]]
+|style="{{roundy|20px}} border: 2px solid #{{sword color dark}}; background: #{{sword color light}}"| [[File:JN129 AS.png|x175px]]
+|-
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1566305055120453632</ref>
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1568841769714089985</ref>
+| Artwork from "After the story" <ref>https://twitter.com/anipoke_PR/status/1584062060543225856</ref>
+|}
+
+===Pokémon: Twilight Wings===
+[[File:Hop Twilight Wings.png|thumb|250px|Hop in [[Pokémon: Twilight Wings]]]]
+Hop made a cameo appearance in ''[[TW01|Letter]]'', where he tied a friendship bracelet to the right foreleg of his {{p|Wooloo}}. He briefly reappeared in ''[[TW02|Training]]'', where he and his Wooloo were watching television.
+
+Hop then appeared more prominently in ''[[TW03|Buddy]]'', where he was revealed to be watching television with Wooloo so he could study [[Leon]]'s technique and figure out how to become stronger. However, his admiration of [[Leon's Charizard]] caused Wooloo to run away. This prompted Hop to desperately search around town for it. By the end of the episode, Hop was reunited with Wooloo, whereupon he promised it that they will both challenge the Pokémon League together, and assured that it was perfect the way it was.
+
+In ''[[TW07|Sky]]'', Hop watched the battle between Leon and [[Raihan]] on television together with Wooloo.
+
+In ''[[TW08|The Gathering of Stars]]'', Hop returned to the Pokémon Lab, just in time to see [[Sonia]] setting off for her trip to the [[Crown Tundra]]. Before leaving, she handed Hop an invitation letter to the [[Galarian Star Tournament]]. He was later seen at [[Wyndon Stadium]], walking out onto the field for the tournament's opening ceremony.
+
+====Pokémon====
+{{TrainerPoké
+|trainer=Hop
+|pkmn=Dubwool
+|stage1=Wooloo
+|type1=Normal
+|img=Hop Wooloo Twilight Wings.png
+|cap=Hop's Wooloo
+|img2=Hop Dubwool Cramorant TW.png
+|epnum=TW01
+|epname=Letter
+|vajp=Rikako Aikawa
+|vaen=Erica Mendez
+|desc={{p|Dubwool}} is Hop's first known Pokémon. It was first seen as a {{p|Wooloo}} while playing with Hop, who gave it a friendship bracelet. Wooloo made another cameo in ''[[TW02|Training]]'', where it was watching television with its Trainer.
+
+Wooloo then appeared prominently in ''[[TW03|Buddy]]'', where it became jealous of Hop's admiration of [[Leon's Charizard]] and ran away from home. It eventually jumped off a cliff to try and fly like Charizard, only to fail. Wooloo was subsequently found by [[Milo]], who sent Wooloo home on the [[Flying Taxi]]. It reunited with Hop, who promised it that they will both challenge the [[Galar League|Pokémon League]] together. He also assured that it was perfect the way it was.
+
+In ''[[TW08|The Gathering of Stars]]'', it was revealed to have evolved into a Dubwool.
+
+Dubwool's known moves are {{m|Tackle}}{{tt|*|Mentioned only}} and {{m|Defense Curl}}{{tt|*|Mentioned only}}.}}
+
+{{TrainerPoké
+|trainer=Hop
+|pkmn=Cramorant
+|type1=Flying
+|type2=Water
+|img=Hop Dubwool Cramorant TW.png
+|epnum=TW08
+|epname=The Gathering of Stars
+|vajp=
+|vaen=
+|desc={{p|Cramorant}} was seen next to Dubwool when Hop arrived at Sonia's laboratory.
+
+None of Cramorant's moves are known. }}
+
+===Pokémon Evolutions===
+[[File:Hop Evolutions.png|thumb|250px|Hop in [[Pokémon Evolutions]]]]
+Prior to the events of ''[[PE01|The Champion]]'', Hop assisted {{ga|Victor}} in battling against {{p|Eternatus}} during the [[Darkest Day]]. While they were unable to defeat Eternatus on their own, they were soon joined by {{p|Zacian}} and {{p|Zamazenta}}. With the assistance of the [[Legendary Pokémon]], they were able to weaken Eternatus enough for Victor to catch it and end the Darkest Day.
+
+In the present day, Hop was at the [[Wyndon Stadium]], cheering for Leon as he prepared to start his Championship Match against Victor.
+
+====Pokémon====
+{{anchor|Dubwool 2}}{{TrainerPoké
+|trainer=Hop
+|pkmn=Dubwool
+|type1=Normal
+|img=Hop Dubwool Evolutions.png
+|epnum=PE01
+|epname=The Champion
+|desc={{p|Dubwool}} is Hop's first known Pokémon. It was used during the battle against {{p|Eternatus}}.
+
+None of Dubwool's moves are known.}}
+
+{{TrainerPoké
+|trainer=Hop
+|pkmn=Cinderace
+|type1=Fire
+|img=Hop Cinderace Evolutions.png
+|epnum=PE01
+|epname=The Champion
+|desc={{p|Cinderace}} is Hop's second known Pokémon. It was seen alongside Hop while he watched [[Leon]] preparing to start his match with {{ga|Victor}}.
+
+None of Cinderace's moves are known.}}
+
+====Voice actors====
+{{vatable|color={{sword color light}}|bordercolor={{sword color dark}}
+|ja=入野自由 ''Miyu Irino''
+|en=Adriel Varlack
+|nl=Bauke van Boheemen
+|fr=Brieuc Lemaire
+|de=Max Schira
+|it=Richard Benitez
+|pt_br=Silvio Gonzalez
+|es_la=Emilio Treviño
+|es_eu=Ruth Pazo Olivares}}
+
+===GOTCHA!===
+[[File:Hop Party GOTCHA.png|thumb|250px|Hop in the [[GOTCHA!]] music video]]
+Hop briefly appeared in [[GOTCHA!]].
+{{-}}
+
+==In the manga==
+[[File:Hop Adventures.png|thumb|220px|Hop in [[Pokémon Adventures]]]]
+===Pokémon Adventures===
+Hop debuted in ''[[PASS06|Watch Out!! Strong Rivals]]''. He was first seen in front of the [[Galar Mine]], unable to enter due to a large boulder blocking the entrance. Hop, {{Casey}}, and [[Marnie]] combined their Pokémon's attacks to move the boulder. Afterward, everyone gathered at [[Turffield Stadium]], where they each fought a Gym battle against [[Milo]] and won.
+
+In ''[[PASS10|Blazing!! Bede's Feelings]]'', Hop informed Casey of an {{p|Arrokuda}} he spotted at a swamp earlier. Hoping it was one of her missing Pokémon, Casey grabbed Hop and ran off to go look for it. At the swamp, they successfully located Casey's missing Arrokuda, Kilo, only to find it was being eaten by a wild {{p|Cramorant}}. By combining his efforts with Casey, Kilo was retrieved, allowing Hop to catch Cramorant. Afterward, Casey thanked Hop and correctly guessed that he was actually the younger brother of [[Leon]].
+
+In ''[[PASS16|Rising!! Opal of Ballonlea]]'', Hop encountered {{Henry}} at [[Ballonlea Stadium]], where they discussed their answers to the quiz given to them by [[Opal]]. Hop then went to have a Gym battle with Opal, which eventually ended with his victory. Later, after obtaining his sixth Gym Badge, Hop was approached by Marnie at [[Circhester]]. She asked Hop to come with her to [[Spikemuth]], stating that it would be too dangerous for them and Henry to enter the town by themselves. While they traveled, Hop revealed that Leon had offered to endorse him for the [[Galar League|Gym Challenge]], but he had turned it down, not wanting to tarnish Leon's name if he happened to lose after being endorsed by him.
+
+In ''[[PASS24|Unbelievable!! The Shocking Truth]]'', after arriving in Spikemuth, Hop and Marnie found [[Piers]] battling [[Sordward]] and [[Shielbert]]. Marnie stopped her brother from finishing Sordward and Shielbert off, allowing them to escape. After regrouping with Henry's group, Piers was informed by Leon and [[Sonia]] that [[Rose]], Sordward, and Shielbert were working together. Hoping to discover whether or not Rose intended on bringing harm to Galar, the Gym Leaders gathered at [[Rose Tower]], but were stopped by [[Oleana]]. While Oleana kept the Gym Leaders busy, Hop, Henry, Casey, [[Bede]], and Marnie headed up an elevator to meet Rose, only to learn he wasn't in the building. Appearing on a video screen, Rose announced his intention to restart the [[Darkest Day]] and ensure the safety of Galar's future. Power Spot lights began appearing all over the region, causing Pokémon to start [[Dynamax]]ing at random. While some went back to their hometowns to help deal with the rampaging Dynamax Pokémon, Hop traveled with the others to the [[Hammerlocke]] [[Energy Plant]], where they were joined by Leon's group. Upon entering the building, everyone found Rose ecstatic that his plan was a success. 
+
+In ''[[PASS27|Shock!! Chairman Rose's Plan]]'', Rose explained he meant no harm to Galar and sent Sordward and Shielbert to defeat {{p|Eternatus}} and prevent the Darkest Day from spiraling out of control. Despite their claims of being descendants of the heroes that once stopped the Darkest Day, Sordward and Shielbert were unable to win, forcing Rose to take their place. Oleana explained that Rose's actions were for the benefit of Galar and requested that everyone help stop Eternatus. The group agreed and made their way to the summit, where they found Rose had already been defeated. By teaming up, Hop, Leon, Marnie, Nessa, Melony, Piers, and Raihan managed to take Eternatus down, only for it to get back up and unleash its Eternamax form. The others were quickly overwhelmed, but were saved by the timely arrival of {{p|Zacian}} and {{p|Zamazenta}}. The two Pokémon attempted to use the [[Rusted Sword]] and [[Rusted Shield|Shield]], only for Eternatus to grab them and Henry.
+
+In ''[[PASS30|Oh My!! The Disappearance of Henry]]'', Zacian and Zamazenta struck Eternatus with a double {{m|Giga Impact}}, causing a massive explosion of energy and light. Once the light cleared, Henry, Zacian, Zamazenta, Eternatus had all vanished. Casey and [[Marvin]] reviewed footage of the incident and discovered something {{m|teleport}}ing Henry away just as Zacian, Zamazenta, and Eternatus clashed. By tracking samples of Eternatus's poison on Henry's body and the material of the rusted artifacts, Casey found matching signals on both the [[Isle of Armor]] and the [[Crown Tundra]]. With no idea where Henry ended up, Oleana sent Hop, Casey, Marvin, Bede, and Marnie to both locations.
+
+In ''[[PASS32|Boom!! Reunion in a New Land]]'', while riding a train to the Crown Tundra, Hop, Marnie, and Bede encountered [[Peonia]], a girl trying to escape from her overbearing father, [[Peony]]. Marnie challenged Peony to a battle, stating that if she won, Peonia would be allowed to go free. After Marnie won and Peonia left, Hop and the others agreed to take her place as part of the Peony Exploration Team. The four traveled to [[Freezington]], where their home base was located.
+
+In ''[[PASS36|Rrmbll!! Serious Tower Battle]]'', Hop, Marnie, and Bede arrived at [[Dyna Tree Hill]], where they found a {{rf|Galarian}} {{p|Articuno}}, {{p|Zapdos}}, and {{p|Moltres}}. Detecting traces of the rusted items in the area, Hop and the others split up to determine which of the Legendary bird Pokémon knew where it was located. Hop went after Moltres while Marnie and Bede faced Zapdos and Articuno, respectively. During their battle, Moltres carried Hop to [[Loop Lagoon]], where the Rusted Shield was located. There, Hop reunited with Henry, Casey, and Marvin, who helped him take on the {{pkmn|category|Malevolent Pokémon}}. They stunned Moltres long enough for Henry to take the shield, only for Moltres to get back up, grab Henry and the shield, and carry them back to the Crown Tundra.
+
+In ''[[PASS38|Munch Munch!! The Mysterious Carrot]]'', Henry took Hop's place in the Peony Exploration Team and joined the [[Master Dojo]] as a student. In ''[[PASS40|Rumble!! The Darkest Day Returns]]'', Henry informed the others that he and Bede obtained the Rusted Sword and are heading back to the Galar mainland. With Leon and Raihan's help, Hop and the others reunited with Henry and Bede. There, they witnessed Zacian and Zamazenta use the rusted tools to become their {{form|Zacian and Zamazenta|Crowned Sword and Shield}} forms. They traveled to Hammerlocke to confront Eternatus again, only for a trio of nobles demanding that Sordward and Shielbert have their status as nobles reinstated block entrance to the city with their [[Gigantamax]]ed Pokémon. By Gigantamaxing their own Pokémon, Hop, Henry, and Casey, defeated the nobles, allowing Bede to use his Gigantamax {{p|Hatterene}} to determine where Eternatus was hiding. With Eternatus exposed, Zacian and Zamazenta combined their strength and finally took down the Gigantic Pokémon, ending the Darkest Day.
+
+In ''[[PASS43|Fwoom!! Goodbye, Galar]]'', the Gym Challenge had resumed now that the crisis in Galar had ended. In the Champion Cup, Hop faced against Marnie in the semi-final battle. 
+{{-}}
+
+====Pokémon====
+=====On hand=====
+{{TrainerPoké
+|width=75
+|trainer=Hop
+|pkmn=Corviknight
+|stage2=Corvisquire
+|type1=Flying
+|type2=Steel
+|img=Hop Corvisquire Adventures.png
+|img2=Hop Corviknight Adventures.png
+|epnum=PASS06
+|epname=Watch Out!! Strong Rivals
+|desc={{p|Corviknight}} is Hop's first known Pokémon. As a {{p|Corvisquire}}, it was first used to help move a boulder blocking the way to [[Turffield]]. It later evolved into Corviknight after Hop trained on the [[Isle of Armor]].
+
+Corviknight's only known move is {{m|Pluck}}.}}
+
+{{TrainerPoké
+|width=75
+|trainer=Hop
+|pkmn=Pincurchin
+|dyna=yes
+|type1=Electric
+|img=Hop Pincurchin Adventures.png
+|epnum=PASS11
+|epname=Gulp!! Gulp Pokémon
+|desc={{p|Pincurchin}} is Hop's second known Pokémon. It was first used to battle a wild {{p|Cramorant}}.
+
+Pincurchin's known moves are {{m|Zing Zap}} and {{m|Spark}}.}}
+
+{{TrainerPoké
+|trainer=Hop
+|pkmn=Snorlax
+|type1=Normal
+|img=Hop Snorlax Adventures.png
+|epnum=PASS11
+|epname=Gulp!! Gulp Pokémon
+|desc={{p|Snorlax}} is Hop's third known Pokémon. It was first used to help battle a wild {{p|Cramorant}}. It used its bulky body to catch Pokémon fired from Cramorant's {{a|Gulp Missile}}.
+
+None of Snorlax's moves are known.}}
+
+{{anchor|Dubwool 3}}{{TrainerPoké
+|trainer=Hop
+|pkmn=Dubwool
+|stage1=Wooloo
+|type1=Normal
+|img=Hop Wooloo Adventures.png
+|img2=Hop Dubwool Adventures.png
+|epnum=PASS11
+|epname=Gulp!! Gulp Pokémon
+|desc={{p|Dubwool}} is Hop's fourth known Pokémon. It was first seen as a {{p|Wooloo}} as part of Hop's [[party]]. It was later revealed to have evolved into a Dubwool.
+
+None of Dubwool's moves are known.}}
+
+{{anchor|Cramorant 2}}{{TrainerPoké
+|trainer=Hop
+|pkmn=Cramorant
+|type1=Water
+|type2=Flying
+|img=Hop Cramorant Adventures.png
+|epnum=PASS10
+|epname=Blazing!! Bede's Feelings
+|desc={{p|Cramorant}} is Hop's fifth known Pokémon. Hop first encountered it at a swamp, where it attempted to eat [[Casey Shield|Casey]]'s {{p|Arrokuda}}, Kilo. With Casey's guidance, Hop freed Kilo, allowing him to catch Cramorant afterward.
+
+None of Cramorant's moves are known and its Ability is {{a|Gulp Missile}}.}}
+
+=====Traded away=====
+{{TrainerPoké
+|trainer=Marvin
+|pkmn=Inteleon
+|nick=Sniffler
+|giga=yes
+|type1=Water
+|img=Marvin Sniffler.png
+|img_size=120px
+|img2=Marvin Sniffler Gigantamax.png
+|img2_size=100px
+|epnum=PASS01
+|epname=Wow!! That's One Big Pokémon
+|main=Sniffler
+|desc={{p|Inteleon|Sniffler}} (Japanese: '''ナミダくん''' ''Namida-kun'') is a Pokémon belonging to [[Marvin]]. During the final battle with {{p|Eternatus}}, Sniffler was [[trade]]d to Hop so he could use its [[Gigantamax]] form since Marvin lacked a [[Dynamax Band]]. Together, it, [[Twiggy]], and [[Bit]] teamed up to defeat the three Gigantamax Pokémon guarding Eternatus. After Eternatus was defeated, Hop returned Sniffler to Marvin.}}
+
+=====Given away=====
+{{TrainerPoké
+|width=75
+|trainer=Hop
+|pkmn=Legendary giants
+|type1=???
+|img=Galar Rivals Legendary titans Adventures.png
+|epnum=PASS36
+|epname=Rrmbll!! Serious Tower Battle
+|desc=Hop, [[Bede]], and [[Marnie]] caught {{p|Regirock}}, {{p|Regice}}, and {{p|Registeel}} in the Crown Tundra while searching for the [[Rusted Sword]] and [[Rusted Shield]]. It was never specified who caught each giant, but they entrusted the three Pokémon to [[Peony]] so they could continue searching for the legendary gear.
+
+None of their moves are known.}}
+
+=====Traveling with=====
+{| width="100%"
+|-
+| {{ActivePoké|||nick=Rotom Phone|Hop Bede Marnie Rotom Phone Adventures.png|electric|ghost|link=Rotom Phone}}
+|
+|
+|}
+
+====Achievements====
+=====Badges obtained=====
+* {{Badge|Grass}} (''[[PASS07|Blinding!! The End of the Battle]]'')
+* {{Badge|Water}} (prior to ''[[PASS12|Thump!! The Gazing Sage]]'')
+* {{Badge|Fire}} (''[[PASS12|Thump!! The Gazing Sage]]'')
+* {{Badge|Ghost|Ghost}} or {{badge|Fighting}} (prior to ''[[PASS16|Rising!! Opal of Ballonlea]]'')
+* {{Badge|Fairy}} (''[[PASS16|Rising!! Opal of Ballonlea]]'')
+* {{Badge|Ice}} (''[[PASS21|Swaying!! Murky Memories]]'')
+* {{Badge|Dark}} (''[[PASS43|Fwoom!! Goodbye, Galar]]'')
+* {{Badge|Dragon}} (''[[PASS43|Fwoom!! Goodbye, Galar]]'')
+
+==In the TCG==
+The following is a list of cards mentioning or featuring Hop or his Pokémon in the [[Pokémon Trading Card Game]].
+
+{{card list/header|Hop's Pokémon|Colorless|nocat=yes}}
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Silicobra|86}}|type=Fighting|newmark=I|rows=1}}
+{{card list/release|type=Fighting|enset=Journey Together|enrarity=Common|ennum=086/159|jpset=Battle Partners|jprarity=C|jpnum=053/100}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Sandaconda|87}}|type=Fighting|newmark=I|rows=1}}
+{{card list/release|type=Fighting|enset=Journey Together|enrarity=Uncommon|ennum=087/159|jpset=Battle Partners|jprarity=U|jpnum=054/100}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Corviknight|108}}|type=Metal|newmark=I|rows=2}}
+{{card list/release|type=Metal|enset=Journey Together|enrarity=Uncommon|ennum=108/159|jpset=Battle Partners|jprarity=U|jpnum=068/100}}
+{{card list/release|type=Metal|jpset=Start Deck 100 Battle Collection|jpnum=520/742}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Zacian ex|111|Hop's Zacian}}{{ex}}|type=Metal|newmark=I|rows=5}}
+{{card list/release|type=Metal|enset=Journey Together|enrarity=Double Rare|ennum=111/159|jpset=Battle Partners|jprarity=RR|jpnum=069/100}}
+{{card list/release|type=Metal|enset=Journey Together|enrarity=Ultra Rare|ennum=176/159|jpset=Battle Partners|jprarity=SR|jpnum=118/100}}
+{{card list/release|type=Metal|enset=Journey Together|enrarity=Special Illustration Rare|ennum=186/159|jpset=Battle Partners|jprarity=SAR|jpnum=128/100}}
+{{card list/release|type=Metal|enset=SVP Black Star Promos|ennum=193|jpset=MEGA Dream ex|jprarity=RR|jpnum=123/193}}
+{{card list/release|type=Metal|jpset=Start Deck 100 Battle Collection|jpnum=527/742}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Snorlax|117}}|type=Colorless|newmark=I|rows=3}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Rare|ennum=117/159|jpset=Battle Partners|jprarity=R|jpnum=075/100}}
+{{card list/release|type=Colorless|enset=SVP Black Star Promos|ennum=184|jpset=MEGA Dream ex|jpnum=136/193}}
+{{card list/release|type=Colorless|jpset=Start Deck 100 Battle Collection|jpnum=569/742}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Rookidee|133}}|type=Colorless|newmark=I|rows=2}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Common|ennum=133/159|jpset=Battle Partners|jprarity=C|jpnum=083/100}}
+{{card list/release|type=Colorless|jpset=Start Deck 100 Battle Collection|jpnum=622/742}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Corvisquire|134}}|type=Colorless|newmark=I|rows=2}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Common|ennum=134/159|jpset=Battle Partners|jprarity=C|jpnum=084/100}}
+{{card list/release|type=Colorless|jpset=Start Deck 100 Battle Collection|jpnum=623/742}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Wooloo|135}}|type=Colorless|newmark=I|rows=3}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Common|ennum=135/159|jpset=Battle Partners|jprarity=C|jpnum=085/100}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Illustration Rare|ennum=170/159|jpset=Battle Partners|jprarity=AR|jpnum=112/100}}
+{{card list/release|type=Colorless|jpset=MEGA Dream ex|jpnum=141/193}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Dubwool|136}}|type=Colorless|newmark=I|rows=2}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Rare|ennum=136/159|jpset=Battle Partners|jprarity=R|jpnum=086/100}}
+{{card list/release|type=Colorless|jpset=MEGA Dream ex|jpnum=142/193}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Cramorant|138}}|type=Colorless|newmark=I|rows=3}}
+{{card list/release|type=Colorless|enset=Journey Together|enrarity=Uncommon|ennum=138/159|jpset=Battle Partners|jprarity=U|jpnum=087/100}}
+{{card list/release|type=Colorless|enset=Ascended Heroes|enrarity=Uncommon|ennum=177/217|jpset=MEGA Dream ex|jpnum=143/193}}
+{{card list/release|type=Colorless|jpset=Start Deck 100 Battle Collection|jpnum=624/742}}
+
+{{card list/card|cardname={{TCG ID|Ascended Heroes|Hop's Pincurchin ex|68|Hop's Pincurchin}}{{ex}}|type=Lightning|newmark=I|rows=1}}
+{{card list/release|type=Lightning|enset=Ascended Heroes|enrarity=Double Rare|ennum=068/217|jpset=SV-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpnum=233/SV-P}}
+
+{{card list/card|cardname={{TCG ID|Ascended Heroes|Hop's Phantump|95}}|type=Psychic|newmark=I|rows=1}}
+{{card list/release|type=Psychic|enset=Ascended Heroes|enrarity=Common|ennum=095/217|jpset=MEGA Dream ex|jpnum=077/193}}
+
+{{card list/card|cardname={{TCG ID|Ascended Heroes|Hop's Trevenant|96}}|type=Psychic|newmark=I|rows=2}}
+{{card list/release|type=Psychic|enset=Ascended Heroes|enrarity=Rare|ennum=096/217|jpset=MEGA Dream ex|jpnum=078/193}}
+{{card list/release|type=Psychic|enset=Ascended Heroes|enrarity=Illustration Rare|ennum=237/217|jpset=MEGA Dream ex|jprarity=AR|jpnum=204/193}}
+
+{{card list/divider|Hop's Trainer cards|Colorless}}
+{{card list/card|cardname={{TCG ID|Sword & Shield|Hop|165}}|type=Supporter|newmark=D|rows=17}}
+{{card list/release|type=Supporter|enset=Sword & Shield|ensymbol=SetSymbolSword and Shield|enrarity=Uncommon|ennum=165/202|jpsetlink=V Starter Sets|jpset=V Starter Set Grass|jpcardno=022/023}}
+{{card list/release|type=Supporter|jpsetlink=V Starter Sets|jpset=V Starter Set Fire|jpcardno=022/023}}
+{{card list/release|type=Supporter|jpsetlink=V Starter Sets|jpset=V Starter Set Water|jpcardno=022/023}}
+{{card list/release|type=Supporter|jpsetlink=V Starter Sets|jpset=V Starter Set Lightning|jpcardno=023/024}}
+{{card list/release|type=Supporter|jpsetlink=V Starter Sets|jpset=V Starter Set Fighting|jpcardno=023/024}}
+{{card list/release|type=Supporter|jpset=Zacian + Zamazenta Box|jpsymbol=SetSymbolZacian Zamazenta Box|jpcardno=007/007}}
+{{card list/release|type=Supporter|enset=Champion's Path|ensymbol=SetSymbolChampion Path|enrarity=Uncommon|ennum=053/073|jpset=Charizard VMAX Starter Set|jpcardno=020/021}}
+{{card list/release|type=Supporter|jpset=Grimmsnarl VMAX Starter Set|jpcardno=020/020}}
+{{card list/release|type=Supporter|enset=Champion's Path|ensymbol=SetSymbolChampion Path|enrarity=Rare Ultra|ennum=073/073|jpset=S-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpcardno=005/S-P}}
+{{card list/release|type=Supporter|jpset=S-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpcardno=058/S-P}}
+{{card list/release|type=Supporter|jpset=V Starter Decks|jpcardno=117/127}}
+{{card list/release|type=Supporter|jpset=Venusaur VMAX Starter Set|jpcardno=019/021}}
+{{card list/release|type=Supporter|jpset=Blastoise VMAX Starter Set|jpcardno=018/020}}
+{{card list/release|type=Supporter|jpset=Charizard VMAX Starter Set 2|jpcardno=019/021}}
+{{card list/release|type=Supporter|jpset=Sword & Shield Family Pokémon Card Game|jpsymbol=SetSymbolSword Shield Family Pokémon Card Game|jpcardno=052/053}}
+{{card list/release|type=Supporter|jpset=Zacian & Zamazenta vs Eternatus Special Deck Set|jpsymbol=SetSymbolZacian Zamazenta vs Eternatus Special Deck Set|jpcardno=027/028}}
+{{card list/release|type=Supporter|enset=Crown Zenith|enrarity=Rare Holo|ennum=133/159|jpset=S-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpcardno=139/S-P}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Bag|147}}|type=Item|newmark=I|rows=3}}
+{{card list/release|type=Item|enset=Journey Together|enrarity=Uncommon|ennum=147/159|jpset=Battle Partners|jprarity=U|jpnum=091/100}}
+{{card list/release|type=Item|jpset=MEGA Dream ex|jpnum=156/193}}
+{{card list/release|type=Item|jpset=Start Deck 100 Battle Collection|jpnum=666/742}}
+
+{{card list/card|cardname={{TCG ID|Journey Together|Hop's Choice Band|148}}|type=Pokémon Tool|newmark=I|rows=3}}
+{{card list/release|type=Pokémon Tool|enset=Journey Together|enrarity=Uncommon|ennum=148/159|jpset=Battle Partners|jprarity=U|jpnum=092/100}}
+{{card list/release|type=Pokémon Tool|jpset=MEGA Dream ex|jpnum=167/193}}
+{{card list/release|type=Pokémon Tool|jpset=Start Deck 100 Battle Collection|jpnum=690/742}}
+
+{{card list/divider|Trainer cards that reference Hop's Pokémon|Colorless}}
+{{card list/card|cardname={{TCG ID|Journey Together|Postwick|154}}|type=Stadium|newmark=I|rows=2}}
+{{card list/release|type=Stadium|enset=Journey Together|enrarity=Uncommon|ennum=154/159|jpset=Battle Partners|jprarity=U|jpnum=099/100}}
+{{card list/release|type=Stadium|jpset=MEGA Dream ex|jpnum=186/193}}
+{{cardlist/footer|Colorless}}
+
+
+{{card list/header|Other related cards|Colorless|nocat=yes}}
+{{card list/card|cardname=[[Zacian V (Sword & Shield 138)|Zacian]]{{TCGV}}|type=Metal|newmark=D|rows=1}}
+{{card list/release|type=Metal|enset=Astral Radiance|enrarity=TGV|ennum=TG21/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=250/184}}
+
+{{card list/card|cardname=[[Zamazenta V (Sword & Shield 139)|Zamazenta]]{{TCGV}}|type=Metal|newmark=D|rows=1}}
+{{card list/release|type=Metal|enset=Astral Radiance|enrarity=TGV|ennum=TG22/TG30|jpset=VMAX Climax|jprarity=CSR|jpnum=251/184}}
+
+{{card list/card|cardname={{TCG ID|Brilliant Stars|Friends in Galar|140}}|type=Supporter|newmark=E|rows=2}}
+{{card list/release|type=Supporter|enset=Brilliant Stars|enrarity=Uncommon|ennum=140/172|jpset=VMAX Climax|jpnum=149/184}}
+{{card list/release|type=Supporter|enset=Silver Tempest|enrarity=TGU|ennum=TG23/TG30|jpset=VMAX Climax|jprarity=SR|jpnum=258/184}}
+{{cardlist/footer|Colorless}}
+
+==Trivia==
+* Hop's uniform number is "189", which can be read in Japanese as {{wp|Numeric substitution in Japanese|goroawase}} for 飛躍 ''hiyaku'', meaning "leaping".
+* Hop is the only [[rival]] in {{g|Sword and Shield}} not to become a [[Gym Leader]] by the end of the games.
+* Hop battles the {{player}} more times than any other [[core series]] rival.
+* Hop is the only [[non-player character]] in Pokémon Sword and Shield who uses two different [[Gigantamax]] Pokémon during the course of the game. He Gigantamaxes his {{p|Corviknight}} in [[Wyndon Stadium/Champion tournaments|Champion tournaments]] and his [[first partner Pokémon]] in the [[Galarian Star Tournament]]. This is likely due to the fact that {{p|Rillaboom}}, {{p|Cinderace}}, and {{p|Inteleon}} did not have Gigantamax forms until the release of [[The Isle of Armor]].
+** The {{p|Rookidee}} first used by Hop in the second battle with him theoretically could not have had the Gigantamax Factor until the release of The Isle of Armor, as it is caught before Hop ever visits the [[Wild Area]].
+
+==Names==
+{| class="roundtable" style="background:#{{sword color}}; border:3px solid #{{sword color dark}}"
+|-
+! style="background:#{{sword color light}}; color:#FFFFFF" | Language
+! style="background:#{{sword color light}}; color:#FFFFFF" | Name
+! style="background:#{{sword color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| ホップ ''Hop''
+| From ''{{wp|Humulus|hop}}''
+|-
+| English, German,<br>Italian, Indonesian
+| Hop
+| From his Japanese name
+|-
+| European Spanish, Catalan
+| Paul
+| rowspan="2" | From ''lúpulo'' (Spanish, {{wp|Humulus lupulus|common hop}}) or ''llúpol'' (Catalan)
+|-
+| rowspan="2"| Latin American Spanish
+| Paul
+|-
+| Hop<ref group=n>[[Pokémon animated series]], [[Pokémon Evolutions]]</ref>
+| From his English name
+|-
+| French
+| Nabil
+| From ''{{wp|Cannabaceae}}'' (family that contains the hop) and the Arabic name نبيل ''{{wp|Nabil|Nabīl}}''
+|-
+| Korean
+| 호브 ''Hob''
+| From 홉 ''hop''
+|-
+| Chinese (Traditional)
+| 赫普 ''Hèpǔ'' / ''Hākpóu''
+| rowspan="2" | Transcription of his Japanese name
+|-
+| Chinese (Simplified)
+| 赫普 ''Hèpǔ''
+|-
+| Brazilian Portuguese
+| Lupo
+| From ''lúpulo'' (common hop)
+|-
+| Russian
+| Хоп ''Khop''
+| Transcription of his English name
+|-
+| Thai
+| ฮ็อป ''Hop''
+| Transcription of his Japanese name
+|}
+{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==References==
+<references/>
+
+==External links==
+*{{wp|Hop (Pokémon)|Article on Wikipedia}}
+
+==Related articles==
+{{Rival characters|sword}}
+{{NPC|sword|galar=yes}}
+{{Animecharacters|sword}}
+{{Project CharacterDex notice}}
+
+[[Category:Rival characters]]
+[[Category:Friend characters]]
+[[Category:Sword and Shield characters]]
+[[Category:Trainers who use Gigantamax]]
+[[Category:Trainers with Legendary Pokémon]]
+[[Category:Laboratory assistants]]
+[[Category:Multi Battle partners]]
+[[Category:Animation characters]]
+[[Category:Pokémon: Twilight Wings characters]]
+[[Category:Pokémon Adventures characters]]
+[[Category:Pokémon Evolutions characters]]
+
+[[de:Hop]]
+[[es:Paul]]
+[[fr:Nabil]]
+[[it:Hop]]
+[[ja:ホップ]]
+[[zh:赫普]]

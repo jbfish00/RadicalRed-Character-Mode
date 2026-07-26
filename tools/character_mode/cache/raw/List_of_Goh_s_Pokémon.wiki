@@ -1,0 +1,1468 @@
+[[File:Goh Pokémon.png|thumb|250px|Some of Goh's Pokémon]]
+The following is a '''list of Pokémon currently owned by [[Goh]]'''. As his goal is to {{pkmn2|caught|catch}} every {{OBP|Pokémon|species}} that he meets on his way to catch {{an|Mew}}, Goh owns a multitude of Pokémon species, most of which he usually keeps at the [[Cerise Laboratory]]. The [[Galar first partner Pokémon]] are the only ones that he permanently keeps in his [[party]].
+
+In ''[[JN136|This Could be the Start of Something Big!]]'', Goh left all of his Pokémon, aside from his Galar first partner Pokémon, under [[Professor Cerise]]'s care before departing from the Cerise Laboratory, though he still continues to catch new Pokémon.
+
+==Met in [[Kanto]]==
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Caterpie
+|type1=Bug
+|img=Goh Caterpie.png
+|cap=Goh's Caterpie
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Rikako Aikawa
+|vaen=Rikako Aikawa
+|desc={{p|Caterpie}} was encountered at [[Vermilion Forest]]. Goh caught Caterpie after finding it eating a leaf.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Metapod
+|type1=Bug
+|img=Goh Metapod.png
+|cap=Goh's Metapod
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|desc={{p|Metapod}} was encountered at [[Vermilion Forest]]. Metapod was caught shortly after Goh and Ash knocked it out of a tree. 
+
+None of Metapod's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Venomoth
+|type1=Bug
+|type2=Poison
+|img=Goh Venomoth.png
+|cap=Goh's Venomoth
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=
+|vaen=
+|desc={{p|Venomoth}} was encountered at [[Vermilion Forest]]. Goh caught Venomoth after spotting it flying through the air.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Paras and Parasect
+|type1=Bug
+|type2=Grass
+|img=Goh Paras.png
+|cap=Goh's Parasect
+|img2=Goh Parasect.png
+|cap2=Goh's Paras
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Shin-ichiro Miki
+|vajpnote=Parasect
+|vaen=Shin-ichiro Miki
+|vaennote=Parasect
+|desc={{p|Paras}} and {{p|Parasect}} were encountered at [[Vermilion Forest]]. They were found trying to climb a pair of trees and were easily caught by Goh at the same time.
+
+None of their moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|main=yes
+|pkmn=Butterfree
+|type1=Bug
+|type2=Flying
+|img=Goh Butterfree.png
+|gender=male
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Rikako Aikawa
+|vaen=Rikako Aikawa
+|desc={{p|Butterfree}} was encountered at [[Vermilion Forest]]. He was found resting on a large tree, which Goh climbed with Ash's help. When Goh accidentally dropped his Poké Ball, Butterfree attempted to flee, but he was caught when Scorbunny kicked the Poké Ball at him.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Pinsir
+|type1=Bug
+|main=yes
+|img=Goh Pinsir.png
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Shin-ichiro Miki
+|vaen=Shin-ichiro Miki
+|desc={{p|Pinsir}} was encountered at [[Vermilion Forest]]. It attacked Ash and Pikachu, trapping them in a {{m|Rock Tomb}}. It then went after Goh, who threw random objects in an attempt to defend himself, eventually accidentally throwing a Poké Ball and catching it.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Weedle and Kakuna
+|type1=Bug
+|type2=Poison
+|img=Goh Weedle.png
+|cap=Goh's Weedle
+|img2=Goh Kakuna.png
+|cap2=Goh's Kakuna
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=
+|vaen=
+|desc={{p|Weedle}} and {{p|Kakuna}} were encountered at [[Vermilion Forest]]. Weedle was found sitting on a tree while Kakuna was found dangling from a tree along with other members of its species.
+
+None of their moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Beedrill
+|type1=Bug
+|type2=Poison
+|img=Goh Beedrill.png
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Risa Shimizu
+|vaen=Risa Shimizu
+|desc={{p|Beedrill}} was encountered at [[Vermilion Forest]]. It was part of a swarm of Beedrill that attacked Goh when he caught {{p|Kakuna}}. When the others were trapped by Pikachu's {{m|Electroweb}}, Goh caught the lone Beedrill that wasn't hit, assuming it was the strongest one.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Venonat
+|type1=Bug
+|type2=Poison
+|img=Goh Venonat.png
+|cap=Goh's Venonat
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Rikako Aikawa
+|vaen=
+|desc={{p|Venonat}} was encountered at [[Vermilion Forest]]. Venonat was found sleeping in a tree, but Goh's attempt to catch it failed when Venonat broke out of his Poké Ball. With Scorbunny's help, Goh battled Venonat and managed to catch it.
+
+Venonat's only known move is {{m|Poison Powder}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Scizor
+|stage1=Scyther
+|type1=Bug
+|type2=Steel
+|img=Goh Scizor.png
+|epnum=JN006
+|epname=Working My Way Back to Mew!
+|vajp=Shin-ichiro Miki
+|vaen=Sam Black
+|desc={{p|Scizor}} was first encountered as a {{p|Scyther}} at [[Vermilion Forest]]. During their first encounter, it easily repelled Goh's Poké Ball and sent him and Scorbunny flying. Goh later encountered Scyther again, this time using Scorbunny to battle it first. Together, Goh and Scorbunny weakened Scyther enough for Goh to successfully capture it.
+
+In ''[[JN056|Searching for Chivalry!]]'', Goh transferred Scyther through a [[trade machine]] while having it [[held item|hold]] a [[Metal Coat]] that he received from [[Wikstrom]]. This allowed Scyther to evolve into a Scizor.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Tentacool
+|type1=Water
+|type2=Poison
+|img=Goh Tentacool.png
+|epnum=JN008
+|epname=The Sinnoh Iceberg Race!
+|vajp=
+|vaen=
+|desc={{p|Tentacool}} was caught at {{ci|Vermilion}} Harbor. When a group of Tentacool appeared at the harbor, Goh attempted to catch one of them, but it dodged the {{i|Poké Ball}}, causing this one to get caught instead.
+
+Tentacool's only known move is {{m|Ice Beam}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Dewgong
+|type1=Water
+|type2=Ice
+|img=Goh Dewgong.png
+|epnum=JN010
+|epname=A Test in Paradise!
+|vajp=Yūji Ueda
+|vaen=James Carter Cathcart
+|desc={{p|Dewgong}} was caught by Goh to carry him and Ash across the sea while trying to find the [[Dragonite Island]]. However, along the way, it saw another Dewgong and fell in love with it, inadvertently chasing it into a storm, where Ash and Goh fell off of its back. It later reunited with them at the island, having failed to find the other Dewgong.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Cubone
+|type1=Ground
+|img=Goh Cubone.png
+|epnum=JN015
+|epname=A Snow Day for Searching!
+|vajp=Rikako Aikawa
+|vaen=Marc Thompson
+|desc={{p|Cubone}} was encountered at a park in [[Vermilion City]]. After witnessing Cubone have its bone stolen by a trio of {{p|Mankey}}, Goh agreed to help retrieve its lost item. With the help of his Pokémon and {{Ash}}, Goh was able to reunite Cubone with its bone. Afterward, Cubone decided to join Goh's team and allowed itself to be caught by him.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Spearow
+|type1=Normal
+|type2=Flying
+|img=Goh Spearow.png
+|epnum=JN018
+|epname=Destination: Coronation!
+|vajp=
+|vaen=
+|desc=Goh first spotted {{p|Spearow}} while traveling to the [[Vermilion Gym]] with Ash. He and Raboot chased after it, and once they reunited with Ash at the Gym, Goh revealed that he succeeded in catching Spearow.
+
+None of Spearow's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Rattata
+|type1=Normal
+|img=Goh Rattata.png
+|epnum=JN019
+|epname=A Talent for Imitation!
+|vajp=
+|vaen=
+|desc=Goh caught {{p|Rattata}} while he and Ash were on their way to a movie studio in [[Vermilion City]].
+
+None of Rattata's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Pidgey
+|type1=Normal
+|type2=Flying
+|img=Goh Pidgey.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=
+|vaen=
+|desc=Goh caught {{p|Pidgey}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]].
+
+None of Pidgey's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Nidoran♀ and Nidoran♂
+|type1=Poison
+|img=Goh Nidoran.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=Risa Shimizu
+|vajpnote=Nidoran♀
+|vajp2=Shin-ichiro Miki
+|vajp2note=Nidoran♂
+|vaen=Risa Shimizu
+|vaennote=Nidoran♀
+|vaen2=Shin-ichiro Miki
+|vaen2note=Nidoran♂
+|desc=Goh caught {{p|Nidoran♀}} and {{p|Nidoran♂}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]].
+
+None of the Nidoran's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Oddish
+|type1=Grass
+|type2=Poison
+|img=Goh Oddish.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=
+|vaen=
+|desc=Goh caught {{p|Oddish}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]]. In ''[[JN024|A Little Rocket R & R!]]'', Goh took Oddish with him to the [[Resort Area]], where it helped him catch a {{pkmn2|giant}} {{TP|Goh|Magikarp|giant Magikarp}} by putting it to sleep.
+
+Oddish's only known move is {{m|Sleep Powder}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Poliwag
+|type1=Water
+|img=Goh Poliwag.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=
+|vaen=Cherami Leigh
+|desc=Goh caught {{p|Poliwag}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]].
+
+Poliwag's known moves are {{m|Ice Beam}} and {{m|Water Gun}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Grimer
+|type1=Poison
+|img=Goh Grimer.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=Yūichi Nakamura
+|vaen=
+|desc=Goh caught a {{p|Grimer}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]].}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Ekans
+|type1=Poison
+|img=Goh Ekans.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=
+|vaen=Marc Thompson
+|desc=Goh caught an {{p|Ekans}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]].
+
+None of Ekans's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Farfetch'd
+|type1=Normal
+|type2=Flying
+|img=Goh Farfetch'd.png
+|epnum=JN020
+|epname=Dreams Are Made of These!
+|vajp=Yūji Ueda
+|vaen=Marc Thompson
+|desc=Goh caught {{p|Farfetch'd}} while he was participating in a [[Pokémon Orienteering]] competition in [[Vermilion City]]. During the first two attempts to catch it, Farfetch'd deflected the thrown Poké Balls with its leek. Then, Goh faked it out during the third attempt and caught it while its guard was down.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Exeggutor
+|stage1=Exeggcute
+|type1=Grass
+|type2=Psychic
+|img=Goh Exeggcute.png
+|cap=Goh's Exeggcute
+|img2=Goh Exeggutor.png
+|cap2=Goh's Exeggutor
+|epnum=JN021
+|epname=Caring for a Mystery!
+|vajp=
+|vaen=Marc Thompson
+|vaennote=As Exeggutor
+|desc=Goh encountered {{p|Exeggcute}} while he and Ash were searching for a [[Pokémon Egg]] in [[Vermilion City]]. Goh initially thought Exeggcute was one, but when he realized their mistake, he caught it anyway. In ''[[JN037|That New Old Gang of Mine!]]'', it evolved into an {{p|Exeggutor}} through a [[Leaf Stone]] that {{TP|Professor Cerise|Yamper}} found.
+
+None of Exeggutor's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Heracross
+|gender=male
+|type1=Bug
+|type2=Fighting
+|img=Goh Heracross.png
+|epnum=JN033
+|epname=Trade, Borrow, and Steal!
+|vajp=Yūji Ueda
+|vaen=Yūji Ueda
+|desc={{p|Heracross}} originally belonged to a {{t|Bug}} Pokémon [[Type expert|collector]] named [[Kricketina Kylie]], who later [[trade]]d him to Goh for his second {{p|Pinsir}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Hitmonchan
+|type1=Fighting
+|gender=male
+|img=Goh Hitmonchan.png
+|epnum=JN034
+|epname=Solitary and Menacing!
+|vajp=
+|vaen=
+|desc={{p|Hitmonchan}} is a Pokémon that Goh received as a prize after defeating the [[Koichi|Karate Master]] in [[Saffron City]]'s [[Fighting Dojo]].
+
+None of Hitmonchan's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Raichu
+|stage1=Pikachu
+|type1=Electric
+|gender=female
+|img=Goh Raichu.png
+|epnum=JN035
+|epname=Gotta Catch a What?!
+|vajp=Kei Shindō
+|vajpnote=As Raichu
+|vaen=Alyson Leigh Rosenfeld
+|vaennote=As Pikachu
+|vaen2=Casey Mongillo
+|vaen2note=As Raichu
+|desc={{p|Raichu}} was met at a valley during a [[mass outbreak]] of {{p|Pikachu}}. As a Pikachu, she quickly took a liking to Goh's group and was caught by him soon after. When [[Ash's Pikachu]] refused to use a [[Thunder Stone]] Goh's Pikachu gave him as a gift, she gave it to Goh instead. Later, she used the Thunder Stone to [[Evolution|evolve]] into Raichu and free her Pikachu friends from one of [[Team Rocket's mechas]].}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Aerodactyl
+|stage1=Old Amber
+|type1=Rock
+|type2=Flying
+|img=Goh Aerodactyl.png
+|epnum=JN038
+|epname=Restore and Renew!
+|vajp=
+|vaen=Marc Thompson
+|desc={{p|Aerodactyl}} was revived from an [[Old Amber]] that Goh found at a [[Fossil]] digging site at the [[Pewter Museum of Science]]. {{TRT}}'s intervention caused Aerodactyl to be restored early, prompting it to go berserk. After battling and defeating it, Goh befriended Aerodactyl, who allowed him to {{pkmn2|caught|catch}} it.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Geodude
+|type1=Rock
+|type2=Ground
+|img=Goh Geodude.png
+|epnum=JN051
+|epname=Trials of a Budding Master!
+|vajp=
+|vaen=
+|desc={{p|Geodude}} was met outside the [[Rock Tunnel]] after Goh learned of a [[mass outbreak]] of them in the area. [[Ash's Farfetch'd]] smashed open a rock that Geodude was hiding in, allowing Goh to catch it.
+
+None of Geodude's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Grookey
+|type1=Grass
+|img=Goh Grookey.png
+|epnum=JN059
+|epname=When a House is Not a Home!
+|vajp=Hana Takeda
+|vaen=Cherami Leigh
+|desc={{p|Grookey}} is a Pokémon that ended up escaping from the [[Rocket Prize Master]] when {{p|Pelipper}} accidentally dropped it in [[Vermilion City]]. Grookey found its way to the [[Cerise Laboratory]], where it bonded with Goh until it was later retrieved by {{TRT}}. Grookey ended up escaping Team Rocket's hideout as they slept and joined Goh's team after breaking its old [[Poké Ball]].}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Bellsprout
+|type1=Grass
+|type2=Poison
+|img=Goh Bellsprout.png
+|epnum=JN060
+|epname=Beyond Chivalry… Aiming to be a Leek Master!
+|vajp=
+|vaen=Megan Hollingshead
+|desc={{p|Bellsprout}} is a Pokémon that Goh encountered in [[Vermilion City]]. He and Ash came across it when it was weak. After {{TP|Goh|Grookey}} helped it to heal, Grookey encouraged Goh to catch it, which he happily agreed to.
+
+None of Bellsprout's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Raticate
+|type1=Normal
+|img=Goh Raticate.png
+|epnum=JN070
+|epname=Take My Thief! Please!
+|vajp=
+|vaen=
+|desc={{p|Raticate}} is a Pokémon that Goh encountered and caught in [[Vermilion City]].
+
+None of Raticate's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Pidgeotto
+|type1=Normal
+|type2=Flying
+|img=Goh Pidgeotto.png
+|epnum=JN070
+|epname=Take My Thief! Please!
+|vajp=
+|vaen=
+|desc={{p|Pidgeotto}} is a Pokémon that Goh encountered and caught in [[Vermilion City]].
+
+None of Pidgeotto's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Voltorb
+|shiny=yes
+|type1=Electric
+|img=Goh Voltorb.png
+|epnum=JN081
+|epname=Mad About Blue!
+|vajp=
+|vaen=Marc Thompson
+|desc=This {{Shiny}} {{p|Voltorb}} is a Pokémon that Goh encountered and caught in [[Vermilion City]].
+
+Voltorb's only known move is {{m|Self-Destruct}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Golbat
+|type1=Poison
+|type2=Flying
+|img=Goh Golbat.png
+|epnum=JN102
+|epname=Battling in the Freezing Raid!
+|vajp=
+|vaen=
+|desc=Goh caught {{p|Golbat}} whilst searching the [[Seafoam Islands]] for {{p|Articuno}}.
+
+None of Golbat's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Graveler
+|type1=Rock
+|type2=Ground
+|img=Goh Graveler.png
+|epnum=JN102
+|epname=Battling in the Freezing Raid!
+|vajp=Yūichi Nakamura
+|vaen=Yūichi Nakamura
+|desc=Goh caught {{p|Graveler}} whilst searching the [[Seafoam Islands]] for {{p|Articuno}}.
+
+Graveler's only known move is {{m|Rollout}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Cloyster
+|type1=Water
+|type2=Ice
+|img=Goh Cloyster.png
+|epnum=JN102
+|epname=Battling in the Freezing Raid!
+|vajp=
+|vaen=
+|desc=Goh encountered {{p|Cloyster}} whilst searching the [[Seafoam Islands]] for {{p|Articuno}}. Cloyster was first seen battling [[Horace]] and his {{p|Bayleef}} before being caught by Goh.
+
+Cloyster's only known move is {{m|Icicle Spear}}.}}
+
+==Met in [[Johto]]==
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Sentret
+|type1=Normal
+|img=Goh Sentret.png
+|epnum=JN009
+|epname=Finding a Legend!
+|vajp=Kei Shindō
+|vaen=
+|desc={{p|Sentret}} was encountered during Goh's visit to [[Ecruteak City]]. As Goh and Ash searched for {{an|Ho-Oh}}, Sentret leapt out of a bush and was caught by Goh immediately afterwards.
+
+None of Sentret's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Stantler
+|type1=Normal
+|img=Goh Misdreavus Stantler.png
+|epnum=JN009
+|epname=Finding a Legend!
+|vajp=
+|vaen=
+|desc={{p|Stantler}} was encountered during Goh's visit to [[Ecruteak City]]. It and a {{TP|Goh|Misdreavus}} attacked Goh, Ash, [[Chad]], and [[Jaye]] at the [[Bell Tower]], trapping them in a series of illusions. After Jaye's {{p|Hoothoot}} dispelled the illusions with {{m|Foresight}}, Goh proceeded to catch Stantler.
+
+None of Stantler's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Misdreavus
+|type1=Ghost
+|img=Goh Misdreavus.png
+|epnum=JN009
+|epname=Finding a Legend!
+|vajp=Risa Shimizu
+|vaen=
+|desc={{p|Misdreavus}} was encountered during Goh's visit to [[Ecruteak City]]. It and a {{p|Stantler}} attacked Goh, Ash, [[Chad]], and [[Jaye]] at the [[Bell Tower]], trapping them in a series of illusions. After Jaye's {{p|Hoothoot}} dispelled the illusions with {{m|Foresight}}, Goh proceeded to catch Misdreavus.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Ariados
+|type1=Bug
+|type2=Poison
+|img=Goh Ariados.png
+|epnum=JN032
+|epname=Time After Time!
+|vajp=Noriaki Kanze
+|vaen=Noriaki Kanze
+|desc=Goh encountered and caught {{p|Ariados}} in [[Ilex Forest]].
+
+In ''[[JN107|Big Brother to the Rescue!]]'', Ariados, along with a selected few of Goh's Pokémon, helped create a fountain so that {{TP|Goh|Grimer}} and {{TP|Goh|Froakie}} could live in [[Cerise Laboratory|Cerise Park]] without dirtying the stream.
+
+None of Ariados's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Pineco
+|type1=Bug
+|img=Goh Pineco.png
+|epnum=JN032
+|epname=Time After Time!
+|vajp=Yūji Ueda
+|vaen=Bill Rogers
+|desc=Goh encountered and caught {{p|Pineco}} in [[Ilex Forest]].
+
+None of Pineco's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Chinchou
+|type1=Water
+|type2=Electric
+|img=Goh Chinchou.png
+|epnum=JN039
+|epname=Octo-Gridlock at the Gym!
+|vajp=Marina Aicholtz
+|vaen=
+|desc=Goh caught {{p|Chinchou}} whilst [[fishing]] at [[Cianwood City]]. In ''[[JN088|Looking Out for Number Two!]]'', Goh used it in combination with [[Ash's Lucario]] to locate a sunken ancient submersible.
+
+Chinchou's only known move is {{m|Supersonic}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Suicune
+|type1=Water
+|img=Goh Suicune.png
+|epnum=JN053
+|epname=Healing the Healer!
+|vajp=Yūji Ueda
+|vaen=Yūji Ueda
+|desc=Goh caught {{p|Suicune}} in order to save it from a group of {{OBP|Pokémon hunters|JN053}}. Since it was {{status|poisoned}} and injured by the hunters, Goh helped it recover with {{Berries}} and a [[Potion]]. Suicune was initially distrustful towards Goh, but after seeing him unselfishly treat it and defend it from the hunters, it allowed Goh to command it during a battle against them.
+
+After the hunters were defeated and arrested, Goh decided to {{pkmn2|released|release}} Suicune, but it chose to remain his Pokémon. However, instead of staying at [[Cerise Laboratory|Cerise Park]], it returned to {{pkmn2|roaming}} around the world while still remaining at the Park in spirit.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Drowzee
+|type1=Psychic
+|img=Goh Drowzee.png
+|epnum=JN053
+|epname=Healing the Healer!
+|vajp=
+|vaen=Marc Thompson
+|desc=Goh caught {{p|Drowzee}} in order to help him in his battle against a group of {{OBP|Pokémon hunters|JN053}} who wanted to catch a {{TP|Goh|Suicune}} and mostly used {{type|Poison}} Pokémon. However, it was defeated by the hunters' boss's {{p|Houndoom}}.
+
+Drowzee's known moves are {{m|Psybeam}} and {{m|Pound}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Murkrow
+|type1=Dark
+|type2=Flying
+|img=Goh Murkrow.png
+|epnum=JN083
+|epname=Star Night, Star Flight!
+|vajp=
+|vaen=
+|desc=Goh caught {{p|Murkrow}} while investigating a town where a mysterious perpetual night was taking place.
+
+None of Murkrow's moves are known.}}
+
+==Met in [[Hoenn]]==
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Taillow
+|type1=Normal
+|type2=Flying
+|img=Goh Taillow.png
+|epnum=JN007
+|epname=Serving Up the Flute Cup!
+|vajp=List of Japanese voice actors{{!}}Rika Adachi
+|vaen=Alyson Leigh Rosenfeld
+|desc={{p|Taillow}} was caught during Goh's visit to the {{gdis|Battle Frontier|III|Hoenn Battle Frontier}}. As its species preyed on {{p|Wurmple}}, Goh used Taillow to find {{pkmn2|wild}} Wurmple for him to catch.
+
+In ''[[JN015|A Snow Day for Searching!]]'', Taillow was among the Pokémon that Goh used to help find a {{TP|Goh|Cubone}}'s bone.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Dustox (×3)
+|stage2=Cascoon
+|stage1=Wurmple
+|type1=Bug
+|type2=Poison
+|img=Goh {{#switch: {{#expr: {{#time: U}} mod 2}}|0=Wurmple|1=Cascoon}}.png
+|cap=Goh's {{#switch: {{#expr: {{#time: U}} mod 2}}|0=Wurmple|1=Cascoon}}
+|img2=Goh Dustox.png
+|cap2=Goh's Dustox
+|epnum=JN007
+|epname=Serving Up the Flute Cup!
+|vajp=Kana Hanazawa
+|vaen=
+|desc=Goh caught three {{p|Wurmple}} at the {{gdis|Battle Frontier|III|Hoenn Battle Frontier}} with {{p|Taillow}}'s help. He caught multiples in hopes that he would get both a {{p|Silcoon}} and a {{p|Cascoon}} out of them. In ''[[JN011|Best Friend...Worst Nightmare!]]'', all three [[Evolution|evolved]] while defending themselves from Taillow. However, to Goh's dismay, they each evolved into a Cascoon.
+
+In ''[[JN023|Panic in the Park!]]'', the Cascoon were shown to be in the process of evolving again. Later, they were caught in a flood created when {{TP|Goh|Golurk}} briefly lost control of itself. Ash, Goh, and the other Pokémon living in Cerise Park all kept the Cascoon safe long enough for them to evolve into {{p|Dustox}} and clear the rain.
+
+They all know the move {{m|Sunny Day}}; two of the Dustox know {{m|String Shot}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Wingull
+|type1=Water
+|type2=Flying
+|img=Goh Wingull.png
+|epnum=JN031
+|epname=The Cuteness Quotient!
+|vajp=
+|vaen=
+|desc={{p|Wingull}} was caught by Goh shortly after he arrived in [[Slateport City]].
+
+None of Wingull's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Trapinch
+|type1=Ground
+|img=Goh Trapinch.png
+|epnum=JN036
+|epname=Making Battles in the Sand!
+|vajp=Noriaki Kanze
+|vaen=Noriaki Kanze
+|desc={{p|Trapinch}} was caught by Goh while he investigated a {{weather|sandstorm}} in [[Mauville City]].}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Vibrava
+|type1=Ground
+|type2=Dragon
+|img=Goh Vibrava.png
+|epnum=JN036
+|epname=Making Battles in the Sand!
+|vajp=
+|vaen=
+|desc={{p|Vibrava}} was caught by Goh while he investigated a {{weather|sandstorm}} in [[Mauville City]].
+
+In ''[[JN107|Big Brother to the Rescue!]]'', Vibrava used its own sound waves to counter the ones created by {{p|Bruxish}}.
+
+Vibrava's only known move is {{m|Supersonic}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Flygon
+|main=yes
+|type1=Ground
+|type2=Dragon
+|img=Goh Flygon.png
+|epnum=JN036
+|epname=Making Battles in the Sand!
+|vajp=Risa Shimizu
+|vaen=Risa Shimizu
+|desc={{p|Flygon}} was encountered by Goh while he explored the {{weather|sandstorm}} that engulfed [[Mauville City]], which turned out to be caused by Flygon. It battled Ash and Goh, defeating {{AP|Riolu}} and {{TP|Goh|Sobble}} before being defeated by {{TP|Goh|Raboot}}, allowing Goh to catch it.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Absol
+|type1=Dark
+|img=Goh Absol.png
+|epnum=JN064
+|epname=Absol Absolved!
+|vajp=Megumi Hayashibara
+|vaen=Bill Rogers
+|desc={{p|Absol}} was originally a Pokémon living on [[Mt. Chimney]], which people of [[Lavaridge Town]] blamed of drying out their hot springs. Ash and Goh later discovered the true source of the problem, and joined Absol in preventing the volcano from erupting in a {{wp|phreatic eruption}} by breaking a boulder that was blocking a hot spring. As the boulder broke and a blast of pressurized hot water erupted from under it, Goh caught Absol to save it from the blast. Afterwards, he offered it the chance to go, but Absol chose to stay with him.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Sharpedo
+|type1=Water
+|type2=Dark
+|img=Goh Sharpedo.png
+|epnum=JN088
+|epname=Looking Out for Number Two!
+|vajp=
+|vaen=
+|desc={{p|Sharpedo}} is a Pokémon Goh encountered during his second [[Project Mew]] [[Field Research|Trial Mission]] off the coast of [[Slateport City]]. It chased after a {{p|Seadra}} he was trying to catch, hitting Goh's {{i|Poké Ball}} and getting caught instead of Seadra.
+
+None of Sharpedo's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Altaria
+|type1=Dragon
+|type2=Flying
+|img=Goh Altaria.png
+|epnum=JN105
+|epname=Reuniting for the First Time!
+|vajp=
+|vaen=
+|desc={{p|Altaria}} is a Pokémon that Goh encountered in [[Lilycove City]]. His first attempt to catch it failed and it [[Escape|fled]], but he encountered it again later and managed to catch it off-screen.
+
+None of Altaria's moves are known.}}
+
+==Met in [[Sinnoh]]==
+{{TrainerPoké
+|trainer=Goh
+|main=yes
+|pkmn=Mantyke
+|type1=Water
+|type2=Flying
+|img=Goh Mantyke.png
+|epnum=JN008
+|epname=The Sinnoh Iceberg Race!
+|vajp=Kei Shindō
+|vaen=Kei Shindō
+|desc={{p|Mantyke}} was caught during Goh's visit to [[Snowpoint City]]. He later entered Mantyke in the [[Pokémon Iceberg Race]], where it helped {{AP|Pikachu}} by having him ride on its back. It also assisted the group in dealing with {{TRT}} when they interrupted the race.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Goldeen
+|type1=Water
+|img=Goh Goldeen.png
+|epnum=JN024
+|epname=A Little Rocket R & R!
+|vajp=
+|vaen=Erica Schroeder
+|desc=Goh caught {{p|Goldeen}} while [[fishing]] at the [[Resort Area]] in [[Sinnoh]].
+
+In ''[[JN031|The Cuteness Quotient!]]'', Goldeen was used to help [[Jinny]]'s {{p|Feebas}}, Feeby, improve its agility while swimming.
+
+Goldeen's only known move is {{m|Water Gun}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Magikarp
+|type1=Water
+|img=Goh Magikarp.png
+|cap=Goh's Magikarp
+|epnum=JN024
+|epname=A Little Rocket R & R!
+|vajp=
+|vaen=
+|desc=This regular-sized {{p|Magikarp}} was encountered while [[fishing]] at the [[Resort Area]]. It was reeled in by {{Ash}}, who allowed Goh to catch it.
+
+None of Magikarp's moves are known.}}
+
+{{TrainerPoké
+|nick=Giant Magikarp
+|trainer=Goh
+|pkmn=Magikarp
+|type1=Water
+|main=Goh's giant Magikarp
+|img=Goh giant Magikarp.png
+|cap=Goh's giant Magikarp
+|epnum=JN024
+|epname=A Little Rocket R & R!
+|vajp=
+|vaen=
+|desc=This {{pkmn2|giant}} {{p|Magikarp}} was encountered while [[fishing]] at the [[Resort Area]]. Goh reeled it in with help from {{Ash}}, {{AP|Pikachu}}, {{TP|Goh|Raboot}}, and a [[List of Team Rocket's disguises|disguised]] {{TRT}}. He caught it after it was put to sleep by {{p|Oddish}}'s {{m|Sleep Powder}}.}}
+
+==Met in [[Unova]]==
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Darmanitan
+|type1=Fire
+|main=yes
+|img=Goh Darmanitan.png
+|img2=Goh Darmanitan Zen Mode.png
+|cap2=Goh's Darmanitan in its Zen Mode
+|epnum=JN014
+|epname=Raid Battle in The Ruins!
+|vajp=Yasuhiro Mamiya
+|vaen=Kyle Hebert
+|desc={{p|Darmanitan}} was encountered during Goh's visit to the [[Desert Resort]]. It was one of the Pokémon guarding the [[Colossus Ruins]], but was swiftly caught by Goh just as it sprung to life and attacked. It was later used in a [[Raid Battle (GO)#In animation|Raid Battle]] against a {{pkmn2|giant}} {{TP|Goh|Golurk}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Sandile
+|type1=Ground
+|type2=Dark
+|img=Goh Sandile.png
+|epnum=JN014
+|epname=Raid Battle in The Ruins!
+|vajp=Kiyotaka Furushima
+|vaen=
+|desc={{p|Sandile}} was encountered at the [[Colossus Ruins]]. It was angered when Scorbunny accidentally stepped on its tail, but was quickly defeated by a {{m|Double Kick}}, allowing Goh to catch it.
+
+In ''[[JN023|Panic in the Park!]]'', during a food shortage, it and {{TP|Goh|Misdreavus}} tried tricking the other Pokémon into giving up their food. When a group led by {{TP|Goh|Scyther}} came looking for a fight, Sandile and Misdreavus immediately joined their side. It later helped protect the {{p|Cascoon}} from a flood created when {{TP|Goh|Golurk}} went berserk, allowing them to [[Evolution|evolve]] into {{p|Dustox}} and stop the flood.
+
+None of Sandile's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Golurk
+|type1=Ground
+|type2=Ghost
+|main=yes
+|img=Goh Golurk.png
+|epnum=JN014
+|epname=Raid Battle in The Ruins!
+|vajp=
+|vaen=
+|desc=This {{pkmn2|giant}} {{p|Golurk}} was the guardian of the [[Colossus Ruins]]. It was fought in a [[Raid Battle (GO)#In animation|Raid Battle]] by Goh, Ash, {{OBP|Kira|JN014}}, the excavation {{OBP|leader|JN014}}, and [[Shane Seeker]]. When brought to the [[Cerise Laboratory]], it took upon itself the role of the protector of Cerise Park.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Pansear
+|type1=Fire
+|img=Goh Pansear.png
+|epnum=JN065
+|epname=Thrash of the Titans!
+|vajp=
+|vaen=
+|desc=Goh encountered {{p|Pansear}} while visiting [[Opelucid City]]. In ''[[JN073|Grabbing the Brass Ring!]]'', Goh used Pansear in a group with {{TP|Goh|Cinderace}}, {{TP|Goh|Raichu}}, {{TP|Goh|Grookey}}, and {{p|Panpour}} to help motivate the brass of a {{p|Falinks}} when it got split up.
+
+None of Pansear's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Panpour
+|type1=Water
+|img=Goh Panpour.png
+|epnum=JN065
+|epname=Thrash of the Titans!
+|vajp=
+|vaen=Marc Thompson
+|desc=Goh encountered {{p|Panpour}} while visiting [[Opelucid City]].}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Durant
+|type1=Bug
+|type2=Steel
+|img=Goh Durant.png
+|epnum=JN072
+|epname=Everybody's Doing the Underground Shuffle!
+|vajp=Noriaki Kanze
+|vaen=
+|desc=Goh encountered {{p|Durant}} while visiting [[Driftveil City]]. After running away from a fight between a swarm of Durant and a trio of {{p|Heatmor}}, Goh discovered that one of the Durant had followed him, and it agreed to come with him.
+
+In ''[[JN107|Big Brother to the Rescue!]]'', Durant, along with a selected few of Goh's Pokémon, helped create a fountain so that {{TP|Goh|Grimer}} and {{TP|Goh|Froakie}} could live in [[Cerise Laboratory|Cerise Park]] without dirtying the stream.
+
+None of Durant's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Roggenrola
+|type1=Rock
+|img=Goh Roggenrola.png
+|epnum=JN080
+|epname=Trial on a Golden Scale!
+|vajp=Shogo Sakata
+|vaen=
+|desc=Goh encountered {{p|Roggenrola}} in an abandoned mine in [[Unova]], whilst searching for a {{p|Volcarona}}. He caught it after {{TP|Goh|Inteleon}} weakened it with a {{m|Snipe Shot}}.
+
+Roggenrola's only known move is {{m|Rock Blast}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Ferrothorn
+|type1=Grass
+|type2=Steel
+|img=Goh Ferrothorn.png
+|epnum=JN080
+|epname=Trial on a Golden Scale!
+|vajp=
+|vaen=
+|desc=Goh encountered {{p|Ferrothorn}} in an abandoned mine in [[Unova]], whilst searching for a {{p|Volcarona}}. It was first seen chasing after [[Nito]]. Goh had {{TP|Goh|Cinderace}} defeat it with {{m|Pyro Ball}} before catching it.
+
+Ferrothorn's known moves are {{m|Bullet Seed}} and {{m|Power Whip}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Lilligant
+|gender=female
+|type1=Grass
+|img=Goh Lilligant.png
+|epnum=JN094
+|epname=Suffering the Flings and Arrows!
+|vajp=
+|vaen=
+|desc={{p|Lilligant}} was caught by Goh during an off-screen trip to Unova. After being brought to the [[Cerise Laboratory]], she started to release a sweet scent that caused [[Goh's Heracross]] to be smitten with her, leaving {{TP|Goh|Pinsir}} distraught.
+
+Lilligant's only known move is {{m|Sweet Scent}}.}}
+
+==Met in [[Kalos]]==
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Binacle
+|type1=Rock
+|type2=Water
+|img=Goh Binacle.png
+|epnum=JN025
+|epname=A Festival Reunion!
+|vajp=Tatsuki Kobe
+|vajp2=Noriaki Kanze
+|vaen=Billy Bob Thompson
+|desc={{p|Binacle}} was caught by Goh in [[Shalour City]].
+
+None of Binacle's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Floette (×4)
+|stage1=Flabébé
+|type1=Fairy
+|gender=female
+|img=Goh Flabébé.png
+|cap=Goh's Flabébé
+|img2=Goh Floette.png
+|cap2=Goh's Floette
+|epnum=JN025
+|epname=A Festival Reunion!
+|vajp=Kei Shindō
+|vajpnote=Blue Flower
+|vajp2=Sayaka Senbongi
+|vajp2note=Orange Flower
+|vaen=Kei Shindō
+|vaennote=Blue Flower
+|vaen2=Sayaka Senbongi
+|vaen2note=Orange Flower
+|desc=Goh caught five different forms of {{p|Flabébé}} whilst in [[Shalour City]]. In ''[[JN066|Under Color of Darkness!]]'', they all evolved into {{p|Floette}}, with {{DL|Goh|Floette|one of them}} being {{pkmn2|released}} in the same episode.
+
+None of their moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Scatterbug
+|type1=Bug
+|img=Goh Scatterbug.png
+|epnum=JN025
+|epname=A Festival Reunion!
+|vajp=Risa Shimizu
+|vaen=
+|desc={{p|Scatterbug}} was caught by Goh in [[Shalour City]].
+
+None of Scatterbug's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Phantump
+|type1=Ghost
+|type2=Grass
+|img=Goh Phantump.png
+|epnum=JN025
+|epname=A Festival Reunion!
+|vajp=
+|vaen=
+|desc={{p|Phantump}} was caught by Goh in [[Shalour City]].
+
+None of Phantump's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Fletchling
+|type1=Normal
+|type2=Flying
+|img=Goh Fletchling.png
+|epnum=JN025
+|epname=A Festival Reunion!
+|vajp=Sayaka Senbongi
+|vaen=
+|desc={{p|Fletchling}} was caught by Goh in [[Shalour City]].
+
+None of Fletchling's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Camerupt
+|type1=Fire
+|type2=Ground
+|img=Goh Camerupt.png
+|epnum=JN084
+|epname=An Adventure of Mega Proportions!
+|vajp=
+|vaen=
+|desc={{p|Camerupt}} was caught by Goh on [[Mega Island]].
+
+None of Camerupt's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Frogadier
+|stage1=Froakie
+|type1=Water
+|img=Goh Frogadier.png
+|cap=Goh's Frogadier
+|epnum=JN103
+|epname=The Future is Now, Thanks to Strategy!
+|vajp=Haruka Shamoto
+|vaen=Billy Bob Thompson
+|desc=Goh encountered {{p|Frogadier}} as a {{p|Froakie}} in [[Lumiose City]]. It initially used its Frubbles to defend itself from capture, but with some advice from {{an|Bonnie}}, Goh was able to catch it. Froakie evolved in ''[[JN108|Catching the Aura of Fate!]]'' during a brief training battle with [[Chloe's Eevee]].}}
+
+==Met in [[Alola]]==
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Pyukumuku
+|type1=Water
+|img=Goh Pyukumuku.png
+|epnum=JN037
+|epname=That New Old Gang of Mine!
+|vajp=Kei Shindō
+|vaen=
+|desc={{p|Pyukumuku}} was caught by Goh on [[Melemele Island]].}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Alolan Exeggutor
+|type1=Grass
+|type2=Dragon
+|img=Goh Alolan Exeggutor.png
+|epnum=JN037
+|epname=That New Old Gang of Mine!
+|vajp=
+|vaen=Marc Thompson
+|desc={{rf|Alolan}} {{p|Exeggutor}} was caught by Goh after a battle with {{TP|Goh|Raboot}}.
+
+In ''[[JN053|Healing the Healer!]]'', Goh had Exeggutor watch over an injured {{TP|Goh|Suicune}} to protect it from a group of {{OBP|Pokémon hunters|JN053}}.
+
+None of Exeggutor's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Alolan Geodude
+|type1=Rock
+|type2=Electric
+|img=Goh Alolan Geodude.png
+|epnum=JN076
+|epname=All Out, All of the Time!
+|vajp=
+|vaen=
+|desc={{rf|Alolan}} {{p|Geodude}} was caught by Goh during the [[Pokémon Catch Adventure Race]].
+
+None of Geodude's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Bruxish
+|type1=Water
+|type2=Psychic
+|img=Goh Bruxish.png
+|epnum=JN076
+|epname=All Out, All of the Time!
+|vajp=Megumi Hayashibara
+|vaen=
+|desc={{p|Bruxish}} was caught by Goh during the [[Pokémon Catch Adventure Race]].
+
+In ''[[JN107|Big Brother to the Rescue!]]'', Bruxish became agitated when the [[Cerise Laboratory|Cerise Park]]'s water stream has gotten polluted, and its teeth-gnashing caused the {{type|Rock}} Pokémon in the area to run off. With the help of {{p|Vibrava}}, the noise was neutralized, and after the water was cleared by {{TP|Goh|Suicune}}, Bruxish finally calmed down.
+
+Bruxish's known moves are {{m|Bite}} and {{m|Aqua Tail}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Passimian
+|type1=Fighting
+|img=Goh Passimian.png
+|epnum=JN076
+|epname=All Out, All of the Time!
+|vajp=
+|vaen=
+|desc={{p|Passimian}} was caught by Goh during the [[Pokémon Catch Adventure Race]].
+
+In ''[[JN107|Big Brother to the Rescue!]]'', Passimian, along with a selected few of Goh's Pokémon, helped create a fountain so that {{TP|Goh|Grimer}} and {{TP|Goh|Froakie}} could live in [[Cerise Laboratory|Cerise Park]] without dirtying the stream.
+
+None of Passimian's moves are known.}}
+
+==Met in [[Galar]]==
+{{TrainerPoké
+|main=Goh's Cinderace
+|trainer=Goh
+|pkmn=Cinderace [[File:Dynamax icon.png|25px|link=Dynamax]]
+|stage1=Scorbunny
+|stage2=Raboot
+|type1=Fire
+|img=Goh Cinderace.png
+|epnum=JN004
+|epname=Settling the Scorbunny!
+|vajp=Megumi Hayashibara
+|vaen=Casey Mongillo
+|desc={{p|Cinderace}} was Goh's [[List of characters' first Pokémon|first Pokémon]], which he first met as a {{pkmn2|wild}} {{p|Scorbunny}} in [[Wyndon]]. In ''[[JN005|Mind-Boggling Dynamax!]]'', it followed him to the [[Wild Area]], where he befriended and caught it. It evolved into {{p|Raboot}} in ''[[JN017|Kicking It from Here Into Tomorrow!]]'' and into Cinderace in ''[[JN045|Sword and Shield... The Legends Awaken!]]''.}}
+
+{{TrainerPoké
+|trainer=Goh
+|main=yes
+|pkmn=Greedent
+|type1=Normal
+|stage1=Skwovet
+|img=Goh Greedent.png
+|epnum=JN013
+|epname=The Climb to Be the Very Best!
+|vajp=Noriaki Kanze
+|vaen=Michele Knotz
+|desc={{p|Greedent}} debuted as a {{p|Skwovet}}, when it was caught during Goh's second visit to [[Wyndon]]. It was lured in by some scones Ash was eating and took one for itself. While Skwovet was busy eating, Goh took the opportunity to catch it. In ''[[JN047|Crowning the Chow Crusher!]]'', it evolved into a Greedent during the [[Pokémon Grand Eating Contest]].}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Inteleon
+|stage1=Sobble
+|stage2=Drizzile
+|type1=Water
+|main=yes
+|img=Goh Inteleon.png
+|epnum=JN027
+|epname=Toughing It Out!
+|vajp=Sayaka Senbongi
+|vajpnote=As Sobble and Drizzile
+|vajp2=Shogo Sakata 
+|vajp2note=As Inteleon
+|vaen=Erica Schroeder
+|vaennote=As Sobble and Drizzile
+|vaen2=Billy Kametz
+|vaen2note=As Inteleon ([[JN078]]-[[JN090]]
+|desc={{p|Inteleon}} first briefly appeared as a {{pkmn2|wild}} {{p|Sobble}} in [[Wyndon]]. In ''[[JN028|Sobbing Sobble!]]'', it was caught by Goh. It evolved into {{p|Drizzile}} in ''[[JN062|Not Too Close for Comfort!]]'' and later into Inteleon in ''[[JN078|Detective Drizzile!]]''.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Bunnelby
+|type1=Normal
+|img=Goh Bunnelby.png
+|epnum=JN042
+|epname=Sword and Shield, Slumbering Weald!
+|vajp=
+|vaen=
+|desc={{p|Bunnelby}} was caught during Goh's fourth trip to [[Galar]]. He encountered it when it snuck onto the train he and Ash were riding and took one of their scones. They chased it to the [[Slumbering Weald]], where Goh successfully caught it.
+
+None of Bunnelby's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Goh
+|pkmn=Boldore
+|type1=Rock
+|img=Goh Boldore.png
+|epnum=JN050
+|epname=A Pinch of This, a Pinch of That!
+|vajp=Yasuhiro Mamiya
+|vaen=Abe Goldfarb
+|vaennote=[[JN050]]-[[JN070]]
+|vaen2=Bill Rogers
+|vaen2note=[[JN076]]-present
+|desc=Goh first encountered {{p|Boldore}} when it confronted [[Chloe's Eevee]] in the [[Wild Area]]. He caught it after a brief battle with {{TP|Goh|Cinderace}} and later used it to battle a rampaging {{p|Arctozolt}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Arctozolt
+|type1=Electric
+|type2=Ice
+|stage1=Fossilized Bird and Dino
+|img=Fossilized {{#switch: {{#expr: {{#time: U}} mod 2}}|0=Bird|1=Dino}} anime.png
+|cap=Fossilized {{#switch: {{#expr: {{#time: U}} mod 2}}|0=Bird|1=Dino}}
+|img2=Goh Arctozolt.png
+|epnum=JN050
+|epname=A Pinch of This, a Pinch of That!
+|vajp=
+|vaen=List of English voice actors{{!}}Kellen Goff
+|desc={{p|Arctozolt}} was revived from [[Fossil]]s dug up by [[Cara Liss]] and [[Bray Zenn]] in the [[Wild Area]]. After being accidentally attacked by a {{AP|Dracovish}} that had been revived at the same time, it started rampaging, but it calmed down when Dracovish later ran into it, knocking it over. Cara Liss and Bray Zenn then allowed Goh to take Arctozolt with him.
+
+In ''[[JN087|Breaking the Ice!]]'', Arctozolt joined Dracovish, {{TP|Goh|Dewgong}}, and [[Regina]]'s {{p|Glaceon}} in creating an icy playground for the students of [[Vermilion City school]].
+
+Arctozolt's known moves are {{m|Powder Snow}}, {{m|Charge}}, {{m|Bolt Beak}}, and {{m|Ice Fang}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Morelull
+|type1=Grass
+|type2=Fairy
+|img=Goh Morelull.png
+|epnum=JN055
+|epname=The Tale of You and Glimwood Tangle!
+|vajp=
+|vaen=
+|desc=Goh encountered {{p|Morelull}} in [[Glimwood Tangle]] and chased it. He eventually caught it after his {{TP|Goh|Cinderace}} blocked its path.
+
+None of Morelull's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Galarian Stunfisk
+|type1=Ground
+|type2=Steel
+|img=Goh Galarian Stunfisk.png
+|epnum=JN073
+|epname=Grabbing the Brass Ring!
+|vajp=
+|vaen=Bill Rogers
+|desc=Goh encountered this {{rf|Galarian}} {{p|Stunfisk}} when he mistook it for a {{i|Poké Ball}} and tried to grab it, only for it to almost attack him. He then swiftly caught it afterwards.
+
+None of Stunfisk's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Falinks
+|type1=Fighting
+|img=Goh Falinks.png
+|epnum=JN073
+|epname=Grabbing the Brass Ring!
+|vajp=Tatsuki Kobe
+<!--|vajpnote=The brass-->
+|vajp2=Shogo Sakata
+<!--|vajp2note=Troopers-->
+|vaen=
+|desc=Goh encountered {{p|Falinks}} in Galar after hearing about it from [[Professor Cerise]]. When the Falinks troopers and brass got separated by accident, the troopers decided to start following [[Ash's Pikachu]], while Goh used his own Pokémon to improve the brass's leadership skills. Once the brass and the troopers had been reunited, Falinks demonstrated its teamwork in a battle against a {{pkmn2|wild}} {{p|Eiscue}}. After the battle, Falinks expressed its desire to come with Goh, which he agreed to.
+
+Falinks's only known move is {{m|Protect}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Alcremie
+|type1=Fairy
+|gender=female
+|stage1=Milcery
+|img=Goh Milcery.png
+|cap=Goh's Milcery
+|img2=Goh Alcremie.png
+|epnum=JN082
+|epname=The Sweet Taste of Battle!
+|vajp=
+|vaen=Cristina Vee
+|vaennote=Milcery
+|vaen2=Ryan Bartley
+|vaen2note=Alcremie
+|desc=Goh caught {{p|Alcremie}} as a {{p|Milcery}} whilst in [[Ballonlea]]. He then placed a [[Strawberry Sweet]] on her and spun her around, inadvertently causing her to evolve into {{DL|List of Pokémon with form differences|Vanilla Cream}} Alcremie. Goh later used her in [[Opal]]'s [[All-Alcremie Decoration Challenge]].
+
+None of Alcremie's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Shedinja
+|type1=Bug
+|type2=Ghost
+|img=Goh Shedinja.png
+|epnum=JN091
+|epname=The Spectral Express!
+|vajp=
+|vaen=Bill Rogers
+|desc=Goh unintentionally obtained {{p|Shedinja}} after witnessing a group of {{p|Nincada}} evolve aboard a ghost train, with one of them leaving behind a shed shell that entered one of Goh's empty {{i|Poké Ball}}s as a Shedinja.
+
+None of Shedinja's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Galarian Corsola
+|type1=Ghost
+|img=Goh Galarian Corsola.png
+|epnum=JN092
+|epname=The Winding Path to Greatness!
+|vajp=
+|vaen=
+|desc=Goh caught {{rf|Galarian}} {{p|Corsola}} after {{Ash}} accidentally disturbed it whilst trying to collect a cluster of [[Max Mushrooms]].
+
+None of Corsola's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Gossifleur
+|type1=Grass
+|img=Goh Gossifleur.png
+|epnum=JN100
+|epname=Meeting Up with the Monarch!
+|vajp=Marina Aicholtz
+|vaen=List of English voice actors{{!}}Hayden Daviau
+|desc=Goh caught {{p|Gossifleur}} while {{TP|Goh|Grookey}} was playing with a group of them at the [[Motostoke Riverbank]].
+
+None of Gossifleur's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Regieleki
+|type1=Electric
+|img=Goh Regieleki.png
+|epnum=JN113
+|epname=Chasing to the Finish!
+|vajp=
+|vaen=
+|desc=Goh caught {{p|Regieleki}} in the [[Split-Decision Ruins]] in order to clear his last [[Project Mew]] [[Field Research|Trial Mission]].
+
+Regieleki's known moves are {{m|Zap Cannon}}, {{m|Thunder Cage}}, and {{m|Extreme Speed}}.}}
+
+==Met in an unknown [[region]]==
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Mankey
+|type1=Fighting
+|img=Goh Mankey.png
+|epnum=JN046
+|epname=Getting More Than You Battled For!
+|vajp=
+|vaen=
+|desc={{p|Mankey}} was caught by Goh while he was searching for {{an|Mew}} on [[Cero Island]].
+
+None of Mankey's moves are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Krabby
+|type1=Water
+|img=Goh Krabby.png
+|epnum=JN046
+|epname=Getting More Than You Battled For!
+|vajp=
+|vaen=
+|desc={{p|Krabby}} was caught by Goh while he was searching for {{an|Mew}} on [[Cero Island]].
+
+In ''[[JN080|Trial on a Golden Scale!]]'', Goh uses Krabby along with Inteleon to put out a fire caused during a battle with [[Nito]].
+
+Krabby's only known move is {{m|Bubble Beam}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Diglett
+|type1=Ground
+|img=Goh Diglett.png
+|epnum=JN052
+|epname=How Are You Gonna Keep 'Em Off of the Farm?
+|vajp=
+|vaen=
+|desc={{p|Diglett}} was among the Pokémon that were causing trouble on [[Laxton Farm]]. Goh was able to catch it alongside a {{p|Dugtrio}}.
+
+In ''[[JN107|Big Brother to the Rescue!]]'', Diglett, along with a selected few of Goh's Pokémon, helped create a fountain so that {{TP|Goh|Grimer}} and {{TP|Goh|Froakie}} could live in [[Cerise Laboratory|Cerise Park]] without dirtying the stream.
+
+None of Diglett's move are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Hoothoot
+|type1=Normal
+|type2=Flying
+|img=Goh Hoothoot.png
+|epnum=JN094
+|epname=Suffering the Flings and Arrows!
+|vajp=
+|vaen=
+|desc=Goh was shown to have caught a {{p|Hoothoot}} prior to ''[[JN094|Suffering the Flings and Arrows!]]''. It was first seen with the rest of his Pokémon when Goh showed them his newly caught {{p|Lilligant}}.
+
+None of Hoothoot's move are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Slowpoke
+|type1=Water
+|type2=Psychic
+|img=Goh Slowpoke.png
+|epnum=JN097
+|epname=An Evolution in Taste!
+|vajp=Shogo Sakata
+|vaen=
+|desc={{p|Slowpoke}} was caught during Goh's second visit to [[Slowpoke Island]].
+
+None of Slowpoke's move are known.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Unknown Pokémon
+|type1=???
+|img=Goh Unknown Pokémon.png
+|epnum=JN136
+|epname=This Could be the Start of Something Big!
+|desc=Goh was seen catching an undisclosed Pokémon after parting ways with {{Ash}}.}}
+
+==Trivia==
+* Goh's:
+** {{p|Sentret}} was the first [[Generation II]] Pokémon to be caught by a main character since [[Dawn's Quilava]], who was received as a {{p|Cyndaquil}} in ''[[DP143|An Egg Scramble!]]'', 488 episodes earlier.
+*** It is also his first Generation II Pokémon.
+** {{p|Tentacool}} was the first {{type|Water}} that isn't a [[first partner Pokémon]] to be caught by a main character other than {{Ash}} on-screen, not counting {{an|Cilan|temporary}} [[BW037|captures]], since [[Dawn's Buizel]], who was caught in ''[[DP034|Buizel Your Way Out Of This!]]'', 593 episodes earlier.
+*** It is also his first Water-type.
+** White Flower {{p|Floette}} was the first Pokémon to be released by one [[Ash's friends]], excluding Pokémon that were released in the same episode they were caught, since [[Misty's Togetic]], who was released in ''[[AG045|A Togepi Mirage!]]'', 832 episodes earlier.
+*** She was also his first released Pokémon.
+** {{p|Paras}} and {{p|Parasect}} were the first {{type|Grass}} Pokémon that isn't a first partner Pokémon to be caught on-screen by one of Ash's friends since [[Brock's Ludicolo]], who was caught as a {{p|Lotad}} in ''[[AG012|The Lotad Lowdown]]'', 805 episodes earlier.
+*** They are also his first Grass-type.
+** {{p|Voltorb}} was the first [[Shiny Pokémon]] to be caught by a main character other than Ash since he caught his {{AP|Noctowl}} in ''[[EP154|Fowl Play!]]'', 1,012 episodes earlier.
+** {{p|Sandile}} was the first {{type|Ground}} to be caught by a main character other than Ash since [[Iris's Gible]], who was caught in [[BWS02]], almost six years earlier.
+*** It is also the first {{type|Dark}} to be caught by one of Ash's friends on-screen.
+*** In addition, it was his first Dark and Ground-type.
+** {{p|Nidoran♂}} was the first male-only Pokémon to be caught by a main character other than Ash.
+*** He was also his first male-only Pokémon.
+** {{p|Nidoran♀}} was his first female-only Pokémon.
+** {{p|Binacle}} was his first {{type|Rock}} and [[Generation VI]] Pokémon.
+** {{p|Floette}} was his first {{type|Fairy}} Pokémon.
+** {{p|Vibrava}} was his first {{type|Dragon}} Pokémon.
+** Alolan {{p|Exeggutor}} was his first [[Regional form]] Pokémon.
+** {{p|Regieleki}} is the only [[Legendary Pokémon]] residing at [[Cerise Laboratory]]. 
+** {{p|Arctozolt}} is the only Pokémon in {{aniseries|PTS}} to have used the move {{m|Bolt Beak}}.
+
+==Related articles==
+{{Goh's Pokémon}}
+{{Project Anime notice|no}}
+
+[[Category:Lists]]
+[[Category:Goh's Pokémon|*]]
+
+[[de:Goh/Pokémon]]
+[[es:Lista de Pokémon de Goh]]
+[[fr:Liste des Pokémon de Goh]]
+[[it:Elenco dei Pokémon di Goh]]
+[[ja:ゴウのポケモン一覧]]
+[[zh:小豪寄放在樱木研究所的宝可梦]]

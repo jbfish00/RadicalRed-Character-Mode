@@ -250,3 +250,36 @@ Darach | Darach | frontier | 4
 # Argenta TRIMMED: rental-facility Brain (Battle Factory/Hall) with no
 # documented team of his/her own in any game and no anime appearance ->
 # empty roster = unplayable, same rule as Prof. Ivy and Burnet.
+
+
+# Appended by the 2026-07-25 roster audit: Legends: Arceus cast
+# and any Battle Frontier Brains this game did not already carry.
+# APPEND ONLY -- a save stores the character index.
+Adaman | Adaman | rival | 8
+Akari | Akari (game) | protagonist | 8
+Arezu | Arezu | warden | 8
+Argenta | Argenta | frontier | 4
+Beni | Beni | villain | 8
+Calaba | Calaba | warden | 8
+Charm | Charm (Hisui) | villain | 8
+Clover | Clover | villain | 8
+Cogita | Cogita | other | 8
+Coin | Coin (Hisui) | villain | 8
+Cyllene | Cyllene | galaxy | 8
+Gaeric | Gaeric | warden | 8
+Ingo | Ingo | frontier | 5
+Irida | Irida | rival | 8
+Iscan | Iscan | warden | 8
+Kamado | Kamado | villain | 8
+Lian | Lian | warden | 8
+Mai | Mai | warden | 8
+Melli | Melli | warden | 8
+Palina | Palina | warden | 8
+Pesselle | Pesselle | galaxy | 8
+Rei | Rei (game) | protagonist | 8
+Ress | Ress | galaxy | 8
+Rye | Rye | galaxy | 8
+Sabi | Sabi | warden | 8
+Sanqua | Sanqua | galaxy | 8
+Thorton | Thorton | frontier | 4
+Zisu | Zisu | galaxy | 8

@@ -1,0 +1,751 @@
+{{redirect|Gou|the Pokémon Conquest character|Gō}} ''For other uses, see [[Go]].''
+----
+{{Character Infobox
+|color={{black 2 color}}
+|corecolor={{red color light}}
+|bordercolor={{red color}}
+|text=fff
+|name=Goh
+|jname={{tt|ゴウ|Gō}}
+|tmname=Go
+|image=Goh JN.png
+|size=150px
+|caption=Goh in ''[[Pokémon Journeys: The Series]]''
+|gender=Male
+|hair=Black with red highlights
+|eyes=Blue
+|age=10<ref>Goh's [https://www.pokemon.co.jp/tv_movie/anime/ character profile] (in Japanese) mentions that he is 10 years old.</ref>
+|hometown=[[Vermilion City]]
+|region=[[Kanto]]
+|relatives=[[Camille]] (mother), [[Walker]] (father),<br> [[Halta]] (grandmother)
+}}
+{{Character Infobox/Anime
+|color={{red color light}}
+|series=''[[Pokémon the Series]]''
+|debut=''[[JN001|Enter Pikachu!]]''
+|enva=[[Zeno Robinson]]
+|jpva=[[Daiki Yamashita]]<br>[[Kei Shindō]] <small>(age 6)</small>
+}}
+{{Character Infobox/Team
+|color={{red color light}}
+|member=[[Project Mew]]
+|rank=Chaser
+}}
+{{Character Infobox/Manga
+|color={{red color light}}
+|series=<!--''[[Daisuki ♥ Pocket Monsters]]''<br>-->''{{ma|Pokémon Journeys}}''
+|debut=<!--[[DPM0X]] <small>([[Daisuki ♥ Pocket Monsters|DPM]])</small><br>-->''[[JNM01|Legend? Check! Friends? Check!]]''<!-- <small>([[Pokémon Journeys (manga)|Journeys]])</small>-->
+}}
+{{Character Infobox/Game
+|color={{red color light}}
+|gen={{gen|VIII}}
+|games={{pkmn|GO}}, {{pkmn|Ga-Olé}}, {{pkmn|Mezastar}}
+|trainer=Vermilion City's <small>({{pkmn|Ga-Olé}}, {{pkmn|Mezastar}})</small>
+<!--|enva=N/A
+|jpva=[[Daiki Yamashita]]-->
+}}
+|}
+
+'''Goh''' (Japanese: '''ゴウ''' ''Go'') is one of the protagonists of {{aniseries|JN}} and a former {{ashfr|traveling companion}} of {{Ash}}. His goal is to {{pkmn2|caught|catch}} {{an|Mew}}, while his dream is to catch every {{OBP|Pokémon|species}}.
+
+==In animation==
+===History===
+====Pre-series====
+[[File:Young Goh.png|thumb|250px|Goh at the age of six]]
+Goh grew up in [[Vermilion City]] in the [[Kanto]] region with his parents, [[Camille]] and [[Walker]], and grandmother, [[Halta]]. Sometime later, Goh met [[Chloe]] and became his only friend growing up.
+
+As seen in ''[[JN001|Enter Pikachu!]]'', when he was six, Goh was invited by Chloe to go to {{an|Professor Oak}}'s Pokémon Summer Camp with her. During their visit to [[Pallet Town]], Goh and Chloe encountered the [[Mythical Pokémon]] {{an|Mew}}. The two chased after the unknown Pokémon, but it eventually got away in the aftermath of a baby {{p|Kangaskhan}} rescue. Professor Oak later told them the Pokémon they saw was most likely Mew. Motivated, Goh swore that he would become a [[Pokémon Trainer]] when he turned ten, and one day {{pkmn2|caught|catch}} Mew.
+
+As revealed in ''[[JN015|A Snow Day for Searching!]]'', Goh was always alone during his childhood because his parents were often very busy at work. Because of that, he always ended up staying at home alone waiting for them. During that time, he was always distracted by his constant online researching sessions. Despite this, he was always proud of what his family did. One day, at home, Goh met a wild {{p|Abra}} as it came to visit him and once led him to the park where he met a lot of Pokémon that he didn't know that lived there.
+
+[[JN032|Three years prior]], during a family trip to [[Azalea Town]], Goh befriended [[Horace]], who was looking for the Mythical Pokémon {{p|Celebi}}. Goh offered to help with the search, but as night closed in, the boys promised to meet up again the next day. However, Horace didn't show up, leading Goh to feel betrayed.
+
+===={{aniseries|JN}}====
+In ''[[JN002|Legend? Go! Friends? Go!]]'', Goh witnessed a {{p|Lugia}} appearing in the skies above [[Vermilion City]]. He chased Lugia down and managed to latch onto its tail, where he met another Trainer named {{Ash}}. Lugia allowed the boys to ride on its back as it soared through the skies and dived down into the ocean. Having bonded over the sights and the Pokémon they saw during the ride, Goh decided to accept Ash as his friend. After parting ways with Lugia, Goh and Ash returned to the [[Cerise Laboratory]], where they informed everyone about their encounter. Impressed by the information on Lugia that they brought back, [[Professor Cerise]] offered them a position as research fellows, which they accepted. Cerise later allowed Goh to pick from a set of [[Kanto first partner Pokémon]] for his debut as a Trainer, but Goh rejected all of them, stating he wanted his first Pokémon to be Mew.
+
+In ''[[JN003|Ivysaur's Mysterious Tower!]]'', Goh and Ash received their first task as research fellows: to investigate a sudden outbreak of {{p|Ivysaur}} and {{p|Bulbasaur}} in the city. To aid their mission, Cerise had two {{p|Rotom}} enter Goh and Ash's smartphones, upgrading each into a [[Rotom Phone]]. After following the Seed Pokémon to a {{OBP|Gym|GO}} under construction, Goh and Ash were attacked by {{TRT}}, who planned to steal the Ivysaur and Bulbasaur. Despite the powerful Pokémon they received from the [[Rocket Prize Master]], Team Rocket was defeated by [[Ash's Pikachu]] and sent blasting off. Goh and Ash then discovered that the Ivysaur had gone to the Gym to find a high place for them to absorb the sunlight needed to [[Evolution|evolve]] into {{p|Venusaur}}. They watched as the Evolution process released pollen into the air, making flowers around the city bloom.
+
+In ''[[JN004|Settling the Scorbunny!]]'', Goh and Ash traveled to the [[Galar]] [[region]] to research the [[Dynamax]] phenomenon. While they waited for the train to the [[Wild Area]] to arrive, Goh and Ash decided to eat some scones at a store in [[Wyndon]], only to have their food stolen by a wild {{TP|Goh|Scorbunny}} and its {{p|Nickit}} friends. After Ash battled and defeated Scorbunny, Goh bonded with it, even choosing to lie to the store owner by saying Scorbunny belonged to him when the Nickit stole more of his food. After hearing Scorbunny's backstory from the store owner, Goh gave it words of encouragement before he and Ash left. Goh and Ash eventually made it to their train, completely unaware that Scorbunny had taken a liking to Goh and started to follow him.
+[[File:Goh Kanto Bug Pokémon.png|thumb|250px|left|Goh with all the {{t|Bug}} Pokémon he caught in ''[[JN006|Working My Way Back to Mew!]]'']]
+In ''[[JN005|Mind-Boggling Dynamax!]]'', Goh and Ash made it to the Wild Area, where they encountered a large {{p|Snorlax}}. Mistakenly assuming its size was due to Dynamax, Goh and Ash tried studying the Sleeping Pokémon, only for Scorbunny to appear and interrupt them. Scorbunny wished to join Goh's team, but it was turned down as Goh still wanted his first Pokémon to be Mew. Snorlax then [[Gigantamax]]ed, making its body so large that it covered a nearby train track, putting it at risk of being hit by an incoming train. By teaming up with Scorbunny, Goh managed to get Snorlax to move by luring it with a [[Sitrus Berry]]. Praising its skill, Goh changed his mind about Mew and instead caught Scorbunny as his first Pokémon. After returning to the Cerise Laboratory, Goh introduced Scorbunny as his first-ever Pokémon to Professor Cerise.
+
+In ''[[JN006|Working My Way Back to Mew!]]'', Goh became inspired to fill up his [[Pokédex]] by catching lots of Pokémon as part of his quest to obtain Mew. Together with Ash, Goh traveled to a nearby forest, where he caught one of each {{type|Bug}} native to Kanto. The next day, Professor Cerise introduced Goh to the Cerise Park, allowing Goh to store any Pokémon he caught on his journey.
+[[File:Goh and Scorbunny first battle.png|thumb|250px|Goh and Scorbunny in their first battle]]
+In ''[[JN007|Serving Up the Flute Cup!]]'', Ash told Goh to come with him to the [[Hoenn]] {{gdis|Battle Frontier|III|Battle Frontier}}, where he entered them into the [[Battle Frontier Flute Cup]] tournament. Despite having the type advantage, Goh was defeated in the first {{pkmn|battle}} by [[Hodge]] without managing to land a single hit on his opponent. Frustrated by his loss, Goh decided that catching Pokémon was better than battling and ran off to continue filling up his Pokédex. He later returned in time to watch the final match between Ash and Hodge, which ended in Ash's victory. As they returned home, Goh apologized to Ash for his earlier outburst, having come to see battling in a new light through his observation of the final match.
+
+In ''[[JN012|Flash of the Titans!]]'', Goh and Ash watched the [[World Coronation Series]] at [[Wyndon Stadium]]. They watched as {{an|Leon}} defeated [[Lance]] in the finals and subsequently earned the title of Monarch. Shortly afterwards, a Gigantamax {{p|Drednaw}} attacked the stadium. In [[JN013|the next episode]], Goh and Ash battled Drednaw, but they were unable to harm it until Pikachu was accidentally exposed to Dynamax energy, causing him to Gigantamax as well. With guidance from Leon, Ash and Pikachu defeated Drednaw, reverting it back to its normal state. The next day, Goh watched as Ash had an unofficial battle with Leon that ended in the latter's victory. As they returned home, Ash revealed that he planned to enter the World Coronation Series and hopefully battle Leon again in the finals.
+
+In ''[[JN017|Kicking It from Here Into Tomorrow!]]'', Scorbunny attempted to use {{m|Ember}} after {{p|Darmanitan}} taunted it for being unable to use {{type|Fire}} moves. Goh told Scorbunny not to bother as he felt its current moveset was good enough. During a battle with Team Rocket, Scorbunny tried to use Ember despite not having mastered the move, but this led to it being defeated by Team Rocket's {{p|Chewtle}}. When Goh criticized Scorbunny for trying too hard, it ran off to go train by itself. Later, after another clash with Team Rocket, Goh finally understood Scorbunny's passion and told it to kick a pebble with its heated-up feet. This allowed Scorbunny to master Ember, who proceeded to evolve into a {{p|Raboot}} before sending Team Rocket blasting off again. When asked to celebrate with a high-five, Raboot simply ignored Goh and walked away.
+
+In ''[[JN022|Goodbye, Friend!]]'', while in [[Littleroot Town]], Raboot stopped a pair of {{p|Zigzagoon}} from stealing Ash's backpack. During their stay, Goh noticed that Raboot had been sneaking out at night, prompting him and Ash to follow it. They discovered that Raboot had befriended the Zigzagoon as well as a {{p|Lombre}} and had been spending the nights giving them dance lessons. When Raboot struggled against a {{p|Loudred}} trio in a dance battle for territory, Goh, Ash, and Pikachu stepped in to provide a beat for Raboot and its friends to dance to, enabling them to win the battle. The next day, Goh decided to leave Raboot in Hoenn, believing it would be happier with its new friends than with him. When Ash asked if he told Raboot first, Goh quickly regretted his decision. To his relief, Raboot had followed them onto the train. Afterwards, Goh and Raboot settled their differences and reconciled.
+
+In ''[[JN028|Sobbing Sobble!]]'', Goh encountered a {{TP|Goh|Sobble}} in Wyndon. He tried befriending the Water Lizard Pokémon, only for it to run away and hide by blending into its surroundings. Frustrated, Goh blindly threw a {{i|Poké Ball}} at the fountain Sobble was hiding in, accidentally catching it. Later, a failed attempt to catch a {{p|Silicobra}} led to Sobble running away. Goh and Ash eventually found Sobble captured by Team Rocket. After hearing Goh praise it despite its timid nature, Sobble broke free from its cage, only to be pinned down by one of Team Rocket's Pokémon, causing it to cry. Sobble's tears kept Team Rocket distracted long enough for Goh and Ash to send them blasting off.
+[[File:Goh Family.png|thumb|250px|left|Goh and his parents]]
+In ''[[JN032|Time After Time!]]'', Goh returned to [[Ilex Forest]] during another family vacation to [[Azalea Town]]. His anger towards Horace was resolved when he found a letter from him at the [[Ilex Forest shrine]], which explained why he didn't show up, and then reunited with Horace as he was passing through.
+
+In ''[[JN037|That New Old Gang of Mine!]]'', Goh and Ash arrived on [[Melemele Island]] in the [[Alola]] region. There, Goh met Ash's Alolan friends, {{an|Kiawe}}, {{an|Mallow}}, {{an|Lana}}, and {{an|Sophocles}}. After being challenged by Kiawe to see if he was worthy of being Ash's [[rival]], Goh denied this claim and stated he was Ash's friend and research fellow partner. The battle was called off after Goh's Raboot failed to stop [[Kiawe's Turtonator]]'s {{m|Inferno Overdrive}}. Despite Goh's loss, his refusal to back down even when attacked by a powerful [[Z-Move]] impressed Kiawe, who asked Goh to take care of Ash. Afterward, everyone spent time on an island, where Goh caught an {{rf|Alolan}} {{p|Exeggutor}}.
+[[File:Goh and Dynamax Band.png|thumb|250px|Goh and his Dynamax Band]]
+In ''[[JN042|Sword and Shield: Slumbering Weald!]]'', Goh and Ash were sent to Galar to investigate various incidents where Pokémon suddenly began Dynamaxing at random. Shortly after arriving, Goh and Ash chased a wild {{p|Bunnelby}} into the [[Slumbering Weald]], where they encountered {{p|Zamazenta}} and {{p|Zacian}}. Their attempts to catch and battle the two [[Legendary Pokémon]] ended in failure as they were merely illusions. After exiting the forest, Goh met with [[Sonia]] again and headed with her to investigate the ruins in [[Turffield]]. In [[JN043|the following episode]], Sonia took Goh to visit her grandmother [[Professor Magnolia]] to learn more about Dynamax. Goh later received a [[Dynamax Band]] from Sonia, which was fashioned from a [[Wishing Star]] they found outside. The next day, at the [[Stow-on-Side]] mural, Goh and Sonia were approached by [[Oleana's subordinate]], who aimed to stop the duo's research. Goh Dynamaxed Raboot to battle Oleana's subordinate's Gigantamax {{p|Garbodor}}, but the clash broke the mural, revealing a statue of Zacian and Zamazenta underneath.
+
+In ''[[JN044|Sword and Shield: "From Here to Eternatus!"]]'', after defeating Oleana's subordinate, Goh and Sonia fled the area and drove off to the Slumbering Weald. They called out to Zacian and Zamazenta, asking for their help in stopping the Darkest Day. Zacian and Zamazenta's illusions led them to the [[Rusted Sword]] and [[Rusted Shield|Shield]]. Goh took the weapons and went with Sonia to [[Hammerlocke]] to meet with Ash, but was stopped by [[Oleana]]. In [[JN045|the following episode]], Goh and Raboot defeated Oleana's {{p|Milotic}} after Raboot evolved into {{p|Cinderace}}, learning {{m|Pyro Ball}} in the process. Goh and Ash reunited on the top of [[Hammerlocke Stadium]], where they witnessed Leon losing to {{TP|Goh|Eternatus}}, the true identity of the Darkest Day. The Rusted Shield and Sword summoned Zamazenta and Zacian, who aided Goh and Ash in battling Eternatus. Once it was weakened enough, Goh managed to catch Eternatus, who was later sealed away by Professor Magnolia to prevent its power from causing more harm to Galar. With he crisis over, Goh and Ash returned to the Slumbering Weald, where they returned the Rusted Shield and Sword and thanked Zamazenta and Zacian for their assistance.
+
+In ''[[JN046|Getting More Than You Battled For!]]'', Goh and Ash traveled to [[Cero Island]] after Professor Cerise detected an energy signature similar to Mew coming from that location. They traversed the island and encountered {{OBP|Mewtwo|M01}}, a powerful Legendary Pokémon cloned from Mew. When questioned on how catching all Pokémon species would lead him to Mew, Goh explained his belief that capturing Pokémon helps understand them, and that catching all Pokémon would help him understand Mew since it has the genes of all Pokémon species. Goh and Ash challenged Mewtwo to a battle, but were unable to defeat it despite their best efforts. Mewtwo commended Goh and Ash's dedication to their goals and parted ways with the boys, bidding them farewell with the promise that their journeys had only just begun. It then teleported them back to the Cerise Laboratory, allowing them to retain their memories of the encounter.
+[[File:Goh and Suicune.png|thumb|250px|left|Goh and his Suicune]]
+In ''[[JN053|Healing the Healer!]]'', Goh and Ash went to [[Johto]], where multiple sightings of a {{TP|Goh|Suicune}} had been reported. When they found Suicune tied up by a group of {{OBP|Pokémon hunters|JN053}}, Goh used a Poké Ball to free Suicune from its bindings. To his shock, the Aurora Pokémon was actually captured, forcing Goh to go ahead and heal Suicune's injuries while Ash stayed behind to keep the hunters busy. While initially wary of the boy's kindness, Suicune began letting its guard down once it saw how much Goh wanted to help it. When Goh tried fighting the hunters' boss, Suicune stepped in to help and defeated the hunters. The hunters were arrested and Goh tried releasing Suicune, but it chose to stay with him. After being brought to Cerise Park, Suicune vanished and went back to roaming the world.
+
+In ''[[JN059|When a House is Not a Home!]]'', Goh found a {{TP|Goh|Grookey}} asleep with him in his bed. Goh tried to catch Grookey, only to find out it already had a Trainer. The following day, Goh and Ash went to find Grookey's Trainer, but were shocked to learn it came from the Rocket Prize Master and belonged to Team Rocket. When Team Rocket arrived, they discovered Grookey was theirs and recalled it before escaping. The next day, Goh attempted to return Grookey's stick, which was left behind when Team Rocket fled. He was soon reunited with Grookey, who revealed it wished to stay with him. Jessie tried to forcibly recall Grookey again, only for Pikachu to knock the Poké Ball out of her hand and give Grookey the chance to break it. Jessie and Goh both attempted to capture the now-released Grookey, but Grookey batted away the Team Rocket-branded Poké Ball, allowing Goh's Poké Ball to catch it.
+
+In ''[[JN068|Advice to Goh!]]'', Goh and Ash paid a visit to Professor Oak. Upon learning that Goh had registered Suicune in his Pokédex, Professor Oak suggested recommending Goh for [[Project Mew]], a research team dedicated to the search for Mew. Goh rejected the offer, stating he would much rather work on his goal alone. When Ash was told that his {{AP|Infernape}} had gone missing for several days, he and Goh went to go find it. While on the search, Goh and Ash encountered {{Gary}}, Ash's childhood friend and former [[rival]]. Gary revealed he was searching for the Legendary Pokémon {{p|Moltres}} and suggested that Infernape left the lab for the same reason. At a nearby valley, Goh and the others found Infernape calling out to Moltres for a battle. When Moltres answered the call, Goh, Ash, and Gary worked together to battle it. Though they failed to defeat Moltres, Gary obtained one of its feathers, successfully completing a Trial Mission he received from Project Mew. Later, after parting ways with Gary, Goh revealed he changed his mind and decided to join Project Mew after all.
+[[File:Goh rivals.png|thumb|250px|Goh with his fellow Project Mew Chasers Gary and Horace]]
+In ''[[JN071|Leaping Toward the Dream!]]'', Goh went to [[Sinnoh]] to officially join Project Mew with Ash accompanying him. However, after meeting [[Danika]] and [[Professor Amaranth]], Goh was informed that he had to pass a qualified mission in order to start getting Trail Missions, as his mission was to catch an {{rf|Alolan}} {{p|Ninetales}}, who was wound up in Sinnoh when it got captured and was subsequently lost by Pokémon Hunters. Goh accepted the mission as he went to [[Mount Coronet]] with Ash to find the Alolan Ninetales. Along the way, Goh and Ash met another member of Project Mew named [[Quillon]]. Through the help of his Pokémon, Goh was able to catch the Alolan Ninetales and qualify to get Trial Missions for Project Mew.
+
+Starting from ''[[JN080|Trial on a Golden Scale!]]'', Goh occasionally took on Project Mew Trial Missions. Initially, he preferred missions where he could act on his own, but eventually, he learned to cooperate in a team. The Trial Missions culminated in ''[[JN113|Chasing to the Finish!]]'' with Goh's capture of {{p|Regieleki}}, earning Goh enough Project Mew tokens to become a Chaser.
+
+In ''[[JN127|Just a Scone's Throw From Here!]]'', Goh received urgent summons from Project Mew and was forced to part ways with Ash just before the [[Masters Eight Tournament]] finals. Traveling to Hoenn, he reunited with the research team in ''[[JN129|A Flood of Torrential Gains!]]'' at [[Slateport City]], from where they departed to [[Faraway Island]]. Through many difficulties, the Chasers managed to find Mew, with Goh getting a chance to express his gratitude for it having served as a motivation for him ever since their first encounter. Mew even briefly appeared on Goh's palm before the research team was forced to leave the island due to worsening weather conditions. Professor Amaranth announced that Project Mew was now temporarily disbanded, though he did offer Goh, Horace, and Gary a chance to return as Chasers for the next expedition.
+
+After returning to Vermilion City in ''[[JN135|Heroes Unite!]]'', Goh revealed to Chloe that he intended to start traveling alone without having to rely on Ash, but struggled to say this to Ash. During a camping trip among Ash, Goh, and Chloe, Ash also announced his decision to travel alone, upsetting Goh. Fortunately, they managed to make up just in time before Lugia suddenly appeared before them. After a brief {{OBP|Raid Battle|GO}} against it, Ash and Goh rode on Lugia's back once more and reaffirmed their respective decisions to travel alone. As such, Goh chose to leave all of his Pokémon, save for Cinderace, Inteleon, and Grookey, at the Cerise Laboratory, and left the laboratory with Ash, parting ways with him soon after to explore the Kanto region. After meeting {{an|Misty}} at the [[Cerulean Gym]], he was seen in an unspecified town, continuing to catch new Pokémon.
+
+===Character===
+[[File:Goh anime.png|thumb|250px|left|Goh looking at his smartphone]]
+Goh is a stylish city boy who prefers to stay calm and collected, in contrast to the more instinctive and adventurous {{Ash}}. His overconfidence has left him isolated from other people, with the exception of his friends [[Chloe]] and Ash. According to Chloe, Goh has been known to skip school to wander around town, much to her chagrin. Despite his calm personality, he can become hot-blooded when his opinion is challenged, and he will not hesitate to defend others when he sees them being mistreated, which helped him bond with a {{pkmn2|wild}} {{TP|Goh|Scorbunny}} in ''[[JN004|Settling the Scorbunny!]]''. Goh likes to throw his [[Poké Ball]]s with a [[Catch rate (GO)|curve]], but his aim tends to be off. Though he seems athletic, Goh lacks good climbing skills despite his efforts to get better at it. He is highly knowledgeable about Pokémon, being fairly adept at information-gathering and analyzing, both of which are useful in gathering clues. Despite his deep knowledge of Pokémon, Goh is still a rookie Trainer and lacks experience, best evidenced by his tendency to throw Poké Balls at any Pokémon he encounters, rather than weaken them through battle as is the usual practice. This usually backfires on Goh in the long run. For example, in ''[[JN010|A Test in Paradise!]]'', he recklessly wasted all of the Poké Balls he was given to catch a single {{TP|Goh|Dewgong}}, which resulted in him being unable to catch the {{p|Dratini}} evolutionary line when he and Ash encountered them on Dragonite Island. His lack of expertise is also evidenced in his battles, where he shows a tactical, by-the-book approach of exploiting type advantages, but is unable to properly respond against more seasoned adversaries, which leads to a crushing defeat. Goh tends to yell "Go!" when sending out his Pokémon or throwing Poké Balls.
+
+[[File:Goh goal.png|thumb|250px|Goh's goal]]
+Goh's encounter with {{an|Mew}} when he was six inspired him to become a {{pkmn|Trainer}}, and he initially wanted Mew to be his [[first partner Pokémon]], even going as far as rejecting [[Professor Cerise]]'s first partner Pokémon in favor of the [[Mythical Pokémon]]. However, during his visit to [[Galar]], a wild Scorbunny took a liking to Goh as it followed him and Ash to the [[Wild Area]]. While Goh initially politely rejected Scorbunny, he soon changed his mind after working together with Scorbunny to solve a crisis involving a [[Gigantamax]] {{p|Snorlax}} and decided to make the Rabbit Pokémon as his first Pokémon partner instead. Goh and Scorbunny are alike as they both dislike losing their friends, especially one another. Goh and Scorbunny would high-five each other whenever something good happened.
+[[File:Goh catches a Pokémon.png|thumb|250px|left|Goh after catching a Pokémon]]
+Due to spending most of his life doing research at home, Goh lacked interacting with people and Pokémon, as he didn't have a lot of social skills. As a child in ''[[JN062|Not Too Close for Comfort!]]'', Goh used to be shy around people and wouldn't talk to them, and would sit out at night looking at the stars for comfort. When he was asked by his teacher as to why he wasn't interacting with the other kids, he wasn't able to answer her question because he didn't know why himself. Eventually, he learned to talk with people and was able to overcome his shyness. Goh also can get excited to see new places for the first time. Ever since the events in ''[[JN091|The Spectral Express!]]'', Goh developed a fear of ghosts and {{type|Ghost}} Pokémon, except for those he and his friends own.
+
+[[File:Ash Goh Chloe.png|thumb|250px|Goh with Ash and Chloe]]
+Goh shares a very close friendship with Chloe due to him knowing her since they were little. At times, Goh brushes off Chloe's concerns for him but knows that she is just looking out for him. When he was little, Goh only wanted Chloe as his friend and nobody else. However, after meeting and getting to know Ash, Goh realized he needed to make friends besides Chloe and accepted him as one. Goh's friendship with Ash is very strong, though they sometimes get competitive and annoyed with each other and even butt heads. Ever since the events in ''[[JN003|Ivysaur's Mysterious Tower!]]'', Goh seems to strongly admire Ash for his determination, passion, and compassion for Pokémon, especially the extraordinary bond he shares with his {{AP|Pikachu}}. Goh has occasionally taken inspiration from Ash, with the bond between Ash and Pikachu inspiring Goh to catch [[Goh's Raichu|his own]] in ''[[JN035|Gotta Catch a What?!]]'', as well as deciding to catch an {{p|Altaria}} in ''[[JN105|Reuniting for the First Time!]]'' after watching Ash battle against one in the [[JN104|previous episode]].
+
+Goh has changed significantly during his journey, particularly as a person and Trainer, but his knowledge and tendency to be overconfident have remained. Goh has also become open to new experiences and making new friends, especially those who used to travel with Ash. Goh has learned to put his Pokémon happiness and needs first before himself, and would help them solve or work out their problems. In addition, Goh has improved his battling skills, even using some of Ash's tactics for battling. However, despite his growth, Goh struggled with teamwork, as shown in ''[[JN068|Advice to Goh!]]'', when he declined to join [[Project Mew]] because of this reason, but changed his mind when {{Gary}} motivated him to do so. This was shown again in ''[[JN102|Battling in the Freezing Raid!]]'', when Goh's attempt to defeat {{p|Articuno}} in a {{OBP|Raid Battle|GO}} on his own nearly caused him to fail the [[Field Research|Trial Mission]]. As time passed, Goh learned about teamwork, to the point that he was willing to work together with others, as seen with [[Horace]] in ''[[JN110|Narrowing the Chaser Chase!]]'' and Gary in ''[[JN113|Chasing to the Finish!]]''.
+{{-}}
+
+===Pokémon===
+[[File:Goh Galar first partners.png|thumb|250px|left|Goh's current [[party]]]]
+Because one of his goals is to {{pkmn2|caught|catch}} every {{OBP|Pokémon|species}} and complete his [[Pokédex]], Goh catches a lot of Pokémon species, including multiple members of the same [[Evolution|evolutionary line]] and Pokémon that have [[List of Pokémon with branched Evolutions|branched Evolutions]], as well as Pokémon that have [[form]] differences and a [[regional form]]. Currently, Goh is known to own 108 Pokémon, with 115 or 116<ref group="lower-alpha">The identity of Goh's last on-screen capture has not been revealed.</ref> unique Pokémon species registered in his Pokédex. During his journey, Goh has encountered some Trainers with similar goals, such as [[Shane Seeker]], who seeks to capture all [[Shiny Pokémon]], and [[Kricketina Kylie]], a {{type|Bug}} Pokémon collector.
+
+In ''[[JN006|Working My Way Back to Mew!]]'', Goh managed to capture all [[Generation I]] Bug-type Pokémon, which, according to Kricketina Kylie, makes him Kanto's "Bug Pokéking". During his research, Goh has access to several of his Pokémon, rotating between them. As of ''[[JN136|This Could be the Start of Something Big!]]'', Goh decided to take a journey through the [[Kanto]] region, leaving all of his Pokémon (with the exception of the [[Galar first partner Pokémon]]) at the [[Cerise Laboratory]].
+
+This listing is of Goh's known {{OBP|Pokémon|species}} in {{aniseries|PTS}}:
+{{-}}
+
+====On hand====
+{| width="100%"
+| {{ActivePoké|Goh|Cinderace|Goh Cinderace.png|fire|fir=Scorbunny|mid=Raboot}} [[File:Dynamax icon.png|25px|link=Dynamax]]
+| {{ActivePoké|Goh|Inteleon|Goh Inteleon.png|water|fir=Sobble|mid=Drizzile}}
+| {{ActivePoké|Goh|Grookey|Goh Grookey.png|grass}}
+|
+|}
+
+====Traveling with====
+{| width="100%"
+|-
+| {{ActivePoké|||nick=Rotom Phone|Goh Rotom Phone.png|electric|ghost|link=Rotom Phone}}
+|
+|
+|}
+
+====With Professor Cerise====
+This section shows the Pokémon that Goh keeps at [[Cerise Laboratory]].
+{| width="100%"
+|-
+| {{InactivePoké|Goh|Caterpie|Goh Caterpie.png|bug|size=200px}}
+| {{InactivePoké|Goh|Venomoth|Goh Venomoth.png|bug|poison|size=200px}}
+| {{InactivePoké|Goh|Butterfree|Goh Butterfree.png|bug|flying|size=200px}} ♂
+| {{InactivePoké|Goh|Pinsir|Goh Pinsir.png|bug|size=200px}}
+|-
+| {{InactivePoké|Goh|Beedrill|Goh Beedrill.png|bug|poison|size=200px}}
+| {{InactivePoké|Goh|Scizor|Goh Scizor.png|bug|steel|fir=Scyther|size=200px}}
+| {{InactivePoké|Goh|Taillow|Goh Taillow.png|normal|flying|size=200px}}
+| {{InactivePoké|Goh|Mantyke|Goh Mantyke.png|Water|Flying|size=200px}}
+|-
+| {{InactivePoké|Goh|Misdreavus|Goh Misdreavus.png|Ghost|size=200px}}
+| {{InactivePoké|Goh|Dewgong|Goh Dewgong.png|Water|Ice|size=200px}}
+| {{InactivePoké|Goh|Greedent|Goh Greedent.png|Normal|fir=Skwovet|size=200px}}
+| {{InactivePoké|Goh|Darmanitan|Goh Darmanitan.png|fire|size=200px}}
+|-
+| {{InactivePoké|Goh|Golurk|Goh Golurk.png|ground|ghost|size=200px}}
+| {{InactivePoké|Goh|Cubone|Goh Cubone.png|ground|size=200px}}
+| {{InactivePoké|Goh|Grimer|Goh Grimer.png|poison|size=200px}}
+| {{InactivePoké|Goh|Farfetch'd|Goh Farfetch'd.png|Normal|flying|size=200px}}
+|-
+| {{InactivePoké|Go|Magikarp (giant)|Goh giant Magikarp.png|water|link=Goh's giant Magikarp|nick=Magikarp|size=200px}}
+| {{InactivePoké|Goh|Heracross|Goh Heracross.png|Bug|fighting|size=200px}} ♂
+| {{InactivePoké|Goh|Raichu|Goh Raichu.png|electric|fir=Pikachu|size=200px}} ♀
+| {{InactivePoké|Goh|Trapinch|Goh Trapinch.png|ground|size=200px}}
+|-
+| {{InactivePoké|Goh|Flygon|Goh Flygon.png|ground|dragon|size=200px}}
+| {{InactivePoké|Goh|Pyukumuku|Goh Pyukumuku.png|water|size=200px}}
+| {{InactivePoké|Goh|Aerodactyl|Goh Aerodactyl.png|rock|flying|fir=Old Amber|size=200px}}
+| {{InactivePoké|Goh|Boldore|Goh Boldore.png|rock|size=200px}}
+|-
+| {{InactivePoké|Goh|Absol|Goh Absol.png|dark|size=200px}}
+| {{InactivePoké|Goh|Panpour|Goh Panpour.png|water|size=200px}}
+| {{InactivePoké|Goh|Frogadier|Goh Frogadier.png|water|fir=Froakie|size=200px}}
+| {{InactivePoké|Goh|{{color|fff|List of Goh's Pokémon}}|Goh Pokémon.png|black 2|red|link=List of Goh's Pokémon|size=200px}}	
+|}
+
+====Roaming the world====
+{| width="100%"
+|-
+| {{InactivePoké|Goh|Suicune|Goh Suicune.png|water|size=200px}}
+|
+|
+|}
+
+====Released====
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Floette
+|stage1=Flabébé
+|type1=Fairy
+|gender=female
+|img=Goh Flabébé White Flower.png
+|cap=Goh's White Flower Flabébé
+|img2=Goh Floette White Flower.png
+|cap2=Goh's White Flower Floette
+|epnum=JN025
+|epname=A Festival Reunion!
+|vajp=Marina Aicholtz
+|vaen=Marina Aicholtz
+|desc={{DL|List of Pokémon with form differences|Flabébé, Floette, and Florges|White Flower}} {{p|Floette}} was encountered in [[Shalour City]] as a {{p|Flabébé}}, but her capture was not confirmed until ''[[JN031|The Cuteness Quotient!]]''. In ''[[JN066|Under Color of Darkness!]]'', her flower was revealed to have lost a petal, causing her to be unable to fly properly on it anymore. Ash and Goh traveled to [[Kalos]] to find a new flower for her, eventually succeeding. Almost immediately afterwards, she evolved into Floette. Goh then decided to {{pkmn2|released|release}} her so that she could grow and protect a garden of white flowers for other Flabébé.
+
+Floette's only known move is {{m|Grassy Terrain}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Ninetales
+|type1=Ice
+|type2=Fairy
+|img=Goh Alolan Ninetales.png
+|epnum=JN071
+|epname=Leaping Toward the Dream!
+|vajp=Risa Shimizu
+|vaen=Emily Jenness
+|desc=This {{rf|Alolan}} {{p|Ninetales}} is a Pokémon that was originally stolen from its home on [[Mount Lanakila]] by [[Pokémon hunter]]s. It managed to get away from them when their plane crashed, and wound up on [[Mount Coronet]] in [[Sinnoh]], as it reminded it of its home. Goh was tasked by [[Project Mew]] to catch it so that it could be returned to its home. Goh failed to catch it during his initial encounter with it, but during the second encounter, he managed to convince it to let itself be caught so that it could be taken back home.
+
+In ''[[JN080|Trial on a Golden Scale!]]'', Project Mew members took Ninetales back to [[Alola]].
+
+Ninetales's known moves are {{m|Ice Beam}}, {{m|Blizzard}}, {{m|Dazzling Gleam}}, and {{m|Aurora Veil}}.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Cyndaquil
+|type1=Fire
+|img=Goh Cyndaquil.png
+|epnum=JNS01
+|epname=The Arceus Chronicles (Part 1)
+|vajp=
+|vaen=
+|desc={{p|Cyndaquil}} was caught by Goh during the [[Sinnoh Festival]] in [[Canalave City]] to demonstrate [[Hisui|ancient Sinnohan]] {{hi|Poké Ball}}s. It was released afterward.
+
+Cyndaquil's only known move is {{m|Flamethrower}}.}}
+
+====Traded away====
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Pinsir
+|type1=Bug
+|img=Goh second Pinsir.png
+|cap=Goh's second Pinsir
+|epnum=JN033
+|epname=Trade, Borrow, and Steal!
+|vajp=List of Japanese voice actors{{!}}Tatsuki Kobe
+|vaen=List of Japanese voice actors{{!}}Tatsuki Kobe
+|desc={{p|Pinsir}} was encountered in [[Vermilion Forest]]. [[Kricketina Kylie]] originally intended to {{pkmn2|caught|catch}} it for herself, but due to her being trapped in one of {{TRT}}'s nets, Goh was forced to catch it instead. He later [[trade]]d it for one of Kricketina's {{TP|Goh|Heracross}}.
+
+None of Pinsir's moves are known.}}
+
+====Given away====
+{{TrainerPoké
+|main=yes
+|trainer=Leon
+|pkmn=Eternatus
+|type1=Poison
+|type2=Dragon
+|img=Goh Eternatus.png
+|img2=Eternatus Eternamax anime.png
+|epnum=JN012
+|epname=Flash of the Titans!
+|vajp=
+|vaen=
+|desc={{p|Eternatus}} first appeared in ''[[JN012|Flash of the Titans!]]'', where it flew past a plane that Ash and Goh were riding to [[Galar]].
+
+In ''[[JN044|Sword and Shield: "From Here to Eternatus!"]]'', Eternatus was revealed to have been captured by [[Macro Cosmos]] and placed inside the [[Energy Plant]] core. After it escaped, [[Rose]] urged {{an|Leon}} to catch it. In [[JN045|the next episode]], Leon's attempt to catch Eternatus failed, and it subsequently turned into its {{DL|List of Pokémon with form differences|Eternatus|Eternamax}} form. With the help of {{p|Zacian}} and {{p|Zamazenta}}, Ash and Goh defeated Eternatus, after which they threw one of Goh's {{i|Poké Ball}}s at it together, catching it. Eternatus's Poké Ball was subsequently sealed away by [[Professor Magnolia]].
+
+In ''[[JN127|Just a Scone's Throw From Here!]]'', Eternatus was revealed to have been unsealed, with Professor Magnolia, [[Sonia]], and Leon hoping to achieve coexistence between it and the people of Galar. As such, Goh decided to entrust Eternatus to Leon, who accepted the offer.}}
+
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Dugtrio
+|type1=Ground
+|img=Goh Dugtrio.png
+|epnum=JN052
+|epname=How Are You Gonna Keep 'Em Off of the Farm?
+|vajp=
+|vaen=Marc Thompson
+|desc={{p|Dugtrio}} was the leader of a group of {{p|Diglett}} that were eating the crops at [[Laxton Farm]]. It was ultimately caught by Goh in order to stop them. However, after Goh realized Diglett and Dugtrio also help cultivate the soil, he gave Dugtrio to [[Laxton]] so that it could continue to work for the benefit of the farm.
+
+Dugtrio's known moves are {{m|Dig}}, {{m|Bulldoze}}, and {{m|Sand Tomb}}.}}
+
+====Status unknown====
+{{TrainerPoké
+|trainer=Goh
+|pkmn=Kingdra
+|type1=Water
+|type2=Dragon
+|img=Goh Kingdra.png
+|epnum=JN088
+|epname=Looking Out for Number Two!
+|vajp=
+|vaen=
+|desc={{p|Kingdra}} was targeted by Goh for his second [[Project Mew]] [[Field Research|Trial Mission]]. After locating it in an underwater cave off the coast of [[Slateport City]], he battled against it and managed to catch it. When Ash and Goh's air supply started to run out, Goh had Kingdra propel them to the surface.
+
+Kingdra has not been seen since its debut episode, making it unclear whether Goh kept it following the Trial Mission.
+
+Kingdra's only known move is {{m|Dragon Breath}}.}}
+
+====Temporary====
+{{TrainerPoké
+|trainer=Ash
+|pkmn=Pikachu
+|type1=Electric
+|gender=male
+|main=yes
+|img=Goh Ash Pikachu.png
+|cap=Goh with Ash's Pikachu
+|epnum=EP001
+|epname=Pokémon - I Choose You!
+|vajp=Ikue Otani
+|vaen=Ikue Otani
+|desc=In ''[[JN026|Slowking's Crowning!]]'', Goh had {{p|Pikachu}} use {{m|Thunderbolt}} to try and force open a {{p|Shellder}} that a {{p|Slowking}} had placed on {{Ash}}'s head, causing him to act strangely. However, Ash was able to dodge the attack, and the Thunderbolt hit a group of {{p|Slowpoke}} instead.
+
+In ''[[JN072|Everybody's Doing the Underground Shuffle!]]'', Goh and Pikachu wound up separated from Ash, {{TP|Goh|Grookey}}, [[Chloe]], and {{TP|Chloe|Eevee}} while running away from {{TRT}} in a {{p|Durant}} nest under [[Driftveil City]]. While looking for their friends, Goh used Pikachu to battle a {{p|Seismitoad}}, but Pikachu kept taking the initative before Goh could command him, preventing Goh from catching it. Goh and Pikachu later battled a Durant, but were forced to flee when a swarm overtook them.}}
+
+{{TrainerPoké
+|trainer=Mr. Norris
+|pkmn=Sunflora
+|type1=Grass
+|img=Goh Mr. Norris Sunflora.png
+|epnum=JN032
+|epname=Time After Time!
+|vajp=
+|vaen=
+|desc={{p|Sunflora}} was borrowed from [[Mr. Norris]] to help Goh and [[Horace]] pass through tall grass in [[Ilex Forest]] when they were younger.
+
+Sunflora's only known move is {{m|Razor Leaf}}.}}
+
+===Achievements===
+=====Project Mew=====
+Goh has completed the following [[Field Research|Trial Missions]]:
+* Collect {{p|Volcarona}}'s golden scales - 1 Project Mew Token (''[[JN080|Trial on a Golden Scale!]]'')
+* Catch a {{pkmn2|wild}} {{p|Kingdra}} - 1 Project Mew Token (''[[JN088|Looking Out for Number Two!]]'')
+* {{OBP|Raid Battle|GO}} against {{p|Articuno}} - 3 Project Mew Tokens (''[[JN102|Battling in the Freezing Raid!]]'')
+* [[Sea Mauville]] battle royale - 2 Project Mew Tokens (''[[JN110|Narrowing the Chaser Chase!]]'')
+* Catch {{p|Regieleki}} and {{p|Regidrago}} - 3 Project Mew Tokens (''[[JN113|Chasing to the Finish!]]'')
+
+=====Pokémon competitions=====
+[[File:Ash Goh Pokémon Catch Adventure Race trophy.png|thumb|250px|Goh after winning the Pokémon Catch Adventure Race with Ash]]
+Goh has competed in the following {{cat|Pokémon competitions}}:
+* [[Battle Frontier Flute Cup]] - Top 8 (''[[JN007|Serving Up the Flute Cup!]]'')
+* [[Pokémon Iceberg Race]] - {{tt|N/A|Race cancelled}} (''[[JN008|The Sinnoh Iceberg Race!]]'')
+* [[Magikarp High Jump Competition]] - Runner-Up (''[[JN026|Splash, Dash, and Smash for the Crown!]]'')
+* [[Pokémon Grand Eating Contest]] - Winner (''[[JN047|Crowning the Chow Crusher!]]'')
+* [[Castle of Chivalry]] Challenge - Winner (with {{Ash}}; ''[[JN056|Searching for Chivalry!]]'')
+* [[Marine Athletic Race|Kids Marine Athletic Race]] - Unknown{{tt|*|Goh crossed the finish line at the same time as Ash, but his Dewgong was not with him}} (''[[JN063|On Land, In the Sea, and to the Future!]]'')
+* [[Pokémon Catch Adventure Race]] - Winner (with Ash; ''[[JN076|All Out, All of the Time!]]'')
+* [[All-Alcremie Decoration Challenge]] - DNF (''[[JN082|The Sweet Taste of Battle!]]'')
+{{-}}
+
+===Main outfit===
+[[File:Goh JN.png|thumb|x300px|Goh's main outfit]]
+Goh's main outfit consists of a gray short-sleeved top with a Poké Ball design and red brims, black tracksuit pants, red socks, and a pair of gray and black shoes. In ''[[JN043|Sword and Shield: The Darkest Day!]]'', Goh received a [[Dynamax Band]] from [[Sonia]] that she made from the [[Wishing Star]] that fell close to them. However, like Ash, Goh doesn't wear his Dynamax Band all the time unless he was battling in [[Galar]].
+
+===Other outfits===
+====Costumes====
+* In ''[[JN098|Out of Their Elements!]]'', Goh wore a black and yellow shirt with a red jacket, and a dark grey hat with a green hatband in the shape of {{p|Grookey}}'s hair tufts. He also wore a pair of dark-gray pants, light-gray boots, and a piece of purple paint on one side of his face while performing at a circus.
+
+====Other clothing====
+* In ''[[JN010|A Test in Paradise!]]'', ''[[JN046|Getting More Than You Battled For!]]'', ''[[JN084|An Adventure of Mega Proportions!]]'', ''[[JN088|Looking Out for Number Two!]]'', ''[[JN102|Battling in the Freezing Raid!]]'', and ''[[JN110|Narrowing the Chaser Chase!]]'', Goh wore a red life jacket with an orange stripe in the middle.
+* In ''[[JN014|Raid Battle in The Ruins!]]'', ''[[JN036|Making Battles in the Sand!]]'', and ''[[JN095|The Good, The Bad, and The Lucky!]]'', Goh wore a pair of [[Go-Goggles]].
+* In ''[[JN028|Sobbing Sobble!]]'' and ''[[JN088|Looking Out for Number Two!]]'', Goh wore a pair of blue goggles.
+* In ''[[JN052|How Are You Gonna Keep 'Em Off of the Farm?]]'', Goh wore a grey cap with red highlights, a red jacket with grey cuffs, and grey and red Wellington boots.
+* In ''[[JN056|Searching for Chivalry!]]'', Goh wore a knight's armor complete with a knight's helmet with a red plume.
+* In ''[[JN082|The Sweet Taste of Battle!]]'', Goh wore a light-pink apron while participating in the [[All-Alcremie Decoration Challenge]].
+
+====Regular clothes====
+* In ''[[JN001|Enter Pikachu!]]'', ''[[JN005|Mind-Boggling Dynamax!]]'', ''[[JN015|A Snow Day for Searching!]]'', ''[[JN020|Dreams Are Made of These!]]'', ''[[JN032|Time After Time!]]'', ''[[JN046|Getting More Than You Battled For!]]'', ''[[JN068|Advice to Goh!]]'', ''[[JN134|In the Palms of our Hands!]]'', and ''[[JN135|Heroes Unite!]]'', Goh when he was at the age of six wore a light gray shirt with red on both sleeves and a picture of a {{p|Gengar}} in the middle. He also wore dark gray shorts and shoes.
+* In ''[[JN032|Time After Time!]]'', a flashback of Goh when he was younger has him wearing a red and light gray shirt with a pocket in the middle, and gray capris. He also wore a pair of gray and black shoes.
+* In ''[[JN055|The Tale of You and Glimwood Tangle!]]'', Goh wore two pink scarfs and hat with his regular clothes.
+* In ''[[JN069|Errand Endurance!]]'', Goh wore [[Ash's hat]] and vest with his regular clothes.
+* In ''[[JN093|It's All in the Name!]]'', Goh wore [[Ren]]'s lab coat with his regular clothes.
+* In ''[[JNS01|The Arceus Chronicles (Part 1)]]'', Goh wore an outfit similar to {{ga|Rei}}'s for the [[Sinnoh Festival]].
+* In ''[[JN133|The Mew from Here!]]'' and ''[[JN134|In the Palms of our Hands!]]'', Goh wore a khaki and dark grey Chaser outfit with a red collar while searching for {{an|Mew}} with [[Project Mew]].
+
+====Sleepwear====
+* In ''[[JN003|Ivysaur's Mysterious Tower!]]'', ''[[JN004|Settling the Scorbunny!]]'', ''[[JN006|Working My Way Back to Mew!]]'', ''[[JN016|A Chilling Curse!]]'', ''[[JN020|Dreams Are Made of These!]]'', ''[[JN022|Goodbye, Friend!]]'', ''[[JN042|Sword and Shield, Slumbering Weald!]]'', ''[[JN052|How Are You Gonna Keep 'Em Off of the Farm?]]'', ''[[JN058|A Rollicking Roll…]]'',  ''[[JN059|When a House is Not a Home!]]'', ''[[JN078|Detective Drizzile!]]'', ''[[JN106|Radio Lulled the Mischievous Stars!]]'' and ''[[JN122|It's... Champion Time!]]'', Goh wears a silver and gray T-shirt with a print design of a square compass in a Poké Ball design along with gray sweat shorts with red drawstrings as pajamas.
+* In ''[[JN021|Caring for a Mystery!]]'', Goh wears the same silver and gray T-shirt with a different print design of a blue silhouette of an {{p|Articuno}} (which looks similar to the one on the [[Blanche|Team Mystic]] emblem from {{g|GO}}) encased in a square Poké Ball design along with the same gray sweat shorts with red drawstrings as pajamas.
+* Whenever Goh and Ash (sometimes Chloe) sleep in at a [[Pokémon Center]] in ''[[Pokémon Journeys: The Series]]'', they wear a set of cream-colored pajamas with brown buttons and a brown stripe in a Poké Ball fashion on the front pocket, first seen in ''[[JN038|Restore and Renew!]]''. He wore them again in ''[[JN066|Under Color of Darkness!]]'', ''[[JN074|Nightfall? Nightmares!]]'', and ''[[JN085|Battle Three With Bea!]]''.
+
+====Uniforms====
+* In ''[[JN049|To Train, or Not to Train!]]'', a flashback scene in ''[[JN063|Not Too Close for Comfort!]]'', and ''[[JN087|Breaking the Ice!]]'', Goh wore a male school uniform similar to those worn by Chloe and the female students of [[Vermilion City school|their school]].
+* In ''[[JN067|Sleuths for Truth!]]'', Goh, along with Ash, wore a male police officer uniform similar to the one that the [[Officer Jenny]] of [[Vermilion City]] wears.
+* In ''[[JN074|Nightfall? Nightmares!]]'', Goh, along with Ash, had a dream where he wore the same Team Rocket uniform James wears, but the red "R" on the front in the English dub is an "S" in the Japanese version.
+
+====Outdoor gear====
+=====Snow wear=====
+* In ''[[JN008|The Sinnoh Iceberg Race!]]'', ''[[JN015|A Snow Day for Searching!]]'', ''[[JN057|Memories of a Warming Kindness!]]'', and ''[[JN113|Chasing to the Finish!]]'', Goh wears a gray jacket based on his shirt, with a red zip and the same Poké Ball design on the front right. He also wore it in ''[[JN111|The Homecoming Crown!]]'' and the fourth version of the Japanese opening to ''[[Pokémon Journeys: The Series]]'', [[One, Two, Three]] along with grey snow pants, a yellow beanie with a red pom-pom on top, and brown shoes.
+* In ''[[JN071|Leaping Toward the Dream!]]'' and in the fourth version of the Japanese opening to ''[[Pokémon Journeys: The Series]]'', [[One, Two, Three]], Goh wore orange exploration gear that are very similar to the ones in [[The Crown Tundra]] expansion in [[Pokémon Sword and Shield]].
+
+=====Swimwear=====
+* In ''[[JN037|That New Old Gang of Mine!]]'' and ''[[JN088|Looking Out for Number Two!]]'', Goh wears a pair of black swim trunks with a red stripe running down both sides.
+* In ''[[JN063|On Land, In the Sea, and to the Future!]]'', when he, Ash and Chloe competed in the [[Marine Athletic Race]], Goh wears a blue and red wetsuit with a small grey Poké Ball print and zip-up pocket pouches on the side, along with blue goggles.
+* In ''[[JN064|Absol Absolved!]]'', Goh wears a pair of red swim trunks with a grey stripe running down both sides.
+* In ''[[JN088|Looking Out for Number Two!]]'', Goh wore a blue and red scuba gear.
+
+====Gallery====
+<gallery widths="200">
+Goh School Uniform.png|Goh's school uniform
+Ash Goh police uniform.png|Goh's police unform
+Ash Goh Team Rocket Uniform.png|Team Cerise uniform (original version)
+JN074 dub edit.png|Team Cerise uniform (dub version)
+File:Ash and Goh Sinnoh Festival outfits.png|Goh in his Sinnoh Festival outfit
+</gallery>
+
+===Voice actors===
+{{vatable
+| color = {{black 2 color}}
+| bordercolor = {{red color dark}}
+| textcolor = fff
+| ja = 山下大輝 ''[[Daiki Yamashita]]''<br>真堂圭 ''[[Kei Shindō]]'' (age 6)
+| en = [[Zeno Robinson]]
+| ar = لمى مرعشلي ''Lama Maraachli''
+| cs = Jan Battěk
+| fi = Rasmus Kärkkäinen
+| hi = Lohit Sharma
+| de = Tobias John von Freyend
+| he = נעמה שטרית ''Naama Chetrit''
+| tr = Harun Can
+| el = Δημήτρης Σάρλος ''Dimitris Sarlos''
+| id = Marin Ifa Hasmarina
+| it = Richard Benitez
+| zh_cmn = 詹雅菁 ''Zhān Yǎjīng''
+| fr_eu = Pierre Le Bec<br>Sophie Pyronnet (age 6)
+| ko = 송하림 ''Harim Song''
+| no = Erik Daniel Aubert
+| pl = Piotr Janusz
+| pt_br = Renan Vidal
+| pt_eu = Teresa Arcanjo
+| ru = Ольга Шорохова ''Olga Shorokhova''
+| es_la = Diego Becerril<br>Mateo Toledo (age 6; [[JN001]])
+| es_eu = Jon Samaniego
+| uk = Дмитро Зленко ''Dmytro Zlenko''
+| vi = Nguyễn Thụy Thùy Tiên
+| da = Helmer Solberg
+| nl = Roben Mitchell van den Dungen Bille
+| zh_yue = 盧曉彤
+| ca = Àlex Pardo
+}}
+
+==In the manga==
+[[File:Goh DPM.png|thumb|200px|Goh in [[Daisuki ♥ Pocket Monsters]]]]
+===Daisuki ♥ Pocket Monsters===
+Goh appears as a character in [[Daisuki ♥ Pocket Monsters]].
+
+====Pokémon====
+{| width="50%"
+| {{ActivePoké|Goh|Scorbunny|Goh Scorbunny Daisuki.png|fire|size=200px}}
+|
+|
+|}
+
+===Pokémon Journeys===
+[[File:Goh JNM.png|thumb|120px|Goh in Pokémon Journeys]]
+Goh appears as a main character in the {{ma|Pokémon Journeys}} {{pkmn|manga}}, playing the same role as he does in the animated series.
+
+====Pokémon====
+=====On hand=====
+{| width="80%"
+| {{ActivePoké|Goh|Cinderace|Goh Cinderace JNM.png|fire|fir=Scorbunny|mid=Raboot|size=150px}}
+| {{ActivePoké|Goh|Inteleon|Goh Inteleon JNM.png|water|fir=Sobble|mid=Drizzle|size=100px}}
+| {{ActivePoké|Goh|Grookey|Goh Grookey JNM.png|Grass|size=130px}}
+|
+|}
+
+=====Kept at Cerise Park=====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Goh|Caterpie|Goh Bug Pokémon JNM.png|bug|size=100px}}
+| {{ActivePoké|Goh|Butterfree|Goh Bug Pokémon JNM.png|bug|flying|size=100px|link=List of Goh's Pokémon#Butterfree}} ♂
+| {{ActivePoké|Goh|Weedle|Goh Bug Pokémon JNM.png|bug|poison|size=100px|link=List of Goh's Pokémon#Weedle}}
+| {{ActivePoké|Goh|Kakuna|Goh Bug Pokémon JNM.png|bug|poison|size=100px|link=List of Goh's Pokémon#Kakuna}}
+| {{ActivePoké|Goh|Beedrill|Goh Bug Pokémon JNM.png|bug|poison|size=100px}}
+|-
+| {{ActivePoké|Goh|Parasect|Goh Bug Pokémon JNM.png|Bug|Grass|size=100px|link=List of Goh's Pokémon#Paras}}
+| {{ActivePoké|Goh|Pinsir|Goh Bug Pokémon JNM.png|Bug|size=100px}}
+| {{ActivePoké|Goh|Scizor|Goh Scizor JNM.png|Bug|Steel|size=100px|fir=Scyther}}
+| {{ActivePoké|Goh|Darmanitan|Goh Darmanitan JNM.png|Fire|size=100px}}
+| {{ActivePoké|Goh|Flygon|Goh Flygon JNM.png|Ground|Dragon|size=100px}}
+|-
+| {{ActivePoké|Goh|Misdreavus|Goh Misdreavus JNM.png|ghost|size=100px}}
+| {{ActivePoké|Goh|Aerodactyl|Goh Aerodactyl JNM.png|rock|flying|size=50px}}
+| {{ActivePoké|Goh|Ninetales|Goh Ninetales JNM.png|ice|fairy|size=100px|link=Goh#Alolan Ninetales}}
+| {{ActivePoké|Goh|Nidoran♀|Goh Nidoran JNM.png|poison|size=100px|link=List of Goh's Pokémon#Nidoran♀}}
+| {{ActivePoké|Goh|Nidoran♂|Goh Nidoran JNM.png|poison|size=100px|link=List of Goh's Pokémon#Nidoran♂}}
+|}
+{{-}}
+
+=====Roaming=====
+{| width="80%""
+|-
+| {{ActivePoké|Goh|Suicune|Goh Suicune JNM.png|water|size=150px}}
+|
+|
+|}
+
+=====Sealed away=====
+{| width="80%""
+|-
+| {{ActivePoké|Goh|Eternatus|Goh Eternatus JNM.png|poison|dragon|size=150px}}
+|
+|
+|}
+
+====Achievements====
+Goh has competed in the following competitions:
+* [[Battle Frontier Flute Cup]] - Top 8 (''[[JNM03|Battle Frontier Challenge: The Flute Cup!]]'')
+
+==In the games==
+===[[Pokémon GO]]===
+Goh appears in an event based on ''[[Pokémon Journeys: The Series]]'' from November 6, 2020 to November 12, 2020, as the character's clothes are available for the player's avatar. Just as during this period, an image of Goh appears during Photo Bomb, when this occurs a {{TP|Goh|Scyther}} appears to be captured. Other Pokémon based on Goh's captures during the series also appeared more in the wild, such as {{TP|Goh|Golurk}} and {{TP|Goh|Cubone}}.<ref>https://pokemongolive.com/post/animationweek2020/?hl=en</ref>
+
+===[[Pokémon Ga-Olé]]===
+Goh appears as a character in [[Pokémon Ga-Olé]]'s {{ga-ole|Grand Rush set 4}} as part of a tie-in with the animated series. Goh replaced the Experienced Trainer that would normally appear in Golden Chance as well as Mister Trade who would normally appear in Trade Chance! He, along with Ash, also appeared as opponents in Trainer and Battle Mode, which was available to challenge from February 24, 2020. This was considerably earlier into the set's duration compared to other sets—the {{ga-ole|Ultra Legend set 4|fourth Ultra Legend set}}, which also featured special opponents in Trainer and Battle Mode, shares this trait. The lineup included one new Trainer class in addition to Ash and Goh, who had their [[hometown]] as part of their name instead of "Pokémon Trainer". Promotional disks could also be dispensed for an additional ¥100 following battles with Goh or Ash, with 'WINNER' versions available to players who successfully defeated their teams. Players facing Goh could receive a {{OBP|Scorbunny|Trainer and Battle}} disk.
+
+====Pokémon====
+{| align="left" style="margin:auto; {{roundy|10px}}; background:#{{white color dark}}"
+|-
+|
+{| style="margin:auto; {{roundy|7px}}; background:#{{white color light}}"
+|-
+| style="vertical-align:top" |
+{| width="170px" style="style="margin:auto; background:transparent"
+|-
+! style="height:50px" | Vermilion City's Goh<br><small>クチバシティのゴウ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background:#FFF; border:3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Ga-Olé Trainer Goh.png|90px]]
+|}
+|-
+| style="text-align:center" | <small>'''Difficulty:'''</small> ★★★★☆
+|}
+|
+{{Ga-OlePokémon|type=Fire|name=Scorbunny|img=813Scorbunny|move=Ember|movetype=Fire}}
+|
+{{Ga-OlePokémon|type=Bug|type2=Flying|name=Scyther|img=123Scyther|move=Fury Cutter|movetype=Bug}}
+|
+{{Ga-OlePokémon|type=Ground|type2=Ghost|name=Golurk|img=623Golurk|move=Earthquake|movetype=Ground}}
+|
+{{Ga-OlePokémon}}
+|}
+|}{{-}}
+
+====Disks====
+{{TrettaExpansionList/header|Black 2|fff}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Scorbunny|Trainer and Battle}} ({{ga-ole|Promotional disks}})|Fire|}}
+{{TrettaExpansionList/footer|Black 2}}
+
+===[[Pokémon Mezastar]]===
+Goh, in a version based on the animated series, appeared in [[Pokémon Mezastar]]. In this game, Goh is seen using {{p|Scizor}}, {{p|Grookey}}, {{p|Drizzile}}, and {{p|Cinderace}}. In the [[Super Tag set 1 (Mezastar)|first Super Tag series]], as part of a tie-in with the animated series, [[Ash Ketchum|Ash]], Goh, or the [[Team Rocket trio]] could randomly challenge the player as a Trainer and Battle opponent. Upon beating the character, the player can receive a Support Pokémon Ticket based on [[Goh's Cinderace]], with a tag partner based on [[Goh's Scizor]].
+
+====Pokémon====
+{| align="left" style="margin:auto; {{roundy|10px}}; background:#{{white color dark}}"
+|-
+|
+{| style="margin:auto; {{roundy|7px}}; background:#{{white color light}}"
+|-
+| style="vertical-align:top" |
+{| width="170px" style="style="margin:auto; background:transparent"
+|-
+! Vermilion City's Goh<br><small>クチバシティの ゴウ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background: #FFF; border: 3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Mezastar Trainer Goh.png|90px]]
+|}
+|-
+| style="text-align:center" | <small>'''Difficulty:'''</small> ★★★☆☆
+|}
+|
+{{MezastarPokémon|type=Bug|type2=Steel|name=Scizor|img=212Scizor|move=X-Scissor|movetype=Bug}}
+|
+{{MezastarPokémon|type=Grass|name=Grookey|img=810Grookey|move=Branch Poke|movetype=Grass}}
+|
+{{MezastarPokémon|type=Water|name=Drizzile|img=817Drizzile|move=Water Pulse|movetype=Water}}
+|
+{{MezastarPokémon|type=Fire|name=Cinderace|img=815Cinderace|move=Pyro Ball|movetype=Fire}}
+|}
+|}
+{{-}}
+
+====Disks====
+{{MezastarExpansionList/header|Black 2}}
+{{MezastarExpansionList/entry|2-1-012|{{OBP|Cinderace|2-1-012}}|Fire||5}}
+{{MezastarExpansionList/entry|P|{{OBP|Cinderace|Pokémon Dynamax Band+}}|Fire||}}
+{{MezastarExpansionList/footer|Black 2}}
+
+==Gallery==
+===Artwork===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{black 2 color}}; font-size:80%; color:#fff"
+|-
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:Pocket Monsters 2019 key visual.png|200px]]
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:JN005 illustration.png|200px]]
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:JN006 illustration.png|200px]]
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:JN009 illustration.png|200px]]
+|-
+| Key visual from<br>''{{color2|fff|Pokémon Journeys: The Series}}''
+| Official artwork from ''{{color2|fff|JN005|Mind-Boggling Dynamax!}}<br>'' by {{color2|fff|HYOGONOSUKE}}
+| Official artwork from<br>''{{color2|fff|JN006|Working My Way Back to Mew!}}'' by {{color2|fff|Naoki Saito}}
+| Official artwork from<br>''{{color2|fff|JN009|Finding a Legend!}}'' by {{color2|fff|Naoki Saito}}
+|-
+| colspan=4 style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:Goh concept art.png|400px]]
+|-
+| colspan=4 | Concept art by {{color2|fff|Ken Sugimori}}
+|}
+
+===Staff artwork===
+This is a collection of fan-art drawn by prolific staff members on the series.
+
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{black 2 color}}; font-size:80%; color:#fff"
+|-
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:Ash Goh White Day artwork.png|250px]]
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:Ash Goh Childrens Day artwork.png|250px]]
+| style="{{roundy|20px}} border:2px solid #{{red color dark}}; background:#{{red color light}}" | [[File:Ash Goh Christmas Artwork.jpg|250px]]
+|-
+| Artwork for {{color2|fff|wp:White Day|White Day}}<br>by {{color2|fff|Shūhei Yasuda}}
+| Artwork for {{color2|fff|wp:Children's Day (Japan)|Children's Day}}<br>by {{color2|fff|Shūhei Yasuda}}
+| Artwork for {{color2|fff|wp:Christmas|Christmas}}<br>by {{color2|fff|Shūhei Yasuda}}
+|}
+
+==Trivia==
+* As of ''[[JN032|Time After Time!]]'', Goh has more individual {{OBP|Pokémon|species}} species under his current ownership than any other main character, including {{Ash}}.
+** In addition, as of ''[[JN076|All Out, All of the Time!]]'', Goh has owned more individual Pokémon species than any other main character, including Ash.
+* Goh has owned five [[first partner Pokémon]] (six if his temporary {{p|Cyndaquil}} is counted), the most of any of Ash's [[Ash's friends|traveling companions]].
+** Goh has also owned the most [[walking Pokémon]] out of Ash's friends, with three.
+* If counting his brief encounter with {{an|Serena}} in ''[[JN105|Reuniting for the First Time!]]'', Goh has met the most mutual friends of Ash, at 13.
+** Goh has also met the most of Ash's main [[rival]]s among Ash's friends, encountering all of them except for [[Trip]].
+* Goh is left-handed.<ref>[https://twitter.com/DogasusBackpack/status/1290991499245576193 Interview confirming Goh as left-handed]</ref><ref>[https://twitter.com/poke_times/status/1293834791238991872 Tweet from the @poke_times account]</ref>
+* Goh's catching style is mainly based on the gameplay mechanics of [[Pokémon GO]] and [[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!]], all of which feature catching [[wild Pokémon]] without having to battle them.
+* Goh is the first main character to:
+** Catch a [[giant Pokémon]].
+** Own a Pokémon with its [[Hidden Ability]].
+** Own both the normal and [[regional form]] of a Pokémon.
+** Catch a [[Fossil|Fossil Pokémon]].
+** Catch a [[Legendary Pokémon]].
+** Catch a pure {{type|Dark}} Pokémon.
+** Have a rivalry with one of Ash's [[Gary Oak|former rivals]].
+** Own a Pokémon whose identity is yet to be revealed.
+* Goh is the only one of Ash's male friends to:
+** Have obtained or caught his first Pokémon outside his home region.
+** Own a [[Pokédex]].
+** Have a {{type|Fire}} [[first partner Pokémon]].
+*** He is also the only one of Ash's male friends to have started with a Fire-type first partner Pokémon as his first Pokémon.
+* Goh is the first main character other than Ash to:
+** Own more than one first partner Pokémon from the concurrent [[generation]].
+** Own a male-only Pokémon.
+** Own a {{p|Pikachu}}.
+** Own at least one Pokémon species from eight [[core series]] [[region]]s.
+** Own a [[Dynamax Band]].
+** Own at least one Pokémon species of every [[type]].
+** Own a [[Shiny Pokémon]].
+* Goh's [[bag|backpack]] resembles that of {{ga|Victor}} from [[Pokémon Sword and Shield]].
+* Goh's height is around 4'7" (140&nbsp;cm).<ref>[https://pokemonday.pokemon.co.jp/tips/065/ Pokémon Day website tip #65] (Japanese)</ref>
+
+==Names==
+{| class="roundtable" style="background:#{{black 2 color}}; border:3px solid #{{red color}}"
+|-
+! style="background:#{{red color light}}; color:#FFFFFF" | Language
+! style="background:#{{red color light}}; color:#FFFFFF" | Name
+! style="background:#{{red color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| ゴウ ''Go''
+| From ''[[Pokémon GO]]'' or ''[[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!]]'' and possibly ''[[Gō Ichinose]]''
+|-
+| English, German, European Spanish,<br>Latin American Spanish, French, Italian,<br>Brazilian Portuguese, European Portuguese,<br>Catalan, Malaysian
+| Goh
+| From his Japanese name
+|-
+| Korean
+| 고우 ''Gou''
+| Transcription of his Japanese name
+|-
+| Chinese (Traditional)
+| 小豪 ''Xiǎo Háo'' / ''Síu Hòuh''
+| rowspan="2" | From the Japanese name 豪 ''Gō'' and the {{wp|diminutive}} prefix 小 ''xiǎo / síu''
+|-
+| Chinese (mainland China)
+| 小豪 ''Xiǎo Háo''
+|-
+| Bengali
+| গোহ্ ''Gōh''
+| Transcription of his English name
+|-
+| Hindi
+|  ''Goh''
+| Transcription of his English name
+|-
+| Russian
+| Го ''Go''
+| Transcription of his English name
+|-
+| Tamil
+| கோஹ் ''Kōh''
+| Transcription of his English name
+|-
+| Telugu
+| గో ''Gō''
+| Transcription of his English name
+|-
+| Thai
+| โก ''Ko''
+| Transcription of his Japanese name
+|-
+| Vietnamese
+| Go
+| Transcription of his Japanese name
+|}
+{{-}}
+
+==Notes==
+{{reflist|group="lower-alpha"}}
+
+==References==
+<references/>
+
+==Related articles==
+* {{cat|Episodes focusing on Goh}}
+* [[Alternate World Goh]]
+
+{{Goh's Pokémon}}
+{{Project Mew}}
+{{animecharacters|black 2|red}}
+{{Project Anime notice|no}}
+
+[[Category:Animation characters]]
+[[Category:Manga characters]]
+[[Category:Ash's friends]]
+[[Category:Laboratory assistants]]
+[[Category:Trainers who use Dynamax]]
+[[Category:Trainers with Legendary Pokémon]]
+[[Category:Trainers with Shiny Pokémon]]
+[[Category:Pokémon GO characters]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Goh]]
+[[es:Goh]]
+[[fr:Goh]]
+[[it:Goh]]
+[[ja:ゴウ]]
+[[zh:小豪]]

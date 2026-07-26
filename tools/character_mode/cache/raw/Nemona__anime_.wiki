@@ -1,0 +1,342 @@
+{{Character Infobox
+|color={{scarlet color}}
+|corecolor={{scarlet color light}}
+|bordercolor={{scarlet color dark}}
+|name=Nemona
+|jname=ネモ
+|tmname=Nemo
+|image=Nemona HZ.png
+|size=x400px
+|caption=Nemona
+|gender=Female
+|eyes=Orange
+|hair=Black
+|hometown=Unknown
+|region=[[Paldea]]
+}}
+{{Character Infobox/Anime
+|color={{scarlet color light}}
+|series=''[[Pokémon Horizons: The Series]]''
+|debut=''[[HZ010|Nemona and Brassius and...]]''
+|counterpart=[[Nemona]]
+|enva=Yolis Arroyo
+|jpva=[[Eri Kitamura]]
+}}
+{{Character Infobox/Team
+|color={{scarlet color light}}
+|member=[[Paldea League]]
+|rank={{pkmn|Champion}}
+}}
+{{Character Infobox/Team
+|color={{scarlet color light}}
+|member=[[Naranja Academy]] Student council
+|rank=President
+}}
+{{Character Infobox/Manga
+|color={{scarlet color light}}
+|series=''{{OBP|Anime Pocket Monsters: Liko and Roy's Adventure|manga}}''
+|debut=[[HZM03]] <small>([[Anime Pocket Monsters: Liko and Roy's Adventure (manga)|PM]])</small>
+}}
+|}
+'''Nemona''' (Japanese: '''ネモ''' ''Nemo'') is a supporting character in {{aniseries|HZ}}. She is a {{pkmn|Champion}}-ranked {{pkmn|Trainer}} who first appeared in ''[[HZ010|Nemona and Brassius and...]]''. 
+
+Nemona is also the current student council president of [[Naranja Academy]] and eventually became a friendly [[rival]] to [[Roy]], often challenging him to battle.
+
+==In animation==
+===History===
+====Pre-series====
+Prior to the events of the series, Nemona challenged the [[Paldea League]] and managed to become a {{pkmn|Champion}}-ranked Trainer. This made her famous among Trainers in the [[Paldea]] [[region]].
+
+====''[[Pokémon Horizons: The Series]]''====
+[[File:Nemona Liko Roy.png|250px|left|thumb|Nemona with [[Liko]] and [[Roy]]]]
+Nemona first appeared in ''[[HZ010|Nemona and Brassius and...]]'' while winning a battle against a Trainer. Some time before meeting [[Liko]] and [[Roy]], Nemona came to [[Artazon]] town to meet with [[Brassius]] and discuss his absence from the [[Gym]]. Upon being introduced to the young Trainers, Nemona joined them to go to the Gym and meet Brassius. During the meeting, they discussed their works and when Roy spoke about the [[Black Rayquaza]], Brassius kicked everyone out of his house. While discussing why Brassius acted the way he did, Liko came to the conclusion that Brassius might have {{wp|writer's block}}. After that, Nemona took Liko and Roy to the {{DL|Artazon|Sunflora Lawn}} and decided to group as many {{p|Sunflora}} to create inspiration for Brassius again, showing them later that she managed to gather fifteen species. After Brassius saw the group's determination and his {{p|Dolliv}}'s insistence, Brassius presented Nemona, Liko and Roy with a work based on his vision of {{p|Rayquaza}}. As soon as Brassius challenged Roy to a {{pkmn|battle}}, Nemona watched the battle along with Liko and explained some concepts like {{Tera}}stallization to her. At the end, Brassius presented another work of his to the group, one based on the forest's {{DL|Six Heroes|Arboliva}}.
+[[File:Nemona Liko Roy Dot HZ046.png|250px|thumb|Nemona reuniting with Liko, Roy, and Dot at [[Naranja Academy]]]]
+In the [[HZ011|next episode]], Nemona accompanied Liko, Roy, and [[Mollie]] into the [[Arboliva's Forest]]. Upon arriving, Nemona said goodbye to the group and said that the next time she would met them, she would like to have a battle with Roy.
+
+Nemona appeared in a flashback to Liko and Roy's journey in ''[[HZ045|From So Far Away]]''.
+
+In ''[[HZ046|Welcome to Naranja Academy!]]'', Nemona reunited with Liko and Roy and met [[Dot]] after they enrolled at [[Naranja Academy]] to train for the [[Tera Training]]. During the reunion, Liko and Roy discovered that Nemona's Pawmo evolved, and shortly thereafter, Nemona challenged Roy to a battle but was stopped by [[Clavell]]. Shortly after, Nemona showed off the Academy to the freshmen and introduced [[Elite Four]] members [[Rika]] and [[Hassel]] to her friends. After Liko and [[Ann]]'s battle, Nemona appeared again wanting to battle but was interrupted by the ringing of the Academy's bell.
+[[File:Roy and Nemona.png|left|250px|thumb|Nemona and Roy]]
+In ''[[HZ048|Sparkle! The Glow of Fire and Art!]]'', Nemona was in Artazon again helping with an Art Festival that would be held by Naranja Academy and Brassius: Upon meeting Roy again, Nemona immediately challenged him to a battle which she won without much difficulty, despite Roy and {{TP|Roy|Fuecoco}} gave their best. After the battle, Nemona took her friends to the workshop where work was being done. After Liko, Roy and Dot showed off their art, Nemona watched Roy's battle against Brassius. [[HZ060|Some time later]], it was revealed that Nemona took a photo with Liko, Roy and Dot before separating from the group.
+
+In ''[[HZ055|Showdown! The Paldea Elite Four]]'', Nemona reunited with Liko, Roy, and Dot when they returned to Naranja Academy, after explaining their next challenge, Nemona watched the students' battles against Paldea's Elite Four. After Roy's defeat in the battle against Hassel, Nemona came personally to tell him to continue doing his best. In [[HZ056|next episode]], Nemona watched Liko and [[Katy]]'s battle against Rika alongside Roy and [[Ann]].
+
+In ''[[HZ061|Resonating Spirits in a Challenge to Ryme!]]'', it was revealed that Nemona traveled to [[Montenevera]], and after saving {{TP|Liko|Terapagos}} from falling from the sky, Nemona reunited with Liko, Roy, and Dot again. Soon after, Nemona watched alongside Liko and Dot as Roy battled [[Ryme]], and when Roy was defeated, Nemona joined the girls to see how Roy and Fuecoco were doing. In the [[HZ062|following episode]], in order to cheer Roy up, Nemona held a [[Hyper Training]] with him and Fuecoco. As the afternoon wore on, Nemona joined the group and heard the story of why Roy likes to sing. Later, Nemona watched Roy and Ryme's [[rematch]] and after Roy's victory, she congratulated him for advancing another step in the Tera Training.
+[[File:Nemona Arven Penny HZ067.png|250px|thumb|Nemona with [[Penny]] and [[Arven]]]]
+In ''[[HZ066|Infiltrating the System! Naranja Academy in Danger!]]'', Nemona met with Liko, Roy, and Dot again. After talking about the progress of the Tournament for the Tera Training students, she watched the battles while Liko and Roy solved a problem at Naranja Academy involving the [[Explorers]]. In the [[HZ067|next episode]], Nemona praised Roy and Liko's heroic actions in saving the school from the Explorers, whom she heard from [[Penny]]. Soon after, Nemona watched Liko and Roy's battle alongside Penny and [[Arven]], and after Roy's victory, Nemona congratulated him on the result and said she was proud of Roy's progress up to that point alongside Ryme.
+
+In ''[[HZ101|Terastallization vs. Mega Evolution!]]'', Nemona was at Naranja Academy strolling around when she noticed [[Dendra]] and her {{p|Hariyama}} chasing after [[Ult]], believing he was up to no good. Nemona and Dendra caught Ult and his {{p|Sableye}}. Eventually, Nemona reunited with Liko, Roy, and Dot, who clarified that Ult was their teammate. Nemona then decided to challenge Roy to a [[Double Battle]], having wanted to battle him again after a long time, which he eagerly accepted, with Nemona's Pawmot and {{p|Ribombee}} against [[Roy's Crocalor]] and {{TP|Roy|Lucario}}. It was an intense battle, with Nemona using various tactics to defend, heal, and attack, but Roy was able to employ clever tactics to overcome these measures. In the climax of the battle, Nemona {{Tera}}stallized her Pawmot while Roy [[Mega Evolution|Mega Evolved]] his Lucario, with Lucario emerging victorious. Pawmot's defeat led to Roy being declared the winner. After the battle, Nemona congratulated Roy, while Ult wanted to battle her next. To everyone's surprise, Penny challenged Dot to a battle instead. In the [[HZ102|next episode]], Nemona analyzed the battle between Penny and Dot. At the end of the day, when saying goodbye to the group, she highlighted how much they have evolved as people and Trainers and that she expects great things from them.
+
+In ''[[HZ115|Welcome to Blueberry Academy!]]'', Nemona returned as a student at [[Blueberry Academy]]. She had a Double Battle against Roy, using her Pawmot and {{p|Decidueye}} to battle Crocalor and Lucario. Using Decidueye's {{m|Spirit Shackle}} to stop Lucario from moving, Nemona was able to defeat Lucario before defeating Crocalor, winning her the match. After the battle, Nemona returned to [[Paldea]].
+[[File:Nemona Strong Sphere HZ126.png|250px|left|thumb|Nemona witnessing the use of a [[Strong Sphere]] on a Pokémon for the first time]]
+In ''[[HZ126|Strong Bonds, Can't Lose!]]'', Nemona participated in a meeting between Clavell, Geeta, Penny, and the Rising Volt Tacklers regarding the data [[HZ120|they collected]] from the [[Strong Sphere]]. After the Strong Sphere was banned at Naranja Academy, Nemona watched the battle between Liko and [[Dash]], where she witnessed the item's destructive potential. Later, after learning about all the events the Rising Volt Tacklers witnessed, Nemona volunteered alongside Penny to fight against the [[Explorers]]' plans. In the [[HZ127|next episode]], Nemona battled against Roy with her Pawmot against Roy's Lucario once again. After a tough fight, Nemona Terastallized Pawmot while Roy Mega-evolved his Lucario, with both Pokémon clashing attacks with each other. In the end Pawmot dodged Lucario's final attack at the last moment and defeated it with Mach Punch, winning Nemona the battle.
+
+In ''[[HZ131|A Surprise Reunion]]'', Nemona, along with Penny and Ann, traveled to [[Levincia]] to reunite with the Rising Volt Tacklers. Some time later, she joined the others and they watched Roy's battle against [[Master Mayonnaise]]. During the battle, Nemona was able to perceive that Roy was out of sync with {{TP|Roy|Lucario}}, which prevented it from Mega Evolving. In the [[HZ132|next episode]], Nemona traveled with the group to [[Diana]]'s castle in [[Galar]]. During Roy's rematch against Master Mayonnaise, Nemona joined Liko and explained to her about the bond that Roy and his Pokémon had regarding [[Aura]].
+
+In ''[[HZ133|The Final Battle Is Near]]'', Nemona joined in the battle against the Explorers, joining Penny and Dot in battling against [[Indi]] and [[Rubina]]'s {{p|Cofagrigus}} and {{p|Runerigus}}. The trio struggled against their opponents at first due to their use of {{m|Curse}} and {{m|Destiny Bond}}, but with [[Hamber]]'s arrival, they were able to defeat their Pokémon. In the [[HZ134|next episode]], Nemona and her group meet back up with their friends, where she met [[Amethio]]. Nemona and the group then encountered [[Spinel]], Rubina, and Indi.
+
+In ''[[HZ135|The Core Awakens]]'', Nemona and her friends started erasing the Laquium Core, but the Explorers got in the way, even defeating Penny's {{p|Sylveon}} in the process. However, Nemona and the group became surprised that [[Coral]] turned against Spinel and used her {{p|Scream Tail}}, nicknamed Screamypuff, to take Sylveon's place. The group became even more surprised when [[Chalce]] and [[Sidian]] also turned against Spinel, as they decided to team up with the heroes in order to stop him for good. During the process to remove Laquium, Spinel merged with its Core, casuing it to awaken, much to Nemona and the group's shock. Nemona and the group tried to fight it, but it was too strong. However, they refused to give up and found out that the center of the Laquium Core was its weak point that they needed to hit. In the [[HZ136|next episode]], Nemona helped the group give Roy and Amethio time for their Mega-Evolved Legendary Pokémon to get charged up so they can destroy the Laquium Core's defenses. Nemona then witnesses the Laquium Core being destroyed for good. After the threat with Laquium was over, Nemona returned to Naranja Academy.
+
+===Character===
+[[File:Nemona ready battle.png|thumb|250px|Nemona ready to battle]]
+Nemona is a very friendly and kind person, quickly making friends with [[Liko]] and [[Roy]]. Nemona has a very supportive personality, showing this when she tried to encourage Roy to continue doing his best in battles after being defeated by [[Hassel]].
+
+She also has a huge passion for [[Pokémon battle]]s, challenging different Trainers as she encounters them on her way to a battle. During the time that Liko and Roy spent at [[Naranja Academy]], Nemona often challenged people to battle, but was always interrupted by something. In addition to this, in ''[[HZ061|Resonating Spirits in a Challenge to Ryme!]]'', Nemona revealed that she enjoys following some events that involve Pokémon battles, which motivated her to travel to [[Montenevera]] just to watch the battles that happened at [[Ryme]]'s show.
+
+As expected from a {{pkmn|Champion}}, Nemona is well respected in the [[Paldea]] [[region]], as shown during her [[HZ010|first appearance]] and when Nemona met [[Dot]] who was quite embarrassed in Nemona's presence. It is indicated that this recognition of Nemona's abilities extended to other regions, as in ''[[HZ115|Welcome to Blueberry Academy!]]'', it was shown that the students of [[Blueberry Academy]] were quite impressed with Nemona. Despite her young age she is shown to be very knowledgeable about various topics in the Pokémon world such as the [[Terastal phenomenon]] and [[Aura]]. Nemona also has a very strong moral code, developing a strong dislike for the [[Explorers]] due to their actions against the [[Rising Volt Tacklers]] and Pokémon. This dislike is further exacerbated after witnessing the effects of [[Laquium]] on [[Dash]]'s {{p|Swanna}}, causing her and [[Penny]] to join the Rising Volt Tacklers in their opposition against [[Exceed]] and the [[Strong Sphere]]s, showing that her compassion extends to Pokémon as well. This is shown again when she calls out [[Indi]] and [[Rubina]] for using their Pokemon as tools rather than partners.
+
+===Pokémon===
+This listing is of Nemona's known {{OBP|Pokémon|species}} in {{aniseries|HZ}}:
+
+====On hand====
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Pawmot
+|tera=Fighting
+|type1=Electric
+|type2=Fighting
+|stage1=Pawmo
+|img=Nemona Pawmo.png
+|cap=Nemona's Pawmo
+|img2=Nemona Pawmot.png
+|cap2=Nemona's Pawmot
+|epnum=HZ010
+|epname=Nemona and Brassius and...
+|vajp=Kei Shindō
+|vaen=Erica Schroeder
+|desc={{p|Pawmot}} is Nemona's first known Pokémon and is usually seen [[Walking Pokémon|outside of its Poké Ball]]. It first appeared as a {{p|Pawmo}} in ''[[HZ010|Nemona and Brassius and...]]'', where it was seen battling a Trainer's {{p|Skiploom}}, which it defeated with {{m|Spark}}. During the encounter with [[Brassius]], Pawmo was frequently hit by the oil of his {{p|Dolliv}}.
+
+In ''[[HZ046|Welcome to Naranja Academy!]]'', Pawmo was revealed to have [[Evolution|evolved]] into Pawmot.
+
+In ''[[HZ048|Sparkle! The Glow of Fire and Art!]]'', Nemona used Pawmot in her battle against [[Roy]], where it battled against his {{TP|Roy|Fuecoco}}. After a tough battle, Pawmot emerged victorious, defeating Fuecoco with {{m|Double Shock}}.
+
+In ''[[HZ061|Resonating Spirits in a Challenge to Ryme!]]'', Nemona had Pawmot save {{TP|Liko|Terapagos}} from falling from the sky. In the [[HZ062|following episode]], Pawmot was used by Nemona to help Roy and Fuecoco in a [[Hyper Training]] session.
+
+In ''[[HZ101|Terastallization vs. Mega Evolution!]]'', Nemona partnered Pawmot and {{p|Ribombee}} for a [[Double Battle]] against Roy's Crocalor and {{shiny}} {{TP|Roy|Lucario}}. After Roy [[Mega Evolution|Mega Evolved]] Lucario, Nemona {{Tera}}stallized Pawmot into a pure {{type|Fighting}}, but it ended up being defeated, thus making Nemona lose by default.
+
+In ''[[HZ115|Welcome to Blueberry Academy!]]'', Pawmot was used in another Double Battle, this time partnered with Nemona's {{p|Decidueye}} again battling against Lucario and Crocalor. Thanks to the training Nemona received at the [[Blueberry Academy]] and Nemona's strategy with Decidueye's {{m|Spirit Shackle}}, Pawmot managed to defeat Lucario, and then Pawmot, by Terastalizing and using a Focus Punch against Crocalor, was able to defeat it.
+
+In ''[[HZ127|The Training Royale!]]'', Pawmot battled Roy's Lucario once again. After a tough fight, Pawmot Terastallized while Lucario Mega Evolve, with both Pokémon clashing attacks with each other. In the end, Pawmot won again after dodging Lucario's final attack at the last moment and used Mach Punch.
+
+In ''[[HZ134|One Step Closer]]'', Pawmot was sent out to help the rest of the Tera Type Pokémon in purify Laquium for good. In the [[HZ135|next episode]], Pawmot and the rest of the Tera Type Pokémon made an attempt to purify the Laquium Core, but the Explorers interfered, losing [[Penny]]'s {{p|Sylveon}} in the process, until [[Coral]] sent out her {{p|Scream Tail}}, nicknamed Screamypuff, to take the {{pkmn|category|Intertwining Pokémon}}'s place. However, Pawmot and the rest of the Tera Type Pokémon couldn't erase the Laquium Core before Spinel merged with it, awakening it. Pawmot subsequently teamed up with its friends to take down the Laquium Core. It then helped its allies to weaken the Laquium Core, before joining its allies to purify the core in the [[HZ136|next episode]].
+
+Pawmot's known moves are {{m|Spark}}, {{m|Quick Attack}}, {{m|Dig}}, {{m|Double Shock}}, {{m|Discharge}}, {{m|Mach Punch}}, and {{m|Focus Punch}}.}}
+
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Ribombee
+|type1=Bug
+|type2=Fairy
+|img=Nemona Ribombee.png
+|epnum=HZ101
+|epname=Terastallization vs. Mega Evolution!
+|vaen=
+|desc={{p|Ribombee}} is Nemona's second known Pokémon. She partnered Ribombee and {{p|Pawmot}} for a [[Double Battle]] against [[Roy's Crocalor]] and {{shiny}} {{TP|Roy|Lucario}}. Throughout the battle, Ribombee acted as a support Pokémon, healing up and restoring Pawmot's stamina, as well as protecting their side of the field with different [[status move]]s. At the end, however, Pawmot ended up being defeated, thus making Nemona lose by default.
+
+In ''[[HZ133|The Final Battle Is Near]]'', Ribombee was the second Pokémon Nemona used in her battle against [[Indi]] and [[Rubina]]'s {{p|Cofagrigus}} and {{p|Runerigus}}. It became affected by the opponent's Curse immediately, dealing damage to it while being unable to attack or switch out due to Destiny Bond and Mean Look. After Dot's Gholdengo sacrificed itself to defeat the Runerigus and Cofagrigus, Ribombee was able to be recalled and freed from Curse's effects.
+
+Ribombee's known moves are {{m|Pollen Puff}}, {{m|Light Screen}}, {{m|Sticky Web}}, and {{m|Energy Ball}}.}}
+
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Decidueye
+|stage1=Rowlet
+|stage2=Dartrix
+|type1=Grass
+|type2=Ghost
+|img=Nemona Decidueye.png
+|cap=Nemona's Decidueye
+|epnum=HZ115
+|epname=Welcome to Blueberry Academy!
+|vajp=
+|vaen=
+|desc={{p|Decidueye}} is Nemona's third known Pokémon, which she evolved from a {{p|Rowlet}} that she caught upon arriving in [[Blueberry Academy]]. Nemona used it in her [[Double Battle]] against [[Roy]] where it was able to trap Roy's {{shiny}} {{TP|Roy|Lucario}} with {{m|Spirit Shackle}}, allowing {{p|Pawmot}} to defeat it.
+
+In ''[[HZ133|The Final Battle Is Near]]'', Decidueye was used to defeat one of [[Rubina]]'s {{p|Runerigus}}, but fainted due to the effects of {{m|Destiny Bond}}.
+
+Decidueye's known moves are {{m|Phantom Force}}, {{m|Leaf Blade}}, {{m|Spirit Shackle}}, and {{m|Razor Leaf}}.}}
+<!--
+=====Traveling with=====
+{|width="100%"
+|-
+|{{ActivePoké|||nick=Rotom Phone|Nemona Rotom Phone.png|electric|ghost|link=Rotom Phone}}
+|
+|
+|}-->
+
+====Temporary====
+{{TrainerPoké
+|trainer=Nemona
+|pkmn=Sunflora (×15)
+|type1=Grass
+|img=Nemona Sunflora.png
+|epnum=HZ010
+|epname=Nemona and Brassius and...
+|desc=As part of trying to create inspiration for [[Brassius]], Nemona, [[Liko]], and [[Roy]] collected several wild {{p|Sunflora}} that were in the town of [[Artazon]]. At the end of the count, Nemona managed to gather fifteen of them, second only to Liko.
+
+None of Sunflora's moves are known.
+}}
+
+===Achievements===
+====Badges obtained====
+This listing is of the [[Badge]]s Nemona has obtained in the [[Paldea]] [[region]]:
+* At least eight Badges (prior to ''[[HZ010|Nemona and Brassius and...]]'')
+
+====Pokémon League====
+Nemona has competed in the [[Paldea League]]. Her rank is as follows:
+* Rank {{pkmn|Champion}}  (prior to ''[[HZ010|Nemona and Brassius and...]]'')
+
+===Extracurricular activities===
+[[File:Nemona Art HZ048.png|250px|thumb|Nemona's artwork for the [[Artazon Art Festival]]]]
+As a student at [[Naranja Academy]], Nemona participated in the following events:
+* [[Artazon Art Festival]] (''[[HZ048|Sparkle! The Glow of Fire and Art!]]'')
+
+===Voice actors===
+{{vatable|color={{scarlet color light}}|bordercolor={{scarlet color}}
+|ja=喜多村英梨 ''[[Eri Kitamura]]''
+|en=Yolis Arroyo
+|zh_yue=陳雪瑩 ''Shirley Chan''
+|nl=Djin Kastje([[HZ010]]-[[HZ101]])<br>Maria Hengst([[HZ101]]-present)
+|ar=فانيسا البطي ''Vanessa Albouti
+|fi=Jenny Ye
+|he=דפנה מירוצ'ניקוב ''Dafna Mirochnikov''
+|it=Elena Cavalli Carbone
+|no=Gulla Nordmoen
+|pt_br=Carolina Iecker
+|es_la=Gabriela Ortiz
+|es_eu=Laura Nogales}}
+
+===Main outfit===
+[[File:Nemona anime.png|250px|left|thumb|Nemona's main outfit]]
+[[File:Nemona Winter Uniform.png|250px|thumb|Nemona wearing the Winter Uniform.]]
+Nemona's main outfit is identical to the one she wears in [[Pokémon Scarlet]], which is the official uniform of the [[Naranja Academy]].
+===Other outfits===
+<!--====Costumes====
+====Formal outfit====-->
+====Other clothing====
+In ''[[HZ061|Resonating Spirits in a Challenge to Ryme!]]'' and ''[[HZ062|A New Song for Fuecoco]]'', Nemona was shown wearing winter clothing during her stay in [[Montenevera]].
+{{-}}
+===Gallery===
+====Artwork====
+{|class="roundy blacklinks" style="margin:auto; text-align:center; border:2px solid #{{scarlet color dark}}; background:#{{scarlet color}}; font-size:80%"
+|style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden;"|[[File:Nemona Anime Expression Sheet.png|x150px]]
+|style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden;"|[[File:HZ127 Roy vs Nemona poster.png|x150px]]
+|-
+|Horizons model sheet
+|Special artwork for [[HZ127]]<ref>https://twitter.com/anipoke_PR/status/2019726514548523184/</ref>
+|-'
+|-
+|}
+
+====Eyecatch====
+{|style="margin:auto; text-align:center; {{roundy|5px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color}}; font-size:80%"
+|style="{{roundy|5px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; width:auto"|[[File:HZ eyecatch Nemona Pawmo.png|x150px]]
+|style="{{roundy|5px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; width:auto"|[[File:HZ eyecatch Nemona Pawmot Ribombee.png|x150px]]
+|-
+|}
+
+====Other====
+{|class="roundy blacklinks" style="margin:auto; text-align:center; border:2px solid #{{scarlet color dark}}; background:#{{scarlet color}}; font-size:80%"
+|style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden;"|[[File:HZ key frame E048.png|x150px]]
+|style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden;"|[[File:HZ key frame E101.png|x150px]]
+|style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden;"|[[File:HZ009-HZ012 AS.png|x350px]]
+|-
+|Key frame from [[HZ048]]<ref>https://twitter.com/anipoke_PR/status/1785942300545466695</ref>
+|Key frame from [[HZ101]]<ref>https://x.com/anipoke_PR/status/1938115009097437405</ref>
+|Artwork from "{{color2|000|After the Story}}" <ref>https://twitter.com/anipoke_PR/status/1674613737280659456</ref>
+|-
+|style="{{roundy|20px}} border:2px solid #{{scarlet color dark}}; background:#{{scarlet color light}}; overflow:hidden;"|[[File:HZ July 2025 Calendar V1.png|x350px]]
+|style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden;"|[[File:Pokémon Horizons Promotional Poster 5.jpg|x350px]]
+|style="{{roundy|20px}} border: 2px solid #{{scarlet color dark}}; background: #{{scarlet color light}}; overflow:hidden;"|[[File:Pokémon Horizons Promotional Poster 10.jpg|x350px]]
+|-
+|July 2025 Calendar by {{color2|000|After the Story|mojacookie}}<ref>https://x.com/anipoke_PR/status/1939851468565365086</ref>
+|Key visual for ''Pocket Monsters: Terastal Debut''
+|Second poster for the [[Rising Again]] arc
+|-
+|}
+
+==In the manga==
+[[File:Nemona PHZCWBR.png|220px|thumb|Nemona in Pocket Monsters]]
+===Pocket Monsters===
+Nemona briefly appeared in [[HZM03]].
+{{-}}
+
+==Trivia==
+* In an interview with {{wp|Oricon}} magazine, [[Eri Kitamura]] spoke a little about her vision for Nemona: for her, although Nemona is a veteran {{pkmn|Trainer}}, her willingness to battle means that other people do not see her as a mature Trainer.<ref>https://twitter.com/oricon_anime_/status/1785972504659468395</ref>
+* When {{Tera}}stallizing her Pokémon, Nemona uses the phrase '''Shine blindingly bright, my greatest treasure!''' (Japanese: '''輝け！輝け！私の最高の宝物！''' ''Shine! Shine! My greatest treasure!'').
+
+==Names==
+{|class="roundtable" style="background:#{{scarlet color light}}; border:3px solid #{{scarlet color dark}}"
+! Language
+! Name
+! Origin
+|-
+|Japanese
+|ネモ ''Nemo''
+|From the genus ''{{wp|Nemophila}}''
+|-
+|English
+|Nemona
+|Similar to her Japanese name
+|-
+|German
+|Nemila
+|From the genus ''Nemophila''
+|-
+|Spanish
+|Mencía
+|From ''{{wp|Nemophila menziesii}}'' (baby blue eyes)
+|-
+|French
+|Menzi
+|From ''Nemophila menziesii''
+|-
+|Italian
+|Nemi
+|From the genus ''Nemophila''
+|-
+|Korean
+|네모 ''Nemo''
+|Transcription of her Japanese name
+|-
+|Chinese ({{tt|Mandarin|Taiwan and Mainland China}})
+|妮莫 ''Nímò / Nīmò''
+|rowspan="2" |Transcription of her Japanese name
+|-
+|Chinese ({{tt|Cantonese|Hong Kong}})
+|妮莫 ''Nèihmohk''
+|-
+|Indonesian
+|Nemola
+|From the genus ''Nemophila''
+|-
+|Brazilian Portuguese
+|Noêmia
+|From the genus ''Nemophila''
+|-
+|European Portuguese
+|Némona
+|Similar to her Japanese name
+|-
+|Thai
+|เนโม ''Nemo''
+|Transcription of her Japanese name
+|}
+
+==References==
+<references/>
+
+==Related articles==
+* [[Nemona]]
+* [[Nemona (Masters)]]
+* [[Nemona (Adventures)]]
+
+{{Pokémon Horizons characters|scarlet}}
+{{Champions|scarlet}}
+{{Project Anime notice|no}}
+
+[[Category:Trainers who use Terastallization]]
+
+[[es:Mencía (anime)]]
+[[it:Nemi (serie animata)]]
+[[zh:妮莫（动画）]]

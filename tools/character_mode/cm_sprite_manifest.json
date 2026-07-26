@@ -1,7 +1,7 @@
 {
- "count": 210,
+ "count": 238,
  "with_art": 164,
- "without_art": 46,
+ "without_art": 74,
  "blob_bytes": 146896,
  "entries": [
   {
@@ -1527,6 +1527,34 @@
   "Noland",
   "Lucy",
   "Brandon",
-  "Dahlia"
+  "Dahlia",
+  "Adaman",
+  "Akari",
+  "Arezu",
+  "Argenta",
+  "Beni",
+  "Calaba",
+  "Charm",
+  "Clover",
+  "Cogita",
+  "Coin",
+  "Cyllene",
+  "Gaeric",
+  "Ingo",
+  "Irida",
+  "Iscan",
+  "Kamado",
+  "Lian",
+  "Mai",
+  "Melli",
+  "Palina",
+  "Pesselle",
+  "Rei",
+  "Ress",
+  "Rye",
+  "Sabi",
+  "Sanqua",
+  "Thorton",
+  "Zisu"
  ]
 }

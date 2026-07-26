@@ -1,0 +1,5 @@
+{
+ "_comment": "Roster families in this repo that NO audit wave examined. Judge these with audit_2026-07-25/wave5/BRIEF.md before any attribution pass labels them -- sourcing an unaudited row presents unchecked data as checked.",
+ "characters_never_audited": [],
+ "unaudited": {}
+}

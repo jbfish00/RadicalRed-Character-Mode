@@ -1,0 +1,2356 @@
+{{Character Infobox
+|color={{Y color}}
+|bordercolor={{Y color dark}}
+|corecolor={{Y color light}}
+|name=Serena
+|jname=セレナ
+|tmname=Serena
+|text=fff
+|image=XY Serena.png
+|size=200px
+|caption=Official artwork from {{g|X and Y}} by [[Ken Sugimori]]<ref>[[a:File:SerenaSilverTempest164.jpg|Serena (Silver Tempest 164)]]</ref>
+|gender=Female
+|eyes=Gray{{tt|*|NPC and center PC default}}, Blue{{tt|*|Left PC default}}, Brown{{tt|*|Right PC default}}
+|hair=Honey{{tt|*|NPC and center PC default}}, Blonde{{tt|*|Left PC default}}, Black{{tt|*|Right PC default}}
+|hometown=[[Vaniville Town]] (original hometown unknown if chosen by the player)
+|region=[[Kalos]] (original region unknown if chosen by the player)
+|relatives={{kal|Grace}}, mentioned father (as player)<br/>Unnamed mother, mentioned father (as rival)
+}}
+{{Character Infobox/Game
+|color={{Y color light}}
+|gen={{gen|VI}}, {{gen|VIII}}, {{gen|IX}}
+|counterpart=[[Serena (Masters)]]
+|games={{pkmn|X and Y|X, Y}}<br>{{pkmn|Masters EX}}
+|trainer=[[Pokémon Trainer]], [[player character]]
+|enva=Jackie Lastra<ref name="Jackie Lastra">[https://twitter.com/JackieLastra/status/1279903712232607744 Jackie Lastra on Twitter]</ref> <small>({{pkmn|Masters EX}})</small> 
+|jpva=Akari Kitō<ref name="Akari Kitō">[https://twitter.com/pokemas_game/status/1355035445512572929 Pokémon Masters EX Twitter] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{Y color light}}
+|series=''[[Pokémon the Series]]''<br>''[[Pokémon Evolutions]]''
+|counterpart=[[Serena (anime)]]
+|debut=''[[XY001|Kalos, Where Dreams and Adventures Begin!]]'' <small>([[Pokémon animated series|Animated series]])</small><br>''[[PE03|The Visionary]]'' <small>({{pkmn|Evolutions}})</small>
+|enva=[[Haven Paschall]] <small>([[Pokémon animated series|Animated series]])</small><br>N/A ({{pkmn|Evolutions}})
+|jpva=[[Mayuki Makiguchi]] <small>([[Pokémon animated series|Animated series]])</small><br>N/A ({{pkmn|Evolutions}})
+}}
+{{Character Infobox/Manga
+|color={{Y color light}}
+|series=''[[Pokémon Adventures]]''
+|counterpart=[[Y (Adventures)]]
+|debut=''[[PS549|An X-cuse to Come Out and Play]]''
+}}
+|}
+
+'''Serena''' (Japanese: '''セレナ''' ''Serena'') is the female [[player character]] in {{g|X and Y}}. She also serves as the [[rival]] in the same games if the player chooses to play as the {{ga|Calem|male character}}. Her male counterpart is {{ga|Calem}}.
+
+If playing as Serena, the player character may earn the title of {{tc|Grand Duchess}} by defeating most of the Trainers in the [[Battle Chateau]].
+
+==In the core series games==
+===Appearance===
+[[File:Calem and Serena concept art.png|thumb|left|230px|Serena alongside her male counterpart, Calem, in concept art for {{g|X and Y}}]]
+;As player character
+Serena is a young girl whose appearance changes based on [[trainer customization]]. The player is given the choice between three different preset appearances, changing her hair, eye and skin color. Of these details, only the skin color cannot be changed later. These presets are otherwise identical. In most media and her stock art, the middle option is used, depicting her with gray eyes and long honey-blonde hair.
+
+Serena's hair is styled in a loose ponytail with center-part bangs.  She wears a thick, red felt hat with a wide brim that folds upwards. The hat has a black ribbon tied around its base and is accessorized with a pair of white cat-eye sunglasses with black lenses. Serena has tall, rounded eyes with gray irises and three visible lashes on each eye. She has thin, colorless eyebrows.
+
+She wears a blouse and skirt combination that the game describes as a high-waisted outfit. It is composed of a dark grey sleeveless blouse with a black peter pan collar and a red high-waisted pleated skirt with cargo pockets. Her black over-the-knee socks go up to her mid thigh, and lack any decorative pattern. The black high top shoes have darker black laces and gray outsoles. The sneakers' lateral outers are decorated with pink Poké Ball markings. Serena is depicted with a pink quilted tote, closed with a half-moon shaped latch.
+
+Serena wears her black [[Mega Ring]] on her left wrist. This Mega Ring is decorated with a gray symbol around the [[Key Stone]] similar to that of the [[Mega Evolution]] symbol.
+
+;As a non-playable character
+Serena's appearance as an NPC has few changes from that of her default player character appearance. She trades the hat and glasses for a long curly ponytail in the same honey blonde color.
+
+===Pokémon X and Y===
+Serena appears both as a playable and non-playable character in {{g|X and Y}}. When playing as {{ga|Calem}}, Serena will appear as one of the player's [[friend]]s and [[rival]]s.
+
+====As the protagonist====
+[[File:Calem Serena Intro XY.png|thumb|250px|Calem and Serena in the opening of Pokémon X and Y]]
+Serena is a girl who recently moved into [[Vaniville Town]] with her mother, [[Grace (Kalos)|Grace]]. Her mom owns a {{p|Rhyhorn}} and {{p|Fletchling}}, the latter of which wakes Serena up at the start of the game.
+
+====As a non-playable character====
+Serena is a young girl who lives in [[Vaniville Town]] when the protagonist moves into town. Serena is the {{player}}'s [[friend|neighbor]] and their main [[rival]], choosing the [[first partner Pokémon]] which is super effective against the player's. She is also the character who teaches the player and [[Shauna]] how to {{pkmn2|caught|catch}} a Pokémon, catching a {{p|Bunnelby}} with the use of her {{p|Fletchling}}. Soon after, she can be seen in [[Santalune Forest]] with the other friends.
+
+Serena is the child of two prominent Pokémon battlers, and is seen as one of the two best battlers of the group of friends, alongside the protagonist.
+
+At {{rt|7|Kalos}}, Serena battles with the player against [[Tierno]] and [[Trevor]]. She then helps the player defeat [[Team Flare]] at [[Glittering Cave]] to save the fossil assistant, and is given the fossil not chosen afterward. At the [[Tower of Mastery]] in [[Shalour City]], Serena battles the player for the chance to get the [[Mega Ring]].
+
+The next time Serena battles the player is in front of the [[Coumarine Gym]].
+
+When the group of friends meets up and decides to go to the haunted area in {{rt|14|Kalos}}, Serena is the only one of the friends to not go to the house, claiming that she has to train. She then helps the player defeat Team Flare at the [[Poké Ball Factory]].
+
+The next time Serena battles the player is in front of the [[Anistar Gym]]. After the player defeats the gym, she will ask for a rematch, but cancels her challenge after [[Lysandre]] announces his plan of eradicating all life forms not a part of Team Flare. She then helps the player defeat Team Flare get to the legendary Pokémon and defeat Team Flare for good.
+
+As the player traverses {{kal|Victory Road}}, Serena appears by a derelict altar and demands one last battle before their final challenge.
+
+After the player enters the [[Hall of Fame]] and battles at the [[Battle Maison]], Serena can be battled in [[Kiloude City]], at which point she has obtained a Mega Ring of her own. When defeated for the first time here, she will give the player an [[Absolite]] and tell the player to meet [[Professor Sycamore]] in [[Anistar City]]. She can be battled at Kiloude City once per day.
+
+===Pokémon===
+====As the protagonist====
+As the player character, Serena can have up to all 721 Pokémon available in the Kalos games. As the player's rival, she uses a selection of Pokémon throughout the story to battle the player, including usage of [[Mega Evolution]]. Serena is required to pick between {{p|Chespin}}, {{p|Fennekin}} or {{p|Froakie}} as her first partner Pokémon. As the player, she will choose the Pokémon first. As the player's rival, Serena will pick the first partner Pokémon with the type advantage over the player.
+
+As the player, she is also required to catch either {{p|Xerneas}}{{sup/6|X}} or {{p|Yveltal}}{{sup/6|Y}}.
+
+=====Required in story=====
+;First partner Pokémon
+[[Tierno]] will offer Serena one of these three Pokémon at the start of the game under [[Professor Sycamore]], regardless of whether she is the player character or not.
+{{Pokémon/Grid}}
+{{Pokémon
+| gen = 6
+| ndex = 0650
+| pokemon = Chespin
+| type1 = Grass
+| ability = Overgrow
+| level = 5
+| gender = both
+| move1 = Tackle
+| move1type = Normal
+| move1cat = Physical
+| move2 = Leer
+| move2type = Normal
+| move2cat = Status
+| move3 = Vine Whip
+| move3type = Grass
+| move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0653
+| pokemon = Fennekin
+| type1 = Fire
+| ability = Blaze
+| level = 5
+| gender = both
+| move1 = Scratch
+| move1type = Normal
+| move1cat = Physical
+| move2 = Tail Whip
+| move2type = Normal
+| move2cat = Status
+| move3 = Ember
+| move3type = Fire
+| move3cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0656
+| pokemon = Froakie
+| type1 = Water
+| ability = Torrent
+| level = 5
+| gender = both
+| move1 = Pound
+| move1type = Normal
+| move1cat = Physical
+| move2 = Growl
+| move2type = Normal
+| move2cat = Status
+| move3 = Bubble
+| move3type = Water
+| move3cat = Special
+}}
+{{Pokémon/Grid/end}}
+
+;Legendary Pokémon
+As the player, she is also required to catch either {{p|Xerneas}}{{sup/6|X}} or {{p|Yveltal}}{{sup/6|Y}} in the [[Team Flare Secret HQ]] after it awakens to be used for the [[ultimate weapon]]. The player will then be asked if they would like to use the [[Legendary Pokémon]] to fight against Lysandre.
+
+{{Pokémon/Grid}}
+{{Pokémon
+| gen = 6
+| caption = '''{{g|X}}'''
+| ndex = 0716
+| pokemon = Xerneas
+| type1 = Fairy
+| ability = Fairy Aura
+| level = 50
+| move1 = Gravity
+| move1type = Psychic
+| move1cat = Status
+| move2 = Geomancy
+| move2type = Fairy
+| move2cat = Status
+| move3 = Moonblast
+| move3type = Fairy
+| move3cat = Special
+| move4 = Megahorn
+| move4type = Bug
+| move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| caption = '''{{g|Y}}'''
+| ndex = 0717
+| pokemon = Yveltal
+| type1 = Dark
+| type2 = Flying
+| ability = Dark Aura
+| level = 50
+| move1 = Snarl
+| move1type = Dark
+| move1cat = Special
+| move2 = Oblivion Wing
+| move2type = Flying
+| move2cat = Special
+| move3 = Disable
+| move3type = Normal
+| move3cat = Status
+| move4 = Dark Pulse
+| move4type = Dark
+| move4cat = Special
+}}
+{{Pokémon/Grid/end}}
+
+====As a non-playable character====
+=====Catching tutorial=====
+Serena has another unknown Pokémon besides her {{p|Fletchling}}, likely her first partner Pokémon, as she has two party slots filled during the tutorial.
+{{Party
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 2
+| locationname = Route 2
+| game = XY
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0661
+| pokemon = Fletchling
+| gender = female
+| level = 5
+| type1 = Normal
+| type2 = Flying
+| ability = Gale Wings
+| move1 = Tackle
+| move1type = Normal
+| move1cat = Physical
+| move2 = Growl
+| move2type = Normal
+| move2cat = Status
+}}
+{{Party/end}}
+======Caught in tutorial======
+{{Pokémon
+|gen=6
+|ndex=659
+|pokemon=Bunnelby
+|gender=both
+|level=2
+|type1=Normal
+|ability=Pickup
+|ability2=Cheek Pouch
+|move1=Tackle|move1type=Normal|move1cat=Physical
+|move2=Agility|move2type=Psychic|move2cat=Status
+|move3=Leer|move3type=Normal|move3cat=Status}}
+
+=====First Multi Battle partner=====
+Serena teams up with the player against [[Tierno]] and [[Trevor]].
+
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 7
+| locationname = Route 7
+| game = XY
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0661
+| pokemon = Fletchling
+| gender = female
+| level = 15
+| type1 = Normal
+| type2 = Flying
+| ability = Gale Wings
+| move1 = Quick Attack
+| move1type = Normal
+| move1cat = Physical
+| move2 = Growl
+| move2type = Normal
+| move2cat = Status
+| move3 = Peck
+| move3type = Flying
+| move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0654
+| pokemon = Braixen
+| gender = male
+| level = 16
+| type1 = Fire
+| ability = Blaze
+| move1 = Ember
+| move1type = Fire
+| move1cat = Special
+| move2 = Scratch
+| move2type = Normal
+| move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 7
+| locationname = Route 7
+| game = XY
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0661
+| pokemon = Fletchling
+| gender = female
+| level = 15
+| type1 = Normal
+| type2 = Flying
+| ability = Gale Wings
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+| move3 = Peck | move3type = Flying | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0657
+| pokemon = Frogadier
+| gender = male
+| level = 16
+| type1 = Water
+| ability = Torrent
+| move1 = Bubble | move1type = Water | move1cat = Special
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 7
+| locationname = Route 7
+| game = XY
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0661
+| pokemon = Fletchling
+| gender = female
+| level = 15
+| type1 = Normal
+| type2 = Flying
+| ability = Gale Wings
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+| move3 = Peck | move3type = Flying | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0651
+| pokemon = Quilladin
+| gender = male
+| level = 16
+| type1 = Grass
+| ability = Overgrow
+| move1 = Vine Whip | move1type = Grass | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+}}
+{{Party/end}}
+=====Second Multi Battle partner=====
+Serena teams up with the player against a pair of {{tc|Team Flare Grunt}}s.
+
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Glittering Cave
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0677
+| pokemon = Espurr
+| gender = female
+| level = 18
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Covet | move1type = Normal | move1cat = Physical
+| move2 = Confusion | move2type = Psychic | move2cat = Special
+| move3 = Light Screen | move3type = Psychic | move3cat = Status
+| move4 = Psybeam | move4type = Psychic | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 18
+| type1 = Dark
+| ability = Super Luck
+| move1 = Leer | move1type = Normal | move1cat = Status
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Pursuit | move3type = Dark | move3cat = Physical
+| move4 = Taunt | move4type = Dark | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0654
+| pokemon = Braixen
+| gender = male
+| level = 20
+| type1 = Fire
+| ability = Blaze
+| move1 = Ember | move1type = Fire | move1cat = Special
+| move2 = Howl | move2type = Normal | move2cat = Status
+| move3 = Flame Charge | move3type = Fire | move3cat = Physical
+| move4 = Psybeam | move4type = Psychic | move4cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Glittering Cave
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0677
+| pokemon = Espurr
+| gender = female
+| level = 18
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Covet | move1type = Normal | move1cat = Physical
+| move2 = Confusion | move2type = Psychic | move2cat = Special
+| move3 = Light Screen | move3type = Psychic | move3cat = Status
+| move4 = Psybeam | move4type = Psychic | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 18
+| type1 = Dark
+| ability = Super Luck
+| move1 = Leer | move1type = Normal | move1cat = Status
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Pursuit | move3type = Dark | move3cat = Physical
+| move4 = Taunt | move4type = Dark | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0657
+| pokemon = Frogadier
+| gender = male
+| level = 20
+| type1 = Water
+| ability = Torrent
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Lick | move2type = Ghost | move2cat = Physical
+| move3 = Water Pulse | move3type = Water | move3cat = Special
+| move4 = Smokescreen | move4type = Normal | move4cat = Status
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Glittering Cave
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0677
+| pokemon = Espurr
+| gender = female
+| level = 18
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Covet | move1type = Normal | move1cat = Physical
+| move2 = Confusion | move2type = Psychic | move2cat = Special
+| move3 = Light Screen | move3type = Psychic | move3cat = Status
+| move4 = Psybeam | move4type = Psychic | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 18
+| type1 = Dark
+| ability = Super Luck
+| move1 = Leer | move1type = Normal | move1cat = Status
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Pursuit | move3type = Dark | move3cat = Physical
+| move4 = Taunt | move4type = Dark | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0651
+| pokemon = Quilladin
+| gender = male
+| level = 20
+| type1 = Grass
+| ability = Overgrow
+| move1 = Rollout | move1type = Rock | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+| move3 = Leech Seed | move3type = Grass | move3cat = Status
+| move4 = Pin Missile | move4type = Bug | move4cat = Physical
+}}
+{{Party/end}}
+=====First battle=====
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,000
+| class = Pokémon Trainer
+| name = Serena
+| location = Tower of Mastery
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 28
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Fake Out | move1type = Normal | move1cat = Physical
+| move2 = Light Screen | move2type = Psychic | move2cat = Status
+| move3 = Psybeam | move3type = Psychic | move3cat = Special
+| move4 = Disarming Voice | move4type = Fairy | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 28
+| type1 = Dark
+| ability = Super Luck
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Slash | move2type = Normal | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0654
+| pokemon = Braixen
+| gender = male
+| level = 30
+| type1 = Fire
+| ability = Blaze
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Fire Spin | move2type = Fire | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,000
+| class = Pokémon Trainer
+| name = Serena
+| location = Tower of Mastery
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 28
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Fake Out | move1type = Normal | move1cat = Physical
+| move2 = Light Screen | move2type = Psychic | move2cat = Status
+| move3 = Psybeam | move3type = Psychic | move3cat = Special
+| move4 = Disarming Voice | move4type = Fairy | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 28
+| type1 = Dark
+| ability = Super Luck
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Slash | move2type = Normal | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0657
+| pokemon = Frogadier
+| gender = male
+| level = 30
+| type1 = Water
+| ability = Torrent
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,000
+| class = Pokémon Trainer
+| name = Serena
+| location = Tower of Mastery
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 28
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Fake Out | move1type = Normal | move1cat = Physical
+| move2 = Light Screen | move2type = Psychic | move2cat = Status
+| move3 = Psybeam | move3type = Psychic | move3cat = Special
+| move4 = Disarming Voice | move4type = Fairy | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 28
+| type1 = Dark
+| ability = Super Luck
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Slash | move2type = Normal | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0651
+| pokemon = Quilladin
+| gender = male
+| level = 30
+| type1 = Grass
+| ability = Overgrow
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Needle Arm | move2type = Grass | move2cat = Physical
+}}
+{{Party/end}}
+=====Second battle=====
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,300
+| class = Pokémon Trainer
+| name = Serena
+| location = Coumarine City
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 31
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 31
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0654
+| pokemon = Braixen
+| gender = male
+| level = 33
+| type1 = Fire
+| ability = Blaze
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Fire Spin | move2type = Fire | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,300
+| class = Pokémon Trainer
+| name = Serena
+| location = Coumarine City
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 31
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 31
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0657
+| pokemon = Frogadier
+| gender = male
+| level = 33
+| type1 = Water
+| ability = Torrent
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Water Pulse | move2type = Water | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,300
+| class = Pokémon Trainer
+| name = Serena
+| location = Coumarine City
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 31
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 31
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0651
+| pokemon = Quilladin
+| gender = male
+| level = 33
+| type1 = Grass
+| ability = Overgrow
+| move1 = Needle Arm | move1type = Grass | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+}}
+{{Party/end}}
+=====Third battle=====
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,700
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 14
+| locationname = Route 14
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 35
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 35
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0655
+| pokemon = Delphox
+| gender = male
+| level = 37
+| type1 = Fire
+| type2 = Psychic
+| ability = Blaze
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Mystical Fire | move2type = Fire | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,700
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 14
+| locationname = Route 14
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 35
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 35
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0658
+| pokemon = Greninja
+| gender = male
+| level = 37
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Water Shuriken | move2type = Water | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}3,700
+| class = Pokémon Trainer
+| name = Serena
+| location = Kalos Route 14
+| locationname = Route 14
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 35
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 35
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0652
+| pokemon = Chesnaught
+| gender = male
+| level = 37
+| type1 = Grass
+| type2 = Fighting
+| ability = Overgrow
+| move1 = Seed Bomb | move1type = Grass | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+}}
+{{Party/end}}
+=====Third Multi Battle partner=====
+Serena teams up with the player against [[Celosia]] and [[Bryony]].
+
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Poké Ball Factory
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 37
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 39
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0655
+| pokemon = Delphox
+| gender = male
+| level = 39
+| type1 = Fire
+| type2 = Psychic
+| ability = Blaze
+| move1 = Mystical Fire | move1type = Fire | move1cat = Special
+| move2 = Psybeam | move2type = Psychic | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Poké Ball Factory
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 37
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 39
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0658
+| pokemon = Greninja
+| gender = male
+| level = 39
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Water Shuriken | move1type = Water | move1cat = Physical
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Poké Ball Factory
+| game = XY
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 37
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 39
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Bite | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0652
+| pokemon = Chesnaught
+| gender = male
+| level = 39
+| type1 = Grass
+| type2 = Fighting
+| ability = Overgrow
+| move1 = Seed Bomb | move1type = Grass | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+}}
+{{Party/end}}
+=====Fourth battle=====
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}4,600
+| class = Pokémon Trainer
+| name = Serena
+| location = Anistar City
+| game = XY
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 44
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 44
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0135
+| pokemon = Jolteon
+| gender = male
+| level = 44
+| type1 = Electric
+| ability = Volt Absorb
+| move1 = Discharge | move1type = Electric | move1cat = Special
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Double Kick | move3type = Fighting | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0655
+| pokemon = Delphox
+| gender = male
+| level = 46
+| type1 = Fire
+| type2 = Psychic
+| ability = Blaze
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Flamethrower | move2type = Fire | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}4,600
+| class = Pokémon Trainer
+| name = Serena
+| location = Anistar City
+| game = XY
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 44
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 44
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0136
+| pokemon = Flareon
+| gender = male
+| level = 44
+| type1 = Fire
+| ability = Flash Fire
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Lava Plume | move2type = Fire | move2cat = Special
+| move3 = Bite | move3type = Dark | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0658
+| pokemon = Greninja
+| gender = male
+| level = 46
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Water Shuriken | move1type = Water | move1cat = Physical
+| move2 = Dark Pulse | move2type = Dark | move2cat = Special
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}4,600
+| class = Pokémon Trainer
+| name = Serena
+| location = Anistar City
+| game = XY
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 44
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 44
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0134
+| pokemon = Vaporeon
+| gender = male
+| level = 44
+| type1 = Water
+| ability = Water Absorb
+| move1 = Muddy Water | move1type = Water | move1cat = Special
+| move2 = Aurora Beam | move2type = Ice | move2cat = Special
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0652
+| pokemon = Chesnaught
+| gender = male
+| level = 46
+| type1 = Grass
+| type2 = Fighting
+| ability = Overgrow
+| move1 = Seed Bomb | move1type = Grass | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+}}
+{{Party/end}}
+=====Fourth Multi Battle partner=====
+Serena teams up with the player against a series of {{tc|Team Flare Admin}}s and Grunts.
+
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Team Flare Secret HQ
+| game = XY
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 45
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0655
+| pokemon = Delphox
+| gender = male
+| level = 49
+| type1 = Fire
+| type2 = Psychic
+| ability = Blaze
+| move1 = Flamethrower | move1type = Fire | move1cat = Special
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0135
+| pokemon = Jolteon
+| gender = male
+| level = 46
+| type1 = Electric
+| ability = Volt Absorb
+| move1 = Discharge | move1type = Electric | move1cat = Special
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 46
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Team Flare Secret HQ
+| game = XY
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 45
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0658
+| pokemon = Greninja
+| gender = male
+| level = 49
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Water Shuriken | move1type = Water | move1cat = Physical
+| move2 = Dark Pulse | move2type = Dark | move2cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0136
+| pokemon = Flareon
+| gender = male
+| level = 46
+| type1 = Fire
+| ability = Flash Fire
+| move1 = Quick Attack | move1type = Normal | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+| move3 = Lava Plume | move3type = Fire | move3cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 46
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = none
+| class = Pokémon Trainer
+| name = Serena
+| location = Team Flare Secret HQ
+| game = XY
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 45
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0652
+| pokemon = Chesnaught
+| gender = male
+| level = 49
+| type1 = Grass
+| type2 = Fighting
+| ability = Overgrow
+| move1 = Brick Break | move1type = Fighting | move1cat = Physical
+| move2 = Seed Bomb | move2type = Grass | move2cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0134
+| pokemon = Vaporeon
+| gender = male
+| level = 46
+| type1 = Water
+| ability = Water Absorb
+| move1 = Muddy Water | move1type = Water | move1cat = Special
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Aurora Beam | move3type = Ice | move3cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 46
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Party/end}}
+=====Fifth battle=====
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}6,100
+| class = Pokémon Trainer
+| name = Serena
+| location = Victory Road (Kalos)
+| locationname = Victory Road
+| game = {{color2|000|Pokémon X and Y|X and Y}}
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 57
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0135
+| pokemon = Jolteon
+| gender = male
+| level = 57
+| type1 = Electric
+| ability = Volt Absorb
+| move1 = Discharge | move1type = Electric | move1cat = Special
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Double Kick | move3type = Fighting | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0334
+| pokemon = Altaria
+| gender = female
+| level = 58
+| type1 = Dragon
+| type2 = Flying
+| ability = Natural Cure
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Confide | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 59
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0655
+| pokemon = Delphox
+| gender = male
+| level = 61
+| type1 = Fire
+| type2 = Psychic
+| ability = Blaze
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Shadow Ball | move2type = Ghost | move2cat = Special
+| move3 = Flamethrower | move3type = Fire | move3cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}6,100
+| class = Pokémon Trainer
+| name = Serena
+| location = Victory Road (Kalos)
+| locationname = Victory Road
+| game = X and Y
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 57
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0136
+| pokemon = Flareon
+| gender = male
+| level = 57
+| type1 = Fire
+| ability = Flash Fire
+| move1 = Bite | move1type = Dark | move1cat = Physical
+| move2 = Lava Plume | move2type = Fire | move2cat = Special
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0334
+| pokemon = Altaria
+| gender = female
+| level = 58
+| type1 = Dragon
+| type2 = Flying
+| ability = Natural Cure
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Confide | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 59
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0658
+| pokemon = Greninja
+| gender = male
+| level = 61
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Dark Pulse | move1type = Dark | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Water Shuriken | move3type = Water | move3cat = Physical
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{y color}}
+| border = {{y color dark}}
+| headcolor = {{y color light}}
+| sprite = VSSerena.png
+| size = 150px
+| prize = {{pdollar}}6,100
+| class = Pokémon Trainer
+| name = Serena
+| location = Victory Road (Kalos)
+| locationname = Victory Road
+| game = XY
+| pokemon = 5
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 57
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Disarming Voice | move3type = Fairy | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0134
+| pokemon = Vaporeon
+| gender = male
+| level = 57
+| type1 = Water
+| ability = Water Absorb
+| move1 = Muddy Water | move1type = Water | move1cat = Special
+| move2 = Aurora Beam | move2type = Ice | move2cat = Special
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0334
+| pokemon = Altaria
+| gender = female
+| level = 58
+| type1 = Dragon
+| type2 = Flying
+| ability = Natural Cure
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Confide | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| gender = male
+| level = 59
+| type1 = Dark
+| ability = Super Luck
+| move1 = Slash | move1type = Normal | move1cat = Physical
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Swords Dance | move3type = Normal | move3cat = Status
+| move4 = Night Slash | move4type = Dark | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0652
+| pokemon = Chesnaught
+| gender = male
+| level = 61
+| type1 = Grass
+| type2 = Fighting
+| ability = Overgrow
+| move1 = Brick Break | move1type = Fighting | move1cat = Physical
+| move2 = Seed Bomb | move2type = Grass | move2cat = Physical
+| move3 = Body Slam | move3type = Normal | move3cat = Physical
+}}
+{{Party/end}}
+=====[[Rematch]]es=====
+{{Party
+| caption = {{PlayerChoice|0650|Chespin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena 2.png
+| size = 150px
+| prize = {{pdollar}}7,000
+| class = Pokémon Trainer
+| name = Serena
+| location = Kiloude City
+| game = XY
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 66
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Fake Out | move1type = Normal | move1cat = Physical
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Disarming Voice | move4type = Fairy | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0036
+| pokemon = Clefable
+| gender = female
+| level = 68
+| type1 = Fairy
+| ability = Magic Guard
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Focus Blast | move2type = Fighting | move2cat = Special
+| move3 = Meteor Mash | move3type = Steel | move3cat = Physical
+| move4 = Sing | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0135
+| pokemon = Jolteon
+| gender = male
+| level = 66
+| type1 = Electric
+| ability = Volt Absorb
+| move1 = Thunder | move1type = Electric | move1cat = Special
+| move2 = Double Kick | move2type = Fighting | move2cat = Physical
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| icon = mega
+| gender = male
+| level = 68
+| type1 = Dark
+| ability = Super Luck
+| held = Absolite
+| move1 = Night Slash | move1type = Dark | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Slash | move3type = Normal | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0334
+| pokemon = Altaria
+| gender = female
+| level = 67
+| type1 = Dragon
+| type2 = Flying
+| ability = Natural Cure
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Confide | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0655
+| pokemon = Delphox
+| gender = male
+| level = 70
+| type1 = Fire
+| type2 = Psychic
+| ability = Blaze
+| move1 = Fire Blast | move1type = Fire | move1cat = Special
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0653|Fennekin}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena 2.png
+| size = 150px
+| prize = {{pdollar}}7,000
+| class = Pokémon Trainer
+| name = Serena
+| location = Kiloude City
+| game = XY
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 66
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Fake Out | move1type = Normal | move1cat = Physical
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Disarming Voice | move4type = Fairy | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0036
+| pokemon = Clefable
+| gender = female
+| level = 68
+| type1 = Fairy
+| ability = Magic Guard
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Focus Blast | move2type = Fighting | move2cat = Special
+| move3 = Meteor Mash | move3type = Steel | move3cat = Physical
+| move4 = Sing | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0136
+| pokemon = Flareon
+| gender = male
+| level = 66
+| type1 = Fire
+| ability = Flash Fire
+| move1 = Fire Blast | move1type = Fire | move1cat = Special
+| move2 = Quick Attack | move2type = Normal | move2cat = Physical
+| move3 = Bite | move3type = Dark | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| icon = mega
+| gender = male
+| level = 68
+| type1 = Dark
+| ability = Super Luck
+| held = Absolite
+| move1 = Night Slash | move1type = Dark | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Slash | move3type = Normal | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0334
+| pokemon = Altaria
+| gender = female
+| level = 67
+| type1 = Dragon
+| type2 = Flying
+| ability = Natural Cure
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Confide | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0658
+| pokemon = Greninja
+| gender = male
+| level = 70
+| type1 = Water
+| type2 = Dark
+| ability = Torrent
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Dark Pulse | move2type = Dark | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+}}
+{{Party/end}}
+{{Party
+|caption = {{PlayerChoice|0656|Froakie}}
+| background = {{Y color}}
+| border = {{Y color dark}}
+| headcolor = {{Y color light}}
+| sprite = VSSerena 2.png
+| size = 150px
+| prize = {{pdollar}}7,000
+| class = Pokémon Trainer
+| name = Serena
+| location = Kiloude City
+| game = XY
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0678
+| pokemon = Meowstic
+| form = -Female
+| gender = female
+| level = 66
+| type1 = Psychic
+| ability = Keen Eye
+| move1 = Fake Out | move1type = Normal | move1cat = Physical
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+| move3 = Shadow Ball | move3type = Ghost | move3cat = Special
+| move4 = Disarming Voice | move4type = Fairy | move4cat = Special
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0036
+| pokemon = Clefable
+| gender = female
+| level = 68
+| type1 = Fairy
+| ability = Magic Guard
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Focus Blast | move2type = Fighting | move2cat = Special
+| move3 = Meteor Mash | move3type = Steel | move3cat = Physical
+| move4 = Sing | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0134
+| pokemon = Vaporeon
+| gender = male
+| level = 66
+| type1 = Water
+| ability = Water Absorb
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Aurora Beam | move2type = Ice | move2cat = Special
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0359
+| pokemon = Absol
+| icon = mega
+| gender = male
+| level = 68
+| type1 = Dark
+| ability = Super Luck
+| held = Absolite
+| move1 = Night Slash | move1type = Dark | move1cat = Physical
+| move2 = Swords Dance | move2type = Normal | move2cat = Status
+| move3 = Slash | move3type = Normal | move3cat = Physical
+| move4 = Quick Attack | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0334
+| pokemon = Altaria
+| gender = female
+| level = 67
+| type1 = Dragon
+| type2 = Flying
+| ability = Natural Cure
+| move1 = Dragon Pulse | move1type = Dragon | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Confide | move3type = Normal | move3cat = Status
+}}
+{{Pokémon
+| gen = 6
+| ndex = 0652
+| pokemon = Chesnaught
+| gender = male
+| level = 70
+| type1 = Grass
+| type2 = Fighting
+| ability = Overgrow
+| move1 = Wood Hammer | move1type = Grass | move1cat = Physical
+| move2 = Brick Break | move2type = Fighting | move2cat = Physical
+| move3 = Body Slam | move3type = Normal | move3cat = Physical
+}}
+{{Party/end}}
+
+==In the spin-off games==
+[[File:Pokémon Trainer XY 3DS trophy SSB4.png|200px|thumb|The Pokémon Trainer (Pokémon X & Y) from Super Smash Bros. for Nintendo 3DS]]
+===Super Smash Bros. series===
+====[[Super Smash Bros. for Nintendo 3DS/Wii U]]====
+Serena appears alongside Calem as a trophy in the 3DS version. They are both simply referred to as Pokémon Trainer (Pokémon X & Y). [[Jigglypuff (Super Smash Bros.)|Jigglypuff]]'s eighth alternate skin gives it Serena's red felt hat and white wide-brim sunglasses.
+
+=====Trophy information=====
+'''NA:''' ''We suppose it's possible you've missed out up till now, so let us explain: in Pokémon, you set out from your hometown on a Pokémon journey, catching Pokémon and fighting battles with them. In Pokémon X and Pokémon Y, you reach the next town and find yourself embroiled in a tale of... No, wait–no spoilers!''
+
+'''PAL:''' ''If you've been living under a rock for some years now, let us explain. In Pokémon, you start from your home town on your own Pokémon journey, catching Pokémon and fighting battles with them. In Pokémon X and Pokémon Y, you reach the next town and find yourself embroiled in a tale of... Well, we won't spoil it for you.''
+
+====[[Super Smash Bros. Ultimate]]====
+[[Jigglypuff (Super Smash Bros.)|Jigglypuff]]'s eighth alternate skin based on Serena reappears.
+
+===[[Pokémon Masters EX]]===
+{{main|Serena (Masters)}}
+Serena, who is based on the [[player character]], forms a [[sync pair]] with {{p|Fennekin}} and its evolved forms {{p|Braixen}} and {{p|Delphox}}, along with {{p|Whimsicott}}, {{Form|Zygarde|50% Forme}} {{p|Zygarde}}, {{p|Greninja}}, and {{p|Fletchling}} in [[Pokémon Masters EX]]. Her Zygarde is capable of transforming into its {{Form|Zygarde|Complete Forme}}. Serena became a playable sync pair on June 30, 2020.
+
+Serena has also made notable appearances in the game's main stories, [[Legendary Adventures]] and the [[villain arc]].
+
+{{PairDex/h|Y}}
+{{PairDex|096|Serena|trainerlink=Serena (Masters)#Fennekin → Braixen → Delphox|trainerimg=Serena|0655|Fennekin → Braixen → Delphox|gender=male|pokemonlink=Fennekin (Pokémon)|Fire|Ground|Tech|6|Sync Pair Scout}}
+{{PairDex|096|Serena|trainerlink=Serena (Masters)#Whimsicott|trainerimg=Serena Palentine 2021|sygna=Palentine's 2021|0547|Whimsicott|gender=female|Fairy|Poison|Tech|exrole=Support|6|Seasonal Sync Pair Scout}}
+{{PairDex|096|Serena|trainerlink=Serena (Masters)#Zygarde (50% Forme → Complete Forme)|trainerimg=Serena Sygna|sygna=[[Sygna suit|Sygna Suit]]|0718C|Zygarde|form={{Form|Zygarde|50% Forme → Complete Forme}}|master=yes|Dragon|Ice|Special Strike|exrole=Support|6|Master Fair Sync Pair Scout}}
+{{PairDex|096|Serena|trainerlink=Serena (Masters)#Greninja (Sync Move: Water ↔ Dark)|trainerimg=Serena Champion|sygna={{pkmn|Champion}}|0658|Greninja|gender=male|master=yes|buddy=yes|Water|Electric|Tech|exrole=Support|6|Master Fair Sync Pair Scout}}
+{{PairDex|096|Serena|trainerlink=Serena (Masters)#Fletchling|trainerimg=Serena|0661|Fletchling|gender=female|Flying|Electric|Tech|4EX|Trainer Lodge Friendship Level 100}}
+|}
+
+==Quotes==
+{{main|Serena (game)/Quotes}}
+
+==Counterparts==
+===In animation===
+[[File:Serena anime {{#switch: {{#expr: {{#time: U}} mod 2}}|0=1|1=2}}.png|thumb|250px|Serena's {{#switch: {{#expr: {{#time: U}} mod 2}}|0=initial|1=second}} appearance in {{aniseries|XY}}]]
+====''Pokémon the Series''====
+{{main|Serena (anime)}}
+Serena is a {{ashfr|traveling companion}} of [[Ash Ketchum]] in ''[[Pokémon the Series: XY]]''. She first joined up with him in ''[[XY005|A Blustery Santalune Gym Battle!]]'' and officially joined him on his {{pkmn|journey}} by ''[[XY007|Giving Chase at the Rhyhorn Race!]]''. She is a [[Pokémon Performer]] who met Ash at {{an|Professor Oak}}'s Pokémon Summer Camp when they were younger. She had a haircut and a new outfit as of ''[[XY060|A Showcase Debut!]]''. 
+
+In ''[[Pokémon Journeys: The Series]]'', she was revealed to have become a successful [[Pokémon Coordinator]] in [[Hoenn]].
+
+[[File:Shauna Serena Evolutions.png|thumb|left|250px|Serena in [[Pokémon Evolutions]]]]
+====GOTCHA!====
+Serena briefly appeared in [[GOTCHA!]], with her {{p|Greninja}} battling {{p|Mewtwo}}.
+
+====Pokémon Evolutions====
+Serena appeared in ''[[PE03|The Visionary]]'' as {{ga|Calem}}'s rival. She and [[Shauna]] joined Calem after he had defeated [[Lysandre]] at the [[Team Flare Secret HQ]]. When Lysandre started firing the [[ultimate weapon]], the three young Trainers fled the HQ together. Afterwards, they witnessed the weapon sinking back into the ground.
+{{-}}
+
+===In the manga===
+[[File:Y Adventures.png|thumb|150px|Serena's Pokémon Adventures counterpart, Y]]
+====Pokémon Adventures====
+{{main|Y (Adventures)}}
+The character Yvonne Gabena, more commonly referred to as Y, is modeled after Serena. She is an aspiring {{tc|Sky Trainer}}, having chosen to become one to oppose people's expectations of her following in {{kal|Grace|her mother}}'s footsteps as a {{p|Rhyhorn}} racer. She rotates through several different hairstyles throughout the {{MangaArc|X & Y}}.
+{{-}}
+
+==In the TCG==
+[[File:SerenaSilverTempest193.jpg|200px|thumb|Serena in the TCG]]
+{{main|Serena (Silver Tempest 164)}}
+'''Serena''' was introduced as a {{TCG|Supporter card}} in the [[Pokémon Trading Card Game]] during the English Sword & Shield Series (the Japanese Sword & Shield Era). It was first released in the Japanese {{TCG|Incandescent Arcana}} subset before debuting in English in the {{TCG|Silver Tempest}} expansion, with artwork by [[Ken Sugimori]]. A [[Full Art]] ultra rare and a rainbow rare version of the card with artwork by [[Megumi Mizutani]] were included in these expansions as well. The card allows the player to either discard up to three cards from their hand, then draw cards until they have five cards in hand, or switch in one of their opponent's Benched {{TCG|Pokémon V}} to the Active Spot.
+
+Serena is also featured on the Trainer Gallery holo rare print of {{TCG ID|Silver Tempest|Braixen|TG1}} from the {{TCG|Silver Tempest}} Trainer Gallery.
+{{-}}
+
+==Gallery==
+:''For images on [[Serena (anime)|Serena's animated series counterpart]], see: [[Serena (anime)#Gallery|Serena (anime)]]''
+:''For images on Serena in [[Pokémon Masters EX]], see: [[Serena (Masters)#Gallery|Serena (Masters)]]''
+===Artwork===
+====Standard====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size: 80%"
+|-
+|style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}};"| [[File:XY Serena.png|175px]]
+|style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:Trainer Customization artwork.png|250px]]
+|style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}};"| [[File:Pokémon-Amie artwork.png|250px]]
+|- style="color:#fff;"
+| Artwork for {{color2|fff|Pokémon X and Y}} by {{color2|fff|Ken Sugimori}}
+| Serena {{color2|fff|Trainer customization|dressing up}}
+| Serena, {{color2|fff|Calem (game)|Calem}}, and their<br>Pokémon in {{color2|fff|Pokémon-Amie}}
+|-
+| style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:Yveltal Encounter.png|350px]]
+| style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:Pokémon Day 2022 Kalos Artwork.png|250px]]
+| style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:HM Strength artwork.png|250px]]
+|- style="color:#fff;"
+| Encountering {{color2|fff|Yveltal (Pokémon)|Yveltal}} by {{color2|fff|Ken Sugimori}}
+| Artwork for {{color2|fff|Pokémon Day}} by {{color2|fff|Megumi Mizutani}}
+| Artwork depicting the usage of {{color2|fff|Strength (move)|Strength}},<br>featuring Serena with a {{color2|fff|Durant (Pokémon)|Durant}}
+|}
+
+====Concept art====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}};"
+|-
+|style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:Calem and Serena concept art.png|250px]]
+|- style="font-size: 80%; color:#fff;"
+| Concept art of {{color2|fff|Calem (game)|Calem}} and Serena
+|}
+
+====Merchandise====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size: 80%"
+|-
+| colspan=2 style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}};"| [[File:Kotobukiya ArtFX J Figure Serena Fennekin.png|250px]]
+|- style="color:#fff;"
+| colspan=2 | Serena and {{color2|fff|Fennekin (Pokémon)|Fennekin}} concept artwork<br>for the {{color2|000|Kotobukiya figurines|Kotobukiya ArtFx J figurine}}
+|-
+|style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:Trainer Collection XY Heroine Artwork.png|200px]]
+|style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; overflow: hidden;"| [[File:Serena (clear file).png|210px]]
+|- style="color:#fff;"
+| Trainer Collection illustration featuring<br>Serena and several {{color2|fff|Pokémon (species)|Pokémon}}
+| Serena and {{color2|fff|Fennekin (Pokémon)|Fennekin}} clear file artwork
+|}
+
+===Game assets===
+====Sprites and models====
+{|style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{Y color dark}}; background:#{{Y color}}; color:white"
+| colspan="8" style="{{roundy|20px}} border:2px solid #{{Y color dark}}; background:#{{Y color dark}}; font-size:125%; color:black" | '''{{color2|fff|Generation VI}}'''
+|-
+|colspan=2 style="{{roundy|80px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; width:80px" | [[File:VSSerena.png|200px]]
+|colspan=2 style="{{roundy|80px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; width:80px" | [[File:VSSerena 2.png|200px]]
+|-
+| colspan=2 | '''{{GameIcon|X}}{{GameIcon|y}}''' <br> VS <br> (Rival)
+| colspan=2 | '''{{GameIcon|X}}{{GameIcon|y}}''' <br> VS <br> (Rival, {{color2|FFF|Mega Ring}})
+|-
+| style="{{roundy|10px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; overflow: hidden;" | [[File:Serena Icon XY-1.png|100px]]
+| style="{{roundy|10px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; overflow: hidden;" | [[File:Serena Icon XY-2.png|100px]]
+| style="{{roundy|10px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; overflow: hidden;" | [[File:Serena Icon XY-3.png|100px]]
+|-
+| colspan=3 | '''{{GameIcon|X}}{{GameIcon|y}}''' <br> Character Selection
+|-
+|style="{{roundy|80px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; width:80px" | [[File:XY Serena Icon.png]]
+|style="{{roundy|80px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; width:80px" | [[File:Serena XY OD.png|100px]]
+|style="{{roundy|80px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; width:80px" | [[File:Serena pajamas OD.png|100px]]
+|style="{{roundy|80px}} border:2px solid #{{Y color dark}}; background:#{{Y color light}}; width:80px" | [[File:Serena 2 OD.png|100px]]
+|- 
+| '''{{GameIcon|X}}{{GameIcon|y}}{{color2|fff|Pokémon Global Link|&nbsp;PGL&nbsp;}}''' <br> {{color2|FFF|Player Search System|PSS}} icon <br> (Center default)
+| '''{{GameIcon|X}}{{GameIcon|y}}''' <br> Overworld model
+| '''{{GameIcon|X}}{{GameIcon|y}}''' <br> Overworld model <br> (Pajamas)
+| '''{{GameIcon|X}}{{GameIcon|y}}''' <br> Overworld model <br> (Haircut)
+|}
+
+====Spin-off games====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{y color dark}}; background: #{{y color}}; font-size: 80%; color:#000"
+|-
+| style="{{roundy|15px}} border: 2px solid #{{y color dark}}; background: #{{y color light}}; width:80px"| [[File:Pokémon Trainer XY 3DS trophy SSB4.png|200px]]
+|- style="color:#fff;"
+| Trophy model from <br>{{color2|fff|Super Smash Bros. for Nintendo 3DS/Wii U}}
+|}
+{{-}}
+
+==Names==
+This character is named '''Serena''' (Japanese: '''セレナ''' ''Serena'') when she appears as a [[non-player character]] in the [[Generation VI]] games. This name is also used in merchandise and in [[Pokémon Masters EX]].
+
+Pre-release media for {{g|X and Y}} referred to Serena as '''Yvonne''' (Japanese: '''ワイ''' ''Y'').
+
+{| class="roundtable" style="background:#{{Y color}}; border:3px solid #{{Y color dark}}"
+|-
+! style="background:#{{Y color light}}; color:#FFFFFF" | Language
+! style="background:#{{Y color light}}; color:#FFFFFF" | Name
+! style="background:#{{Y color light}}; color:#FFFFFF" | Origin
+|-
+| Japanese
+| セレナ ''Serena''
+| From ''serene''
+|-
+| English, German, European Spanish,<br>Latin American Spanish, French, Italian,<br>Brazilian Portuguese, Catalan,<br>Indonesian, Turkish, Vietnamese
+| Serena
+| Same as Japanese name
+|-
+| Korean
+| 세레나 ''Serena''
+| Transcription of her Japanese name
+|-
+| Chinese (Traditional)
+| 莎莉娜 ''Shālìnà'' / ''Sāleihnàh''
+| rowspan="4" | Transcription of her Japanese name
+|-
+| Chinese (Simplified)
+| 莎莉娜 ''Shālìnà''
+|-
+| Chinese (Hong Kong)
+| 賽莉娜 ''Choileihnàh''<ref group=n>[[Pokémon animated series]] (''[[Pokémon the Series: XY|XY]]'' series, [[M18]])</ref>
+|-
+| Chinese (mainland China)
+| 塞丽娜 ''Sāilìnà''<ref group=n>Pokémon animated series ([[M19]] theatrical dub and sub)</ref><br>赛丽娜 ''Sàilìnà''<ref group=n>Early translation on official animated series website</ref> 
+|-
+| Hebrew
+| סרינה ''Serena''
+| Transcription of her English name
+|-
+| Russian
+| Серена ''Serena''
+| Transcription of her English name
+|-
+| Thai
+| เซเรนา ''Serena''
+| Transcription of her Japanese name
+|}
+{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==Trivia==
+* Serena has more {{OBP|Style|Lumiose City}} benefits than {{ga|Calem}}.
+
+==References==
+<references />
+
+==External links==
+*{{wp|Serena (Pokémon)|Article on Wikipedia}}
+
+==Related articles==
+{{Capture tutor}}
+{{Player characters|Y}}
+{{Rival characters|Y}}
+{{NPC|Y|kalos=yes}}
+{{Project CharacterDex notice}}
+
+[[Category:Rival characters]]
+[[Category:Friend characters]]
+[[Category:Game characters]]
+[[Category:Playable characters]]
+[[Category:Female characters]]
+[[Category:X and Y characters]]
+[[Category:Pokémon Evolutions characters]]
+[[Category:Multi Battle partners]]
+[[Category:Champions]]
+[[Category:Trainers who use Mega Evolution]]
+[[Category:Trainers with Legendary Pokémon]]<!--XY's box Legendary, required to be caught by the storyline-->
+
+[[de:Serena]]
+[[es:Serena (personaje)]]
+[[fr:Serena]]
+[[it:Serena (gioco)]]
+[[ja:セレナ]]
+[[zh:莎莉娜]]

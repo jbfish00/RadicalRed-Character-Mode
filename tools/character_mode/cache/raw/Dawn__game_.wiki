@@ -1,0 +1,2252 @@
+{{Character Infobox
+|color={{pearl color}}
+|bordercolor={{pearl color dark}}
+|corecolor={{pearl color light}}
+|name=Dawn
+|jname=ヒカリ
+|tmname=Hikari
+|image=Brilliant Diamond Shining Pearl Dawn.png
+|size=220px
+|caption=Artwork from {{g|Brilliant Diamond and Shining Pearl}}
+|gender=Female
+|height=4'8" (1.42 m)<ref>{{game|Diamond and Pearl|s}}'s Pokédex</ref>
+|eyes=Slate gray{{tt|*|Top-left, top-right and bottom-right PC default}}, Light blue{{tt|*|Bottom-left PC default}}, Brown
+|hair=Slate gray{{tt|*|Top-left PC default}},  Blonde{{tt|*|Bottom left PC default}}, Brown{{tt|*|Top-right and bottom-right PC default}}
+|hometown=[[Twinleaf Town]] (as player)<br>[[Sandgem Town]] (as NPC)
+|region=[[Sinnoh]]
+|relatives=[[Johanna]], mentioned father (as player)<br>Unnamed father, younger sister, grandfather (as NPC)
+}}
+{{Character Infobox/Game
+|color={{pearl color light}}
+|gen={{gen|IV}}, {{gen|VIII}}, {{gen|IX}}
+|counterpart=[[Dawn (Masters)]]
+|games={{game3|Diamond and Pearl|Diamond, Pearl|s}}, {{v2|Platinum}}, {{pkmn|Brilliant Diamond and Shining Pearl|Brilliant Diamond, Shining Pearl}}<br>{{pkmn|Battle Revolution}}, {{pkmn|Masters EX}}
+|trainer=[[Pokémon Trainer]], [[player character]] 
+|enva=Kimberley Anne Campbell<ref name="Kimberley Anne Campbell">[https://hear.kim/ KIMBERLEY ANNE CAMPBELL | character & interactive media voice over talent]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Rie Takahashi<ref name="Rie Takahashi">[https://twitter.com/pokemas_game/status/1356121351128371205 Pokémon Masters Official Japanese profile on Twitter]</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Anime
+|color={{pearl color light}}
+|series={{aniseries|PTS}}
+|counterpart={{an|Dawn}}
+|debut=''[[DP001|Following A Maiden's Voyage!]]''
+|enva=[[Emily Jenness]]
+|jpva=[[Megumi Toyoguchi]]
+}}
+{{Character Infobox/Manga
+|color={{pearl color light}}
+|series=''[[Pokémon Adventures]]''<br>''[[Pokémon Diamond and Pearl Adventure!]]''<br>
+|counterpart=[[Platinum (Adventures)]], [[Mitsumi]]
+|debut=''[[PS338|Stagestruck Starly/VS Starly]]'' (''Pokémon Adventures'')<br>''[[DPA01|In Search of the Legendary Pokémon Dialga!!]]'' (''Pokémon Diamond and Pearl Adventure!'')
+}}
+|}
+
+'''Dawn''' (Japanese: '''ヒカリ''' ''Hikari'') is the female player character of {{game2|Diamond|Pearl|Platinum}} and their [[Generation VIII]] remakes {{pkmn|Brilliant Diamond and Shining Pearl}}. As an NPC, Dawn serves as the [[Professor's assistant|assistant]] to [[Professor Rowan]]. Her male counterpart is {{ga|Lucas}}.
+
+==Appearance==
+Dawn is a young girl with fair skin, vivid blue eyes, navy blue hair, and a slightly thin build.
+
+In {{game|Diamond and Pearl|s}}, Dawn's default attire consists of a black V-neck tank top with a white undershirt and a pink skirt as if both parts were acting like a dress. Her head mans a white beanie hat with a partial Poké Ball marking in pink engraved on it. She wears gold hair clips that hold up her hair in the front. A red scarf surrounds her neck, and her footwear features pink tall boots with satin black knee-high socks. In Pokémon Masters EX an alternate palette of Dawn's default appearance shows her wearing a green V-neck tank top with a chartreuse undershirt and a yellow skirt as if both parts were acting like a dress. The hat on her head is chartreuse with a partial Poké Ball marking colored yellow. The hair clips are red, and the boots are yellow with forest green knee-high socks.
+
+In {{game|Platinum}}, Dawn wears a different outfit to combat colder climates. Her platinum form features a salmon pink trench coat with a white scarf surrounding her neck. She retains the same white beanie hat but her hair clips are pink instead. The boots are slightly different than what she wore for her default attire, and the socks are white, extending a little past the knees.
+
+In {{g|Brilliant Diamond and Shining Pearl}}, Dawn has many variations through Trainer customization. Her summer style shows her wearing a white blouse with blue denim shorts. The shoes feature black and white high tops with black socks partially concealed within. The Pikachu hoodie style shows her wearing a satin black hoodie with yellow spark markings, which also include navy blue leggings and red and white high tops. The overalls style show Dawn wearing a white t-shirt with bright blue overalls and brown formal shoes. The Eevee jacket style shows her wearing a steel gray baseball cap, a black and white jacket with yellow stars, a blue tank top, a mint turquoise skirt, and deep space purple sneakers with black socks. The Gengar jacket style features almost the same color scheme as the Eevee jacket, although the jacket is magenta, and the tank top is black, while everything else in the build remains the same. The cyber style shows Dawn wearing a brown short dress with scarlet and red lines. The boots are the same color with white socks. The winter style shows Dawn wearing a red beanie hat, an orange fleece coat with faded cream white sleeves, a mustard yellow maxi skirt, and polished orange dress shoes. The spring style shows her wearing a turquoise beret hat, a pink sweater with a white blouse under it, a gray plaid skirt, and copper many jane shoes with gray socks. The casual style shows Dawn wearing an onyx black baseball cap with a red stripe, a yellow punk jacket with a white denim dress under it, and black combat boots. The leather jacket style shows Dawn wearing a black leather jacket with a white t-shirt under it, leggings with multiple purple color codes, and black high tops. Her contest dress, which is otherwise unplayable in the outside world and only shown in contests, features a white dress with red ribbons decorating it, the footwear features white mary janes.
+
+==In the core series games==
+===As the protagonist===
+====Pokémon Diamond, Pearl, Brilliant Diamond and Shining Pearl====
+Dawn lives in [[Twinleaf Town]] with her mother. Dawn and {{ga|Barry}} both see a television program about a [[red Gyarados]], so the two head to the nearby [[Lake Verity]] in search of a similar Pokémon. As the enter the lake area, Professor Rowan and his assistant {{ga|Lucas}} are leaving, but have inadvertently left a briefcase behind. Dawn and Barry wander into the tall grass, but are suddenly attacked by wild {{p|Starly}}; as a last resort, they each use one of the Pokémon in the briefcase the Professor has forgotten. The two take their Pokémon to Sandgem Town to return them to Professor Rowan, but Rowan decides to let the two keep their Pokémon, and also gives them each a [[Pokédex]].
+
+Dawn goes on to gather the eight [[Gym Badge]]s of [[Sinnoh]], defeat [[Team Galactic]], and conquer the {{si|Pokémon League}}. She has to stop [[Team Galactic]] from trying to use either {{p|Dialga}}{{sup/4|D}}{{sup/8|BD}} or {{p|Palkia}}{{sup/4|P}}{{sup/8|SP}} to destroy the entire universe in order to create a new one.
+
+====Pokémon Platinum====
+Dawn lives in [[Twinleaf Town]] with her mother. Dawn and {{ga|Barry}} both see a television program about Professor Rowan, so the two head to [[Sandgem Town]] to visit Professor Rowan at his lab to get some Pokémon of their own. They receive their Pokémon on {{rt|201|Sinnoh}} when Professor Rowan realizes that they are so dedicated to Pokémon that they would attempt to travel from Twinleaf Town to [[Sandgem Town]] through the [[tall grass]] without any Pokémon of their own.
+
+Dawn goes on to gather the eight [[Gym Badge]]s of [[Sinnoh]], defeat [[Team Galactic]], and conquer the {{si|Pokémon League}}. She has to go to the [[Distortion World]] and face Giratina, in order to stop both worlds from destroying each other.
+
+====Pokémon Black, White, Black 2, and White 2====
+In Pokémon Black, White, Black 2, and White 2, the player character from Diamond, Pearl and Platinum and their exploits are referenced by [[Cynthia]], who remembers a young Trainer who had defeated her.
+
+===As a non-playable character===
+If the player chooses Lucas, Dawn appears in the game as an NPC. She serves as [[Professor Rowan]]'s assistant. She lives in [[Sandgem Town]] with her little sister, grandfather, and father—who also works as an assistant of Professor Rowan. She received her [[first partner Pokémon]] before the player, having either a {{p|Turtwig}}, {{p|Chimchar}} or {{p|Piplup}}—the Pokémon she has is always the one that has a type disadvantage against the player's first partner Pokémon.
+
+She demonstrates how to catch Pokémon to the player by catching a wild {{p|Bidoof}}.
+
+====Pokémon====
+====={{game|Diamond and Pearl|s}}=====
+======Capture tutorial======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = DP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0393
+| pokemon = Piplup
+| gender = both
+| level = 5
+| type1 = Water
+| ability = Torrent
+| move1 = Pound | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = DP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0387
+| pokemon = Turtwig
+| gender = both
+| level = 5
+| type1 = Grass
+| ability = Overgrow
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Withdraw | move2type = Water | move2cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = DP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0390
+| pokemon = Chimchar
+| gender = both
+| level = 5
+| type1 = Fire
+| ability = Blaze
+| move1 = Scratch | move1type = Normal | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+;Caught in tutorial
+{{Pokémon
+| gen = 4
+| ndex = 0399
+| pokemon = Bidoof
+| gender = both
+| level = 2
+| type1 = Normal
+| ability = Simple
+| ability2 = Unaware
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+}}
+
+======First [[Multi Battle]] partner======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = DP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0393
+| pokemon = Piplup
+| gender = both
+| level = 13
+| type1 = Water
+| ability = Torrent
+| move1 = Bubble | move1type = Water | move1cat = Special
+| move2 = Pound | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = DP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0387
+| pokemon = Turtwig
+| gender = both
+| level = 13
+| type1 = Grass
+| ability = Overgrow
+| move1 = Absorb | move1type = Grass | move1cat = Special
+| move2 = Tackle | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = DP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0390
+| pokemon = Chimchar
+| gender = both
+| level = 13
+| type1 = Fire
+| ability = Blaze
+| move1 = Ember | move1type = Fire | move1cat = Special
+| move2 = Scratch | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+======Second Multi Battle partner======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = DP
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0035
+| pokemon = Clefairy
+| gender = female
+| level = 25
+| type1 = Normal
+| ability = Cute Charm
+| move1 = Metronome | move1type = Normal | move1cat = Status
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Gravity | move3type = Psychic | move3cat = Status
+| move4 = Wake-Up Slap | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0064
+| pokemon = Kadabra
+| gender = male
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Psycho Cut | move2type = Psychic | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0394
+| pokemon = Prinplup
+| gender = both
+| level = 28
+| type1 = Water
+| ability = Torrent
+| move1 = BubbleBeam | move1type = Water | move1cat = Special
+| move2 = Peck | move2type = Flying | move2cat = Physical
+| move3 = Fury Attack | move3type = Normal | move3cat = Physical
+| move4 = Metal Claw | move4type = Steel | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = DP
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0035
+| pokemon = Clefairy
+| gender = female
+| level = 25
+| type1 = Normal
+| ability = Cute Charm
+| move1 = Metronome | move1type = Normal | move1cat = Status
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Gravity | move3type = Psychic | move3cat = Status
+| move4 = Wake-Up Slap | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0064
+| pokemon = Kadabra
+| gender = male
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Psycho Cut | move2type = Psychic | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0388
+| pokemon = Grotle
+| gender = both
+| level = 28
+| type1 = Grass
+| ability = Overgrow
+| move1 = Razor Leaf | move1type = Grass | move1cat = Physical
+| move2 = Mega Drain | move2type = Grass | move2cat = Special
+| move3 = Bite | move3type = Dark | move3cat = Physical
+| move4 = Curse | move4type = ??? | move4cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DP Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = DP
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0035
+| pokemon = Clefairy
+| gender = female
+| level = 25
+| type1 = Normal
+| ability = Cute Charm
+| move1 = Metronome | move1type = Normal | move1cat = Status
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Gravity | move3type = Psychic | move3cat = Status
+| move4 = Wake-Up Slap | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0064
+| pokemon = Kadabra
+| gender = male
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Psycho Cut | move2type = Psychic | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0391
+| pokemon = Monferno
+| gender = both
+| level = 28
+| type1 = Fire
+| type2 = Fighting
+| ability = Blaze
+| move1 = Flame Wheel | move1type = Fire | move1cat = Physical
+| move2 = Ember | move2type = Fire | move2cat = Special
+| move3 = Mach Punch | move3type = Fighting | move3cat = Physical
+| move4 = Fury Swipes | move4type = Normal | move4cat = Physical
+}}
+{{Party/end}}
+====={{game|Platinum}}=====
+======Capture tutorial======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = Pt
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0393
+| pokemon = Piplup
+| gender = both
+| level = 5
+| type1 = Water
+| ability = Torrent
+| move1 = Pound | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = Pt
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0387
+| pokemon = Turtwig
+| gender = both
+| level = 5
+| type1 = Grass
+| ability = Overgrow
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Withdraw | move2type = Water | move2cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = Pt
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0390
+| pokemon = Chimchar
+| gender = both
+| level = 5
+| type1 = Fire
+| ability = Blaze
+| move1 = Scratch | move1type = Normal | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+;Caught in tutorial
+{{Pokémon
+| gen = 4
+| ndex = 0399
+| pokemon = Bidoof
+| gender = both
+| level = 2
+| type1 = Normal
+| ability = Simple
+| ability2 = Unaware
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+}}
+
+======First Multi Battle partner======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = Pt
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0393
+| pokemon = Piplup
+| gender = both
+| level = 13
+| type1 = Water
+| ability = Torrent
+| move1 = Bubble | move1type = Water | move1cat = Special
+| move2 = Pound | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = Pt
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0387
+| pokemon = Turtwig
+| gender = both
+| level = 13
+| type1 = Grass
+| ability = Overgrow
+| move1 = Absorb | move1type = Grass | move1cat = Special
+| move2 = Tackle | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = Pt
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0390
+| pokemon = Chimchar
+| gender = both
+| level = 13
+| type1 = Fire
+| ability = Blaze
+| move1 = Ember | move1type = Fire | move1cat = Special
+| move2 = Scratch | move2type = Normal | move2cat = Physical
+}}
+{{Party/end}}
+======Second Multi Battle partner======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = Pt
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0035
+| pokemon = Clefairy
+| gender = female
+| level = 25
+| type1 = Normal
+| ability = Cute Charm
+| move1 = Metronome | move1type = Normal | move1cat = Status
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Gravity | move3type = Psychic | move3cat = Status
+| move4 = Wake-Up Slap | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0064
+| pokemon = Kadabra
+| gender = male
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Psycho Cut | move2type = Psychic | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0394
+| pokemon = Prinplup
+| gender = both
+| level = 27
+| type1 = Water
+| ability = Torrent
+| move1 = BubbleBeam | move1type = Water | move1cat = Special
+| move2 = Peck | move2type = Flying | move2cat = Physical
+| move3 = Fury Attack | move3type = Normal | move3cat = Physical
+| move4 = Metal Claw | move4type = Steel | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = Pt
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0035
+| pokemon = Clefairy
+| gender = female
+| level = 25
+| type1 = Normal
+| ability = Cute Charm
+| move1 = Metronome | move1type = Normal | move1cat = Status
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Gravity | move3type = Psychic | move3cat = Status
+| move4 = Wake-Up Slap | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0064
+| pokemon = Kadabra
+| gender = male
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Psycho Cut | move2type = Psychic | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0388
+| pokemon = Grotle
+| gender = both
+| level = 27
+| type1 = Grass
+| ability = Overgrow
+| move1 = Razor Leaf | move1type = Grass | move1cat = Physical
+| move2 = Mega Drain | move2type = Grass | move2cat = Special
+| move3 = Bite | move3type = Dark | move3cat = Physical
+| move4 = Curse | move4type = ??? | move4cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = Pt Dawn Back.png
+| prize = none
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = Pt
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0035
+| pokemon = Clefairy
+| gender = female
+| level = 25
+| type1 = Normal
+| ability = Cute Charm
+| move1 = Metronome | move1type = Normal | move1cat = Status
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Gravity | move3type = Psychic | move3cat = Status
+| move4 = Wake-Up Slap | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0064
+| pokemon = Kadabra
+| gender = male
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Psybeam | move1type = Psychic | move1cat = Special
+| move2 = Psycho Cut | move2type = Psychic | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0391
+| pokemon = Monferno
+| gender = both
+| level = 27
+| type1 = Fire
+| type2 = Fighting
+| ability = Blaze
+| move1 = Flame Wheel | move1type = Fire | move1cat = Physical
+| move2 = Ember | move2type = Fire | move2cat = Special
+| move3 = Mach Punch | move3type = Fighting | move3cat = Physical
+| move4 = Fury Swipes | move4type = Normal | move4cat = Physical
+}}
+{{Party/end}}
+====={{g|Brilliant Diamond and Shining Pearl}}=====
+======Capture tutorial======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = BDSP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0393
+| pokemon = Piplup
+| gender = both
+| level = 5
+| type1 = Water
+| ability = Torrent
+| move1 = Pound | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = BDSP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0387
+| pokemon = Turtwig
+| gender = both
+| level = 5
+| type1 = Grass
+| ability = Overgrow
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Withdraw | move2type = Water | move2cat = Status
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sinnoh Route 202
+| locationname = Route 202
+| game = BDSP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0390
+| pokemon = Chimchar
+| gender = both
+| level = 5
+| type1 = Fire
+| ability = Blaze
+| move1 = Scratch | move1type = Normal | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+}}
+{{Party/end}}
+;Caught in tutorial
+{{Pokémon
+| gen = 8
+| ndex = 0399
+| pokemon = Bidoof
+| gender = both
+| level = 2
+| type1 = Normal
+| ability = Simple
+| ability2 = Unaware
+| move1 = Growl | move1type = Normal | move1cat = Status
+}}
+
+======First [[Multi Battle]] partner======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = BDSP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0393
+| pokemon = Piplup
+| gender = both
+| level = 13
+| type1 = Water
+| ability = Torrent
+| move1 = Pound | move1type = Normal | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+| move3 = Water Gun | move3type = Water | move3cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = BDSP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0387
+| pokemon = Turtwig
+| gender = both
+| level = 13
+| type1 = Grass
+| ability = Overgrow
+| move1 = Tackle | move1type = Normal | move1cat = Physical
+| move2 = Withdraw | move2type = Water | move2cat = Status
+| move3 = Absorb | move3type = Grass | move3cat = Special
+| move4 = Razor Leaf | move4type = Grass | move4cat = Physical
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Jubilife City
+| game = BDSP
+| pokemon = 1
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0390
+| pokemon = Chimchar
+| gender = both
+| level = 13
+| type1 = Fire
+| ability = Blaze
+| move1 = Scratch | move1type = Normal | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+| move3 = Ember | move3type = Fire | move3cat = Special
+| move4 = Taunt | move4type = Dark | move4cat = Status
+}}
+{{Party/end}}
+======Second Multi Battle partner======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = BDSP
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0035
+| pokemon = Clefairy
+| gender = both
+| level = 25
+| type1 = Fairy
+| ability = Cute Charm
+| move1 = Sing | move1type = Normal | move1cat = Status
+| move2 = Disarming Voice | move2type = Fairy | move2cat = Special
+| move3 = Growl | move3type = Normal | move3cat = Status
+| move4 = Life Dew | move4type = Water | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0064
+| pokemon = Kadabra
+| gender = both
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Kinesis | move1type = Psychic | move1cat = Status
+| move2 = Psybeam | move2type = Psychic | move2cat = Special
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Ally Switch | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0394
+| pokemon = Prinplup
+| gender = both
+| level = 28
+| type1 = Water
+| ability = Torrent
+| move1 = Metal Claw | move1type = Steel | move1cat = Physical
+| move2 = Growl | move2type = Normal | move2cat = Status
+| move3 = Peck | move3type = Flying | move3cat = Physical
+| move4 = Bubble Beam | move4type = Water | move4cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = BDSP
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0035
+| pokemon = Clefairy
+| gender = both
+| level = 25
+| type1 = Fairy
+| ability = Cute Charm
+| move1 = Sing | move1type = Normal | move1cat = Status
+| move2 = Disarming Voice | move2type = Fairy | move2cat = Special
+| move3 = Growl | move3type = Normal | move3cat = Status
+| move4 = Life Dew | move4type = Water | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0064
+| pokemon = Kadabra
+| gender = both
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Kinesis | move1type = Psychic | move1cat = Status
+| move2 = Psybeam | move2type = Psychic | move2cat = Special
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Ally Switch | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0388
+| pokemon = Grotle
+| gender = both
+| level = 28
+| type1 = Grass
+| ability = Overgrow
+| move1 = Razor Leaf | move1type = Grass | move1cat = Physical
+| move2 = Curse | move2type = Ghost | move2cat = Status
+| move3 = Bite | move3type = Dark | move3cat = Physical
+| move4 = Mega Drain | move4type = Grass | move4cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = none
+| class = Pokémon Trainer
+| name = Dawn
+| location = Veilstone City
+| game = BDSP
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0035
+| pokemon = Clefairy
+| gender = both
+| level = 25
+| type1 = Fairy
+| ability = Cute Charm
+| move1 = Sing | move1type = Normal | move1cat = Status
+| move2 = Disarming Voice | move2type = Fairy | move2cat = Special
+| move3 = Growl | move3type = Normal | move3cat = Status
+| move4 = Life Dew | move4type = Water | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0064
+| pokemon = Kadabra
+| gender = both
+| level = 25
+| type1 = Psychic
+| ability = Synchronize
+| move1 = Kinesis | move1type = Psychic | move1cat = Status
+| move2 = Psybeam | move2type = Psychic | move2cat = Special
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Ally Switch | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0391
+| pokemon = Monferno
+| gender = both
+| level = 28
+| type1 = Fire
+| type2 = Fighting
+| ability = Blaze
+| move1 = Mach Punch | move1type = Fighting | move1cat = Physical
+| move2 = Leer | move2type = Normal | move2cat = Status
+| move3 = Taunt | move3type = Dark | move3cat = Status
+| move4 = Flame Wheel | move4type = Fire | move4cat = Physical
+}}
+{{Party/end}}
+======Weekend battles======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = {{PDollar}}6,656
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sandgem Town
+| game = BDSP
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0413
+| pokemon = Wormadam
+| form = -Plant
+| gender = female
+| level = 58
+| type1 = Bug
+| type2 = Grass
+| ability = Overcoat
+| held = White Herb
+| heldgame = BDSP
+| move1 = Leaf Storm | move1type = Grass | move1cat = Special
+| move2 = Bug Buzz | move2type = Bug | move2cat = Special
+| move3 = Psychic | move3type = Psychic | move3cat = Special
+| move4 = Quiver Dance | move4type = Bug | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0465
+| pokemon = Tangrowth
+| gender = female
+| level = 59
+| type1 = Grass
+| ability = Regenerator
+| held = Choice Specs
+| heldgame = BDSP
+| move1 = Energy Ball | move1type = Grass | move1cat = Special
+| move2 = Sludge Bomb | move2type = Poison | move2cat = Special
+| move3 = Focus Blast | move3type = Fighting | move3cat = Special
+| move4 = Hyper Beam | move4type = Normal | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0478
+| pokemon = Froslass
+| gender = female
+| level = 60
+| type1 = Ice
+| type2 = Ghost
+| ability = Cursed Body
+| held = Focus Sash
+| heldgame = BDSP
+| move1 = Hex | move1type = Ghost | move1cat = Special
+| move2 = Frost Breath | move2type = Ice | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0467
+| pokemon = Magmortar
+| gender = female
+| level = 59
+| type1 = Fire
+| ability = Vital Spirit
+| held = Expert Belt
+| heldgame = BDSP
+| move1 = Fire Blast | move1type = Fire | move1cat = Special
+| move2 = Focus Blast | move2type = Fighting | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0036
+| pokemon = Clefable
+| gender = female
+| level = 60
+| type1 = Fairy
+| ability = Unaware
+| held = Sitrus Berry
+| heldgame = BDSP
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Calm Mind | move2type = Psychic | move2cat = Status
+| move3 = Moonlight | move3type = Fairy | move3cat = Status
+| move4 = Minimize | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0395
+| pokemon = Empoleon
+| gender = male
+| level = 64
+| type1 = Water
+| type2 = Steel
+| ability = Torrent
+| held = Leftovers
+| heldgame = BDSP
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Flash Cannon | move2type = Steel | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Grass Knot | move4type = Grass | move4cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = {{PDollar}}6,656
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sandgem Town
+| game = BDSP
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0413
+| pokemon = Wormadam
+| form = -Trash
+| gender = female
+| level = 58
+| type1 = Bug
+| type2 = Steel
+| ability = Anticipation
+| held = Leftovers
+| heldgame = BDSP
+| move1 = Gyro Ball | move1type = Steel | move1cat = Physical
+| move2 = Sucker Punch | move2type = Dark | move2cat = Physical
+| move3 = Metal Burst | move3type = Steel | move3cat = Physical
+| move4 = Stealth Rock | move4type = Rock | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0467
+| pokemon = Magmortar
+| gender = female
+| level = 59
+| type1 = Fire
+| ability = Vital Spirit
+| held = Expert Belt
+| heldgame = BDSP
+| move1 = Fire Blast | move1type = Fire | move1cat = Special
+| move2 = Focus Blast | move2type = Fighting | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0478
+| pokemon = Froslass
+| gender = female
+| level = 60
+| type1 = Ice
+| type2 = Ghost
+| ability = Cursed Body
+| held = Focus Sash
+| heldgame = BDSP
+| move1 = Hex | move1type = Ghost | move1cat = Special
+| move2 = Frost Breath | move2type = Ice | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0350
+| pokemon = Milotic
+| gender = female
+| level = 59
+| type1 = Water
+| ability = Competitive
+| held = Life Orb
+| heldgame = BDSP
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Hyper Beam | move3type = Normal | move3cat = Special
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0036
+| pokemon = Clefable
+| gender = female
+| level = 60
+| type1 = Fairy
+| ability = Unaware
+| held = Sitrus Berry
+| heldgame = BDSP
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Calm Mind | move2type = Psychic | move2cat = Status
+| move3 = Moonlight | move3type = Fairy | move3cat = Status
+| move4 = Minimize | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0389
+| pokemon = Torterra
+| gender = male
+| level = 64
+| type1 = Grass
+| type2 = Ground
+| ability = Overgrow
+| held = Yache Berry
+| heldgame = BDSP
+| move1 = Wood Hammer | move1type = Grass | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Curse | move4type = Ghost | move4cat = Status
+}}
+{{Party/end}}
+Before Version 1.1.0, Infernape knew {{m|Overheat}}, {{m|Focus Blast}}, and {{m|Grass Knot}} instead of Flare Blitz, Close Combat, and Earthquake.
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = {{PDollar}}6,656
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sandgem Town
+| game = BDSP
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0413
+| pokemon = Wormadam
+| form = -Sandy
+| gender = female
+| level = 58
+| type1 = Bug
+| type2 = Ground
+| ability = Anticipation
+| held = Leftovers
+| heldgame = BDSP
+| move1 = Bug Bite | move1type = Bug | move1cat = Physical
+| move2 = Fissure | move2type = Ground | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = Double Team | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0350
+| pokemon = Milotic
+| gender = female
+| level = 59
+| type1 = Water
+| ability = Competitive
+| held = Life Orb
+| heldgame = BDSP
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Hyper Beam | move3type = Normal | move3cat = Special
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0478
+| pokemon = Froslass
+| gender = female
+| level = 60
+| type1 = Ice
+| type2 = Ghost
+| ability = Cursed Body
+| held = Focus Sash
+| heldgame = BDSP
+| move1 = Hex | move1type = Ghost | move1cat = Special
+| move2 = Frost Breath | move2type = Ice | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0465
+| pokemon = Tangrowth
+| gender = female
+| level = 59
+| type1 = Grass
+| ability = Regenerator
+| held = Choice Specs
+| heldgame = BDSP
+| move1 = Energy Ball | move1type = Grass | move1cat = Special
+| move2 = Sludge Bomb | move2type = Poison | move2cat = Special
+| move3 = Focus Blast | move3type = Fighting | move3cat = Special
+| move4 = Hyper Beam | move4type = Normal | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0036
+| pokemon = Clefable
+| gender = female
+| level = 60
+| type1 = Fairy
+| ability = Unaware
+| held = Sitrus Berry
+| heldgame = BDSP
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Calm Mind | move2type = Psychic | move2cat = Status
+| move3 = Moonlight | move3type = Fairy | move3cat = Status
+| move4 = Minimize | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0392
+| pokemon = Infernape
+| gender = male
+| level = 64
+| type1 = Fire
+| type2 = Fighting
+| ability = Blaze
+| held = Expert Belt
+| heldgame = BDSP
+| move1 = Flare Blitz | move1type = Fire | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = U-turn | move4type = Bug | move4cat = Physical
+}}
+{{Party/end}}
+
+======Weekend battles (after entering the [[Hall of Fame]] 10 times)======
+{{Party
+| caption = {{PlayerChoice|0387|Turtwig}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = {{PDollar}}7,696
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sandgem Town
+| game = BDSP
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0468
+| pokemon = Togekiss
+| gender = female
+| level = 68
+| type1 = Fairy
+| type2 = Flying
+| ability = Serene Grace
+| held = Lum Berry
+| heldgame = BDSP
+| move1 = Dazzling Gleam | move1type = Fairy | move1cat = Special
+| move2 = Air Slash | move2type = Flying | move2cat = Special
+| move3 = Aura Sphere | move3type = Fighting | move3cat = Special
+| move4 = Thunder Wave | move4type = Electric | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0182
+| pokemon = Bellossom
+| gender = female
+| level = 69
+| type1 = Grass
+| ability = Chlorophyll
+| held = Persim Berry
+| heldgame = BDSP
+| move1 = Moonblast | move1type = Fairy | move1cat = Special
+| move2 = Petal Dance | move2type = Grass | move2cat = Special
+| move3 = Toxic | move3type = Poison | move3cat = Status
+| move4 = Quiver Dance | move4type = Bug | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0473
+| pokemon = Mamoswine
+| gender = male
+| level = 70
+| type1 = Ice
+| type2 = Ground
+| ability = Thick Fat
+| held = Life Orb
+| heldgame = BDSP
+| move1 = Ice Shard | move1type = Ice | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Avalanche | move4type = Ice | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0157
+| pokemon = Typhlosion
+| gender = male
+| level = 69
+| type1 = Fire
+| ability = Flash Fire
+| held = Choice Scarf
+| heldgame = BDSP
+| move1 = Eruption | move1type = Fire | move1cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0428
+| pokemon = Lopunny
+| gender = female
+| level = 70
+| type1 = Normal
+| ability = Klutz
+| held = Lagging Tail
+| move1 = High Jump Kick | move1type = Fighting | move1cat = Physical
+| move2 = Thunder Wave | move2type = Electric | move2cat = Status
+| move3 = Sweet Kiss | move3type = Fairy | move3cat = Status
+| move4 = Switcheroo | move4type = Dark | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0395
+| pokemon = Empoleon
+| gender = male
+| level = 74
+| type1 = Water
+| type2 = Steel
+| ability = Torrent
+| held = Leftovers
+| heldgame = BDSP
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Flash Cannon | move2type = Steel | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Grass Knot | move4type = Grass | move4cat = Special
+}}
+{{Party/end}}
+{{Party
+| caption = {{PlayerChoice|0390|Chimchar}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = {{PDollar}}7,696
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sandgem Town
+| game = BDSP
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0169
+| pokemon = Crobat
+| gender = female
+| level = 68
+| type1 = Poison
+| type2 = Flying
+| ability = Inner Focus
+| held = Sitrus Berry
+| heldgame = BDSP
+| move1 = Cross Poison | move1type = Poison | move1cat = Physical
+| move2 = U-turn | move2type = Bug | move2cat = Physical
+| move3 = Super Fang | move3type = Normal | move3cat = Physical
+| move4 = Tailwind | move4type = Flying | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0059
+| pokemon = Arcanine
+| gender = female
+| level = 69
+| type1 = Fire
+| ability = Intimidate
+| held = Life Orb
+| heldgame = BDSP
+| move1 = Flare Blitz | move1type = Fire | move1cat = Physical
+| move2 = Play Rough | move2type = Fairy | move2cat = Physical
+| move3 = Extreme Speed | move3type = Normal | move3cat = Physical
+| move4 = Reversal | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0122
+| pokemon = Mr. Mime
+| gender = female
+| level = 70
+| type1 = Psychic
+| type2 = Fairy
+| ability = Filter
+| held = Leftovers
+| heldgame = BDSP
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Power Whip | move2type = Grass | move2cat = Physical
+| move3 = Reflect | move3type = Psychic | move3cat = Status
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0009
+| pokemon = Blastoise
+| gender = male
+| level = 69
+| type1 = Water
+| ability = Torrent
+| held = Focus Sash
+| heldgame = BDSP
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Focus Blast | move3type = Fighting | move3cat = Special
+| move4 = Shell Smash | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0463
+| pokemon = Lickilicky
+| gender = male
+| level = 70
+| type1 = Normal
+| ability = Own Tempo
+| held = Expert Belt
+| heldgame = BDSP
+| move1 = Focus Blast | move1type = Fighting | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Fire Blast | move3type = Fire | move3cat = Special
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0389
+| pokemon = Torterra
+| gender = male
+| level = 74
+| type1 = Grass
+| type2 = Ground
+| ability = Overgrow
+| held = Yache Berry
+| heldgame = BDSP
+| move1 = Wood Hammer | move1type = Grass | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Stone Edge | move3type = Rock | move3cat = Physical
+| move4 = Curse | move4type = Ghost | move4cat = Status
+}}
+{{Party/end}}
+Before Version 1.1.0, Infernape knew {{m|Overheat}}, {{m|Focus Blast}}, and {{m|Grass Knot}} instead of Flare Blitz, Close Combat, and Earthquake.
+{{Party
+| caption = {{PlayerChoice|0393|Piplup}}
+| background = {{pearl color}}
+| border = {{pearl color dark}}
+| headcolor = {{pearl color light}}
+| sprite = DawnChallenge Everyday 1 BDSP.png{{!}}90px
+| prize = {{PDollar}}7,696
+| class = Pokémon Trainer
+| name = Dawn
+| location = Sandgem Town
+| game = BDSP
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0430
+| pokemon = Honchkrow
+| gender = female
+| level = 68
+| type1 = Dark
+| type2 = Flying
+| ability = Super Luck
+| held = Scope Lens
+| heldgame = BDSP
+| move1 = Sucker Punch | move1type = Dark | move1cat = Physical
+| move2 = Night Slash | move2type = Dark | move2cat = Physical
+| move3 = Taunt | move3type = Dark | move3cat = Status
+| move4 = Roost | move4type = Flying | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0368
+| pokemon = Gorebyss
+| gender = female
+| level = 69
+| type1 = Water
+| ability = Swift Swim
+| held = Wiki Berry
+| heldgame = BDSP
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Baton Pass | move3type = Normal | move3cat = Status
+| move4 = Shell Smash | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0478
+| pokemon = Froslass
+| gender = female
+| level = 70
+| type1 = Ice
+| type2 = Ghost
+| ability = Cursed Body
+| held = Focus Sash
+| heldgame = BDSP
+| move1 = Hex | move1type = Ghost | move1cat = Special
+| move2 = Frost Breath | move2type = Ice | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0254
+| pokemon = Sceptile
+| gender = male
+| level = 69
+| type1 = Grass
+| ability = Unburden
+| held = White Herb
+| heldgame = BDSP
+| move1 = Leaf Blade | move1type = Grass | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Leaf Storm | move3type = Grass | move3cat = Special
+| move4 = Brick Break | move4type = Fighting | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0424
+| pokemon = Ambipom
+| gender = female
+| level = 70
+| type1 = Normal
+| ability = Technician
+| held = Life Orb
+| heldgame = BDSP
+| move1 = Double Hit | move1type = Normal | move1cat = Physical
+| move2 = Fake Out | move2type = Normal | move2cat = Physical
+| move3 = Dual Chop | move3type = Dragon | move3cat = Physical
+| move4 = U-turn | move4type = Bug | move4cat = Physical
+}}
+{{Pokémon
+| gen = 8
+| ndex = 0392
+| pokemon = Infernape
+| gender = male
+| level = 74
+| type1 = Fire
+| type2 = Fighting
+| ability = Blaze
+| held = Expert Belt
+| heldgame = BDSP
+| move1 = Flare Blitz | move1type = Fire | move1cat = Physical
+| move2 = Close Combat | move2type = Fighting | move2cat = Physical
+| move3 = Earthquake | move3type = Ground | move3cat = Physical
+| move4 = U-turn | move4type = Bug | move4cat = Physical
+}}
+{{Party/end}}
+
+==In the side series games==
+===[[Pokémon Battle Revolution]]===
+Dawn may appear in DS Battle multiplayer if a Diamond, Pearl, Platinum, HeartGold, or SoulSilver cartridge containing a game where the player character is female is connected to the Wii console. She can compete in both free fights and tournaments in a Colosseum.
+
+==In the spin-off games==
+[[File:Masters Dream Team Maker Dawn and Turtwig.png|thumb|200px|Dawn and Turtwig in [[Pokémon Masters EX]]]]
+===[[Pokémon Masters EX]]===
+{{main|Dawn (Masters)}}
+Dawn, who is based on the [[player character]], in her {{game|Diamond and Pearl|s}} design, forms a [[sync pair]] with {{p|Turtwig}} and its evolved forms {{p|Grotle}} and {{p|Torterra}}, along with {{form|Alcremie|Vanilla Cream}} {{p|Alcremie}}, {{p|Cresselia}}, {{form|Oricorio|Sensu Style}} {{p|Oricorio}}, {{form|Wormadam|Plant Cloak}} {{p|Wormadam}}, and {{p|Empoleon}} in [[Pokémon Masters EX]]. Dawn became a playable sync pair on May 28, 2020.
+
+Dawn has also made notable appearances in one of the game's main stories, the [[villain arc]]. 
+
+{{PairDex/h|Pearl}}
+{{PairDex|094|Dawn|trainerlink=Dawn (Masters)#Turtwig → Grotle → Torterra|trainerimg=Dawn|0389|Turtwig → Grotle → Torterra|gender=female|pokemonlink=Turtwig (Pokémon)|Grass|Bug|Support|6|Sync Pair Scout}}
+{{PairDex|094|Dawn|trainerlink=Dawn (Masters)#Alcremie|trainerimg=Dawn Palentine 2021|sygna=Palentine's 2021|0869|Alcremie|gender=female|form={{Form|Alcremie|Vanilla Cream}}|Fairy|Steel|Tech|exrole=Sprint|6|Seasonal Sync Pair Scout}}
+{{PairDex|094|Dawn|trainerlink=Dawn (Masters)#Cresselia|trainerimg=Dawn Sygna|sygna=[[Sygna suit|Sygna Suit]]|0488|Cresselia|gender=female|Psychic|Dark|Support|exrole=Sprint|6|Poké Fair Sync Pair Scout}}
+{{PairDex|094|Dawn|trainerlink=Dawn (Masters)#Oricorio (Sensu Style)|trainerimg=Dawn New Years 2023|sygna=New Year's 2023|0741S|Oricorio|gender=female|form={{Form|Oricorio|Sensu Style}}|Ghost|Ice|Tech|exrole=Special Strike|6|Seasonal Sync Pair Scout}}
+{{PairDex|094|Dawn|trainerlink=Dawn (Masters)#Wormadam (Plant Cloak)|trainerimg=Dawn|0413P|Wormadam|gender=female|form={{Form|Wormadam|Plant Cloak}}|Bug|Flying|Support|4EX|Trainer Lodge Friendship Level 100}}
+{{PairDex|094|Dawn|trainerlink=Dawn (Masters)#Empoleon|trainerimg=Dawn|0395|Empoleon|buddy=yes|gender=female|Steel|Electric|Field|exrole=Sprint|6|Mix Sync Pair Scout}}
+|}
+
+===[[Pokémon Trading Card Game Pocket]]===
+{{main|Dawn (Space-Time Smackdown 154)}}
+Dawn makes an appearance as a {{TCG|Supporter}} card in [[Pokémon Trading Card Game Pocket]]'s second expansion, {{TCGP|Space-Time Smackdown}}. When the player plays this card, they can move an {{TCG|Energy}} from one of their Benched Pokémon to their Active Pokémon. 
+
+{{TCGPocketCardList/Header|Cards featuring Dawn|Fairy|nocat=yes}}
+{{TCGPocketCardList/Card|cardname={{TCG ID|Space-Time Smackdown|Dawn|154}}|type=Supporter|rows=2}}
+{{TCGPocketCardList/Release|type=Fairy|set=Space-Time Smackdown|rarity=Diamond|rarity count=2|num=154/155}}
+{{TCGPocketCardList/Release|type=Fairy|set=Space-Time Smackdown|rarity=Star|rarity count=2|num=194/155}}
+{{TCGPocketCardList/Footer|type=Fairy}}
+
+===[[Pokémon GO]]===
+{{main|Style (GO)}}
+For the release of {{g|Brilliant Diamond and Shining Pearl}}, Dawn's outfit was released as free style options in [[Pokémon GO]].
+
+==Quotes==
+{{main|Dawn (game)/Quotes}}
+
+==Counterparts==
+[[File:Dawn anime JN.png|thumb|left|250px|Dawn in {{aniseries|JN}}]]
+[[File:Alternate World Dawn.png|thumb|250px|Dawn's alternate world counterpart]]
+===In animation===
+====''Pokémon the Series''====
+{{main|Dawn (anime)}}
+{{main|Alternate World Dawn}}
+Dawn is one of the many [[player character]]s appearing in the games to also be present in {{aniseries|PTS}}. Appearing throughout {{aniseries|DP}}, she is a [[Pokémon Coordinator]] and a former {{ashfr|traveling companion}} of {{Ash}} and {{an|Brock}}. She reappeared in {{aniseries|BW}} and {{aniseries|JN}}.
+
+In ''[[JN089|The Gates of Warp!]]'', an {{pkmn|multiverse|alternate universe}} version of Dawn was introduced. Unlike the main universe Dawn, this version is a talented Trainer who has participated in the [[Sinnoh League]].
+
+====GOTCHA!====
+Dawn briefly appeared in [[GOTCHA!]].
+
+===In the manga===
+[[File:Dawn PDPV.png|thumb|200px|Dawn in Pokémon Diamond and Pearl]]
+====Pokémon Adventures====
+{{main|Platinum (Adventures)}}
+In [[Pokémon Adventures]], Dawn has a counterpart named Platinum. She is the daughter of the [[House of Berlitz]], the richest and most influential family in Sinnoh. After leaving home, she develops an interest in {{pkmn|battle|battling}} and goes on to challenge all of Sinnoh's [[Gym Leader]]s and the {{gdis|Battle Frontier|IV}}.
+
+====Pokémon Diamond and Pearl====
+Dawn appeared in {{ma|Pokémon Diamond and Pearl}}. None of her Pokémon are known.
+
+====Pokémon Diamond and Pearl Adventure!====
+{{main|Mitsumi}}
+In [[Pokémon Diamond & Pearl Adventure!]], Mitsumi is based on Dawn. She is a skilled Trainer who used to be a member of [[Team Galactic]], but now works as an [[Professor's assistant|assistant]] to [[Professor Rowan]].
+
+====Pocket Monsters Diamond and Pearl: Regigigas Major Capture Operation!!====
+{{main|Yuki (RMCO)}}
+In [[Pocket Monsters Diamond and Pearl: Regigigas Major Capture Operation!!]], Yuki is based on Dawn.
+{{-}}
+
+==In the TCG==
+This listing is of cards mentioning or featuring Dawn or her Pokémon in the [[Pokémon Trading Card Game]].
+
+{{cardlist/header|Dawn's Pokémon|Fairy|char=yes}}
+{{cardlist/entry|cardname={{TCG ID|Cosmic Eclipse|Piplup|54}}|type=Water|expanded=yes|enset=Cosmic Eclipse|enrarity=Rare Secret|ennum=239/236|jpset=Dream League|jprarity=CHR|jpnum=052/049}}
+{{cardlist/div|Other related cards|Fairy}}
+{{cardlist/entry|cardname={{TCG ID|Majestic Dawn|Mom's Kindness|83}}|type=Supporter|enset=Majestic Dawn|enrarity=Uncommon|ennum=83/100|jpsetlink=Entry Pack '08|jpset=Torterra/Infernape/Empoleon Half Deck|jpsetlink2=Giratina vs Dialga Deck Kit|jpset2=Giratina/Dialga Half Deck|jpnum2=013/014|jpsetlink3=Gift Box DPt|jpset3=Piplup/Pikachu Half Deck|jpnum3=015/015|jpset4=Arceus LV.X Deck: Grass & Fire|jpnum4=017/017|jpset5=Arceus LV.X Deck: Lightning & Psychic|jpnum5=017/017}}
+{{cardlist/entry|cardname={{TCG ID|Crown Zenith|Friends in Sinnoh|131}}|type=Supporter|expanded=yes|enset=Crown Zenith|enrarity=Uncommon|ennum=131/159|jpset=VSTAR Universe|jpnum=154/172|enset2=Crown Zenith|enrarity2=Rare Ultra|ennum2=149/159|jpset2=VSTAR Universe|jprarity2=SR|jpnum2=247/172}}
+{{cardlist/entry|cardname={{TCG ID|Phantasmal Flames|Dawn|87}}|type=Supporter|standard=yes|enset=Phantasmal Flames|enrarity=Uncommon|ennum=087/094|jpset=Inferno X|jprarity=U|jpnum=077/080|enset2=Phantasmal Flames|enrarity2=Ultra Rare|ennum2=118/094|jpset2=Inferno X|jprarity2=SR|jpnum2=106/080|enset3=Phantasmal Flames|enrarity3=Special Illustration Rare|ennum3=129/094|jpset3=Inferno X|jprarity3=SAR|jpnum3=115/080}}
+{{cardlist/footer|Fairy}}
+
+==Gallery==
+:''For images on {{an|Dawn|Dawn's animated series counterpart}}, see: [[Dawn (anime)#Gallery|Dawn (anime)]]''
+:''For images on Dawn in [[Pokémon Masters EX]], see: [[Dawn (Masters)#Gallery|Dawn (Masters)]]''
+===Artwork===
+====Standard====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:100px"| [[File:Diamond Pearl Dawn.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:100px"| [[File:Platinum Dawn.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{shining pearl color light}}; width:100px; height:100px"| [[File:PBR Dawn.png|x250px]]
+|-
+| Official artwork from<br>{{color2|000|Pokémon Diamond and Pearl Versions|Diamond and Pearl}}
+| Official artwork from<br>{{color2|000|Pokémon Platinum Version|Platinum}}
+| Official artwork from<br>{{color2|000|Pokémon Battle Revolution}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; width:100px; height:100px"| [[File:Brilliant Diamond Shining Pearl Dawn.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; width:100px; height:100px"| [[File:BDSP Dawn Platinum Style.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Pt Wifi Plaza.png|x250px]]
+|-
+| Official artwork from<br>{{color2|000|Pokémon Brilliant Diamond and Shining Pearl Versions|Brilliant Diamond and Shining Pearl}}
+| Official artwork of "Platinum Style" from<br>{{color2|000|Pokémon Brilliant Diamond and Shining Pearl Versions|Brilliant Diamond and Shining Pearl}}
+| {{color2|000|Wi-Fi Plaza}} artwork<br>in {{color2|000|Pokémon Platinum Version|Platinum}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Sinnoh Battle Frontier Brain artwork.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Seabreak path.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Sinnoh Underground.png|x225px]]
+|-
+| {{color2|000|Battle Frontier (Generation IV)|Battle Frontier}} artwork<br>in {{color2|000|Pokémon Platinum Version|Platinum}}
+| Discovering {{pcolor|Shaymin|000}} with {{color2|000|Lucas (game)|Lucas}} and {{color2|000|Professor Oak}}<br>in {{color2|000|Pokémon Platinum Version|Platinum}}
+| In the {{color2|000|Underground}} with {{color2|000|Lucas (game)|Lucas}}<br>in {{color2|000|Pokémon Platinum Version|Platinum}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Brilliant Diamond Shining Pearl Key Art.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; overflow: hidden; background: #{{shining pearl color light}}; width:100px; height:150px"| [[File:Grand Underground BDSP.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; overflow: hidden; background: #{{shining pearl color light}}; width:100px; height:150px"| [[File:Amity Square BDSP.png|x225px]]
+|-
+| Key art from {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond<br>and Shining Pearl}}
+| {{color2|000|Grand Underground}} artwork<br>in {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond<br>and Shining Pearl}}
+| {{color2|000|Amity Square}} artwork<br>in {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond<br>and Shining Pearl}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; overflow: hidden; background: #{{shining pearl color light}}; width:100px; height:150px"| [[File:Super Contest Show BDSP.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Dawn and Turtwig Sugimori.png|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Pokémon Day 2022 Sinnoh Artwork.png|x225px]]
+|-
+| {{color2|000|Super Contest Show}} artwork<br>in {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond<br>and Shining Pearl}}
+| Signed artwork by<br>{{color2|000|Ken Sugimori}} from Nintendo Dream Nov. 2009 
+| Artwork at the {{color2|000|Old Chateau}} for {{color2|000|Pokémon Day}} by {{color2|000|Megumi Mizutani}}
+|-
+| colspan=2 style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; width:100px; height:150px"| [[File:Tomohiro Kitakaze Brilliant Diamond and Shining Pearl Release Art.png|x215px]]
+|-
+| colspan=2 | {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond<br>and Shining Pearl}} Release Celebration fanart by <br>{{color2|000|Tomohiro Kitakaze}}<ref>[https://twitter.com/kitakazeee/status/1461463277276303360 Twitter post by Tomohiro Kitakaze celebrating the release of ''Pokémon Brilliant Diamond & Shining Pearl.]</ref>
+|}
+
+====Concept art====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; overflow: hidden; width:100px; height:100px"| [[File:Dawn Concept Art DP Early Sketch.jpg|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Dawn Concept Art DP Early Sketch 2.jpg|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:150px"| [[File:Dawn Concept Art DP Early Sketch 3.jpg|x250px]]
+|-
+| colspan=3 | Concept art from {{color2|000|Pokémon Diamond and Pearl Versions|Diamond and Pearl}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:100px"| [[File:Dawn and Lucas Art Concept Art DP.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:100px; height:100px"| [[File:Dawn Concept Art Platinum.png|x250px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Concept Art Dawn Pikachu Hoodie Style BDSP.jpg|x225px]]
+|-
+| Concept art from {{color2|000|Pokémon Diamond and Pearl Versions|Diamond and Pearl}}
+| Concept art from {{color2|000|Pokémon Platinum Version|Platinum}}
+| Concept art of Dawn's {{color2|000|Style (Brilliant Diamond and Shining Pearl)|Pikachu Hoodie Style}} from {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond and Shining Pearl}}
+|-
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Concept Art Dawn Platinum Style BDSP.jpg|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Concept Art Dawn Cycling Style BDSP.jpg|x225px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Concept Art Dawn Contest Style BDSP.jpg|x225px]]
+|-
+| Concept art of Dawn's {{color2|000|Style (Brilliant Diamond and Shining Pearl)|Platinum Style}} from {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond and Shining Pearl}}
+| Concept art of Dawn's {{color2|000|Bicycle|Cycling Style}} from {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond and Shining Pearl}}
+| Concept art of Dawn's {{color2|000|Style (Brilliant Diamond and Shining Pearl)|Contest Style}} from {{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond and Shining Pearl}}
+|}
+
+====Merchandise====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:BDSP Artbook Cover Diamond.png|x300px]]
+| style="{{roundy|20px}} border: 2px solid #{{shining pearl color dark}}; background: #{{shining pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:BDSP Artbook Cover Pearl.png|x300px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Dawn and her Piplup.png|x300px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Kotobukiya ArtFX J Figure Dawn Piplup.png|x300px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; overflow: hidden; width:100px; height:150px"| [[File:Kotobukiya ArtFX J Figure Dawn and Turtwig.png|x300px]]
+|-
+| Cover artwork for the<br>{{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Brilliant Diamond art book}}
+| Cover artwork for the<br>{{color2|000|Pokémon Brilliant Diamond and Shining Pearl|Shining Pearl art book}}
+| Artwork by {{color2|000|Naoki Saito}} for the<br>Pokémon Trainers merchandise line
+| Artwork by {{color2|000|Hitoshi Ariga}} for the<br>Dawn & Piplup Kotobukiya ArtFX J Figure
+| Artwork by {{color2|000|Hitoshi Ariga}} for the<br>Dawn & Turtwig Kotobukiya ArtFX J Figure
+|}
+
+====Raw TCG artwork====
+For all images and products relating to this character in the TCG, see their ''[[#In the TCG|In the TCG]]'' section
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background:#{{pearl color light}}; overflow: hidden; width:200px"| [[File:Art Life 20230514 Mom's Kindness.jpg|200px]]
+| style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background:#{{pearl color light}}; overflow: hidden; width:200px"| [[File:Art Life 20230928 Friends in Sinnoh.jpg|200px]]
+|-
+| Artwork of {{color2|000|Mom's Kindness (Majestic Dawn 83)|Mom's Kindness}} from {{color2|000|Majestic Dawn (TCG)|Majestic Dawn}}, illustrated by {{color2|000|Ken Sugimori}}
+| Full Artwork print  of {{color2|000|Friends in Sinnoh (Crown Zenith 131)|Friends in Sinnoh}} from {{color2|000|Crown Zenith (TCG)|Crown Zenith}}, illustrated by {{color2|000|Hideki Ishikawa}}
+|}
+
+===Game assets===
+====Sprites and models====
+{{missing image|section|Riding Bicycle (DP/Pt overworld sprites), also the larger sprites where the player is riding the Bicycle in the credits (DP/Pt versions)}}
+
+{| style="font-size:80%; margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color}}"
+| colspan="6" style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color dark}}; font-size:125%; color:white;" |'''{{color2|fff|Generation IV}}'''
+|-
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Spr DP Dawn.png]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Dawnwalkdown.png]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:DawnContestwalkdown.png]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:DP Dawn Back.png]]
+|style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:DP Dawn intro.png]]
+|-
+| '''{{GameIcon|D}}{{GameIcon|P}}'''<br>Sprite
+| '''{{GameIcon|D}}{{GameIcon|P}}'''<br>Walking
+| '''{{GameIcon|D}}{{GameIcon|P}}{{GameIcon|Pt}}'''<br>Walking<br>(Contest)
+| '''{{GameIcon|D}}{{GameIcon|P}}'''<br>Back sprite
+| '''{{GameIcon|D}}{{GameIcon|P}}'''<br>Intro sprite
+|-
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Spr Pt Dawn.png]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:DawnPtwalkdown.png]]
+|style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:DawnChallenge.png]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Pt Dawn Back.png]]
+|style="{{roundy|20px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Pt Dawn Intro.png]]
+|-
+| '''{{GameIcon|Pt}}'''<br>Sprite
+| '''{{GameIcon|Pt}}'''<br>Walking
+| '''{{GameIcon|Pt}}'''<br>VS
+| '''{{GameIcon|Pt}}'''<br>Back sprite
+| '''{{GameIcon|Pt}}'''<br>Intro sprite
+|-
+| colspan="6" style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color dark}}; font-size:125%; color:white;" |'''{{color2|fff|Generation VIII}}'''
+|-
+|
+| style="{{roundy|15px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:Dawn Select 1.png|100x100px]]
+| style="{{roundy|15px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:Dawn Select 2.png|100x100px]]
+| style="{{roundy|15px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:Dawn Select 3.png|100x100px]]
+| style="{{roundy|15px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:Dawn Select 4.png|100x100px]]
+|-
+|
+| colspan=4 | '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>Character Selection
+|-
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Everyday 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Platinum 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Pikachu Hoodie 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Overalls 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Eevee Jacket 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Gengar Jacket 1 BDSP.png|100px]]
+|-
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Everyday Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Platinum Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Pikachu Hoodie Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Overalls Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Eevee Jacket Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Gengar Jacket Style)
+|-
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Cyber 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Summer 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Spring 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Winter 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Casual 1 BDSP.png|100px]]
+| style="{{roundy|20px}} border:2px solid #{{pearl color dark}}; background:#{{pearl color light}}" | [[File:DawnChallenge Leather Jacket 1 BDSP.png|100px]]
+|-
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Cyber Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Summer Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Spring Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Winter Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Casual Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>VS<br>(Leather Jacket Style)
+|-
+|
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Dawn BDSP OD.png|100px]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Dawn Platinum BDSP OD.png|100px]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Dawn Contest BDSP OD.png|100px]]
+|style="{{roundy|80px}} border: 2px solid #{{pearl color dark}}; background: #{{pearl color light}}; width:80px"| [[File:Dawn Bike BDSP OD.png|100px]]
+|-
+|
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>Overworld<br>(Everyday Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>Overworld<br>(Platinum Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>Overworld<br>(Contest Style)
+| '''{{GameIcon|BD}}{{GameIcon|SP}}'''<br>Overworld<br>(Cycling Style)
+|}
+
+==Trivia==
+* In the early development of {{game|Diamond and Pearl|s}}, Dawn was originally going to have a father, which is further evidenced by script files leftover in their remakes, [[Pokémon Brilliant Diamond and Shining Pearl]].<ref>https://web.archive.org/web/20231001124935/https://twitter.com/Lewchube/status/1708462187696595066</ref>
+* In both English and Japanese, Dawn shares her name with an [[Evolution stone]]. However, it is not the same stone: her Japanese name is the same as the name of the [[Shiny Stone]], not the [[Dawn Stone]].
+* Dawn weighs 75&nbsp;lbs (34&nbsp;kg). This was confirmed by checking the heights and weights of certain {{OBP|Pokémon|species}} in the [[Pokédex]]. She is the same weight as {{p|Weavile}} and {{p|Porygon-Z}}.
+* The majority of her Japanese default names are shared with {{ga|Leaf}} and {{ga|Lyra}}. She also shares all of {{ga|Kris}}'s alternate Japanese names.
+* She shared her Chinese name with [[Wally]] before his name was changed in {{pkmn|Sun and Moon}}.
+* In Pokémon Brilliant Diamond and Shining Pearl, if the player's [[first partner Pokémon]] choice was {{p|Turtwig}}, Dawn's team after the player has entered the [[Hall of Fame]] ten times [[List of cross-canon references|consists of]] fully evolved versions of {{an|Dawn|her animated series counterpart}}'s team members, only replacing {{TP|Dawn|Pachirisu}} with {{p|Bellossom}}.
+** Similarly, if the player’s first partner Pokémon choice was {{p|Piplup}} and they've entered the Hall of Fame ten times, Dawn’s team consists of Pokémon that {{Ash}} and [[Paul]] used throughout {{aniseries|DP}}, except for her {{p|Gorebyss}}. Specifically, Paul also owns a {{TP|Paul|Honchkrow}} and a {{p|Froslass}}, while Ash owns a {{AP|Sceptile}}, an {{AP|Infernape}} (which was originally Paul’s as a {{p|Chimchar}}), and owned [[Dawn's Ambipom]] when it was an {{p|Aipom}}.
+** If the player enters the [[Hall of Fame]] ten times with Chimchar as their first partner Pokémon, Dawn's entire team will consist of Pokémon used by a recurring character in ''Pokémon the Series: Diamond and Pearl''. Namely, {{p|Torterra}} is owned by both Ash and Paul, with Ash also owning a [[Mimey|Mr. Mime]], {{an|Brock}} owning a {{TP|Brock|Crobat}}, {{TP|Gary|Blastoise}} and {{TP|Gary|Arcanine}} both being owned by {{Gary}}, and [[Conway]] owning a {{p|Lickilicky}}.
+
+==Names==
+'''Dawn''' (Japanese: '''ヒカリ''' ''Hikari'') is her name when she appears as a [[non-player character]] in the [[core series]] games, and is also the name used for {{mas|Dawn|her appearance}} in [[Pokémon Masters EX]]. Her Japanese name was spelled as '''Hikari''' on the packaging of [[Kotobukiya figurines|Kotobukiya ArtFX J Figure]].
+
+Some screenshots of {{game|Platinum}} on the Japanese Nintendo website refer to Dawn as '''ティナ''' (''Tina'').<ref>[https://www.nintendo.co.jp/ds/cpuj/wi-fi/index.html Pokémon Platinum on Nintendo] (Japanese)</ref> [https://youtu.be/gU648Rj3wb8 A trailer] for {{g|Brilliant Diamond and Shining Pearl}} refers to Dawn in English as "'''Hikari'''", her Japanese name.
+
+{| class="roundtable" style="background:#{{pearl color}}; border:3px solid #{{pearl color dark}}"
+|-
+! style="background:#{{pearl color light}}" | Language
+! style="background:#{{pearl color light}}" | Name
+! style="background:#{{pearl color light}}" | Origin
+|-
+| Japanese
+| ヒカリ ''Hikari''
+| From 光 ''hikari'' (light)
+|-
+| English, Latin American Spanish,<br>Indonesian, Brazilian Portuguese,<br>Turkish
+| Dawn
+| From ''{{wp|dawn}}'' (first appearance of light in the morning)
+|-
+| German
+| Lucia
+| From ''lux'' (Latin for "light")
+|-
+| European Spanish
+| Maya
+| Possibly from ''{{wp|Maya civilization}}'', an ancient civilization that worshipped a {{wp|Kinich Ahau|sun god}}
+|-
+| French
+| Aurore
+| From ''aurore'' (dawn)
+|-
+| Italian
+| Lucinda
+| From ''luce'' (light)
+|-
+| rowspan="2" | Korean
+| 빛나 ''Bitna''
+| From 빛 ''bit'' (light) and 빛나다 ''binnada'' (to shine)
+|-
+| 나빛나 ''Na Bitna''<ref group=n>[[Pokémon animated series]]</ref>
+| From 빛 ''bit'' (light) and a pun of 나빛나 ''na binna'' (I shine) with the surname 나 (羅) ''{{wp|Na (Korean surname)|Na}}''
+|-
+| Chinese (Traditional)
+| 小光 ''Xiǎo Guāng'' / ''Síu Gwōng''
+| rowspan="2" | From 光 ''guāng / gwōng'' (light) and the {{wp|diminutive}} prefix 小 ''xiǎo / síu''
+|-
+| Chinese (Simplified)
+| 小光 ''Xiǎo Guāng''
+|-
+| Chinese (Hong Kong)
+| 光子 ''Gwōngjí''<ref group=n>[[Pokémon animated series]] ([[M10]])</ref>
+| From 光 ''gwōng'' (light) and orthographic borrowing of Japanese ～子 ''-ko'' (common suffix in Japanese feminine names) 
+|-
+| Russian
+| Доун ''Doun''{{specify|Sources?}}<br>Дон ''Don''<ref group=n>[[Pokémon animated series]] (season [[S11|11]])</ref>
+| Transcription of her English name
+|-
+| Thai
+| ฮิคาริ ''Hikhari''
+| Transcription of her Japanese name
+|-
+| Catalan
+| Maia
+| Possibly from ''{{wp|Maya civilization}}''
+|}
+{{-}}
+
+===Optional names===
+{| class="roundy" style="background: #{{pearl color}}; border: 3px solid #{{pearl color dark}}"
+! style="background:#{{pearl color light}}" | Japanese
+! style="background:#{{pearl color light}}" | English
+! style="background:#{{pearl color light}}" | German
+! style="background:#{{pearl color light}}" | European Spanish
+! style="background:#{{pearl color light}}" | French
+! style="background:#{{pearl color light}}" | Italian
+! style="background:#{{pearl color light}}" | Korean
+|- style="background: #FFF"
+|<ab>ダイヤ ''Dia''{{sup/4|D}}
+パール ''Pearl''{{sup/4|P}}
+プラチナ ''Platinum''{{sup/4|Pt}}
+キヨミ ''Kiyomi''{{sup/4|DP}} / ハル ''Haru''{{sup/4|Pt}}
+サトコ ''Satoko''
+チホ ''Chiho''
+キョウコ ''Kyōko''
+マキコ ''Makiko''
+ミキコ ''Mikiko''
+ミチコ ''Michiko''
+ジュンコ ''Junko''
+チナミ ''Chinami''
+リエ ''Rie''
+セツコ ''Setsuko''
+ユキコ ''Yukiko''
+マミナ ''Mamina''
+ノリコ ''Noriko''
+ヒサエ ''Hisae''
+モモコ ''Momoko''
+ミスズ ''Misuzu''</ab>
+|<ab>Diamond{{sup/4|D}}
+Pearl{{sup/4|P}}
+Plato{{sup/4|Pt}}
+Karla{{sup/4|DP}} / Joelle{{sup/4|Pt}}
+Britney
+Kelli
+Nina
+Heidi
+Miriam
+Teresa
+Aubrey
+Kelly
+Naomi
+Abby
+Denise
+Tamara
+Linda
+Faith
+Mari
+Maggie</ab>
+|<ab>Diamant{{sup/4|D}}
+Perl{{sup/4|P}}
+Plati{{sup/4|Pt}}
+Mandy{{sup/4|DP}} / Edwina{{sup/4|Pt}}
+Andrea
+Sina
+Sara
+Sigrun
+Elena
+Birgit
+Diana
+Antje
+Susi
+Ute
+Daniela
+Silke
+Linda
+Jamie
+Pia
+Eva</ab>
+|<ab>Diamant{{sup/4|D}}
+Perla{{sup/4|P}}
+Platino{{sup/4|Pt}}
+Mena{{sup/4|DP}} / Antonia{{sup/4|Pt}}
+Cira
+María
+Nayra
+Mariau
+Miriam
+Teresa
+Claudia
+Aiora
+Rita
+Aria
+Matilde
+Nuria
+Izarbe
+Salia
+Mirta
+Susa</ab>
+|<ab>Diamant{{sup/4|D}}
+Perlo{{sup/4|P}}
+Platine{{sup/4|Pt}}
+Joanna{{sup/4|DP}} / Louane{{sup/4|Pt}}
+Lucie
+Edith
+Sophie
+Claire
+Audrey
+Marion
+Sayaka
+Noémie
+Linda
+Flo{{sup/4|DP}} / Suzie{{sup/4|Pt}}
+Yuki
+Carmen
+Coralie
+Nadia
+Hélène
+Caro</ab>
+|<ab>Diaman{{sup/4|D}}
+Perl{{sup/4|P}}
+Platin{{sup/4|Pt}}
+Cinzia{{sup/4|DP}} / Giorgia{{sup/4|Pt}}
+Luisa
+Amanda
+Sara
+Elisa
+Lorenza
+Paola
+Gaia
+Claudia
+Wilma
+Ivana
+Monia
+Letizia
+Linda
+Ilaria
+Isotta
+Viviana</ab>
+|<ab>다이아몬드 ''Diamond''{{sup/4|D}}
+펄 ''Pearl''{{sup/4|P}}
+플래티넘 ''Platinum''{{sup/4|Pt}}
+링링 ''Ringring''{{sup/4|DP}} / 봄 ''Bom''{{sup/4|Pt}}
+서연 ''Seoyeon''
+해나 ''Haena''
+아라 ''Ara''
+유경 ''Yugyeong''
+윤혜 ''Yunhye''
+태희 ''Taehyi''
+나정 ''Najeong''
+인희 ''Inhyi''
+나영 ''Nayeong''
+꽃님 ''Kkotnim''
+설아 ''Seola''
+지나 ''Jina''
+주애 ''Juae''
+사희 ''Sahyi''
+미영 ''Miyeong''
+은영 ''Eun'yeong''</ab>
+|}{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==References==
+<references />
+
+==Related articles==
+* [[Dawn (anime)]]
+
+{{Capture tutor}}
+{{Player characters|pearl}}
+{{Rival characters|pearl}}
+{{NPC|pearl|sinnoh=yes}}
+{{Project CharacterDex notice}}
+
+[[Category:Diamond and Pearl characters]]
+[[Category:Platinum characters]]
+[[Category:Brilliant Diamond and Shining Pearl characters]]
+[[Category:Champions]]
+[[Category:Friend characters]]
+[[Category:Multi Battle partners]]
+[[Category:Laboratory assistants]]
+
+[[de:Lucia]]
+[[es:Maya (personaje)]]
+[[fr:Aurore (Sinnoh)]]
+[[it:Lucinda (gioco)]]
+[[ja:ヒカリ (ゲーム)]]
+[[zh:小光]]

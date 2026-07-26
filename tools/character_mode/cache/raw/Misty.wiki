@@ -1,0 +1,1887 @@
+{{Character Infobox
+|color={{water color}}
+|bordercolor={{water color dark}}
+|corecolor={{water color light}}
+|name=Misty
+|jname=カスミ
+|tmname=Kasumi
+|sloganline=The Tomboyish Mermaid!
+|image=Lets Go Pikachu Eevee Misty.png
+|size=x270px
+|caption=Artwork from ''{{LGPE}}''<br>Illustrated by [[Megumi Mizutani]]<ref>[[a:File:MistyDeterminationHiddenFates62.jpg|Misty's Determination (Hidden Fates 62)]]</ref>
+|gender=Female
+|height=5'1" (1.55 m)<ref name=PSW>[[Pokémon Scale World]]</ref>
+|eyes=Black{{tt|*|Generation I}}, Brown{{tt|*|Generation II}}, Green{{tt|*|Generation III - V}}, Blue{{tt|*|Hanada City Gym TCG set, Generation VII}}
+|hair=Orange, Pink{{tt|*|Pokémon Stadium 2 only}}
+|hometown=[[Cerulean City]]
+|region=[[Kanto]]
+|relatives=Unnamed parents ({{pkmn|Zensho}})
+}}
+{{Character Infobox/Game
+|color={{Water color light}}
+|gen={{gen|I}}, {{gen|II}}, {{gen|III}}, {{gen|IV}}, {{gen|V}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|counterpart=[[Misty (Masters)]]
+|games={{game3|Red and Blue|Red, Blue|s}}, {{v2|Yellow}}, {{game3|Gold and Silver|Gold, Silver|s}}, {{v2|Crystal}}, {{game3|FireRed and LeafGreen|FireRed, LeafGreen|s}}, {{game3|HeartGold and SoulSilver|HeartGold, SoulSilver|s}}, {{B2W2|Black 2, White 2}}, [[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu!, Let's Go, Eevee!]]<br>{{pkmn|Stadium}}, {{pkmn|Stadium 2}}, {{pkmn|Masters EX}}
+|trainer=[[Gym Leader]]{{sup/1|RBY}}{{sup/2|GSC}}{{sup/3|FRLG}}{{sup/4|HGSS}}{{sup/7|PE}}<br>[[Pokémon Trainer]]{{sup/5|B2W2}}
+|enva=Reba Buhr<ref name="Reba Buhr">[https://www.rebabuhr.com/voiceover Reba Buhr - Voiceover]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=[[Ayane Sakura]]<ref name="Ayane Sakura">[https://www.oricon.co.jp/news/2138750/full/ Oricon News] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Team
+|color={{Water color light}}
+|member=[[Indigo League]]
+|rank=[[Gym Leader]]
+|domain=[[Cerulean Gym]]
+|reward={{badge|Cascade}}
+|specialty={{t|Water}} types
+}}
+{{Character Infobox/Anime
+|color={{Water color light}}
+|series=''[[Pokémon the Series]]'', ''[[Pokémon Origins]]''
+|counterpart={{an|Misty}}
+|debut=''[[EP001|Pokémon - I Choose You!]]'' (''Pokémon the Series''), ''[[PO02|File 2: Cubone]]'' (''Pokémon Origins'')
+|enva=[[Rachael Lillis]] ([[EP001]] - [[AG134]]), [[Michele Knotz]] ([[The Mastermind of Mirage Pokémon|MoMP]] - [[JN147]]) (''Pokémon the Series'')<br>N/A (''Pokémon Origins'')
+|jpva=[[Mayumi Iizuka]] (''Pokémon the Series'')<br>N/A (''Pokémon Origins'')
+}}
+{{Character Infobox/Manga
+|color={{Water color light}}
+|series=''[[Pokémon Adventures]]'' <br> ''[[Pokémon Pocket Monsters]]'' <br> ''[[Pokémon Zensho]]''
+|debut=''[[PS6|Gyarados Splashes In!]]'' (Adventures) <br> ''[[PM004|Obtain the Moon Stone!!]]'' (Pokémon Pocket Monsters) <br> ''[[PZ03|Hanada City]]'' (Pokemon Zensho) 
+}}
+|}
+
+'''Misty''' (Japanese: '''カスミ''' ''Kasumi'') is the [[Gym Leader]] of [[Cerulean City]]'s [[Gym]], known officially as the [[Cerulean Gym]]. She gives the {{Badge|Cascade}} to {{pkmn|Trainer}}s who defeat her in {{pkmn|battle}}. She [[Type expert|specializes]] in {{type|Water}} {{OBP|Pokémon|species}}.
+
+== Appearance ==
+Misty is a young girl with a fair complexion. In almost all of her appearance, her orange hair has a single large pigtail on the left side of her head, and is spikier on the right side.
+
+=== Pokémon Red, Green and Blue ===
+Misty wears a two-piece swimsuit with sandals. They are rendered black in-game due to color palette limitations, but the official artwork by Ken Sugimori depicts her swimsuit as white with a large red stripe, and her sandals as red with white buttons. 
+
+=== Pokémon Yellow ===
+In Yellow, her outfit is instead based on her anime counterpart, comprising of a yellow crop top, blue shorts (rendered black in-game due to palette limitations), and red sneakers.
+
+=== Pokémon Gold, Silver, Crystal, HeartGold and SoulSilver ===
+Misty's hair has grown longer, and ends with two hook-shaped bangs on either side. In Pokémon Stadium 2 only, her hair is depicted as pink.
+
+Her outfit consists of a white one-piece swimsuit, a light-blue open jacket, and white slide sandals.
+
+=== Pokémon Let's Go, Pikachu! and Let's Go, Eevee! ===
+Misty wears a white crop top with red accents, blue shorts with wave-like light blue designs, and red and white sneakers with blue accents.
+
+==In the core series games==
+[[File:Misty's Date.png|thumb|The player interrupting Misty's date in Pokémon Crystal]]
+Misty appears in {{game5|Red|Blue|Yellow|FireRed|LeafGreen}} and [[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!]] as the [[Gym Leader]] of the [[Cerulean Gym]], which is the second [[Gym]] that the {{player}} challenges on their {{pkmn|journey}}. Her strategy is an all-out attack with {{type|Water}} Pokémon, and she is constantly looking for ways to improve her technique. A swimmer herself, she trains at the [[Seafoam Islands]]. She admires [[Lorelei]] of the [[Elite Four]]. It is said that she has high hopes for [[Kanto Route 25|Cerulean Cape]], a romantic date spot. She also expresses a desire to travel one day once she has become stronger. In addition to the {{badge|Cascade}}, Misty gives out {{TM|11|BubbleBeam}} in Red, Blue, and Yellow, {{TM|03|Water Pulse}} in FireRed and LeafGreen, and {{TM|29|Scald}} in Let's Go, Pikachu! and Let's Go, Eevee!.
+
+In Let's Go, Pikachu! and Let's Go, Eevee!, Misty appears in [[Vermilion City]] after the player has defeated [[Lt. Surge]], offering to show them the way to the [[Diglett's Cave]] entrance on {{rt|11|Kanto}}. She also reveals that she sometimes visits Vermilion to swim in the sea.
+
+Three years later, in {{game5|Gold|Silver|Crystal|HeartGold|SoulSilver}}, Misty remains the Gym Leader of the Cerulean Gym, which can be challenged once the {{tc|Team Rocket Grunt}} who stole the [[Machine Part]] from the [[Kanto Power Plant]] is encountered at the Gym. Initially, she cannot be found in the Gym. Instead, she can be seen at Cerulean Cape on a date with her boyfriend. When the player arrives, her boyfriend is scared away, prompting her to grow angry with the player and refer to them as a pest. Upon noticing their eight [[Johto]] [[Badge]]s, however, she accepts the player's challenge and returns to the Gym. While she doesn't give out a TM in Gold, Silver, and Crystal, she gives out TM03 (Water Pulse) in HeartGold and SoulSilver.
+
+In HeartGold and SoulSilver, once all 16 Badges have been obtained and {{p|Suicune}} has been captured or defeated, Misty can be found on Route 25 on any day between 4 PM and 6 PM. If spoken to, she will offer her [[Pokégear]] number to the player. If she is called on [[Days of the week|Wednesday]] [[Time|mornings]], she will be up for a [[rematch]] at the [[Fighting Dojo]] in [[Saffron City]]. After her Pokégear number has been obtained, she will also appear on Route 25 every day between 2 PM and 4 PM. Upon speaking to her, the player can have a [[photography|photograph]] taken with her if the first Pokémon in their party is a Water-type.
+
+In {{B2W2}}, Misty appears alongside the other Gym Leaders of [[Kanto]] as an opponent in the [[Kanto Leaders Tournament]] at the [[Pokémon World Tournament]]. She also participates alongside the Gym Leaders of Kanto, [[Johto]], [[Hoenn]], [[Sinnoh]], and [[Unova]] in the [[World Leaders Tournament]], and other Water-type experts in the Water [[Type Expert Tournament]].
+
+===Fame Checker===
+This is a list of the [[Fame Checker]]’s information on Misty in {{game|FireRed and LeafGreen|s}}.
+;[[Cerulean City]] - Sign
+*What does this person do?
+:"<sc>Cerulean City Pok</sc>é<sc>mon Gym</sc>
+:<sc>Leader: Misty</sc>
+:The Tomboyish Mermaid!"
+;[[Cerulean Gym]] - Misty
+*Favorite kind of {{ScPkmn}}?
+:"My policy is an all-out offensive with <sc>Water</sc>-type {{ScPkmn}}!"
+;Cerulean Gym - {{tc|Swimmer}}♂ Luis
+*What is this person like?
+:"<sc>Misty</sc> is a <sc>{{pkmn|Trainer}}</sc> who’s going to keep improving.
+:She won’t lose to someone like you!"
+;[[Seafoam Islands]] - Young Man
+*There’s a rumor...
+:"Strong <sc>Trainers</sc> and <sc>Water Pok</sc>é<sc>mon</sc> are common sights in these parts.
+:They say that <sc>Misty</sc> of the <sc>Cerulean Gym</sc> trains here."
+;[[Kanto Route 25|Cerulean Cape]] - Dame
+*There’s a rumor...
+:"This cape is a famous date spot.
+:<sc>Misty</sc>, the <sc>Gym Leader</sc>, has high hopes about this place."
+;Cerulean City - {{DL|Magazines in the Pokémon world|Pokémon Journal}}{{tt|*|After entering the Hall of Fame}}
+*There’s a rumor...
+:"<sc>Misty</sc> is said to worship <sc>[[Lorelei]]</sc> of the <sc>[[Elite Four]]</sc>."
+;Message from <sc>Misty</sc>
+*From: <sc>Misty</sc>
+*To: <{{player}}>
+:I’m going to keep training here at this <sc>Gym</sc>.
+:When I get better, I’d love to hit the road and travel."
+
+===Pokémon===
+===={{game|Red and Blue|s}}====
+Misty has one [[X Defend]] per Pokémon, using it randomly 25% of the time.
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr RG Misty.png
+| prize = {{PDollar}}2079
+| name = Misty<!--GEN I HAD NO CLASSES-->
+| location = Cerulean Gym
+| game = RGB
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0120
+| pokemon = Staryu
+| level = 18
+| type1 = Water
+| move1 = Tackle | move1type = Normal
+| move2 = Water Gun | move2type = Water
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0121
+| pokemon = Starmie
+| level = 21
+| type1 = Water
+| type2 = Psychic
+| move1 = Tackle | move1type = Normal
+| move2 = Water Gun | move2type = Water
+| move3 = BubbleBeam | move3type = Water
+}}
+{{Party/end}}
+===={{game|Yellow}}====
+Misty has one [[X Defend]] per Pokémon, using it randomly 25% of the time.
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr Y Misty.png
+| prize = {{PDollar}}2079
+| name = Misty<!--GEN I HAD NO CLASSES-->
+| location = Cerulean Gym
+| game = Y
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0120
+| pokemon = Staryu
+| level = 18
+| type1 = Water
+| move1 = Tackle | move1type = Normal
+| move2 = Water Gun | move2type = Water
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0121
+| pokemon = Starmie
+| level = 21
+| type1 = Water
+| type2 = Psychic
+| move1 = Tackle | move1type = Normal
+| move2 = Water Gun | move2type = Water
+| move3 = Harden | move3type = Normal
+| move4 = BubbleBeam | move4type = Water
+}}
+{{Party/end}}
+===={{game2|Gold|Silver|Crystal}}====
+Misty has a [[Full Heal]].
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr GS Misty.png
+| prize = {{PDollar}}4700
+| class = Leader
+| classlink = Gym Leader
+| name = Misty
+| location = Cerulean Gym
+| game = GSC
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0055
+| pokemon = Golduck
+| gender = female
+| level = 42
+| type1 = Water
+| move1 = Surf | move1type = Water
+| move2 = Disable | move2type = Normal
+| move3 = Psych Up | move3type = Normal
+| move4 = Psychic | move4type = Psychic
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0195
+| pokemon = Quagsire
+| gender = female
+| level = 42
+| type1 = Water
+| type2 = Ground
+| move1 = Surf | move1type = Water
+| move2 = Amnesia | move2type = Psychic
+| move3 = Earthquake | move3type = Ground
+| move4 = Rain Dance | move4type = Water
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0131
+| pokemon = Lapras
+| gender = female
+| level = 44
+| type1 = Water
+| type2 = Ice
+| move1 = Surf | move1type = Water
+| move2 = Perish Song | move2type = Normal
+| move3 = Blizzard | move3type = Ice
+| move4 = Rain Dance | move4type = Water
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 47
+| type1 = Water
+| type2 = Psychic
+| move1 = Surf | move1type = Water
+| move2 = Confuse Ray | move2type = Ghost
+| move3 = Recover | move3type = Normal
+| move4 = Ice Beam | move4type = Ice
+}}
+{{Party/end}}
+===={{game|FireRed and LeafGreen|s}}====
+Misty has a [[Super Potion]].
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr FRLG Misty.png
+| prize = {{PDollar}}2100
+| class = Leader
+| classlink = Gym Leader
+| name = Misty
+| location = Cerulean Gym
+| game = FRLG
+| pokemon = 2
+}}
+{{Pokémon
+| gen = 3
+| ndex = 0120
+| pokemon = Staryu
+| gender = none
+| level = 18
+| type1 = Water
+| ability = Natural Cure
+| move1 = Tackle | move1type = Normal
+| move2 = Harden | move2type = Normal
+| move3 = Recover | move3type = Normal
+| move4 = Water Pulse | move4type = Water
+}}
+{{Pokémon
+| gen = 3
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 21
+| type1 = Water
+| type2 = Psychic
+| ability = Natural Cure
+| move1 = Rapid Spin | move1type = Normal
+| move2 = Swift | move2type = Normal
+| move3 = Recover | move3type = Normal
+| move4 = Water Pulse | move4type = Water
+}}
+{{Party/end}}
+===={{game|HeartGold and SoulSilver|s}}====
+=====Gym battle=====
+Misty has three [[Full Restore]]s.{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr HGSS Misty.png
+| prize = {{PDollar}}6480
+| class = Leader
+| classlink = Gym Leader
+| name = Misty
+| location = Cerulean Gym
+| game = HGSS
+| pokemon = 4
+}}{{Pokémon
+| gen = 4
+| ndex = 0055
+| pokemon = Golduck
+| gender = female
+| level = 49
+| type1 = Water
+| ability = Damp
+| move1 = Water Pulse | move1type = Water | move1cat = Special
+| move2 = Disable | move2type = Normal | move2cat = Status
+| move3 = Psychic | move3type = Psychic | move3cat = Special
+| move4 = Psych Up | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0195
+| pokemon = Quagsire
+| gender = female
+| level = 49
+| type1 = Water
+| type2 = Ground
+| ability = Water Absorb
+| move1 = Water Pulse | move1type = Water | move1cat = Special
+| move2 = Amnesia | move2type = Psychic | move2cat = Status
+| move3 = Rain Dance | move3type = Water | move3cat = Status
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0131
+| pokemon = Lapras
+| gender = female
+| level = 52
+| type1 = Water
+| type2 = Ice
+| ability = Shell Armor
+| move1 = Ice Beam | move1type = Ice | move1cat = Special
+| move2 = Sing | move2type = Normal | move2cat = Status
+| move3 = Water Pulse | move3type = Water | move3cat = Special
+| move4 = Body Slam | move4type = Normal | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 54
+| type1 = Water
+| type2 = Psychic
+| ability = Natural Cure
+| held = Sitrus Berry
+| move1 = Water Pulse | move1type = Water | move1cat = Special
+| move2 = Confuse Ray | move2type = Ghost | move2cat = Status
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Recover | move4type = Normal | move4cat = Status
+}}
+{{Party/end}}
+=====[[Rematch]]=====
+Misty has three [[Full Restore]]s.{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr HGSS Misty.png
+| prize = {{PDollar}}7200
+| class = Leader
+| classlink = Gym Leader
+| name = Misty
+| location = Fighting Dojo
+| game = HGSS
+| pokemon = 6
+}}{{Pokémon
+| gen = 4
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 60
+| type1 = Water
+| type2 = Psychic
+| ability = Natural Cure
+| held = Colbur Berry
+| move1 = Thunderbolt | move1type = Electric | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Psychic | move3type = Psychic | move3cat = Special
+| move4 = Surf | move4type = Water | move4cat = Special
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0195
+| pokemon = Quagsire
+| gender = female
+| level = 56
+| type1 = Water
+| type2 = Ground
+| ability = Water Absorb
+| move1 = Rain Dance | move1type = Water | move1cat = Status
+| move2 = Amnesia | move2type = Psychic | move2cat = Status
+| move3 = Water Pulse | move3type = Water | move3cat = Special
+| move4 = Earthquake | move4type = Ground | move4cat = Physical
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0131
+| pokemon = Lapras
+| gender = female
+| level = 56
+| type1 = Water
+| type2 = Ice
+| ability = Shell Armor
+| move1 = Rain Dance | move1type = Water | move1cat = Status
+| move2 = Perish Song | move2type = Normal | move2cat = Status
+| move3 = Blizzard | move3type = Ice | move3cat = Special
+| move4 = Surf | move4type = Water | move4cat = Special
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0171
+| pokemon = Lanturn
+| gender = female
+| level = 54
+| type1 = Water
+| type2 = Electric
+| ability = Illuminate
+| move1 = Thunderbolt | move1type = Electric | move1cat = Special
+| move2 = Thunder Wave | move2type = Electric | move2cat = Status
+| move3 = Confuse Ray | move3type = Ghost | move3cat = Status
+| move4 = Surf | move4type = Water | move4cat = Special
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0419
+| pokemon = Floatzel
+| gender = female
+| level = 54
+| type1 = Water
+| ability = Swift Swim
+| move1 = Agility | move1type = Psychic | move1cat = Status
+| move2 = Waterfall | move2type = Water | move2cat = Physical
+| move3 = Ice Fang | move3type = Ice | move3cat = Physical
+| move4 = Baton Pass | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 4
+| ndex = 0350
+| pokemon = Milotic
+| gender = female
+| level = 60
+| type1 = Water
+| ability = Marvel Scale
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Rest | move3type = Psychic | move3cat = Status
+| move4 = Sleep Talk | move4type = Normal | move4cat = Status
+}}
+{{Party/end}}
+
+===={{B2W2}}====
+=====[[Pokémon World Tournament]]=====
+Misty uses three of these Pokémon in [[Pokémon battle|Single Battles]], four in [[Double Battle|Double]] and [[Rotation Battle]]s, and all six in [[Triple Battle]]s. Misty will always lead with her signature Pokémon, {{p|Starmie}}.
+
+======[[Kanto Leaders Tournament]]======
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr B2W2 Misty.png
+| prize = 1{{color2|000|Battle Point|BP}}
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Misty
+| location = Pokémon World Tournament
+| game = B2W2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 50
+| type1 = Water
+| type2 = Psychic
+| ability = Illuminate
+| ability2 = Natural Cure
+| held = Petaya Berry
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Hydro Pump | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Thunderbolt | move4type = Electric | move4cat = Special
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0055
+| pokemon = Golduck
+| gender = both
+| level = 50
+| type1 = Water
+| ability = Damp
+| ability2 = Cloud Nine
+| held = Water Gem
+| move1 = Blizzard | move1type = Ice | move1cat = Special
+| move2 = Focus Blast | move2type = Fighting | move2cat = Special
+| move3 = Aqua Jet | move3type = Water | move3cat = Physical
+| move4 = Hone Claws | move4type = Dark | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0119
+| pokemon = Seaking
+| gender = both
+| level = 50
+| type1 = Water
+| ability = Swift Swim
+| ability2 = Water Veil
+| held = Wacan Berry
+| move1 = Megahorn | move1type = Bug | move1cat = Physical
+| move2 = Waterfall | move2type = Water | move2cat = Physical
+| move3 = Poison Jab | move3type = Poison | move3cat = Physical
+| move4 = Agility | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0131
+| pokemon = Lapras
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Ice
+| ability = Water Absorb
+| ability2 = Shell Armor
+| held = Ganlon Berry
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Ice Beam | move2type = Ice | move2cat = Special
+| move3 = Thunderbolt | move3type = Electric | move3cat = Special
+| move4 = Confuse Ray | move4type = Ghost | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0080
+| pokemon = Slowbro
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Psychic
+| ability = Oblivious
+| ability2 = Own Tempo
+| held = Apicot Berry
+| move1 = Psyshock | move1type = Psychic | move1cat = Special
+| move2 = Scald | move2type = Water | move2cat = Special
+| move3 = Slack Off | move3type = Normal | move3cat = Status
+| move4 = Yawn | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0009
+| pokemon = Blastoise
+| gender = both
+| level = 50
+| type1 = Water
+| ability = Torrent
+| held = Salac Berry
+| move1 = Avalanche | move1type = Ice | move1cat = Physical
+| move2 = Hydro Pump | move2type = Water | move2cat = Special
+| move3 = Iron Tail | move3type = Steel | move3cat = Physical
+| move4 = Iron Defense | move4type = Steel | move4cat = Status
+}}
+{{Party/end}}
+======[[Type Expert Tournament|Type Expert]]/[[World Leaders Tournament]]======
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr B2W2 Misty.png
+| prize = 1{{color2|000|Battle Point|BP}}
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Misty
+| location = Pokémon World Tournament
+| game = B2W2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 50
+| type1 = Water
+| type2 = Psychic
+| ability = Illuminate
+| ability2 = Natural Cure
+| held = Choice Scarf
+| move1 = Psychic | move1type = Psychic | move1cat = Special
+| move2 = Grass Knot | move2type = Grass | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Thunderbolt | move4type = Electric | move4cat = Special
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0171
+| pokemon = Lanturn
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Electric
+| ability = Volt Absorb
+| ability2 = Illuminate
+| held = Sitrus Berry
+| move1 = Thunderbolt | move1type = Electric | move1cat = Special
+| move2 = Scald | move2type = Water | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Toxic | move4type = Poison | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0593
+| pokemon = Jellicent
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Ghost
+| ability = Water Absorb
+| ability2 = Cursed Body
+| held = Leftovers
+| move1 = Surf | move1type = Water | move1cat = Special
+| move2 = Shadow Ball | move2type = Ghost | move2cat = Special
+| move3 = Recover | move3type = Normal | move3cat = Status
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0131
+| pokemon = Lapras
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Ice
+| ability = Water Absorb
+| ability2 = Shell Armor
+| held = Zoom Lens
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Blizzard | move2type = Ice | move2cat = Special
+| move3 = Ice Shard | move3type = Ice | move3cat = Physical
+| move4 = Sheer Cold | move4type = Ice | move4cat = Special
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0195
+| pokemon = Quagsire
+| gender = both
+| level = 50
+| type1 = Water
+| type2 = Ground
+| ability = Damp
+| ability2 = Water Absorb
+| held = Focus Sash
+| move1 = Waterfall | move1type = Water | move1cat = Physical
+| move2 = Earthquake | move2type = Ground | move2cat = Physical
+| move3 = Rain Dance | move3type = Water | move3cat = Status
+| move4 = Yawn | move4type = Normal | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0009
+| pokemon = Blastoise
+| gender = both
+| level = 50
+| type1 = Water
+| ability = Torrent
+| held = Salac Berry
+| move1 = Avalanche | move1type = Ice | move1cat = Physical
+| move2 = Hydro Pump | move2type = Water | move2cat = Special
+| move3 = Outrage | move3type = Dragon | move3cat = Physical
+| move4 = Iron Defense | move4type = Steel | move4cat = Status
+}}
+{{Party/end}}
+======[[Gathered! Gym Leader!]]======
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Spr B2W2 Misty.png
+| prize = 1{{color2|000|Battle Point|BP}}
+| class = {{PK}}{{MN}} Trainer
+| classlink = Pokémon Trainer
+| name = Misty
+| location = Pokémon World Tournament
+| game = B2W2
+| pokemon = 4
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 50
+| type1 = Water
+| type2 = Psychic
+| ability = Natural Cure
+| held = Rindo Berry
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Thunderbolt | move4type = Electric | move4cat = Special
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0593
+| pokemon = Jellicent
+| form = -Female
+| gender = female
+| level = 50
+| type1 = Water
+| type2 = Ghost
+| ability = Cursed Body
+| held = Colbur Berry
+| move1 = Water Spout | move1type = Water | move1cat = Special
+| move2 = Shadow Ball | move2type = Ghost | move2cat = Special
+| move3 = Recover | move3type = Normal | move3cat = Status
+| move4 = Will-O-Wisp | move4type = Fire | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0581
+| pokemon = Swanna
+| gender = female
+| level = 50
+| type1 = Water
+| type2 = Flying
+| ability = Keen Eye
+| held = Wacan Berry
+| move1 = Scald | move1type = Water | move1cat = Special
+| move2 = Air Slash | move2type = Flying | move2cat = Special
+| move3 = Brave Bird | move3type = Flying | move3cat = Physical
+| move4 = FeatherDance | move4type = Flying | move4cat = Status
+}}
+{{Pokémon
+| gen = 5
+| ndex = 0565
+| pokemon = Carracosta
+| gender = male
+| level = 50
+| type1 = Water
+| type2 = Rock
+| ability = Sturdy
+| held = Chople Berry
+| move1 = Shell Smash | move1type = Normal | move1cat = Status
+| move2 = Aqua Jet | move2type = Water | move2cat = Physical
+| move3 = Rock Slide | move3type = Rock | move3cat = Physical
+| move4 = Waterfall | move4type = Water | move4cat = Physical
+}}
+{{Party/end}}
+====[[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!]]====
+=====Gym battle=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = VSMisty PE.png
+| size = 90px
+| prize = {{PDollar}}3,040
+| class = Gym Leader
+| name = Misty
+| location = Cerulean Gym
+| game = PE
+| pokemon = 2
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0054
+| pokemon = Psyduck
+| gender = male
+| level = 18
+| type1 = Water
+| move1 = Confusion | move1type = Psychic | move1cat = Special
+| move2 = Water Gun | move2type = Water | move2cat = Special
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 19
+| type1 = Water
+| type2 = Psychic
+| move1 = Scald | move1type = Water | move1cat = Special
+| move2 = Swift | move2type = Normal | move2cat = Special
+| move3 = Psywave | move3type = Psychic | move3cat = Special
+}}
+{{Party/end}}
+=====[[Rematch]]=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = VSMisty PE.png
+| size = 90px
+| prize = {{PDollar}}13,680
+| class = Gym Leader
+| name = Misty
+| location = Cerulean Gym
+| game = PE
+| pokemon = 5
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0055
+| pokemon = Golduck
+| gender = male
+| level = 56
+| type1 = Water
+| move1 = Scald | move1type = Water | move1cat = Special
+| move2 = Psychic | move2type = Psychic | move2cat = Special
+| move3 = Ice Beam | move3type = Ice | move3cat = Special
+| move4 = Light Screen | move4type = Psychic | move4cat = Status
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0087
+| pokemon = Dewgong
+| gender = female
+| level = 56
+| type1 = Water
+| type2 = Ice
+| move1 = Aqua Jet | move1type = Water | move1cat = Physical
+| move2 = Ice Shard | move2type = Ice | move2cat = Physical
+| move3 = Waterfall | move3type = Water | move3cat = Physical
+| move4 = Iron Tail | move4type = Steel | move4cat = Physical
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0134
+| pokemon = Vaporeon
+| gender = female
+| level = 56
+| type1 = Water
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Blizzard | move2type = Ice | move2cat = Special
+| move3 = Quick Attack | move3type = Normal | move3cat = Physical
+| move4 = Shadow Ball | move4type = Ghost | move4cat = Special
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 56
+| type1 = Water
+| type2 = Psychic
+| move1 = Hydro Pump | move1type = Water | move1cat = Special
+| move2 = Dazzling Gleam | move2type = Fairy | move2cat = Special
+| move3 = Psychic | move3type = Psychic | move3cat = Special
+| move4 = Thunderbolt | move4type = Electric | move4cat = Special
+}}
+{{Pokémon
+| gen = PE
+| ndex = 0130
+| pokemon = Gyarados
+| gender = male
+| level = 57
+| type1 = Water
+| type2 = Flying
+| move1 = Waterfall | move1type = Water | move1cat = Physical
+| move2 = Crunch | move2type = Dark | move2cat = Physical
+| move3 = Outrage | move3type = Dragon | move3cat = Physical
+| move4 = Iron Tail | move4type = Steel | move4cat = Physical
+}}
+{{Party/end}}
+==In the side series games==
+===[[Pokémon Stadium]]===
+Misty appears in [[Pokémon Stadium]] as the second Gym Leader the player faces during the [[Gym Leader Castle]] challenge. As usual for Trainers in this game, she also uses Pokémon outside her specialty type.
+
+====Pokémon====
+=====Round 1=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Misty Stadium.png{{!}}55px
+| prize = none<!--GEN I HAD NO CLASSES-->
+| name = Misty
+| location = Gym Leader Castle
+| game = Stadium
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0121
+| pokemon = Starmie
+| level = 50-100
+| type1 = Water
+| type2 = Psychic
+| move1 = Thunder | move1type = Electric
+| move2 = Swift | move2type = Normal
+| move3 = BubbleBeam | move3type = Water
+| move4 = Thunder Wave | move4type = Electric
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0116
+| pokemon = Horsea
+| level = 50-100
+| type1 = Water
+| move1 = SmokeScreen | move1type = Normal
+| move2 = Surf | move2type = Water
+| move3 = Toxic | move3type = Poison
+| move4 = Ice Beam | move4type = Ice
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0054
+| pokemon = Psyduck
+| level = 50-100
+| type1 = Water
+| move1 = Disable | move1type = Normal
+| move2 = Confusion | move2type = Psychic
+| move3 = Fury Swipes | move3type = Normal
+| move4 = Body Slam | move4type = Normal
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0009
+| pokemon = Blastoise
+| level = 50-100
+| type1 = Water
+| move1 = Hydro Pump | move1type = Water
+| move2 = Bite | move2type = Normal
+| move3 = Dig | move3type = Ground
+| move4 = Seismic Toss | move4type = Fighting
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0120
+| pokemon = Staryu
+| level = 50-100
+| type1 = Water
+| move1 = Recover | move1type = Normal
+| move2 = Minimize | move2type = Normal
+| move3 = Thunderbolt | move3type = Electric
+| move4 = Psychic | move4type = Psychic
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0086
+| pokemon = Seel
+| level = 50-100
+| type1 = Water
+| move1 = Blizzard | move1type = Ice
+| move2 = Rest | move2type = Psychic
+| move3 = Take Down | move3type = Normal
+| move4 = Surf | move4type = Water
+}}
+{{Party/end}}
+
+=====Round 2=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = Misty Stadium.png{{!}}55px
+| prize = none<!--GEN I HAD NO CLASSES-->
+| name = Misty
+| location = Gym Leader Castle
+| game = Stadium
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0121
+| pokemon = Starmie
+| level = 50-100
+| type1 = Water
+| type2 = Psychic
+| move1 = Recover | move1type = Normal
+| move2 = Psychic | move2type = Psychic
+| move3 = Hydro Pump | move3type = Water
+| move4 = Thunder Wave | move4type = Electric
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0103
+| pokemon = Exeggutor
+| level = 50-100
+| type1 = Grass
+| type2 = Psychic
+| move1 = Mega Drain | move1type = Grass
+| move2 = Psychic | move2type = Psychic
+| move3 = Explosion | move3type = Normal
+| move4 = Reflect | move4type = Psychic
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0117
+| pokemon = Seadra
+| level = 50-100
+| type1 = Water
+| move1 = SmokeScreen | move1type = Normal
+| move2 = Surf | move2type = Water
+| move3 = Toxic | move3type = Poison
+| move4 = Ice Beam | move4type = Ice
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0051
+| pokemon = Dugtrio
+| level = 50-100
+| type1 = Ground
+| move1 = Earthquake | move1type = Ground
+| move2 = Slash | move2type = Normal
+| move3 = Fissure | move3type = Ground
+| move4 = Rock Slide | move4type = Rock
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0009
+| pokemon = Blastoise
+| level = 50-100
+| type1 = Water
+| move1 = Hydro Pump | move1type = Water
+| move2 = Bite | move2type = Normal
+| move3 = Dig | move3type = Ground
+| move4 = Seismic Toss | move4type = Fighting
+}}
+{{Pokémon
+| gen = 1
+| ndex = 0087
+| pokemon = Dewgong
+| level = 50-100
+| type1 = Water
+| type2 = Ice
+| move1 = Aurora Beam | move1type = Ice
+| move2 = Rest | move2type = Psychic
+| move3 = Surf | move3type = Water
+| move4 = Take Down | move4type = Normal
+}}
+{{Party/end}}
+
+===[[Pokémon Stadium 2]]===
+Misty returns in {{g|Stadium 2}} as part of the Kanto Gym Leader Castle. One of her [[party]] members in this game is a {{TP|Misty|Togetic}}, a [[List of cross-canon references|reference]] to the {{p|Togepi}} her {{an|Misty|animated series counterpart}} owned at the time of the game's release.
+
+During the game's [[Game credits|end credits]], Misty is seen having a battle with [[Whitney]] at the [[Goldenrod Gym]].
+
+====Pokémon====
+=====Round 1=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = S2 Gym Leader Misty.png
+| prize = none
+| class = Gym Leader
+| name = Misty
+| location = Gym Leader Castle
+| locationname = Kanto Gym Leader Castle
+| game = Stadium2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 50-100
+| type1 = Water
+| type2 = Psychic
+| held = King's Rock
+| move1 = Rain Dance | move1type = Water
+| move2 = Surf | move2type = Water
+| move3 = Thunder | move3type = Electric
+| move4 = Psychic | move4type = Psychic
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0176
+| pokemon = Togetic
+| gender = male
+| level = 50-100
+| type1 = Normal
+| type2 = Flying
+| held = PRZCureBerry
+| move1 = Rain Dance | move1type = Water
+| move2 = Encore | move2type = Normal
+| move3 = Metronome | move3type = Normal
+| move4 = Double-Edge | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0055
+| pokemon = Golduck
+| gender = male
+| level = 50-100
+| type1 = Water
+| held = MiracleBerry
+| move1 = Rain Dance | move1type = Water
+| move2 = Dig | move2type = Ground
+| move3 = Return | move3type = Normal
+| move4 = Hydro Pump | move4type = Water
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0192
+| pokemon = Sunflora
+| gender = female
+| level = 50-100
+| type1 = Grass
+| held = Scope Lens
+| move1 = Cut | move1type = Normal
+| move2 = Mega Drain | move2type = Grass
+| move3 = Razor Leaf | move3type = Grass
+| move4 = Sludge Bomb | move4type = Poison
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0061
+| pokemon = Poliwhirl
+| gender = female
+| level = 50-100
+| type1 = Water
+| held = Focus Band
+| move1 = Rain Dance | move1type = Water
+| move2 = Earthquake | move2type = Ground
+| move3 = Hydro Pump | move3type = Water
+| move4 = Body Slam | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0195
+| pokemon = Quagsire
+| gender = female
+| level = 50-100
+| type1 = Water
+| type2 = Ground
+| held = Quick Claw
+| move1 = Rain Dance | move1type = Water
+| move2 = Surf | move2type = Water
+| move3 = Strength | move3type = Normal
+| move4 = Earthquake | move4type = Ground
+}}
+{{Party/end}}
+
+=====Round 2=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = S2 Gym Leader Misty.png
+| prize = none
+| class = Gym Leader
+| name = Misty
+| location = Gym Leader Castle
+| locationname = Kanto Gym Leader Castle
+| game = Stadium2
+| pokemon = 6
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0121
+| pokemon = Starmie
+| gender = none
+| level = 50-100
+| type1 = Water
+| type2 = Psychic
+| held = King's Rock
+| move1 = Rain Dance | move1type = Water
+| move2 = Surf | move2type = Water
+| move3 = Thunder | move3type = Electric
+| move4 = Psychic | move4type = Psychic
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0040
+| pokemon = Wigglytuff
+| gender = female
+| level = 50-100
+| type1 = Normal
+| held = Quick Claw
+| move1 = Rain Dance | move1type = Water
+| move2 = Ice Beam | move2type = Ice
+| move3 = Body Slam | move3type = Normal
+| move4 = Double-Edge | move4type = Normal
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0031
+| pokemon = Nidoqueen
+| gender = female
+| level = 50-100
+| type1 = Poison
+| type2 = Ground
+| held = Scope Lens
+| move1 = Rain Dance | move1type = Water
+| move2 = Thunder | move2type = Electric
+| move3 = Earthquake | move3type = Ground
+| move4 = Surf | move4type = Water
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0181
+| pokemon = Ampharos
+| gender = male
+| level = 50-100
+| type1 = Electric
+| held = BrightPowder
+| move1 = Rain Dance | move1type = Water
+| move2 = Thunder | move2type = Electric
+| move3 = Reflect | move3type = Psychic
+| move4 = Light Screen | move4type = Psychic
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0148
+| pokemon = Dragonair
+| gender = male
+| level = 50-100
+| type1 = Dragon
+| held = Bitter Berry
+| move1 = Rain Dance | move1type = Water
+| move2 = Surf | move2type = Water
+| move3 = Thunder | move3type = Electric
+| move4 = Ice Beam | move4type = Ice
+}}
+{{Pokémon
+| gen = 2
+| ndex = 0186
+| pokemon = Politoed
+| gender = male
+| level = 50-100
+| type1 = Water
+| held = Focus Band
+| move1 = Rain Dance | move1type = Water
+| move2 = Surf | move2type = Water
+| move3 = Ice Beam | move3type = Ice
+| move4 = Earthquake | move4type = Ground
+}}
+{{Party/end}}
+
+==In the spin-off games==
+[[File:MistyGeneticApex267.png|thumb|200px|Super Rare print of [[Misty (Genetic Apex 220)|Misty]]]]
+===[[Pokémon Puzzle League]]===
+{{main|Misty (anime)#Pokémon Puzzle League|Misty (anime) → Pokémon Puzzle League}}
+The {{pkmn|animated series}} version of {{an|Misty}} appears in [[Pokémon Puzzle League]] as one of the opponents {{Ash}} must defeat in the Puzzle League.
+
+===[[Pokémon Zany Cards]]===
+{{main|Misty (anime)#Pokémon Zany Cards|Misty (anime) → Pokémon Zany Cards}}
+Misty and {{an|Brock}}, based on their animated series incarnations, appear as the second opponents in [[Wild Match]] mode.
+
+===[[Pokémon Masters EX]]===
+{{main|Misty (Masters)}}
+Misty, in her [[Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!]] design, forms a [[sync pair]] with {{TP|Misty|Starmie}}, {{TP|Misty|Psyduck}}, {{p|Vaporeon}}, and {{p|Golduck}} in [[Pokémon Masters EX]]. Misty became a playable sync pair since the game's release, with her joining the {{player}} at the beginning of the game.
+
+{{PairDex/h|Water}}
+{{PairDex|003|Misty|trainerlink=Misty (Masters)#Starmie|trainerimg=Misty|0121|Starmie|pokemonlink=Misty's Starmie|Water|Electric|Support|3EX|Story<br>''Start''}}
+{{PairDex|003|Misty|trainerlink=Misty (Masters)#Psyduck|trainerimg=Misty Swimsuit|sygna=Swimsuit|0054|Psyduck|pokemonlink=Misty's Psyduck|gender=male|Water|Grass|Support|4EX|Sync Pair-Up Event}}
+{{PairDex|003|Misty|trainerlink=Misty (Masters)#Vaporeon|trainerimg=Misty Sygna|sygna=[[Sygna suit|Sygna Suit]]|0134|Vaporeon|gender=female|Water|Electric|Tech|6|Sync Pair Scout}}
+{{PairDex|003|Misty|trainerlink=Misty (Masters)#Starmie (Arc Suit)|trainerimg=Misty Arc|sygna=[[Arc suit|Arc Suit]]|0121|Starmie|pokemonlink=Misty's Starmie|buddy=yes|arc=yes|Water|Dark|Multi|exrole=Special Strike|6|Arc Suit Fair Sync Pair Scout}}
+{{PairDex|003|Misty|trainerlink=Misty (Masters)#Golduck|trainerimg=Misty|0055|Golduck|gender=female|Water|Electric|Tech|4EX|Trainer Lodge Friendship Level 100}}
+|}
+
+===[[Pokémon Trading Card Game Pocket]]===
+{{main|Misty (Genetic Apex 220)}}
+Misty makes an appearance as a {{TCG|Supporter}} card in [[Pokémon Trading Card Game Pocket]]'s first expansion, {{TCGP|Genetic Apex}}. When the player plays this card, they pick one of their {{TCG|Water}} Pokémon in play and flip a {{TCG|coin}} until they get tails; for each heads flipped, they take a {{TCG|Water}} {{TCG|Energy}} from the Energy Zone and attach it to the selected Pokémon.
+
+{{TCGPocketCardList/Header|Cards featuring Misty|Water|nocat=yes}}
+{{TCGPocketCardList/Card|cardname={{TCG ID|Genetic Apex|Misty|220}}|type=Supporter|rows=2}}
+{{TCGPocketCardList/Release|type=Water|set=Genetic Apex|rarity=Diamond|rarity count=2|num=220/226}}
+{{TCGPocketCardList/Release|type=Water|set=Genetic Apex|rarity=Star|rarity count=2|num=267/226}}
+{{TCGPocketCardList/Footer|type=Water}}
+
+===[[Pokémon Pokopia]]===
+Misty is the subject of the [[Human Records|Human Record]] "Unmasking the True Misty!", which can be found on a cliff overlooking the northeastern section of [[Withered Wasteland]]. Reading this record rewards {{poko|Ditto}} with the "Mermaid hair" hairstyle, which resembles Misty's own hairstyle.
+
+==Quotes==
+{{main|Misty/Quotes}}
+
+==In animation==
+===''Pokémon the Series''===
+[[File:Misty JN.png|thumb|250px|Misty in {{aniseries|JN}}]]
+{{main|Misty (anime)}}
+Misty is a {{ashfr|friend}} and former traveling partner of the main character of {{aniseries|PTS}}, [[Ash Ketchum]]. After he stole her [[Bicycle|bike]] and proceeded to accidentally destroy it in ''[[EP001|Pokémon - I Choose You!]]'', Misty followed him around the [[Kanto]] [[region]], the [[Orange Islands]], and the [[Johto]] region, using the time she spent with him to further her goal of becoming the greatest Water Pokémon Master.
+
+At the end of {{aniseries|GS}}, Misty's bike was returned and repaired by the [[Nurse Joy]] of [[Viridian City]], and as [[Sensational Sisters|her sisters]] were leaving on a world tour, Misty stayed at the Cerulean Gym as its leader in order to keep it open.
+
+Despite this, she still visits Ash from time to time, meeting up with him during the [[Mirage Kingdom]] and {{Gdis|Battle Frontier|III}} arcs of {{aniseries|RS}}. More recently, she reappeared in {{aniseries|SM}} for two small arcs set in Kanto and [[Alola]], respectively. In {{aniseries|JN}}, Misty was inspired to travel again after seeing the [[Masters Eight Tournament]] and reunited with Ash to travel with him for a while, before eventually returning to the Gym.
+
+===Pokémon Origins===
+[[File:Misty PO.png|thumb|250px|Misty in [[Pokémon Origins]]]]
+Misty appeared briefly in ''[[PO02|File 2: Cubone]]''. She was shown being challenged to a [[Gym]] {{pkmn|battle}} by {{OBP|Red|Origins}}, who later defeated her off-screen, earning the young [[Pokémon Trainer]] the {{badge|Cascade}}.
+
+====Pokémon====
+{{TrainerPoké
+|width=68%
+|main=yes
+|trainer=Misty
+|pkmn=Starmie
+|type1=Water
+|type2=Psychic
+|img=Misty Starmie PO.png
+|epnum=PO02
+|epname=File 2: Cubone
+|desc={{p|Starmie}} is Misty's only known Pokémon. She used it in her Gym battle against {{OBP|Red|Origins}}, but ended up being defeated.}}
+
+===GOTCHA!===
+Misty briefly appeared in [[GOTCHA!]].
+
+==In the manga==
+===Ash & Pikachu===
+{{main|Misty (anime)#In the Ash and Pikachu manga|Misty (anime) → In the Ash and Pikachu manga}}
+Misty appears in [[Ash & Pikachu]], a {{pkmn|manga}} based on the [[Johto]], [[Hoenn]], and {{Gdis|Battle Frontier|III}} seasons of {{aniseries|PTS}}. Like in the animated series, she is a traveling companion of {{Ash}} alongside {{an|Brock}}.
+
+===The Electric Tale of Pikachu===
+{{main|Misty (anime)#In The Electric Tale of Pikachu manga|Misty (anime) → In The Electric Tale of Pikachu manga}}
+Misty appears in [[The Electric Tale of Pikachu]], a manga adaptation of {{aniseries|OS}}.
+
+Unlike in the animated series, she does not travel with {{OBP|Ash Ketchum|EToP|Ash}} and {{an|Brock}} constantly, though she does make many appearances.
+
+===Magical Pokémon Journey===
+{{main|Misty (anime)#In the Magical Pokémon Journey manga|Misty (anime) → In the Magical Pokémon Journey manga}}
+Misty, along with {{Ash}} and {{an|Brock}}, make cameo appearances in bonus chapters of [[Magical Pokémon Journey]].
+
+===Pokémon Adventures===
+[[File:Brock Misty Erika Blaine Adventures.png|left|thumb|251x251px|Misty's (left) current appearance in Pokémon Adventures]]
+
+====History====
+====={{MangaArc|Red, Green & Blue}}=====
+Misty debuts in ''[[PS006|Gyarados Splashes In!]]'', where {{adv|Red}} saves her from her enraged {{TP|Misty|Gyarados}}, which has been experimented on by [[Team Rocket]]. After they recapture the Pokémon, Red and Misty join forces to defeat Team Rocket and find the [[Moon Stone]] at [[Mt. Moon]]. During the battle, Misty is knocked out by a {{tc|Team Rocket Grunt}}'s {{p|Rhydon}}.
+
+As is shown in ''[[PS008|Suddenly Starmie]]'', she lives in a large mansion and has a horde of maids that look after her. Here she defeats Red in the [[Cerulean Gym]] and trains with him for a couple of days to make them both stronger. At the end of this chapter, she gives Red the {{Badge|Cascade}}.
+
+[[File:Misty Dressed up.png|thumb|200px|Misty dressed up]]
+Later, Red wants to teach his Pokémon {{m|Surf}}, but the [[HM]] he tries to acquire is destroyed in a battle with a wild {{p|Dragonite}}. Misty saves Red from drowning; he at first, mistakes her for a mermaid. As Red's one hope of teaching his Pokémon Surf has been utterly demolished, Misty [[trade]]s Red her Gyarados for his Krabby. They have each other's Pokémon in their respective [[party|parties]] to this day.
+
+====={{MangaArc|Yellow}}=====
+She is seen talking with {{adv|Professor Oak}} about Red's disappearance and worries about him, especially after hearing that Oak gave Red's Pokédex and [[Pika]] to {{adv|Yellow}}, who she considered a random stranger. She was then seen teaming up with the other 'good' Gym Leaders of Kanto to thwart {{tc|Super Nerd}} {{adv|Miles}}, then possessed by Agatha's Gastly and attempting to retrieve Pika. After the event, she meets Yellow for the first time and gives her an {{p|Omanyte}}. She was also seen being stalled by Agatha, who forced Cerulean under attack by a group of Gastly and Haunter. They finally retrieve what they were after all along, her Gym Badge. Misty had her Starmie go to [[Cerise Island]] and give the message to the others.
+
+====={{MangaArc|Gold, Silver & Crystal}}=====
+Unlike in the animated series, Misty has changed her hairstyle later on to match the one worn by her in {{game|Gold and Silver|s}}. During the second Team Rocket crisis, {{DL|Legendary beasts (Adventures)|Suicune}} lured Misty into a battle underneath [[Tohjo Falls]] and later offered to be her partner. The recruitment somehow gave her strength and confidence, as she was able to easily defeat [[Whitney]] in her {{wp|exhibition game|exhibition match}} at the Indigo Plateau. However, she later becomes injured in the battle with the [[Masked Man]], and Suicune goes on to take {{adv|Crystal}} as its second partner for the battle's climax.
+
+In ''[[PS180|The Last Battle XIV]]'', Misty decides to report to [[Erika]] via her [[Pokégear]]. Since Erika lent her Pokégear earlier to Red, Red ends up being the one who receives the call. Misty's feelings for Red couple with Yellow noticing that Red is talking to Misty creates an awkward tension in the air. Green, fully aware of the tension between them, smugly declares that the three should simply all live together, much to their embarrassment.
+{{-}}
+
+====Pokémon====
+=====On hand=====
+This listing is of Misty's Pokémon in the Pokémon Adventures manga.
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Staryu
+|type1=Water
+|img=Misty Staryu Adventures.png
+|epnum=PS006
+|epname=Gyarados Splashes In!
+|desc=Staryu was the first Pokémon of Misty's seen. It was used quite often by her, most notably against her rampaging [[Gyara]]dos and [[Koga]]'s {{p|Rhydon}}.}}
+
+{{anchor|Starmie 2}}{{TrainerPoké
+|trainer=Misty
+|main=yes
+|pkmn=Starmie
+|type1=Water
+|type2=Psychic
+|img=Misty Starmie Adventures.png
+|epnum=PS008
+|epname=Suddenly Starmie
+|desc={{p|Starmie}} is one of Misty's main Pokémon. It was first seen when Misty trained with {{adv|Red}} to become stronger so that they could fight against [[Team Rocket]] more easily. In the {{MangaArc|Yellow}}, it was used to defend Cerulean City from the [[Elite Four]]'s {{type|Ghost}} Pokémon army. Starmie was also used in the [[Gym Leader]] tournament in the {{MangaArc|Gold, Silver & Crystal}}, where it easily defeated [[Whitney's Miltank]], Mil Mil. It can use an ancient star language to write messages in mid-air, which comes in handy when Misty needs to send a message across a long-distance or when a Pokémon needs to tell Misty something.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Krabby
+|gender=female
+|type1=Water
+|img=Misty Krabby Adventures.png
+|epnum=PS018
+|epname=A Tale of Ninetales
+|desc=Krabby (Japanese: '''クラちゃん''' ''Kura-chan'') was originally owned by {{adv|Red}} but Misty traded her [[Gyara]]dos for her in ''[[PS025|You Know...Articuno!]]''. Krabby was used often by Misty, most notably when she was fighting to defend [[Cerulean City]] from the [[Elite Four]]'s {{type|Ghost}} Pokémon army.
+
+Krabby's known moves are {{m|Vise Grip}}, {{m|Crabhammer}}, and {{m|Guillotine}}.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Goldeen
+|type1=Water
+|img=Misty Goldeen Adventures.png
+|epnum=PS066
+|epname=Punching Poliwrath
+|desc={{p|Goldeen}} was only seen during the [[Elite Four]]'s attack on [[Kanto]]. It was used by Misty to defend her city from [[Agatha]]'s Ghost Pokémon army.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Chinchou
+|gender=female
+|type1=Water
+|type2=Electric
+|img=Misty Chinchou Adventures.png
+|epnum=PS150
+|epname=Chinchou in Charge
+|desc={{p|Chinchou}} (Japanese: '''チーちゃん''' ''Cho-chan'') was used by Misty to light up the [[Tohjo Falls]] when she fell into a cave while saving a wild Krabby.
+
+Chinchou's only known move is {{m|Flash}}, and her Ability is {{a|Illuminate}}.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Lanturn
+|gender=female
+|type1=Water
+|type2=Electric
+|img=Misty Lanturn Adventures.png
+|epnum=PS151
+|epname=Lovely Lanturn
+|desc={{p|Lanturn}} (Japanese: '''ランちゃん''' ''Lan-chan'') was used by Misty to fight {{DL|Legendary beasts (Adventures)|Suicune}} at the [[Tohjo Falls]]. Her quick movements and powerful attacks allowed her to do well against the [[Legendary Pokémon]].
+
+Lanturn's known moves are {{m|Hydro Pump}} and {{m|Waterfall}}.}}
+
+=====Formerly owned=====
+This listing is of Misty's previously owned Pokémon in the Pokémon Adventures manga.
+======Traded away======
+{{TrainerPoké
+|main=Gyara
+|trainer=Misty
+|pkmn=Gyarados
+|gender=male
+|type1=Water
+|type2=Flying
+|img=Misty Gyarados Adventures.png
+|epnum=PS006
+|epname=Gyarados Splashes In!
+|desc={{p|Gyarados}} was given to Misty after Red recaught him when he was very fierce following [[Team Rocket]]'s experiments on him. Later, Misty traded him for Red's Krabby when he could not teach any of his Pokémon {{m|Surf}} to get to the [[Seafoam Islands]].}}
+
+======Given away======
+{{TrainerPoké
+|main=Omny
+|trainer=Misty
+|pkmn=Omanyte
+|gender=male
+|type1=Rock
+|type2=Water
+|img=Misty Omanyte Adventures.png
+|epnum=PS049
+|epname=As Gastly as Before
+|desc=[[Yellow (Adventures)#Omny|Omanyte]] was one of the Pokémon given to Yellow along with [[Yellow (Adventures)#Gravvy|Brock's Graveler]] as a parting gift for their training session. Yellow then nicknamed him Omny, and he has since evolved into an {{p|Omastar}}. He has a Docile nature.}}
+
+======Released======
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Suicune
+|type1=Water
+|img=Misty Suicune Adventures.png
+|epnum=PS117
+|epname=Slugging It Out with Slugma
+|main=Legendary beasts (Adventures)
+|main_section=Suicune
+|desc=Misty successfully caught this {{p|Suicune}} with the help of her Lanturn, as it longed for a Trainer that would help combat the [[Masked Man]]. However, it wasn't long until Misty's injuries from the fight with the mastermind forced it to partner with {{adv|Crystal}} and leave her.}}
+
+===Pocket Monsters HGSS Jō's Big Adventure===
+[[File:Kanto Gym Leaders JBA.png|thumb|200px|Misty in Pocket Monsters HGSS Jō's Big Adventure]]
+Misty appeared as a silhouette in [[JBA5]] alongside her {{TP|Misty|Starmie}} and the other Kanto Gym Leaders.
+
+====Pokémon====
+This is a listing of Misty's known Pokémon in the Pocket Monsters HGSS Jō's Big Adventure manga:
+
+{{anchor|Starmie 3}}{{TrainerPoké
+|trainer=Misty
+|pkmn=Starmie
+|main=yes
+|img=Kanto Gym Leaders JBA.png
+|width=74
+|type1=Water
+|type2=Psychic
+|epnum=JBA5
+|desc={{p|Starmie}} is Misty's only known Pokémon. It only appeared as a silhouette.}}
+{{-}}
+
+===Pokémon Pocket Monsters===
+[[File:Misty PM.png|thumb|150px|Misty in the Pokémon Pocket Monsters manga]]
+[[File:Brock Misty PMRS.png|thumb|left|150px|Misty in the Pokémon Ruby-Sapphire manga]]
+{{PPM|Red}} meets Misty while seeking a [[Moon Stone]] along with his Pikachu and his Clefairy. During the meeting, Clefairy notices that she is wearing a Moon Stone as a necklace. She declares that they battle her if they wish to have it. While the Clefairy is initially pumped up to battle, he quickly changes his mind when he sees that his opponent is a massive {{p|Blastoise}}. After a while, the battle is won when Clefairy sucks up all the water in a nearby river and releases the water onto Misty's Pokémon, sending it flying into the sky. Just when Misty is about to reward Red's group with the prize they sought, it gets stolen by someone else.
+
+She is seen again when Red participates in the No. 1 Pokémon contest acting as a judge and when he went to a swimming pool.
+
+Misty lent him her {{TP|Misty|Togepi}} while in the Pokémon League as Red needed extra support to defeat Green.
+
+Misty reappears in a cameo in ''[[PMRSs1|Clefairy, Form Teacher Of Class 1P!!]]'', where she is seen wearing her outfit from {{game|FireRed and LeafGreen|s}}.
+
+====Pokémon====
+{{TrainerPoké
+|trainer=Misty
+|width=80
+|pkmn=Blastoise
+|type1=Water
+|img=Misty Blastoise PM.png
+|epnum=PM004
+|epname=Receive The Moon Stone!!
+|desc={{p|Blastoise}} is the first Pokémon seen in Misty's possession. She sent it out as {{TP|Red|Clefairy}}'s opponent. He defeated Blastoise when he sucked all of the water from a nearby river and unleashed all of the river water on it.
+
+None of Blastoise's moves are known.}}
+
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Jigglypuff
+|type1=Normal
+|img=Misty Jigglypuff PM.png
+|epnum=PM022
+|epname=Part-Time Job at the Swimming Pool!!
+|desc={{p|Jigglypuff}} is another known Pokémon of Misty's that was first seen with her when Red went to the swimming pool.
+
+None of Jigglypuff's moves are known.}}
+
+{{TrainerPoké
+|main=yes
+|trainer=Misty
+|pkmn=Togepi
+|type1=Normal
+|img=Misty Togepi PM.png
+|epnum=PM055
+|epname=The Pokémon Banana League (Part 2)
+|desc=Misty gave Togepi to Red temporarily and he returned it back to her later on.}}
+
+===Pokémon Zensho===
+[[File:Misty Zensho.png|thumb|130px|Misty in Pokémon Zensho]]
+[[File:Young Misty Zensho.png|thumb|left|180px|A young Misty]]
+When {{Zensho|Satoshi}} arrives at the [[Cerulean Gym]] in [[PZ03]], he is given a pair of swimming trunks as that is all that is allowed inside the pool arena. Misty appears soon after, [[PokéShipping|prompting a blush from him]]. Soon after, during the battle, he sends out his {{TP|Satoshi|Charmander|Charmander (Zensho)}}, which is afraid of going near the water since the flame on its tail might go out. His Pikachu is sent next, but having no idea of what to do around the water, it falls in. As he attempts to save his Pokémon, Satoshi gets a cramp and nearly drowns, but Misty manages to rescue him.
+
+Later on, as Satoshi and Pikachu dry themselves off, Misty suggests that she teach them how to properly move around in the water, so they can stand a better chance next time. He trains along with Pikachu, who floats on a lifesaver. Misty attempts to take the device away from the mouse, only to see that it is clinging to it. Eventually, Satoshi and Pikachu end up improving. As Satoshi sits around with a {{p|Seel}}, Misty relays a story over how a {{p|Dewgong}} rescued her once when a large wave swept her underwater at the beach. Due to that experience, she feels gratitude toward the Pokémon.
+
+After Satoshi thwarts an attack by a {{tc|Team Rocket Grunt}}, she awards him with the {{Badge|Cascade}} and her Seel, telling him that she hopes to meet the Dewgong that rescued her someday.
+
+====Pokémon====
+=====On hand=====
+{{anchor|Starmie 4}}{{TrainerPoké
+|width=82
+|main=yes
+|trainer=Misty
+|pkmn=Starmie
+|type1=Water
+|type2=Psychic
+|img=Misty Starmie Zensho.png
+|epnum=PZ03
+|epname=Cerulean City
+|desc={{p|Starmie}} was sent out for Satoshi's second Gym battle challenge. However, it could not battle as Satoshi had trouble dealing with water and the battle was officially called off.}}
+
+=====In the Gym=====
+{{TrainerPoké
+|trainer=Misty
+|pkmn=Gym Pokémon
+|type1=Water
+|type2=Psychic
+|img=Misty Gym Pokémon Zensho.png
+|img2=Misty Gym Pokémon 2 Zensho.png
+|epnum=PZ03
+|epname=Cerulean City
+|desc=Misty was shown to have a {{TP|Misty|Staryu}}, {{p|Shellder}}, {{TP|Misty|Goldeen}}, {{TP|Misty|Horsea}}, {{TP|Misty|Magikarp}}, {{p|Seaking}}, and {{p|Tentacool}} in her Gym.
+
+None of the Gym Pokémon's moves are known.}}
+
+=====Given away=====
+{{TrainerPoké
+|trainer=Satoshi
+|pkmn=Seel
+|type1=Water
+|img=Satoshi Seel Zensho.png
+|epnum=PZ03
+|epname=Cerulean City
+|desc={{p|Seel}} was given to Satoshi as a gift for mastering his swim lessons. This Seel reminded her of a Dewgong that rescued her once when a large wave swept her underwater at the beach. As a result, she wanted to see that Dewgong again.
+
+None of Seel's moves are known.}}
+
+==In the TCG==
+===Cards===
+''For the full list of cards featuring Misty or her Pokémon, see [[:Category:Misty (TCG)]]''
+[[File:HanadaCityGymDeck.jpg|200px|right|thumb|Hanada City Gym deck box]]
+
+Misty first appeared in the [[Pokémon Trading Card Game]] with the release of the Japanese {{TCG|Hanada City Gym}} deck on April 26, 1998. The deck is built around Misty and {{TCG|Owner's Pokémon|her Pokémon}}, including the eponymous {{TCG ID|Gym Heroes|Misty|18}}, {{TCG ID|Gym Heroes|Misty's Wrath|114}}, {{TCG ID|Gym Heroes|Misty's Duel|123}}, and {{TCG ID|Gym Challenge|Misty's Tears|118}} Trainer cards. The {{TCG|Leaders' Stadium}} expansion released shortly afterwards would add more of Misty's Pokémon and another Trainer card, {{TCG ID|Gym Challenge|Misty's Wish|108}}. These cards would see international release in the {{TCG|Gym Heroes}} and {{TCG|Gym Challenge}} expansions, with the former including a {{TCG|Misty}} {{TCG|Theme Deck}}.
+
+The {{OBP|Riding on Lapras|single}} CD released August 21, 1999 included a special promo card of {{TCG ID|CD|Misty's Treatment|promo}}, as Misty's voice actor performed the song. Misty would next be featured in the TCG with two more of her Pokémon being released in the {{TCG|Pokémon VS}} expansion. The {{TCG|Theater Limited VS Pack}} including {{TCG ID|Theater VS Pack|Misty's Politoed|3}} and {{TCG ID|Theater VS Pack|Misty's Corsola|4}} would be Misty's last appearance in the TCG for 13 years.
+
+[[File:MistyDeterminationEvolutions108.jpg|200px|left|thumb|Misty's Determination {{TCG|Full Art card|Full Art}} print]]
+Misty would return to the TCG during the XY Series in the {{TCG|BREAKpoint}} expansion (the {{TCG|Golduck BREAK + Palkia-EX Combo Deck}} in Japan) in a cameo in {{TCG ID|BREAKpoint|Lapras|28}}'s artwork and the {{TCG ID|BREAKpoint|Misty's Determination|104}} {{TCG|Supporter card}}. A print of {{TCG ID|XY Promo|Gym Badge|208}} featuring Misty and the {{badge|Cascade}} would also be a prize at official tournaments near the end of the XY Series.
+
+The Sun & Moon Series added another Supporter card, {{TCG ID|Unified Minds|Misty's Favor|202}}, in the international {{TCG|Unified Minds}} and Japanese {{TCG|Miracle Twin}} expansions. Another Japanese deck was then built around Misty: the {{TCG|Trainer Battle Decks|Misty of Cerulean City Gym Trainer Battle Deck}}. While the Pokémon within lacked her name from their titles, Misty was named in two new cards, {{TCG ID|Hidden Fates|Misty's Water Command|63}} and {{TCG ID|Hidden Fates|Misty's Cerulean City Gym|61}}. These cards saw international release in the {{TCG|Hidden Fates}} expansion. At the end of the Series, Misty was featured alongside [[Lorelei]] in the {{TCG|TAG TEAM}} Supporter card {{TCG ID|Cosmic Eclipse|Misty & Lorelei|199}} in the {{TCG|Cosmic Eclipse}} and {{TCG|Tag All Stars}} expansions.
+
+Misty's next appearance was in the artwork for {{TCG|Astral Radiance}} [[Starmie V (Astral Radiance TG13)|Starmie]]{{TCGV}}.
+
+===Merchandise===
+[[File:Misty Cerulean City Gym Trainer Battle Deck Contents.jpg|200px|right|thumb|Contents of the Misty of Cerulean City Gym Trainer Battle Deck]]
+The {{TCG|Hanada City Gym}} and {{TCG|Misty}} Theme Decks prominently featured her on the box.
+
+In Japan, a set of card sleeves featuring Misty and her {{TP|Misty|Psyduck}} were released alongside the special [[Pokémon 20th Anniversary]] set, the {{TCG|Expansion Pack 20th Anniversary}}.
+
+Like the first deck, the Misty of Cerulean City Gym Trainer Battle Deck features Misty on the box, as well as the card sleeves, deckbox, {{TCG|coin}}, and playmat. A rubber playmat sold separately also uses this artwork, along with her {{TP|Misty|Starmie}}.
+
+A set of card sleeves featuring Misty, her Starmie, and her {{TP|Misty|Politoed}} was available in Japan the same day as the Battle Region subset.
+
+==In the TFG==
+{{TFG ID|Next Quest|Misty|40}} appears as a rare {{TFG|Trainer figure}} in the launch set, {{TFG|Next Quest}}, of the [[Pokémon Trading Figure Game]].
+
+==Other appearances==
+===[[Super Smash Bros. Melee]]===
+Misty appears as a random trophy, wearing her outfit from {{aniseries|PTS}}.
+
+====Trophy information====
+''Misty's the gym leader of Cerulean City and a real tomboy. She loves swimming and all things aquatic, so she makes a point of collecting Starmie, Staryu, and other Water-type Pokémon. This is common among gym leaders: typically, the Pokémon kept by Trainers tend to reflect that person's personality and preferences.''
+
+==Gallery==
+===Artwork===
+{|style="margin:auto; text-align:center; border:3px solid #{{water color dark}}; background:#{{water color}}; font-size:80%; border-radius: 10px"
+|-
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:RG Misty.png|x150px]]
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Red Blue Misty.png|x200px]]
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Yellow Misty.png|x200px]]
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:FireRed LeafGreen Misty.png|x200px]]
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:HeartGold SoulSilver Misty.png|x200px]]
+|-
+| Headshot from<br>{{color2|000|Pokémon Red and Green Versions|Red and Green}}
+| Artwork from<br>{{color2|000|Pokémon Red and Blue Versions|Red and Blue}}
+| Artwork from<br>{{color2|000|Pokémon Yellow|Yellow}} by {{color2|000|Ken Sugimori}}<ref>[[a:File:MistyGymHeroes18.jpg|Misty (Gym Heroes 18)]] and [[a:File:MistyDeterminationEvolutions80.jpg|Misty's Determination (Evolutions 80)]]</ref>
+| Artwork from<br>{{color2|000|Pokémon FireRed and LeafGreen Versions|FireRed and LeafGreen}}
+| Artwork from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}} by {{color2|000|Ken Sugimori}}<ref>[[a:File:MistyDeterminationBREAKpoint104.jpg|Misty's Determination (BREAKpoint 104)]]</ref>
+|-
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Game Freak Misty Togepi.jpg|150px]]
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Game Freak Misty.jpg|200px]]
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Game Freak Misty and Psyduck.jpg|200px]]
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Game Freak Misty and Tentacruel.jpg|200px]]
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Misty Card Sleeve Naoki Sato.jpg|200px]]
+|-
+| Artwork from<br>the {{color2|000|Game Freak}} website
+| Artwork from<br>the {{color2|000|Game Freak}} website
+| Artwork from<br>the {{color2|000|Game Freak}} website
+| Artwork from<br>the {{color2|000|Game Freak}} website
+| Artwork from a TCG Card Sleeve by {{color2|000|Naoki Saito}}
+|-
+| colspan=3 style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Misty LGPE concept art.jpg|350px]]
+| colspan=2 style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:MistyGeneticApex220 artwork.png|375px]]
+|-
+| colspan=3 | Concept art from<br>{{color2|000|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!}}
+| colspan=3 | Artwork of {{color2|000|Misty (Genetic Apex 220)|Misty}} from {{color2|000|Pokémon Trading Card Game Pocket|TCG Pocket}} by {{color2|000|Sanosuke Sakuma}}
+|}
+
+===Sprites and models===
+====In the [[core series]]====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color}}; font-size:80%;"
+|-
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Spr RG Misty.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Spr Y Misty.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Spr GS Misty.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Spr FRLG Misty.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Spr HGSS Misty.png]]
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:VSMisty.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Spr B2W2 Misty.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:VSMisty PE.png|x100px]]
+|-
+| Sprite from<br>{{color2|000|Pokémon Red and Blue Versions|Red and Blue}}
+| Sprite from<br>{{color2|000|Pokémon Yellow Version|Yellow}}
+| Sprite from<br>{{color2|000|Generation II}}
+| Sprite from<br>{{color2|000|Pokémon FireRed and LeafGreen Versions|FireRed and LeafGreen}}
+| Sprite from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| VS sprite from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| Sprite from<br>{{color2|000|Pokémon Black and White Versions 2|Black 2 and White 2}}
+| VS model from<br>{{color2|000|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu!<br>and Let's Go, Eevee!}}
+|-
+|colspan=2 style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Misty I OD.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Misty II OD.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Misty III OD.png]]
+|colspan=2 style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Misty IV OD.png]]
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:80px"| [[File:Misty OD.png]]
+|style="{{roundy|40px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:80px"| [[File:ODMisty PE.png|40px]] 
+|-
+| colspan=2 | Overworld sprite from<br>{{color2|000|Generation I}}
+| Overworld sprite from<br>{{color2|000|Generation II}}
+| Overworld sprite from<br>{{color2|000|Pokémon FireRed and LeafGreen Versions|FireRed and LeafGreen}}
+| colspan=2 | Overworld sprite from<br>{{color2|000|Pokémon HeartGold and SoulSilver Versions|HeartGold and SoulSilver}}
+| Overworld sprite from<br>{{color2|000|Pokémon Black and White Versions 2|Black 2 and White 2}}
+| Overworld model from<br>{{color2|000|Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!|Let's Go, Pikachu! and Let's Go, Eevee!}}
+|}
+
+====In other games====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color}}; font-size:80%"
+|-
+|style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:80px" | [[File:Misty Stadium.png]]
+| style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:190px" | [[File:S2 Gym Leader Misty.png]][[File:S2 Gym Leader Misty alt.png]][[File:S2 Gym Leader Misty alt2.png]]
+|style="{{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color light}}; width:80px" | [[File:Misty Ra OD.png]]
+|-
+| Portrait from<br>{{color2|000|Pokémon Stadium|Stadium}}
+| Portraits from<br>{{color2|000|Pokémon Stadium 2|Stadium 2}}
+| Unused sprite<br>from {{color2|000|Pokémon Ranger (video game)|Ranger}}
+|}
+
+===TCG Artwork===
+{|style="margin:auto; text-align:center; border:3px solid #{{tcg water color dark}}; background:#{{tcg water color}}; font-size:80%; border-radius: 10px"
+|-
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:MistyTrainer.jpg|150px]]
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:Misty TCG.jpg|150px]]
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:Misty Duel TCG.jpg|150px]]
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:Misty Request TCG.jpg|150px]]
+|-
+| Misty and the Cascade Badge
+| Misty and the Cascade Badge
+| Misty and {{color2|000|Misty's Horsea|her Horsea}}
+| Misty showing affection
+|-
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:Art Life 20240214 Misty Wrath.jpg|150px]]
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:Misty Tears TCG.jpg|150px]]
+| style="border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}" | [[File:Sabrinas-Psychic-Control.jpg|150px]]
+|style="{{roundy|20px}} border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}; width:80px"| [[File:MistyVS.png|150px]]
+|-
+| Misty and {{color2|000|Misty's Psyduck|her Psyduck}}
+| Misty and {{color2|000|Misty's Staryu|her Staryu}}
+| {{color2|000|Sabrina}} controls Misty and her Psyduck
+| Misty's updated {{color2|000|Pokémon VS (TCG)|VS}} art
+|-
+| style="{{roundy|20px}} border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}; overflow:hidden;" | [[File:Art Life 20230526 Lapras.jpg|150px]]
+| style="{{roundy|20px}} border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}; overflow:hidden;" | [[File:Art Life 20240214 Misty Water Command.jpg|150px]]
+| style="{{roundy|20px}} border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}; overflow:hidden;" | [[File:Misty's Favor Hideki Ishikawa.jpg|170px]]
+| style="{{roundy|20px}} border:2px solid #{{tcg water color dark}}; background:#{{tcg water color light}}; overflow:hidden;" | [[File:Misty's Favor Full Art Hideki Ishikawa .jpg|110px]]
+|-
+|{{color2|000|Lapras (BREAKpoint 28)|Lapras}}<br>from the {{color2|000|BREAKpoint (TCG)|BREAKpoint}} expansion<br>by {{color2|000|kirisAki}}
+|{{color2|000|Misty's Water Command (Hidden Fates 63)|Misty's Water Command}}<br>from the {{color2|000|Hidden Fates (TCG)|Hidden Fates}} expansion by<br>{{color2|000|TOKIYA}}
+|colspan=2|{{color2|000|Misty's Favor (Unified Minds 202)|Misty's Favor}} from the {{color2|000|Unified Minds (TCG)|Unified Minds}} expansion by {{color2|000|Hideki Ishikawa}}
+|}
+
+==Trivia==
+* Misty's Japanese [[Gym Leader|Leader]] title is おてんば{{tt|人魚|にんぎょ}} ''The Tomboyish Mermaid''.
+* In {{game|Yellow}}, Misty calls {{ga|Red}} a "sweetie" right before the {{pkmn|battle}}, in the sentence "''Are you ready, sweetie?''". In the original Japanese version, she uses her catchphrase from the {{pkmn|animated series}} instead ('''いくわよ！マーイステディ！''' ''Go! My Steady!'').
+**Also in this game, her [[level]] 21 [[Misty's Starmie|Starmie]] knows {{m|Harden}}; however, {{p|Staryu}} can't learn the move until level 22 in that generation. While Starmie learns the [[move]] at level 1, there is no legitimate way to find Starmie in the wild.
+
+==Names==
+{| class="roundtable" style="background:#{{water color}}; border:3px solid #{{water color dark}}"
+|-
+! style="background:#{{water color light}}" | Language
+! style="background:#{{water color light}}" | Name
+! style="background:#{{water color light}}" | Origin
+|-
+| Japanese
+| カスミ ''Kasumi''
+| From 霞草 ''kasumi-sō'' ({{wp|Gypsophila|baby's breath}}), 霞 ''kasumi'' (mist),<ref name=PockemonJournal/> and possibly 海 ''umi'' (sea)
+|-
+| English, German, European Spanish,<br>Latin American Spanish, Italian,<br>Catalan, Hindi, Malay, Dutch, Norwegian,<br>Brazilian Portuguese, Swedish, Tamil,<br>Telugu, Turkish
+| Misty
+| From ''mist''<ref name=PockemonJournal>(January 1999). [https://web.archive.org/web/19990221135156/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM GAME FREAK | POCKEMON JOURNAL] (archive)</ref>
+|-
+| French
+| Ondine
+| From ''ondine'' ({{wp|undine}}), elemental beings associated with water in European folklore
+|-
+| rowspan="2" | Korean
+| 이슬 ''Iseul''
+| From 이슬 ''iseul'' (dew)
+|-
+| 최이슬 ''Choi Iseul''<ref group=n>[[Pokémon animated series]]</ref>
+| From 이슬 ''iseul'' (dew) and the surname 최 (崔) ''{{wp|Choi (Korean surname)|Choi}}''
+|-
+| Chinese (Traditional)
+| 小霞 ''Xiǎo Xiá'' / ''Síu Hàh''
+| rowspan="2" | From an orthographic borrowing of Japanese 霞 ''kasumi'' (mist), 霞 ''xiá / hàh'' ({{wp|Afterglow|rosy clouds}}), and the {{wp|diminutive}} prefix 小 ''xiǎo / síu''
+|-
+| Chinese (Simplified)
+| 小霞 ''Xiǎo Xiá''
+|-
+| Bulgarian, Russian, Serbian
+| Мисти ''Misti''
+| Transcription of her English name
+|-
+| Croatian
+| Misti
+| From her English name
+|-
+| Indonesian
+| Kasumi<ref group=n>[[Pokémon Trading Card Game|Pokémon TCG]], Pokémon animated series ([[Original series|Pokémon the Series: Gold and Silver]] onwards)</ref><br>Misty<ref group=n>Pokémon animated series ([[Original series|Pokémon the Series: The Beginning]])</ref>
+| Transcription of her Japanese name<br>Same as her English name
+|-
+| Thai
+| คาซุมิ ''Khasumi''<ref group=n>[[Generation IX]] onwards</ref><br>คาสึมิ ''Khasuemi''
+| Transcription of her Japanese name
+|-
+| Vietnamese
+| Kasumi
+| Transcription of her Japanese name
+|}
+{{-}}
+
+===Misty's Pokémon===
+{{main|Misty's Staryu#Names|Misty's Staryu → Names}}
+{{main|Misty's Starmie#Names|Misty's Starmie → Names}}
+
+''Krabby''
+{| class="roundtable" style="background:#{{water color}}; border:3px solid #{{water color dark}}"
+|-
+! style="background:#{{water color light}}" | Language
+! style="background:#{{water color light}}" | Name
+! style="background:#{{water color light}}" | Origin
+|-
+| Japanese
+| クラちゃん ''Kura-chan''
+| From クラブ ''Crab'' (Krabby)
+|-
+| Brazilian Portuguese
+| Krabbinho<ref group=n>[[Pokémon Adventures]] ([[PS077]])</ref><br>Krabinho<ref group=n>Pokémon Adventures ([[PS025]])</ref><br>Krab<ref group=n>Pokémon Adventures ([[PS019]])</ref>
+| From ''Krabby'' and the diminutive suffix ''-inho''
+|-
+| Vietnamese
+| Bé Kura
+| From the transcription of its Japanese name and the diminutive prefix ''bé''
+|}
+{{-}}
+
+''Chinchou''
+{| class="roundtable" style="background:#{{water color}}; border:3px solid #{{water color dark}}"
+|-
+! style="background:#{{electric color light}}" | Language
+! style="background:#{{electric color light}}" | Name
+! style="background:#{{electric color light}}" | Origin
+|-
+| Japanese
+| チーちゃん ''Chie-chan''
+| From チョンチー ''Chonchie'' (Chinchou)
+|-
+| Brazilian Portuguese
+| Chinzinho
+| From ''Chinchou'' and the diminutive suffix ''-zinho''
+|-
+| Vietnamese
+| Bé Chii
+| From the transcription of its Japanese name and the diminutive prefix ''bé''
+|}
+{{-}}
+
+''Lanturn''
+{| class="roundtable" style="background:#{{water color}}; border:3px solid #{{water color dark}}"
+|-
+! style="background:#{{electric color light}}" | Language
+! style="background:#{{electric color light}}" | Name
+! style="background:#{{electric color light}}" | Origin
+|-
+| Japanese
+| ランちゃん ''Lan-chan''
+| From ランターン ''Lantern'' (Lanturn)
+|-
+| Brazilian Portuguese
+| Lantinha
+| From ''Lanturn'' and the feminine diminutive suffix ''-inha''
+|-
+| Vietnamese
+| Bé Ran
+| From the transcription of its Japanese name and the diminutive prefix ''bé''
+|}
+{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==External links==
+*{{wp|Misty (Pokémon)|Article on Wikipedia}}
+
+==References==
+{{reflist}}
+
+{{Gym Leaders of Kanto}}
+{{Misty's Pokémon}}
+{{Project CharacterDex notice}}
+
+[[Category:Manga characters]]
+[[Category:Pokémon Adventures characters]]
+[[Category:Pokémon Origins characters]]
+[[Category:Red, Blue and Yellow characters]]
+[[Category:Gold, Silver and Crystal characters]]
+[[Category:FireRed and LeafGreen characters]]
+[[Category:HeartGold and SoulSilver characters]]
+[[Category:Black 2 and White 2 characters]]
+[[Category:Let's Go, Pikachu! and Let's Go, Eevee! characters]]
+[[Category:Stadium characters]]
+[[Category:Stadium 2 characters]]
+[[Category:Gym Leaders]]
+[[Category:Water-type Trainers]]
+[[Category:Trainers with Legendary Pokémon]]
+[[Category:Pokémon Zensho characters]]
+[[Category:Super Smash Bros. trophies]]
+
+[[de:Misty]]
+[[es:Misty]]
+[[fr:Ondine]]
+[[it:Misty]]
+[[ja:カスミ]]
+[[zh:小霞]]

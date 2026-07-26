@@ -1,0 +1,34 @@
+'''Red''' ('''レッド''') has several referrals.
+__NOTOC__
+==Games==
+* For the Japanese [[Generation I]] [[core series]] {{pkmn|games|game}}, see '''[[Pokémon Red and Green Versions]]'''.
+** For the Western Generation I core series game, see '''[[Pokémon Red and Blue Versions]]'''.
+* For the [[Generation III]] core series game, see '''[[Pokémon FireRed and LeafGreen Versions]]'''.
+* For the [[Pokémon Mystery Dungeon series|Pokémon Mystery Dungeon]] game, see '''[[Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team]]'''.
+
+==Manga==
+* For the [[Pokémon Adventures]] manga chapter based on the Generation I games, see '''{{MangaArc|Red, Green & Blue}}'''.
+* For the Pokémon Adventures manga chapter based on the Generation III games, see '''{{MangaArc|FireRed & LeafGreen}}'''.
+
+==Characters==
+* For the protagonist of the aforementioned games, see '''[[Red (game)]]'''.
+** For the {{aniseries|PTS}} counterpart of Red, see '''[[Ash Ketchum]]'''.
+** For the  [[Pokémon Adventures]] manga character, see '''[[Red (Adventures)]]'''.
+** For his [[Pokémon Masters EX]] counterpart, see '''[[Red (Masters)]]'''.
+** For the [[Pokémon Pocket Monsters]] manga character, see '''[[Red (Pocket Monsters)]]'''.
+** For the [[Pokémon Ruby-Sapphire]] manga character, see '''[[Red (Ruby-Sapphire)]]'''.
+** For the [[Pokémon Origins]] character, see '''[[Red (Origins)]]'''.
+** For the [[Pokémon Trading Figure Game|TFG]] {{TFG|Trainer figure|figures}} based on Red, see '''{{TFG ID|Next Quest|Red|42}}''', '''{{TFG ID|Groundbreakers|Green|39}}''', and '''{{TFG ID|Unnamed Third Set|Yellow|42}}'''.
+
+==Others==
+* For the episode of [[Pokémon Origins]] ''File 1: Red'', see '''[[PO01]]'''.
+* For the [[Pokédex]] [[List of Pokémon by color|color group]], see '''[[List of Pokémon by color#Red|List of Pokémon by color → Red]]'''.
+
+{{disambig}}
+
+[[de:Rot]]
+[[es:Rojo]]
+[[fr:Rouge]]
+[[it:Rosso]]
+[[ja:レッド (曖昧さ回避)]]
+[[zh:红]]

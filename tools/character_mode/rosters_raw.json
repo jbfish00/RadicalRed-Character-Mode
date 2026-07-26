@@ -56,6 +56,17 @@
    "Type: Null"
   ]
  },
+ "Adaman": {
+  "category": "rival",
+  "gen": 8,
+  "page": "Adaman",
+  "species": [
+   "Eevee",
+   "Leafeon",
+   "Umbreon",
+   "Vaporeon"
+  ]
+ },
  "Agatha": {
   "category": "elite4",
   "gen": 1,
@@ -82,6 +93,20 @@
    "Scyther",
    "Venusaur",
    "Weezing"
+  ]
+ },
+ "Akari": {
+  "category": "protagonist",
+  "gen": 8,
+  "page": "Akari (game)",
+  "species": [
+   "Clefairy",
+   "Empoleon",
+   "Infernape",
+   "Mr. Mime",
+   "Pikachu",
+   "Staraptor",
+   "Torterra"
   ]
  },
  "Alain": {
@@ -240,6 +265,27 @@
    "Sharpedo",
    "Tentacruel",
    "Walrein"
+  ]
+ },
+ "Arezu": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Arezu",
+  "species": [
+   "Bronzor",
+   "Hisuian Lilligant",
+   "Petilil",
+   "Purugly"
+  ]
+ },
+ "Argenta": {
+  "category": "frontier",
+  "gen": 4,
+  "page": "Argenta",
+  "species": [
+   "Butterfree",
+   "Drifblim",
+   "Skarmory"
   ]
  },
  "Ariana": {
@@ -499,6 +545,19 @@
    "Zacian",
    "Zamazenta",
    "Zapdos"
+  ]
+ },
+ "Beni": {
+  "category": "villain",
+  "gen": 8,
+  "page": "Beni",
+  "species": [
+   "Gallade",
+   "Gardevoir",
+   "Magnezone",
+   "Mismagius",
+   "Roserade",
+   "Sneasler"
   ]
  },
  "Bertha": {
@@ -1141,6 +1200,15 @@
    "Sigilyph"
   ]
  },
+ "Calaba": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Calaba",
+  "species": [
+   "Bibarel",
+   "Ursaluna"
+  ]
+ },
  "Calem": {
   "category": "protagonist",
   "gen": 6,
@@ -1223,6 +1291,15 @@
    "Rotom",
    "Squirtle",
    "Yamper"
+  ]
+ },
+ "Charm": {
+  "category": "villain",
+  "gen": 8,
+  "page": "Charm (Hisui)",
+  "species": [
+   "Gengar",
+   "Rhydon"
   ]
  },
  "Cheren": {
@@ -1527,6 +1604,30 @@
    "Zygarde"
   ]
  },
+ "Clover": {
+  "category": "villain",
+  "gen": 8,
+  "page": "Clover",
+  "species": [
+   "Abomasnow"
+  ]
+ },
+ "Cogita": {
+  "category": "other",
+  "gen": 8,
+  "page": "Cogita",
+  "species": [
+   "Enamorus"
+  ]
+ },
+ "Coin": {
+  "category": "villain",
+  "gen": 8,
+  "page": "Coin (Hisui)",
+  "species": [
+   "Toxicroak"
+  ]
+ },
  "Colress": {
   "category": "villain",
   "gen": 5,
@@ -1628,6 +1729,14 @@
    "Seismitoad",
    "Simipour",
    "Slowking"
+  ]
+ },
+ "Cyllene": {
+  "category": "galaxy",
+  "gen": 8,
+  "page": "Cyllene",
+  "species": [
+   "Abra"
   ]
  },
  "Cynthia": {
@@ -2225,6 +2334,17 @@
    "Rapidash",
    "Regigigas",
    "Steelix"
+  ]
+ },
+ "Gaeric": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Gaeric",
+  "species": [
+   "Bergmite",
+   "Froslass",
+   "Glalie",
+   "Hisuian Avalugg"
   ]
  },
  "Gardenia": {
@@ -3041,6 +3161,30 @@
    "Vibrava"
   ]
  },
+ "Ingo": {
+  "category": "frontier",
+  "gen": 5,
+  "page": "Ingo",
+  "species": [
+   "Alakazam",
+   "Basculegion",
+   "Chandelure",
+   "Crustle",
+   "Excadrill",
+   "Garbodor",
+   "Gliscor",
+   "Gurdurr",
+   "Haxorus",
+   "Kleavor",
+   "Klinklang",
+   "Machoke",
+   "Magnezone",
+   "Probopass",
+   "Sneasler",
+   "Tangela",
+   "Wyrdeer"
+  ]
+ },
  "Iono": {
   "category": "gymleader",
   "gen": 9,
@@ -3069,6 +3213,17 @@
    "Tadbulb",
    "Voltorb",
    "Wattrel"
+  ]
+ },
+ "Irida": {
+  "category": "rival",
+  "gen": 8,
+  "page": "Irida",
+  "species": [
+   "Eevee",
+   "Espeon",
+   "Flareon",
+   "Glaceon"
   ]
  },
  "Iris": {
@@ -3110,6 +3265,14 @@
    "Virizion",
    "Watchog",
    "Yamask"
+  ]
+ },
+ "Iscan": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Iscan",
+  "species": [
+   "Basculegion"
   ]
  },
  "James": {
@@ -3469,6 +3632,21 @@
    "Torracat",
    "Toucannon",
    "Type: Null"
+  ]
+ },
+ "Kamado": {
+  "category": "villain",
+  "gen": 8,
+  "page": "Kamado",
+  "species": [
+   "Clefable",
+   "Golem",
+   "Heracross",
+   "Hisuian Braviary",
+   "Probopass",
+   "Rufflet",
+   "Snorlax",
+   "Ursaluna"
   ]
  },
  "Karen": {
@@ -3964,6 +4142,17 @@
    "Zamazenta"
   ]
  },
+ "Lian": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Lian",
+  "species": [
+   "Goomy",
+   "Kleavor",
+   "Swinub",
+   "Whiscash"
+  ]
+ },
  "Lillie (anime)": {
   "category": "anime",
   "gen": 7,
@@ -4316,6 +4505,17 @@
    "Sobble"
   ]
  },
+ "Mai": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Mai",
+  "species": [
+   "Crobat",
+   "Munchlax",
+   "Weavile",
+   "Wyrdeer"
+  ]
+ },
  "Mallow (anime)": {
   "category": "anime",
   "gen": 7,
@@ -4587,6 +4787,18 @@
    "Staravia",
    "Toxicroak",
    "Uxie"
+  ]
+ },
+ "Melli": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Melli",
+  "species": [
+   "Hisuian Electrode",
+   "Skorupi",
+   "Skuntank",
+   "Voltorb",
+   "Zubat"
   ]
  },
  "Melony": {
@@ -5126,6 +5338,16 @@
    "Weezing"
   ]
  },
+ "Palina": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Palina",
+  "species": [
+   "Growlithe",
+   "Hisuian Arcanine",
+   "Hisuian Growlithe"
+  ]
+ },
  "Palmer": {
   "category": "frontier",
   "gen": 4,
@@ -5221,6 +5443,14 @@
    "Tinkatuff",
    "Umbreon",
    "Vaporeon"
+  ]
+ },
+ "Pesselle": {
+  "category": "galaxy",
+  "gen": 8,
+  "page": "Pesselle",
+  "species": [
+   "Croagunk"
   ]
  },
  "Phoebe": {
@@ -5458,6 +5688,33 @@
    "Zapdos"
   ]
  },
+ "Rei": {
+  "category": "protagonist",
+  "gen": 8,
+  "page": "Rei (game)",
+  "species": [
+   "Clefairy",
+   "Cyndaquil",
+   "Empoleon",
+   "Infernape",
+   "Mr. Mime",
+   "Oshawott",
+   "Pikachu",
+   "Rowlet",
+   "Staraptor",
+   "Torterra"
+  ]
+ },
+ "Ress": {
+  "category": "galaxy",
+  "gen": 8,
+  "page": "Ress",
+  "species": [
+   "Bidoof",
+   "Shinx",
+   "Starly"
+  ]
+ },
  "Rika": {
   "category": "elite4",
   "gen": 9,
@@ -5654,6 +5911,14 @@
    "Whirlipede"
   ]
  },
+ "Rye": {
+  "category": "galaxy",
+  "gen": 8,
+  "page": "Rye",
+  "species": [
+   "Lucario"
+  ]
+ },
  "Ryme": {
   "category": "gymleader",
   "gen": 9,
@@ -5671,6 +5936,17 @@
    "Spiritomb",
    "Toxtricity",
    "Wattrel"
+  ]
+ },
+ "Sabi": {
+  "category": "warden",
+  "gen": 8,
+  "page": "Sabi",
+  "species": [
+   "Electivire",
+   "Hisuian Braviary",
+   "Magmortar",
+   "Rhyperior"
   ]
  },
  "Sabrina": {
@@ -5763,6 +6039,15 @@
    "Togedemaru",
    "Vikavolt",
    "Vulpix"
+  ]
+ },
+ "Sanqua": {
+  "category": "galaxy",
+  "gen": 8,
+  "page": "Sanqua",
+  "species": [
+   "Bidoof",
+   "Pichu"
   ]
  },
  "Saturn": {
@@ -6222,6 +6507,18 @@
    "Xatu"
   ]
  },
+ "Thorton": {
+  "category": "frontier",
+  "gen": 4,
+  "page": "Thorton",
+  "species": [
+   "Bronzong",
+   "Electivire",
+   "Magnezone",
+   "Regigigas",
+   "Skarmory"
+  ]
+ },
  "Tobias": {
   "category": "anime",
   "gen": 4,
@@ -6654,6 +6951,23 @@
    "Talonflame",
    "Xerneas",
    "Yveltal"
+  ]
+ },
+ "Zisu": {
+  "category": "galaxy",
+  "gen": 8,
+  "page": "Zisu",
+  "species": [
+   "Ambipom",
+   "Drifblim",
+   "Hisuian Zoroark",
+   "Honchkrow",
+   "Infernape",
+   "Lopunny",
+   "Luxray",
+   "Rapidash",
+   "Steelix",
+   "Zorua"
   ]
  },
  "Zoey": {

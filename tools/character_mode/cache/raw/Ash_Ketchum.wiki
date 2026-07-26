@@ -1,0 +1,1345 @@
+{{Redirect|Ash|appearances of Ash in other media and other uses of the term "ash"|Ash (disambiguation)}}
+{{split|multiple pages by media}}
+----
+{{Character Infobox
+|color={{X color light}}
+|bordercolor={{power color light}}
+|corecolor={{ice color light}}
+|name=Ash Ketchum
+|jname=サトシ
+|tmname=Satoshi
+|image=Ash JN.png
+|size=150px
+|caption=Ash Ketchum in ''[[Pokémon Journeys: The Series]]''
+|age=10<!--Please do not change his age!--><ref>Ash's [https://web.archive.org/web/20220402202148/https://www.pokemon.co.jp/tv_movie/anime/ character profile] (in Japanese) mentions that he is 10 years old as of ''[[Pokémon Journeys: The Series]]''.</ref>
+|gender=Male
+|eyes=Brown
+|hair=Black
+|hometown=[[Pallet Town]]
+|region=[[Kanto]]
+|relatives=[[Delia Ketchum]] (mother)<br>Unnamed father ([[EP002]])<br>Unnamed grandfather ([[EP002]]; Japanese version only)
+}}
+{{Character Infobox/Anime
+|color={{ice color light}}
+|series=''[[Pokémon the Series]]''
+|counterpart=[[Ash Ketchum (M20)]]
+|debut=''[[EP001|Pokémon - I Choose You!]]''
+|enva=[[Veronica Taylor]] <small><br>([[EP001]]-[[AG145]])</small><br>[[Sarah Natochenny]] <small><br>([[AG146]]-[[JN147]], [[The Mastermind of Mirage Pokémon|MoMP]] re-dub)</small><br>[[Kayzie Rogers|Jamie Peacock]] <small><br>(MoMP original dub)</small>
+|jpva=[[Rica Matsumoto]]<br>[[Hana Takeda]]<small><br>([[JN001]]; age 6)</small><br>
+}}
+{{Character Infobox/Team
+|color={{ice color light}}
+|member=[[Alola League]]
+|rank={{pkmn|Champion}}
+}}
+{{Character Infobox/Team
+|color={{ice color light}}
+|member=[[World Coronation Series]]
+|rank=Master Class <small>(Monarch)</small>
+}}
+{{Character Infobox/Team
+|color={{ice color light}}
+|member=[[Aether Foundation]] <small>(''[[Pokémon the Series: Sun & Moon|Sun & Moon]]'')</small>
+|rank=[[Ultra Guardians|Ultra Guardian]]
+}}
+{{Character Infobox/Game
+|color={{ice color light}}
+|gen={{gen|I}}, {{gen|II}}, {{gen|III}}, {{gen|VI}}, {{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|counterpart={{ga|Red}}, [[Ash (Masters)]]
+|games={{pkmn|Puzzle League}}, [[Pokémon: Catch the Numbers!|Catch the Numbers!]], {{pkmn|Advanced Generation: I've Begun Hiragana and Katakana!}}, {{pkmn|Advanced Generation: Pico for Everyone Pokémon Loud Battle!}}, {{pkmn|Team Turbo}}, {{pkmn|Team Rocket Blast Off}}, {{pkmn|Poké Ball Launcher}}, {{pkmn|Seek & Find}}, {{pkmn|Tretta}}, {{pkmn|Ga-Olé}}, {{pkmn|GO}}, {{pkmn|Mezastar}},  {{pkmn|Masters EX}}
+|trainer=[[Pokémon Trainer]], {{tc|Baron}}, {{pkmn|Champion}}, [[World Coronation Series#Master Class|Monarch]]<br>Pallet Town's <small>(Ga-Olé)</small>
+|enva=[[Veronica Taylor]] <small>(Puzzle League)</small><br>[[Sarah Natochenny]] <small>(Masters EX)</small>
+|jpva=[[Rica Matsumoto]]
+}}
+{{Character Infobox/Manga
+|color={{ice color light}}
+|series=''[[The Electric Tale of Pikachu]]''<br>''[[Ash & Pikachu]]''<br>''[[Pokémon Newspaper Strip]]''<br>''[[Pocket Monsters Diamond & Pearl (Sakai Takayuki)|Pocket Monsters Diamond & Pearl]]''<br>''{{ma|Pokémon Journeys}}''
+|counterpart=[[Ash Ketchum (EToP)]], [[Ash Ketchum (Pokémon Newspaper Strip)]]
+|debut=''[[ET01|Pikachu, I See You!]]'' <small>(''The Electric Tale of Pikachu'')</small><br>''[[SP01|Hoppip, The Wind Calls!]]'' <small>(''Ash & Pikachu'')</small><br>''[[PDP01|Newcomer Trainer, Dawn]]'' <small>(''Pocket Monsters Diamond & Pearl'')</small><br>''[[JNM01|Legend? Check! Friends? Check!]]'' <small>(''Pokémon Journeys: The Series'')</small>
+}}
+|}
+'''Ash Ketchum''' (Japanese: '''サトシ''' ''Satoshi'') is the main protagonist of {{aniseries|PTS}}, and the first overall protagonist of the greater [[Pokémon animated series]]. He is also the main character of various {{pkmn|manga}} based on the animated series, including [[The Electric Tale of Pikachu]] and [[Ash & Pikachu]], and one of the protagonists of {{OBP|Pocket Monsters Diamond & Pearl|Sakai Takayuki}} and {{ma|Pokémon Journeys}}. In {{aniseries|HZ}}, he is succeeded by [[Liko]] and [[Roy]].<ref>https://pokemon.gamespress.com/Pokemon-Reveals-Pokemon-Horizons-The-Series-as-Official-Title-of-Next-</ref>
+
+He is a [[Pokémon Trainer]] from [[Pallet Town]] whose goal is to become a [[Pokémon Master]]. His [[List of characters' first Pokémon|first Pokémon]] was a {{AP|Pikachu}} that he received from {{an|Professor Oak}} after arriving late at [[Professor Oak's Laboratory|his laboratory]]. On his {{pkmn|journey}}s around the [[Pokémon world]], he's been accompanied by {{ashfr|a multitude of close friends}}. In {{aniseries|SM}}, he becomes the first {{pkmn|Champion}} of the [[Alola]] [[region]]'s [[Alola League|Pokémon League]]. In {{aniseries|JN}}, he becomes the new Monarch and World Champion of the [[World Coronation Series|Pokémon World Coronation Series]].
+
+He shares his Japanese name with the creator of the [[Pokémon]] franchise, [[Satoshi Tajiri]]. His English surname is a pun on the English motto, "[[Gotta catch 'em all!]]"
+
+{{spoilers}}
+
+==In animation==
+===History===
+====Pre-series====
+[[File:Younger Ash XY.png|thumb|left|250px|Young Ash]]
+Ash grew up in [[Pallet Town]] in the [[Kanto]] region with his mother, {{Delia}}, as his father spent most of his time traveling. Eventually, Ash would meet {{an|Professor Oak}} and his grandson [[Gary Oak]].
+
+In ''[[XY121|Seeing the Forest for the Trees!]]'', Ash remembered getting lost in a forest while looking for {{OBP|Pokémon|species}}. He brought some [[wild Pokémon]] out of the rain and found them some shelter in a tree trunk. Ash's happiness about that moment made him think about how much he wanted to become a [[Pokémon Trainer]].
+[[File:Younger Gary Oak.png|thumb|220px|Young Ash and Gary watching a movie]]
+[[JN001|At the age of six]], Ash learned that Professor Oak would be holding a Pokémon Summer Camp, and eagerly asked his mother {{Delia}} if he could attend. Seeing her son's enthusiasm, she signed him up but also told him that she had things to do outside of the home during the day the camp would take place, so he would have to get himself there in time on his own. Unfortunately for Ash, he ended up breaking his alarm clock in his sleep and overslept, missing the camp.
+
+[[XY007|Later]], Ash managed to attend another one of Professor Oak's Pokémon Summer Camps. One day, another camper named {{an|Serena}} got lost in the forest and wounded her leg after getting startled by a {{p|Poliwag}}. Ash, who was looking for the Poliwag, came to her rescue and wrapped a handkerchief around the wounded knee to brace it. He then helped her up and guided her out of the forest.
+
+As seen in ''[[AG086|Lights, Camerupt, Action!]]'', Ash and Gary used to be friends at one point in time and even went to watch movies together. In ''[[EP269|The Ties That Bind]]'', Ash recalled a day when he was about to start his [[Pokémon journey]]. He and Gary Oak both fished out an old, rusty {{i|Poké Ball}}, which snagged on both their lines. After arguing about who would keep it, they broke it in two, each keeping one half as a reminder of that day.
+
+===={{aniseries|OS}}====
+[[File:Ash runs from Spearow.png|thumb|220px|left|Ash trying to keep Pikachu safe]]
+In ''[[EP001|Pokémon - I Choose You!]]'', Ash began his journey at the age of 10 as a warm-hearted and well-intentioned but stubborn, rash, and amateur [[Pokémon Trainer]]. He was forced to accept a [[Obedience|stubborn]] {{AP|Pikachu}} from Professor Oak as his [[List of characters' first Pokémon|first Pokémon]] because he woke up late on the day he was set to get his first Pokémon. He was determined to achieve his goal and when Pikachu saw that he was willing to compromise his safety to keep it safe, the two of them formed an [[Friendship|extremely strong bond]] that has been noticed and remarked upon by many characters in the series. This unbreakable friendship would set his course for the future.
+
+In ''[[EP002|Pokémon Emergency!]]'', {{an|Misty}} told off Ash after she found her bike Ash had "borrowed" to save Pikachu with was wrecked. At the end of the episode, {{TRT}} made it their primary objective to steal Pikachu after witnessing Pikachu's power. Misty continued following Ash as he headed for [[Pewter City]], telling him in ''[[EP005|Showdown in Pewter City]]'' that she would continue following him until she was paid back for the bike.
+
+Ash {{pkmn2|caught}} his first Pokémon, a {{AP|Caterpie}}, in ''[[EP003|Ash Catches a Pokémon]]'', followed by a {{AP|Pidgeotto}} the next day.
+
+In ''Showdown in Pewter City'', Ash decided to compete in the [[Indigo League|Pokémon League]] regional championships by earning [[Badge]]s from [[Gym Leader]]s across the [[Kanto]] region. Ash fought {{an|Brock}}, the {{gy|Pewter}} Gym Leader, in a [[Pokémon battle]] and lost easily. During his [[rematch]], Ash nearly defeated Brock but refused to give the final blow due to the intervention of Brock's [[Brock's siblings|younger siblings]]. Touched by Ash's kindness to Pokémon and with the return of his estranged father, {{ka|Flint}}, Brock decided to go with Ash and pursue his dream of being the world's best {{tc|Pokémon Breeder}} and gave Ash the {{Badge|Boulder}}.
+
+In ''[[EP007|The Water Flowers of Cerulean City]]'', Ash reached the [[Cerulean Gym]] and was shocked to learn that Misty was one of its Gym Leaders. Though the match was interrupted when Team Rocket tried to steal the Pokémon from the Gym, [[Sensational Sisters|Misty's sisters]] awarded Ash a {{Badge|Cascade}} when Pikachu saved the [[Gym]] with a {{m|Thunderbolt}}. He continued his journey with Misty, who had dreams of becoming the world's greatest {{t|Water}} Pokémon Master.
+[[File:Ash Kanto first partners.png|thumb|250px|Ash and his Kanto first partner Pokémon]]
+Ash would go on to obtain the remaining Kanto first partner Pokémon. In ''[[EP010|Bulbasaur and the Hidden Village]]'', Ash and friends found a [[Hidden Village]] protected by a {{AP|Bulbasaur}}. Although hostile at first, Bulbasaur warmed up to Ash after he saved an {{p|Oddish}} from Team Rocket. Bulbasaur agreed to join Ash if he could defeat it in battle, which he did with Pikachu, adding Bulbasaur to his team. In ''[[EP011|Charmander – The Stray Pokémon]]'', Ash and friends discovered a {{AP|Charmander}} that had been left in the rain by his former Trainer, [[Damian]]. Brock carried Charmander to the [[Pokémon Center]], while Ash held his coat over the Charmander's tail flame to keep it lit. After Charmander saved Pikachu from being taken by Team Rocket, Ash caught him. In ''[[EP012|Here Comes the Squirtle Squad]]'', Ash and friends met the [[Squirtle Squad]], a rogue group of Squirtle who were deserted by their Trainers. They were tricked by Team Rocket into capturing Pikachu, after which they betrayed and bombed them. Ash went back to rescue the {{AP|Squirtle}} leader, which touched it enough to join his team. The remaining members left with [[Officer Jenny]] to become firefighters.
+
+Every time he thought he was doing well, Ash would somehow cross paths with his childhood [[rival]], Gary. Gary and Professor Oak reminded Ash that he was always a step behind Gary. In ''[[EP013|Mystery at the Lighthouse]]'', Professor Oak told Ash that Gary had caught 45 Pokémon at a point when Ash only had seven.
+
+In ''[[EP017|Island of the Giant Pokémon]]'', Ash and his friends were swept away onto [[Pokémon Land]], located on the [[Island of the Giant Pokémon]], after a group of {{p|Gyarados}} triggered a cyclone using {{m|Dragon Rage}}. Four of Ash's Pokémon, including Pikachu, had gone missing during the chaos, but they found their way back to him the following day. Ash and the others took a ferry back to the mainland from ''[[EP019|Tentacool & Tentacruel]]'' to ''[[EP020|The Ghost of Maiden's Peak]]''.
+[[File:Ash and friends OS 2.png|thumb|220px|left|Ash with Misty and Tracey]]
+Many of Ash's first Gym Badges were given to him merely out of gratitude for his assistance, rather than claiming an actual victory in battle over the Gym Leaders. Of the first five Gym Badges that had been given to Ash in Kanto, only [[Lt. Surge]]'s {{Badge|Thunder}} in ''[[EP014|Electric Shock Showdown]]'' was earned from a victory in battle.
+
+Ash's troubles were not made any easier when his Charmander, after evolving into a Charmeleon, and then a Charizard, grew too powerful and refused to listen to him until [[EP105|Ash could prove himself]].
+
+Over time, Ash's dedication to his goal paid off. After earning his first eight Badges, Ash went on to compete in the [[Indigo Plateau Conference]], advancing to the fifth round - one further than Gary - and ending up in the Top 16, his defeat coming in the form of his Charizard refusing to battle for him.
+
+[[File:Ash Orange League Hall of Fame.png|thumb|220px|Ash in the Orange League [[Hall of Fame]]]]
+Following Ash's defeat in the Indigo League, Professor Oak asked him to travel to [[Valencia Island]] in the [[Orange Islands]] to retrieve the [[GS Ball]] from a [[Pokémon Professor]] named {{prof|Ivy}}. While in the Orange Islands, Ash learned of the Orange Crew, an elite group of Trainers not unlike Gym Leaders, that provided challenges for Trainers to overcome in the [[Orange League]]. After Brock decided to stay with Professor Ivy and help her with her work, Ash and Misty were joined by an enthusiastic [[Pokémon Watcher]] named [[Tracey Sketchit]]. Ash, Misty, and Tracey traversed the Orange Islands on the back of a lost {{AP|Lapras}}. Ash caught the Lapras during this time. He eventually defeated the four members of the Orange Crew and finally won the Orange League by triumphing over the [[Orange Crew Supreme Gym Leader]], {{OBP|Drake|Orange League}}, becoming an Honorable Trainer and earning himself a spot in the [[Palace of Victory|Orange League Hall of Fame]]. Before leaving the Orange Islands, Ash managed to find his Lapras's pod and {{pkmn2|released}} it back into the wild.
+
+Upon returning to Pallet Town, Ash discovered that Brock had returned due to some unknown incident that left the aspiring Pokémon Breeder in dread of even hearing Professor Ivy's name. Meanwhile, Tracey stayed at [[Professor Oak's Laboratory]] as Professor Oak's assistant, and Brock rejoined Ash and Misty. After his victory in the Orange League, Ash encountered Gary again, and after being defeated in a one-on-one battle, he learned that his rival had been training hard to participate in the [[Silver Conference]] in [[Johto]].
+
+===={{aniseries|GS}}====
+Excited at the prospect of meeting new Pokémon and facing Gary again, Ash and {{ashfr|friends}} left for the Johto [[region]] to collect eight Badges from the Gym Leaders in the Johto region and compete in the [[Johto League]]. Much like his travels through Kanto, Ash, Misty, and Brock impacted the many people and Pokémon they met along the way (one of them being [[Kurt]], to whom Ash delivered the GS Ball).
+
+In ''[[EP178|The Grass Route]]'', Ash competed in the [[Grass Tournament]] with Bulbasaur. He lost in the final round to [[Ephraim]]'s {{p|Skiploom}}.
+
+Ash, along with Misty, competed in the [[Whirl Cup]] in the [[Whirl Islands]], with Ash placing in the Top 16. He was defeated by Misty in a 2-on-2; Misty ended up losing in the next round. Ash, along with [[Ritchie]], then helped save {{OBP|Silver|Lugia}}, a child {{p|Lugia}}, and its parent, from the evil machinations of Team Rocket.
+
+Ash encountered Gary occasionally in Johto, and, while they were still rivals, Gary seemed to view Ash with slightly more respect than before. Ash's growth of character was evident throughout this story arc as he continued to think more and more about his Pokémon and less and less about himself. After earning eight Johto Gym Badges, Ash entered the Silver Conference with Gary. Finally, the two rivals battled in the tournament in a [[Full Battle]]. Although it was a close battle, Ash emerged victorious against his rival for the first time in his career as a Pokémon Trainer, marking one of the biggest turning points in said career. After the battle, Gary and Ash departed on good terms with each other, finally overcoming their boyhood animosity and recognizing each other as equals. Ash's journey through Kanto and Johto came to an end when he was forced to split up with Brock and Misty when the two of them received messages to return home.
+
+===={{aniseries|RS}}====
+[[File:Ash and friends AG.png|thumb|220px|left|Ash with Brock, May, and Max]]
+After hearing about a distant region called [[Hoenn]] from {{jo|Harrison}}, the opponent he lost to in the Silver Conference, Ash decided to journey there and take only Pikachu with him this time. In Hoenn, Ash met a girl named {{an|May}} and her brother, [[Max]], who he later learned were [[Petalburg Gym]] {{FB|Gym|Leader}} [[Norman]]'s children, and both of whom decided to join Ash on his travels. Shortly after the three companions left [[Petalburg City]], Brock rejoined the group when he saved them from a flock of angry {{p|Taillow}} and their {{AP|leader|Taillow}}. From that point onward, Ash journeyed through Hoenn with one old friend and two new friends, collecting Gym Badges in much the same fashion as before. Once May set her sights on becoming a [[Top Coordinator]], Ash supported her whenever he could while maintaining his focus on winning Badges. During these journeys, Ash and his friends ended up being entwined in the plots of the region's two rivaling [[villainous team]]s, [[Team Aqua]] and [[Team Magma]], with Pikachu getting possessed by {{DL|Kyogre and Groudon (Ruby and Sapphire series)|Groudon}} in the summit of their conflict. Thanks to {{TRT}}'s unintentional help, they helped save the entire Hoenn region.
+
+While Ash had no major recurring rival in Hoenn, he did encounter certain Trainers multiple times and formed friendly rivalries with them. One such friend was [[Morrison]], who was very similar to and just as competitive as Ash and was first introduced close to the end of the group's travels in Hoenn. Just like the Indigo Plateau and Silver Conferences, Ash did not win the [[Ever Grande Conference]], but he came very close before losing to {{ho|Tyson}}, who went on to win the tournament. After parting ways with May, Max, and Brock, Ash returned to Pallet Town. As he passed through [[Viridian City]] on his way back home, he met [[Scott]] and [[Agatha]] and learned about the {{Gdis|Battle Frontier|III}} in Kanto. He decided to take on the Battle Frontier and was surprised but happy to learn that Brock, May, and Max would join him on this adventure as well. Eventually, Ash conquered the seven [[Frontier Brain]]s and was offered the opportunity to become a Frontier Brain himself, but declined in favor of continuing his Pokémon journey.
+
+===={{aniseries|DP}}====
+[[File:Ash arriving in Sinnoh.png|thumb|220px|Ash arriving in Sinnoh]]
+Following Ash's victory over the Battle Frontier, May set her sights on [[Pokémon Contest]]s in the Johto region and traveled there while Max returned home to Petalburg City in Hoenn. After encountering and battling his old rival, Gary (who has now become a Pokémon researcher), and learning of a new region with new Pokémon, Ash decided to leave for the [[Sinnoh]] region to earn the Gym Badges available there. Like before, he took only Pikachu with him at first but brought his {{AP|Aipom}} along when she snuck onto the ship Ash was leaving on. While Brock did not directly accompany Ash to Sinnoh, he did meet with him while there and traveled with him through Sinnoh as he had for Kanto, Johto, and Hoenn. This time, they were accompanied by another aspiring [[Pokémon Coordinator]] named {{an|Dawn}}. Ash enthusiastically supported Dawn in her endeavors to become a Top Coordinator. Unlike May, he watched all of Dawn's Contests without being distracted by the need to train. Just as he supported Dawn in her Contests, she supported him in his Gym battles. She would even go as far as dressing up as a cheerleader with her Pokémon sometimes and cheer for him.
+
+While traveling through Sinnoh, Ash formed a heated rivalry with a Trainer named [[Paul]]. Throughout Ash's journey, Paul would constantly put him down and the two often argued over their nearly opposite training styles. While Paul was harsh, distant, and sometimes plain cruel to his Pokémon, Ash insisted that the best way to raise Pokémon was through patience, caring, and friendship. Their rivalry came to a head after they competed in a [[Multi Battle|Tag Battle]] [[Hearthome City Tag Battle Competition|Tournament]] together when Paul released his {{AP|Chimchar}} after it failed to meet his expectations. Ash then decided to take in the Chimp Pokémon and promised to make it strong using his philosophy. Although Ash always considered himself on par with him, Paul would often come out the better in their battles as his Pokémon were very powerful, due to him only keeping Pokémon that were naturally really strong. Ash's Pokémon, though they grew under his command and became strong in their own right, could not yet equal those of Paul's. Later events would soon lead to a particularly crushing defeat at [[Lake Acuity]] for Ash, losing a Full Battle while only knocking out two of Paul's Pokémon in return, this being Ash's heaviest loss in any battle up to that point. Following the defeat, Ash acknowledged that he had to take Paul more seriously and cautiously in the future.
+[[File:Ash Wallace Cup.png|thumb|left|220px|Ash in the Wallace Cup]]
+[[File:Hearthome Collection Ash.png|thumb|220px|Ash in the Hearthome Collection]]
+While in Sinnoh, Ash competed in two official Pokémon Contests, once in [[Jubilife City]] and a second time in the [[Wallace Cup]] upon [[Wallace]]'s recommendation. He also competed against several [[Pokémon Stylist]]s in the [[Hearthome Collection]] fashion show in ''[[DP086|Arriving in Style!]]'', where he ended up in third place, winning the Unique Award for his original performance.
+
+As Ash and his friends journeyed through Sinnoh, they ended up becoming heavily involved with the legends of Sinnoh, with Ash being personally chosen by {{DL|Lake guardians (anime)|Azelf}} of the [[lake guardians]]. Along with {{an|Cynthia}}, [[Looker]] and Team Rocket, they faced off against Pokémon Hunter [[J]] as well as the evil [[Team Galactic]]. Thanks to their efforts, the Sinnoh region was spared from [[Cyrus]]'s insane scheme.
+
+Ash eventually obtained all of the Sinnoh Gym Badges he needed to enter Sinnoh's [[Pokémon League Conference]]. During his battles in the [[Lily of the Valley Conference]], he managed to advance to the Top 4. For the second time since meeting Paul (the first being in a [[PokéRinger]] tournament during which Ash's {{p|Staravia}} evolved into a {{AP|Staraptor}} and defeated Paul's {{TP|Paul|Honchkrow}}), Ash managed to defeat his bitter rival, notably using Paul's discarded {{p|Chimchar}}, now an {{p|Infernape}}, to deal the finishing blow. This confirmed Ash's beliefs in how to raise Pokémon, showing that though he took his time and raised his Pokémon with care and friendship they achieved the same results as Paul's methods. This caused Paul to finally acknowledge Ash as a Trainer of some merit, thus ending their arguments. Ash later fought against {{si|Tobias}}, becoming the only known Trainer to defeat his {{p|Darkrai}}. Although Ash ultimately lost the battle at the same magnitude as his loss to Paul at Lake Acuity, he was not overly upset as he was closer to his Pokémon than ever before. After ''[[Pokémon the Series: Diamond and Pearl]]'', Ash, Dawn, and Brock split up and went their separate ways, with Brock confirming that he would not be joining Ash on his later travels as he decided to pursue his new dream of being a Pokémon doctor.
+
+===={{aniseries|BW}}====
+[[File:Ash and friends BW.png|thumb|250px|left|Ash with Iris and Cilan]]
+Shortly after returning home from his Sinnoh journey, Ash traveled with Delia and Professor Oak on a trip to the [[Unova]] region. After losing in a battle to [[Trip]] and seeing the power of the [[Legendary Pokémon]] {{p|Zekrom}}, Ash became interested in traveling to Unova to meet new Pokémon, as well as new friends. In Unova, he brought along only his Pikachu as he did in Hoenn.
+
+Soon after he started his journey, Ash met {{an|Iris}}, a wild girl who is (as he later learns) a possible successor of the [[Opelucid Gym]] and wishes to be a {{t|Dragon}} Master, and {{an|Cilan}}, one of the [[Striaton Gym]] Leaders, who aspires to be the world's greatest [[Pokémon Connoisseur]]. After Ash earns their interest by telling Iris of his encounter with Zekrom and battling Cilan for the Trio Badge, the three decide to travel together. During his time in Unova, along with his quest for the Badges, the three friends also competed in the local competitions [[Club Battle]], [[Clubsplosion]], and [[Pokémon World Tournament Junior Cup]]. Despite battling quite well, Ash failed to win any of the tournaments and managed to be the runner-up of two of the three. Despite these mishaps, he was not upset to see his friends win the competitions instead of him.
+
+As they journeyed, Ash and his friends once again found themselves caught up in Team Rocket's new plot, which was personally being supervised by Giovanni. This time, Team Rocket planned to take over the world using a {{an|Meloetta}} that Ash befriended to unleash the power of the {{an|forces of nature}}. Thanks to Cynthia and [[Ridley]], Ash and his friends managed to thwart Team Rocket's evil plot.
+
+After managing to obtain eight Unova Gym Badges, Ash was allowed to participate in the [[Vertress Conference]] along with his current and some new rivals. In the preliminary round, Ash battled Trip one-on-one, defeating him for the first time and ending their rivalry. Ash also defeated his friend and rival, [[Stephan]], in the tournament. He then battled one of his newer rivals, {{un|Cameron}}, where he lost in ''[[BW108|A Unova League Evolution!]]'', ending in the Top 8 of the Vertress Conference.
+
+After the Conference, the three friends decided to check out some ruins that [[Professor Juniper]]'s father, [[Cedric Juniper]] discovered, and on the way, they met with a strange young man named {{an|N}}. They soon became entwined in the plots of [[Ghetsis]], [[Colress]], and [[Team Plasma]] as they sought to take over the world using {{p|Reshiram}}'s power. Ash and his friends, along with Looker, the Team Rocket trio, Professor Cedric, as well as N, [[Anthea and Concordia]], managed to foil Plasma's evil scheme.
+
+As their adventures started coming to a close, Ash and his friends decided to take the long way back to Kanto by sailing on a series of luxury liners through a chain of islands called the [[Decolore Islands]]. On the way, Ash met [[Alexa]], a Pokémon Journalist, from whom he learned of the [[Kalos]] region. Soon after they reach Kanto, Ash split up with Iris and Cilan, who wished to go in separate directions to follow their dreams.
+
+===={{aniseries|XY}}====
+[[File:Baron Ash.png|thumb|220px|Ash as a {{tc|Baron}} at the [[Battle Chateau]]]]
+After his brief visit to Pallet Town and having left his Pokémon in Professor Oak's care beside Pikachu, Ash arrived at the Kalos region with Alexa, first visiting [[Lumiose City]], where he parted ways with the journalist and tried to challenge the [[Lumiose Gym]] at Prism Tower. He was forcibly ejected from the tower when the computerized security system, later revealed to be the [[Clembot]], found out that he didn't have any Kalos Badges. He was rescued by {{an|Clemont}} and {{an|Bonnie}}.
+
+Ash brought an injured {{AP|Froakie}} to {{an|Professor Sycamore}}, who told Ash about an additional stage of Pokémon [[Evolution]] he was researching called [[Mega Evolution]]. Assisted by Pikachu and Froakie, Ash calmed down an angry {{p|Garchomp}} belonging to Sycamore that was attacking Lumiose City. Ash saw a Mega Evolved Pokémon for the first time when a Mega {{p|Blaziken}} saved him and Pikachu from falling off of Prism Tower. Froakie then allowed itself to be captured by Ash, and Clemont and Bonnie started to travel with Ash.
+
+Ash won his first Kalos Badge, the {{badge|Bug}}, after defeating the {{ci|Santalune}} [[Santalune Gym|Gym]] Leader, [[Viola]]. The group was joined by Serena, who still remembered Ash rescuing her in her childhood and decided to start her journey to reunite with him, although he initially did not remember the two of them meeting. Ash and Serena learn that Clemont was the Lumiose Gym Leader, who was exiled from his Gym by his invention. They help Clemont face Clembot, and after the issue was resolved, the two boys promised to battle after Ash fulfilled the original conditions set by Clembot (even if it was no longer necessary), to earn four Badges. With that, the group set off on their journey again. During their travels, they occasionally met the ninja boy [[Sanpei]], whose presence always led to progress in Froakie's (and later {{p|Frogadier}}'s and {{p|Greninja}}'s) strength.
+
+Ash briefly traveled with the {{gy|Shalour}} Gym Leader {{an|Korrina}} to discover more about Mega Evolution and [[Mega Stone]]s.
+[[File:Ash and friends XY 2.png|thumb|250px|left|Ash with Serena, Clemont, and Bonnie]]
+Ash and his friends later attended Professor Sycamore's [[Pokémon Summer Camp]], where they met the trio of {{an|Shauna}}, {{an|Tierno}}, and {{an|Trevor}}, with whom the group started a friendly rivalry with. In Ash's case, his rivalry would mainly be with Trevor and Tierno as Serena and Shauna pursued [[Pokémon Showcase]]s.
+
+During their journey, Ash caught a lost and traumatized {{p|Goomy}}, which he raised into a {{p|Sliggoo}}, and later, a powerful {{AP|Goodra}}. After earning his fourth Gym Badge, Ash eventually faced Clemont in their promised Gym Battle, and won with Goodra's help, gaining his fifth Badge. Later, Ash and friends came across Goodra's [[Kalos Route 14|old home]], where they discovered it was taken over by a {{an|Florges}} and her companions. After saving Goodra's swamp from Team Rocket while simultaneously solving the issue concerning Florges, Ash left Goodra in the wetlands so it could act as the protector of its swamp and the Pokémon living in it. Some time afterward, when Ash reached [[Laverre City]] to challenge the [[Laverre Gym|Gym]], he made a new rival in [[Sawyer]], a novice trainer hailing from Hoenn. Along the way, Ash also supported Serena in her quest to become Kalos Queen and gave her some helpful advice when she eventually lost, telling her that losing is simply another step towards victory.
+
+Later in their journeys, Ash and friends reached [[Anistar City]] and, together with Professor Sycamore, they met the Gym Leader, [[Olympia]]. She revealed his Frogadier's past as a Froakie from before meeting Ash and a glimpse of Frogadier's, his friend's, Sycamore's, Team Rocket's, and his fate, indicating that they would all play a vital role in Kalos's future. Ash challenged her to a [[Double Battle]], which he won using Frogadier and {{AP|Talonflame}}.
+
+Shortly after, the group came across a mysterious Pokémon, dubbed [[Squishy]] by Bonnie, who was being pursued relentlessly by the villainous team [[Team Flare]], prompting the group to put it under their protective custody. Some time afterward, Ash and his friends got involved in a conflict in Sanpei's [[Ninja Village|hometown]], which led to Frogadier evolving into Greninja, as well as achieving [[Bond Phenomenon]] for the first time. During another confrontation with Team Flare in [[Terminus Cave]], Ash learned Bond Phenomenon came at a cost, as he was able to share Greninja's senses, but also share its pain.
+[[File:Ash and Greninja Bond Phenomenon.png|thumb|250px|Ash and Greninja activating the Bond Phenomenon]]
+Later on, Ash met up with [[Alain]], who became intrigued by Greninja's Bond Phenomenon and requested to battle Ash. Ash put up a decent fight but eventually lost. After his loss against Alain, Ash and Greninja began training to perfect Greninja's new form. Ash and Greninja later had a rematch with Alain and a battle against Diantha, during the latter Greninja even managed to reach its final Ash-Greninja form. Despite their training, the two were unsuccessful in mastering the transformation as Ash passed out during both battles from exhaustion from using the form.
+
+After losing a rematch with Sawyer, in which Greninja even failed to transform, Ash began feeling doubtful of his ability to master the transformation. His confidence was shaken further after brutally losing to the [[Snowbelle Gym]] Leader [[Wulfric]] in a battle where all three of his Pokémon were unable to bring down Wulfric's second Pokémon, {{p|Avalugg}}. After seeing how badly Greninja got hurt during their battle and blaming himself for the loss, a depressed Ash left into the [[Kalos Route 20|Winding Woods]] by himself. After an argument with Serena, Ash was able to get back to his old self. He later met up with Greninja, and while trying to save a wild {{p|Spewpa}}, the two were able to perfect Bond Phenomenon. With Greninja's Ash-Greninja form perfected, Ash was able to defeat Wulfric in a rematch, earning him his final Kalos Gym Badge and qualifying him for participation in the [[Lumiose Conference]].
+
+After returning to Lumiose City, Ash entered the Lumiose Conference. Following several notable victories, Ash had Goodra rejoin his team for his semi-final battle against Sawyer. After a narrow victory, Ash managed to defeat Sawyer and reach the finals of the Conference, marking his first appearance in the finals of a Pokémon League; where he would face Alain. On the night before the final battle, he and his friends learned more about the Ash-Greninja transformation. In the finals of the Lumiose Conference, Ash and Alain started a back-and-forth battle that eventually came down to [[Alain's Charizard|Alain's Mega Charizard X]] against Ash's Greninja in its Ash-Greninja form. After a fierce battle, Greninja was defeated, causing Ash to end up as the Runner-Up of the Lumiose Conference. Ash showed great sincerity and principle following the battle, shaking Alain's hand regardless of the result.
+[[File:Ash and Pokémon captured.png|thumb|250px|left|Ash and his Pokémon captured by Team Flare]]
+During the closing ceremony of the conference, Team Flare began their final operation, using the power of the blue {{p|Zygarde}} {{DL|List of Pokémon with form differences|Zygarde|Core}} [[Z2]] to cause massive roots to destroy parts of Lumiose City. Ash and his Pokémon were ultimately abducted by Team Flare and were taken captive at the top of Prism Tower, as [[Lysandre]] intended to use Ash and Greninja's Bond Phenomenon for his plans by using Team Flare's Mega Evolution energy ray to control them. However, upon hearing Pikachu's voice, Ash resisted the machine's influence, even getting Greninja to do the same thing. After talking some sense into Alain, Ash and Greninja broke free from their bindings by using the Bond Phenomenon. Ash and Alain soon engaged in a battle against Lysandre and ultimately managed to defeat him. When Ash later heard about the [[Giant Rock]], he met up with the rest to combat it. Thanks to everyone's combined effort, [[Chespie]] was saved from the Giant Rock. Squishy and Z2 ultimately destroyed the creature, before the two Zygarde left.
+
+Following the crisis, Ash helped Alain and Serena resolve their issues and bid farewell to his rivals. Later, after dropping Goodra off at the wetlands again, the group came across [[Xerosic]], one of Team Flare's Scientists. Ash, his Greninja, his friends and the gang were ultimately able to foil Xerosic's plans and hand him over to Officer Jenny. The group soon reunited with Squishy and Z2, who requested Greninja's help to obliterate the remaining negative energy left by Team Flare's crisis. Knowing this was for the sake of Kalos, Ash bade farewell to Greninja before Greninja left with the two Zygarde. After releasing Greninja, Ash and the gang headed back to Lumiose City to say their final goodbyes. After bidding farewell to Serena, who headed for Hoenn, Ash separated from Clemont and Bonnie as well and returned to Pallet Town.
+
+===={{aniseries|SM}}====
+[[File:Ash and friends SM.png|thumb|250px|Ash and his classmates]]
+Ash traveled with Delia to the [[Alola]] region after [[Mimey]] won the trip via lottery. It was shown that Ash gave his Kalos Pokémon to [[Professor Oak]], who gave him and his mother a Pokémon Egg to deliver to his cousin [[Samson Oak|Samson]]. While on [[Melemele Island]], Ash stumbled upon the [[Pokémon School]], where he met {{an|Lana}}, {{an|Lillie}}, {{an|Mallow}}, {{an|Kiawe}}, {{an|Sophocles}}, Samson, and {{an|Professor Kukui}} and learned about [[Z-Ring]]s and [[Z-Move]]s. Later on, he met {{DL|Guardian deities (anime)|Tapu Koko}}, the [[Guardian deities|guardian]] of Melemele Island, who gave Ash a Z-Ring and an [[Electrium Z]]. With these discoveries, Ash decided to remain in Alola to study at the school and learn more about Z-Moves, living with Professor Kukui.
+
+Later, Tapu Koko challenged Ash and Pikachu to a battle. Ash's Electrium Z broke after Ash and Pikachu used the Z-Move {{m|Gigavolt Havoc}} on Tapu Koko. Ash then decided to take on the [[island challenge]] to obtain new [[Z-Crystal]]s and prove his worth.
+[[File:Ash and Z-Ring.png|thumb|250px|left|Ash and his Z-Ring]]
+Ash caught several Pokémon on Melemele Island, such as his {{AP|Rowlet}}, {{AP|Rockruff}}, and {{AP|Litten}}. Ash also got a [[Normalium Z]] after his fight with {{pkmn2|Totem}} {{p|Gumshoos}} on Melemele Island. Tapu Koko gave him a new Electrium Z after Ash won his grand trial battle with Melemele [[Island kahuna]] [[Hala]]. Also, Ash struck up a friendly rivalry with Lillie's brother {{an|Gladion}}. He then gained a [[Grassium Z]] and [[Rockium Z]] during his trial and grand trial on [[Akala Island]]. He also briefly reunited with Brock, Misty, and some of his Pokémon during a field trip to Kanto for an extracurricular activity.
+
+One day, Ash was entrusted to take care of a {{p|Cosmog}} by {{p|Solgaleo}} and {{p|Lunala}}, which he saw in a dream. The Cosmog, nicknamed [[Ash's Solgaleo|Nebby]] by Lillie, took a liking to Ash and frequently caused trouble with its ability to {{m|teleport}} people around. In ''[[SM050|Faba's Revenge!]]'', {{an|Faba}} kidnapped Nebby while Ash's attention was elsewhere. When Ash and Lillie learned about this, they enlisted Gladion and {{an|Lusamine}} in helping them rescue it. When the four found Faba, they also found that he successfully forced Nebby to summon a {{DL|Ultra Beasts (anime)|Nihilego}} from an Ultra Wormhole. After Nihilego kidnapped Lusamine and retreated into the Ultra Wormhole, Ash discovered that the incident caused Nebby to evolve into a {{p|Cosmoem}}.
+
+Ash, his classmates, and Gladion then watched as the {{an|guardian deities}} helped Nebby evolve into the Legendary Pokémon Solgaleo and upgrade Ash's Z-Ring into a [[Z-Power Ring]]. With a [[Solganium Z]] he received from Nebby, Ash activated Solgaleo's Z-Move, {{m|Searing Sunraze Smash}}, and had Nebby open up an Ultra Wormhole, allowing everyone to traverse through Ultra Space on Nebby's back. There, after Ash's Electrium Z temporarily transformed into a [[Pikashunium Z]], Ash and Pikachu used it to launch a {{m|10,000,000 Volt Thunderbolt}}. The attack defeated Nihilego, weakening it long enough for Lillie and Gladion to pull their mother free from its hold. The Pikashunium Z then reverted to an Electrium Z. With their mission finished, Lusamine was taken back through the Ultra Wormhole to the Altar of the Sunne.
+
+During Kukui and Burnet's wedding reception in the aftermath of the incident, Ash and his friends were invited to join an {{an|Ultra Beasts|Ultra Beast}} response task force, known as the [[Ultra Guardians]], which they all agreed to. On their first mission, Ash and his classmates were assigned to capture a {{DL|Ultra Beasts (anime)|Buzzwole}} that had appeared through an Ultra Wormhole. The Ultra Guardians encountered it at [[Mahalo Trail]], where Ash eventually realized it preferred flexing to battling. As a result, Ash and Kiawe distracted it long enough for the former to throw a [[Beast Ball]] at it, successfully capturing it. Later, Buzzwole was brought to [[Melemele Meadow]], where {{an|Professor Burnet}} temporarily opened a new wormhole, allowing Buzzwole to return home.
+[[File:Ash Ultra Guardian outfit.png|thumb|250px|Ash in his Ultra Guardian uniform]]
+Later, Ash encountered a {{AP|Poipole}} who seemed strangely attached to Pikachu. After a while, Poipole was confirmed to be an Ultra Beast. Ash was permitted to capture it, though he failed several times as Poipole thought the catching process was a game. After Ash helped it understand what was happening, Poipole allowed itself to be captured and was allowed to stay with the group until they could find its Ultra Wormhole and send it back.
+
+Ash attempted to participate in the [[Ula'ula Island]] challenge, but he was rejected by [[Nanu]] and lost in an impromptu "pre-trial". Afterward, Ash decided to stay on the island and train under {{DL|Guardian deities (anime)|Tapu Bulu}}. This allowed him to formally participate in his island challenge, which turned out to be a battle against [[Jessie's Mimikyu]], who recently gained a [[Mimikium Z]]. Ash barely won thanks to Pikachu learning {{m|Electroweb}}, as well as being able to once again use 10,000,000 Volt Thunderbolt. Finally, Ash participated in the grand trial, where he faced off against Nanu in a 3-on-1 battle in Nanu's favor and won, earning himself a [[Lycanium Z]].
+
+Ash led the Ultra Guardians' investigation into mysterious dark clouds that appeared over the Alola region, causing all of the adults in Alola to lose their energy and motivation. The cause was revealed to be a {{an|Necrozma}} pursuing a {{an|Lunala}}, which resulted in a massive battle against Necrozma. During this time, Nebby joined the fight; Necrozma possessed Lunala and then Nebby to become {{DL|List of Pokémon with form differences|Necrozma|Dawn Wings and Dusk Mane Necrozma}}, respectively; and the Ultra Guardians pursued Necrozma into [[Poipole's world]]. There, they learned about how Necrozma needed to regain its true form to release Nebby. After Ash and Gladion acquired Z-Crystals for Nebby and Lunala, the Ultra Guardians, with the help of their Pokémon, Lunala, Poipole's friends, and everyone else in Alola, shared their [[Z-Power]] with Necrozma, causing it to release Nebby. Afterward, Ash and Nebby used {{m|Searing Sunraze Smash}}, while Gladion and Lunala used {{m|Menacing Moonraze Maelstrom}} on Necrozma. The combined Z-Moves fully restored Necrozma's light, giving it the strength to become its true form, Ultra Necrozma. Afterward, the Ultra Guardians, Nebby, and Lunala traveled back to Alola through the Ultra Wormhole, while Ash said farewell to Poipole, who chose to stay behind in its world.
+
+Later, Ash and his classmates arrived on Poni Island for their research projects for school. Ash's project was to have a grand trial battle. In ''[[SM109|A Grand Debut!]]'', Ash battled the newly appointed island kahuna [[Hapu]] in a one-on-one battle and won. Letting Pikachu choose their reward for the completion, Ash received a [[Steelium Z]].
+[[File:Ash Champion.png|thumb|250px|left|Ash after winning the Manalo Conference]]
+Following this victory, Ash entered the first-ever [[Manalo Conference]], along with his classmates. He eventually made it to the semifinals, where he faced off against the [[Team Skull]] Boss [[Guzma]]. After a tough match, Ash was able to defeat him and advance to the finals, where he was set to face Gladion. On the night before the final battle, Ash's {{p|Meltan}} fused with {{OBP|Meltan|recurring|its fellow Meltan}}, evolving into {{AP|Melmetal}}, which Ash ended up using as his first Pokémon in the finals. The match eventually resulted in a battle between the two Trainers' {{p|Lycanroc}}, with [[Ash's Lycanroc]] eventually emerging victorious, thus earning Ash the title of Alola League {{pkmn|Champion}}.
+
+After winning the Alola League championship, Ash was given the right to have an {{wp|exhibition game|exhibition match}} against the Masked Royal. However, during a {{DL|Ultra Beasts (anime)|Guzzlord}} invasion of the [[Manalo Stadium]], the Masked Royal's true identity as Professor Kukui was exposed. With his cover blown, Kukui decided to battle Ash as himself and make the exhibition match a Full Battle, which Ash agreed to. During the battle, Ash's Torracat was finally able to defeat its longtime rival, [[Professor Kukui's Incineroar]], and evolve into an {{AP|Incineroar}} itself. Before Kukui could send out his last Pokémon, Tapu Koko appeared and took its place in the battle. When Ash was down to his last Pokémon, Pikachu, Tapu Koko gave Kukui a [[Tapunium Z]], while Ash's Electrium Z once again transformed into a Pikashunium Z, allowing both Pokémon to unleash their signature Z-Moves. In the end, Ash's Pikachu's Z-Move proved superior and defeated Tapu Koko, ending the exhibition match with Ash's victory.
+
+After the Manalo Conference had ended, Ash was left unsure of what to do next. However, after hearing [[Olivia]] mention how important knowing the "outside world" is, he decided to return home and start traveling around the world. After saying farewell to his classmates, Kukui, and Burnet, he boarded a plane back to Kanto, leaving all of his current [[party]] Pokémon (excluding Pikachu) under the two Professors' care.
+
+===={{aniseries|JN}}====
+[[File:Ash goal JN.png|thumb|250px|Ash's goal of battling Monarch Leon]]
+Sometime after his return to Kanto, Ash joined Professor Oak in attending the opening of the new [[Cerise Laboratory]] in [[Vermilion City]]. During the opening ceremony, the head of the lab, [[Professor Cerise]], informed the attendees that a rare Pokémon would be appearing at the local port shortly. Ash eagerly rushed over there and found out the rare Pokémon was a Lugia. During this encounter, he also met a boy named [[Goh]], and the two shared a ride with Lugia throughout Kanto. When they later returned to the Cerise Laboratory, Professor Cerise was amazed by the information they had gathered about Lugia, and he asked them to become his [[Professor's assistant|research assistants]]. They accepted the offer and were provided with their room to stay in. Delia also left Mimey at the lab to take care of Ash while he stayed there.
+
+Later, Ash and Goh traveled to the [[Galar]] region to watch the finals of the [[World Coronation Series]]. The match ended in the victory of Galar's undefeated Champion {{an|Leon}}, thus making him the Monarch, the official strongest Trainer in the {{pkmn|world}}. Inspired by this, Ash decided he wanted to battle Leon himself. However, before he could challenge him, a [[Gigantamax]] {{OBP|Drednaw|recurring}} went on a rampage and started causing havoc. While Ash and Goh battled it, Pikachu ended up Gigantamaxing as well, therefore giving him enough power to defeat Drednaw. Leon, impressed by Ash's performance, accepted his challenge to a battle. Ash also received a [[Dynamax Band]] from Leon. After Ash lost, he decided to take part in the World Coronation Series as well and climb through its ranks to one day challenge Leon again.
+
+Upon entering the World Coronation Series, Ash immediately started building up a winning streak, soon even reaching the Great Class after defeating Korrina. Ash's winning streak came to an end, however, when he encountered [[Bea]], a {{type|Fighting}} Gym Leader from Galar, who was also aiming to defeat Leon. In their two-on-two match at the [[Fighting Dojo]], Ash failed to defeat a single one of Bea's Pokémon, with her powerful {{p|Grapploct}} with its many limbs and {{m|Octolock}} proving especially troublesome. This crushing defeat caused Ash to start losing his self-confidence and led to him entering a losing streak, even resulting in him falling back into the Normal Class. This caused him to get depressed, until he was snapped back into his senses by a motivational speech from Goh. Thanks to this, he quickly fought his way back into the Great Class and challenged Bea to a rematch at the [[Cianwood Gym]], managing to tie with her this time.
+
+One night, Ash's Dynamax Band began to glow. After learning about cases of Pokémon [[Dynamax]]ing in Galar outside of {{cat|Power Spots}}, Ash and Goh headed there to investigate. Soon after arriving in the region, Ash and Goh ended up getting separated while in the [[Slumbering Weald]], where Ash encountered {{OBP|Zacian|recurring}}, whereas Goh encountered {{OBP|Zamazenta|recurring}}. Later, Ash encountered Leon and joined him in taking care of the Dynamax Pokémon rampaging around Galar. During this quest, they ended up encountering [[Rose|Chairman Rose]] and [[Oleana]], and Ash accompanied them to dine and spend a night at [[Rose Tower]]. When he departed the next day to rendezvous with Goh, {{TP|Leon|Eternatus}} emerged from the [[Hammerlocke]] [[Energy Plant]], starting the [[Darkest Day]] and prompting Ash to head there. At the [[Hammerlocke Stadium]], Ash re-encountered Rose and engaged him in a battle, eventually winning thanks to his newly evolved {{AP|Lucario}}. Reuniting with Goh, the two then engaged in a battle against Eternatus, after Leon had failed to stop it. With Zacian and Zamazenta's help, they successfully defeated Eternatus and sealed it away, ending the Darkest Day.
+[[File:Ash Chloe Dawn Goh.png|thumb|250px|left|Ash with Dawn, Goh, and Chloe]]
+Following his second battle with Bea, Ash entered another winning streak, steadily increasing his ranking. [[JN065|One day]], he received a letter from Iris, challenging him to a World Coronation Series battle. He happily accepted her invitation, but was later surprised to find out that Iris had succeeded [[Alder]] as the new Champion of Unova. After an intense battle, Ash defeated his former traveling companion and rose to the Ultra Class as a result. In his first Ultra Class battle, Ash was pitted against [[Volkner]] and succeeded in defeating him. Following the match, Volkner informed Ash that Cynthia was taking part in the World Coronation Series as well, and had managed to climb her way into the Master Class.
+
+Knowing that he was going to be facing very strong opponents in the Ultra and Master Classes, Ash sought Korrina's help to Mega Evolve his Lucario. After receiving a [[Key Stone|Mega Glove]] from Korrina, Ash traveled to [[Mega Island]] and managed to obtain himself a [[Lucarionite]], just in time to receive a message informing him that Bea was to be his next Ultra Class opponent. As such, Ash then traveled to [[Stow-on-Side]] to settle his score with Bea once and for all on her home turf. Using his newly acquired Mega Lucario, Ash was able to defeat Bea's Gigantamax {{p|Machamp}}, finally earning him a victory against his rival.
+
+After defeating Bea, Ash sought [[Allister]]'s help in Gigantamaxing his {{AP|Gengar}}. Thanks to the {{DL|Master Dojo|Max Soup}} made by him, Gengar was able to unlock its Gigantamax potential, which proved useful in Ash's World Coronation Series battle against [[Marnie]].
+
+His victories kept bringing Ash more and more fame as the rising star of Kanto, causing the news of his next Ultra Class battle, this one against [[Drasna]] of the Kalos [[Elite Four]], to gain widespread media attention. Following a reunion and a training session with Clemont and Bonnie, Ash took on Drasna and defeated her, putting him at the very top of the Ultra Class. As such, his next match was to be an entrance battle against [[Raihan]], the lowest-ranked Trainer in the Master Class. After briefly reuniting with Greninja in Kalos and having his Lucario train its [[Aura]] with it, Ash felt ready for the match. Raihan, Leon's long-time rival, gave Ash a very tough challenge, even forcing him to use Gengar's Gigantamax instead of Lucario's Mega Evolution to bypass his [[weather]] strategy. Eventually, however, Ash managed to win, officially putting him in the Master Class along with the other reigning regional Champions and Alain.
+
+[[File:Ash accessories.png|thumb|250px|Ash wearing his Z-Power Ring, Dynamax Band, and Mega Glove]]
+During a visit to the [[Crown Tundra]], Ash reunited with Lillie and her family just as they succeeded in finding Lillie's missing father, [[Mohn]]. He then proceeded to accompany them back to Alola, where he reunited with his Alolan family and friends. Ash also participated in a special [[Battle Royal]] that was organized to celebrate the homecoming of the Alola Champion. During the Battle Royal, the entire Alola region showed their support for Ash and encouraged him to win the [[Masters Eight Tournament]] as Alola's representative.
+
+After some hard training with his Pokémon kept at Professor Oak's lab and Paul, Ash traveled to Galar once more to participate in the Masters Eight Tournament, along with the rest of the Masters Eight, reuniting with Iris, Alain, and the other regional Champions. His first opponent was chosen to be {{an|Steven Stone|Steven}}. After watching the other quarterfinal battles, Ash and Steven began their battle. Although he had a tough time against the Hoenn Champion, Ash was eventually able to defeat him with the help of 10,000,000 Volt Thunderbolt, advancing him to the semifinals to face Cynthia. After witnessing Leon rather easily defeat Diantha, Ash took on Cynthia. Although Cynthia gained an early lead, Ash gradually evened the odds, until his Mega Lucario finally took home the victory, meaning that Ash and Leon's long-awaited battle was to finally happen.
+[[File:Ash winner.png|thumb|250px|left|Ash after becoming the new Monarch]]
+At the start of the finals, Leon surprised everyone by allowing Ash to use all three of Mega Evolution, Dynamax, and Z-Moves during the battle, which Ash accepted. During the climax of the battle, Eternatus appeared above Wyndon Stadium and granted both Trainers an additional use of Dynamax. The climactic showdown ended with a clash between Ash's Pikachu and [[Leon's Charizard]]. Ultimately, Ash's partner emerged victorious against the undefeated Charizard, fulfilling Ash's dream of defeating Leon and making him the new Monarch.
+
+Following the Masters Eight Tournament, Ash announced his intentions to set off on a new journey alone to continue learning more about Pokémon and achieve his goal of becoming a Pokémon Master. After departing from the Cerise Laboratory, Ash parted ways with Goh, who wished to go his way to achieve his dream.
+[[File:Ash Epilogue.png|thumb|250px|Ash resuming his journey with Pikachu]]
+Shortly after parting ways with Goh, Ash met an injured wild {{an|Latias}}. He helped to treat her injuries and protected her from being stolen by Team Rocket. As a result, she started to secretly follow him. Soon after, Ash reunited with Misty and Brock, who joined him in his travels once more as they continued to help out Pokémon in need and reunite with Ash's other old friends like Cilan, the [[Squirtle Squad]], and his Lapras. Latias eventually reappeared before Ash and requested his help in saving a {{p|Latios}} from a {{OBP|Pokémon hunter|JN146}}. Once the hunter had been stopped, the duo bid farewell to Ash and his friends. He decided to return to Pallet Town following this, with Brock and Misty also deciding to return to their respective hometowns, although not before expressing a desire to travel again in the future. After returning home, Ash reunited with Tracey and his Pidgeot, the latter of whom returned to his party. During an encounter with Gary, he was asked how close he was to becoming a Pokémon Master now that he had become the Monarch. After spending a while pondering the answer, Ash deduced that to him, a Pokémon Master is a person who can befriend any Pokémon. Since he had failed to truly befriend Latios despite helping him, he figured he still had to work more to achieve his dream. As such, he resolved to resume traveling and left Pallet Town with Pikachu once more.
+
+===Character===
+[[File:Ash and Delia.png|thumb|250px|left|Ash and his mother]]
+Ash is an only child who lived with his mother {{Delia}} until he left for his [[Pokémon journey]] at the age of ten. His main goal in life, as described in [[EP001|the first episode]], is to be the world's greatest [[Pokémon Master]]. One particular characteristic about Ash that has not changed throughout the series, aside from his determination and his passion for raising and training Pokémon, is that he is incredibly selfless. He will often go to extraordinary lengths to earn a Pokémon's trust and respect and to better understand a Pokémon that he sees as troubled. He is also very fair-minded and trusting, a true testament to his good-natured character.
+
+Ash has a strong sense of justice, especially when it comes to Pokémon. If a Pokémon is in trouble, he will make every effort to help them, even if he has no prior connection to them. If they are the cause of trouble, he will stop them, and then try to understand them, with almost all such occasions being a case of the Pokémon, or their Trainers or friends, having a problem which can't be resolved normally. In those cases, he will selflessly volunteer to help them. As shown on several occasions, such as in ''[[XY002|Lumiose City Pursuit!]]'' and ''[[JN137|The Road Most Traveled!]]'', he is even willing to put his own life in danger to help Pokémon. Should the problem be caused by [[human]]s, such as {{TRT}}, [[Pokémon hunter|Pokémon thieves, hunters, or poachers]], Ash will resolve to do anything in his power to stop them.
+
+Despite this and previous dealings with villainous teams, Ash has retained a remarkably optimistic and naive outlook, a trait {{ashfr|his companions}} seem to share. He is quick to praise and has an unshakable trust in both his Pokémon and his friends. Also, Ash is determined to see the best in everybody unless he has a very good reason not to. An example would be Team Rocket's frequent "sudden appearances" that coincide with their needs at that time, and Ash never questioning it until it is too late. Another example would be how he always praises {{an|Clemont}} for [[Clemontic Gear|his inventions]], no matter their high failure rate, and the near-inevitable explosion, or {{an|Cilan}} for his various hobbies. Furthermore, even though almost all of his friends have large dreams, Ash fully supports them and has never doubted their ability to accomplish them, possibly due to his own highly ambitious goal. He also encourages Pokémon to do the best they can, even if they aren't his own, and has even helped train [[wild Pokémon]].
+
+In the [[original series]], though Ash actively took part in {{pkmn|battle}}s, he was rarely seen independently {{pkmn|training}} his Pokémon. However, since {{aniseries|RS}}, Ash is shown training more noticeably, having practice battles with his friends and focusing on [[move]]s, techniques, and strategies with his Pokémon. A noticeable trait of Ash's is his willingness to learn from both his victories and defeats. For example, after winning in a [[Gym]] battle against [[Winona]] in ''[[AG085|Sky High Gym Battle!]]'' and witnessing her Pokémon's powerful {{m|Aerial Ace}}, Ash was motivated to have his {{AP|Swellow}} learn it. Even his losses can inspire him, such as when he lost to [[Clayton]] in ''[[DP159|Short and To the Punch!]]'' and decided to teach his {{AP|Buizel}} {{m|Ice Punch|one of the moves}} Clayton's {{p|Mr. Mime}} had used during their battle. He believes nothing he and his Pokémon do on their journey is a waste of time.
+
+In the beginning of the series, Ash had a bit of an inferiority complex, as well as some form of personal pride, most likely stemming from his [[rival]]ry with {{Gary}}. As a result, he had some bad habits, such as shamelessly boasting of his skill if he were ever on a winning streak, and becoming angered easily if he were personally insulted, as seen in ''[[EP008|The Path to the Pokémon League]]''. Ash used to complain about perfectly legal things, like [[Giselle]]'s {{p|Cubone}} using a bone in ''[[EP009|The School of Hard Knocks]]'', or [[Blaine]]'s use of the lava in ''[[EP059|Volcanic Panic]]''. He even locked himself up in his room and sulked after losing to [[Ritchie]], although this anger was not entirely unfounded as the loss came as a result of both his {{AP|Charizard}}'s disobedience and Team Rocket wearing out his other Pokémon before the match began. He overcame his disappointment after seeing and listening to how Ritchie took his loss as a way to better himself as a Trainer in ''[[EP080|Friends to the End]]''. Fortunately, during his journey, Ash has gotten over this particular character trait and is now more accepting of criticism of his skill, though he still gets upset if his Pokémon are insulted or degraded.
+
+[[File:Ash and Paul.png|thumb|250px|Ash and Paul]]
+Perhaps one of Ash's greatest rivalries was against [[Paul]] during his time in the [[Sinnoh]] region. On the contrary of Ash, who strongly believed in the [[Friendship|bond between Trainer and Pokémon]], Paul's only concern was with a Pokémon's strength, believing that bonding only caused them to become spoiled and unmotivated. Due to this, aside from winning the [[Sinnoh League]], Ash's biggest goal during his Sinnoh travels was to ultimately change Paul's mindset and have the latter finally acknowledge him as a Trainer worthy of his attention. After a long and exhausting journey, he finally managed to accomplish this after defeating Paul at the [[Lily of the Valley Conference]], after which Paul finally recognized Ash as his rival and equal.
+
+In most episodes of the series, especially those during the [[Johto League]] arc, Ash befriends someone who will influence him and cause him to strive to become a better Trainer. Although he is not a dependent individual, he is still young and has learned to make his way relying on his friends, particularly the maternal skills of {{an|Brock}}. The honor of "best friend" is usually reserved for Pikachu, but Ash has come to see his closest human friends in the same light over time; using the term for {{an|Misty}} and Brock in ''[[EP273|Gotta Catch Ya Later!]]'' as well as {{an|May}} and [[Max]] in ''[[AG178|Battling the Enemy Within]]''.
+
+Ash has changed a great deal throughout the series, particularly regarding his skill at [[Pokémon training]], but his earnestness, rashness, and determination have remained. Never straying from his goal, he has remained loyal to his friends, family, and supporters, but most of all his Pokémon. Ash became a great Trainer by learning to find and use the inner strength of each of his Pokémon by bonding with them. For example, when he received a banner filled with prints from his Pokémon in ''[[AG187|The Unbeatable Lightness of Seeing!]]'', he knew which Pokémon placed specific prints, showing his close bond with them. He also learns where their hidden abilities lie, as well as resorting to unorthodox strategies when fighting particularly challenging opponents. For example, he uses his Pikachu's speed to outmaneuver larger foes and attack. In another instance, his Charizard defeated [[Gary's Blastoise]] by causing the field to overheat before mounting a close-quarters attack while Blastoise was blinded by the steam. He also prefers to train a Pokémon to be the best it can be without forcing it to [[Evolution|evolve]], as evidenced by his treatment of {{AP|Gligar}} in ''[[DP085|Fighting Fear With Fear!]]''. He is happy when his Pokémon evolve but lets them choose whether or not they want to evolve instead of forcing them.
+
+[[File:Ash catches a Pokémon JN.png|thumb|250px|left|Ash after catching a Pokémon]]
+Physically, Ash is in very good shape, especially for someone 10 years of age. He has a lot of stamina, walking miles upon miles through all kinds of environments while journeying between towns on his journey. He also has huge endurance, as seen when he took powerful attacks from various Pokémon head-on and then recovering quite quickly. Furthermore, Ash has demonstrated himself to be a bit acrobatic, occasionally being able to keep up with {{an|Iris}}, who virtually grew up swinging and jumping through treetops. Ash has occasionally displayed great reflexes, being able to dodge attacks or catch falling objects out of the blue, and even being able to save himself, or others, in the last second during perilous situations. What's more, Ash has exhibited tremendous willpower, as seen when he took attacks for long periods and keeps advancing, which also drives his "never give up" attitude when it comes to Pokémon battles. He is also strong, being capable of picking up heavy Pokémon such as Larvitar and Hippopotas.
+
+Ash is also quite dense when it comes to matters of the field of romance. Throughout the series, Ash has only displayed open interest in a [[Giselle|female]] only [[EP009|once]], and nothing came out of it. Though some girls in the series have shown obvious affection towards him, Ash meets it with nearly unfailing obtuseness, which some characters have also noticed. Even when it involves other people's romance, Ash is usually oblivious until someone points it out to him. Also, on a few occasions when it came to a matter of Pokémon love, with a male who's experiencing difficulty in gaining the attention of a female, while his friends will often mainly advise on improving the male's looks or charm, Ash's advice is simply to be stronger. Despite this, however, it is shown on several occasions that Ash does seem to understand the concept of marriage, most notably in ''[[SM055|The Professors' New Adventure]]'', when he got excited by the news of {{an|Professor Kukui}} and {{an|Professor Burnet}}'s engagement, and subsequently worked with his classmates to organize a big wedding ceremony for them.
+
+Early on, Ash originally trained not to further himself but instead to catch more Pokémon than Gary, a feat that he never accomplished. Ash later slowed his pace, which allowed him to focus on the individual traits of each Pokémon. At the [[Silver Conference]], with great humility and maturity, Ash finally won a battle against his old rival, signifying a great milestone in his history as a Trainer. His maturity has also increased in his dealings with Pokémon. This was shown when {{AP|a Mankey|Primeape}} stole his {{AP|hat}} in ''[[EP025|Primeape Goes Bananas]]'', he screamed and yelled at it, even climbing trees just to get his hat back, but when an {{AP|Aipom}} did the same in ''[[AG179|Slaking Kong]]'', he stated merely that he would feel strange without a hat. When Aipom stole his hat again on several future occasions, however, while she was under his ownership, he chased after her in the same manner as before, most likely out of exasperation that she still hadn't learned her lesson.
+
+Ash has traversed much of the [[Pokémon world]] and has thus far participated in various [[Pokémon League Conference]]s, but he is still learning new things about Pokémon all the time. He has also gained a close connection with many {{pkmn2|Legendary}} and [[Mythical Pokémon]], such as the ones who played major roles in the {{pkmn|movie}}s. In the English dub [[M02|second movie]], he was revealed to be "The Chosen One" - the one who would bring balance back to the world when it was disrupted.
+[[File:Ash Aura.png|thumb|250px|Ash using Aura inside the [[Tree of Beginning]]]]
+Ash possesses some special abilities as he has the rare ability to use [[Aura]]. He is said to have the same Aura as [[Sir Aaron]], a legendary hero, and is theoretically able to manipulate it in much the same way. Therefore, he made a connection with Sir Aaron's {{OBP|Lucario|M08}}. However, he has not received any training in this field, opting to continue his Pokémon journey instead. He has also been likened to an ancient Aura guardian in ''[[DP056|The Keystone Pops!]]'', who also had a partner {{p|Pikachu}}. Later, in ''[[DP071|Pokémon Ranger and the Kidnapped Riolu! Part 1]]'' and ''[[DP072|Part 2]]'', Ash uses Aura again to locate a lost [[Aura Sphere Riolu|Riolu]] and read its mind as well. This time, however, he merely senses the Aura, rather than manipulating it. In ''[[JN021|Caring for a Mystery!]]'', an unhatched {{p|Riolu}} reacted to Ash's Aura, and he was able to sense the Egg's response, leading him to it. Ash also has the unique ability to use [[Bond Phenomenon]]. After he obtained a [[Key Stone]], Ash's Aura powers were enhanced significantly, allowing him and his {{AP|Lucario}} to sense each other from a great distance away. After training with {{AP|Greninja}}, Ash and Lucario were able to synchronize their Auras even better, allowing Lucario to make its {{m|Aura Sphere}} grow into massive proportions by drawing power from the Auras of its allies.
+
+Though his passion remains in battling, Ash is always eager to try new things, especially if he can do them together with {{cat|Ash's Pokémon|his Pokémon}}, having participated in other events like [[Pokémon Contest]]s, [[PokéRinger]] tournaments, and even a [[Hearthome Collection|fashion show]] and a {{pkmn|Dress-Up Contest|cosplay convention}} as well as various other {{cat|Pokémon competitions}}. He has [[Contest Pass]]es for [[Sinnoh]] and [[Hoenn]]. Ash carries with him half of a broken {{i|Poké Ball}}, while [[Gary Oak]] has the other half, as a symbol of their ongoing, but now friendly, rivalry; [[Misty's special lure]], which she sent to him as a gift; and half of the {{DL|Ribbon|Terracotta Medal}} he received after his [[Contest Battle]] with May in the unofficial {{to|Terracotta}} Contest ended in a tie.
+[[File:Ash Alolan Family.png|thumb|250px|left|Ash and his Alolan family]]
+His father has not been introduced. The series suggests that his father was once a Pokémon Trainer who began his journey in Pallet Town and that he is still living. In the original, he is also confirmed to have a grandfather, whose son followed his footsteps. An interview with the series storyboard artist [[Masamitsu Hidaka]] confirmed Ash's father is a Trainer on his own journey. According to Hidaka, Ash's father may or may not be introduced in the series, depending on its necessity to further Ash's maturity and development as a Trainer. On the other hand, according to [[Pocket Monsters: The Animation|Takeshi Shudō's novelization]], Ash's father left home to go on a journey right after Ash was born and never returned since. As he never registered his name in the Pokémon Trainer's list, his whereabouts are unknown. However, during his time in [[Alola]], Ash's family expanded with Professor Kukui and Professor Burnet, as shown in ''[[SM084|The Shape of Love to Come!]]'', when [[Mina]] was making a family portrait of them and agreed with {{an|Lana}} when she called the Professors his Alolan family. Ash also gets an Alolan brother in Professor Kukui and Professor Burnet's son, [[Lei]], as seen in ''[[JN037|That New Old Gang of Mine!]]''.
+
+Once he gained the title of {{pkmn|Champion}} in the Alola region, Ash became a local celebrity there, as seen in ''[[JN076|All Out, All of the Time!]]'' and ''[[JN112|Helping the Hometown Hero!]]''. After becoming the [[World Coronation Series]] Monarch, Ash became a more recognized figure in other regions, as seen in ''[[JN141|A Squad's Worth of Passion!]]''.
+{{left clear}}
+
+===Pokémon===
+<!--Only confirmed genders are listed. Half-confirmed genders, such as dub only, do not count.-->
+[[File:Ash with his Pokémon JN114.png|thumb|left|250px|Ash with his team and Pokémon at Oak's lab as of ''[[JN114|Friends, Rivals, Lend Me Your Spirit!]]'']]
+[[File:Ash Released Pokémon.png|thumb|250px|Some of the Pokémon Ash formerly traveled with (plus the [[Pink Butterfree]])]]
+As a Trainer, Ash has {{pkmn2|caught}} and [[Friendship|befriended]] a sizable number of {{OBP|Pokémon|species}} throughout his [[Pokémon journey]]. His philosophy on {{pkmn|training}} is that Pokémon are individuals, and that a combination of trust, friendship, and hard work are needed to overcome adversity. Most of Ash's Pokémon were caught because they allowed him to after he befriended them. He seems to {{pkmn|battle}} best with Pokémon that are similar to Pikachu—ones that are [[Appendix:Metagame terminology#Sweeper|speedy and maneuverable, yet able to perform high-powered attacks]]—however, he is willing to work with any Pokémon that comes into his care.
+
+Ash's battle style is generally spontaneous and fairly unorthodox, and his Pokémon often reflect these traits. He often ignores type advantages and has been shown to use unusual strategies. For instance, during {{aniseries|DP}}, he incorporated a twisting-spinning maneuver into his Pokémon's attacks, which eventually led to him creating the original technique, [[Counter Shield]]. He occasionally takes inspiration from other Trainers' battle styles, and has even used their strategies to enhance his own as shown with {{an|Dawn}}, [[Paul]], and {{an|Tierno}}, although he tends to be most comfortable using his own unique strategy and has stated it to be the one he can truly count on.
+
+Ash is very attached to his Pokémon and prefers to [[Friendship|bond]] with them through battling and training. Furthermore, he cares about their opinion, even giving them the option of whether they should [[Evolution|evolve]] or not. As such, the majority of his Pokémon also share Ash's stubborn and reckless nature, persistently attempting to rise and continue battling, even after receiving a great amount of damage and being at the end of their rope. However, if it is by their wish, or if he believes it is best for them, Ash will—if sometimes reluctantly—[[trade]] or [[Released Pokémon|release]] them, and in some cases, leave them with more experienced individuals so that they can train and get stronger. If Ash ever accidentally upsets his Pokémon, he will work hard to make amends and repair the bond with them.
+
+Though Ash normally catches five or more Pokémon per [[series]], he rarely ever switches the Pokémon in his current [[party]] with those in [[Pokémon Storage System|storage]] or with other Trainers. He usually only does so for important battles (such as [[Pokémon League Conference]] or {{gdis|Battle Frontier|III}} matches), or when attending certain events that require a specific Pokémon (like {{AP|Tauros}} at the [[Pokémon Swap Meet]] or {{AP|Snorlax}} at the [[Sumo Conference]]). He does allow his Pokémon to rejoin his team if they directly request it, such as when {{AP|Phanpy}} approached him after his [[Hoenn]] journey or when {{AP|Aipom}} stowed away on the boat to [[Sinnoh]]. He also added {{AP|Charizard}} to his [[Unova]] party after being reminded of it by the [[Kanto Fair]], but would not regularly rotate his full roster of Pokémon until ''[[To Be a Pokémon Master|Pokémon: To Be a Pokémon Master]]''.
+
+At the end of each series, Ash will typically leave behind all of his current Pokémon (sans Pikachu) at {{an|Professor Oak}}'s [[Professor Oak's Laboratory|Laboratory]], a trait inspired by {{Gary}} at the end of the [[Silver Conference]]. During {{aniseries|BW}}, Ash's Unova Pokémon were instead kept in storage at [[Professor Juniper]]'s lab in [[Nuvema Town]] when not in his party, but after Ash left Unova to travel through the [[Decolore Islands]], Professor Juniper transferred these Pokémon to Professor Oak. At the end of {{aniseries|SM}}, he chose to leave his [[Alola]] Pokémon with {{an|Professor Kukui|Professors Kukui}} and {{an|Professor Burnet|Burnet}}.
+
+Ash currently has ownership of 78 Pokémon, including all 30 of his Tauros. Including pre-evolved forms, traded, released, and [[Gift Pokémon|given away]] Pokémon (and not including the additional Tauros), in total, Ash has officially owned a total of 98 different Pokémon species (102 if Larvitar and Solgaleo are included). 
+
+<gallery widths="175">
+Ash Kanto Pokémon JN132.png|Ash's original six Pokémon from {{aniseries|OS}}
+Ash Kanto Pokémon JN132 2.png|Ash's other Pokémon from {{aniseries|OS}}
+Ash Johto Pokémon JN132.png|Ash's Pokémon from {{aniseries|GS}}
+Ash Hoenn Pokémon JN132.png|Ash's Pokémon from {{aniseries|AG}}
+Ash Sinnoh Pokémon JN132.png|Ash's Pokémon from {{aniseries|DP}}
+Ash Unova Pokémon JN132.png|Ash's Pokémon from {{aniseries|BW}}
+Ash Kalos Pokémon JN132.png|Ash's Pokémon from {{aniseries|XY}}
+Ash Alola Pokémon JN132.png|Ash's Pokémon from {{aniseries|SM}}
+Ash Journeys Pokémon JN132.png|Ash's Pokémon from {{aniseries|JN}}
+Ash with his Pokémon.png|Ash with his Pokémon as of ''[[BW142|The Dream Continues!]]'' (excluding {{AP|Pidgeot}}, {{AP|Squirtle}}, {{AP|Primeape}}, and [[Mimey|Mr. Mime]]) at [[Professor Oak's Laboratory]]
+To Be a Pokémon Master poster.png|Every Pokémon Ash has traveled with on a poster for ''Pokémon: To Be a Pokémon Master''
+</gallery>
+
+====On hand====
+As of ''[[JN137|The Road Most Traveled!]]'', Ash has begun rotating his team with Pokémon from Professor Oak's Lab and Kukui's home. The only fixed member of his team is Pikachu.
+{| width="100%"
+|-
+| {{ActivePoké|Ash|Pikachu|Ash Pikachu.png|electric|link=Ash's Pikachu}} [[File:Dynamax icon.png|25px|link=Gigantamax]] ♂
+|
+|
+|}
+
+====Traveling with====
+{| width="100%"
+|-
+| {{ActivePoké|||nick=Rotom Phone|Ash Rotom Phone.png|electric|ghost|link=Rotom Phone}}
+|
+|
+|}
+
+====With Professor Oak/In rotation====
+<!--Do NOT move Squirtle here, it is speculation to guess whether Rotom was at Oak's lab or not, the wording was too vague.-->
+This section shows the Pokémon that Ash keeps at [[Professor Oak's Laboratory]].
+<div class="scrollbox">
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Pidgeot|Ash Pidgeot.png|normal|flying|fir=Pidgeotto|size=200px}}
+| {{InactivePoké|Ash|Bulbasaur|Ash Bulbasaur.png|grass|poison|size=200px}}
+| {{InactivePoké|Ash|Charizard|Ash Charizard.png|fire|flying|fir=Charmander|mid=Charmeleon|size=200px}} ♂
+| {{InactivePoké|Ash|Kingler|Ash Kingler.png|water|fir=Krabby}}
+|-
+| {{InactivePoké|Ash|Muk|Ash Muk.png|poison|size=150px}}
+| {{InactivePoké|Ash|Tauros|Ash Tauros.png|normal|disp=Tauros (×30)|size=200px}} ♂
+| {{InactivePoké|Ash|Snorlax|Ash Snorlax.png|normal|size=200px}}
+| {{InactivePoké|Ash|Heracross|Ash Heracross.png|bug|fighting|size=200px}} ♂
+|-
+| {{InactivePoké|Ash|Bayleef|Ash Bayleef.png|grass|fir=Chikorita|size=200px}} ♀
+| {{InactivePoké|Ash|Quilava|Ash Quilava.png|fire|fir=Cyndaquil|size=200px}}
+| {{InactivePoké|Ash|Totodile|Ash Totodile.png|water|size=200px}} ♂
+| {{InactivePoké|Ash|Noctowl|Ash Noctowl.png|normal|flying|size=200px}} {{shinystar|SV}}
+|-
+| {{InactivePoké|Ash|Donphan|Ash Donphan.png|ground|fir=Egg|mid=Phanpy|size=200px}}
+| {{InactivePoké|Ash|Swellow|Ash Swellow.png|normal|flying|fir=Taillow|size=200px}}
+| {{InactivePoké|Ash|Sceptile|Ash Sceptile.png|grass|fir=Treecko|mid=Grovyle|size=200px}}
+| {{InactivePoké|Ash|Corphish|Ash Corphish.png|water|size=200px}} ♂
+|-
+| {{InactivePoké|Ash|Torkoal|Ash Torkoal.png|fire|size=200px}}
+| {{InactivePoké|Ash|Glalie|Ash Glalie.png|ice|fir=Snorunt|size=156px}}
+| {{InactivePoké|Ash|Staraptor|Ash Staraptor.png|normal|flying|fir=Starly|mid=Staravia|size=200px}}
+| {{InactivePoké|Ash|Torterra|Ash Torterra.png|grass|ground|fir=Turtwig|mid=Grotle|size=200px}} ♂
+|-
+| {{InactivePoké|Ash|Infernape|Ash Infernape.png|fire|fighting|fir=Chimchar|mid=Monferno|size=200px}} ♂
+| {{InactivePoké|Ash|Buizel|Ash Buizel.png|water|size=200px}} ♂
+| {{InactivePoké|Ash|Gliscor|Ash Gliscor.png|ground|flying|fir=Gligar|size=200px}}
+| {{InactivePoké|Ash|Gible|Ash Gible.png|dragon|ground|size=200px}} ♂
+|-
+| {{InactivePoké|Ash|Unfezant|Ash Unfezant.png|normal|flying|fir=Pidove|mid=Tranquill|size=200px}} ♀
+| {{InactivePoké|Ash|Oshawott|Ash Oshawott.png|water|size=200px}} ♂
+| {{InactivePoké|Ash|Pignite|Ash Pignite.png|fire|fighting|fir=Tepig|size=200px}} ♂
+| {{InactivePoké|Ash|Snivy|Ash Snivy.png|grass|size=200px}} ♀
+|-
+| {{InactivePoké|Ash|Scraggy|Ash Scraggy.png|dark|fighting|fir=Egg|size=200px}} ♂
+| {{InactivePoké|Ash|Leavanny|Ash Leavanny.png|bug|grass|fir=Sewaddle|mid=Swadloon|size=200px}} ♂
+| {{InactivePoké|Ash|Palpitoad|Ash Palpitoad.png|water|ground|size=200px}} ♂
+| {{InactivePoké|Ash|Boldore|Ash Boldore.png|rock|rock|fir=Roggenrola|size=200px}}
+|-
+| {{InactivePoké|Ash|Krookodile|Ash Krookodile.png|ground|dark|fir=Krokorok|size=200px}} ♂
+| {{InactivePoké|Ash|Talonflame|Ash Talonflame.png|fire|flying|fir=Fletchling|mid=Fletchinder|size=200px}}
+| {{InactivePoké|Ash|Hawlucha|Ash Hawlucha.png|fighting|flying|size=200px}} ♂
+| {{InactivePoké|Ash|Noivern|Ash Noivern.png|flying|dragon|fir=Egg|mid=Noibat|size=200px}} ♂
+|-
+| {{InactivePoké|Ash|Dragonite|Ash Dragonite.png|dragon|flying|size=200px}}
+| {{InactivePoké|Ash|Gengar|Ash Gengar.png|ghost|poison|link=Ash's Gengar|size=200px}} [[File:Dynamax icon.png|25px|link=Gigantamax]]
+| {{InactivePoké|Ash|Lucario|Ash Lucario.png|fighting|steel|nick=Egg → Riolu → Lucario|link=Ash's Lucario|size=200px}} {{MegaIcon}}
+| {{InactivePoké|Ash|Sirfetch'd|Ash Sirfetch'd.png|fighting|fir=Farfetch'd|size=200px}}
+|-
+| {{InactivePoké|Ash|Dracovish|Ash Dracovish.png|water|dragon|fir=Fossilized Drake and Fish|size=200px}}
+|}
+</div>
+
+====With Kukui and Burnet/In rotation====
+This section shows the Pokémon that Ash keeps at {{an|Professor Kukui}} and {{an|Professor Burnet|Burnet}}'s house.
+
+<div class="scrollbox">
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Rowlet|Ash Rowlet.png|grass|flying|size=200px}}
+| {{InactivePoké|Ash|Lycanroc|Ash Lycanroc.png|rock|fir=Rockruff|size=200px}}
+| {{InactivePoké|Ash|Incineroar|Ash Incineroar.png|fire|dark|fir=Litten|mid=Torracat|size=200px}}
+| {{InactivePoké|Ash|Melmetal|Ash Melmetal.png|steel|fir=Meltan|size=200px}}
+|}
+</div>
+
+====At home====
+This section shows the Pokémon that Ash keeps with {{Delia}} at home.
+
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Mr. Mime|Mimey.png|psychic|fairy|link=Mimey|size=200px}}<!--Do NOT change the name to Mimey, Ash does not refer it by that name.-->
+|
+|
+|
+|}
+
+====In training====
+<!--Ash still owns Primeape as far as it is known. Do not change it.-->
+This section is for the Pokémon that Ash still owns but are in the care of another Trainer or a group of other Pokémon.
+
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Squirtle|Ash Squirtle.png|water|size=200px}}
+| {{InactivePoké|Ash|Primeape|Ash Primeape.png|fighting|size=200px}}
+|
+|
+|}
+
+====Released====
+<!--Do NOT move Ash's Goodra from the released section to the In Training section. Goodra returned to its homeland, not to Keanan.-->
+This section is for Pokémon that Ash formally {{pkmn2|released}} into the {{pkmn2|wild}}. 
+<div class="scrollbox">
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Butterfree|Ash Butterfree.png|bug|flying|fir=Caterpie|mid=Metapod}} ♂
+| {{InactivePoké|Ash|Lapras|Ash Lapras.png|water|ice|size=200px}}
+| {{InactivePoké|Ash|Greninja|Ash Greninja.png|water|dark|disp=Froakie → Frogadier → Greninja ↔ Ash-Greninja|size=200px}}
+| {{InactivePoké|Ash|Goodra|Ash Goodra.png|dragon|fir=Goomy|mid=Sliggoo|size=200px}}
+|-
+| {{InactivePoké|Ash|Naganadel|Ash Naganadel.png|poison|dragon|fir=Poipole|size=200px}}
+|}
+
+In addition, Ash also parted ways with the following Pokémon, despite never formally catching them in a Poké Ball. These Pokémon are shown alongside official captures in recaps of Ash's team, such as in ''[[JN132|Partners in Time!]]''.
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Larvitar|Ash Larvitar.png|rock|ground|fir=Egg}}
+| {{InactivePoké|Ash|Solgaleo|Nebby Solgaleo anime.png|psychic|steel|disp=Nebby|link=Ash's Solgaleo|size=200px}}
+|
+|
+|}
+
+=====Temporarily owned=====
+{{main|List of Pokémon temporarily owned by Ash Ketchum}}
+This section is for the Pokémon Ash temporarily caught and released within a single episode. ''For encyclopedic purposes, [[Bulbapedia]] does not consider these to be official captures.''
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Seaking|Ash Seaking.png|water|link=List of Pokémon temporarily owned by Ash Ketchum#Seaking}}
+| {{InactivePoké|Ash|Buzzwole|Buzzwole anime.png|bug|fighting|link=Ultra Beasts (anime)#Buzzwole|size=200px}}
+| {{InactivePoké|Ash|Stakataka|Stakataka anime.png|rock|steel|link=Ultra Beasts (anime)#Stakataka|size=200px}}
+| {{InactivePoké|Ash|Pheromosa|Pheromosa anime.png|bug|fighting|link=Ultra Beasts (anime)#Pheromosa|size=200px}}
+|-
+| {{InactivePoké|Ash|Rowlet|Ash Temporary Rowlet.png|grass|flying|link=List of Pokémon temporarily owned by Ash Ketchum#Rowlet|size=200px}}
+|}
+</div>
+
+====Traded away====
+This section is for the Pokémon that Ash [[Trade|traded away]].
+
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Raticate|Ash Raticate.png|normal}}
+| {{InactivePoké|Dawn|Ambipom|Ash Aipom.png|normal|disp=Aipom}} ♀
+|
+|
+|}
+
+====Given away====
+This section is for the Pokémon that Ash {{pkmn2|gift|gave}} to another Trainer to keep for themselves.
+
+{| width="100%"
+|-
+| {{InactivePoké|Casey|Beedrill|Ash Beedrill.png|bug|poison}}
+|
+|
+|
+|}
+
+====Traveled with====
+This section is for the Pokémon that Ash traveled together or bonded with for a while but never officially caught.
+
+{| width="100%"
+|-
+| {{InactivePoké|Sabrina|Haunter|Sabrina Haunter.png|ghost|poison}}
+| {{InactivePoké||Azelf|Azelf anime.png|psychic|link=Lake guardians (anime)|size=200px}}
+| {{InactivePoké||Meowth|Meowth Team Rocket.png|normal|link=Meowth (Team Rocket)|size=200px}} ♂
+| {{InactivePoké|||nick=Meloetta|Meloetta Aria Forme anime.png|normal|psychic|link=Meloetta (anime)|size=200px}}
+|-
+| {{InactivePoké|||nick=Rotom Pokédex|Rotom Pokédex anime.png|electric|link=Rotom Pokédex (anime)|size=200px}}
+| {{InactivePoké||Latias|Latias anime.png|dragon|psychic|link=Latias (anime)|size=200px}} ♀
+|
+|
+|}
+
+====Ride Pokémon====
+This section shows the Pokémon that Ash used as a [[Poké Ride|Ride Pokémon]] while in [[Alola]]. 
+{| width="100%"
+|-
+| {{InactivePoké|Ash|Sharpedo|Ash Sharpedo.png|water|dark|link=Ride_Pok%C3%A9mon|size=200px}}
+| {{InactivePoké|Ash|Tauros|Ash Kiawe Tauros.png|normal|link=Ride_Pok%C3%A9mon|size=200px}} ♂
+| {{InactivePoké|Ash|Lapras|Ash Ride Lapras.png|water|ice|link=Ride_Pok%C3%A9mon|size=200px}}
+| {{InactivePoké|Ash|Pelipper|Ash Pelipper.png|water|flying|link=Ride_Pok%C3%A9mon|size=200px}}
+|-
+| {{InactivePoké|Ash|Stoutland|Ash Ride Stoutland.png|normal|link=Ride_Pok%C3%A9mon|size=200px}}
+| {{InactivePoké|Ash|Garchomp|Ash Garchomp.png|dragon|ground|link=Ultra_Guardians#Ride_Pok%C3%A9mon|size=200px}} ♂
+| {{InactivePoké|Ash|Mudsdale|Poke Ride Mudsdale.png|ground|link=Ride_Pok%C3%A9mon|size=200px}}
+| {{InactivePoké|Ash|Mantine|Ash Mantine.png|water|flying|link=Ride_Pok%C3%A9mon|size=200px}}
+|}
+
+===Achievements===
+[[File:Ash Trophy Display JN002.png|thumb|250px|Ash's Badge and trophy collection]]
+{{main|Ash's achievements}}
+{{:Ash's achievements}}
+
+===Outfits===
+{{main|Ash's clothing}}
+All of Ash's main outfits are highlighted by [[Ash's hat|his hat]]. They often strongly feature the colors red and blue, along with black, white, green, and golden yellow. These are primary and bold colors, accenting Ash's primary status in the series. Ash has also worn a number of other outfits and clothing items throughout the series relevant to the varying plots and settings of episodes. This includes his various battle accessories, including his [[Z-Power Ring]], [[Dynamax Band]], and [[Mega Glove]].
+
+===Voice actors===
+{{vatable
+| color = {{X color light}}
+| bordercolor = {{power color light}}
+| ja = 松本梨香 ''[[Rica Matsumoto]]''<br>武田華 ''[[Hana Takeda]]'' (age 6; [[JN001]])
+| en = [[Veronica Taylor]] ([[EP001]]-[[AG145]], [[M01]]-[[M08]], [[A Sneak Peek at Pokémon]], [[Mewtwo Returns]]) <br> [[Sarah Natochenny]] ([[AG146]]-present, [[M09]]-present, [[The Mastermind of Mirage Pokémon]] redub) <br> [[Kayzie Rogers]] ([[The Mastermind of Mirage Pokémon]] original dub)
+| zh_cmn = 賀世芳 ''Hè Shìfāng'' ([[EP001]]-[[EP081]], [[EP117]]-[[EP259]])<br>李明幸 ''Li Míngxìng'' ([[EP082]]-[[EP116]])<br>汪世瑋 ''Wāng Shìwěi'' ([[EP260]]-present)<br>張晔 ''Ye Zhang'' ([[M22]])
+| ar = بثينة شيا ''Buthaina Shaya'' ([[EP001]]-[[EP105]])<br>منى مجذوب ''Mona Majzoub'' ([[EP106]]-[[EP209]])<br>انطوانيت عقيقي ''Antoinette Akiki'' ([[EP263]]-[[AG040]])<br>Unknown voice actor ([[M04]]-[[M07]])<br>رنا الرفاعي ''Rana Al Rifai'' ([[M22]], [[JN001]]-[[JN147]] and [[Pokémon: The Arceus Chronicles|The Arceus Chronicles]])
+| ca = Marta Covas (VHS dub: [[EP001]], [[EP002]], [[EP039]], [[EP047]], [[EP055]], [[EP058]], [[EP090]], [[EP067]], [[EP069]], [[EP086]], [[EP104]], [[Snow Way Out!]])<br>Àngels Ribalta (SX3 dub: [[Pokémon Journeys: The Series]])
+| cs = Radek Škvor ([[EP001]]-[[EP209]], [[DP001]]-[[XY049]], [[M01]]-[[M04]], [[M11]], [[M17]])<br>Jan Škvor ([[XY050]]-present, [[M18]]-[[M19]])<br>Štěpán Krtička ([[M06]]-[[M07]])
+| da = Mathias Klenske
+| de = Caroline Combrinck ([[EP001]]-[[EP157]], [[DP105]]-[[XY140]])<br>Veronika Neugebauer ([[EP158]]-[[DP104]])<br>Felix Mayer ([[SM001]]-present)
+| es_eu = Adolfo Moreno<br> Rafael Alonso Naranjo Jr. ([[M03]], [[Mewtwo Returns]])
+| es_la = Gabriel Ramos ([[EP001]]-[[DP090]], [[DP105]]-[[DP157]], [[M01]]-[[M11]])<br>Irwin Daayán ([[DP091]]-[[DP104]])<br>Rommy Mendoza (young, [[DP138]])<br>Miguel Ángel Leal ([[DP158]]-[[JN147]], [[M13]]-[[M19]], [[M22]], [[EP007]]{{tt|*|redub}}, [[EP168]]{{tt|*|redub}}, [[EP266]]{{tt|*|redub}}, [[EP267]]{{tt|*|redub}}, [[EP269]]{{tt|*|redub}}, [[AG055]]{{tt|*|redub}})<br> Nicolás Toledo (age 6, [[JN001]]) <br>Pablo Gandolfo ([[M06]]-[[M07]] Argentinian dub)<br>Alan Fernando Velázquez ([[M12]])
+| fi = Sari Moilanen ([[EP001]]-[[EP142]], [[M01]]-[[M04]], [[PK01]]-[[PK07]], [[Mewtwo Returns]])<br>Jami Kantola ([[M05]]-[[M07]])<br>Hanna Leino ([[EP158]]-present, [[M10]]-[[M19]], [[M22]], [[The Mastermind of Mirage Pokémon]])
+| fil = Klariz Magboo ([[EP001]]-[[XY093]])<br>Will Ashley ([[XY094]]-present)
+| fr_ca = Sébastien Reding ([[M01]]-[[M07]])
+| fr_eu = Aurélien Ringelheim<br>Charles Pestel ([[M04]], [[M07]])
+| he = יהונתן מגון ''Yonatan Magon''<br>דניאל מגון ''Daniel Magon''
+| hi = प्रसाद बर्वे ''{{wp|Prasad Barve}}'' (Cartoon Network dub: [[S01]]-[[S14]], Disney dub: [[S10]])<br>नचिकेट दिघे ''{{wp|Nachiket Dighe}}'' (Hungama TV and Disney dubs: [[S01]]-[[S09]], [[S11]]-present)
+| ta = ரகுவரன் ''{{wp|Raghuvaran}}'' (Cartoon Network dub)<br>கதிர் கானி கான் ''{{wp|Khadeer Gani Khan}}'' (Hungama TV and Disney Dubs: [[S01]]-[[S10]], [[S17]])<br>சாய் அப்ஜித் ''{{wp|Sai Abhijith}}'' (Disney Dubs: S11-present)
+| te = సాయి వెంకట్ ''{{wp|Sai Venkat}}'' (Hungama TV and Disney dubs: [[S01]]-[[S10]], [[S17]])<br>సాయి తేజ ''{{wp|Sai Teja}}'' (Disney Dubs: S11-present)
+| bn = সুমিত বেরা ''Sumit Bera''
+| hr = Saša Buneta<br>Marko Torjanac
+| hu = Balázs Szvetlov<br>Gergely Ungvári (''[[Pokémon the Series: Ruby and Sapphire]]'')<br>Csongor Szalay (''[[Pokémon the Series: Diamond and Pearl]]'')
+| is = Grímur Gíslason ([[M03]])<br>Guðjón Davíð Karlsson ([[M05]])
+| id = Ahmad Zulkifli Lubis/Iphie Lubis ([[EP001]]-[[AG192]], [[DP004]]-''[[Pokémon the Series: Black & White]]'', [[M02]]-[[M13]], [[M16]])<br>Kamal Nasuti ([[DP001]]-[[DP003]])<br>Sofie (''[[Pokémon the Series: Black & White]]'', Disney dub)<br>Turie Sandos (''[[Pokémon the Series: XY]]'' and ''[[S19|Pokémon the Series: XYZ]]'')<br>Siti Balqis (younger; [[XY121]])<br>Sri Hastuty/Tuty Pinkan (''[[Pokémon the Series: Sun & Moon]]'', RTV dub, ''[[Pokémon Journeys: The Series]]'')<br>Dimas Setiaji ([[M22]])<br>Leni M. Tarra ([[original series]] ([[EP001]]-[[EP037]], [[EP039]]-[[EP053]]), YouTube dub, ''[[Pokémon the Series: Black & White]]'' ([[BW001]]-[[BW024]]), YouTube dub)
+| it = Davide Garbolino
+| ko = 최덕희 ''Choi Deok-Hui'' ([[Original series]], original dubs of [[M01]]-[[M02]])<br>안현서 ''An Hyeon-Seo'' (original dubs of [[M03]]-[[M05]])<br>이선호 ''Lee Seon-Ho'' (''[[Pokémon the Series: Ruby and Sapphire]]''-present, [[M06]]-[[M19]], [[M22]], [[Pokémon movie|redubbed movies]])
+| nl = Christa Lips<br>Unknown voice actor ([[M05]]-[[M07]])
+| no = Nils-Martin Crawfurd
+| pl = Hanna Kinder-Kiss ([[EP001]]-[[AG040]], [[DP053]]-present, [[M01]]-[[M19]], [[M22]])<br>Grzegorz Drojewski ([[DP001]]-[[DP052]])
+| pt_br = Fábio Lucindo ([[S01]]-[[S18]], [[M01]]-[[M18]], [[Pokémon Chronicles]], [[The Mastermind of Mirage Pokémon]])<br>Gustavo Nader ([[M06]] unreleased original recordings)<br>Alex Minei (some loops on [[BW051]]) <br>Charles Emmanuel ([[S19]]-[[S22]], [[M19]]-[[M22]])<br>Matheus Perissé ([[S23]]-present, [[M23]]-present, [[M06]]-[[M07]] second dub)<br>Danilo Diniz ([[M06]] third dub)
+| pt_eu = Maria João Luís ([[EP001]]-[[EP031]], [[EP033]], [[M01]]-[[M02]])<br>Sandra Faleiro ([[EP032]], [[EP034]]-[[EP094]])<br>Sandra de Castro ([[EP095]]-[[EP128]], [[EP158]]-[[EP209]], [[AG093]]-[[AG177]], [[DP001]]-[[DP052]], [[Pokémon Live!]])<br>Paula Pais ([[EP129]]-[[EP157]])<br>Cristina Carvalhal ([[M03]]-[[M04]])<br>Bárbara Lourenço ([[EP210]]-[[AG040]], [[Pokémon Chronicles]])<br>Raquel Ferreira ([[AG041]]-[[AG092]])<br>Susana João ([[M07]])<br>Ana Madureira ([[AG178]]-[[AG192]])<br>Raquel Rosmaninho ([[DP053]]-present, [[M10]]-[[M23]])
+| rs = Goran Jevtić<br>Đorđe Simić (''[[Pokémon the Series: Black & White]]'')
+| ru = Алёна Узлюк ''Alena Uzlyuk'' ([[EP001]]-[[EP004]])<br>Анна Левченко ''Anna Levchenko'' ([[EP005]]-[[EP105]])<br>Марина Тарасова ''Marina Tarasova'' ([[M01]]-[[M03]])<br>Ирина Поладько ''Irina Poladko'' ([[DP001]]-[[DP052]])<br>Марина Бакина ''Marina Bakina'' ([[DP053]]-[[DP104]]; [[M11]])<br>Лариса Некипелова ''Larisa Nekipelova'' ([[AG001]]-[[AG192]], [[DP105]]-present; [[M08]]-[[M10]], [[M12]]-present)
+| sv = Dick Eriksson
+| ro = Cristina Serac ([[Original series]])<br>Cristian Niculescu (''[[Pokémon the Series: Diamond and Pearl]]'', ''[[Pokémon the Series: Sun & Moon]]'')
+| th = ฉันทนา ธาราจันทร์ ''Chanthana Tharachan''<br>ศันสนีย์ ติณห์กีรดิศ ''Sansanee Tinkeeradit'' ([[DP054]]-present)
+| tr = Ahmet Taşar ([[EP001]]-[[XY101]])<br>Kerem Kobanbay ([[XY102]]-[[SM043]])<br>Arda Meriçliler ([[SM044]]-Present)<br>Sercan Gidişoğlu ([[M03]])<br>Fatih Özkul ([[M06]])
+| el = Βούλα Κώστα ''Voula Kosta''
+| vi = Đặng Hoàng Khuyết
+}}
+
+===Artwork===
+<div class=roundy style="display:table; margin:auto; text-align:center; border:2px solid #{{power color light}}; background:#{{X color light}}; font-size:90%; padding:2px"><!--border box OPEN -->
+<div style="display:flex; flex-wrap:wrap; justify-content:space-evenly; gap:5px; padding:2px"><!--flex container OPEN -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">[[File:Ash OS 2.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>the [[original series]]</p>
+</div><!--flex item CLOSE -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">[[File:Ash AG 3.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>''[[Pokémon the Series: Ruby and Sapphire|Ruby and Sapphire]]''</p>
+</div><!--flex item CLOSE -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">[[File:Ash DP 3.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>''[[Pokémon the Series: Diamond and Pearl|Diamond and Pearl]]''</p>
+</div><!--flex item CLOSE -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">[[File:Ash Ketchum BW.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>''[[Pokémon the Series: Black & White|Black & White]]''</p>
+</div><!--flex item CLOSE -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}"> [[File:Ash XY 4.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>''[[Pokémon the Series: XY|XY]]''</p>
+</div><!--flex item CLOSE -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">[[File:Ash SM.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>''[[Pokémon the Series: Sun & Moon|Sun & Moon]]''</p>
+</div><!--flex item CLOSE -->
+<div><!--flex item OPEN -->
+<div style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">[[File:Ash JN.png|x280px]]</div>
+<p class=blacklinks>Official artwork from<br>''[[Pokémon Journeys: The Series|Journeys]]''</p>
+</div><!--flex item CLOSE -->
+</div><!--flex container CLOSE -->
+<p style="{{roundy|15px}} border:2px solid #{{power color light}}; background:#{{ice color light}}">For more artwork, please see <span class="blacklinks">[[a:Category:Ash Ketchum|Ash Ketchum images on the Bulbagarden Archives]].</span></p><!--banner -->
+</div><!--border box CLOSE -->
+
+====Figures====
+{{incomplete|section|expanding with information on the figures}}
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{flying color dark}}; background: #{{fire color}}; font-size:80%;"
+|-
+| style="{{roundy|20px}} border: 2px solid #{{fire color dark}}; background: #{{flying color light}}" | [[File:Ash Pikachu & Charmander GEM Figure.jpg|x250px]]	
+| style="{{roundy|20px}} border: 2px solid #{{fire color dark}}; background: #{{flying color light}}" | [[File:Ash Pikachu & Charizard GEM Figure.jpg|x225px]]
+|-
+| Megahouse G.E.M. Series: Ash, Pikachu, and Charmander
+| Megahouse G.E.M. Series: Ash, Pikachu, and Charizard
+|}
+
+==In the core series games==
+[[File:Abandoned Megamart Ash and Pikachu.png|thumb|250px|Pikachu riding on Ash's shoulder]]
+Ash Ketchum is based on {{ga|Red}}, his counterpart from the games. Additionally, "Ash" is one of the suggested names for Red in the games {{game|Red and Blue|s|Pokémon Red}}, {{v2|Yellow}}, [[Pokémon FireRed and LeafGreen Versions|FireRed, and LeafGreen]], for the rival character {{ga|Blue}} in the games {{game|Red and Blue|s|Pokémon Blue}} (international) and LeafGreen, and for {{ga|Ethan}} in {{game|HeartGold and SoulSilver|s}}.
+
+In {{game|Yellow}}, some elements are based on the [[Pokémon the Series|animated series]]. Red, the player character, starts with a {{TP|Red|Pikachu}}, which is based on [[Ash's Pikachu]]. Red later receives the trio of Kanto [[first partner Pokémon]] in similar circumstances as Ash: {{p|Bulbasaur}} from a girl based on [[Melanie]], {{p|Charmander}} from a boy based on [[Damian]], and {{p|Squirtle}} from an [[Officer Jenny]].
+
+Ashley (Japanese: サトコ ''Satoko''), the [[cross-dressing]] version of Ash, is referenced in some games. In the Japanese versions of {{game|Crystal}}, {{game|FireRed and LeafGreen|s|FireRed, LeafGreen}}, {{game|Diamond and Pearl|s|Diamond, Pearl}}, {{v2|Platinum}}, {{game|HeartGold and SoulSilver|s|HeartGold, and SoulSilver}}, サトコ (''Satoko'') is one of the default names for the female player characters {{ga|Kris}}, {{ga|Leaf}}, {{ga|Dawn}}, or {{ga|Lyra}}. However, in the English versions, this was replaced by other names unrelated to Ashley: "Jodi" for Kris and Leaf, or "Britney" for Dawn and Lyra.
+
+In the Spanish version of [[Pokémon X and Y]], a male {{tc|Rising Star}} in {{rt|21|Kalos}} says that his Pokémon is named "Ash Ketchum".
+
+In the {{FB|Pokémon Sun and Pokémon Moon|Special Demo Version}} of {{g|Sun and Moon}}, the player, {{ga|Elio|Sun}}, receives an unsigned letter from somebody heavily implied to be Ash. Included with this letter is a {{AP|Greninja}}, with "Ash" being listed as its [[Original Trainer]]. Like in the animated series, Ash's Greninja can transform into {{fd|Greninja|Ash-Greninja}} by using its unique [[Ability]], {{a|Battle Bond}}.
+
+In Pokémon Sun, Moon, {{pkmn|Ultra Sun and Ultra Moon|Ultra Sun, and Ultra Moon}}, a photo of Ash and Pikachu can be seen in the back room of the abandoned {{OBP|Thrifty Megamart|Abandoned Site}}.
+
+==={{pkmn|event|Events}}===
+Several [[event Pokémon]] based on Ash's Pokémon have been made throughout the franchise. In addition to the aforementioned Greninja, a special form of {{p|Pikachu}} [[Pikachu in a cap|wearing Ash's different hats]] up to {{aniseries|SM}} were made available in {{g|Sun and Moon}}. Later games introduced Pikachu with Ash's hats from ''[[M20|I Choose You!]]'' and {{aniseries|JN}}.
+
+====List of events featuring Ash's Pokémon====
+{{eventAvail/h|Language/Region|type=Ice|type2=Red|expand=yes}}
+{{eventAvail|{{gameabbrev4|DPPtHGSS}}|Ash's Pikachu|Japanese|Japan<br>Wi-Fi|50|July 15 to August 10, 2010|link=List of Wi-Fi Japanese event Pokémon distributions in Generation IV#Ash's Pikachu}}
+{{eventAvail|{{gameabbrev5|BW}}|Mystery Egg Ash's Pidove|Japanese|Japan<br>Wi-Fi|1|December 17, 2010 to January 11, 2011|link=List of Wi-Fi Japanese event Pokémon distributions in Generation V#Ash's Pidove}}
+{{eventAvail|{{gameabbrev5|BW}}|Ash's Scraggy|Japanese|Japan<br>Wi-Fi|1|January 28 to February 10, 2011|link=List of Wi-Fi Japanese event Pokémon distributions in Generation V#Ash's Scraggy}}
+{{eventAvail|{{gameabbrev4|DPPtHGSS}}|Ash's Pikachu|English|North America|50|January 30 to February 20, 2011|link=List of local English event Pokémon distributions in Generation IV#Ash's Pikachu}}
+{{eventAvail|{{gameabbrev4|DPPtHGSS}}|Ash's Pikachu|Korean|South Korea<br>Wi-Fi|50|February 1 to 28, 2011|link=List of Wi-Fi Korean event Pokémon distributions in Generation IV#Ash's Pikachu}}
+{{eventAvail|{{gameabbrev5|BW}}|Secret Egg Ash's Pidove|English|United States|1|April 27 to May 31, 2011|link=List of local English event Pokémon distributions in Generation V#Ash's Pidove}}
+{{eventAvail|{{gameabbrev5|BW}}|Secret Egg Ash's Pidove|Korean|Wi-Fi|1|June 1 to 26, 2011|link=List of Wi-Fi Korean event Pokémon distributions in Generation V#Ash's Pidove}}
+{{eventAvail|{{gameabbrev5|BW}}|Ash's Scraggy|Korean|Wi-Fi|1|June 28 to July 17, 2011|link=List of Wi-Fi Korean event Pokémon distributions in Generation V#Ash's Scraggy}}
+{{eventAvail|{{gameabbrev5|BWB2W2}}|Pokémon Center Best Wishes Ash's Pikachu|Japanese|Japan|50|August 10 to September 6, 2013|link=List of local Japanese event Pokémon distributions in Generation V#Ash's Pikachu}}
+{{eventAvail|{{gameabbrev6|XYORAS}}|7-Eleven Ash's Pikachu|Japanese region|Online|50|July 18 to September 30, 2015|link=List of Japanese region serial code event Pokémon distributions in Generation VI#Ash's Pikachu}}
+{{eventAvail|{{gameabbrev6|XYORAS}}|Pokémon Center Ash's Pikachu|Japanese region|Nintendo Network|50|August 24 to 30, 2015|link=List of Japanese region Nintendo Network event Pokémon distributions in Generation VI#Ash's Pikachu}}
+{{eventAvail|{{gameabbrev7|SM}}|Original Cap Pikachu|Japanese region|Online|1|April 15 to May 1, 2017<br>July 19 to 31, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Original Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Hoenn Cap Pikachu|Japanese region|Online|6|May 3 to 15, 2017<br>August 2 to 14, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Hoenn Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Sinnoh Cap Pikachu|Japanese region|Online|10|May 17 to 29, 2017<br>August 16 to 28, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Sinnoh Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Unova Cap Pikachu|Japanese region|Online|14|May 31 to June 12, 2017<br>August 30 to September 11, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Unova Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Kalos Cap Pikachu|Japanese region|Online|17|June 14 to 26, 2017<br>September 13 to 25, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Kalos Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Alola Cap Pikachu|Japanese region|Online|20|June 28 to July 17, 2017<br>September 27 to October 9, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Alola Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Ash's Charizard|Japanese region|Online|40|August 1 to 28, 2017|link=List of Japanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Ash's Charizard}}
+{{eventAvail|{{gameabbrev7|SM}}|Ash's Charizard|All|Japan|40|August 22 to September 3, 2017|link=List of local event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Ash's Charizard}}
+{{eventAvail|{{gameabbrev7|SM}}|Original Cap Pikachu|American region<br>PAL region<br>Taiwanese region|Online|1|September 19 to 25, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Original Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Hoenn Cap Pikachu|American region<br>PAL region<br>Taiwanese region|Online|6|September 26 to October 2, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Hoenn Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Sinnoh Cap Pikachu|American region<br>PAL region<br>Taiwanese region|Online|9|October 3 to 9, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Sinnoh Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Unova Cap Pikachu|American region<br>PAL region<br>Taiwanese region|Online|13|October 10 to 16, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Unova Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Kalos Cap Pikachu|American region<br>PAL region<br>Taiwanese region|Online|17|October 17 to 23, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Kalos Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Alola Cap Pikachu|American region<br>PAL region<br>Taiwanese region|Online|19|October 10 to 12, 2017<br>October 24 to 30, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Alola Cap}}
+{{eventAvail|{{gameabbrev7|SM}}|Original Cap Pikachu|Japanese region<br>PAL region<br>Taiwanese region|Online|1|October 19 to November 23, 2017|link=List of Taiwanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Taiwanese Ash's Pikachu}}
+{{eventAvail|{{gameabbrev7|SM}}|Original Cap Pikachu|Japanese region<br>American region|Online|1|November 10 to 23, 2017|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Singapore Ash's Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Partner Cap Pikachu|Japanese|QR Code|50|November 17, 2017 onwards|link=List of in-game event Pokémon in Pokémon Ultra Sun and Ultra Moon#Partner Cap Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Partner Cap Pikachu|Taiwanese|QR Code|50|November 17, 2017 onwards|link=List of in-game event Pokémon in Pokémon Ultra Sun and Ultra Moon#Partner Cap Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Partner Cap Pikachu|American|QR Code|50|November 17, 2017 onwards|link=List of in-game event Pokémon in Pokémon Ultra Sun and Ultra Moon#Partner Cap Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Partner Cap Pikachu|PAL|QR Code|50|November 17, 2017 onwards|link=List of in-game event Pokémon in Pokémon Ultra Sun and Ultra Moon#Partner Cap Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Partner Cap Pikachu|Korean|QR Code|50|December 21, 2017 onwards|link=List of in-game event Pokémon in Pokémon Ultra Sun and Ultra Moon#Partner Cap Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Original Cap Pikachu|Japanese region<br>PAL region<br>Taiwanese region|Online|1|March 29 to May 31, 2018|link=List of Taiwanese region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Hong Kong Ash's Pikachu}}
+{{eventAvail|{{gameabbrev7|USUM}}|Hoenn Cap Pikachu|Japanese region<br>American region<br>PAL region<br>Taiwanese region|Online|6|November 9 to 30, 2018|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Hoenn Cap}}
+{{eventAvail|{{gameabbrev7|USUM}}|Sinnoh Cap Pikachu|Japanese region<br>American region<br>PAL region<br>Taiwanese region|Online|9|November 9 to 30, 2018|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Sinnoh Cap}}
+{{eventAvail|{{gameabbrev7|USUM}}|Unova Cap Pikachu|Japanese region<br>American region<br>PAL region<br>Taiwanese region|Online|13|November 9 to 30, 2018|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Unova Cap}}
+{{eventAvail|{{gameabbrev7|USUM}}|Kalos Cap Pikachu|Japanese region<br>American region<br>PAL region<br>Taiwanese region|Online|17|November 9 to 30, 2018|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Kalos Cap}}
+{{eventAvail|{{gameabbrev7|USUM}}|Alola Cap Pikachu|Japanese region<br>American region<br>PAL region<br>Taiwanese region|Online|19|November 9 to 30, 2018|link=List of American region serial code event Pokémon distributions in Pokémon Sun, Moon, Ultra Sun, and Ultra Moon#Alola Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's Charizard|Korean region|Online|50|September 30 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Ash's Charizard}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Original Cap Pikachu|All|Online|25|September 29 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Original Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Partner Cap Pikachu|All|Online|25|September 29 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Partner Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Hoenn Cap Pikachu|All|Online|25|October 2 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Hoenn Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Sinnoh Cap Pikachu|All|Online|25|October 9 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Sinnoh Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Unova Cap Pikachu|All|Online|25|October 16 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Unova Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Kalos Cap Pikachu|All|Online|25|October 18 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Kalos Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Alola Cap Pikachu|All|Online|25|October 23 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#Alola Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|World Cap Pikachu|All|Online|25|October 30 to November 30, 2020|link=List of event Pokémon distributions in Pokémon Sword and Shield#World Cap}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's World Cap Pikachu|All|Online|80|August 11 to September 30, 2022|link=List of event Pokémon distributions in Pokémon Sword and Shield#World Cap Pikachu}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's Dracovish|All|Online|80|August 12 to 25, 2022|link=List of event Pokémon distributions in Pokémon Sword and Shield#Dracovish}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's Dragonite|All|Online|80|August 26 to September 8, 2022|link=List of event Pokémon distributions in Pokémon Sword and Shield#Dragonite}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's Gengar|All|Online|80|September 2 to 15, 2022|link=List of event Pokémon distributions in Pokémon Sword and Shield#Gengar}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's Sirfetch'd|All|Online|80|September 9 to 22, 2022|link=List of event Pokémon distributions in Pokémon Sword and Shield#Sirfetch'd}}
+{{eventAvail|{{gameabbrev8|SwSh}}|Ash's Lucario|All|Online|80|September 16 to 29, 2022|link=List of event Pokémon distributions in Pokémon Sword and Shield#Lucario}}
+|}
+
+In addition, the Japanese and Korean versions of the {{DL|List of event Pokémon with in-game effects|Reshiram}} and {{DL|List of event Pokémon with in-game effects|Zekrom}} distributed in honor of ''[[M14|Pokémon the Movie: White—Victini and Zekrom / Black—Victini and Reshiram]]'' credited '''サトシ''' ''Satoshi'' or '''지우''' ''{{tt|Jiwoo|Shorthand for Han Jiwoo, Ash's full Korean name}}'' as the [[original Trainer]].
+
+==In the spin-off games==
+===Pokémon Play It! series===
+Ash does not appear in [[Pokémon Play It!]] or [[Pokémon Play It! Version 2]]. However, in the lesson "How do I evolve my Pokémon?" of the first game, Ash is mentioned by {{OBP|Julie|Play It!}}: "I know Ash is good, but I want to be the best that ever was!"
+
+===[[Pokémon Puzzle League]]===
+In {{pkmn|Puzzle League}}, Ash is the player character in the 1P Stadium mode, and one of the characters available in the 2P Stadium mode.
+
+====Pokémon====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Ash|Pikachu|025Pikachu.png|electric|size=100px}}
+| {{ActivePoké|Ash|Squirtle|007Squirtle.png|water|size=100px}}
+| {{ActivePoké|Ash|Bulbasaur|001Bulbasaur.png|grass|poison|size=100px}}
+|}
+{{left clear}}
+
+===Sega Pico series===
+Ash appears in [[Pokémon: Catch the Numbers!]], [[Pokémon Advanced Generation: I've Begun Hiragana and Katakana!|I've Begun Hiragana and Katakana!]], and [[Pokémon Advanced Generation: Pico for Everyone Pokémon Loud Battle!|Pico for Everyone Pokémon Loud Battle!]].
+
+===[[Pokémon Team Turbo]]===
+In {{pkmn|Team Turbo}}, Ash is seen on the [[main menu]] screen. However, he does not participate in any of the races or minigames.
+
+===Perdue series===
+In [[Pokémon Team Rocket Blast Off]], [[Pokémon Poké Ball Launcher]], and [[Pokémon Seek & Find]], the male player character is Ash. His female counterpart in these games is {{an|May}}.
+
+===[[Pokémon Tretta]]===
+In {{pkmn|Tretta}}, Ash and his Pokémon appear in multiple Tretta pucks as a cross-promotion with {{aniseries|XY}}. When Pikachu is in play, he appears [[Pikachu in a cap|wearing]] [[Ash's hat|Ash's Kalos hat]].
+
+====Pucks====
+{{TrettaExpansionList/header|X}}
+{{TrettaExpansionList/entry|05-01|{{OBP|Pikachu|05-01}} ({{tretta|Invasion! Mega Rayquaza}})|Electric|Master}}
+{{TrettaExpansionList/entry|Z1-07|{{OBP|Pikachu|Z1-07}} ({{tretta|Birth! Z Tretta!!}})|Electric|Master}}
+{{TrettaExpansionList/entry|Z2-06|{{OBP|Ash-Greninja|Z2-06}} ({{tretta|Zygarde Super Power Up, Ash-Greninja Comes Calling}})|Water|Master}}
+{{TrettaExpansionList/entry|P|{{OBP|Pikachu|Roaring All-Stars CD}} ([[Roaring All-Stars|Roaring All-Stars CD Bonus]])|Electric|}}
+{{TrettaExpansionList/entry|P|{{OBP|Ash-Greninja|XY&Z TV Anime Character Song Project Collection Volume 1 CD}} ({{tretta|Promotional Tretta}})|Water|}}
+{{TrettaExpansionList/entry|P|{{OBP|Ash-Greninja|Ultimate Z Challenge}} ({{tretta|Promotional Tretta}})|Water|}}
+{{TrettaExpansionList/footer|X}}
+
+===[[Pokémon Ga-Olé]]===
+Ash and his Pokémon appear in multiple {{pkmn|Ga-Olé}} pucks including his Pokémon from {{aniseries|SM}}.
+
+His {{aniseries|JN}} incarnation is a character alongside [[Goh]] in Ga-Olé's {{ga-ole|Grand Rush set 4}}. Ash replaced the Experienced Trainer that offers consolation disks if no Pokémon were captured during Get by Battle mode. He, also appears as an opponent in Trainer and Battle Mode, which was available to challenge from February 24, 2020. This was considerably earlier into the set's duration compared to other sets—the {{ga-ole|Ultra Legend set 4|fourth Ultra Legend set}}, which also featured special opponents in Trainer and Battle Mode, shares this trait. Ash could be challenged after defeating the other Trainer and Battle Mode opponents. The lineup included 1 new Trainer class in addition to Ash and Goh, who had their [[hometown]] as part of their name instead of "Pokémon Trainer". Promotional disks could also be dispensed for an additional ¥100 following battles with Goh or Ash, with 'WINNER' versions available to players who successfully defeated their teams. Players facing Ash could receive a {{OBP|Mew|Trainer and Battle}} disk or a {{OBP|Lugia|Trainer and Battle}} disk.
+
+====Pokémon====
+{| align="left" style="margin:auto; {{roundy|10px}}; background:#{{white color dark}}"
+|-
+|
+{| style="margin:auto; {{roundy|7px}}; background:#{{white color light}}"
+|-
+
+| style="vertical-align:top" |
+{| width="170px" style="style="margin:auto; background:transparent"
+|-
+! style="height:50px" | Pallet Town's Ash<br><small>マサラタウンのサトシ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background:#FFF; border:3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Ga-Olé Trainer Ash.png|90px]]
+|}
+|-
+| style="text-align:center" | <small>'''Difficulty:'''</small> ★★★★★
+|}
+|
+{{Ga-OlePokémon|type=Psychic|name=Mr. Mime|img=122Mr. Mime|move=Psychic|movetype=Psychic}}
+|
+{{Ga-OlePokémon|type=Dragon|type2=Flying|name=Dragonite|img=149Dragonite|move=Dragon Rush|movetype=Dragon}}
+|
+{{Ga-OlePokémon|type=Electric|name=Pikachu|img=025Pikachu|move=Thunderbolt|movetype=Electric}}
+|
+{{Ga-OlePokémon}}
+|}
+|}
+{{-}}
+
+====Disks====
+{{TrettaExpansionList/header|X}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Pikachu|Pokémon Z-Power Ring Special Set}} ({{ga-ole|Promotional disks}})|Electric|}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Pikachu|Ga-Olé Anime Tie-in}} ({{ga-ole|Promotional disks}})|Electric|}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Pikachu|Alola League Champion Course}} ({{ga-ole|Promotional disks}})|Electric|}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Rowlet|Alola League Champion Course}} ({{ga-ole|Promotional disks}})|Grass|Flying|}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Lycanroc|Alola League Champion Course}} ({{ga-ole|Promotional disks}})|Rock|}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Torracat|Alola League Champion Course}} ({{ga-ole|Promotional disks}})|Fire|}}
+{{Ga-OleExpansionList/entry|P|{{OBP|Melmetal|Alola League Champion Course}} ({{ga-ole|Promotional disks}})|Steel|}}
+{{TrettaExpansionList/footer|X}}
+
+===[[Pokémon GO]]===
+Pikachu, Raichu, and Pichu wearing Ash's original hat have been made available to catch and hatch from {{pkmn|Egg}}s during certain events. Additionally, for the 2019 April Fools' event, Ash himself could appear in photobombs when using the Camera.
+
+===[[Pokémon Mezastar]]===
+Ash, in a version based on the animated series, appeared in {{pkmn|Mezastar}}. In this game, Ash is seen using {{p|Pikachu}}, {{p|Gengar}}, {{p|Dracovish}}, {{p|Lucario}}, and {{p|Sirfetch'd}}. In the [[Super Tag set 1 (Mezastar)|first Super Tag series]], as part of a tie-in with the animated series, Ash, [[Goh]], or the [[Team Rocket trio]] could randomly challenge the player as a Trainer and Battle opponent. Upon beating the character, the player can receive a Support Pokémon Ticket based on [[Ash's Lucario]], with a tag partner based on [[Ash's Gengar]]. In the [[Double Chain set 1 (Mezastar)|first set in the Double Chain series]], Ash reappeared as an opponent in an event that recreated the [[Masters Eight Tournament]] that ran from October 27 to November 21, 2022. Upon beating the character, the player can receive a Support Pokémon Ticket based on Ash's Gengar, which can [[Gigantamax]]. Ash and {{an|Leon}} could also be challenged as Trainer Tag Battle opponents for a limited time as part of the ranked Challenge from Ash & Leon! campaign.
+====Pokémon====
+=====Super Tag Set=====
+======Trainer and Battle opponents======
+{| align="left" style="margin:auto; {{roundy|10px}}; background:#{{white color dark}}"
+|-
+|
+{| style="margin:auto; {{roundy|7px}}; background:#{{white color light}}"
+|-
+| style="vertical-align:top" |
+{| width="170px" style="style="margin:auto; background:transparent"
+|-
+! Pallet Town's Ash<br><small>マサラタウンの サトシ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background: #FFF; border: 3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Mezastar Trainer Ash.png|90px]]
+|}
+|-
+| style="text-align:center" | <small>'''Difficulty:'''</small> ★★★★☆
+|}
+|
+{{MezastarPokémon|type=Electric|name=Pikachu|img=025Pikachu|move=Thunderbolt|movetype=Electric}}
+|
+{{MezastarPokémon|type=Ghost|type2=Poison|name=Gengar|img=094Gengar|move=Sludge Wave|movetype=Poison}}
+|
+{{MezastarPokémon|type=Water|type2=Dragon|name=Dracovish|img=882Dracovish|move=Outrage|movetype=Dragon}}
+|
+{{MezastarPokémon|type=Fighting|type2=Steel|name=Lucario|img=448Lucario|move=Aura Sphere|movetype=Fighting}}
+|}
+|}
+{{-}}
+
+=====Double Chain Set=====
+======Trainer and Battle opponents======
+{| align="left" style="margin:auto; {{roundy|10px}}; background:#{{white color dark}}"
+|-
+|
+{| style="margin:auto; {{roundy|7px}}; background:#{{white color light}}"
+|-
+| style="vertical-align:top" |
+{| width="170px" style="style="margin:auto; background:transparent"
+|-
+! Pallet Town's Ash<br><small>マサラタウンの サトシ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background: #FFF; border: 3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Mezastar Trainer Ash 2.png|90px]]
+|}
+|-
+| style="text-align:center" | <small>'''Difficulty:'''</small> ★★★★☆
+|}
+|
+{{MezastarPokémon|type=Fighting|type2=Steel|name=Lucario|img=448Lucario|move=Aura Sphere|movetype=Fighting}}
+|
+{{MezastarPokémon|type=Electric|name=Pikachu|img=025Pikachu|move=Thunderbolt|movetype=Electric}}
+|
+{{MezastarPokémon|type=Fighting|name=Sirfetch'd|img=865Sirfetch'd|move=Meteor Assault|movetype=Fighting}}
+|
+{{MezastarPokémon|type=Ghost|type2=Poison|name=Gengar|img=094Gengar|move=Shadow Ball|movetype=Ghost}}
+|}
+|}
+{{-}}
+
+======Trainer Tag Battle opponents======
+{| align="left" style="margin:auto; {{roundy|10px}}; background: #{{white color dark}}"
+|-
+|
+{| style="margin:auto; {{roundy|7px}}; background: #{{white color light}}"
+|-
+|
+{| width="170px" style="style="margin:auto; background: transparent"
+|-
+! Pallet Town's Ash<br><small>マサラタウンの サトシ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background: #FFF; border: 3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Mezastar Trainer Ash 2.png|90px]]
+|}
+|-
+! ''and''
+|}
+|
+{{MezastarPokémon|type=Ghost|type2=Poison|name=Gengar|img=094Gengar|move=Shadow Ball|movetype=Ghost}}
+|
+{{MezastarPokémon|type=Electric|name=Pikachu|img=0025Pikachu-World Cap|move=Thunderbolt|movetype=Electric}}
+|
+{{MezastarPokémon|type=Fighting|type2=Steel|name=Lucario|img=448Lucario|move=Aura Sphere|movetype=Fighting}}
+|-
+|
+{| width="170px" style="margin:auto; background: transparent"
+|-
+! Unbeatable Champion Leon<br><small>むてきのチャンピオン ダンデ</small>
+|-
+|
+{| cellspacing="0" cellpadding="0" style="margin:auto; background: #FFF; border: 3px solid #{{white color dark}}; {{roundytop|10px}}"
+| [[File:Mezastar Trainer Leon.png|90px]]
+|}
+|-
+| style="text-align:center" | <small>'''Difficulty:'''</small> ★★★★☆
+|}
+|
+{{MezastarPokémon|type=Grass|name=Rillaboom|img=812Rillaboom|move=Drum Beating|movetype=Grass}}
+|
+{{MezastarPokémon|type=Fire|type2=Flying|name=Charizard|img=006Charizard|move=Flamethrower|movetype=Fire}}
+|
+{{MezastarPokémon|type=Ice|type2=Psychic|name=Mr. Rime|img=866Mr. Rime|move=Ice Beam|movetype=Ice}}
+|}
+|}
+{{-}}
+
+====Disks====
+{{MezastarExpansionList/header|X}}
+{{MezastarExpansionList/entry|P|{{OBP|Pikachu|Super Tag Start Campaign}}|Electric||}}
+{{MezastarExpansionList/entry|P|{{OBP|Pikachu|Pokémon Dynamax Band}}|Electric||}}
+{{MezastarExpansionList/entry|P|{{OBP|Pikachu|Pokémon Dynamax Band+}}|Electric||}}
+{{MezastarExpansionList/entry|P|{{OBP|Pikachu|Double Chain Start Campaign}}|Electric||}}
+{{MezastarExpansionList/entry|3-1-022|{{OBP|Gengar|3-1-022}}|Ghost|Poison|5}}
+{{MezastarExpansionList/entry|P|{{OBP|Gengar|Pokémon Dynamax Band}}|Ghost|Poison|}}
+{{MezastarExpansionList/entry|2-1-011|{{OBP|Lucario|2-1-011}}|Fighting|Steel|5}}
+{{MezastarExpansionList/entry|P|{{OBP|Lucario|Pokémon Dynamax Band}}|Fighting|Steel|}}
+{{MezastarExpansionList/entry|P|{{OBP|Lucario|Pokémon Dynamax Band+}}|Fighting|Steel|}}
+{{MezastarExpansionList/footer|X}}
+
+===[[Pokémon Masters EX]]===
+{{main|Ash (Masters)}}
+Ash, in his {{aniseries|JN}} design, forms a [[sync pair]] with {{AP|Pikachu}} in [[Pokémon Masters EX]]. Ash became a playable sync pair on August 28, 2022.
+
+In this game, Ash accidentally wound up on [[Pasio]] while training for the [[Masters Eight Tournament]]. He first appeared as an NPC during the [[special event]] {{DL|Special event|The Classic Thunderbolt}}. Ash was also shown to pair alongside the other members of his ''Pokémon Journeys'' team, which could be battled during the {{DL|Special event|Challenge from Ash}} event.
+
+{{PairDex/h|power|X}}
+{{PairDex|152|Ash|trainerlink=Ash (Masters)#Pikachu|trainerimg=Ash|0025W|Pikachu|pokemonlink=Ash's Pikachu|gender=male|master=yes|buddy=yes|form=[[Pikachu in a cap|World Cap]]|Electric|Ground|Special Strike|6|Master Fair Sync Pair Scout}}
+|}
+
+==Quotes==
+{{main|Ash Ketchum/Quotes}}
+
+==In the manga==
+===The Electric Tale of Pikachu===
+{{main|Ash Ketchum (EToP)}}
+Ash is a starring character in [[The Electric Tale of Pikachu]], which is based on {{aniseries|OS}}. His journey follows roughly the same plot as in ''Pokémon the Series: The Beginning'': first traveling the [[Kanto]] region to participate in the [[Indigo Plateau Conference|Pokémon League]], before embarking on a journey around the [[Orange Islands]].
+
+[[File:DP series trio.png|thumb|left|200px|Ash with his friends in the movie 10 manga adaptation]]
+[[File:Ash and Brock MPJ.png|thumb|200px|Ash and Brock in [[Magical Pokémon Journey]]]]
+===Movie adaptations===
+Since Ash and his Pikachu have appeared in every Pokémon movie to date, likewise, Ash is the main character in every movie manga adaptation. The same applies to Ash's team as they made similar appearances.
+
+===Magical Pokémon Journey===
+Ash, along with {{an|Misty}} and {{an|Brock}}, made cameo appearances in bonus chapters of [[Magical Pokémon Journey]]. In them, Ash and {{ashfr}} have mistakenly wandered into the world Magical Pokémon Journey is set in. The bonus chapters chronicle their attempts to return to their world (of the animated series) and their encounters with various aspects of the Magical Pokémon Journey [[canon]] which differ from the animated series canon (such as the use of [[Poké Ball]]s).
+{{-}}
+
+===Ash & Pikachu===
+[[File:Ash Ketchum AP.png|thumb|200px|Ash in Ash & Pikachu]]
+[[File:Ash Ketchum 2 AP.png|thumb|left|200px|Ash in his Hoenn attire in Ash & Pikachu]]
+Ash is the main protagonist of [[Ash & Pikachu]], which is based on {{aniseries|GS}} and {{aniseries|RS}}, adapting episode plots from the [[Johto]], [[Hoenn]], and {{gdis|Battle Frontier|III}} sagas.
+
+====Pokémon====
+=====Currently owned=====
+{| style="float:center; width: 100%"
+|-
+| {{InactivePoké|Ash|Pikachu|Ash Pikachu AP.png|Electric}} ♂
+| {{InactivePoké|Ash|Cyndaquil|Ash Cyndaquil AP.png|Fire}}
+| {{InactivePoké|Ash|Totodile|Ash Totodile AP.png|Water}} ♂
+| {{InactivePoké|Ash|Bulbasaur|Ash Bulbasaur AP.png|Grass|Poison}}
+|-
+| {{InactivePoké|Ash|Larvitar|Ash Larvitar AP.png|Rock|Ground|fir=Egg}}
+| {{InactivePoké|Ash|Heracross|Silver Conference Scoreboard AP.png|Bug|Fighting}} ♂
+| {{InactivePoké|Ash|Muk|Silver Conference Scoreboard AP.png|Poison}}
+| {{InactivePoké|Ash|Bayleef|Silver Conference Scoreboard AP.png|Grass}} ♀
+|-
+| {{InactivePoké|Ash|Snorlax|Ash Snorlax AP.png|Normal}}
+| {{InactivePoké|Ash|Tauros|Ash Tauros AP.png|Normal}} ♂
+| {{InactivePoké|Ash|Grovyle|Ash Grovyle AP.png|Grass|fir=Treecko}}
+| {{InactivePoké|Ash|Corphish|Ash Corphish AP.png|Water}} ♂
+|-
+| {{InactivePoké|Ash|Swellow|Ash Swellow AP.png|Normal|Flying|fir=Taillow}}
+| {{InactivePoké|Ash|Torkoal|Ash Torkoal AP.png|Fire}}
+| {{InactivePoké|Ash|Glalie|Ash Glalie AP.png|Ice|fir=Snorunt}}
+| {{InactivePoké|Ash|Charizard|Ash Charizard AP.png|Fire|Flying}} ♂
+|}
+
+=====Temporary=====
+{| style="float:left; width: 25%"
+|-
+| {{InactivePoké|Misty|Psyduck|Ash Psyduck AP.png|Water}}
+|}
+{{-}}
+
+[[File:Newspaper first panel.png|thumb|200px|Ash in the Pokémon Newspaper Strip]]
+===Pokémon Newspaper Strip===
+{{main|Ash Ketchum (Pokémon Newspaper Strip)}}
+Ash is one of the main characters of the [[Pokémon Newspaper Strip]].
+
+===Pokémon Battle: Pikachu's Big Exciting Adventure===
+Ash appeared in [[Pokémon Battle: Pikachu's Big Exciting Adventure]] manga. It is one of the manga adaptation of the animated series, with one of its chapters being based on ''[[AG155|The Green Guardian]]''.
+
+===Pocket Monsters Diamond & Pearl===
+[[File:Ash Ketchum PDP.png|thumb|150px|Ash and {{AP|Pikachu}} in {{OBP|Pocket Monsters Diamond & Pearl|Sakai Takayuki}}]]
+Ash and {{AP|Pikachu}} appear as main characters alongside {{an|Dawn}} and her {{TP|Dawn|Piplup}} in {{OBP|Pocket Monsters Diamond & Pearl|Sakai Takayuki}}, an adaptation of {{aniseries|DP}}. However, instead of following the plot of the series, this manga follows Ash and Dawn going through various experiences with the Pokémon they encounter while traveling together.
+
+====Pokémon====
+=====On hand=====
+{|align="left" width="75%"
+|-
+| {{InactivePoké|Ash|Pikachu|Ash Pikachu PDP.png|Electric}} ♂
+| {{InactivePoké|Ash|Grotle|Ash Grotle PDP.png|Grass|fir=Turtwig}} ♂
+| {{InactivePoké|Ash|Staravia|Ash Staravia PDP.png|Normal|Flying}}
+|-
+| {{InactivePoké|Ash|Chimchar|Ash Chimchar PDP.png|Fire}} ♂
+| {{InactivePoké|Ash|Buizel|Dawn Buizel PDP.png|Water}} ♂
+| {{InactivePoké|Ash|Gliscor|Ash Gliscor PDP.png|Ground|Flying}}
+|}
+{{left clear}}
+
+=====Traded away=====
+{|align="left" width="25%"
+|-
+| {{InactivePoké|Ash|Aipom|Ash Aipom PDP.png|Normal|link=Dawn's Ambipom}} ♀
+|}
+{{left clear}}
+
+=====Temporary=====
+{|align="left" width="25%"
+|-
+| {{InactivePoké|Dawn|Piplup|Dawn Piplup PDP.png|Water}} ♂
+|}
+{{left clear}}
+
+===Mewtwo Returns===
+Ash appears in the {{ma|Mewtwo Returns}} manga. It was released to coincide with the release of [[M22|the twenty-second movie]] and {{ma|Mewtwo Strikes Back—Evolution|its own manga adaptation}}.
+
+===Pokémon Journeys===
+[[File:Ash Ketchum JNM.png|thumb|150px|Ash in Pokémon Journeys]]
+Ash appears as a main character in {{OBP|Pokémon Journeys|manga}}, playing the same role as he does in the {{aniseries|JN}}.
+
+====Pokémon====
+=====On hand=====
+{| style="float:left; width: 96px"
+|-
+| {{ActivePoké|Ash|Pikachu|Ash Pikachu JNM.png|size=x150px|electric|link=Ash's Pikachu}} [[File:Dynamax icon.png|25px|link=Gigantamax]] ♂
+| {{ActivePoké|Ash|Dragonite|Ash Dragonite JNM.png|size=x150px|dragon|flying}}
+| {{ActivePoké|Ash|Gengar|Ash Gengar JNM.png|size=x150px|ghost|poison}}
+|-
+| {{ActivePoké|Ash|Lucario|Ash Lucario JNM.png|fighting|steel|size=x150px|fir=Egg|mid=Riolu}}
+| {{ActivePoké|Ash|Sirfetch'd|Ash Sirfetch'd JNM.png|size=x150px|fighting|fir=Farfetch'd}}
+| {{ActivePoké|Ash|Dracovish|Ash Dracovish JNM.png|size=x150px|water|dragon}}
+|}
+{{-}}
+
+=====Traveling with=====
+{| width="50%"
+|-
+| {{ActivePoké|||nick=Rotom Phone|479Rotom-Phone.png|electric|ghost|size=100px|link=Rotom Phone}}
+|
+|
+|}
+
+=====With Professor Oak=====
+<!--Listed in order of appearance in the manga adaptation-->
+{| width="80%"
+| {{InactivePoké|Ash|Charizard|Ash Pokémon JNM.png|fire|flying}} ♂
+| {{InactivePoké|Ash|Bulbasaur|Ash Pokémon JNM20.png|size=100px|grass|poison}}
+| {{InactivePoké|Ash|Muk|Ash Muk JNM.png|size=100px|poison}}
+| {{InactivePoké|Ash|Tauros|Ash Tauros JNM.png|Normal|disp=Tauros (×30)}} ♂
+|-
+| {{InactivePoké|Ash|Snorlax|Ash Pokémon JNM20.png|size=100px|Normal}}
+| {{InactivePoké|Ash|Bayleef|Ash Bayleef Corphish Krookodile JNM.png|Grass}} ♀
+| {{InactivePoké|Ash|Quilava|Ash Pokémon JNM20.png|size=100px|Fire}}
+| {{InactivePoké|Ash|Totodile|Ash Pokémon JNM20.png|size=100px|Water}} ♂
+|-
+| {{InactivePoké|Ash|Corphish|Ash Bayleef Corphish Krookodile JNM.png|Water}} ♂
+| {{InactivePoké|Ash|Infernape|Ash Infernape JNM.png|size=100px|fire|fighting}} ♂
+| {{InactivePoké|Ash|Oshawott|Ash Pokémon JNM20.png|size=100px|water}} ♂
+| {{InactivePoké|Ash|Pignite|Ash Pokémon JNM20.png|size=100px|fire|fighting}} ♂
+|-
+| {{InactivePoké|Ash|Krookodile|Ash Bayleef Corphish Krookodile JNM.png|ground|dark}} ♂
+| {{InactivePoké|Ash|Talonflame|Ash Pokémon JNM20.png|size=100px|fire|flying}}
+|}
+
+=====At the Cerise Laboratory=====
+{| width="80%"
+|-
+| {{InactivePoké|Ash|Mr. Mime|Ash Mimey JNM.png|size=100px|psychic|fairy|link=Mimey}}
+|
+|
+|}
+
+=====Flashback=====
+{| width="80%"
+| {{InactivePoké|Ash|Greninja|Ash Pokémon JNM.png|water|dark|disp=Greninja ↔ Ash-Greninja}}
+| {{InactivePoké|Ash|Rowlet|Ash Pokémon JNM.png|grass|flying}}
+| {{InactivePoké|Ash|Lycanroc|Ash Pokémon JNM.png|rock}}
+|
+|}
+
+====Achievements====
+=====Badges=====
+* {{Badge|Thunder}} (prior to ''[[JNM01|Legend? Check! Friends? Check!]]'')
+
+=====World Coronation Series=====
+'''Current rank'''
+* '''Normal Class:''' (as of ''[[JNM10|Toughing It Out!]]'')
+* '''Great Class:''' (as of ''[[JNM11|Solitary and Menacing!]]'')
+* '''Ultra Class:''' (as of ''[[JNM19|Thrash of the Titans!]]'')
+
+===Daisuki ♥ Pocket Monsters===
+[[File:Ash DPM.png|thumb|200px|Ash in [[Daisuki ♥ Pocket Monsters]]]]
+Ash appears as a character in [[Daisuki ♥ Pocket Monsters]].
+
+====Pokémon====
+{| width="50%"
+| {{ActivePoké|Ash|Pikachu|Ash Pikachu DPM.png|electric|size=200px}} ♂
+|
+|
+|}
+{{-}}
+
+==In the TCG==
+[[File:AshFriendshipAshvsTeamRocketDeck25.jpg|thumb|200px|right|{{TCG ID|Ash vs Team Rocket Deck|Ash's Friendship|25}}, the only Supporter card depicting Ash]]
+
+Ash Ketchum and his Pokémon have made sporadic appearances as cards in the [[Pokémon Trading Card Game]], many of which have not been released outside of Japan. Usually, these cards are released alongside [[Pokémon movie]]s.
+
+The first TCG card featuring Pokémon that Ash possesses was a [[jumbo card|jumbo]] {{TCG|Unnumbered Promotional cards|promo card}} for his [[Ash's Pikachu|Pikachu]] teamed up with the [[Pichu Brothers]], which was [[Pichu and Pikachu (CoroCoro promo)|Pichu and Pikachu]]. It was a tie in to ''[[PK07|Pikachu and Pichu]]'', one of the [[Pikachu short]]s. The first card released at normal size and the first that features Ash in the card artwork was {{TCG ID|ADV-P Promo|Ash's Treecko|36}}, released as a promotional card. This card is also the first that features "Ash's" as a prefix, making it and other cards like it mechanically [[Owner's Pokémon]].
+
+[[File:StaraptorMMovieRandomPack18.jpg|thumb|200px|left|[[Staraptor M (Movie Random Pack 18)|Staraptor]]{{SP|M}}, an example of a Pokémon card featuring Ash Ketchum]]
+During the [[Pokémon Trading Card Game#Diamond & Pearl Series|Diamond & Pearl Series]], cards featuring Pokémon that Ash possesses are released as [[Pokémon M]], a group of [[Pokémon SP]] based on the Pokémon seen in Pokémon movies which were released in the {{TCG|Movie Commemoration Random Pack}} to promote ''[[M12|Arceus and the Jewel of Life]]''. Mechanically, these cards are not considered "Owner's  Pokémon" cards due to the naming scheme, despite the similar styling and the appearance of Ash on the card art. There are two such cards, namely [[Pikachu M (Movie Random Pack 12)|Pikachu]]{{SP|M}} for Ash's Pikachu and [[Staraptor M (Movie Random Pack 18)|Staraptor]]{{SP|M}} for [[Ash's Staraptor]]. A third card, [[Pikachu M LV.X (DPt-P Promo 43)|Pikachu]]{{SP|M}} [[Pikachu M LV.X (DPt-P Promo 43)|LV.X]], was released as [[DPt-P Promotional cards|DPt-P Promotional card]] alongside the set and is a {{TCG|Pokémon LV.X|Level Up}} for the Pikachu{{SP|M}} card.
+
+In the [[Pokémon Trading Card Game#Black & White Series|Black & White Series]], an event tied to the distribution of [[List of local English event Pokémon distributions in Generation V#Secret Eggs|Secret Eggs]] which had the possibility of hatching into a {{p|Pidove}} based on [[Ash's Pidove]] (among other main characters' Pokémon) also involved the release of a {{TCG|BW Black Star Promos|BW Black Star Promo}} {{TCG ID|BW Promo|Pidove|15}}. In the XY Series, an [[Ash-Greninja-EX (XY Promo 133)|Ash-Greninja]]{{EX}} was released. It showcased [[Ash-Greninja]], a new form that [[Ash's Greninja]] could take on in the show during [[S19|Pokémon the Series: XYZ]] that resembles Ash himself. Both of these cards received English releases.
+
+[[File:AshPikachuGXAshVSTeamRocketDeckKit5.jpg|thumb|200px|right|[[Ash's Pikachu-GX (Ash vs Team Rocket Deck 5)|Ash's Pikachu]]{{GX}}, an example of an "Ash's Pokémon" card. This card also interacts with the aforementioned Ash's Friendship Supporter card]]
+The [[Pokémon Trading Card Game#Sun & Moon Series|Sun & Moon Series]] has Ash's most prominent appearances in the TCG to date. The {{TCG|Ash vs Team Rocket Deck Kit}} included a complete half deck themed around Ash Ketchum, with many Pokémon cards having artwork related to Ash's adventures in [[Alola]] during {{aniseries|SM}}. The only card in this half deck that is mechanically considered an "Ash's Pokémon" is [[Ash's Pikachu-GX (Ash vs Team Rocket Deck 5)|Ash's Pikachu]]{{GX}}. The half deck also introduces Ash Ketchum himself as a Supporter card named {{TCG ID|Ash vs Team Rocket Deck|Ash's Friendship|25}}. Its effect causes the user to draw two cards, but instead draws four cards if that player also has Ash's Pikachu{{GX}} in play. A card for [[Ash's Litten]], {{TCG ID|SM-P Promo|Litten|59}}, was released as a promotional card alongside the deck kit, which also has Ash in its artwork.
+
+Ash's Pikachu would be printed seven more times in the Sun & Moon Series, this time as {{TCG|SM Black Star Promos}} representing the various [[Pikachu in a cap|Ash's Pikachu forms]]. These cards, as with the entire promotion surrounding the forms, were a tie in to the movie ''[[M20|I Choose You!]]''. Each one wears one of [[Ash's hat]]s from across {{aniseries|PTS}}. These cards also received an English language release.
+
+Lastly, a card representing Ash's Pikachu, {{TCG ID|SM Promo|Pikachu|227}}, was printed as SM Black Star Promo, with its basis being the movie ''[[M22|Mewtwo Strikes Back—Evolution]]''. While this card did receive an English printing, a printing with art including Ash Ketchum was only used in Japan.
+
+This listing is of cards mentioning or featuring Ash or his Pokémon in the [[Pokémon Trading Card Game]].
+{{-}}
+
+{{cardlist/header|Ash's Pokémon|Lightning|char=yes}}
+{{cardlist/entry|cardname=[[Pichu and Pikachu (CoroCoro promo)]]|type=Lightning|jpset=Unnumbered Promotional cards}}
+{{cardlist/entry|cardname={{TCG ID|ADV-P Promo|Ash's Treecko|36}}|type=Grass|jpset=ADV-P Promotional cards|jpnum=036/ADV-P}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Ash's Torkoal|9}}|type=Fighting|jpset=Movie Commemoration VS Pack: Sky-Splitting Deoxys|jpnum=009/019}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Ash's Grovyle|1}}|type=Grass|jpset=Movie Commemoration VS Pack: Aura's Lucario|jpnum=001/020}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Ash's Phanpy|4}}|type=Fighting|jpset=Movie Commemoration VS Pack: Aura's Lucario|jpnum=004/020}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Ash's Swellow|7}}|type=Colorless|jpset=Movie Commemoration VS Pack: Aura's Lucario|jpnum=007/020}}
+{{cardlist/entry|cardname={{TCG ID|Movie VS Pack|Ash's Aipom|10}}|type=Colorless|jpset=Movie Commemoration VS Pack: Sea's Manaphy|jpnum=010/019}}
+{{cardlist/entry|cardname=[[Pikachu M (Movie Random Pack 12)|Pikachu]] {{SP|M}}|type=Lightning|jpset=Movie Commemoration Random Pack|jpnum=012/022}}
+{{cardlist/entry|cardname=[[Staraptor M (Movie Random Pack 18)|Staraptor]] {{SP|M}}|type=Colorless|jpset=Movie Commemoration Random Pack|jpnum=018/022}}
+{{cardlist/entry|cardname=[[Pikachu M LV.X (DPt-P Promo 43)|Pikachu]] {{SP|M}} [[Pikachu M LV.X (DPt-P Promo 43)|LV.X]]|type=Lightning|jpset=DPt-P Promotional cards|jpnum=043/DPt-P}}
+{{cardlist/entry|cardname={{TCG ID|BW Promo|Pidove|15}}|type=Colorless|expanded=yes|enset=BW Black Star Promos|ennum=BW15|jpset=BW-P Promotional cards|jpnum=005/BW-P}}
+{{cardlist/entry|cardname=[[Ash-Greninja-EX (XY Promo 133)|Ash-Greninja]]{{EX}}|type=Water|expanded=yes|enset=XY Black Star Promos|ennum=XY133|jpset=XY-P Promotional cards|jpnum=218/XY-P|jpset2=XY-P Promotional cards|jpnum2=290/XY-P}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Rowlet|1}}|type=Grass|jpset=Ash vs Team Rocket Deck Kit|jpnum=001/026}}
+{{cardlist/entry|cardname=[[Ash's Pikachu-GX (Ash vs Team Rocket Deck 5)|Ash's Pikachu]]{{GX}} |type=Lightning|jpset=Ash vs Team Rocket Deck Kit|jpnum=005/026}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Rockruff|11}}|type=Fighting|jpset=Ash vs Team Rocket Deck Kit|jpnum=011/026}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Tauros|14}}|type=Colorless|jpset=Ash vs Team Rocket Deck Kit|jpnum=014/026}}
+{{cardlist/entry|cardname={{TCG ID|SM-P Promo|Litten|59}}|type=Fire|jpset=SM-P Promotional cards|jpnum=059/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|109}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM109|jpset=SM-P Promotional cards|jpnum=071/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|110}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM110|jpset=SM-P Promotional cards|jpnum=072/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|111}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM111|jpset=SM-P Promotional cards|jpnum=073/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|112}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM112|jpset=SM-P Promotional cards|jpnum=074/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|113}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM113|jpset=SM-P Promotional cards|jpnum=075/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|114}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM114|jpset=SM-P Promotional cards|jpnum=076/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Ash's Pikachu|108}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM108|jpset=SM-P Promotional cards|jpnum=086/SM-P}}
+{{cardlist/entry|cardname={{TCG ID|SM Promo|Pikachu|227}}|type=Lightning|expanded=yes|enset=SM Black Star Promos|ennum=SM227|jpset=SM-P Promotional cards|jpnum=367/SM-P|jpset2=SM-P Promotional cards|jpnum2=369/SM-P}}
+
+{{cardlist/div|Other related cards|Lightning}}
+{{cardlist/entry|cardname={{TCG ID|Ash vs Team Rocket Deck|Ash's Friendship|25}}|type=Supporter|jpset=Ash vs Team Rocket Deck Kit|jpnum=025/026}}
+{{cardlist/footer|Lightning}}
+
+==Trivia==
+[[File:Ash hat OS concept art.jpg|thumb|200px|Concept art of Ash's hat from the original series]]
+[[File:Ash Dewgong Drawing.png|thumb|200px|Ash's drawing of a Dewgong]]
+* Ash was designed by [[Atsuko Nishida]].<ref>[https://twitter.com/El_Aleph87/status/1632063563744378884 Press release of "Hometown Story"]</ref>
+* Ash's height is around 4'7" (140&nbsp;cm).<ref>[https://web.archive.org/web/20210219050737/https://pokemonday.pokemon.co.jp/tips/065/ Japanese Pokémon Day website tip #65] (Archived)</ref>
+* [[Ash's hat]] in the [[original series]] was similar to {{ga|Red}}'s hat in his original design from {{game|Red and Green|s}} before undergoing several changes until the final design.
+* Ash is still considered a 10-year-old in promotional materials and in mainline animated series episodes as recent as ''[[JN067|Sleuths for Truth!]]'', despite at least a year having been implied to have passed between ''[[EP158|A Goldenrod Opportunity]]'' and ''[[BW141|Best Wishes Until We Meet Again!]]''.
+** [[Kunihiko Yuyama]], creative supervisor for {{aniseries|JN}} and executive director for prior series, has stated in an interview with {{wp|Daniel Arsham}} in ''Arsham's Pokédex'', a collection of Pokémon-related artwork, that Ash does not age because the animated series is set in an endless early summer.
+* When [[Veronica Taylor]] was interviewed in the documentary "Adventures in Voice Acting", she stated that during her audition for the role of Ash, he was known as Casey at the time. This name would later be given to a {{an|Casey|recurring character from Johto}}.
+* Ash originally wanted a {{p|Squirtle}} to be his [[first partner Pokémon]], but {{an|Professor Oak}} told him it was taken by a [[Gary Oak|Trainer who was not late]].
+* In the animated series, Ash is the first and, so far, only [[Pokémon Trainer]]:
+** With a known [[hometown]] to not be native to any of the regions he is the {{pkmn|Champion}} of.
+** With access to [[Z-Move]]s, [[Dynamax]]/[[Gigantamax]], and [[Mega Evolution]] at the same time.
+*** Who has used more than one of those in a single battle.
+** Shown to have won two of the same Gym Badge, as he's earned a {{badge|Rain}} from both [[Juan]] and [[Wallace]].
+* Ash is the only Champion in the animated series to own a [[Mythical Pokémon]].
+* Ash has never caught another Electric-type Pokémon other than Pikachu.
+* Ash has never officially owned a {{cat|female-only Pokémon}}.
+** While he has technically owned a [[Legendary Pokémon]] in {{AP|Solgaleo}}, he has never officially {{pkmn2|caught}} one in a [[Poké Ball]].
+* Ash has caught at least one of the [[first partner Pokémon]] of every [[region]] he has visited, except for [[Galar]].
+* As of ''[[JN016|A Chilling Curse!]]'', Ash has caught at least one Pokémon belonging to all eighteen [[type]]s (this includes Pokémon he owns or has owned that have been retroactively made {{type|Fairy}}).
+** Also, as of ''[[JN099|Battling Turned Up to Eleven!]]'', he has used at least one [[move]] of every type with his Pokémon.
+* Ash has caught at least one {{type|Flying}} Pokémon in every [[series]].
+** Moreover, Flying is the most common type among Ash's non-temporary Pokémon under his ownership, with a total of twelve representants.
+* [[Alola]] is the only region in which Ash does not catch a {{type|Water}} Pokémon.
+** Similarly, ''Pokémon Journeys: The Series'' is the only series in which he does not catch a {{type|Fire}} Pokémon.
+* All of Ash's {{type|Grass}} Pokémon are part of a three-stage evolutionary line.
+* Ash's favorite move is {{m|Thunderbolt}}, as revealed by himself in ''[[XY025|Climbing the Walls!]]''.
+* Ash can {{wp|drawing|draw}}, as shown in ''[[DP089|Up Close and Personable!]]'' when he drew a {{p|Dewgong}}. However, his drawing was insulted by [[Angie]].
+* Ash has been shown to be a good climber at various points in the animated series, such as in ''[[BW002|Enter Iris and Axew!]]'', ''Climbing the Walls'', and ''[[SM075|Some Kind of Laziness!]]'', to the point of {{an|Misty}} saying "He climbs like a {{p|Mankey}}" in ''[[M04|Celebi: The Voice of the Forest]]'', and {{an|Brock}} calling him a "human {{p|Aipom}}" in ''[[M08|Lucario and the Mystery of Mew]]''.
+* Ash has lost once to every {{type|Normal}} [[Gym Leader]] he has met. Out of the four Normal-type Gym Leaders he has battled against, [[Cheren]] is the only one against whom Ash has never won.
+* The only region where Ash didn't lose any official Gym battles is the [[Orange Islands|Orange Archipelago]].
+** Also, Ash did not lose any official trials in {{aniseries|SM}}, although he lost to [[Nanu]] in an [[SM074|unofficial battle]].
+* Ever since facing [[Wattson]] in ''[[AG040|Watt's with Wattson?]]'', Ash has not won a Gym [[Badge]] in the same episode in which he meets the [[Gym Leader]].
+* If only {{pkmn|Trainer}} battles are counted, Ash's longest winning streak lasted a total of 87 episodes, spanning from his loss to [[Rinto]] in ''[[JN051|Trials of a Budding Master!]]'' to his loss to Misty in ''[[JN138|A Fated Face-Off!]]''.
+** If not, as all of his eligible Pokémon were defeated in a [[Raid Battle (GO)#In animation|Raid Battle]] against an {{p|Articuno}} in ''[[JN102|Battling in the Freezing Raid!]]'', the longest period Ash has been on a winning streak is exactly 70 episodes, going from ''[[XY036|Battles in the Sky!]]'' to ''[[XY106|A Meeting of Two Journeys!]]''.
+* Ash has defeated more regional Champions onscreen in the animated series than any other Trainer, having won official battles against {{an|Iris}}, {{an|Steven Stone|Steven}}, {{an|Cynthia}}, and {{an|Leon}}, as well as an unofficial battle against [[Alder]], who fell asleep before the battle began and forfeited soon after waking up.
+** Additionally, he has defeated Wallace, the former [[Hoenn]] Champion.
+* Ash shares at least one Pokémon of the same evolutionary line with one of his rivals in each series.
+* ''[[JN032|Time After Time!]]'' and ''[[JN133|The Mew from Here!]]'' are the only mainline animated series episodes of {{aniseries|PTS}} to not feature Ash in any capacity.
+* In promotional material for the [[Manalo Conference]], Ash was given the title of (Japanese: ゼンリョクチャレンジャ ''Full-force challenger'').
+* {{DL|Pokémon social media|National Ash Ketchum Day}} is celebrated every September 15, the anniversary of Ash's first [[Pokémon League Conference]] [[SM139|victory]], first being celebrated on said victory's first-year anniversary in 2020.
+* In the [[Pokémon: Twilight Wings]] episode ''[[TW01|Letter]]'', a Trainer who bears a resemblance to Ash can be seen at the entrance to [[Wyndon Stadium]] with a {{p|Pikachu}}.
+* Although Ash has been retired from the role of main protagonist as of {{aniseries|HZ}}, Senior Marketing Director of [[The Pokémon Company International]], Andy Gose, has not ruled out the possibility of him reappearing at some point due to him still being around in the world of Pokémon.<ref>[https://variety.com/2024/tv/news/pokemon-horizons-netflix-ash-ketchum-1235927798/?utm_source=syndication Variety]</ref>
+* In [[Pokémon Legends: Z-A]], [[Mission (Legends: Z-A)#Side mission|Side Mission 107]]: "The World's Greatest Pikachu!" is requested by a {{tc|Grade-Schooler}} named Pikami, who uses only a {{p|Pikachu}} and whose attire resembles that of Ash, likely being a reference.
+* In the licensed Brazilian music video "[[The Strength of the Master]]", a boy and a girl appear dressed as Ash and Misty.
+
+==Names==
+{| class="roundtable" style="background:#{{x color light}}; border:3px solid #{{power color light}}"
+|-
+! style="background:#{{ice color light}}" | Language
+! style="background:#{{ice color light}}" | Name
+! style="background:#{{ice color light}}" | Origin
+|-
+| Japanese
+| サトシ ''Satoshi''
+| Named after 田尻智 ''[[Satoshi Tajiri]]'', the creator of Pokémon
+|-
+| English, German, European Spanish,<br>Latin American Spanish, Italian, Bengali,<br>Catalan, Hindi, Malay, Brazilian Portuguese,<br>European Portuguese, Tamil, Telugu, Turkish
+| Ash Ketchum
+| His given name "Ash" sounds similar to his Japanese name, along with being one of the default names for {{ga|Red}} in {{game|Red and Blue|s}}.<br>Incidentally, ''ash'' is also a common name for trees belonging to the ''{{wp|Fraxinus}}'' genus.<br>His surname "Ketchum" sounds similar to ''catch 'em''.
+|-
+| European French
+| Sacha<br>Sacha Ketchum <ref group=n>[[M07]] onwards</ref>
+| Similar to his Japanese and English name
+|-
+| Canadian French
+| Sacha Ketchum<ref group=n>2014 onwards</ref><br>Ash Ketchum<ref group=n>Pre-2010</ref>
+| Same as his European French name<br>Same as his English name
+|-
+| Korean
+| 한지우 ''Han Jiwoo''
+| From the hanja reading of the Japanese name 智 ''Satoshi'' as 지 (智) ''ji'' (wisdom), 우 (優) ''u'' (excellent), 지우 (知友) ''jiu'' (close friend), and the surname 한 ''{{wp|Han (Korean surname)|Han}}''
+|-
+| Chinese (Traditional)
+| 小智 ''Xiǎo Zhì'' / ''Síu Ji''
+| rowspan="2" | From 田尻智 ''Satoshi Tajiri'', 智 ''zhì / ji'' (wisdom), and the {{wp|diminutive}} prefix 小 ''xiǎo / síu''
+|-
+| Chinese (Simplified)
+| 小智 ''Xiǎo Zhì''
+|-
+| Arabic
+| أش كيتشوم ''Ash Ketshum''
+| Transcription of his English name
+|-
+| Bulgarian
+| Аш Кечъм ''Ash Kechum''
+| Transcription of his English name
+|-
+| Bengali
+| অ্যাশ ''Ash''
+| Transcription of his English name
+|-
+| Hindi
+| ऐश ''Ash''
+| Transcription of his English name
+|-
+| Icelandic
+| Ash Ketchum<ref group=n>Spoken name</ref><br>Askur Ketchum<ref group=n>Subtitles</ref>
+| Same as his English name<br>From ''askur'' (ash tree) and his English name
+|-
+| Indonesian
+| Ash Ketchum<ref group=n>[[M20]] onwards</ref><br>Satoshi<ref group=n>[[Original series|Pokémon the Series: Gold and Silver]] to ''[[Pokémon the Series: XY|XY]]'' series</ref><br>Ali<ref group=n>[[Original series|Pokémon the Series: The Beginning]]</ref>
+| Same as his English name<br>Transcription of his Japanese name<br>Similar to his English name with ''{{wp|Ali (name)|Ali}}'' being a name of Arabic origin meaning "elevated" or "champion"
+|-
+| Lithuanian
+| Ešas Kečiumas
+| Similar to his English name
+|-
+| Russian
+| Эш Кетчум ''Esh Ketchum''
+| Transcription of his English name
+|-
+| Tamil
+| ஆஷ் ''Ash''
+| Transcription of his English name
+|-
+| Telugu
+| యాష్ ''Ash''
+| Transcription of his English name
+|-
+| Thai
+| ซาโตชิ ''Satoshi''
+| Transcription of his Japanese name
+|-
+| Ukrainian
+| Еш ''Esh''
+| Transcription of his English name
+|-
+| Vietnamese
+| Satoshi<br>Ash Ketchum<ref group=n>Early promotions</ref>
+| Transcription of his Japanese name<br>Same as his English name
+|}
+{{-}}
+
+===Notes===
+{{reflist|group=n}}
+
+==References==
+<references/>
+
+==External links==
+*{{wp|Ash Ketchum|Article on Wikipedia}}
+
+==Related articles==
+* {{DL|Cross-dressing|Ashley}}
+* {{DL|Human–Pokémon transformation|In animation|Ashachu}}
+* [[Mirror Ash]]
+* [[Alternate World Ash]]
+* {{DL|Pokémon social media|National Ash Ketchum Day}}
+* {{cat|Episodes focusing on Ash}}
+* [[a:Category:Ash Ketchum|Images on the Bulbagarden Archives]]
+
+{|  class="mw-collapsible mw-collapsed" align="center" width="620px"
+! style="background: #{{bulba color light}}; border: 2px solid #{{bulba color dark}}; {{roundy|20px}}; padding:5px;" width=500px | This article is covered by multiple navigation templates. Click "Expand" to view.&nbsp;
+|-
+|{{Ash's Pokémon}}
+|-
+|{{Animecharacters|x|ice}}
+|-
+|{{Leaguetrainers|x}}
+|-
+|{{Champions|x}}
+|-
+|{{Aether Foundation}}
+|-
+|{{worldcoronation|x}}
+|-
+|{{Electric Tale of Pikachu characters}}
+|-
+|{{Ash and Pikachu characters}}
+|-
+|{{Pokémon Live}}
+|}
+
+{{Project Anime notice|no}}
+
+[[Category:Animation characters]]
+[[Category:Ash & Pikachu characters]]
+[[Category:Pocket Monsters Diamond & Pearl characters]]
+[[Category:Characters named after real people]]
+[[Category:Male characters]]
+[[Category:Champions]]
+[[Category:Trainers with Shiny Pokémon]]
+[[Category:Trainers who use Z-Moves]]
+[[Category:Trainers with Ultra Beasts]]
+[[Category:Trainers with Legendary Pokémon]]
+[[Category:Trainers with Mythical Pokémon]]
+[[Category:Trainers who use Dynamax]]
+[[Category:Trainers who use Gigantamax]]
+[[Category:Trainers who use Mega Evolution]]
+[[Category:Ultra Guardians]]
+[[Category:Laboratory assistants]]
+[[Category:Pokémon GO characters]]
+[[Category:Pokémon Live!]]
+[[Category:Characters with confirmed ages]]
+
+[[de:Ash Ketchum]]
+[[es:Ash Ketchum]]
+[[fr:Sacha Ketchum]]
+[[it:Ash Ketchum]]
+[[ja:サトシ]]
+[[zh:小智（动画）]]

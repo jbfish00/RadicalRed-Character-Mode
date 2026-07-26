@@ -1,0 +1,518 @@
+{{Character Infobox
+|color={{water color}}
+|corecolor={{water color light}}
+|bordercolor={{water color dark}}
+|name=Lana
+|jname=スイレン
+|tmname=Suiren
+|image=Sun Moon Lana.png
+|size=300px
+|caption=Artwork from {{g|Sun and Moon}}<br>Illustrated by [[Ken Sugimori]]<ref>[[a:File:LanaBurningShadows117.jpg|Lana (Burning Shadows 117)]]</ref>
+|gender=Female
+|age=Unconfirmed{{#tag:ref|Trial Captains are between 11-19 years old.<ref>[[Hala/Quotes|Hala]]: ''"The island challenge Kukui spoke of... [...] It is the great adventure that children in the Alola region embark upon, along with their Pokémon, once they reach 11 years of age!"'' ([[Pokémon Ultra Sun and Ultra Moon]])</ref><ref>[[Mallow/Quotes#Pokémon Sun and Moon|Mallow]]: ''"I mean, we have to move on from being captains when we turn 20 anyway."'' ([[Pokémon Sun and Moon|Pokémon Moon]])</ref>|group=lower-alpha}}
+|height= 4'7" (1.40 m)<ref>[[a:File:Lana concept art.png]]</ref>
+|eyes=Blue
+|hair=Blue
+|hometown=[[Konikoni City]]
+|region=[[Alola]]
+|relatives=[[Lana's father|Unnamed father]]<br>[[Lana's mother|Unnamed mother]]<br>[[Harper and Sarah]] (younger twin sisters)<!--, grandmother-->
+}}
+{{Character Infobox/Game
+|color={{water color light}}
+|gen={{gen|VII}}, {{gen|VIII}}, {{gen|IX}}
+|games={{pkmn|Sun and Moon|Sun, Moon}}, {{pkmn|Ultra Sun and Ultra Moon|Ultra Sun, Ultra Moon}}<br>{{pkmn|Masters EX}}
+|counterpart=[[Lana (Masters)]]
+|trainer=[[Trial Captain|Captain]]
+|enva=Amanda Lee<ref name="Amanda Lee">[https://www.leeandlie.com/resume Amanda Lee's Resume]</ref> <small>({{pkmn|Masters EX}})</small>
+|jpva=Kaori Nazuka<ref name="Kaori Nazuka">[https://twitter.com/pokemas_game/status/1403234290314350595 Pokémon Masters EX Twitter] (Japanese)</ref> <small>({{pkmn|Masters EX}})</small>
+}}
+{{Character Infobox/Team
+|color={{water color light}}
+|member=[[Island challenge]]
+|rank=[[Trial Captain|Captain]]
+|domain=[[Brooklet Hill]]
+|title=Captain
+|rewardtype=Z-Crystal
+|reward=[[Waterium Z]]
+|specialty={{t|Water}} types
+}}
+{{Character Infobox/Anime
+|color={{water color light}}
+|series=''[[Pokémon the Series]]''
+|counterpart=[[Lana (anime)]]
+|debut=''[[SM001|Alola to New Adventure!]]''
+|enva=[[Rosie Reyes]]
+|jpva=[[Hitomi Kikuchi]]
+}}
+{{Character Infobox/Manga
+|color={{water color light}}
+|series=''[[Pokémon Adventures]]''<br>''[[Pokémon Horizon]]''
+|debut=''[[PASM08|Going Ashore and Neighboring Akala Island]]'' <small>({{pkmn|Adventures}})</small><br>''[[HOR07|Attack on the Headquarters]]'' <small>({{pkmn|Horizon}})</small>
+}}
+|}
+
+'''Lana''' (Japanese: '''スイレン''' ''Suiren'') is the [[Trial Captain|captain]] of [[Akala Island]]'s [[Brooklet Hill]]. She is described as an expert with {{type|Water}} {{OBP|Pokémon|species}} who is dedicated to her family and a reliable older sister who watches over her younger sisters.
+
+==In the core series games==
+Lana appears in {{pkmn|Sun and Moon|Pokémon Sun, Moon}}, {{pkmn|Ultra Sun and Ultra Moon|Ultra Sun, and Ultra Moon}} as the captain of the [[Island challenge|trial]] of [[Brooklet Hill]]. In her trial, Lana asks the {{player}} to investigate a series of phenomena in the hill's waters using their new [[Poké Ride|Ride Pokémon]], {{p|Lapras}}. At the end, they must defeat a powerful sea-going [[Totem Pokémon]], a {{DL|List of Pokémon with form differences|Wishiwashi|School Form}} {{p|Wishiwashi}}{{sup/7|SM}}/an {{p|Araquanid}}{{sup/7|USUM}}. She later appears near the end of [[Mallow]]'s trial with [[Kiawe]], providing supplies that prove necessary to lure in the Totem {{p|Lurantis}}.
+
+After defeating [[Olivia]]{{sup/7|SM}}/becoming {{pkmn|Champion}}{{sup/7|USUM}}, the player can visit Lana's twin sisters, [[Harper and Sarah]], in her home in [[Konikoni City]], who ask to play with them by battling them in a [[Double Battle]]. After defeating them, Lana arrives, and is goaded into battling the player by her siblings. The battle takes place back in Brooklet Hill, where Lana will use a [[Z-Ring]]{{sup/7|SM}}/[[Z-Power Ring]]{{sup/7|USUM}} along with a [[Waterium Z]] attached to her Araquanid.
+
+In Ultra Sun and Ultra Moon only, Lana also appears with Mallow at [[Lush Jungle]] during [[Mina]]'s trial. She will give the player a [[Blue Petal]] as a part of the trial, although the player must defeat her{{sup/7|UM}}/Mallow{{sup/7|US}} first. Afterwards, she and Mallow will offer to escort the player to [[Wela Volcano Park]] to meet [[Kiawe]] and get the next petal from him.
+
+===Pokémon===
+Lana's Pokémon are kept in [[Net Ball]]s.
+====[[Pokémon Sun and Moon]]====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = VSLana.png
+| size = 150px
+| prize = {{pdollar}}3,240
+| class = Captain
+| classlink = Trial Captain
+| name = Lana
+| location = Brooklet Hill
+| game = SM
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0170
+| pokemon = Chinchou
+| gender = female
+| level = 26
+| type1 = Water
+| type2 = Electric
+| ability = Volt Absorb
+| move1 = Bubble Beam | move1type = Water | move1cat = Special
+| move2 = Thunder Wave | move2type = Electric | move2cat = Status
+| move3 = Electro Ball | move3type = Electric | move3cat = Special
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0090
+| pokemon = Shellder
+| gender = female
+| level = 26
+| type1 = Water
+| ability = Skill Link
+| move1 = Water Gun | move1type = Water | move1cat = Special
+| move2 = Supersonic | move2type = Normal | move2cat = Status
+| move3 = Icicle Spear | move3type = Ice | move3cat = Physical
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0752
+| pokemon = Araquanid
+| icon = z-power
+| gender = female
+| level = 27
+| type1 = Water
+| type2 = Bug
+| ability = Water Bubble
+| held = Waterium Z
+| move1 = Bug Bite | move1type = Bug | move1cat = Physical
+| move2 = Bite | move2type = Dark | move2cat = Physical
+| move3 = Bubble Beam | move3type = Water | move3cat = Special | z-move3 = Hydro Vortex
+}}
+{{Party/end}}
+====[[Pokémon Ultra Sun and Ultra Moon]]====
+=====[[Seafolk Village#Trial|Mina's trial]]{{sup/7|UM}}=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = VSLana USUM.png
+| size = 150px
+| prize = {{pdollar}}6,120
+| class = Captain
+| classlink = Trial Captain
+| name = Lana
+| location = Lush Jungle
+| game = UM
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0171
+| pokemon = Lanturn
+| gender = female
+| level = 51
+| type1 = Water
+| type2 = Electric
+| ability = Volt Absorb
+| move1 = Discharge | move1type = Electric | move1cat = Special
+| move2 = Hydro Pump | move2type = Water | move2cat = Special
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0091
+| pokemon = Cloyster
+| gender = female
+| level = 51
+| type1 = Water
+| type2 = Ice
+| ability = Skill Link
+| move1 = Spike Cannon | move1type = Normal | move1cat = Physical
+| move2 = Icicle Crash | move2type = Ice | move2cat = Physical
+| move3 = Spikes | move3type = Ground | move3cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0752
+| pokemon = Araquanid
+| icon = z-power
+| gender = female
+| level = 51
+| type1 = Water
+| type2 = Bug
+| ability = Water Bubble
+| held = Waterium Z
+| move1 = Liquidation | move1type = Water | move1cat = Physical | z-move1 = Hydro Vortex
+| move2 = Leech Life | move2type = Bug | move2cat = Physical
+| move3 = Crunch | move3type = Dark | move3cat = Physical
+}}
+{{Party/end}}
+=====Post-game battle=====
+{{Party
+| background = {{water color}}
+| border = {{water color dark}}
+| headcolor = {{water color light}}
+| sprite = VSLana USUM.png
+| size = 150px
+| prize = {{pdollar}}7,200
+| class = Captain
+| classlink = Trial Captain
+| name = Lana
+| location = Brooklet Hill
+| game = USUM
+| pokemon = 3
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0171
+| pokemon = Lanturn
+| gender = female
+| level = 60
+| type1 = Water
+| type2 = Electric
+| ability = Volt Absorb
+| move1 = Discharge | move1type = Electric | move1cat = Special
+| move2 = Hydro Pump | move2type = Water | move2cat = Special
+| move3 = Thunder Wave | move3type = Electric | move3cat = Status
+| move4 = Icy Wind | move4type = Ice | move4cat = Special
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0091
+| pokemon = Cloyster
+| gender = female
+| level = 60
+| type1 = Water
+| type2 = Ice
+| ability = Skill Link
+| move1 = Spike Cannon | move1type = Normal | move1cat = Physical
+| move2 = Icicle Crash | move2type = Ice | move2cat = Physical
+| move3 = Smart Strike | move3type = Steel | move3cat = Physical
+| move4 = Spikes | move4type = Ground | move4cat = Status
+}}
+{{Pokémon
+| gen = 7
+| ndex = 0752
+| pokemon = Araquanid
+| icon = z-power
+| gender = female
+| level = 60
+| type1 = Water
+| type2 = Bug
+| ability = Water Bubble
+| held = Waterium Z
+| move1 = Liquidation | move1type = Water | move1cat = Physical | z-move1 = Hydro Vortex
+| move2 = Leech Life | move2type = Bug | move2cat = Physical
+| move3 = Crunch | move3type = Dark | move3cat = Physical
+| move4 = Frost Breath | move4type = Ice | move4cat = Special
+}}
+{{Party/end}}
+==In the spin-off games==
+===[[Pokémon Masters EX]]===
+{{main|Lana (Masters)}}
+Lana forms a [[sync pair]] with {{p|Araquanid}}, {{p|Tapu Lele}}, {{p|Lanturn}}, {{p|Cloyster}}, and {{Shiny}} {{p|Dondozo}} in [[Pokémon Masters EX]]. Her Dondozo is capable of Sync {{Tera}}stallizing into the {{t|Dragon}} type. Lana became a playable sync pair on June 11, 2021.
+
+Lana first appeared as an NPC during the [[story event]] [[Trials on the Isle]]. She has also made a notable appearance in one of the game's main stories, the [[villain arc]].
+
+{{PairDex/h|Water}}
+{{PairDex|129|Lana|trainerlink=Lana (Masters)#Araquanid|trainerimg=Lana|0752|Araquanid|gender=female|Water|Rock|Support|6|Sync Pair Scout}}
+{{PairDex|129|Lana|trainerlink=Lana (Masters)#Tapu Lele|trainerimg=Lana Sygna|sygna=[[Sygna suit|Sygna Suit]]|0786|Tapu Lele|buddy=yes|Psychic|Steel|Physical Strike|exrole=Sprint|6|Poké Fair Sync Pair Scout}}
+{{PairDex|129|Lana|trainerlink=Lana (Masters)#Lanturn|trainerimg=Lana|0171|Lanturn|gender=female|Water|Ground|Support|4EX|Trainer Lodge Friendship Level 100}}
+{{PairDex|129|Lana|trainerlink=Lana (Masters)#Cloyster|trainerimg=Lana|0091|Cloyster|gender=female|Water|Grass|Support|exrole=Field|6|Gym Scout}}
+{{PairDex|129|Lana|trainerlink=Lana (Masters)#Dondozo|trainerimg=Lana New Year 2026|sygna=New Year's 2026|0977 s Tera Dragon|shiny=yes|Dondozo|gender=female|buddy=yes|tera=Dragon|Dragon|Ice|Support|exrole=Field|6|Seasonal Sync Pair Scout}}
+|}
+
+==Quotes==
+{{main|Lana/Quotes}}
+
+==In animation==
+===''Pokémon the Series''===
+[[File:Lana anime.png|thumb|250px|Lana in {{aniseries|SM}}]]
+{{main|Lana (anime)}}
+Lana debuted in ''[[Pokémon the Series: Sun & Moon]]''. She is a student at the [[Pokémon School]] of [[Melemele Island]] and one of {{Ash}}'s former {{ashcl|classmates}}. She loves the sea and likes to [[Fishing|fish]]. She also reappeared in ''[[Pokémon Journeys: The Series]]''.
+
+===GOTCHA!===
+Lana briefly appeared in [[GOTCHA!]].
+{{-}}
+
+==In the manga==
+===Pokémon Adventures===
+[[File:Lana Adventures.png|thumb|170px|Lana in Pokémon Adventures]]
+[[File:Lana angry Adventures.png|thumb|left|170px|Lana in her "battle mode"]]
+Lana debuted in the ''[[PASM08|Going Ashore and Neighboring Akala Island]]''. She, Mallow, and Kiawe traveled to [[Heahea City]] to meet {{adv|Sun}}, a boy approved to take part in the [[island challenge]]. Curious about whether or not Sun was worthy enough to do the island challenge, Kiawe challenged him to a short battle. Though the match ended without a winner, Kiawe bonded with Sun and accepted him as a trialgoer. Lana was still reluctant and told the others to follow her to [[Brooklet Hill]].
+
+In ''[[PASM09|True Identity and the Totem Pokémon of Brooklet Hill]]'', Lana gave Sun the task of defeating the [[Totem Pokémon]] causing havoc at Brooklet Hill. Later, Lana watched Sun battled the totem, a {{DL|List of Pokémon with form differences|Wishiwashi|School Form}} {{p|Wishiwashi}}. Due to having befriended Wishiwashi earlier, Sun was reluctant to fight it. This angered Lana, who compared it to herself and pointed out that despite appearances,  Wishiwashi was strong and didn't need to be protected. Listening to Lana's advice, Sun stopped holding back and defeated the totem, successfully completing his first trial.
+
+In ''[[PASM11|Homecoming and the Brilliant Professional Golfer]]'', Lana and Sun were informed by Mallow that Kiawe had been attacked by [[Gladion]]. Lana, Sun, {{adv|Moon}}, and Mallow went to [[Memorial Hill]], where they found an injured Kiawe. When a group of {{tc|Team Skull Grunt}}s appeared, Lana and Mallow stayed behind to battle them while the others went to protect {{p|Tapu Lele}} from Gladion. After the Grunts were defeated, Lana and Mallow reunited with the others after they successfully helped Tapu Lele.
+
+In ''[[PASM14|Flash and Cosmog's Secret]]'', Lana and the others met at Mallow's family restaurant, where they talked to [[Professor Kukui]]'s wife, [[Professor Burnet]], over a video phone. After suspecting [[Team Skull]] may be related to the [[Ultra Wormhole]]s appearing around Alola, Lana suggested infiltrating Team Skull's base in [[Po Town]] to get answers. Mallow and Kiawe reluctantly agreed, but the former suggested asking [[Ilima]] and [[Acerola]] to help them.
+
+In ''[[PASM17|A Raid and Po Town]]'', Lana, Kiawe, Mallow, Acerola, Ilima, and [[Hau]] arrived at Po Town. Their presence alerted Team Skull's boss, [[Guzma]], who demanded to know why his base was being invaded. When the captains revealed they only wanted to talk, Guzma agreed on the condition they made it to him first. He then summoned a {{p|Pheromosa}}, {{p|Celesteela}}, and {{p|Guzzlord}} and had them attack the captains and Hau. Despite their best efforts, Lana and the others were completely outmatched by the rampaging beasts.
+
+In ''[[PASM18|Confusion and Monsters from Another World]]'', Sun arrived at Po Town, only to get caught up in the commotion. Annoyed the captains were still fighting, Guzma revealed a {{p|Cosmog}} and had it open more wormholes. Gladion appeared, demanding to know where Guzma got the Cosmog and Ultra Beasts from. Revealing his true aim is to destroy Ultra Beasts, Gladion battled the beasts Guzma summoned with his {{TP|Gladion|Type: Null}}. To everyone's shock, Gladion also revealed the [[Aether Foundation]]'s president, [[Lusamine]], was the one who gave Guzma Cosmog as part of her plan to create a paradise filled with nothing but Ultra Beasts and herself. Eventually, the beasts broke out of Po Town's barrier, allowing them to wreak havoc on all of [[Ula'ula Island]]. Lana and the other captains headed off to various locations to evacuate any innocent civilians caught in the beasts' attacks.
+
+In ''[[PASM26|Adventure in the Dark Dimension]]'', the captains and [[island kahuna]]s were revealed to have spent six months on [[Exeggutor Island]] {{pkmn|training}} to prepare for another clash with the Ultra Beasts. After their training was finished, [[Sophocles]] and [[Molayne]] took everyone to [[Mount Lanakila]], where a wormhole had opened up earlier. Shortly after they arrived, their ship was attacked by a group of Aether Foundation Employees and their Ultra Beasts. With the [[Z-Moves]] they had acquired, Lana and the others managed to defeat the Ultra Beasts.
+
+Normally, Lana is very shy and timid, but she takes on a more serious and violent persona when in battle. Kiawe refers to this transformation as Lana's (Japanese: '''バトルモード''' ''battle mode''). According to Lana, this personality shift actually scares her younger sisters.
+
+====Pokémon====
+=====On hand=====
+{{TrainerPoké
+|trainer=Lana
+|pkmn=Araquanid
+|type1=Water
+|type2=Bug
+|img=Lana Araquanid Adventures.png
+|epnum=PASM11
+|epname=Homecoming and the Brilliant Professional Golfer
+|desc={{p|Araquanid}} is Lana's only known Pokémon. It was first used to travel to [[Konikoni City]] so that Lana and {{adv|Sun}} could rescue [[Kiawe]] from being attacked. After discovering the assailants were {{tc|Team Skull Grunt}}s, Lana used Araquanid to battle them. Later, it was used to battle the {{p|Pheromosa}} [[Guzma]] used at [[Po Town]], but was defeated. Later, it fought an {{tc|Aether Foundation Employee}}'s {{p|Blacephalon}} and won with the help of a [[Z-Move]].
+
+Araquanid's only known move is {{m|Bug Bite}}{{tt|*|Araquanid is also implied to know a Water-type attack through the use of Hydro Vortex}}.<br>
+Araquanid can also perform the [[Z-Move]] {{m|Hydro Vortex}}.}}
+
+=====Raised=====
+{{TrainerPoké
+|trainer=Lana
+|pkmn=Totem Wishiwashi
+|gender=male
+|type1=Water
+|img=Sun Quarter School Form.png
+|epnum=PASM09
+|epname=True Identity and the Totem Pokémon of Brooklet Hill
+|desc=This {{p|Wishiwashi}} is the Totem Pokémon of Brooklet Hill. It was raised by Lana to be used in the island challenge, but became too strong and began terrorizing the sightseers at Brooklet Hill. Lana tasked Sun with defeating the Totem as a part of his trial, which he successfully managed to accomplish. The leader of the Totem was captured by Sun and nicknamed Quarter.
+
+Wishiwashi's known moves are {{m|Water Gun}} and {{m|Aqua Tail}}, and its Ability is {{a|Schooling}}.
+}}
+
+===Pokémon Horizon===
+[[File:Mallow Lana Kiawe Horizon.png|thumb|200px|Lana in Pokémon Horizon]]
+In ''[[HOR07|Attack on the Headquarters]]'', Lana was seen with [[Kiawe]] and [[Mallow]].
+{{-}}
+
+==In the TCG==
+[[File:LanaUltraPrism150.jpg|200px|thumb|Full Art print of Lana]]
+This listing is of cards mentioning or featuring Lana or her Pokémon in the [[Pokémon Trading Card Game]].
+
+{{card list/header|Lana's Trainer cards|Water|nocat=yes}}
+{{card list/card|cardname={{TCG ID|Burning Shadows|Lana|117}}|type=Supporter|newmark=A|rows=3}}
+{{card list/release|type=Supporter|enset=Burning Shadows|enrarity=Uncommon|ennum=117/147|jpset=SM-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpnum=036/SM-P}}
+{{card list/release|type=Supporter|jpset=GX Battle Boost|jpnum=106/114}}
+{{card list/release|type=Supporter|enset=Ultra Prism|enrarity=Rare Ultra|ennum=150/156|jpset=GX Battle Boost|jprarity=SR|jpnum=118/114}}
+
+{{card list/card|cardname={{TCG ID|Cosmic Eclipse|Lana's Fishing Rod|195}}|type=Item|newmark=C|rows=2}}
+{{card list/release|type=Item|enset=Cosmic Eclipse|enrarity=Uncommon|ennum=195/236|jpset=Dream League|jprarity=U|jpnum=042/049}}
+{{card list/release|type=Item|enset=Cosmic Eclipse|enrarity=Rare Secret|ennum=266/236|jpset=Dream League|jprarity=UR|jpnum=073/049}}
+
+{{card list/card|cardname={{TCG ID|Cosmic Eclipse|Mallow & Lana|198}}|type=Supporter|newmark=C|rows=4}}
+{{card list/release|type=Supporter|enset=Cosmic Eclipse|enrarity=Uncommon|ennum=198/236|jpset=Alter Genesis|jprarity=U|jpnum=089/095}}
+{{card list/release|type=Supporter|enset=Cosmic Eclipse|enrarity=Rare Ultra|ennum=231/236|jpset=Alter Genesis|jprarity=SR|jpnum=107/095}}
+{{card list/release|type=Supporter|jpset=S-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpnum=089/S-P}}
+{{card list/release|type=Supporter|jpset=S-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpnum=256/S-P}}
+
+{{card list/card|cardname={{TCG ID|SM-P Promo|Friends in Alola|401}}|type=Supporter|newmark=C|color=FFF|rows=1}}<!--Unreleased-->
+{{card list/release|type=Supporter|jpset=SM-P Promotional cards|jpsymbol=SetSymbol SMPromo|jpnum=401/SM-P}}
+
+{{card list/card|cardname={{TCG ID|Twilight Masquerade|Lana's Aid|155}}|type=Supporter|newmark=H|rows=6}}
+{{card list/release|type=Supporter|enset=Twilight Masquerade|enrarity=Uncommon|ennum=155/167|jpset=Crimson Haze|jprarity=U||jpnum=064/066}}
+{{card list/release|type=Supporter|enset=Twilight Masquerade|enrarity=Ultra Rare|ennum=207/167|jpset=Crimson Haze|jprarity=SR|jpnum=088/066}}
+{{card list/release|type=Supporter|enset=Twilight Masquerade|enrarity=Special Illustration Rare|ennum=219/167|jpset=Crimson Haze|jprarity=SAR|jpnum=093/066}}
+{{card list/release|type=Supporter|jpset=Stellar Miracle Deck Build Box|jpnum=032/044}}
+{{card list/release|type=Supporter|jpset=Terastal Fest ex|jpnum=168/187}}
+{{card list/release|type=Supporter|jpset=Start Deck 100 Battle Collection|jpnum=712/742}}
+{{cardlist/footer|Water}}
+
+
+{{card list/header|Other related cards|Water|nocat=yes}}
+{{card list/card|cardname={{TCG ID|Cosmic Eclipse|Wishiwashi|62}}|type=Water|newmark=C|rows=1}}
+{{card list/release|type=Water|enset=Cosmic Eclipse|enrarity=Rare Secret|ennum=240/236|jpset=Dream League|jprarity=CHR|jpnum=053/049}}
+{{cardlist/footer|Water}}
+
+==Merchandise==
+===Pokémon Trading Card Game===
+Lana has had a variety of merchandise released exclusively for the Pokémon Trading Card Game.
+====Lana====
+Sleeves known as '''Lana''' were released through the Japanese Pokémon Center, drawn by [[Akira Komayama]].<ref name=LanaTCGCredit>[https://archive.is/jH5BU Komayama confirming they were the artist for the Lana TCG merch.]</ref>
+
+'''Japan: March 22nd, 2024'''<ref name=LanaTCGDate>[https://web.archive.org/web/20240308200906/https://www.pokemon-card.com/products/#surroundingGoods The Pokémon Center website, listing the release date of the Lana TCG merch.]</ref>
+
+{{MerchGallery2
+|background={{water color}}
+|border={{water color dark}}
+|image1=Lana Sleeves.jpg
+|caption1=Sleeves
+}}
+
+==Gallery==
+:''For images on [[Lana (anime)|Lana's animated series counterpart]], see: [[Lana (anime)#Gallery|Lana (anime)]]''
+:''For images on Lana in [[Pokémon Masters EX]], see: [[Lana (Masters)#Gallery|Lana (Masters)]]''
+===Artwork===
+====Concept art====
+{|style="margin:auto; text-align:center; border:3px solid #{{water color dark}}; background:#{{water color}}; font-size:80%; border-radius: 10px"
+|- 
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Lana concept art.png|400px]]
+|-
+|'''{{GameIcon|Su}}{{GameIcon|Mo}}''' <br> Concept art
+|-
+|}
+
+====Merchandise====
+{|style="margin:auto; text-align:center; border:3px solid #{{water color dark}}; background:#{{water color}}; font-size:80%; border-radius: 10px"
+|-
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden;" | [[File:Lana Nendoroid Artwork.jpg|250px]]
+|-
+| Artwork of the {{color2|000|Nendoroid#Nendoroid Lana (852)|Lana Nendoroid}}
+|-
+|}
+
+====Raw TCG artwork====
+:For all images and products relating to this character in the TCG, see their ''[[Lana#In the TCG|In the TCG]]'' section
+{|style="margin:auto; text-align:center; border:3px solid #{{water color dark}}; background:#{{water color}}; font-size:80%; border-radius: 10px"
+|-
+| style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; overflow:hidden" | [[File:Mallow & Lana kirisAki.jpg|250px]]
+|-
+| Raw artwork of the {{color2|000|Mallow & Lana (Cosmic Eclipse 198)|Mallow & Lana}} full art<br>by {{color2|000|kirisAki}} for {{color2|000|Cosmic Eclipse (TCG)|Cosmic Eclipse}}
+|}
+===Game assets===
+{| style="margin:auto; text-align:center; {{roundy|20px}} border: 2px solid #{{water color dark}}; background: #{{water color}};"
+|-
+|colspan=2 style="{{roundy|15px}} border: 2px solid #{{water color dark}}; background: #{{water color light}};"| [[File:SM Ending Screen 4.png|400px]]
+|-
+|colspan=2 | Ending screenshot from {{color2|000|Pokémon Sun and Moon}}
+|}
+====Sprites and models====
+{| style="margin:auto; text-align:center; {{roundy|20px}} border:2px solid #{{water color dark}}; background: #{{water color}}; font-size:80%"
+|-
+|style="{{roundy|80px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:100px"| [[File:Spr SM Lana.png|120px]]
+|style="{{roundy|20px}} border:2px solid #{{water color dark}}; background:#{{water color light}}; width:250px"| [[File:VSLana.png|250px]]
+|-
+| High-poly model from<br>{{color2|000|Pokémon Sun and Moon|Sun, Moon}}, {{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun, and Ultra Moon}}
+| VS sprite from<br>{{color2|000|Pokémon Sun and Moon|Sun, Moon}}, {{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun, and Ultra Moon}}
+|-
+|colspan=2 style="{{roundy|20px}} border:2px solid #{{water color dark}}; background: #{{water color light}}; width:300px"| [[File:Lana SM OD.png|100px]]
+|-
+|colspan=2| Overworld model from<br>{{color2|000|Pokémon Sun and Moon|Sun, Moon}}, {{color2|000|Pokémon Ultra Sun and Ultra Moon|Ultra Sun, and Ultra Moon}}
+|}
+
+==Trivia==
+[[File:Harper Sarah SM Lana concept art.png|thumb|right|Lana's sisters depicted in her concept art sheet]]
+* Lana was designed by [[Megumi Mizutani]].<ref name="MegumiMy151">[https://www.pokemoncenter-online.com/?s=special/my151cam My151キャンペーン] ([https://web.archive.org/web/20220423234524/https://www.pokemoncenter-online.com/?s=special%2Fmy151cam archived copy]; section: イラストレーター紹介はこちら)</ref>
+* Lana is the only [[Trial Captain|captain]] who doesn't keep her Pokémon in [[Ultra Ball]]s.
+* Lana shares her Spanish name with [[Brigette]]: they both go by the name of Nereida.
+* Lana is 4'7" (140&nbsp;cm) tall.
+* In her concept art, Lana has two older sisters, but in the final product they are younger than her.
+
+==Names==
+{| class="roundtable" style="background:#{{water color}}; border:3px solid #{{water color dark}}"
+|-
+! style="background:#{{water color light}}" | Language
+! style="background:#{{water color light}}" | Name
+! style="background:#{{water color light}}" | Origin
+|-
+| Japanese
+| スイレン ''Suiren''
+| From 睡蓮 ''suiren'' ({{wp|Nymphaeaceae|water lily}}) and 水 ''sui'' (water)
+|-
+| English, Latin American Spanish,<br>Indonesian, Turkish
+| Lana
+| From ''lilia-lana-i-ka-wai'' (Hawaiian name for the water lily) and ''lana'' (Hawaiian for "afloat")
+|-
+| German
+| Tracy
+| From ''Tracheophyta'' ({{wp|vascular plant}}), a division of plants that includes the water lily family
+|-
+| European Spanish, Catalan
+| Nereida
+| From ''nereida'' ({{wp|nereid}}, sea nymphs in Greek mythology), possibly an allusion to the ''nymph'' in ''Nymphaeaceae'' (water lily family)
+|-
+| French
+| Néphie
+| From ''nénuphar'' (water lily)
+|-
+| Italian
+| Suiren
+| Transcription of her Japanese name
+|-
+| Korean
+| 수련 ''Suryeon''
+| From 수련 (睡蓮) ''suryeon'' (water lily) and 수 (水) ''su'' (water)
+|-
+| Chinese (Traditional)
+| 水蓮 ''Shuǐlián'' / ''Séuilìhn''
+| rowspan="2" | From 睡蓮 / 睡莲 ''shuìlián / seuihlìhn'' (water lily) and 水 ''shuǐ / séui'' (water)
+|-
+| Chinese (Simplified)
+| 水莲 ''Shuǐlián''
+|-
+| Brazilian Portuguese
+| Vitória
+| From ''vitória-régia'' ({{wp|Victoria amazonica|Amazon water lily}}, by extension "water lily" in general)
+|-
+| Russian
+| Лана ''Lana''
+| Transcription of her English name
+|-
+| Thai
+| ซุยเรน ''Suiren''
+| Transcription of her Japanese name
+|-
+| Vietnamese
+| Suilen
+| Transcription of her Japanese name
+|}
+{{-}}
+
+==Notes==
+<references group="lower-alpha"/>
+
+==References==
+<references />
+
+==Related articles==
+* [[Lana (anime)]]
+
+{{Captains and Kahunas of Alola}}
+{{Project CharacterDex notice}}
+
+[[Category:Sun and Moon characters]]
+[[Category:Ultra Sun and Ultra Moon characters]]
+[[Category:Water-type Trainers]]
+[[Category:Trainers who use Z-Moves]]
+[[Category:Trial Captains]]
+[[Category:Pokémon Adventures characters]]
+[[Category:Pokémon Horizon characters]]
+
+[[de:Tracy]]
+[[es:Lana/Nereida]]
+[[fr:Néphie]]
+[[it:Suiren]]
+[[ja:スイレン]]
+[[zh:水蓮]]
