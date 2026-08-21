@@ -36,11 +36,25 @@ STATE = Path("/tmp/rr_ss_bedroom.ss")
 # (character name, has staged front pic). Names, not indices: indices shift
 # every time the roster changes, and a stale index would silently test the
 # wrong character rather than erroring.
+# (name, has_front_pic, expected_assertions)
+#
+# ⭐ The assertion count is declared, not observed. It reaches the script as
+# CM_EXPECT_CHECKS and H.finish() fails the run on a mismatch or on zero
+# (../game_plans/rowe_parity.md §1): until 2026-08-20 the harness emitted
+# RESULT: PASS whenever nothing had FAILED, and this runner reads only that
+# line -- so a case that mis-navigated and checked nothing was indistinguishable
+# from one that rendered correctly.
+#
+# 8 vs 11 is not arbitrary: the three extra checks (mugshot x, mugshot y, and
+# the re-selection palette slot) are all inside `if EXPECT_SPRITE` blocks, so a
+# character with no art staged genuinely runs three fewer. Pinning them
+# separately is what makes "Ash draws nothing, cleanly" a real claim rather
+# than a run that quietly skipped most of the test.
 CASES = [
-    ("Red", True),        # rogue/     -- the reference case
-    ("Jessie", True),     # pokesho/   -- a different donor set entirely
-    ("Cynthia", True),    # rogue/     -- far down the table, not index 0
-    ("Ash", False),       # no front pic staged -> must draw nothing, cleanly
+    ("Red", True, 11),      # rogue/     -- the reference case
+    ("Jessie", True, 11),   # pokesho/   -- a different donor set entirely
+    ("Cynthia", True, 11),  # rogue/     -- far down the table, not index 0
+    ("Ash", False, 8),      # no front pic staged -> must draw nothing, cleanly
 ]
 
 
@@ -71,7 +85,7 @@ def main():
     print(f"sMugshotTemplate @ {tmpl:#x}")
 
     failures = []
-    for name, expect_sprite in CASES:
+    for name, expect_sprite, expect_checks in CASES:
         assert name in chars, f"{name} is no longer in the roster -- update CASES"
         idx = chars.index(name)
         assert not manifest[idx].get("hidden"), \
@@ -90,14 +104,20 @@ def main():
                    CM_TEMPLATE_ADDR=hex(tmpl),
                    CM_CHAR_ID=str(idx + 1),
                    CM_EXPECT_SPRITE="1" if expect_sprite else "0",
+                   CM_EXPECT_CHECKS=str(expect_checks),
                    CM_SHOT_PREFIX=f"/tmp/rr_mugshot_{name.lower()}")
         r = subprocess.run([str(MGBA), "--script", "tools/mgba_scripts/mugshot_shot.lua",
                             str(TEST_ROM)], cwd=ROOT, capture_output=True, text=True,
                            env=env, timeout=600)
         log = [l.split("HARNESS ", 1)[1] for l in r.stdout.splitlines() if "HARNESS " in l]
         ok = any(l.startswith("RESULT: PASS") for l in log)
+        # Report the tally here too. H.finish() already fails the run on a
+        # mismatch, but reading it back gives the failure a name instead of a
+        # bare "did not render as expected".
+        tally = next((l for l in log if l.startswith("PASSED ")), "PASSED ?")
         art = "with art" if expect_sprite else "no art staged"
-        print(f"\n=== {name} (index {idx}, {art}) ===")
+        print(f"\n=== {name} (index {idx}, {art}, expect {expect_checks} checks) ===")
+        print(f"  {tally}")
         for l in log:
             if l.startswith(("PASS", "FAIL", "mugshot OBJ")):
                 print("  " + l)
