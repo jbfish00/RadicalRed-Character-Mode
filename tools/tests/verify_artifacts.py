@@ -203,7 +203,12 @@ def main():
                 *[(s, s + 4) for s in BL_SITES],
                 *[(s, s + 4) for s in WILD_BL_SITES],
                 (GOTO_OPERAND_OFF, GOTO_OPERAND_OFF + 4),
-                (TRADE_BG_PTR_OFF, TRADE_BG_PTR_OFF + 4)]
+                (TRADE_BG_PTR_OFF, TRADE_BG_PTR_OFF + 4),
+                # encounter marker: its shim and the per-character intro
+                # strings share one free run low in the ROM, plus the single BL
+                # inside the battle-message code that it retargets.
+                (0x378CA8, 0x379000 + 238 * 64),
+                (0x0D77DE, 0x0D77DE + 4)]
     stray = []
     i = 0
     n = len(orig)
@@ -782,6 +787,42 @@ def main():
         _s = (ROOT / _f).read_text()
         check(f"{_f} pins FLAG_POKEMON_RANDOMIZER to 0x940",
               "#define FLAG_POKEMON_RANDOMIZER 0x940" in _s)
+
+    # == 13. Encounter marker ==
+    print("== 13. encounter marker ==")
+    _MK_SHIM, _MK_ADDR, _MK_STRIDE = 0x08378CA8, 0x08379000, 64
+    _MK_BL, _MK_WRAPPER = 0x0D77DE, 0x080D77F4
+    _MK_STRS = (0x083FD284, 0x083FD297)
+    _mk = (ROOT / "tools" / "character_mode" / "marker_strings.bin").read_bytes()
+    _nchars = len(json.loads((ROOT / "tools" / "character_mode" /
+                              "characters_manifest.json").read_text())["characters"])
+    check("marker_strings.bin is NUM_CHARACTERS x 64",
+          len(_mk) == _nchars * _MK_STRIDE, str(len(_mk)))
+    check("marker strings in ROM == marker_strings.bin",
+          bytes(patched[_MK_ADDR - 0x08000000:
+                        _MK_ADDR - 0x08000000 + len(_mk)]) == _mk)
+    _want = bytes.fromhex("d1dde0d800fd0600d5e4e4d9d5e6d9d8abfbff")
+    for _a in _MK_STRS:
+        check(f"wild-intro string intact at {_a:#x}",
+              bytes(patched[_a - 0x08000000:
+                            _a - 0x08000000 + len(_want)]) == _want)
+    _bl_now = decode_bl(bytes(patched[_MK_BL:_MK_BL + 4]), 0x08000000 + _MK_BL)
+    check("the intro BL now points into the marker shim",
+          _bl_now is not None and _MK_SHIM <= _bl_now < _MK_ADDR,
+          hex(_bl_now) if _bl_now else "None")
+    check("and originally pointed at the vanilla wrapper",
+          decode_bl(bytes(orig[_MK_BL:_MK_BL + 4]),
+                    0x08000000 + _MK_BL) == _MK_WRAPPER)
+    # The shim and the strings share one free run; prove they do not overlap and
+    # that the region really was free before we wrote it.
+    check("the marker shim does not run into the string blob",
+          _MK_SHIM < _MK_ADDR)
+    check("the whole marker region was 0xFF in the original",
+          all(b == 0xFF for b in orig[_MK_SHIM - 0x08000000:
+                                      _MK_ADDR - 0x08000000 + len(_mk)]))
+    _bad = [i for i in range(_nchars)
+            if 0xFF not in _mk[i * _MK_STRIDE:(i + 1) * _MK_STRIDE]]
+    check("every marker slot is 0xFF-terminated", not _bad, str(len(_bad)))
 
     print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
     return 1 if failures else 0

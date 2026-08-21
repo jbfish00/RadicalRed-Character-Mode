@@ -97,6 +97,22 @@ PARTY_COUNT  = 0x02024029
 MON_ADDR     = 0x0203E000   # scratch EWRAM for the synthetic mon
 TRAMP_ADDR   = 0x0203DF00   # scratch EWRAM for the ARM->Thumb entry trampoline
 
+# --- encounter marker (../../game_plans/rowe_parity.md §3) ---
+# Observation point is the small wrapper the intro tail calls, which
+# CM_BattleStringGated always tail-calls -- so whatever r0 it is entered with IS
+# the shim's decision. The wrapper itself never runs.
+MARKER_WRAPPER = 0x080D77F4
+MARKER_ADDR    = 0x08379000
+MARKER_STRIDE  = 64
+TEXT_WILD_A    = 0x083FD284
+TEXT_WILD_B    = 0x083FD297
+# Something that is NOT a wild intro: the two-wild string. It must pass
+# through untouched, or the marker would be rewriting unrelated battle text --
+# and it is the string a DOUBLE wild battle uses, which we deliberately leave
+# unmarked.
+TEXT_TWO_WILD  = 0x083FD2BF
+ENEMY_PARTY    = 0x0202402C   # gPlayerParty(0x02024284) - 6*100, = pokefirered's
+
 
 def build_mon(species, is_egg=False):
     """Craft a minimal valid BoxPokemon (plaintext: personality=otId=0 ->
@@ -115,7 +131,7 @@ def build_mon(species, is_egg=False):
     return bytes(mon)
 
 
-def gdb_script(cases):
+def gdb_script(cases, marker_cases, marker_entry):
     # ARM->Thumb entry trampoline in scratch EWRAM: mGBA's stub ignores manual
     # CPSR T-bit writes, so the first shim entry goes through a real BX (which
     # sets Thumb architecturally). Later cases re-enter from Thumb context.
@@ -131,6 +147,7 @@ def gdb_script(cases):
         f'python gdb.selected_inferior().write_memory({TRAMP_ADDR:#x}, bytes.fromhex("{tramphex}"))',
         f"break *{BP_GIVE:#x}",
         f"break *{BP_SENDPC:#x}",
+        f"break *{MARKER_WRAPPER:#x}",
     ]
     for i, c in enumerate(cases):
         mon = build_mon(c["species"], c.get("egg", False))
@@ -153,6 +170,21 @@ def gdb_script(cases):
             (f'set $pc = {TRAMP_ADDR:#x}' if i == 0 else f'set $pc = {SHIM_ENTRY:#x}'),
             "continue",
             'printf "STOPPED_AT=%08x\\n", $pc',
+        ]
+    for i, c in enumerate(marker_cases):
+        mon = build_mon(c["species"])
+        monhex = "".join(f"{b:02x}" for b in mon)
+        lines += [
+            f'echo \\n=== MARKER {i}: {c["name"]} ===\\n',
+            f'python gdb.selected_inferior().write_memory({ENEMY_PARTY:#x}, bytes.fromhex("{monhex}"))',
+            f'set *(unsigned char*){FLAG_BYTE:#x} = {FLAG_MASK if c["flag"] else 0:#x}',
+            f'set *(unsigned short*){VAR_ADDR:#x} = {c["char_id"]}',
+            f'set $r0 = {c["src"]:#x}',
+            'set $sp = 0x03007F00',
+            f'set $lr = {BP_GIVE:#x}',
+            f'set $pc = {marker_entry:#x}',
+            "continue",
+            'printf "MARKER_R0=%08x\\n", $r0',
         ]
     lines += ["detach", "quit"]
     return "\n".join(lines) + "\n"
@@ -196,7 +228,71 @@ def main():
     ]
 
     script = HERE / "shim_test.gdb"
-    script.write_text(gdb_script(cases))
+    # --- encounter marker (2026-08-21) ---------------------------------------
+    # Entry resolved from the SHIPPED ROM's own BL, not assumed: decode the
+    # retargeted BL at 0x0D77DE and use exactly what it reaches.
+    romdata = open(rom, "rb").read()
+    _h1, _h2 = struct.unpack_from("<HH", romdata, 0x0D77DE)
+    assert (_h1 & 0xF800) == 0xF000 and (_h2 & 0xF800) == 0xF800, "not a BL"
+    _off = ((_h1 & 0x7FF) << 12) | ((_h2 & 0x7FF) << 1)
+    if _off & 0x400000:
+        _off -= 0x800000
+    marker_entry = 0x08000000 + 0x0D77DE + 4 + _off
+    assert marker_entry != MARKER_WRAPPER, (
+        "the marker BL still points at the vanilla wrapper -- not injected")
+    print(f"marker entry (decoded from the shipped BL): {marker_entry:#x}")
+
+    STRIDE = 172
+
+    def allows(ci0, sp):
+        return bool(bitmaps[ci0 * STRIDE + (sp >> 3)] & (1 << (sp & 7)))
+
+    red0 = red_idx - 1
+    red_on = next(sp for sp in range(1, 1000) if allows(red0, sp))
+    red_off = next(sp for sp in range(1, 1000) if not allows(red0, sp))
+    # ⚠️ NOT meowth_ok_idx: it resolves to Red himself in this build, which made
+    # the "different character" control compare slot 0 against slot 0 and
+    # discriminate nothing while reporting PASS. Pick a character that is
+    # genuinely a DIFFERENT, OFFERED index, and assert it.
+    other0 = next(i for i, c in enumerate(chars)
+                  if i != red0 and not c.get("hidden")
+                  and any(allows(i, sp) for sp in range(1, 1000)))
+    assert other0 != red0, "the discrimination control must use another character"
+    other_on = next(sp for sp in range(1, 1000) if allows(other0, sp))
+
+    def marker_for(ci0):
+        return MARKER_ADDR + ci0 * MARKER_STRIDE
+
+    marker_cases = [
+        # The positive claim. Everything else here is an absence.
+        {"name": "CM on, Red, on-roster -> marker", "flag": 1,
+         "char_id": red_idx, "species": red_on, "src": TEXT_WILD_A,
+         "expect": marker_for(red0)},
+        # THE control that matters: a different character must get a DIFFERENT
+        # string. A shim that ignored charId and always returned the first
+        # character's marker would pass every other case here.
+        {"name": f"CM on, {chars[other0]['character']} (char {other0 + 1}) -> its OWN marker",
+         "flag": 1,
+         "char_id": other0 + 1, "species": other_on, "src": TEXT_WILD_A,
+         "expect": marker_for(other0)},
+        # The second copy of the string must be matched too -- the whole reason
+        # the shim tests both is that they could not be told apart statically.
+        {"name": "CM on, on-roster, SECOND string copy -> marker", "flag": 1,
+         "char_id": red_idx, "species": red_on, "src": TEXT_WILD_B,
+         "expect": marker_for(red0)},
+        {"name": "CM on, OFF-roster mon -> vanilla string", "flag": 1,
+         "char_id": red_idx, "species": red_off, "src": TEXT_WILD_A,
+         "expect": TEXT_WILD_A},
+        {"name": "CM off -> vanilla string", "flag": 0,
+         "char_id": red_idx, "species": red_on, "src": TEXT_WILD_A,
+         "expect": TEXT_WILD_A},
+        # The two-wild (double battle) string is deliberately never marked.
+        {"name": "the two-wild string is never substituted", "flag": 1,
+         "char_id": red_idx, "species": red_on, "src": TEXT_TWO_WILD,
+         "expect": TEXT_TWO_WILD},
+    ]
+
+    script.write_text(gdb_script(cases, marker_cases, marker_entry))
 
     emu = subprocess.Popen(["mgba-qt", "-g", rom],
                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -213,9 +309,11 @@ def main():
             emu.kill()
 
     stops = [int(m, 16) for m in re.findall(r"STOPPED_AT=([0-9a-f]+)", out)]
+    mresults = [int(m, 16) for m in re.findall(r"MARKER_R0=([0-9a-f]+)", out)]
     print(out[-3000:] if len(out) > 3000 else out)
-    if len(stops) != len(cases):
-        print(f"FATAL: expected {len(cases)} stops, got {len(stops)}")
+    if len(stops) != len(cases) or len(mresults) != len(marker_cases):
+        print(f"FATAL: expected {len(cases)} stops + {len(marker_cases)} marker "
+              f"results, got {len(stops)} + {len(mresults)}")
         print(r.stderr[-2000:])
         return 1
 
@@ -226,7 +324,15 @@ def main():
         failures += not ok
         print(f"  [{'PASS' if ok else 'FAIL'}] {c['name']}: stopped at {got:#x} "
               f"(expected {c['expect']:#x})")
-    print(f"\n{len(cases) - failures}/{len(cases)} passed")
+    for c, got in zip(marker_cases, mresults):
+        ok = got == c["expect"]
+        failures += not ok
+        print(f"  [{'PASS' if ok else 'FAIL'}] marker: {c['name']}: "
+              f"r0={got:#010x} (expected {c['expect']:#010x})")
+    # Derived from the case lists, NOT hand-summed: the sibling repo's total was
+    # a hand-written expression and six new cases ran uncounted for a while.
+    total = len(cases) + len(marker_cases)
+    print(f"\n{total - failures}/{total} passed")
     return 1 if failures else 0
 
 

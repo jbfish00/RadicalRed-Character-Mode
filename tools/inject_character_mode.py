@@ -84,6 +84,23 @@ TRADE_WRAPPER_ADDR = 0x08C8E000
 # CreateWildMon too but were verified NOT to be table rolls and are left
 # untouched -- see src/wild_encounter_mode.c's header comment.
 WILD_SHIM_ADDR    = 0x08CE0000
+
+# --- encounter marker (../game_plans/rowe_parity.md §3) ---
+# Low in the ROM ON PURPOSE. The battle-message code is at 0x080D77DE, ~11.9 MB
+# from SHIM_ADDR -- far outside the +-4 MB Thumb BL window -- so a marker shim
+# placed with the others would need a trampoline. Linked here it is 2.63 MB
+# away and the BL is retargeted DIRECTLY at it, no trampoline at all.
+# 84,224 bytes verified 0xFF from 0x08378CA8; nothing else in tools/ references
+# this region.
+MARKER_SHIM_ADDR  = 0x08378CA8
+MARKER_ADDR       = 0x08379000     # 238*64 = 15,232 B -> ends 0x0837CC00
+MARKER_STRIDE     = 64
+# ldr r0,=<string>; b 0x080D77DC ... 0x080D77DC: adds r0,r7,#0 ; bl wrapper
+MARKER_BL_SITE    = 0x0D77DE
+MARKER_WRAPPER    = 0x080D77F4
+# Two byte-identical copies of "Wild {FD}{06} appeared!{FB}"; the shim matches
+# both (src/battle_marker.c explains why picking one was not safe).
+TEXT_WILD_APPEARED = (0x083FD284, 0x083FD297)
 WILD_OFFSETS_ADDR = 0x08CE0800  # shim compiles to ~1KB (needs __aeabi_uidivmod)
 WILD_DATA_ADDR    = 0x08CE0C00
 # The 1% legendary tables (2026-07-26). They CANNOT share WILD_OFFSETS_ADDR's
@@ -289,6 +306,44 @@ def main():
         f"entry {wild_entry:#x} outside the shim blob"
     print(f"wild-encounter shim: {len(wild_shim)} bytes @ {WILD_SHIM_ADDR:#x} "
           f"(entry CM_CreateWildMonGated @ {wild_entry:#x})")
+
+    # --- 1b2. compile the encounter-marker shim (fourth compile unit; see
+    # MARKER_SHIM_ADDR for why it lives low in the ROM). ---
+    mobj = BUILD / "battle_marker.o"
+    melf = BUILD / "battle_marker.elf"
+    mbin = BUILD / "battle_marker.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    f"-DNUM_CHARACTERS={num_chars}",
+                    f"-DNUM_SPECIES={_nspecies}",
+                    f"-DBITMAP_STRIDE={_stride}",
+                    f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
+                    f"-DMARKER_ADDR={MARKER_ADDR:#x}",
+                    "-o", str(mobj), str(ROOT / "src" / "battle_marker.c")],
+                   check=True)
+    subprocess.run(["arm-none-eabi-gcc", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-nostartfiles",
+                    "-Wl,-Ttext," + f"{MARKER_SHIM_ADDR:#x}",
+                    "-Wl,--entry,CM_BattleStringGated",
+                    "-o", str(melf), str(mobj)], check=True)
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(melf), str(mbin)], check=True)
+    marker_shim = mbin.read_bytes()
+    msym = subprocess.run(["arm-none-eabi-nm", str(melf)], check=True,
+                          capture_output=True, text=True).stdout
+    mm = re.search(r"^([0-9a-f]+) T CM_BattleStringGated$", msym, re.M)
+    assert mm, f"CM_BattleStringGated not in the marker ELF:\n{msym}"
+    # RESOLVED from the ELF, never assumed to be first in the blob -- gcc orders
+    # functions however it likes, and this repo has been bitten twice by
+    # assuming otherwise (the wild picker's helper; the mugshot's two entries).
+    marker_entry = int(mm.group(1), 16)
+    assert MARKER_SHIM_ADDR <= marker_entry < MARKER_SHIM_ADDR + len(marker_shim), \
+        f"marker entry {marker_entry:#x} outside its blob"
+    assert MARKER_SHIM_ADDR + len(marker_shim) <= MARKER_ADDR, (
+        f"marker shim ({len(marker_shim)} B @ {MARKER_SHIM_ADDR:#x}) runs into "
+        f"the string blob at {MARKER_ADDR:#x}")
+    print(f"encounter-marker shim: {len(marker_shim)} bytes @ "
+          f"{MARKER_SHIM_ADDR:#x} (entry @ {marker_entry:#x})")
 
     # --- 1c. compile the mugshot renderer (third compile unit; see the
     # CM_SPRITE_SHIM_ADDR comment for why it needs no BL-reach window). Both
@@ -537,6 +592,15 @@ def main():
         print(f"character sprites: {wired}/{len(chars)} wired, "
               f"{len(spr_blobs):,} B of art @ {CM_SPRITE_BLOBS_ADDR:#x}, "
               f"table @ {CM_SPRITE_PTRS_ADDR:#x}")
+    splice(MARKER_SHIM_ADDR, marker_shim, "encounter-marker shim")
+    marker_blob = (HERE / "character_mode" / "marker_strings.bin").read_bytes()
+    assert len(marker_blob) == num_chars * MARKER_STRIDE, (
+        f"marker_strings.bin is {len(marker_blob)} B, expected "
+        f"{num_chars * MARKER_STRIDE} -- re-run emit_marker_strings.py")
+    splice(MARKER_ADDR, marker_blob, "encounter marker strings")
+    print(f"encounter marker: {len(marker_blob):,} B @ {MARKER_ADDR:#x}, "
+          f"stride {MARKER_STRIDE}")
+
     splice(WILD_DATA_ADDR, wild_data, "wild-encounter data")
     splice(WILD_LEG_OFFSETS_ADDR, leg_offsets, "legendary-encounter offsets")
     splice(WILD_LEG_DATA_ADDR, leg_data, "legendary-encounter data")
@@ -548,6 +612,20 @@ def main():
         assert cur_bl == expect, (f"BL site {site:#x} bytes {cur_bl.hex()} != expected "
                                   f"BL GiveMonToPlayer {expect.hex()} — wrong ROM or already patched")
         data[site:site + 4] = thumb_bl(0x08000000 + site, SHIM_ADDR)
+
+    # Prove the strings the shim compares against are still there before moving
+    # the BL: if one shifted, the marker would silently never fire.
+    _want = bytes.fromhex("d1dde0d800fd0600d5e4e4d9d5e6d9d8abfbff")
+    for _a in TEXT_WILD_APPEARED:
+        _got = bytes(data[_a - 0x08000000:_a - 0x08000000 + len(_want)])
+        assert _got == _want, (f"wild intro at {_a:#x}: {_got.hex()} != "
+                               f"{_want.hex()}")
+    cur_bl = bytes(data[MARKER_BL_SITE:MARKER_BL_SITE + 4])
+    expect = thumb_bl(0x08000000 + MARKER_BL_SITE, MARKER_WRAPPER)
+    assert cur_bl == expect, (f"marker BL site {MARKER_BL_SITE:#x} bytes "
+                              f"{cur_bl.hex()} != expected {expect.hex()}")
+    data[MARKER_BL_SITE:MARKER_BL_SITE + 4] = thumb_bl(
+        0x08000000 + MARKER_BL_SITE, marker_entry)
 
     for site in (BL_SITE_LAND_MAIN, BL_SITE_LAND_DOUBLE, BL_SITE_FISH_MAIN, BL_SITE_FISH_DOUBLE):
         cur_bl = bytes(data[site:site + 4])
