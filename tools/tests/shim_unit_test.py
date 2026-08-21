@@ -46,8 +46,49 @@ HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
 
 SHIM_ENTRY   = 0x08C80000
-BP_GIVE      = 0x08C80018   # pass-through branch point
-BP_SENDPC    = 0x08C80074   # enforcement branch point
+
+# ⚠️ BP_GIVE / BP_SENDPC are DERIVED, not hardcoded.
+#
+# They used to be literal 0x08C80018 and 0x08C80074, and on 2026-08-20 adding
+# four instructions to the top of the shim (the Species Randomizer exclusion)
+# moved every offset behind them. 0x08C80018 landed inside the new guard, which
+# EVERY call passes through -- so all nine cases "stopped at 0x08C80018" and the
+# two enforcement cases failed. The give/PC decision was fine; the test had
+# simply stopped being able to see it. A hardcoded address in this repo has now
+# misled a session four times, and it never presents as a moved address.
+#
+# The anchor is semantic instead: the single `ldr rX, =GiveMonToPlayer` and the
+# single `ldr rX, =SendMonToPC` in the shim. Which of those two the shim
+# reaches IS the behaviour under test.
+def _derive_branch_points():
+    import struct as _s
+    rom = (ROOT / "build" / "radicalred_cm.gba").read_bytes()
+    def w32(a): return _s.unpack_from("<I", rom, a - 0x08000000)[0]
+    def hw(a):  return _s.unpack_from("<H", rom, a - 0x08000000)[0]
+    end = SHIM_ENTRY
+    while any(b != 0xFF for b in rom[end - 0x08000000:end - 0x08000000 + 0x10]):
+        end += 0x10
+    out = {}
+    for name, target in (("give", 0x0907D791), ("pc", 0x090B6E39)):
+        pools = [a for a in range(SHIM_ENTRY, end, 4) if w32(a) == target]
+        sites = []
+        for a in range(SHIM_ENTRY, end, 2):
+            v = hw(a)
+            if (v & 0xF800) == 0x4800:            # ldr rX,[pc,#imm8*4]
+                if ((a + 4) & ~3) + (v & 0xFF) * 4 in pools:
+                    sites.append(a)
+        if len(sites) != 1:
+            raise SystemExit("shim_unit_test: expected exactly one loader for "
+                             "%s, found %d (%s) -- the shim's shape changed"
+                             % (name, len(sites), [hex(s) for s in sites]))
+        out[name] = sites[0]
+    if out["give"] == out["pc"]:
+        raise SystemExit("shim_unit_test: give and PC resolve to the same "
+                         "address; the test cannot discriminate")
+    return out["give"], out["pc"]
+
+
+BP_GIVE, BP_SENDPC = _derive_branch_points()
 
 FLAG_BYTE    = 0x0203B373   # gExpandedFlags byte holding flag 0x18FE
 FLAG_MASK    = 0x40         # bit 6

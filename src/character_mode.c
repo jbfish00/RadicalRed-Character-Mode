@@ -27,6 +27,22 @@ typedef unsigned short u16;
 typedef unsigned int u32;
 
 #define FLAG_CHARACTER_MODE 0x18FE
+
+/* Radical Red's own Species Randomizer, which is MUTUALLY EXCLUSIVE with
+ * Character Mode. Its in-game description says it "randomizes encounters,
+ * trainers, and gifts", and CFRU implements that in CreateBoxMon() via
+ * TryRandomizeSpecies() -- i.e. at mon CREATION, downstream of everything we
+ * do. With it on, the 10% roster override picks a roster species and
+ * CreateBoxMon then remaps it to an unrelated one, so the catch gate rejects
+ * what it was handed: Character Mode degrades to "you can catch almost
+ * nothing", silently. ROWE hit exactly this and made the two modes exclusive.
+ *
+ * Flag id cross-validated two ways: CFRU's own config.h carries
+ * `//#define FLAG_POKEMON_RANDOMIZER 0x940` as the stock value, and decoding
+ * Radical Red's randomizer cheat script gives `29 40 09` (setflag 0x0940) with
+ * `2b 40 09` (checkflag 0x0940) at its branch sites. */
+#define FLAG_POKEMON_RANDOMIZER 0x940
+
 #define VAR_CHARACTER_ID    0x51FD
 /* The injector passes -DNUM_CHARACTERS, derived from characters_manifest.json.
  * It is NOT hardcoded on purpose: this constant bounds the character-index range
@@ -46,6 +62,18 @@ typedef unsigned int u32;
 /* Vanilla FRLG functions (CFRU BPRE.ld addresses; expanded flag/var ids are
  * routed by RR's own ExpandedFlagsHook/ExpandedVarsHook transparently). */
 #define FlagGet    ((u8  (*)(u16))                 0x0806E6D1)
+/* FlagClear: body is byte-identical to FlagSet (0x0806E681) except it uses
+   `bics` where FlagSet uses `orrs` -- disassembled in THIS ROM, not taken from
+   BPRE.ld. Needed for the Species Randomizer exclusion below. */
+#define FlagClear  ((u8  (*)(u16))                 0x0806E6A9)
+/* Character Mode wins. Called from the paths that run constantly, so enabling
+ * the randomizer mid-run cannot quietly break enforcement either -- the
+ * exclusion is a live invariant, not a one-shot at selection. */
+static void cmEnforceModeExclusion(void)
+{
+    if (FlagGet(FLAG_CHARACTER_MODE) && FlagGet(FLAG_POKEMON_RANDOMIZER))
+        FlagClear(FLAG_POKEMON_RANDOMIZER);
+}
 #define VarGet     ((u16 (*)(u16))                 0x0806E569)
 #define GetMonData ((u32 (*)(void *, int, void *)) 0x0803FBE9)
 
@@ -63,6 +91,7 @@ typedef unsigned int u32;
 
 u8 CM_GiveMonToPlayerGated(void *mon)
 {
+    cmEnforceModeExclusion();
     if (FlagGet(FLAG_CHARACTER_MODE) && gPlayerPartyCount != 0) {
         u16 id = VarGet(VAR_CHARACTER_ID);
 

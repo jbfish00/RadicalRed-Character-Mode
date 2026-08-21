@@ -741,6 +741,48 @@ def main():
                   and (attr1 >> 14) == 3 and ((attr2 >> 10) & 3) == 0,
                   f"attr0={attr0:#06x} attr1={attr1:#06x} attr2={attr2:#06x}")
 
+    # == Species Randomizer exclusion ==
+    # Radical Red ships a Species Randomizer whose own description says it
+    # "randomizes encounters, trainers, and gifts". CFRU applies it inside
+    # CreateBoxMon() via TryRandomizeSpecies() -- DOWNSTREAM of the roster
+    # override -- so with it on, a roster species we inject is remapped to an
+    # unrelated one and the catch gate then refuses what it was handed:
+    # Character Mode degrades to "you can catch almost nothing", silently.
+    # Character Mode therefore clears the randomizer flag. ROWE hit the same
+    # interaction and made the two modes mutually exclusive.
+    #
+    # ⚠️ Checked in the BUILT SHIMS, not only in the source. Reading the .c
+    # would pass just as happily if the compiler had inlined the guard away or
+    # the injector had shipped a stale blob -- this repo's own rule is to
+    # verify the constant the compiler baked in.
+    print("== 12. Species Randomizer exclusion ==")
+    # These shims reach vanilla code through function-pointer constants
+    # (-mlong-calls), so the evidence is the LITERAL in the shim's pool, not a
+    # BL target. FlagClear is 0x0806E6A8, +1 for Thumb.
+    FLAG_CLEAR_LIT = struct.pack("<I", 0x0806E6A9)
+    def _blob(base, length):
+        b = base - 0x08000000
+        return bytes(patched[b:b + length])
+    check("the give gate's shim carries FlagClear (randomizer exclusion)",
+          FLAG_CLEAR_LIT in _blob(SHIM_ADDR, shim_len))
+    check("the wild override's shim carries FlagClear (randomizer exclusion)",
+          FLAG_CLEAR_LIT in _blob(WILD_SHIM_ADDR, 0x1000))
+    # The flag id has to be in there too, or the guard clears something else.
+    # 0x940 is NOT stored as a literal: it exceeds Thumb's 8-bit immediate, so
+    # gcc synthesises it as `movs rN,#0x94; lsls rN,#4`. Pin that pair -- the
+    # first attempt here looked for a raw 0x0940 halfword and failed for the
+    # wrong reason, which is exactly the kind of checker this project keeps
+    # having to negative-test.
+    _mk940 = bytes.fromhex("94200001")     # movs r0,#0x94 ; lsls r0,r0,#4
+    check("the give gate's shim builds flag id 0x940 (movs #0x94; lsls #4)",
+          _mk940 in _blob(SHIM_ADDR, shim_len))
+    check("the wild override's shim builds flag id 0x940",
+          _mk940 in _blob(WILD_SHIM_ADDR, 0x1000))
+    for _f in ("src/character_mode.c", "src/wild_encounter_mode.c"):
+        _s = (ROOT / _f).read_text()
+        check(f"{_f} pins FLAG_POKEMON_RANDOMIZER to 0x940",
+              "#define FLAG_POKEMON_RANDOMIZER 0x940" in _s)
+
     print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
     return 1 if failures else 0
 

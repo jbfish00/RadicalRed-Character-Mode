@@ -89,6 +89,18 @@ typedef unsigned int u32;
 /* Vanilla FRLG functions (CFRU BPRE.ld addresses -- same convention as
  * src/character_mode.c). */
 #define FlagGet ((u8  (*)(u16))   0x0806E6D1)
+/* FlagClear: disassembled in THIS ROM; body identical to FlagSet (0x0806E681)
+   but `bics` where that has `orrs`. See the exclusion note below. */
+#define FlagClear ((u8 (*)(u16))  0x0806E6A9)
+
+/* Radical Red's Species Randomizer -- MUTUALLY EXCLUSIVE with Character Mode.
+ * CFRU applies it inside CreateBoxMon() via TryRandomizeSpecies(), which is
+ * DOWNSTREAM of this override: we pick a roster species and CreateBoxMon then
+ * remaps it to an unrelated one, so the mon that appears is not the one we
+ * chose and the catch gate refuses it. The feature does not fail loudly, it
+ * just stops working. ROWE hit the same interaction and made the modes
+ * exclusive; see src/character_mode.c for how the flag id was confirmed. */
+#define FLAG_POKEMON_RANDOMIZER 0x940
 #define VarGet  ((u16 (*)(u16))   0x0806E569)
 #define Random  ((u16 (*)(void))  0x08044EC9)
 
@@ -277,6 +289,10 @@ static u16 __attribute__((noinline)) CM_PickLegendarySpecies(u16 charIdx, u8 lev
 
 void CM_CreateWildMonGated(u16 species, u8 level, u8 monHeaderIndex, u8 purgeParty)
 {
+    /* Character Mode wins, continuously -- enabling the randomizer mid-run
+     * must not quietly disable enforcement either. */
+    if (FlagGet(FLAG_CHARACTER_MODE) && FlagGet(FLAG_POKEMON_RANDOMIZER))
+        FlagClear(FLAG_POKEMON_RANDOMIZER);
     if (FlagGet(FLAG_CHARACTER_MODE)) {
         u16 id = VarGet(VAR_CHARACTER_ID);
 
