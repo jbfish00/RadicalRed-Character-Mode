@@ -34,12 +34,16 @@ Usage: verify_artifacts.py   (exit 0 = all pass)
 """
 import hashlib
 import json
+import os
 import re
 import struct
 import subprocess
 import sys
 import tempfile
 from pathlib import Path
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cm_tally import assert_tally  # noqa: E402
 
 HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
@@ -88,9 +92,18 @@ WILD_BL_SITES = (0x10C2FDA, 0x10C30CE, 0x10C3A94, 0x10C3AD0)
 CREATEWILDMON_ADDR = 0x090C292C
 
 failures = []
+checks_run = 0
+
+# How many checks this layer must run. A deliberate LITERAL, never a total
+# recomputed from the data the checks iterate: such a total drifts in lockstep
+# with what it is meant to pin and therefore cannot fail. Bump it in the same
+# commit that adds or removes a check. See tools/tests/cm_tally.py.
+EXPECT_CHECKS = 94
 
 
 def check(name, ok, detail=""):
+    global checks_run
+    checks_run += 1
     print(f"  [{'PASS' if ok else 'FAIL'}] {name}" + (f" — {detail}" if detail and not ok else ""))
     if not ok:
         failures.append(name)
@@ -824,7 +837,10 @@ def main():
             if 0xFF not in _mk[i * _MK_STRIDE:(i + 1) * _MK_STRIDE]]
     check("every marker slot is 0xFF-terminated", not _bad, str(len(_bad)))
 
-    print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}")
+    if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
+        return 1
+    print(f"\n{'ALL PASS' if not failures else 'FAILURES: ' + ', '.join(failures)}"
+          f" -- {checks_run} checks ran")
     return 1 if failures else 0
 
 

@@ -57,6 +57,9 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cm_tally import assert_tally  # noqa: E402
+
 HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
 
@@ -82,6 +85,11 @@ SENTINEL_SPECIES = 246  # Larvitar -- confirmed absent from both Red's and Leaf'
                          # (post-2026-07-18 full-roster-rebuild) tables; Meowth(52)
                          # is no longer safe now that Red's roster grew to 71 species
 N_TRIALS_PER_CHAR = 150
+
+# How many check() calls each mode must make. Deliberate LITERALS -- see
+# tools/tests/cm_tally.py for why this must not be a derived expression.
+EXPECT_CHECKS = 20        # full run
+EXPECT_CHECKS_QUICK = 17  # CM_QUICK=1
 
 
 def load_wild_table(char_idx):
@@ -343,9 +351,11 @@ def main():
         return 1
 
     failures = 0
+    checks_run = 0
 
     def check(name, ok, detail=""):
-        nonlocal failures
+        nonlocal failures, checks_run
+        checks_run += 1
         print(f"  [{'PASS' if ok else 'FAIL'}] {name}" + (f" — {detail}" if detail and not ok else ""))
         failures += not ok
 
@@ -440,8 +450,17 @@ def main():
           "with its whole pool caught (§1.2 repeatable exemption)",
           v in cogita_leg, f"got {v}, expected one of {sorted(cogita_leg)}")
 
-    total_checks = n_fixed + (9 if quick else 12) + 6
-    print(f"\n{total_checks - failures}/{total_checks} checks passed")
+    # This was `total_checks = n_fixed + (9 if quick else 12) + 6` -- the exact
+    # hand-written-total shape shim_unit_test.py's own comment warns against,
+    # and it was WRONG in both modes for as long as it existed: the layer
+    # printed "21/21 checks passed" while running 20, and "18/18" while running
+    # 17. Nothing ever failed, because a claimed total minus a real failure
+    # count is self-consistent -- it never touches how many checks executed.
+    print(f"\n{checks_run - failures}/{checks_run} checks passed")
+    if assert_tally(checks_run,
+                    EXPECT_CHECKS_QUICK if quick else EXPECT_CHECKS,
+                    "wild_encounter_shim_test"):
+        return 1
     return 1 if failures else 0
 
 

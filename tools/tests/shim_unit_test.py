@@ -35,12 +35,22 @@ Usage: shim_unit_test.py <rom.gba>
 Starts mgba-qt -g itself; requires DISPLAY. Exit 0 = all pass.
 """
 import json
+import os
 import re
+
+# How many checks this layer must run. A deliberate LITERAL, never a total
+# recomputed from the data the checks iterate: such a total drifts in lockstep
+# with what it is meant to pin and therefore cannot fail. Bump it in the same
+# commit that adds or removes a check. See tools/tests/cm_tally.py.
+EXPECT_CHECKS = 15
 import struct
 import subprocess
 import sys
 import time
 from pathlib import Path
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cm_tally import assert_tally  # noqa: E402
 
 HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
@@ -318,21 +328,29 @@ def main():
         return 1
 
     failures = 0
+    checks_run = 0
     print("\n=== RESULTS ===")
     for c, got in zip(cases, stops):
         ok = got == c["expect"]
+        checks_run += 1
         failures += not ok
         print(f"  [{'PASS' if ok else 'FAIL'}] {c['name']}: stopped at {got:#x} "
               f"(expected {c['expect']:#x})")
     for c, got in zip(marker_cases, mresults):
         ok = got == c["expect"]
+        checks_run += 1
         failures += not ok
         print(f"  [{'PASS' if ok else 'FAIL'}] marker: {c['name']}: "
               f"r0={got:#010x} (expected {c['expect']:#010x})")
-    # Derived from the case lists, NOT hand-summed: the sibling repo's total was
-    # a hand-written expression and six new cases ran uncounted for a while.
-    total = len(cases) + len(marker_cases)
+    # This total used to be hand-summed from the case lists by name. That is
+    # a CLAIM, not a count of what ran: its sibling wild_encounter_shim_test.py
+    # printed "21/21 checks passed" while running 20, in both modes, for as
+    # long as its version of this expression existed. Count the real results,
+    # and pin the count to a literal (rowe_parity.md §9 Finding 2).
+    total = checks_run
     print(f"\n{total - failures}/{total} passed")
+    if assert_tally(total, EXPECT_CHECKS, "shim_unit_test"):
+        return 1
     return 1 if failures else 0
 
 
