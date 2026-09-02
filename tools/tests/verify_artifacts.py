@@ -45,6 +45,12 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cm_tally import assert_tally  # noqa: E402
 
+# faster stat-change battle messages -- (label, script address, string table)
+BATTLE_MSG_SITES = (
+    ("stat up",   0x081D6BD1, 0x083FE57C),
+    ("stat down", 0x081D6C62, 0x083FE588),
+)
+
 HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
 
@@ -98,7 +104,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 94
+EXPECT_CHECKS = 98
 
 
 def check(name, ok, detail=""):
@@ -254,7 +260,11 @@ def main():
                 # strings share one free run low in the ROM, plus the single BL
                 # inside the battle-message code that it retargets.
                 (0x378CA8, 0x379000 + 238 * 64),
-                (0x0D77DE, 0x0D77DE + 4)]
+                (0x0D77DE, 0x0D77DE + 4),
+                # faster stat-change battle messages: two 15-byte battle-script
+                # windows reordered in place (same length, so no pointer moves)
+                *[(a - 0x08000000, a - 0x08000000 + 15)
+                  for _l, a, _t in BATTLE_MSG_SITES]]
     stray = []
     i = 0
     n = len(orig)
@@ -272,6 +282,23 @@ def main():
             i += 1
     check(f"no stray modified bytes outside the {len(intended)} intended regions",
           not stray, f"first strays at {[hex(x) for x in stray]}")
+
+    print("== 3b. faster stat-change battle messages ==")
+    # Pinned in BOTH directions on purpose. Checking only the patched bytes
+    # would pass just as happily if the base ROM had always been in the new
+    # order, which would mean the injector was doing nothing.
+    for _label, _a, _table in BATTLE_MSG_SITES:
+        _o = _a - 0x08000000
+        _play = bytes([0x45, 0x02, 0x01]) + struct.pack("<I", 0x02023FD4)
+        _prnt = bytes([0x13]) + struct.pack("<I", _table)
+        _vanilla = _play + _prnt + bytes([0x12]) + struct.pack("<H", 0x0040)
+        _fast = _prnt + _play + bytes([0x12]) + struct.pack("<H", 0x0020)
+        check(f"base ROM '{_label}' still has the vanilla order + wait 64",
+              bytes(orig[_o:_o + 15]) == _vanilla,
+              f"found {bytes(orig[_o:_o + 15]).hex()}")
+        check(f"built ROM '{_label}' prints first, then animates, wait 32",
+              bytes(patched[_o:_o + 15]) == _fast,
+              f"found {bytes(patched[_o:_o + 15]).hex()}")
 
     print("== 4. BL patches ==")
     for site in BL_SITES:

@@ -710,6 +710,53 @@ def main():
     print(f"trade gate: wrapper {len(wrapper)} B @ {TRADE_WRAPPER_ADDR:#x} "
           f"({len(allowing)} characters allow species {TRADE_GIVEN_SPECIES})")
 
+
+    # --- faster stat-change battle messages (user-approved 2026-09-01) ---
+    #
+    # Vanilla plays the stat-change animation, THEN prints the message, THEN
+    # waits 64 frames. Printing first lets message and animation overlap, and
+    # halving the wait removes the dead time after it. This is a pure battle
+    # script DATA edit: the 15-byte window is rewritten IN PLACE, same length,
+    # so every pointer into it still lands on the same command.
+    #
+    # Safety, measured 2026-09-02 (game_plans/rowe_parity.md 12.8 item 3):
+    #   * `45 02 01 <gBattleAnimArgs>` occurs EXACTLY TWICE in this ROM -- these
+    #     two sites -- so the byte pattern identifies them uniquely. The
+    #     surrounding idiom `printfromtable <ptr>; waitmessage 0x0040` occurs
+    #     242 times, which is what confirms the opcode decode: 0x13 is
+    #     printfromtable, 0x12 is waitmessage <u16>, 0x45 is playanimation.
+    #   * an UNALIGNED u32 scan of the whole ROM finds every reference to either
+    #     window pointing at its FIRST byte. Nothing branches into the middle of
+    #     what is being reordered.
+    #   * the PRE-CHANGE bytes are asserted below -- against the real binary,
+    #     not a synthetic tamper -- so a wrong ROM, a re-run over an already
+    #     patched ROM, or a future ROM revision fails loudly instead of
+    #     executing wrong opcodes mid-battle.
+    #
+    # Deliberately only these two sites. The same idiom appears hundreds of
+    # times; widening it was never analysed and is not what was approved.
+    CM_ANIM_ARGS = 0x02023FD4
+    CM_BATTLE_MSG_SITES = (
+        ("stat up",   0x081D6BD1, 0x083FE57C),
+        ("stat down", 0x081D6C62, 0x083FE588),
+    )
+    CM_WAIT_OLD, CM_WAIT_NEW = 0x0040, 0x0020
+    for _label, _rom_addr, _table in CM_BATTLE_MSG_SITES:
+        _o = _rom_addr - 0x08000000
+        _play = bytes([0x45, 0x02, 0x01]) + struct.pack("<I", CM_ANIM_ARGS)
+        _prnt = bytes([0x13]) + struct.pack("<I", _table)
+        _before = _play + _prnt + bytes([0x12]) + struct.pack("<H", CM_WAIT_OLD)
+        _after = _prnt + _play + bytes([0x12]) + struct.pack("<H", CM_WAIT_NEW)
+        assert len(_after) == len(_before) == 15
+        _found = bytes(data[_o:_o + 15])
+        assert _found == _before, (
+            "battle message '%s' site %#010x: expected %s, found %s -- wrong "
+            "ROM or already patched" % (_label, _rom_addr, _before.hex(),
+                                        _found.hex()))
+        data[_o:_o + 15] = _after
+    print("faster battle messages: %d sites reordered, wait %d -> %d frames"
+          % (len(CM_BATTLE_MSG_SITES), CM_WAIT_OLD, CM_WAIT_NEW))
+
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")
