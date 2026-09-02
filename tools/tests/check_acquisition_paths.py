@@ -60,24 +60,56 @@ EXPECT_CHECKS = 3
 #   EXEMPT     deliberately not gated, with a reason
 #   UNVERIFIED found by the scan, containing routine not yet identified
 INVENTORY = {
-    0x00040b6c: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
-    0x00040c3e: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
-    0x0004c232: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
-    0x00054aee: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
-    0x0008ecc0: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
-    0x0008edf4: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
-    0x0012092a: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
+    0x00040b6c: ("EXEMPT",
+                 "DEAD CODE: the orphaned body of stock FireRed "
+                 "GiveMonToPlayer. Its entry 0x08040B14 was overwritten "
+                 "with a 4-byte thunk (ldr r1,[pc,#0]; bx r1) to "
+                 "0x0907D791, the CFRU GiveMonToPlayer that carries the "
+                 "GATED writer, so all 3 BL callers are redirected. No BL "
+                 "and no branch from outside reaches the orphan; the only "
+                 "two ROM words pointing into it (0x08A06D38, 0x08B0B818) "
+                 "sit inside sample data, not pointer tables -- measured"),
+    0x00040c3e: ("EXEMPT",
+                 "CalculatePlayerPartyCount (36 BL callers): "
+                 "gPlayerPartyCount = 0, then ++ per slot whose "
+                 "MON_DATA_SPECIES is non-zero. A RECOUNT of what the array "
+                 "already holds -- it cannot introduce a mon. See the "
+                 "LAUNDERING note in docs/PARTY_COUNT_WRITERS.md"),
+    0x0004c232: ("EXEMPT",
+                 "LoadPlayerParty: gPlayerPartyCount = "
+                 "gSaveBlock1Ptr->[0x34], then copies 6 x 100 bytes back "
+                 "from the save block. Restores the player's OWN saved "
+                 "party (link/facility swap-back); everything it restores "
+                 "was gated when first acquired -- same reasoning as the "
+                 "existing party-restore EXEMPT"),
+    0x00054aee: ("EXEMPT",
+                 "new-game init (entry 0x08054A60 thunked to 0x09042E35, "
+                 "which re-enters the original body at +0x09): "
+                 "gPlayerPartyCount = 0 amid the init BL run. Zeroing "
+                 "removes, never adds"),
+    0x0008ecc0: ("EXEMPT",
+                 "gPlayerPartyCount = CalculatePlayerPartyCount() -- "
+                 "literally `bl 0x08040C3C; ldr r1,=count; strb r0,[r1]`. A "
+                 "recount after a storage-screen exit"),
+    0x0008edf4: ("EXEMPT",
+                 "gPlayerPartyCount = CalculatePlayerPartyCount(); "
+                 "byte-identical to the site at 0x0008ECC0, the other arm "
+                 "of the same screen"),
+    0x0012092a: ("NOT-A-WRITER",
+                 "FALSE POSITIVE -- not a writer. `ldr r0,=count; ldrb "
+                 "r0,[r0]; cmp r4,r0; bcc` is a LOOP BOUND READ. The "
+                 "detector's window walked past the loop's unconditional "
+                 "branch into the literal pool at 0x08120938 and decoded "
+                 "the word 0x020370C2 as `strb r2,[r0,#3]`. See the "
+                 "DETECTOR DEFECT note in docs/PARTY_COUNT_WRITERS.md"),
     0x0107d7fa: ("GATED",
                  "inside GiveMonToPlayer 0x0907D791 -- THE enforcement choke point; both wild catches and ScriptGiveMon flow through it (docs/ROUTINE_MAP.md)"),
-    0x0109b5c8: ("UNVERIFIED",
-                 "writes the party count; containing routine not yet identified"),
+    0x0109b5c8: ("EXEMPT",
+                 "script special (gSpecials entry at 0x0815FF10 = "
+                 "0x0909B581): copies party slots 0-2 into a 300-byte stack "
+                 "buffer, writes them into slots 3-5, then RECOUNTS (count "
+                 "= 0; ++ per non-empty slot). It permutes mons the player "
+                 "already owns; no species enters from outside"),
     0x010bc1a2: ("EXEMPT",
                  "inside RR's party-restore-from-save routine 0x090BC194: it re-gives the player's OWN saved party on load. Gating it would strip the party; everything it re-gives was gated when first acquired (docs/ROUTINE_MAP.md:194)"),
 }
@@ -174,10 +206,17 @@ def main():
           bool(gated), "no GATED writer found among %d" % len(found))
 
     unver = sorted(o for o in INVENTORY if INVENTORY[o][0] == "UNVERIFIED")
-    print("\n  verdicts: %d GATED, %d EXEMPT, %d UNVERIFIED"
+    print("\n  verdicts: %d GATED, %d EXEMPT, %d NOT-A-WRITER, %d UNVERIFIED"
           % (sum(1 for v in INVENTORY.values() if v[0] == "GATED"),
              sum(1 for v in INVENTORY.values() if v[0] == "EXEMPT"),
+             sum(1 for v in INVENTORY.values() if v[0] == "NOT-A-WRITER"),
              len(unver)))
+    print("  NOT-A-WRITER: the scan reports these, and reverse engineering "
+          "showed they are\n    reads, not stores. They stay listed on "
+          "purpose -- the detector is deliberately\n    conservative, so "
+          "dropping them would make check 2 fail. See\n    "
+          "docs/PARTY_COUNT_WRITERS.md for the detector defect that "
+          "produces them.")
     if unver:
         print("  ⚠️ UNVERIFIED means the containing routine has not been "
               "identified here. It is a 'go look', not a clean bill of health:")
