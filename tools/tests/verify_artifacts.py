@@ -72,7 +72,9 @@ NUM_CHARS = len(_MANIFEST["characters"])
 # tables, sprite pointers, the trade wrapper's range guard) still uses NUM_CHARS.
 NUM_SELECTABLE = sum(1 for c in _MANIFEST["characters"] if not c.get("hidden"))
 SHIM_ADDR = 0x08C80000
-BITMAPS_ADDR = 0x08C80100
+# 2026-09-02: was 0x08C80100. The shim outgrew its 256-byte slot when the
+# activation party sweep landed, so the bitmaps moved up to 0x400.
+BITMAPS_ADDR = 0x08C80400
 SCRIPT_ADDR = 0x08C90000  # keep in sync with inject_character_mode.py (2026-07-23 bitmap-overflow move)
 BL_SITES = (0x107DD84, 0x10777CE)
 GOTO_OPERAND_OFF = 0x10500EF
@@ -104,7 +106,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 98
+EXPECT_CHECKS = 99   # +1: the activation party sweep (2026-09-02)
 
 
 def check(name, ok, detail=""):
@@ -199,8 +201,13 @@ def main():
     check("round-trip byte-identical to built ROM", applied == patched)
 
     print("== 3. diff confined to intended regions ==")
-    shim_len = next(i for i in range(0x100) if all(
-        b == 0xFF for b in patched[SHIM_ADDR - 0x08000000 + i:SHIM_ADDR - 0x08000000 + 0x100]))
+    # Measured, not capped at 0x100: the shim outgrew that on 2026-09-02 and the
+    # old generator simply raised StopIteration when it did.
+    _so = SHIM_ADDR - 0x08000000
+    shim_len = 0
+    for _i in range(0, BITMAPS_ADDR - SHIM_ADDR, 4):
+        if not all(b == 0xFF for b in patched[_so + _i:_so + _i + 4]):
+            shim_len = _i + 4
     bitmaps = (ROOT / "tools" / "character_mode" / "rosters_expanded.bin").read_bytes()
     # script blob length: scan forward from SCRIPT_ADDR to the next 0xFF run
     soff = SCRIPT_ADDR - 0x08000000
@@ -233,7 +240,7 @@ def main():
     msend = msoff
     while not all(b == 0xFF for b in patched[msend:msend + 64]):
         msend += 64
-    intended = [(SHIM_ADDR - 0x08000000, SHIM_ADDR - 0x08000000 + 0x100),
+    intended = [(SHIM_ADDR - 0x08000000, SHIM_ADDR - 0x08000000 + shim_len),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
@@ -411,7 +418,7 @@ def main():
         selectable = [(i, c) for i, c in enumerate(chars) if not c.get("hidden")]
         hidden_chars = [(i, c) for i, c in enumerate(chars) if c.get("hidden")]
         bad_alias = bad_handler = 0
-        show_ops, hide_ops = set(), set()
+        show_ops, hide_ops, sweep_ops = set(), set(), set()
         chain_aliases = set()
         for j, (i, c) in enumerate(selectable):
             saddr, haddr = checks_parsed[3 + j]
@@ -425,23 +432,30 @@ def main():
                     print(f"    alias mismatch [slot {j} / table {i}] "
                           f"{c['character']}: {decoded!r}")
                 continue
-            # setvar(5) setflag(3) givepokemon(15) callnative(5) loadword(6)
-            # callstd(2) callnative(5) release(1) end(1) = 43 bytes
-            h = rd(haddr, 43)
+            # setvar(5) setflag(3) givepokemon(15) callnative(5) callnative(5)
+            # loadword(6) callstd(2) callnative(5) release(1) end(1) = 48 bytes
+            # The FIRST callnative is the activation party sweep, and its
+            # position is the point: it must come after givepokemon. Run before
+            # it, a party holding only an off-roster mon hits the never-empty
+            # rule and nothing is boxed -- a silent no-op. Decoding positionally
+            # is what makes a reordering edit fail here.
+            h = rd(haddr, 48)
             ok = (h[0] == 0x16 and struct.unpack_from("<HH", h, 1) == (VAR_ID, i + 1)
                   and h[5] == 0x29 and struct.unpack_from("<H", h, 6)[0] == FLAG_CM
                   and h[8] == 0x79
                   and struct.unpack_from("<H", h, 9)[0] == c["roster_species_ids"][0]
                   and h[11] == 5      # level
-                  and h[23] == 0x23   # callnative CM_ShowCharacterMugshot
-                  and h[28] == 0x0F   # loadword msg
-                  and h[34] == 0x09   # callstd (blocks until the box is dismissed)
-                  and h[36] == 0x23   # callnative CM_HideCharacterMugshot
-                  and h[41] == 0x6C   # release
-                  and h[42] == 0x02)  # end
+                  and h[23] == 0x23   # callnative CM_SweepPartyToPC (AFTER the give)
+                  and h[28] == 0x23   # callnative CM_ShowCharacterMugshot
+                  and h[33] == 0x0F   # loadword msg
+                  and h[39] == 0x09   # callstd (blocks until the box is dismissed)
+                  and h[41] == 0x23   # callnative CM_HideCharacterMugshot
+                  and h[46] == 0x6C   # release
+                  and h[47] == 0x02)  # end
             if ok:
-                show_ops.add(struct.unpack_from("<I", h, 24)[0])
-                hide_ops.add(struct.unpack_from("<I", h, 37)[0])
+                sweep_ops.add(struct.unpack_from("<I", h, 24)[0])
+                show_ops.add(struct.unpack_from("<I", h, 29)[0])
+                hide_ops.add(struct.unpack_from("<I", h, 42)[0])
             if not ok:
                 bad_handler += 1
                 if bad_handler <= 3:
@@ -452,6 +466,13 @@ def main():
         check(f"all {len(selectable)} handlers: setvar TABLE index, setflag, "
               "givepokemon(signature, L5), show-mugshot, msgbox, hide-mugshot",
               bad_handler == 0, f"{bad_handler} mismatches")
+        # One sweep native, shared by every handler, inside the shim and not
+        # the same address as either mugshot op.
+        check(f"every handler calls the same activation sweep, once, after the "
+              f"give", len(sweep_ops) == 1
+              and SHIM_ADDR < (next(iter(sweep_ops)) & ~1) < BITMAPS_ADDR
+              and not (sweep_ops & show_ops) and not (sweep_ops & hide_ops),
+              f"sweep={[hex(x) for x in sweep_ops][:4]}")
 
         # --- the threshold gate, checked in the positive direction ---------
         # "The chain is short" is satisfied by a broken chain just as well as by

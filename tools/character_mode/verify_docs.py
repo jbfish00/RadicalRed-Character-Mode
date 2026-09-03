@@ -36,7 +36,9 @@ import emit_roster_docs as erd
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 BUILT = os.path.join(ROOT, "build", "radicalred_cm.gba")
-BITMAPS_ADDR = 0x08C80100          # pinned by tools/inject_character_mode.py
+BITMAPS_ADDR = 0x08C80400          # pinned by tools/inject_character_mode.py
+                                   # (moved from 0x08C80100 on 2026-09-02 when
+                                   # the shim outgrew its 256-byte slot)
 # keep in sync with tools/inject_character_mode.py
 WILD_OFFSETS_ADDR = 0x08CE0800
 WILD_DATA_ADDR = 0x08CE0C00

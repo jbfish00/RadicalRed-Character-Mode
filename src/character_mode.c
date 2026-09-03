@@ -109,3 +109,103 @@ u8 CM_GiveMonToPlayerGated(void *mon)
     }
     return GiveMonToPlayer(mon);
 }
+
+/* ---- one-shot party sweep at Character Mode activation (2026-09-02) ----
+ *
+ * WHY. The gate above deliberately never fires while the party is empty, so
+ * the player's FIRST mon always lands -- including Radical Red's own starter
+ * if they reach it before picking a character. That guard is correct (it
+ * prevents a soft-lock), but nothing used to reconcile the party once a
+ * character was finally chosen, so an off-roster mon could stay for the whole
+ * run. Lazarus had the same gap with a guaranteed way to hit it; see
+ * game_plans/rowe_parity.md 13.5.
+ *
+ * ORDERING IS LOAD-BEARING. The selection script calls this IMMEDIATELY AFTER
+ * givepokemon has granted the character's own signature mon, never before.
+ * Run before it, a party holding only an off-roster mon hits the never-empty
+ * rule below, which keeps it and boxes nothing -- a silent no-op.
+ *
+ * ROWE semantics, matching Unbound's CharacterMode_SweepPartyToPC: eggs
+ * exempt, full boxes leave the mon in the party, the party is never emptied,
+ * and the keep decision is made in a SEPARATE PRE-SCAN so it cannot depend on
+ * slot order.
+ *
+ * gPlayerParty's address was confirmed by disassembly on 2026-09-02: it is the
+ * pool word CalculatePlayerPartyCount (0x08040C3C) and LoadPlayerParty
+ * (0x0804C230) both load -- see docs/PARTY_COUNT_WRITERS.md.
+ */
+#define gPlayerParty ((u8 *) 0x02024284)
+#define MON_SIZE     100
+
+static int cmAllows(u16 id, u32 species)
+{
+    const u8 *bm;
+
+    if (id < 1 || id > NUM_CHARACTERS)
+        return 1;                       /* no character set -> allow */
+    if (species == 0 || species >= NUM_SPECIES)
+        return 1;                       /* out of model -> never block */
+    bm = (const u8 *) BITMAPS_ADDR + (id - 1) * BITMAP_STRIDE;
+    return (bm[species >> 3] & (1 << (species & 7))) != 0;
+}
+
+void CM_SweepPartyToPC(void)
+{
+    int i, j, w;
+    u8 kept = 0;
+    u16 id;
+
+    if (!FlagGet(FLAG_CHARACTER_MODE))
+        return;
+    id = VarGet(VAR_CHARACTER_ID);
+    if (id < 1 || id > NUM_CHARACTERS)
+        return;
+
+    for (i = 0; i < 6; i++) {
+        u8 *mon = gPlayerParty + i * MON_SIZE;
+        u32 species = GetMonData(mon, MON_DATA_SPECIES, 0);
+
+        if (species == 0)
+            continue;
+        if (GetMonData(mon, MON_DATA_IS_EGG, 0) || cmAllows(id, species))
+            kept = 1;
+    }
+
+    for (i = 0; i < 6; i++) {
+        u8 *mon = gPlayerParty + i * MON_SIZE;
+        u32 species = GetMonData(mon, MON_DATA_SPECIES, 0);
+
+        if (species == 0)
+            continue;
+        if (GetMonData(mon, MON_DATA_IS_EGG, 0) || cmAllows(id, species))
+            continue;
+        if (!kept) {            /* never leave the player with no party */
+            kept = 1;
+            continue;
+        }
+        if (SendMonToPC(mon) != 2) {    /* 2 = MON_CANT_GIVE; boxes full */
+            for (j = 0; j < MON_SIZE; j++)
+                mon[j] = 0;
+        }
+    }
+
+    /* Compact: the engine's party helpers assume no holes, and a zeroed slot
+     * reads back as species 0 (its encryption key is zero too). */
+    w = 0;
+    for (i = 0; i < 6; i++) {
+        u8 *src = gPlayerParty + i * MON_SIZE;
+
+        if (GetMonData(src, MON_DATA_SPECIES, 0) == 0)
+            continue;
+        if (w != i) {
+            u8 *dst = gPlayerParty + w * MON_SIZE;
+
+            for (j = 0; j < MON_SIZE; j++)
+                dst[j] = src[j];
+            for (j = 0; j < MON_SIZE; j++)
+                src[j] = 0;
+        }
+        w++;
+    }
+    gPlayerPartyCount = w;
+}

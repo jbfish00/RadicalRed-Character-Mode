@@ -6,7 +6,7 @@ Pipeline (all addresses CONFIRMED in docs/ROUTINE_MAP.md, pinned to rom.sha1):
      arm-none-eabi-gcc, linked at SHIM_ADDR.
   2. Splice into a ROM copy:
        shim code            @ SHIM_ADDR    (0x08C80000)
-       rosters_expanded.bin @ BITMAPS_ADDR (0x08C80100)
+       rosters_expanded.bin @ BITMAPS_ADDR (0x08C80400)
        selection script ext @ SCRIPT_ADDR  (0x08C90000)
      — all inside the tail of the confirmed 1.63 MiB free block at
      0xB71D04. The shim MUST stay in [0xC7DD88, 0xD004D7): Thumb BL range
@@ -89,7 +89,10 @@ CHARMAP = _resolve_charmap()
 # reachable window is [0xC7DD88, 0x14777D0), and this block's tail
 # [0xC7DD88, 0xD004D7) is comfortably the largest free run inside it.
 SHIM_ADDR    = 0x08C80000
-BITMAPS_ADDR = 0x08C80100
+# 2026-09-02: 0x100 -> 0x400. The shim outgrew its 256-byte slot when the
+# activation party sweep was added (336 -> 664 bytes). The bitmaps are
+# 238*172 = 40,936 B and still end well below TRADE_WRAPPER_ADDR.
+BITMAPS_ADDR = 0x08C80400
 SCRIPT_ADDR  = 0x08C90000  # moved from 0x08C88000 (2026-07-23): 199-char bitmaps (34,228 B) overflow the old 0x08C80100..0x08C88000 window; script chain is goto-retargeted by absolute pointer, no BL-reach constraint
 FREE_BLOCK_END = 0xD004D7  # end of the 1.63MiB free run
 
@@ -290,6 +293,20 @@ def main():
                          capture_output=True, text=True).stdout
     m = re.search(r"^([0-9a-f]+) T CM_GiveMonToPlayerGated$", sym, re.M)
     assert m and int(m.group(1), 16) == SHIM_ADDR, f"shim entry not at SHIM_ADDR:\n{sym}"
+    # The activation sweep, resolved from the same nm output. It is NOT the
+    # entry and must not be: the BL patches target SHIM_ADDR directly, so
+    # CM_GiveMonToPlayerGated has to stay first in .text.
+    _ms = re.search(r"^([0-9a-f]+) T CM_SweepPartyToPC$", sym, re.M)
+    assert _ms, f"CM_SweepPartyToPC not found in:\n{sym}"
+    SWEEP_PARTY = int(_ms.group(1), 16) | 1
+    assert SHIM_ADDR < (SWEEP_PARTY & ~1) < SHIM_ADDR + len(shim), \
+        f"CM_SweepPartyToPC at {SWEEP_PARTY:#x} outside the shim blob"
+    # Explicit, because the only thing that caught the overrun was splice()'s
+    # 0xFF precondition reporting it as "bitmaps: target not 0xFF", which reads
+    # like a wrong base ROM rather than "the shim grew".
+    assert len(shim) <= BITMAPS_ADDR - SHIM_ADDR, (
+        f"shim too big: {len(shim)} > {BITMAPS_ADDR - SHIM_ADDR} -- it would "
+        f"run into BITMAPS_ADDR {BITMAPS_ADDR:#x}")
     print(f"shim: {len(shim)} bytes @ {SHIM_ADDR:#x}")
 
     # --- 1b. compile the wild-encounter override shim (separate compile
@@ -496,6 +513,7 @@ def main():
     # mugshot callnatives (callstd 6 blocks until the player dismisses the box,
     # so the sprite stays up for exactly as long as the message does).
     H_CHAR_SIZE = len(op_setvar(0, 0) + op_setflag(0) + op_givepokemon(0, 5)
+                      + op_callnative(0)   # the activation party sweep
                       + op_callnative(0) + op_loadword(0) + op_callstd(6)
                       + op_callnative(0) + op_release() + op_end())
 
@@ -567,6 +585,9 @@ def main():
         blob += op_setvar(VAR_CHARACTER_ID, i + 1)
         blob += op_setflag(FLAG_CHARACTER_MODE)
         blob += op_givepokemon(sig, 5)
+        # Sweep AFTER the give, never before: beforehand a party holding only an
+        # off-roster mon hits the never-empty rule and nothing is boxed.
+        blob += op_callnative(SWEEP_PARTY)
         blob += op_callnative(SHOW_MUGSHOT)
         blob += op_loadword(str_addrs[f"msg:{j}"])
         blob += op_callstd(6)
