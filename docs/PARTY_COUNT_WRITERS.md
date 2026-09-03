@@ -93,6 +93,100 @@ script special (gSpecials entry at 0x0815FF10 = 0x0909B581): copies party slots 
 inside RR's party-restore-from-save routine 0x090BC194: it re-gives the player's OWN saved party on load. Gating it would strip the party; everything it re-gives was gated when first acquired (docs/ROUTINE_MAP.md:194)
 
 
+---
+
+# The other half: mon-sized copies INTO gPlayerParty
+
+`tools/tests/check_party_writes.py` is the second inventory, and it exists
+because of the LAUNDERING HOLE above: a recount is EXEMPT precisely because it
+introduces nothing, and that is exactly what makes a direct write into
+gPlayerParty legitimate afterwards. It pins every call whose destination is a
+gPlayerParty slot and whose size argument is the mon size -- a species can only
+enter a slot as a whole-mon copy, and the size argument is what separates the
+copies from the reads.
+
+⚠️ **Choosing that primitive took three tries, and the failures are the useful
+part.** "Every store through a party-derived pointer" gave 261 candidates.
+"Every function called with a party pointer in r0" gave ~171 callees, because
+`GetMonData(&gPlayerParty[i], ...)` passes the mon in r0 too -- at that
+resolution a read is indistinguishable from a write. Only the size argument
+cuts it to a set a person can actually read.
+
+⚠️ **And the first working version had a blind spot that hid the enforcement
+copy itself.** It treated a pc-relative reload of ANY tracked register as the
+end of the window; CFRU's `GiveMonToPlayer` reloads the register that held
+gPlayerParty long after the slot pointer has been computed into r0, so its own
+copy went unseen -- and the "at least one GATED copy is present" check failed,
+which is how it was noticed. It now drops just that register and keeps going.
+**A checker whose anchor assertion fails is telling you about the checker.**
+
+## 16 inventoried copy site(s)
+
+### `0x080456aa` (file `0x000456aa`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x08045608 (1 BL caller, 0x080456A6); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x08046126` (file `0x00046126`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x08046000 (1 BL caller, 0x080460DE); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x08092fe2` (file `0x00092fe2`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x08092FD4 (5 BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x080ce786` (file `0x000ce786`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x080CE72C (no BL callers -- reached by pointer or as a task); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x081114f2` (file `0x001114f2`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x08111438 (1 BL caller, 0x0805736C); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x0811718a` (file `0x0011718a`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x08117130 (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x0811c08e` (file `0x0011c08e`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x0811C04C (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x0908784a` (file `0x0108784a`) -- **UNVERIFIED**
+
+mon-sized copy into a party slot inside 0x09087824 (CFRU/RR high-ROM region, no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+
+### `0x0907d7ce` (file `0x0107d7ce`) -- **GATED**
+
+inside CFRU's GiveMonToPlayer 0x0907D790 -- THE enforcement choke point. It is the memcpy that places the mon in gPlayerParty[i], immediately before the count write at 0x0107D7FA that check_acquisition_paths.py lists as GATED. ⭐ THIS SITE WAS INVISIBLE to the first version of this scan: CFRU reloads the register that held gPlayerParty long after the slot pointer has been computed into r0, and the scanner treated a reload of ANY tracked register as the end of the window. It now drops just that register and keeps going
+
+### `0x08040b50` (file `0x00040b50`) -- **EXEMPT**
+
+DEAD CODE: inside the orphaned body of stock FireRed GiveMonToPlayer, whose entry 0x08040B14 was overwritten with a 4-byte thunk to the CFRU replacement. Proven unreachable in docs/PARTY_COUNT_WRITERS.md (entry 0x00040b6c)
+
+### `0x0804c240` (file `0x0004c240`) -- **EXEMPT**
+
+inside LoadPlayerParty 0x0804C230: copies 6 x 100 bytes back from gSaveBlock1Ptr. Restores the player's OWN saved party after a link/facility swap-out; everything it restores was gated when first acquired
+
+### `0x08050828` (file `0x00050828`) -- **EXEMPT**
+
+inside 0x0805080C (3 BL callers): computes two gPlayerParty slot pointers and copies between them -- a party SLOT SWAP. It moves mons the player already owns; no species enters from outside
+
+### `0x080a041a` (file `0x000a041a`) -- **EXEMPT**
+
+inside 0x080A03D8 (4 BL callers): allocates a 300-byte (3-mon) buffer, copies party slots out by an order array and back. A save/restore of the player's own party for the reduced-party link modes
+
+### `0x08123512` (file `0x00123512`) -- **EXEMPT**
+
+inside 0x081234EC (1 BL caller, 0x081232D8): allocates a 600-byte (6-mon) buffer, memcpy's the whole gPlayerParty into it, then copies each slot back at a new index -- a party REORDER. Verified by disassembly on the 0x08128074 twin; all three are the same routine with different order functions. Moves owned mons only
+
+### `0x0812809a` (file `0x0012809a`) -- **EXEMPT**
+
+inside 0x08128074 (5 BL callers): allocates a 600-byte (6-mon) buffer, memcpy's the whole gPlayerParty into it, then copies each slot back at a new index -- a party REORDER. Verified by disassembly on the 0x08128074 twin; all three are the same routine with different order functions. Moves owned mons only
+
+### `0x081280ea` (file `0x001280ea`) -- **EXEMPT**
+
+inside 0x081280C4 (1 BL caller, 0x0811FAD2): allocates a 600-byte (6-mon) buffer, memcpy's the whole gPlayerParty into it, then copies each slot back at a new index -- a party REORDER. Verified by disassembly on the 0x08128074 twin; all three are the same routine with different order functions. Moves owned mons only
+
+
 ## Method, so it can be repeated
 
 1. `arm-none-eabi-objdump -b binary -m armv4t -M force-thumb -D
