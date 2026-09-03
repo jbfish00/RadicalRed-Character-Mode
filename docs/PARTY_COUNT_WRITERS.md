@@ -120,39 +120,62 @@ copy went unseen -- and the "at least one GATED copy is present" check failed,
 which is how it was noticed. It now drops just that register and keeps going.
 **A checker whose anchor assertion fails is telling you about the checker.**
 
+## ⭐ Reconciling the two inventories
+
+Every copy site above was checked against `check_acquisition_paths.py`: does a
+party-COUNT writer live in the same routine?
+
+**Validated on the known positives first** — every **GATED** copy shares its
+routine with its **GATED** count writer (Radical Red `0x0907D7CE` ↔
+`0x0907D7FA`; Lazarus `0x081C40E4` ↔ `0x081C4118`; Seaglass `0x081AA5D4` ↔
+`0x081AA608` and `0x081F1F6C` ↔ `0x081F203A`), and the identified EXEMPT ones
+pair up too (`LoadPlayerParty`, the party save/restore). The relationship holds
+wherever it should, so the absences below mean something.
+
+🔴 **Every UNVERIFIED copy site sits in a routine with NO count writer at all.**
+Those are precisely the sites `check_acquisition_paths.py` is structurally
+blind to — it can only see a routine that touches the count byte.
+
+⚠️ **That is not by itself alarming.** A slot swap, a party reorder and a
+reduced-party save/restore change no count either, and three of the EXEMPT
+entries are exactly those. The point is narrower and it is the reason this file
+has two halves: **a routine that writes a mon into the party without touching
+the count is invisible to the count inventory**, whether it is benign or not.
+Read the two together; neither is sufficient alone.
+
 ## 16 inventoried copy site(s)
 
 ### `0x080456aa` (file `0x000456aa`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x08045608 (1 BL caller, 0x080456A6); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x08045608 (1 BL caller, 0x080456A6); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x08046126` (file `0x00046126`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x08046000 (1 BL caller, 0x080460DE); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x08046000 (1 BL caller, 0x080460DE); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x08092fe2` (file `0x00092fe2`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x08092FD4 (5 BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x08092FD4 (5 BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x080ce786` (file `0x000ce786`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x080CE72C (no BL callers -- reached by pointer or as a task); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x080CE72C (no BL callers -- reached by pointer or as a task); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x081114f2` (file `0x001114f2`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x08111438 (1 BL caller, 0x0805736C); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x08111438 (1 BL caller, 0x0805736C); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x0811718a` (file `0x0011718a`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x08117130 (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x08117130 (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x0811c08e` (file `0x0011c08e`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x0811C04C (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x0811C04C (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x0908784a` (file `0x0108784a`) -- **UNVERIFIED**
 
-mon-sized copy into a party slot inside 0x09087824 (CFRU/RR high-ROM region, no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined
+mon-sized copy into a party slot inside 0x09087824 (CFRU/RR high-ROM region, no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
 
 ### `0x0907d7ce` (file `0x0107d7ce`) -- **GATED**
 

@@ -75,13 +75,25 @@ INVENTORY = {
                  "caller, 0x080456A6); containing routine not yet "
                  "identified. It reaches the party through a known copy "
                  "primitive, so it cannot be introducing a species by an "
-                 "unknown mechanism -- but WHAT it copies is unexamined"),
+                 "unknown mechanism -- but WHAT it copies is unexamined. ⭐ "
+                 "RECONCILED 2026-09-02: NO party-count writer shares this "
+                 "routine, so check_acquisition_paths.py is structurally "
+                 "blind to it. That is not by itself alarming -- a swap or "
+                 "a reorder changes no count either -- but it is exactly "
+                 "the class this second inventory exists to see, and it is "
+                 "why the two must be read together"),
     0x00046126: ("UNVERIFIED",
                  "mon-sized copy into a party slot inside 0x08046000 (1 BL "
                  "caller, 0x080460DE); containing routine not yet "
                  "identified. It reaches the party through a known copy "
                  "primitive, so it cannot be introducing a species by an "
-                 "unknown mechanism -- but WHAT it copies is unexamined"),
+                 "unknown mechanism -- but WHAT it copies is unexamined. ⭐ "
+                 "RECONCILED 2026-09-02: NO party-count writer shares this "
+                 "routine, so check_acquisition_paths.py is structurally "
+                 "blind to it. That is not by itself alarming -- a swap or "
+                 "a reorder changes no count either -- but it is exactly "
+                 "the class this second inventory exists to see, and it is "
+                 "why the two must be read together"),
     0x0004c240: ("EXEMPT",
                  "inside LoadPlayerParty 0x0804C230: copies 6 x 100 bytes "
                  "back from gSaveBlock1Ptr. Restores the player's OWN saved "
@@ -97,7 +109,13 @@ INVENTORY = {
                  "callers); containing routine not yet identified. It "
                  "reaches the party through a known copy primitive, so it "
                  "cannot be introducing a species by an unknown mechanism "
-                 "-- but WHAT it copies is unexamined"),
+                 "-- but WHAT it copies is unexamined. ⭐ RECONCILED "
+                 "2026-09-02: NO party-count writer shares this routine, so "
+                 "check_acquisition_paths.py is structurally blind to it. "
+                 "That is not by itself alarming -- a swap or a reorder "
+                 "changes no count either -- but it is exactly the class "
+                 "this second inventory exists to see, and it is why the "
+                 "two must be read together"),
     0x000a041a: ("EXEMPT",
                  "inside 0x080A03D8 (4 BL callers): allocates a 300-byte "
                  "(3-mon) buffer, copies party slots out by an order array "
@@ -109,25 +127,49 @@ INVENTORY = {
                  "routine not yet identified. It reaches the party through "
                  "a known copy primitive, so it cannot be introducing a "
                  "species by an unknown mechanism -- but WHAT it copies is "
-                 "unexamined"),
+                 "unexamined. ⭐ RECONCILED 2026-09-02: NO party-count "
+                 "writer shares this routine, so check_acquisition_paths.py "
+                 "is structurally blind to it. That is not by itself "
+                 "alarming -- a swap or a reorder changes no count either "
+                 "-- but it is exactly the class this second inventory "
+                 "exists to see, and it is why the two must be read "
+                 "together"),
     0x001114f2: ("UNVERIFIED",
                  "mon-sized copy into a party slot inside 0x08111438 (1 BL "
                  "caller, 0x0805736C); containing routine not yet "
                  "identified. It reaches the party through a known copy "
                  "primitive, so it cannot be introducing a species by an "
-                 "unknown mechanism -- but WHAT it copies is unexamined"),
+                 "unknown mechanism -- but WHAT it copies is unexamined. ⭐ "
+                 "RECONCILED 2026-09-02: NO party-count writer shares this "
+                 "routine, so check_acquisition_paths.py is structurally "
+                 "blind to it. That is not by itself alarming -- a swap or "
+                 "a reorder changes no count either -- but it is exactly "
+                 "the class this second inventory exists to see, and it is "
+                 "why the two must be read together"),
     0x0011718a: ("UNVERIFIED",
                  "mon-sized copy into a party slot inside 0x08117130 (no BL "
                  "callers); containing routine not yet identified. It "
                  "reaches the party through a known copy primitive, so it "
                  "cannot be introducing a species by an unknown mechanism "
-                 "-- but WHAT it copies is unexamined"),
+                 "-- but WHAT it copies is unexamined. ⭐ RECONCILED "
+                 "2026-09-02: NO party-count writer shares this routine, so "
+                 "check_acquisition_paths.py is structurally blind to it. "
+                 "That is not by itself alarming -- a swap or a reorder "
+                 "changes no count either -- but it is exactly the class "
+                 "this second inventory exists to see, and it is why the "
+                 "two must be read together"),
     0x0011c08e: ("UNVERIFIED",
                  "mon-sized copy into a party slot inside 0x0811C04C (no BL "
                  "callers); containing routine not yet identified. It "
                  "reaches the party through a known copy primitive, so it "
                  "cannot be introducing a species by an unknown mechanism "
-                 "-- but WHAT it copies is unexamined"),
+                 "-- but WHAT it copies is unexamined. ⭐ RECONCILED "
+                 "2026-09-02: NO party-count writer shares this routine, so "
+                 "check_acquisition_paths.py is structurally blind to it. "
+                 "That is not by itself alarming -- a swap or a reorder "
+                 "changes no count either -- but it is exactly the class "
+                 "this second inventory exists to see, and it is why the "
+                 "two must be read together"),
     0x00123512: ("EXEMPT",
                  "inside 0x081234EC (1 BL caller, 0x081232D8): allocates a "
                  "600-byte (6-mon) buffer, memcpy's the whole gPlayerParty "
@@ -166,7 +208,13 @@ INVENTORY = {
                  "routine not yet identified. It reaches the party through "
                  "a known copy primitive, so it cannot be introducing a "
                  "species by an unknown mechanism -- but WHAT it copies is "
-                 "unexamined"),
+                 "unexamined. ⭐ RECONCILED 2026-09-02: NO party-count "
+                 "writer shares this routine, so check_acquisition_paths.py "
+                 "is structurally blind to it. That is not by itself "
+                 "alarming -- a swap or a reorder changes no count either "
+                 "-- but it is exactly the class this second inventory "
+                 "exists to see, and it is why the two must be read "
+                 "together"),
 }
 
 WINDOW = 48
