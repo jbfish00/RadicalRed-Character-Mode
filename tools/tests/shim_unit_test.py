@@ -70,17 +70,59 @@ SHIM_ENTRY   = 0x08C80000
 # The anchor is semantic instead: the single `ldr rX, =GiveMonToPlayer` and the
 # single `ldr rX, =SendMonToPC` in the shim. Which of those two the shim
 # reaches IS the behaviour under test.
+def _gate_extent():
+    """[start, end) of CM_GiveMonToPlayerGated inside the shim blob.
+
+    ⚠️ 2026-09-03: WITHOUT THIS BOUND THIS TEST COULD NOT PASS. The activation
+    party sweep (2026-09-02, commit da61028) added a SECOND `ldr rX,
+    =SendMonToPC` to the shim -- CM_SweepPartyToPC boxes mons too -- so the
+    "exactly one loader" anchor below started finding two and the layer exited
+    1 before running a single check. It stayed that way undetected because
+    nothing runs this file: rowe_parity.md §11 recorded the identical shape in
+    Lazarus (a checker that CANNOT pass, invisible because nobody ran it) and
+    this is the same lesson one repo over. Run every checker a repo owns.
+
+    Derived from the built ELF's own symbol table, and by ADDRESS ORDER rather
+    than source order -- `nm` order is not source order, a trap this repo has
+    already been bitten by.
+    """
+    elf = ROOT / "build" / "character_mode.elf"
+    if not elf.is_file():
+        raise SystemExit("shim_unit_test: %s missing -- run the injector first"
+                         % elf)
+    syms = subprocess.run(["arm-none-eabi-nm", str(elf)], check=True,
+                          capture_output=True, text=True).stdout
+    text = sorted({(int(a, 16), n) for a, t, n in
+                   (l.split() for l in syms.splitlines() if len(l.split()) == 3)
+                   if t == "T" and int(a, 16) >= SHIM_ENTRY})
+    start = next((a for a, n in text if n == "CM_GiveMonToPlayerGated"), None)
+    if start != SHIM_ENTRY:
+        raise SystemExit("shim_unit_test: gate entry is %s, expected %#x"
+                         % (start, SHIM_ENTRY))
+    after = [a for a, _n in text if a > start]
+    if not after:
+        raise SystemExit("shim_unit_test: no symbol follows the gate; cannot "
+                         "bound it")
+    return start, min(after)
+
+
 def _derive_branch_points():
     import struct as _s
     rom = (ROOT / "build" / "radicalred_cm.gba").read_bytes()
     def w32(a): return _s.unpack_from("<I", rom, a - 0x08000000)[0]
     def hw(a):  return _s.unpack_from("<H", rom, a - 0x08000000)[0]
-    end = SHIM_ENTRY
-    while any(b != 0xFF for b in rom[end - 0x08000000:end - 0x08000000 + 0x10]):
-        end += 0x10
+    # Bound to the GATE, not to the whole shim: the sweep loads SendMonToPC too,
+    # and its loader is not the branch this test is about.
+    _gate_start, end = _gate_extent()
     out = {}
     for name, target in (("give", 0x0907D791), ("pc", 0x090B6E39)):
-        pools = [a for a in range(SHIM_ENTRY, end, 4) if w32(a) == target]
+        # Pools are scanned over the whole shim (a literal pool can sit past
+        # the gate's last instruction); only the LDR SITES are bounded.
+        _blob_end = SHIM_ENTRY
+        while any(b != 0xFF for b in
+                  rom[_blob_end - 0x08000000:_blob_end - 0x08000000 + 0x10]):
+            _blob_end += 0x10
+        pools = [a for a in range(SHIM_ENTRY, _blob_end, 4) if w32(a) == target]
         sites = []
         for a in range(SHIM_ENTRY, end, 2):
             v = hw(a)

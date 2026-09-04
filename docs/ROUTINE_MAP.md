@@ -222,6 +222,16 @@ Surveyed actual usage in the ROM (byte-pattern scan for flag opcodes `0x29/0x2A/
 ## Phase 4 hook-design summary (all inputs now confirmed)
 
 - **Enforcement semantics ported from ROWE** (`src/character_mode.c` + call sites there): gifts/statics → off-roster non-egg mons redirect to `SendMonToPC`; ROWE additionally ball-blocks wild catches of off-roster species inside `handleballthrow` — for RR v1, catches use the same PC-redirect shim instead (all vanilla "sent to Box" messaging then works automatically, since both `atkF0_givecaughtmon` and `ScriptGiveMon` already branch on `result != MON_GIVEN_TO_PARTY`).
+- **Egg-hatch sweep (2026-09-03)**: the overworld step handler at `0x0806D704`
+  `bl ShouldEggHatch` (`0x080463B8`, the CFRU donor address, the ROM's only
+  direct BL to it) and runs the script at `0x081BF546`. Its tail
+  (`0x081BF54F`: `special 0xC2; waitstate; 6B; end`) is overlaid with
+  `goto 0x08C8F000`, an 11-byte replayed tail ending
+  `callnative CM_SweepPartyToPC`. Checked before hooking: the entry has exactly
+  **two** referents (`0x0806D71C` literal pool, `0x090B1BF0` a second table
+  running the same script) and the interior has **zero** — via an UNALIGNED u32
+  scan, because script pointers here are not word-aligned. `docs/GIFT_EGGS.md`,
+  `tools/character_mode/egg_hook.py`.
 - **Shim**: `CM_GiveMonToPlayerGated(mon)` — if `FlagGet(0x18FE)` and `VarGet(0x51FD)` selects a valid character and mon is non-egg and species bit is NOT set in the character's allowed-species bitmap → `return SendMonToPC(mon)`; else `return GiveMonToPlayer(mon)` (`0x0907D791`).
 - **Patch sites**: the two BL instructions at `0x0907DD84` (catch) and `0x090777CE` (scripted gift) retarget to the shim. Thumb BL range is ±4MB: shim must live in the free block at ROM `0x08B71D04`+ (distance ~3.6MB from both sites — in range; the other big block would not be).
 - **Allowed-species bitmaps**: 172 bytes × 184 characters (1376 bits each), precomputed by extending `emit_characters.py` — evolution-family-forward expansion over `data.js`'s evolution graph from each roster base id. O(1) lookup at catch time, no runtime evolution walking.

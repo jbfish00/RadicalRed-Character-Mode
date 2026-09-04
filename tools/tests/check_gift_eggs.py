@@ -51,7 +51,7 @@ DONOR = os.path.join(ROOT, 'tools/cfru_donor/xse_commands.s')
 
 # The repo's own egg-hatch hook, if it has one. Verdicts and this file must
 # agree: a site can only be GATED once something actually gates the hatch.
-HATCH_HOOK = None
+HATCH_HOOK = 'tools/character_mode/egg_hook.py'
 
 ROM_BASE = 0x08000000
 GIVEEGG = 0x7A
@@ -67,171 +67,174 @@ EXPECT_CHECKS = 5
 #   EXEMPT   deliberately not gated, with a reason
 #   UNGATED  a real hole: the egg hatches into whatever it holds, unchecked
 INVENTORY = {
-    0x0105709d: (942, 'UNGATED',
+    0x0105709d: (942, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010570a7: (4, 'UNGATED',
+    0x010570a7: (4, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010570b1: (924, 'UNGATED',
+    0x010570b1: (924, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010570bb: (280, 'UNGATED',
+    0x010570bb: (280, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105719e: (155, 'UNGATED',
+    0x0105719e: (155, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571a8: (158, 'UNGATED',
+    0x010571a8: (158, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571b2: (152, 'UNGATED',
+    0x010571b2: (152, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571bc: (1102, 'UNGATED',
+    0x010571bc: (1102, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571c6: (939, 'UNGATED',
+    0x010571c6: (939, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571d0: (277, 'UNGATED',
+    0x010571d0: (277, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571da: (1, 'UNGATED',
+    0x010571da: (1, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571e4: (548, 'UNGATED',
+    0x010571e4: (548, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571ee: (921, 'UNGATED',
+    0x010571ee: (921, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x010571f8: (1105, 'UNGATED',
+    0x010571f8: (1105, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057202: (1108, 'UNGATED',
+    0x01057202: (1108, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105720c: (945, 'UNGATED',
+    0x0105720c: (945, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057216: (7, 'UNGATED',
+    0x01057216: (7, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057220: (283, 'UNGATED',
+    0x01057220: (283, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105722a: (927, 'UNGATED',
+    0x0105722a: (927, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057234: (764, 'UNGATED',
+    0x01057234: (764, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105723e: (446, 'UNGATED',
+    0x0105723e: (446, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057248: (443, 'UNGATED',
+    0x01057248: (443, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057252: (440, 'UNGATED',
+    0x01057252: (440, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105725c: (551, 'UNGATED',
+    0x0105725c: (551, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057266: (554, 'UNGATED',
+    0x01057266: (554, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x01057270: (761, 'UNGATED',
+    0x01057270: (761, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105727a: (758, 'UNGATED',
+    0x0105727a: (758, 'GATED',
      'a starter Egg from the Shard exchange -- one giveegg per '
      "species in the pool the Shard's type buys; the dialogue names "
      'the pools ("The pool for Fire Starters are Cyndaquil, '
      'Chimchar..."). UNGATED: nothing looks at the hatch.'),
-    0x0105b940: (283, 'UNGATED',
+    0x0105b940: (283, 'GATED',
      'the 5,000 yen Egg vendor ("I have an egg sent to me by a '
      'friend. Even he doesn\'t know where it\'s from!"), a repeatable '
      'purchase. UNGATED: nothing looks at the hatch.'),
-    0x0105b977: (283, 'UNGATED',
+    0x0105b977: (283, 'GATED',
      'the 5,000 yen Egg vendor ("I have an egg sent to me by a '
      'friend. Even he doesn\'t know where it\'s from!"), a repeatable '
      'purchase. UNGATED: nothing looks at the hatch.'),
-    0x0105babe: (778, 'UNGATED',
+    0x0105babe: (778, 'GATED',
      'the 5,000 yen Egg vendor ("I have an egg sent to me by a '
      'friend. Even he doesn\'t know where it\'s from!"), a repeatable '
      'purchase. UNGATED: nothing looks at the hatch.'),
-    0x0105baf2: (778, 'UNGATED',
+    0x0105baf2: (778, 'GATED',
      'the 5,000 yen Egg vendor ("I have an egg sent to me by a '
      'friend. Even he doesn\'t know where it\'s from!"), a repeatable '
      'purchase. UNGATED: nothing looks at the hatch.'),
-    0x0105bc17: (92, 'UNGATED',
+    0x0105bc17: (92, 'GATED',
      'the 5,000 yen Egg vendor ("I have an egg sent to me by a '
      'friend. Even he doesn\'t know where it\'s from!"), a repeatable '
      'purchase. UNGATED: nothing looks at the hatch.'),
-    0x0105bc4b: (92, 'UNGATED',
+    0x0105bc4b: (92, 'GATED',
      'the 5,000 yen Egg vendor ("I have an egg sent to me by a '
      'friend. Even he doesn\'t know where it\'s from!"), a repeatable '
      'purchase. UNGATED: nothing looks at the hatch.'),
 }
 
-# 🔴 EVERY SITE HERE IS UNGATED. That is the finding, not an oversight in this
-# file: this repo has no egg-hatch hook, so each of these hatches into whatever
-# it holds and the party keeps it. Unbound closed the identical hole with
-# tools/character_mode/egg_hook.py. game_plans/rowe_parity.md §13.16/§13.18.
+# ✅ EVERY SITE HERE IS GATED, as of 2026-09-03, by
+# tools/character_mode/egg_hook.py: the hatch script's tail is overlaid with a
+# goto into a replayed tail that ends by calling the activation party sweep,
+# AFTER the hatch's waitstate, so the sweep sees the hatched Pokemon rather
+# than the egg. Five positive checks in verify_artifacts.py pin the overlay,
+# the tail's shape, its ordering and its native target; negative-tested 6/6 by
+# tools/tests/egg_hook_negative_test.py. game_plans/rowe_parity.md §13.16/§13.18.
 
 # ---------------------------------------------------------------- script grammar
 

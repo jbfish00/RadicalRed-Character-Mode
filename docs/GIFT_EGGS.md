@@ -1,8 +1,24 @@
 # GIFT EGGS — Radical Red v4.1
 
-**33 `giveegg` sites, all reachable from dialogue, all UNGATED.** Measured
-2026-09-03. Pinned by `tools/tests/check_gift_eggs.py` (5 checks,
-negative-tested 7/7).
+**33 `giveegg` sites, all reachable from dialogue, and as of 2026-09-03 all
+GATED.** Measured and then closed the same day. Pinned by
+`tools/tests/check_gift_eggs.py` (5 checks, negative-tested 7/7); the hook
+itself is pinned by five checks in `verify_artifacts.py`, negative-tested 6/6
+by `tools/tests/egg_hook_negative_test.py`.
+
+✅ **THE HOOK IS IN** (`tools/character_mode/egg_hook.py`). The hatch script's
+tail at `0x081BF54F` is overlaid with a `goto` into an 11-byte replayed tail at
+`0x08C8F000` that ends `callnative CM_SweepPartyToPC`, **after** the hatch's
+waitstate — so the sweep sees the hatched Pokemon, not the egg, and the egg
+exemption inside the sweep no longer applies to it. Build `3354e257`;
+`verify_artifacts` **104**, `shim_unit_test` 15/15, boot 4/4.
+
+⭐ **The finding that made this cheap: the hatch path is untouched CFRU donor
+code, so this ROM's hatch caller (`0x0806D704`) and hatch script (`0x081BF546`)
+are BYTE-IDENTICAL to Unbound's, at the same addresses.** Diffed, not assumed.
+The only divergence is how the sweep is invoked — Unbound repoints a dead
+`gSpecials` slot, this repo emits `callnative` (0x23) directly, which it already
+does in its selection script. **Check this first in any other CFRU hack.**
 
 🔴 **This game has an egg ECONOMY, not an egg event.** Two of the three sources
 are repeatable purchases, and one of them advertises a random species.
@@ -68,9 +84,9 @@ did not.
   Emerald hot-spring scripts are marked as inherited and their map placement is
   **unverified**.
 
-## The fix, when it is done
+## How the fix was done
 
-Port `Unbound-Character-Mode/tools/character_mode/egg_hook.py`. Unbound's own
+Ported from `Unbound-Character-Mode/tools/character_mode/egg_hook.py`. Unbound's own
 summary calls the hole *"the one enforcement hole reachable in ordinary
 play"*. Its shape: the overworld step handler calls `ShouldEggHatch` and on a
 true result runs a hatch script whose tail is `special <hatch>; waitstate;
@@ -88,6 +104,15 @@ things Unbound checked rather than assumed, and this port must too:
 2. **Enough displaced bytes are available** for a 5-byte `goto`, with the
    displaced commands replayed rather than shortened.
 
-When it lands, flip these verdicts to GATED **and** set `HATCH_HOOK` in
-`tools/tests/check_gift_eggs.py`. The checker's fifth check fails if only one
-of those two happens.
+Both happened together, as the checker requires: the verdicts are GATED **and**
+`HATCH_HOOK` is set in `tools/tests/check_gift_eggs.py`. Its fifth check fails
+if only one of those two is ever true.
+
+⚠️ **Still not covered, and worth saying plainly:** the sweep boxes an
+off-roster hatchling, it does not prevent the egg. That is the deliberate
+design — an egg event must never block progress — so the ¥5000 vendor will
+still happily sell an egg that boxes itself on hatching.
+
+⬜ **Not yet done: a live egg-hatch test.** Every assertion here is static plus
+the existing GDB layers. Unbound's port was live-tested; this one has not been
+walked through a hatch in an emulator.

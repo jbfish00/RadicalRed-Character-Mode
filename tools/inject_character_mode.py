@@ -112,6 +112,13 @@ TRADE_ORIG_SCRIPT = 0x08164B03        # lockall; setvar 0x8004,6; ... trade scen
 TRADE_GIVEN_SPECIES = 848             # what the player RECEIVES (the gated side)
 TRADE_WRAPPER_ADDR = 0x08C8E000
 
+# --- egg-hatch sweep (../game_plans/rowe_parity.md §13.16/§13.18) ---
+# The injected tail for the hatch script, 11 bytes. Placed between the trade
+# wrapper (which ends by 0x08C8E0C0) and SCRIPT_ADDR; verified 0xFF-free in
+# both the base and the built ROM before it was chosen. tools/character_mode/
+# egg_hook.py carries the RE and the byte grammar.
+EGG_TAIL_ADDR = 0x08C8F000
+
 # Wild-encounter override (docs/ROUTINE_MAP.md, "CONFIRMED -- wild-encounter
 # override hook sites"): the four BL sites calling CreateWildMon
 # (0x090C292C, no Thumb bit) from a genuine random-table roll -- primary +
@@ -730,6 +737,32 @@ def main():
     struct.pack_into("<I", data, TRADE_BG_SCRIPT_PTR_OFF, TRADE_WRAPPER_ADDR)
     print(f"trade gate: wrapper {len(wrapper)} B @ {TRADE_WRAPPER_ADDR:#x} "
           f"({len(allowing)} characters allow species {TRADE_GIVEN_SPECIES})")
+
+
+    # --- 3c. egg-hatch sweep ---
+    # The one enforcement hole reachable in ordinary play: eggs are exempt
+    # everywhere by design so an egg event cannot block progress, and nothing
+    # then looked at what the egg HATCHED INTO. This overlays the hatch
+    # script's tail with a goto into a replayed tail that ends by calling the
+    # activation sweep -- after the hatch's waitstate, so it sees the finished
+    # Pokemon rather than the egg. docs/GIFT_EGGS.md has the 33 gift eggs this
+    # covers; tools/character_mode/egg_hook.py has the RE.
+    sys.path.insert(0, str(Path(__file__).resolve().parent / "character_mode"))
+    import egg_hook
+    egg_entry = struct.unpack_from("<I", data, 0x0006D71C)[0]
+    assert egg_entry == egg_hook.SCRIPT_ENTRY, (
+        f"egg-hatch script pointer is {egg_entry:#x}, expected "
+        f"{egg_hook.SCRIPT_ENTRY:#x} -- the hatch caller has moved")
+    egg_tail, egg_patches = egg_hook.build(EGG_TAIL_ADDR, SWEEP_PARTY)
+    splice(EGG_TAIL_ADDR, egg_tail, "egg-hatch tail")
+    for off, orig, repl in egg_patches:
+        seg = bytes(data[off:off + len(orig)])
+        assert seg == orig, (
+            f"egg splice site {off + 0x08000000:#x} holds {seg.hex()}, "
+            f"expected {orig.hex()} -- wrong ROM, or already patched")
+        data[off:off + len(repl)] = repl
+    print(f"egg-hatch sweep: tail {len(egg_tail)} B @ {EGG_TAIL_ADDR:#x}, "
+          f"splice @ {egg_hook.SPLICE_ROM_ADDR:#x} -> callnative {SWEEP_PARTY:#x}")
 
 
     # --- faster stat-change battle messages (user-approved 2026-09-01) ---
