@@ -144,7 +144,13 @@ Check each the first time the playthrough naturally offers one:
       PC; on-roster → party.
 - [ ] **6.2** **Egg** received (gift egg or daycare) → an egg always enters the
       party even if the species is off-roster — **deliberate** (eggs exempt), not a
-      bug. Hatching proceeds normally.
+      bug. ⚠️ **Updated 2026-09-04: HATCHING IS NOW GATED.** When the egg hatches,
+      an off-roster hatchling is **sent to the PC** and the party keeps its slot
+      count; an on-roster one stays. Buying a **Wonder Egg** (¥5000) or taking a
+      Shard starter Egg is the cheapest way to exercise this — see
+      `docs/GIFT_EGGS.md`, which lists all 33 gift eggs in this ROM.
+      🔴 **This is the one hook with no automated live test**, so it is the most
+      valuable box on this checklist to tick.
 - [ ] **6.3** The **Eternal Flower Floette trade console** (the only live in-game
       trade in v4.1): as Red it must **politely refuse** (sign-style msgbox, no
       trade, no crash, nothing lost). Only Shauna, Lysandre, Goh and Tulip may take
