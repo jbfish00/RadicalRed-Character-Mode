@@ -145,14 +145,6 @@ Read the two together; neither is sufficient alone.
 
 ## 16 inventoried copy site(s)
 
-### `0x080456aa` (file `0x000456aa`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x08045608 (1 BL caller, 0x080456A6); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
-### `0x08046126` (file `0x00046126`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x08046000 (1 BL caller, 0x080460DE); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
 ### `0x08092fe2` (file `0x00092fe2`) -- **UNVERIFIED**
 
 mon-sized copy into a party slot inside 0x08092FD4 (5 BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
@@ -184,6 +176,14 @@ inside CFRU's GiveMonToPlayer 0x0907D790 -- THE enforcement choke point. It is t
 ### `0x08040b50` (file `0x00040b50`) -- **EXEMPT**
 
 DEAD CODE: inside the orphaned body of stock FireRed GiveMonToPlayer, whose entry 0x08040B14 was overwritten with a 4-byte thunk to the CFRU replacement. Proven unreachable in docs/PARTY_COUNT_WRITERS.md (entry 0x00040b6c)
+
+### `0x080456aa` (file `0x000456aa`) -- **EXEMPT**
+
+DAYCARE WITHDRAW. Identified 2026-09-03: the code just above reads field 56 off the stack mon, then GetMonData(sp,25) + the daycare struct's stored value at r5+0x88 -> SetMonData(sp,25,...) -- it applies the EXP the mon earned in the daycare -- and copies it into gPlayerParty+500 (the last slot, which this engine family uses as scratch). The mon is the player's OWN, deposited earlier; nothing new enters
+
+### `0x08046126` (file `0x00046126`) -- **EXEMPT**
+
+THE GIFT/DAYCARE EGG GIVE, and the most important entry in this file. `SetMonData(sp, MON_DATA_IS_EGG=45, ...)` then memcpy into gPlayerParty+500 then `bl CalculatePlayerPartyCount 0x08040C3C` -- the LAUNDERING PATTERN in the flesh: it writes a mon into the array and lets a recount bless it, and it never goes through GiveMonToPlayer, so the gate there cannot see it. ⚠️ IT IS LIVE, not dead code: CFRU thunks out at 0x08046116 (`ldr r0,[pc,#4]; bx r0`) and JUMPS BACK IN -- there are thumb pointers to 0x08046121 from the CFRU region. EXEMPT because eggs are deliberately exempt from the gate in every port (an egg event must never block progress). 🔴 BUT THE EXEMPTION HAS A DOWNSTREAM GAP: nothing here looks at what the egg HATCHES INTO. Unbound closed exactly this with tools/character_mode/egg_hook.py, whose own words are that it was 'the one enforcement hole reachable in ordinary play' -- breeding cannot reach it (rosters store whole evolution families, so offspring are on-roster by construction), gift eggs are the way in. See game_plans/rowe_parity.md 13.16
 
 ### `0x0804c240` (file `0x0004c240`) -- **EXEMPT**
 
