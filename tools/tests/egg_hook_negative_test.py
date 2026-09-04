@@ -43,9 +43,14 @@ import egg_hook  # noqa: E402
 EGG_TAIL_OFF = 0x08C8F000 - 0x08000000
 
 CHECKS = {
-    "goto": "hatch script tail overlaid with `goto <egg tail>`",
-    "shape": "egg tail replays hatch/waitstate/release, then callnative, then end",
-    "sweep": "the egg tail's native IS the activation sweep",
+    # ⚠️ Substrings, not full check names: the wording differs slightly between
+    # the three ports' verifiers ("then callnative, then end" vs "callnative,
+    # end"). Matching the whole sentence made this test report three MISSES --
+    # control included -- which is the signature of a broken harness, not a
+    # broken checker.
+    "goto": "overlaid with `goto <egg tail>`",
+    "shape": "egg tail replays hatch/waitstate",
+    "sweep": "native IS the activation sweep",
 }
 
 
