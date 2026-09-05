@@ -145,29 +145,9 @@ Read the two together; neither is sufficient alone.
 
 ## 16 inventoried copy site(s)
 
-### `0x08092fe2` (file `0x00092fe2`) -- **UNVERIFIED**
+### `0x08092fe2` (file `0x00092fe2`) -- **UNGATED**
 
-mon-sized copy into a party slot inside 0x08092FD4 (5 BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
-### `0x080ce786` (file `0x000ce786`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x080CE72C (no BL callers -- reached by pointer or as a task); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
-### `0x081114f2` (file `0x001114f2`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x08111438 (1 BL caller, 0x0805736C); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
-### `0x0811718a` (file `0x0011718a`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x08117130 (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
-### `0x0811c08e` (file `0x0011c08e`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x0811C04C (no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
-
-### `0x0908784a` (file `0x0108784a`) -- **UNVERIFIED**
-
-mon-sized copy into a party slot inside 0x09087824 (CFRU/RR high-ROM region, no BL callers); containing routine not yet identified. It reaches the party through a known copy primitive, so it cannot be introducing a species by an unknown mechanism -- but WHAT it copies is unexamined. ⭐ RECONCILED 2026-09-02: NO party-count writer shares this routine, so check_acquisition_paths.py is structurally blind to it. That is not by itself alarming -- a swap or a reorder changes no count either -- but it is exactly the class this second inventory exists to see, and it is why the two must be read together
+THE PC WITHDRAW, and the most consequential entry in this file. 0x08092FD4 is a Pokemon Storage System routine: when its first argument is 25 it does `memcpy(&gPlayerParty[slot], gPSSData + 0xA0, 100)` -- gPSSData is 0x020397B0, named in the CFRU donor's BPRE.ld, and +0xA0 is the mon the PC cursor is holding. So this is the box -> party move. 5 BL callers, all inside the PSS. 🔴 WHY IT IS UNGATED RATHER THAN EXEMPT: enforcement deliberately ROUTES off-roster mons INTO the PC, and nothing re-enforces the roster after the player uses it. Measured on the built ROM: CM_SweepPartyToPC is called from the selection handlers and the egg-hatch tail and NOWHERE ELSE, so an off-roster mon the catch gate just boxed can be withdrawn straight back into the party and kept for the rest of the run. This needs no exploit -- it is what happens if you open the PC and take the mon back. ⭐ ROWE, the reference implementation, closes it in TWO places: `CharacterMode_SweepPartyToPC()` at the top of `Cb2_ExitPSS` (src/pokemon_storage_system.c), and `IsRemovingLastAllowedPartyMon` -- whose comment describes the residual exploit in as many words: withdraw an off-roster B, deposit your only on-roster A, exit, and the never-empty rule keeps B. "You could play the whole game as your character with an arbitrary Pokemon." See ../game_plans/rowe_parity.md §13.24
 
 ### `0x0907d7ce` (file `0x0107d7ce`) -- **GATED**
 
@@ -197,6 +177,18 @@ inside 0x0805080C (3 BL callers): computes two gPlayerParty slot pointers and co
 
 inside 0x080A03D8 (4 BL callers): allocates a 300-byte (3-mon) buffer, copies party slots out by an order array and back. A save/restore of the player's own party for the reduced-party link modes
 
+### `0x080ce786` (file `0x000ce786`) -- **EXEMPT**
+
+DEAD CODE: the orphaned body of stock FireRed CreateShedinja. Its entry 0x080CE748 was overwritten with the 8-byte thunk `ldr r2,[pc,#0] ; bx r2 ; .word 0x09093EB9` (CFRU_HOOK_SYMBOLS.txt line 378), and the replacement is a complete reimplementation. ⚠️ CHECKED RATHER THAN ASSUMED, because "there is a thunk before it" does NOT mean dead -- CFRU thunks out and often jumps back in (see 0x00046126). An unaligned u32 scan of the whole ROM finds exactly two words pointing into 0x080CE750..0x080CE8E0: one aligned literal at 0x080CE0D0 -> 0x080CE8DD, which is the NEXT function's entry rather than this body, and one unaligned coincidence at 0x08A5F749 inside compressed graphics. And the replacement's own branches all stay inside 0x0909xxxx: it never returns into the body
+
+### `0x081114f2` (file `0x001114f2`) -- **EXEMPT**
+
+LINK/UNION-ROOM PLACEHOLDER PARTY. 0x08111438 allocates 104 bytes, builds one mon into it with `CreateMon(buf, 19, 1, 32, 0,0,0,0)` (0x0803DA54, named in BPRE.ld), reads a packed value out of `VarGet(0x4027)` and then `CopyMon(&gPlayerParty[i], buf, 100)` for i below its top nibble. One BL caller, 0x0805736C, inside a link/multiplayer setup sequence (its neighbours in that sequence are 0x08111F14 / 0x081113E4 / 0x08110AC8, and the adjacent routines in this address range use GetMultiplayerId and SendBlock). It writes a FIXED template, never a species the player chose, and it overwrites the real party wholesale -- so it cannot be a route by which a chosen off-roster species enters and stays. ⚠️ Residual: nothing here proves it is unreachable in single player; if it ever ran there the player would lose their team, which is why it reads as link-only
+
+### `0x0811c08e` (file `0x0011c08e`) -- **EXEMPT**
+
+REDUCE-THE-PARTY-FOR-A-LINK-BATTLE. 0x0811C04C copies the 2 mons named by the selection array at 0x0203C750 out of gPlayerParty into gEnemyParty (0x0202402C -- exactly 600 bytes below gPlayerParty, which is what makes it this engine's party stash), ZeroMonData's all 6 party slots, copies the 2 back into slots 0-1, then calls CalculatePlayerPartyCount 0x08040C3C. Every mon it writes came out of the party a few instructions earlier -- the laundering pattern with a benign source
+
 ### `0x08123512` (file `0x00123512`) -- **EXEMPT**
 
 inside 0x081234EC (1 BL caller, 0x081232D8): allocates a 600-byte (6-mon) buffer, memcpy's the whole gPlayerParty into it, then copies each slot back at a new index -- a party REORDER. Verified by disassembly on the 0x08128074 twin; all three are the same routine with different order functions. Moves owned mons only
@@ -208,6 +200,22 @@ inside 0x08128074 (5 BL callers): allocates a 600-byte (6-mon) buffer, memcpy's 
 ### `0x081280ea` (file `0x001280ea`) -- **EXEMPT**
 
 inside 0x081280C4 (1 BL caller, 0x0811FAD2): allocates a 600-byte (6-mon) buffer, memcpy's the whole gPlayerParty into it, then copies each slot back at a new index -- a party REORDER. Verified by disassembly on the 0x08128074 twin; all three are the same routine with different order functions. Moves owned mons only
+
+### `0x0908784a` (file `0x0108784a`) -- **EXEMPT**
+
+CFRU's DAYCARE WITHDRAW -- the high-ROM twin of the already-EXEMPT vanilla site at 0x000456AA. Named by the six vanilla functions it calls through CFRU's register-dispatch veneer, all resolved out of its literal pool against the donor's BPRE.ld: 0x080453E0 (with gStringVar1), GetBoxMonData(mon, 11), BoxMonToMon, then memcpy(gPlayerParty + 500, stackMon, 100) -- slot 5, the scratch slot this engine family uses -- then ZeroBoxMonData, CompactPartySlots and CalculatePlayerPartyCount. The laundering pattern again (a direct array write blessed by a recount) with a benign source: the mon is the player's own, deposited earlier
+
+### `0x09093f18` (file `0x01093f18`) -- **EXEMPT**
+
+CFRU's LIVE CreateShedinja -- the replacement the vanilla body at 0x000CE786 was thunked out to, and a REAL acquisition path: a Nincada evolution creates an EXTRA Pokemon, copied straight into gPlayerParty[count] and blessed by a recount, never touching GiveMonToPlayer. ⭐ IT WAS INVISIBLE TO THIS SCAN UNTIL 2026-09-04, because it keeps the mon size in r4 and issues `movs r2, r4` -- see size_seed(). ✅ EXEMPT ON MEASUREMENT, not on reasoning: on this game's own enforcement data, all 8 characters whose roster allows Nincada (301) also allow 302 and 303, so the extra Pokemon is on-roster by construction and the family rule is doing exactly what it exists for. ⚠️ That is a property of the DATA: re-check it if the roster pipeline ever stops expanding branch evolutions
+
+## 1 site(s) removed as NOT-A-COPY (2026-09-04)
+
+The primitive fix of 2026-09-04 stopped reporting these. They are listed so the site-count change is **explained rather than silently absorbed** -- an inventory that quietly shrinks looks exactly like one that is finally clean.
+
+### `0x0811718a` (file `0x0011718a`) -- **NOT-A-COPY**
+
+SendBlock(0, &gPlayerParty[i], 100) at 0x0811718A (0x0800A448, beside GetMultiplayerId 0x0800A404) -- the link-cable SEND. A read OUT of the party, reported as a copy IN because r0 was still marked party-derived after `movs r0,#0` overwrote it. An immediate is not a pointer
 
 
 ## Method, so it can be repeated
