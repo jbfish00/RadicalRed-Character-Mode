@@ -79,9 +79,22 @@ is the only remaining step here.
    (`0x08EB1000` / `0x0934FD7C` / `0x0934FCB8`), the low byte indexes within it.
    🔴 Do NOT hook `0x0907E500` — it is the generic lookup for **every** object
    event, so an override there repaints NPCs too; the unused high byte is the
-   safe lever. ⬜ Still open: confirm the index space with a photograph, then
-   animation-set compatibility. OW/back-pic injector step still not built
-   (front pics only were piloted).
+   safe lever.
+   ✅ **Index space CONFIRMED**: all 80 `EVENT_OBJ_GFX_*` constants in the
+   donor header resolve through that two-level lookup to well-formed structs
+   (tileTag 0xFFFF, plausible palette tag, 16×16 / 16×32 / 32×32 with a matching
+   byte size). The three tables are a taxonomy — high byte 0 = NPCs and objects,
+   **high byte 1 = the PLAYER avatars**, high byte 2 = follower Pokémon
+   (`PORYGON` 512, `ID_GARCHOMP` 540).
+   ⭐⭐ **A player avatar is a BLOCK OF EIGHT ids, not one**: the `*_PLAYER`
+   constants run 388, 396, … 484 — thirteen blocks exactly 8 apart, i.e. the
+   avatar state set (normal / bike / surf / underwater / fishing / …). So
+   reusing an NPC id from table 0 would give a character a standing sprite and
+   **no bike, surf or fishing states**; the right move is a new 8-entry block in
+   table 1, a shape this ROM already contains thirteen times.
+   ⬜ Still open: photograph a decoded sprite to confirm the ART, and the
+   link-play trap. OW/back-pic injector step still not built (front pics only
+   were piloted).
 3. In-battle render check of a repointed slot = human playthrough item.
 4. Missing art: Drew, Paul, Zoey, Nando, Trip, Lyra; James solo (duo-only). Pipeline reruns in
    minutes on any new donor hack (see sprites/donors/ashgray/README.md recipe).
