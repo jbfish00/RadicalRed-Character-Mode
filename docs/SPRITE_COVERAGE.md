@@ -67,8 +67,21 @@ is the only remaining step here.
 
 1. Per-character wiring design (mugshot use at the console select and/or dedicated slots);
    `sprite_asset_id` still 0xFFFF everywhere.
-2. OW sprite table not located (vanilla FRLG candidate 0x39FDB0 — verify + XREF first);
-   OW/back-pic injector step not built (front pics only were piloted).
+2. ✅ **OW sprite table LOCATED 2026-09-04** (`../game_plans/rowe_parity.md`
+   §13.26). The old note's candidate `0x39FDB0` is **wrong for this ROM**.
+   `gObjectEventGraphicsInfoPointers` is **`0x08EB1000`** — a table of POINTERS
+   (entries 0x24 apart, the first struct at `0x08EB140C`: tileTag 0xFFFF,
+   palette tags 0x1100/0x1102, 16×32, four ROM pointers). Proven from
+   `GetObjectEventGraphicsInfo` at vanilla `0x0805F2C8`, whose body ends
+   `ldr r0,=0x08EB1000 ; lsls r1,r1,#2 ; adds r1,r1,r0 ; ldr r0,[r1]`.
+   ⭐ **The live function is CFRU's at `0x0907E500`**, and it makes the graphics
+   id **16 bits**: the high byte indexes a **table of tables** at `0x091468CC`
+   (`0x08EB1000` / `0x0934FD7C` / `0x0934FCB8`), the low byte indexes within it.
+   🔴 Do NOT hook `0x0907E500` — it is the generic lookup for **every** object
+   event, so an override there repaints NPCs too; the unused high byte is the
+   safe lever. ⬜ Still open: confirm the index space with a photograph, then
+   animation-set compatibility. OW/back-pic injector step still not built
+   (front pics only were piloted).
 3. In-battle render check of a repointed slot = human playthrough item.
 4. Missing art: Drew, Paul, Zoey, Nando, Trip, Lyra; James solo (duo-only). Pipeline reruns in
    minutes on any new donor hack (see sprites/donors/ashgray/README.md recipe).
