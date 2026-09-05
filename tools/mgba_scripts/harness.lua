@@ -99,6 +99,14 @@ function H.assertEq(what, got, want)
     H.log("FAIL " .. msg)
     return false
 end
+-- The sibling harnesses (Lazarus, Seaglass) have carried this since they were
+-- written; this one did not, and calling it errored out INSIDE a frame hook --
+-- which mGBA swallows, so the run simply stopped asserting and timed out with
+-- no RESULT line at all. Added 2026-09-04 for the live egg-hatch layer.
+function H.assertTrue(what, cond)
+    return H.assertEq(what, cond and true or false, true)
+end
+
 function H.finish()
     -- ⚠️ 2026-08-20 (../game_plans/rowe_parity.md §1): until today this function
     -- emitted RESULT: PASS whenever #failures == 0, while `passes` was printed
