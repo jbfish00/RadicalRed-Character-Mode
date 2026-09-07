@@ -119,6 +119,11 @@ TRADE_WRAPPER_ADDR = 0x08C8E000
 # egg_hook.py carries the RE and the byte grammar.
 EGG_TAIL_ADDR = 0x08C8F000
 
+# --- PC-exit sweep (../game_plans/rowe_parity.md §13.24/§13.26c) ---
+# The injected tail for the PC access script, 19 bytes, on the page after the
+# egg tail. tools/character_mode/pc_hook.py carries the RE and the grammar.
+PC_TAIL_ADDR = 0x08C8F100
+
 # Wild-encounter override (docs/ROUTINE_MAP.md, "CONFIRMED -- wild-encounter
 # override hook sites"): the four BL sites calling CreateWildMon
 # (0x090C292C, no Thumb bit) from a genuine random-table roll -- primary +
@@ -763,6 +768,34 @@ def main():
         data[off:off + len(repl)] = repl
     print(f"egg-hatch sweep: tail {len(egg_tail)} B @ {EGG_TAIL_ADDR:#x}, "
           f"splice @ {egg_hook.SPLICE_ROM_ADDR:#x} -> callnative {SWEEP_PARTY:#x}")
+
+    # --- 3d. PC-exit sweep ---
+    # Enforcement deliberately routes off-roster mons INTO the PC, and until
+    # 2026-09-06 nothing re-enforced the roster afterwards -- so a mon the catch
+    # gate had just boxed could be withdrawn straight back and kept, with no
+    # exploit required (rowe_parity.md §13.24). The PC is opened from a SCRIPT
+    # whose special carries a waitstate, exactly like the egg hatch, so this is
+    # the same splice pointed at a different tail: the sweep runs AFTER the
+    # waitstate, i.e. once the storage UI has closed and the party is whatever
+    # the player left it as.
+    # ⚠️ This is ROWE's Cb2_ExitPSS semantics -- UNDO ON EXIT, not prevention --
+    # and it deliberately does NOT reproduce ROWE's second guard
+    # (IsRemovingLastAllowedPartyMon). See pc_hook.py's docstring.
+    import pc_hook
+    pc_text = struct.unpack_from("<I", data, pc_hook.PC_TEXT_PTR_OFF)[0]
+    assert pc_text == pc_hook.PC_TEXT_PTR, (
+        f"PC script's message pointer is {pc_text:#x}, expected "
+        f"{pc_hook.PC_TEXT_PTR:#x} -- the PC access script has moved")
+    pc_tail, pc_patches = pc_hook.build(PC_TAIL_ADDR, SWEEP_PARTY)
+    splice(PC_TAIL_ADDR, pc_tail, "PC-exit tail")
+    for off, orig, repl in pc_patches:
+        seg = bytes(data[off:off + len(orig)])
+        assert seg == orig, (
+            f"PC splice site {off + 0x08000000:#x} holds {seg.hex()}, "
+            f"expected {orig.hex()} -- wrong ROM, or already patched")
+        data[off:off + len(repl)] = repl
+    print(f"PC-exit sweep: tail {len(pc_tail)} B @ {PC_TAIL_ADDR:#x}, "
+          f"splice @ {pc_hook.SPLICE_ROM_ADDR:#x} -> callnative {SWEEP_PARTY:#x}")
 
 
     # --- faster stat-change battle messages (user-approved 2026-09-01) ---

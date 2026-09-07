@@ -51,8 +51,11 @@ from cm_tally import assert_tally  # noqa: E402
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                 "..", "character_mode"))
 import egg_hook  # noqa: E402
+import pc_hook  # noqa: E402
 
 EGG_TAIL_ADDR = 0x08C8F000
+PC_TAIL_ADDR = 0x08C8F100
+PC_TAIL_LEN = 19
 
 # faster stat-change battle messages -- (label, script address, string table)
 BATTLE_MSG_SITES = (
@@ -115,7 +118,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 104  # +5: the egg-hatch sweep (2026-09-03)
+EXPECT_CHECKS = 109  # +5: the PC-exit sweep (2026-09-06)
 
 
 def check(name, ok, detail=""):
@@ -285,7 +288,13 @@ def main():
                 # overlay on the hatch script that jumps to it
                 (EGG_TAIL_ADDR - 0x08000000, EGG_TAIL_ADDR - 0x08000000 + 11),
                 (egg_hook.SPLICE_FILE_OFF,
-                 egg_hook.SPLICE_FILE_OFF + len(egg_hook.SPLICE_ORIG))]
+                 egg_hook.SPLICE_FILE_OFF + len(egg_hook.SPLICE_ORIG)),
+                # PC-exit sweep: the 19-byte replayed tail, and the 9-byte
+                # overlay on the PC access script.
+                (PC_TAIL_ADDR - 0x08000000,
+                 PC_TAIL_ADDR - 0x08000000 + PC_TAIL_LEN),
+                (pc_hook.SPLICE_FILE_OFF,
+                 pc_hook.SPLICE_FILE_OFF + len(pc_hook.SPLICE_ORIG))]
     stray = []
     i = 0
     n = len(orig)
@@ -532,6 +541,52 @@ def main():
               struct.unpack_from("<I", patched, 0x0006D71C)[0]
               == egg_hook.SCRIPT_ENTRY,
               f"{struct.unpack_from('<I', patched, 0x0006D71C)[0]:#x}")
+
+        # --- the PC-exit sweep (game_plans/rowe_parity.md §13.24/§13.26c) ---
+        # Same shape as the egg hook above and pinned the same way, in BOTH
+        # directions. This one closes the withdraw path: enforcement routes
+        # off-roster mons INTO the PC, so without it they can be taken straight
+        # back out and kept.
+        _po = pc_hook.SPLICE_FILE_OFF
+        _pn = len(pc_hook.SPLICE_ORIG)
+        check("base ROM still holds the stock PC script tail at the splice site",
+              bytes(orig[_po:_po + _pn]) == pc_hook.SPLICE_ORIG,
+              f"{bytes(orig[_po:_po + _pn]).hex()} != "
+              f"{pc_hook.SPLICE_ORIG.hex()}")
+        _pspl = bytes(patched[_po:_po + _pn])
+        check("PC script tail overlaid with `goto <PC tail>`",
+              _pspl[0] == 0x05
+              and struct.unpack_from("<I", _pspl, 1)[0] == PC_TAIL_ADDR,
+              _pspl.hex())
+        _pto = PC_TAIL_ADDR - 0x08000000
+        _ptail = bytes(patched[_pto:_pto + PC_TAIL_LEN])
+        _ptail_sweep = struct.unpack_from("<I", _ptail, 5)[0]
+        check("PC tail replays special/waitstate, then callnative, then setvar "
+              "and a goto back into the script",
+              _ptail[0] == 0x25                                  # special
+              and struct.unpack_from("<H", _ptail, 1)[0] == pc_hook.SPECIAL_PC
+              and _ptail[3] == 0x27                              # waitstate
+              and _ptail[4] == 0x23                              # callnative
+              and _ptail[9] == pc_hook.OPCODE_SETVAR
+              and _ptail[14] == 0x05                             # goto back
+              and struct.unpack_from("<I", _ptail, 15)[0]
+                  == pc_hook.SPLICE_ROM_ADDR + _pn,
+              _ptail.hex())
+        # ORDERING IS LOAD-BEARING, as everywhere else: the sweep must run
+        # AFTER the waitstate. Before it, the storage UI has not opened yet and
+        # the sweep sees the party the player walked IN with -- a silent no-op
+        # that still passes any "the callnative is present" test.
+        check("the PC tail's native IS the activation sweep, and runs after "
+              "the PC's waitstate",
+              {_ptail_sweep} == sweep_ops and _ptail.index(b"\x27") < 4,
+              f"tail sweep={_ptail_sweep:#x}, handlers={[hex(x) for x in sweep_ops]}")
+        # And the script we overlaid must still be the PC access script: its
+        # msgbox pointer is the anchor that identified it in the first place
+        # ("Pokemon Storage System opened.").
+        check("the hooked script is still the PC access script",
+              struct.unpack_from("<I", patched, pc_hook.PC_TEXT_PTR_OFF)[0]
+              == pc_hook.PC_TEXT_PTR,
+              f"{struct.unpack_from('<I', patched, pc_hook.PC_TEXT_PTR_OFF)[0]:#x}")
 
         # --- the threshold gate, checked in the positive direction ---------
         # "The chain is short" is satisfied by a broken chain just as well as by
