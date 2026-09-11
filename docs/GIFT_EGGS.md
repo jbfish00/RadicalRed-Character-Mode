@@ -14,7 +14,8 @@ exemption inside the sweep no longer applies to it. Build `3354e257`;
 `verify_artifacts` **104**, `shim_unit_test` 15/15, boot 4/4.
 
 ✅ **AND IT IS NOW PROVEN LIVE, NOT ONLY STATICALLY** (2026-09-04,
-`sh tools/tests/run_egg_e2e.sh`, four cases, ~15 s). `build_egg_testrom.py`
+`sh tools/tests/run_egg_e2e.sh`, four cases, ~15 s; the PC-exit hook has its
+own live layer beside it, `run_pc_e2e.sh`). `build_egg_testrom.py`
 repoints the bedroom console at `giveegg 60; giveegg 60; setvar 0x8004,0;
 goto <hatch script>` — every byte after the `goto` is shipped — and
 `cm_egg_hatch_test.lua` walks the hatch and asserts the **swap**: the egg's own

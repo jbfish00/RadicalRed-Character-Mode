@@ -74,6 +74,11 @@ SPLICE_FILE_OFF = 0x001A6A22
 # special 0x3C ; waitstate ; setvar 0x8004, 0x001B
 SPLICE_ORIG = bytes.fromhex("253c00271604801b00")
 SPECIAL_PC = 0x003C
+# gSpecials, the table the id above indexes. Named here because the LIVE layer
+# (tools/mgba_scripts/cm_pc_exit_test.lua) breakpoints the storage system's own
+# handler -- gSpecials[SPECIAL_PC] -- to prove the UI really opened, rather than
+# inferring it from the script having run. Derived, never hardcoded downstream.
+SPECIALS_TABLE_ADDR = 0x0815FD60
 OPCODE_CALLNATIVE = 0x23
 OPCODE_SETVAR = 0x16
 # The dialogue that proves this is the PC access script, and its pointer, both
