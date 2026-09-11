@@ -66,9 +66,13 @@ WAITSTATE = 0x27
 ITEM_TABLE = (0x093c0000, 44)
 SPECIES_TABLE = (0x094042cc, 11)
 # (id, name) pairs read out of those two tables when this file was written.
+# ⚠️ At least one probe is deliberately FAR from the base: a wrong STRIDE is
+# invisible at id 1 and shows up only at a high index. That is not
+# hypothetical -- an early version of this work carried a sibling's stride for
+# Seaglass, read ids 1-4 correctly, and decoded item 51 as mojibake.
 # Species id 386 is pinned in the FireRed pair on purpose: it is Volbeat, not
 # the national-dex 386, which is the trap `CHARACTER_ROSTER_PLAN.md` records.
-ITEM_PROBES = ((1, 'Master Ball'),)
+ITEM_PROBES = ((1, 'Master Ball'), (533, 'Venusaurite'))
 SPECIES_PROBES = ((1, 'Bulbasaur'), (386, 'Volbeat'))
 
 # Every ChoosePartyMon call site in the ROM. A site being here is not a claim
@@ -133,53 +137,86 @@ SITES = (
 #                       is NOT established here -- so this verdict bounds the
 #                       cost, it does not prove it is zero
 GATES = {
+ 0x0816b28f: (
+  'Name Rater -- the species in its dialogue are examples',
+  (),
+  (),
+  'NOT_A_GATE',
+  'no give-item in its window'),
+ 0x0816ffb0: (
+  'Magikarp size judge -- "That doesn\'t look much like a Magikarp"',
+  (),
+  ((0x0817003c, 6, 1),),
+  'ELSEWHERE',
+  'rewards seen in the window between this site and the next call site:'
+  ' Net Ball x1'),
  0x081720a0: (
-  'Heracross size judge -- "That\'s a Heracross! may I measure how big'
-  ' it is?"',
+  'Heracross size judge (native test, special 0x78)',
   (),
   ((0x0817212c, 8, 1),),
   'ELSEWHERE',
-  'one Nest Ball plus flag 0x2D9. The species AND size test is native'
-  ' (special 0x78), so no compare scan can see it -- it is in this'
-  ' inventory because the dialogue was decoded. Nest Balls are sold at'
-  ' the ball mart (item table 0x0816BB74), so the gate is worth nothing'
-  ' a shop cannot sell.'),
+  'rewards seen in the window between this site and the next call site:'
+  ' Nest Ball x1'),
+ 0x09047c31: (
+  'Latias / Latios researcher',
+  (407, 408),
+  ((0x09047c87, 191, 1), (0x09047c93, 571, 1), (0x09047cbe, 191, 1), (0x09047cca, 572, 1)),
+  'SPECIES_LOCKED',
+  'rewards seen in the window between this site and the next call site:'
+  ' Soul Dew x1, Latiasite x1, Soul Dew x1, Latiosite x1'),
  0x090483b5: (
-  'form-item collector -- "If you show me one that\'s compatible, I\'ll'
-  ' gladly hand it over!"',
+  'form-item collector -- Forces of Nature, Kyurem, Hoopa',
   (694, 695, 696, 697, 698, 699, 754, 755, 756, 828, 829, 1312, 1313),
   ((0x090484b0, 481, 1), (0x090484d2, 480, 1), (0x090484f4, 482, 1)),
   'SPECIES_LOCKED',
-  'Reveal Glass, DNA Splicers or Prison Bottle. Each item changes the'
-  ' form of exactly the species that unlocked it, so it is dead weight'
-  ' to a character who cannot keep that species.'),
+  'rewards seen in the window between this site and the next call site:'
+  ' Reveal Glass x1, DNA Splicers x1, PrisonBottle x1'),
+ 0x0904c37c: (
+  'gender swapper (native list, callasm 0x09077B59)',
+  (),
+  (),
+  'SPECIES_LOCKED',
+  'no give-item in its window'),
+ 0x0905316c: (
+  'Sharpedo -- Sharpedonite',
+  (331,),
+  ((0x090531bb, 563, 1),),
+  'SPECIES_LOCKED',
+  'rewards seen in the window between this site and the next call site:'
+  ' Sharpedonite x1'),
+ 0x0905607c: (
+  'form changer -- its neighbouring text is a Rotom/Mimikyu form list',
+  (),
+  (),
+  'SPECIES_LOCKED',
+  'no give-item in its window'),
  0x09057c4e: (
-  'Silvally memory swapper -- "I can switch your Silvally\'s form!"',
+  'Silvally memory swapper',
   (990, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064),
   (),
   'SPECIES_LOCKED',
-  'a Silvally form change and no item at all.'),
+  'no give-item in its window'),
  0x090582d3: (
-  'Mega Evolution researcher -- "show me a fully evolved Kanto starter'
-  " capable of Mega Evolution, I'll give you its corresponding Mega"
-  ' Stone"',
-  (3, 6, 9),
-  ((0x09058338, 533, 1), (0x09058363, 534, 1), (0x09058374, 535, 1), (0x09058396, 536, 1)),
+  'Mega Evolution researcher -- Kanto starters',
+  (),
+  ((0x09058338, 533, 1), (0x09058363, 534, 1), (0x09058374, 535, 1), (0x09058396, 536, 1), (0x090583b8, 554, 1), (0x090583da, 556, 1), (0x090583fc, 555, 1)),
   'SPECIES_LOCKED',
-  'the Mega Stone OF THE SPECIES SHOWN, one flag per stone'
-  ' (0x966-0x968). The same tail hands out'
-  ' Sceptilite/Blazikenite/Swampertite behind flags 0x969/0x97A/0x97B'
-  ' for the Hoenn NPC. A Mega Stone for a species the character cannot'
-  ' own is inert.'),
- 0x0904c37c: (
-  'gender swapper -- eligibility list is a callasm (0x09077B59), so the'
-  ' species never appears as a script operand',
+  'rewards seen in the window between this site and the next call site:'
+  ' Venusaurite x1, CharzarditeX x1, CharzarditeY x1, Blastoisnite x1,'
+  ' Sceptilite x1, Swampertite x1, Blazikenite x1'),
+ 0x0905994b: (
+  'healer -- the Jigglypuff in its text is a battle reference',
   (),
   (),
-  'SPECIES_LOCKED',
-  'flips the gender of one of the nine species its own dialogue names'
-  ' (Snorunt, Ralts, Kirlia, Salandit, Burmy, Combee, Espurr, Basculin,'
-  ' Lechonk). No item; useless without one of those nine.'),
+  'NOT_A_GATE',
+  'no give-item in its window'),
+ 0x09059982: (
+  'healer -- same NPC family',
+  (),
+  ((0x09059ac7, 593, 1),),
+  'NOT_A_GATE',
+  'rewards seen in the window between this site and the next call site:'
+  ' Psychium Z x1'),
 }
 
 EXPECT_CHECKS = 7
