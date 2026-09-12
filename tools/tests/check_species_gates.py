@@ -219,7 +219,35 @@ GATES = {
   ' Psychium Z x1'),
 }
 
-EXPECT_CHECKS = 7
+# ---------------------------------------------------------------- non-catch
+# ⭐ THE ONLY PART OF THIS CLASS THE PC-WITHDRAW HOOK CAN BE BLAMED FOR.
+# Character Mode's catch gate has always refused an off-roster catch, so a gate
+# whose species you could only CATCH was already out of reach before the hook
+# existed. A gate species that arrives as a GIFT, an EGG or a TRADE lands in the
+# party, gets swept into the PC by enforcement -- and before the hook, could be
+# withdrawn and shown to the NPC. Measured 2026-09-11; rowe_parity.md §13.42.
+#
+# (file offset of sInGameTrades, records, species field offset, ((idx, given), ...))
+# ⚠️ The 60-byte struct is NOT the same 60 bytes in the two engine families:
+# `species` is at +12 in the FireRed pair and +14 in the Emerald pair.
+TRADES = (2543500, 9, 12, ((0, 1216), (1, 508), (2, 1167), (3, 1213), (4, 995), (5, 1169), (6, 848), (7, 494), (8, 1153)))
+# (rom address of a givemon, species, level) -- only the sites that matter to a
+# gate, each hand-decoded.
+GIFTS = ((151306470, 129, 5), (151280240, 532, 30))
+# gate site -> ((how its species can arrive without a catch, what it costs), ...)
+REACHABLE = {
+ 0x0816ffb0: (
+  ('Magikarp via the 0x0904C0E6 gift',
+   'ELSEWHERE anyway -- the Net Ball is sold in the ball mart'),
+ ),
+ 0x0905607c: (
+  ('Rotom 532 via the 0x09045A70 gift ("This is default Rotom."),'
+   ' Mimikyu via trade #4',
+   'SPECIES_LOCKED anyway -- a form change is inert without the species'),
+ ),
+}
+
+EXPECT_CHECKS = 9
 
 failures = []
 checks_run = 0
@@ -357,6 +385,42 @@ def main():
            for n, want in SPECIES_PROBES if species_name(b, cm, n) != want]
     check("the species-name table still reads what this file recorded",
           SPECIES_PROBES and not bad, "; ".join(bad) or "no probe is pinned")
+
+    # The trade table is the one non-catch route that is pure DATA, so it is
+    # pinned by content: a moved table or a changed gift makes the reachability
+    # claim above describe a ROM this is not running on.
+    toff, tn, tsp, tgives = TRADES
+    bad = []
+    for idx, want in tgives:
+        got = struct.unpack_from("<H", b, toff + idx * 60 + tsp)[0]
+        if got != want:
+            bad.append("trade #%d gives %d (%s), recorded %d (%s)"
+                       % (idx, got, species_name(b, cm, got), want,
+                          species_name(b, cm, want)))
+    check("every in-game trade still gives the species recorded here",
+          tgives and not bad, "; ".join(bad) or "no trade is pinned")
+
+    bad = []
+    for addr, species, level in GIFTS:
+        o = addr - ROM_BASE
+        if not (b[o] == 0x79
+                and struct.unpack_from("<H", b, o + 1)[0] == species
+                and b[o + 3] == level):
+            bad.append("%#010x is no longer `givemon %d, %d`"
+                       % (addr, species, level))
+    check("every gift Pokemon that opens a gate is still that gift",
+          not bad, "; ".join(bad))
+
+    if REACHABLE:
+        print("\n  🔴 gate(s) whose species can arrive WITHOUT being caught "
+              "-- the PC hook's own cost:")
+        for site in sorted(REACHABLE):
+            print("     %#010x  %s" % (site, GATES[site][0][:64]))
+            for how, cost in REACHABLE[site]:
+                print("        %s\n          -> %s" % (how, cost))
+    else:
+        print("\n  ✅ no gate in this game can be opened with a Pokemon the "
+              "player did not catch")
 
     counts = {}
     for _l, _i, _r, verdict, _w in GATES.values():

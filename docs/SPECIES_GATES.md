@@ -40,6 +40,29 @@ call site and the next one; that is a window, not a proof of reachability,
 except for the gates whose scripts were decoded by hand (every
 `SPECIES_LOCKED`, `ELSEWHERE` and `UNIQUE` row).
 
+## Which of these can be opened WITHOUT catching the species
+
+This is the only part of the class the **PC-withdraw hook** can be blamed for.
+Character Mode's catch gate has always refused an off-roster catch, so a gate
+whose species you could only catch was already unreachable before the hook
+existed. A gate species that arrives as a **gift**, an **egg**, a **trade** or
+from the game's own **starter picker** lands in the party, is swept into the PC
+by enforcement — and before the hook shipped could be withdrawn and shown to
+the NPC.
+
+**Two gates, and neither costs anything.** The **Magikarp size judge** can be
+opened with the Magikarp the salesman gifts at `0x0904C0E6` — but its reward is
+a Net Ball, which the ball mart sells. The **form changer** can be opened with
+the default Rotom gifted at `0x09045A70` (*"This is default Rotom."*) or with a
+Mimikyu from in-game trade #4 — and its reward is a form change, inert without
+the species. **Net PC-hook cost in this game: zero.**
+
+Pinned by two checks in `tools/tests/check_species_gates.py`: the in-game trade
+table is verified by content (a moved or edited table fails), and every gift
+that opens a gate must still be that `givemon`. ⚠️ The routes are a **floor**:
+a species handed out by native code, or an egg whose species is computed,
+appears in no operand anywhere. `rowe_parity.md` §13.42.
+
 ## What "UNIQUE" is a floor of, not a proof
 
 `UNIQUE` means: the item appears in **no `pokemart` table in this ROM** and at
