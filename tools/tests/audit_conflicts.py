@@ -25,6 +25,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from cm_tally import assert_tally  # noqa: E402
+
 HERE = Path(__file__).parent
 ROOT = HERE.parent.parent
 
@@ -32,7 +35,34 @@ ORIG_ROM = ROOT / "rom" / "radicalred 4.1.gba"
 CM_ROM = ROOT / "build" / "radicalred_cm.gba"
 MANIFEST = ROOT / "tools" / "character_mode" / "characters_manifest.json"
 
-BITMAPS_FILEOFF = 0xC80100
+INJECTOR = ROOT / "tools" / "inject_character_mode.py"
+
+
+def _injector_const(name):
+    """Read a layout constant out of the INJECTOR, never a literal here.
+
+    🔴 This was `BITMAPS_FILEOFF = 0xC80100`, a hardcoded literal, and it had
+    been WRONG since the 2026-07-23 layout move -- the injector puts the
+    bitmaps at 0x08C80400, 768 bytes further on. Every record this file read
+    was 4.47 records short of the one it named, so checks [8] and [9] reported
+    ~170 characters with a broken signature bit and blamed the DATA. The ROM
+    was fine; the checker was looking 768 bytes to the left.
+
+    ⭐ The comment immediately below already said "DERIVED, never hardcoded" --
+    about NUM_CHARS, on the line after the literal it describes. The rule was
+    written down, next to the violation, and the violation still shipped,
+    because nothing runs this file: no runner invokes audit_conflicts.py.
+    """
+    m = re.search(r"^%s\s*=\s*(0x[0-9A-Fa-f]+)" % name, INJECTOR.read_text(), re.M)
+    assert m, "%s not found in %s -- the injector's layout changed shape" % (
+        name, INJECTOR.name)
+    return int(m.group(1), 16)
+
+
+# How many checks this layer must run. A deliberate LITERAL -- see cm_tally.py.
+EXPECT_CHECKS = 9
+
+BITMAPS_FILEOFF = _injector_const("BITMAPS_ADDR") & 0x1FFFFFF
 BITMAP_BYTES = 172  # 1376 species bits
 # DERIVED, never hardcoded -- verify_artifacts.py learned this the same way.
 # A stale literal here fails as "210 aliases derived (238)", which reads like an
@@ -154,7 +184,14 @@ def main():
           f"all roster family-base bits set in bitmaps {roster_bad[:3] or ''}")
 
     print(f"\n{checks - fails}/{checks} checks passed")
-    return 1 if fails else 0
+    rc = 1 if fails else 0
+    # Anti-vacuity guard (rowe_parity.md §11). Without it a check that stops
+    # RUNNING silently reduces what this layer proves while still printing a
+    # tidy "N/N checks passed" -- the exact defect §11 measured in RR's wild
+    # shim, which printed 21/21 while running 20. This layer had no guard at
+    # all, which is how it also went unrun and stale for weeks.
+    rc |= assert_tally(checks, EXPECT_CHECKS, "audit_conflicts")
+    return rc
 
 
 if __name__ == "__main__":

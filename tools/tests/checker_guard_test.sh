@@ -67,6 +67,13 @@ layer "check_gift_eggs: control"        tools/tests/check_gift_eggs.py  ""      
 layer "check_gift_eggs: drift fails"    tools/tests/check_gift_eggs.py  99999   1
 layer "check_species_gates: control"     tools/tests/check_species_gates.py ""    0
 layer "check_species_gates: drift fails" tools/tests/check_species_gates.py 99999 1
+# audit_conflicts was invoked by NO runner at all, and its hardcoded
+# BITMAPS_FILEOFF had been stale since the 2026-07-23 layout move -- it read
+# every bitmap 768 bytes early and blamed the data for ~170 characters. Wired
+# here so "nobody runs it" cannot recur. (rowe_parity.md §11: run every checker
+# a repo OWNS, not the ones its runner happens to invoke.)
+layer "audit_conflicts: control"         tools/tests/audit_conflicts.py     ""    0
+layer "audit_conflicts: drift fails"     tools/tests/audit_conflicts.py     99999 1
 
 [ $fail -eq 0 ] && echo "checker guard test: $pass/$pass PASS" \
                 || echo "checker guard test: FAILURES"
