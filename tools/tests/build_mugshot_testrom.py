@@ -31,6 +31,8 @@ import json
 import struct
 import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from roster_console import restore_stock_console  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
@@ -100,6 +102,8 @@ def main():
         f"{VAR_CHARACTER_ID:#x}={table_index + 1} for {name}")
 
     struct.pack_into("<I", data, GOTO_IF_OPERAND_OFF, handler)
+    # Test-only: bypass the roster pre-entry (tools/tests/roster_console.py).
+    restore_stock_console(data)
     OUT.write_bytes(bytes(data))
     print(f"{OUT.name}: bedroom console -> {name} "
           f"(table {table_index}, chain slot {chain_slot}) handler {handler:#x}")

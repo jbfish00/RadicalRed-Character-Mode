@@ -111,6 +111,28 @@ CM_SPRITE_SHIM_ADDR = 0x08980000   # mugshot renderer (src/character_sprite.c)
 WILD_BL_SITES = (0x10C2FDA, 0x10C30CE, 0x10C3A94, 0x10C3AD0)
 CREATEWILDMON_ADDR = 0x090C292C
 
+# --- roster display (section 16). Layout from the injector; the facts about
+# the BASE ROM (the console, its script) are restated on purpose.
+_INJ_TXT = (HERE.parent / "inject_character_mode.py").read_text()
+
+
+def _inj(name):
+    m = re.search(rf"^{name}\s*=\s*(0x[0-9A-Fa-f]+|\d+)", _INJ_TXT, re.M)
+    if not m:
+        raise SystemExit(f"verify_artifacts: cannot parse {name} out of the injector")
+    return int(m.group(1), 0)
+
+
+ROSTER_ROOTS_ADDR = _inj("ROSTER_ROOTS_ADDR")
+ROSTER_NAMES_ADDR = _inj("ROSTER_NAMES_ADDR")
+ROSTER_NAME_STRIDE = _inj("ROSTER_NAME_STRIDE")
+ROSTER_MENU_ADDR = _inj("ROSTER_MENU_ADDR")
+ROSTER_SCRIPT_ADDR = _inj("ROSTER_SCRIPT_ADDR")
+ROSTER_SCRIPT_WINDOW = 0x100
+_ROOTS = json.loads((HERE.parent / "character_mode" / "roster_roots_manifest.json").read_text())
+CONSOLE_BG_PTR_OFF = 0x721C88
+CONSOLE_SCRIPT = 0x0905006F
+
 failures = []
 checks_run = 0
 
@@ -118,7 +140,8 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 109  # +5: the PC-exit sweep (2026-09-06)
+EXPECT_CHECKS = 125  # +16: section 16, the roster display (2026-09-27)
+                     # +5: the PC-exit sweep (2026-09-06)
 
 
 def check(name, ok, detail=""):
@@ -294,7 +317,19 @@ def main():
                 (PC_TAIL_ADDR - 0x08000000,
                  PC_TAIL_ADDR - 0x08000000 + PC_TAIL_LEN),
                 (pc_hook.SPLICE_FILE_OFF,
-                 pc_hook.SPLICE_FILE_OFF + len(pc_hook.SPLICE_ORIG))]
+                 pc_hook.SPLICE_FILE_OFF + len(pc_hook.SPLICE_ORIG)),
+                # roster display: roots (sized from the manifest), header names
+                # (from NUM_CHARS), the code (its .bin; section 16 proves the
+                # ROM holds exactly it), the pre-entry, and the console pointer.
+                (ROSTER_ROOTS_ADDR - 0x08000000, ROSTER_ROOTS_ADDR - 0x08000000
+                 + NUM_CHARS * _ROOTS["entry_size_bytes"] + _ROOTS["total_roots"] * 2),
+                (ROSTER_NAMES_ADDR - 0x08000000,
+                 ROSTER_NAMES_ADDR - 0x08000000 + NUM_CHARS * ROSTER_NAME_STRIDE),
+                (ROSTER_MENU_ADDR - 0x08000000, ROSTER_MENU_ADDR - 0x08000000
+                 + len((ROOT / "build" / "roster_display.bin").read_bytes())),
+                (ROSTER_SCRIPT_ADDR - 0x08000000,
+                 ROSTER_SCRIPT_ADDR - 0x08000000 + ROSTER_SCRIPT_WINDOW),
+                (CONSOLE_BG_PTR_OFF, CONSOLE_BG_PTR_OFF + 4)]
     stray = []
     i = 0
     n = len(orig)
@@ -1031,6 +1066,123 @@ def main():
     _bad = [i for i in range(_nchars)
             if 0xFF not in _mk[i * _MK_STRIDE:(i + 1) * _MK_STRIDE]]
     check("every marker slot is 0xFF-terminated", not _bad, str(len(_bad)))
+
+
+    print("== 16. roster display (roots, header names, code, console pre-entry) ==")
+    # Every check reads the BUILT ROM; expected values come from the manifest,
+    # the base ROM or the linked ELF -- never from the .bin the ROM was built from.
+    _rr_file = (ROOT / "tools" / "character_mode" / "roster_roots.bin").read_bytes()
+    _rr_off = ROSTER_ROOTS_ADDR - 0x08000000
+    check("roster roots in-ROM == roster_roots.bin",
+          patched[_rr_off:_rr_off + len(_rr_file)] == _rr_file)
+    _rr_blob = patched[_rr_off:_rr_off + len(_rr_file)]
+    _rr_esz = _ROOTS["entry_size_bytes"]
+    _rr_rootoff = NUM_CHARS * _rr_esz
+    check("roots[] offset re-derived from NUM_CHARS == manifest",
+          _rr_rootoff == _ROOTS["roots_offset_bytes"])
+    check("roster_roots.bin size == entry table + one u16 per root",
+          len(_rr_file) == _rr_rootoff + _ROOTS["total_roots"] * 2)
+    _all = manifest["characters"]
+    _names_base = struct.unpack_from("<I", orig, 0x144)[0] - 0x08000000   # CFRU slot
+    _bad_e, _bad_n, _cur = [], [], 0
+    for _ci, _c in enumerate(_all):
+        _want = list(dict.fromkeys(_c["roster_species_ids"]))
+        _f, _n = struct.unpack_from("<HH", _rr_blob, _ci * _rr_esz)
+        if (_f, _n) != (_cur, len(_want)):
+            _bad_e.append((_c["character"], _f, _n))
+        _lo = _rr_rootoff + _f * 2
+        _got = (list(struct.unpack_from(f"<{_n}H", _rr_blob, _lo))
+                if _n and _lo + _n * 2 <= len(_rr_blob) else ([] if not _n else None))
+        if _got != _want:
+            _bad_e.append((_c["character"], "roots differ"))
+        for _sp in (_got or []):
+            _nm = patched[_names_base + _sp * 11:_names_base + _sp * 11 + 11]
+            if not _nm or _nm[0] in (0xFF, 0x00):
+                _bad_n.append((_c["character"], _sp))
+        _cur += len(_want)
+    check("every character's (first,count) and root slice re-derive from the manifest",
+          not _bad_e, str(_bad_e[:3]))
+    _t, _gap = 0, []
+    for _ci in range(NUM_CHARS):
+        _f, _n = struct.unpack_from("<HH", _rr_blob, _ci * _rr_esz)
+        if _f != _t:
+            _gap.append(_ci)
+        _t += _n
+    check("entries tile roots[] exactly, no gap and no overlap",
+          not _gap and _t == _ROOTS["total_roots"], f"{_t} {_gap[:3]}")
+    check("every root resolves to a non-empty name in the BUILT ROM's gSpeciesNames",
+          not _bad_n, str(_bad_n[:5]))
+    _late = NUM_CHARS - 1
+    _lf, _lc = struct.unpack_from("<HH", _rr_blob, _late * _rr_esz)
+    _lw = list(dict.fromkeys(_all[_late]["roster_species_ids"]))
+    check(f"late probe: character #{_late + 1} reads back its own roots",
+          _lc == len(_lw) and (not _lc or list(struct.unpack_from(
+              f"<{_lc}H", _rr_blob, _rr_rootoff + _lf * 2)) == _lw))
+    _empty = [c["character"] for ci, c in enumerate(_all)
+              if struct.unpack_from("<HH", _rr_blob, ci * _rr_esz)[1] == 0]
+    check("characters with zero roots in-ROM == the emitter's list",
+          _empty == _ROOTS["empty_roster"], str(_empty))
+    check("every zero-root character is hidden, so the screen never opens empty",
+          all(_all[ci].get("hidden") for ci in range(NUM_CHARS)
+              if struct.unpack_from("<HH", _rr_blob, ci * _rr_esz)[1] == 0))
+    # Header names, decoded back to text and compared with the manifest.
+    _no = ROSTER_NAMES_ADDR - 0x08000000
+    _bad_h = []
+    for _ci, _c in enumerate(_all):
+        _raw = patched[_no + _ci * ROSTER_NAME_STRIDE:_no + (_ci + 1) * ROSTER_NAME_STRIDE]
+        _txt = "".join(cmap.get(b, "?") for b in _raw.split(b"\xff")[0])
+        _disp = _c["character"][:-8] if _c["character"].endswith(" (anime)") else _c["character"]
+        if _txt != _disp or 0xFF not in _raw:
+            _bad_h.append((_c["character"], _txt))
+    check("every header name in-ROM decodes to the manifest's display name, 0xFF-terminated",
+          not _bad_h, str(_bad_h[:3]))
+    # Code: the ROM holds the linked .text, which is ALL of the unit.
+    _rd_bin = (ROOT / "build" / "roster_display.bin").read_bytes()
+    _rd_off = ROSTER_MENU_ADDR - 0x08000000
+    _rd_code = patched[_rd_off:_rd_off + len(_rd_bin)]
+    check("roster code in-ROM == roster_display.bin", _rd_code == _rd_bin)
+    _hdr = subprocess.run(["arm-none-eabi-objdump", "-h", str(ROOT / "build" / "roster_display.elf")],
+                          check=True, capture_output=True, text=True).stdout
+    _secs = re.findall(r"^\s*\d+\s+(\S+)\s+([0-9a-f]+)", _hdr, re.M)
+    check("roster_display.elf has nothing outside .text (objcopy keeps only .text)",
+          [n for n, sz in _secs if int(sz, 16) and not n.startswith(".text")
+           and n not in (".comment", ".ARM.attributes")] == [], str(_secs))
+    _lits = {struct.unpack_from("<I", _rd_code, i)[0] for i in range(0, len(_rd_code) - 3, 4)}
+    _hws = {struct.unpack_from("<H", _rd_code, i)[0] for i in range(0, len(_rd_code) - 1, 2)}
+    check("compiled code carries the roots blob, roots[] start, the names blob and cmp #NUM_CHARS-1",
+          ROSTER_ROOTS_ADDR in _lits
+          and ROSTER_ROOTS_ADDR + _ROOTS["roots_offset_bytes"] in _lits
+          and (ROSTER_NAMES_ADDR in _lits or ROSTER_NAMES_ADDR - ROSTER_NAME_STRIDE in _lits)
+          and any((h & 0xF8FF) == (0x2800 | (NUM_CHARS - 1)) for h in _hws))
+    # Console: the only reference to the stock script is now the pre-entry's.
+    _pat = struct.pack("<I", CONSOLE_SCRIPT)
+    _left = [i for i in range(len(patched) - 3) if patched[i:i + 4] == _pat
+             and not (ROSTER_SCRIPT_ADDR - 0x08000000 <= i
+                      < ROSTER_SCRIPT_ADDR - 0x08000000 + ROSTER_SCRIPT_WINDOW)]
+    check("console BG ptr -> pre-entry (it was the stock script), no other reference to it",
+          struct.unpack_from("<I", orig, CONSOLE_BG_PTR_OFF)[0] == CONSOLE_SCRIPT
+          and struct.unpack_from("<I", patched, CONSOLE_BG_PTR_OFF)[0] == ROSTER_SCRIPT_ADDR
+          and not _left, str([hex(a) for a in _left]))
+    _open = None
+    _nm = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "roster_display.elf")],
+                         check=True, capture_output=True, text=True).stdout
+    _mm = re.search(r"^([0-9a-f]+) [Tt] CM_RosterOpen$", _nm, re.M)
+    if _mm:
+        _open = int(_mm.group(1), 16) | 1
+    _o = ROSTER_SCRIPT_ADDR - 0x08000000
+    _d = patched
+    _q = struct.unpack_from("<I", _d, _o + 12)[0]
+    _want_pre = (bytes([0x2B]) + struct.pack("<H", FLAG_CM) + bytes([0x06, 0x00])
+                 + struct.pack("<I", CONSOLE_SCRIPT) + bytes([0x6A, 0x0F, 0x00])
+                 + struct.pack("<I", _q) + bytes([0x09, 0x05])
+                 + bytes([0x21, 0x0D, 0x80, 0x01, 0x00, 0x06, 0x05]) + struct.pack("<I", CONSOLE_SCRIPT)
+                 + bytes([0x68, 0x23]) + struct.pack("<I", _open or 0) + bytes([0x27, 0x6C, 0x02]))
+    check("pre-entry: CM off -> stock; lock; yes/no; no -> stock; closemessage; "
+          "callnative CM_RosterOpen; waitstate; release; end",
+          _open is not None and _d[_o:_o + len(_want_pre)] == _want_pre)
+    _qt = "".join(cmap.get(b, "?") for b in _d[_q - 0x08000000:_q - 0x08000000 + 64].split(b"\xff")[0])
+    check("its prompt reads 'View your Character Mode roster?'",
+          _qt == "View your Character Mode roster?", repr(_qt))
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

@@ -33,6 +33,8 @@ Never distributed.
 import struct
 import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from roster_console import restore_stock_console  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
@@ -91,6 +93,8 @@ def main():
     d[off:off + len(script)] = script
     struct.pack_into("<I", d, GOTO_IF_OPERAND_OFF, TEST_SCRIPT_ADDR)
 
+    # Test-only: bypass the roster pre-entry (tools/tests/roster_console.py).
+    restore_stock_console(d)
     OUT.write_bytes(bytes(d))
     print("test ROM: %s" % OUT.name)
     print("  bedroom console -> giveegg %d x2 ; setwildbattle %d lv%d ; "

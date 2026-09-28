@@ -459,3 +459,49 @@ compare 0x800D,1(5) goto_if(6)`, so the `goto_if eq` operand is at file **`0x105
 and originally reads `0x09050086` (the code-entry chain).
 `tools/tests/build_mugshot_testrom.py` repoints exactly that one word at a character
 handler so headless tests can reach a handler without driving the naming-screen grid.
+
+## Roster display (2026-09-27): ✅ SHIPPED, LIVE
+
+FireRed has no dynamic multichoice and no callback table, so RR's screen is
+**ROWE's design**: `src/roster_display.c` is a native task that owns a header
+window, a `ListMenu` window and ONE mon-icon sprite in its own framed box.
+Every engine call is vanilla FireRed at its `BPRE.ld` address. The two tables
+CFRU relocates are read through its redirect slots:
+
+| what | addr | source |
+|---|---|---|
+| `gSpeciesNames` | `*0x08000144` → `0x094042CC`, 11 B/species | CFRU `rom_locs.h` |
+| mon icon table | `*0x08000138` → `0x097FE6CC`, u32 per species | ✅ live: the icon sprite's `images` == this entry, VRAM == its frame |
+| icon palette indices / palette table | `*0x0800013C` → `0x097FE164` / `*0x08000140` → `0x083D4038` | ✅ live: OBJ palette == the entry |
+| `CreateMonIcon(species, cb, x, y, subpri, pid, extra)` | `0x08096E18` | BPRE.ld (7 args in FireRed) |
+| `DestroyMonIcon` / `UpdateMonIconFrame` (the callback) | `0x08097070` / `0x08097228` | BPRE.ld (FireRed's `SpriteCB_MonIcon` just calls the latter) |
+| `LoadMonIconPalette` / `FreeMonIconPalette` | `0x080970E0` / `0x08097168` | BPRE.ld |
+| `ListMenuInit` / `ListMenu_ProcessInput` / `DestroyListMenuTask` | `0x08106FF8` / `0x08107078` / `0x0810713C` | BPRE.ld |
+| `AddWindow` / `RemoveWindow` / `DrawStdWindowFrame` / `ClearStdWindowAndFrame` | `0x08003CE4` / `0x08003E3C` / `0x080F6F1C` / `0x080F6F9C` | BPRE.ld |
+| `LoadStdWindowFrameGfx` / `AddTextPrinterParameterized` | `0x080F6E9C` / `0x08002C48` | BPRE.ld |
+| `CreateTask` / `DestroyTask` / `FindTaskIdByFunc` / `gTasks` | `0x0807741C` / `0x08077508` / `0x08077688` / `0x03005090` | BPRE.ld |
+| `Malloc` / `Free` / `PlaySE` / `EnableBothScriptContexts` | `0x08002B9C` / `0x08002BC4` / `0x080722CC` / `0x08069B34` | BPRE.ld |
+| console code screen `special 0x12C` | `0x090BBC6D` | `gSpecials 0x0815FD60` |
+
+- **Entry:** the bedroom console's BG pointer (file `0x721C88`, the ONLY
+  reference to `0x0905006F`) lands on a pre-entry at `0x08CFA000`:
+  `checkflag 0x18FE; goto_if unset → stock`, then yes/no "View your Character
+  Mode roster?". Yes → `closemessage; callnative CM_RosterOpen; waitstate;
+  release`, and the task calls `EnableBothScriptContexts` when it closes. No →
+  the stock console script.
+- **Layout:** roots `0x08CF4000`, header names `0x08CF6000` (16 B each), code
+  `0x08CF8000`, pre-entry `0x08CFA000`. ⚠️ `0x08CF0000`–`0x08CF3FFF` belongs to
+  the test-ROM builders (egg/PC/egg-battle scripts). The first layout sat on
+  it; the injector now asserts against `TEST_SCRIPT_SQUAT`.
+- Only `.text` survives the injector's objcopy, so every constant is
+  `section(".text")`, there are no string literals, and verify §16 checks that
+  the ELF has nothing else.
+- Test-ROM builders call `tools/tests/roster_console.py` to put the console
+  back on its stock script in their test-only ROMs. With CM on, "Yes" would
+  otherwise open the roster (measured: every CM-on egg run failed).
+- **Evidence:**
+  - verify §16: 16 checks, 125 total
+  - `roster_display_negative_test.py`: 13/13
+  - `run_roster_e2e.sh`: roster 11/11 as Misty (char 10), no 2/2, off 2/2,
+    plus a negative control that fails when the console isn't repointed
+  - egg/PC e2e, boot smoke and the mugshot render test are green on `75ea333a`

@@ -80,6 +80,7 @@ ALLOWED_SIBLING = {
     "tools/tests/harness_guard_test.sh": _MGBA,
     "tools/tests/run_egg_e2e.sh": _MGBA,
     "tools/tests/run_pc_e2e.sh": _MGBA,
+    "tools/tests/run_roster_e2e.sh": _MGBA,
     "tools/tests/mugshot_render_test.py": _MGBA,
     "tools/survey_engine_ow.py": _SURVEY,
     "tools/survey_engine_assets.py": _SURVEY,

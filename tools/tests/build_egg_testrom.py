@@ -47,6 +47,8 @@ about whether the hatch calls it -- which is the entire claim being made.
 import struct
 import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from roster_console import restore_stock_console  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
@@ -119,6 +121,8 @@ def main():
         print("NEGATIVE CONTROL: splice reverted to the stock tail "
               f"({egg_hook.SPLICE_ORIG.hex(' ')}) -- the hook is absent here.")
 
+    # Test-only: bypass the roster pre-entry (tools/tests/roster_console.py).
+    restore_stock_console(d)
     out.write_bytes(bytes(d))
     print(f"test ROM: {out.name}: bedroom console -> giveegg {species} x2, "
           f"setvar 0x8004=0, goto hatch script {egg_hook.SCRIPT_ENTRY:#x} "

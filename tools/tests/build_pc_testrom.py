@@ -60,6 +60,8 @@ about whether CLOSING THE PC calls it -- which is the entire claim.
 import struct
 import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from roster_console import restore_stock_console  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
@@ -152,6 +154,8 @@ def main():
         print("NEGATIVE CONTROL: the PC splice is reverted to its stock tail "
               f"({site_orig.hex(' ')}) -- the hook is absent here.")
 
+    # Test-only: bypass the roster pre-entry (tools/tests/roster_console.py).
+    restore_stock_console(d)
     out.write_bytes(bytes(d))
     print(f"test ROM: {out.name}: bedroom console -> giveegg {species} x2, "
           f"inline hatch, goto PC script {site_rom:#x} "

@@ -182,6 +182,27 @@ BL_SITE_FISH_MAIN   = 0x10C3A94  # inside FishingWildEncounter (primary)
 BL_SITE_FISH_DOUBLE = 0x10C3AD0  # inside FishingWildEncounter (double battle)
 
 FLAG_CHARACTER_MODE = 0x18FE
+
+# --- in-game roster display (../game_plans/roster_display.md), 2026-09-27 ---
+# FireRed has no dynamic multichoice, so this is ROWE's design (a native task +
+# ListMenu + one icon sprite), not the Seaglass/Lazarus callback set. All four
+# regions sit in the unused tail of the 1.63 MiB free run (last used byte was
+# 0x08CEAA08); splice() proves each clear and non-overlapping.
+# ⚠️ 0x08CF0000..0x08CF3FFF is NOT free: the test-ROM builders write their
+# scripts there (build_egg_testrom 0x08CF0000, build_pc_testrom 0x08CF1000,
+# build_eggbattle_testrom 0x08CF2000). The first layout sat on all three and
+# only the egg e2e noticed -- the same trap as Seaglass's 0x08F10000. Asserted
+# below against TEST_SCRIPT_SQUAT.
+TEST_SCRIPT_SQUAT = (0x08CF0000, 0x08CF4000)
+ROSTER_ROOTS_ADDR  = 0x08CF4000   # emit_roster_roots.py blob
+ROSTER_NAMES_ADDR  = 0x08CF6000   # NUM_CHARACTERS x 16 B display names (header)
+ROSTER_NAME_STRIDE = 16           # longest display name is 12 chars + 0xFF
+ROSTER_MENU_ADDR   = 0x08CF8000   # src/roster_display.c
+ROSTER_SCRIPT_ADDR = 0x08CFA000   # the console pre-entry + its prompt
+# The bedroom console (map 4.1, BG event #0 at (6,5)): the ONLY reference to
+# its script in the whole ROM (scanned; asserted below).
+CONSOLE_BG_PTR_OFF = 0x721C88
+CONSOLE_SCRIPT     = 0x0905006F
 VAR_CHARACTER_ID    = 0x51FD
 
 # --- helpers ---
@@ -442,6 +463,54 @@ def main():
     print(f"mugshot renderer: {len(sprite_shim)} bytes @ {CM_SPRITE_SHIM_ADDR:#x} "
           f"(show {SHOW_MUGSHOT:#x}, hide {HIDE_MUGSHOT:#x})")
 
+    # --- 1d. roster display: native task + list menu (src/roster_display.c) ---
+    _roots_manifest = json.loads((HERE / "character_mode" / "roster_roots_manifest.json").read_text())
+    assert _roots_manifest["characters"] == num_chars, (
+        "roster_roots.bin was emitted for %d characters, this build has %d -- "
+        "re-run emit_roster_roots.py" % (_roots_manifest["characters"], num_chars))
+    roster_roots = (HERE / "character_mode" / "roster_roots.bin").read_bytes()
+    assert len(roster_roots) == _roots_manifest["blob_size_bytes"]
+    robj, relf, rbin = BUILD / "roster_display.o", BUILD / "roster_display.elf", BUILD / "roster_display.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    "-Wall", "-Wextra",
+                    f"-DNUM_CHARACTERS={num_chars}",
+                    f"-DROSTER_ROOTS_ADDR={ROSTER_ROOTS_ADDR:#x}",
+                    f"-DROSTER_ROOTS_OFF={_roots_manifest['roots_offset_bytes']}",
+                    f"-DROSTER_NAMES_ADDR={ROSTER_NAMES_ADDR:#x}",
+                    f"-DROSTER_NAME_STRIDE={ROSTER_NAME_STRIDE}",
+                    "-o", str(robj), str(ROOT / "src" / "roster_display.c")], check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{ROSTER_MENU_ADDR:#x}",
+                    "--entry", "CM_RosterOpen", "-o", str(relf), str(robj)], check=True)
+    # Nothing may live outside .text: this injector keeps only that section.
+    _rsec = subprocess.run(["arm-none-eabi-objdump", "-h", str(relf)], check=True,
+                           capture_output=True, text=True).stdout
+    for _sec in (".rodata", ".data", ".bss"):
+        assert not re.search(rf"^\s*\d+\s+{re.escape(_sec)}\S*\s+0*[1-9a-f]", _rsec, re.M), (
+            f"roster_display.elf has a non-empty {_sec}: objcopy --only-section=.text "
+            f"would silently drop it")
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(relf), str(rbin)], check=True)
+    roster_menu = rbin.read_bytes()
+    _rsym = subprocess.run(["arm-none-eabi-nm", str(relf)], check=True,
+                           capture_output=True, text=True).stdout
+    _m = re.search(r"^([0-9a-f]+) [Tt] CM_RosterOpen$", _rsym, re.M)
+    assert _m, _rsym
+    ROSTER_OPEN = int(_m.group(1), 16) | 1
+    assert ROSTER_MENU_ADDR < ROSTER_OPEN < ROSTER_MENU_ADDR + len(roster_menu)
+    # Display names for the header, fixed stride, indexed by TABLE index.
+    roster_names = bytearray()
+    assert len(manifest["characters"]) == num_chars
+    for c in manifest["characters"]:          # TABLE order, unfiltered
+        disp = c["character"]
+        if disp.endswith(" (anime)"):
+            disp = disp[:-len(" (anime)")]
+        enc = enc_text(disp, cm)
+        assert len(enc) <= ROSTER_NAME_STRIDE, (disp, len(enc))
+        roster_names += enc + b"\xff" * (ROSTER_NAME_STRIDE - len(enc))
+    print(f"roster display: {len(roster_menu)} bytes @ {ROSTER_MENU_ADDR:#x} "
+          f"(open {ROSTER_OPEN:#x}); roots {len(roster_roots)} B, names {len(roster_names)} B")
+
     wild_data = (HERE / "character_mode" / "wild_override.bin").read_bytes()
     wild_offsets = (HERE / "character_mode" / "wild_override_offsets.bin").read_bytes()
     assert len(wild_offsets) == len(chars) * 4, len(wild_offsets)
@@ -635,6 +704,49 @@ def main():
     splice(SCRIPT_ADDR, blob, "script")
     splice(WILD_SHIM_ADDR, wild_shim, "wild-encounter shim")
     splice(CM_SPRITE_SHIM_ADDR, sprite_shim, "mugshot renderer")
+
+    # --- roster display: blobs, code, and the console pre-entry ---
+    for _lo, _n, _lbl in ((ROSTER_ROOTS_ADDR, len(roster_roots), "roster roots"),
+                          (ROSTER_NAMES_ADDR, len(roster_names), "roster names"),
+                          (ROSTER_MENU_ADDR, len(roster_menu), "roster code"),
+                          (ROSTER_SCRIPT_ADDR, 0x100, "roster pre-entry")):
+        assert _lo + _n <= TEST_SCRIPT_SQUAT[0] or _lo >= TEST_SCRIPT_SQUAT[1], (
+            f"{_lbl} @ {_lo:#x} lands in the test builders' script squat "
+            f"{TEST_SCRIPT_SQUAT[0]:#x}..{TEST_SCRIPT_SQUAT[1]:#x}")
+    splice(ROSTER_ROOTS_ADDR, roster_roots, "roster roots")
+    splice(ROSTER_NAMES_ADDR, bytes(roster_names), "roster names")
+    splice(ROSTER_MENU_ADDR, roster_menu, "roster display code")
+    #   checkflag CM; goto_if unset -> the stock console script, unchanged
+    #   lock; msgbox yes/no "View your Character Mode roster?"
+    #   no  -> the stock console script (which asks about cheat codes)
+    #   yes -> closemessage; callnative CM_RosterOpen; waitstate; release; end
+    _t_q = enc_text("View your Character Mode roster?", cm)
+    _pre = bytearray()
+    _pre += bytes([0x2B]) + struct.pack("<H", FLAG_CHARACTER_MODE)   # checkflag
+    _pre += op_goto_if(0, CONSOLE_SCRIPT)
+    _pre += bytes([0x6A])                                            # lock
+    _q_at = len(_pre) + 2
+    _pre += op_loadword(0) + op_callstd(5)                           # yes/no
+    _pre += op_compare(0x800D, 1) + op_goto_if(5, CONSOLE_SCRIPT)    # != yes
+    _pre += bytes([0x68])                                            # closemessage
+    _pre += op_callnative(ROSTER_OPEN)
+    _pre += bytes([0x27])                                            # waitstate
+    _pre += op_release() + op_end()
+    struct.pack_into("<I", _pre, _q_at, ROSTER_SCRIPT_ADDR + len(_pre))
+    _pre += _t_q
+    splice(ROSTER_SCRIPT_ADDR, bytes(_pre), "roster pre-entry")
+    _pat = struct.pack("<I", CONSOLE_SCRIPT)
+    _refs, _i = [], bytes(data).find(_pat)
+    _own = range(ROSTER_SCRIPT_ADDR - 0x08000000, ROSTER_SCRIPT_ADDR - 0x08000000 + len(_pre))
+    while _i != -1:
+        if _i not in _own:
+            _refs.append(_i)
+        _i = bytes(data).find(_pat, _i + 1)
+    assert _refs == [CONSOLE_BG_PTR_OFF], (
+        f"references to the console script {CONSOLE_SCRIPT:#x} are "
+        f"{[hex(a) for a in _refs]}, expected only {CONSOLE_BG_PTR_OFF:#x}")
+    struct.pack_into("<I", data, CONSOLE_BG_PTR_OFF, ROSTER_SCRIPT_ADDR)
+    print(f"roster display: console BG ptr -> pre-entry @ {ROSTER_SCRIPT_ADDR:#x} ({len(_pre)} B)")
     splice(WILD_OFFSETS_ADDR, wild_offsets, "wild-encounter offsets")
 
     # --- character sprites: blobs, then a table of absolute ROM pointers ---
