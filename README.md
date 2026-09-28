@@ -83,6 +83,19 @@ sweet scent and every fishing rod:
 `ENCOUNTERS.md` lists exactly what each character can meet, with level
 bands and effective rates.
 
+## Seeing your roster in-game
+
+With Character Mode on, use the **game console in your bedroom** again. It
+first asks **"View your Character Mode roster?"**:
+
+- **Yes**: a screen headed with your character's name, listing their Pokémon
+  one row per evolution family (the first stage is shown, and the whole family
+  counts). The highlighted Pokémon's icon appears in a box beside the list.
+  Scroll with Up/Down; A or B closes it.
+- **No**: the console's normal cheat-code question.
+
+With Character Mode off, the console works exactly as it always did.
+
 ## Why some characters aren't listed
 
 238 characters exist in the data, but a character needs at least **six
