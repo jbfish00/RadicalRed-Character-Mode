@@ -143,11 +143,15 @@ has two halves: **a routine that writes a mon into the party without touching
 the count is invisible to the count inventory**, whether it is benign or not.
 Read the two together; neither is sufficient alone.
 
-## 16 inventoried copy site(s)
+## 17 inventoried copy site(s)
 
 ### `0x08092fe2` (file `0x00092fe2`) -- **UNGATED**
 
-THE PC WITHDRAW, and the most consequential entry in this file. 0x08092FD4 is a Pokemon Storage System routine: when its first argument is 25 it does `memcpy(&gPlayerParty[slot], gPSSData + 0xA0, 100)` -- gPSSData is 0x020397B0, named in the CFRU donor's BPRE.ld, and +0xA0 is the mon the PC cursor is holding. So this is the box -> party move. 5 BL callers, all inside the PSS. 🔴 WHY IT IS UNGATED RATHER THAN EXEMPT: enforcement deliberately ROUTES off-roster mons INTO the PC, and nothing re-enforces the roster after the player uses it. Measured on the built ROM: CM_SweepPartyToPC is called from the selection handlers and the egg-hatch tail and NOWHERE ELSE, so an off-roster mon the catch gate just boxed can be withdrawn straight back into the party and kept for the rest of the run. This needs no exploit -- it is what happens if you open the PC and take the mon back. ⭐ ROWE, the reference implementation, closes it in TWO places: `CharacterMode_SweepPartyToPC()` at the top of `Cb2_ExitPSS` (src/pokemon_storage_system.c), and `IsRemovingLastAllowedPartyMon` -- whose comment describes the residual exploit in as many words: withdraw an off-roster B, deposit your only on-roster A, exit, and the never-empty rule keeps B. "You could play the whole game as your character with an arbitrary Pokemon." See ../game_plans/rowe_parity.md §13.24
+THE PC WITHDRAW. 0x08092FD4 is a Pokemon Storage System routine: when its first argument is 25 it does `memcpy(&gPlayerParty[slot], gPSSData + 0xA0, 100)` -- gPSSData is 0x020397B0, named in the CFRU donor's BPRE.ld, and +0xA0 is the mon the PC cursor is holding. So this is the box -> party move. 5 BL callers, all inside the PSS. ⚠⚠ THIS VERDICT WAS REWRITTEN 2026-09-10 AND THE OLD TEXT WAS FALSE BY THEN: it said CM_SweepPartyToPC is called 'from the selection handlers and the egg-hatch tail and NOWHERE ELSE', which stopped being true the day the PC-exit hook shipped -- and nobody updated it. A measured claim in a comment goes stale the moment the thing it measured changes; this file is read as evidence, so a stale measurement here is worse than none. ✅ WHAT IS TRUE NOW: tools/character_mode/pc_hook.py splices every PC access script so the sweep runs when the storage UI closes, and CM_SweepPartyToPC has those call sites too. 🔴 WHY IT IS STILL UNGATED RATHER THAN GATED: the hook is UNDO-ON-EXIT, not prevention. THIS COPY is still performed with no roster check -- the player really does hold the off-roster mon inside the PC UI -- and ROWE's SECOND guard, `IsRemovingLastAllowedPartyMon`, is NOT ported, so the residual exploit its own comment names still works: deposit your only on-roster A, withdraw off-roster B, exit, and the sweep's never-empty rule KEEPS B. "You could play the whole game as your character with an arbitrary Pokemon." Gating the copy itself is a real RE job inside the PSS's can-this-be-removed check. See ../game_plans/rowe_parity.md §13.24 / §13.26c / §13.32
+
+### `0x08050828` (file `0x00050828`) -- **UNVERIFIED**
+
+TradeMons(playerIdx, partnerIdx) at 0x0805080C -- NOT a party slot swap. ⚠️ Until 2026-09-29 this row was EXEMPT and said the routine 'computes two gPlayerParty slot pointers'. The SECOND pointer's pool (0x080508DC) holds 0x0202402C, which is gEnemyParty: r7 = &gPlayerParty[a], r5 = &gEnemyParty[b], then memcpy(tmp, r7, 100), memcpy(r7, r5, 100) at 0x08050878 -- a mon from OUTSIDE the party enters it, with the party count unchanged (Platinum's lesson #1) -- and memcpy(r5, tmp, 100). Three BL callers: 0x08052242 and 0x0805369E pass (gSpecialVar_0x8005 0x020370C2, 0), the IN-GAME trade, gated at the script level by the trade wrapper at 0x08C8E000; 0x08053DCE passes (x, y % 6) through __umodsi3, the LINK trade, which nothing in Character Mode gates. Whether a link trade is reachable here is not measured. Same shape as Seaglass 0x00208786 and Lazarus 0x00224d26, both UNVERIFIED
 
 ### `0x0907d7ce` (file `0x0107d7ce`) -- **GATED**
 
@@ -169,9 +173,9 @@ THE GIFT/DAYCARE EGG GIVE, and the most important entry in this file. `SetMonDat
 
 inside LoadPlayerParty 0x0804C230: copies 6 x 100 bytes back from gSaveBlock1Ptr. Restores the player's OWN saved party after a link/facility swap-out; everything it restores was gated when first acquired
 
-### `0x08050828` (file `0x00050828`) -- **EXEMPT**
+### `0x080937f0` (file `0x000937f0`) -- **EXEMPT**
 
-inside 0x0805080C (3 BL callers): computes two gPlayerParty slot pointers and copies between them -- a party SLOT SWAP. It moves mons the player already owns; no species enters from outside
+CompactPartySlots (pokefirered pokemon_storage_system.c) at 0x080937DC, matching the source line for line: for each of the 6 slots, GetMonData(&gPlayerParty[i], 11 = MON_DATA_SPECIES); if non-empty and i != last, CopyMon(&gPlayerParty[last], &gPlayerParty[i], 100) at 0x0809381C; then ZeroMonData 0x0803D994 on the tail, and return the first empty slot or -1. A permutation of the player's OWN party: every mon written was in it a moment earlier. Its twins are EXEMPT in Seaglass (0x001c32d8) and Lazarus (0x001dd4c4). Hidden until now because gPlayerParty is parked in r8 (`mov r8,r1`), which only the format-5 decoder follows
 
 ### `0x080a041a` (file `0x000a041a`) -- **EXEMPT**
 

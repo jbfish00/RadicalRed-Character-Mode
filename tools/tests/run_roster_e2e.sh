@@ -14,13 +14,13 @@
 set -e
 cd "$(dirname "$0")/../.."
 
-MGBA=../Seaglass-Character-Mode/tools/mgba_src/build/mgba-headless
+MGBA="${MGBA_HEADLESS:-tools/mgba_src/build/mgba-headless}"
 SCRIPT=tools/mgba_scripts/cm_roster_menu_test.lua
 STATE=/tmp/rr_ss_bedroom.ss
 ROM=build/radicalred_cm.gba
 NEG=build/radicalred_cm_roster_neg.gba
 
-[ -f "$MGBA" ] || { echo "SKIP: mgba-headless not found at $MGBA"; exit 0; }
+[ -x "$MGBA" ] || { echo "no headless mGBA at $MGBA -- build it with 'sh tools/build_mgba.sh', or set MGBA_HEADLESS"; exit 2; }
 [ -f "$ROM" ] || { echo "build first: python3 tools/inject_character_mode.py"; exit 1; }
 
 if [ ! -f "$STATE" ]; then

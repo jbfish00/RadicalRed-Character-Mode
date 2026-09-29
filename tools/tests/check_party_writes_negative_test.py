@@ -67,7 +67,7 @@ def run(path):
 
 # How many tamper cases this negative test must run. A deliberate
 # LITERAL -- see cm_tally.assert_cases.
-EXPECT_CASES = 8
+EXPECT_CASES = 10
 
 
 def main():
@@ -146,6 +146,18 @@ def main():
             case("a drifted EXPECT_UNGATED pin fails", 1,
                  src[:mu.start()] + "EXPECT_UNGATED = frozenset({0x00000001})"
                  + src[mu.end():])
+
+        # ⭐ 2026-09-29: one case per primitive fix that finds something IN
+        # THIS ROM. Fix A (Thumb format 5) found CompactPartySlots (pointer in
+        # r8); fix D (format 12, `add rD, sp/pc`) removes a false callee from
+        # CreateShedinja's SetMonData loop. Fixes B (WINDOW 96) and C
+        # (k*MON_SIZE) find nothing new here, so a revert case for them would
+        # pass and prove nothing; they have one in Seaglass/Lazarus.
+        case("primitive fix A reverted (no Thumb format 5) fails", 1,
+             src.replace("if 0x4400 <= v <= 0x46FF:", "if False:", 1))
+        case("primitive fix D reverted (no format 12) fails", 1,
+             src.replace("                if (v & 0xF000) == 0xA000:\n",
+                         "                if False:\n", 1))
 
         case("control: the real inventory still passes", 0)
     finally:

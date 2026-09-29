@@ -61,13 +61,11 @@ SKIP_DIRS = {
 ALLOWED = {'tools/tests/check_repo_selfcontained_negative_test.py': "THIS CHECKER'S OWN NEGATIVE TEST. It must name the forbidden path in order to reintroduce it on purpose in a throwaway tree. Inventoried rather than skipped, so deleting the negative test is itself a failing check.", 'tools/stage_donor_art.py': "cross-repo DONOR tool: stages sprite art out of ROWE's tree into this repo. It reads ROWE by definition; it is never on the build or verify path.", 'tools/character_mode/merge_brain_sources.py': "cross-repo DONOR tool: merges ROWE's hand-made Frontier Brain source labels. One-shot data import, never on the build or verify path.", 'tools/character_mode/port_sources_from_rowe.py': "cross-repo DONOR tool: its entire purpose is reading ROWE's roster_sources.json. The name says so; never on the build or verify path."}
 
 
-_MGBA = ("SHARED TOOL BINARY, not project data: this repo's live layers run "
-         "Seaglass's built mgba-headless rather than building a second copy of "
-         "the same emulator. 🔴 REAL AND LOAD-BEARING -- they cannot run from a "
-         "fresh clone of THIS repo alone; Seaglass must be checked out and its "
-         "mgba built. Inventoried, not fixed: duplicating the build is "
-         "expensive and the binary is not Character Mode data. Same class as "
-         "the charmap bug rowe_parity.md §12 closed, on the verify path.")
+# ✅ 2026-09-29: the five live runners used to run Seaglass's built
+# mgba-headless by path (inventoried here as "REAL AND LOAD-BEARING"). They now
+# use this repo's own build (tools/build_mgba.sh: pinned upstream commit +
+# tools/patches/), overridable with MGBA_HEADLESS, and exit 2 -- not 0, which
+# read as a pass -- if it hasn't been built.
 
 _SURVEY = ("cross-repo SURVEY tool by design: reads every sibling's live "
            "characters.txt (and the Emerald/Crystal donor trees inside "
@@ -77,11 +75,10 @@ _SURVEY = ("cross-repo SURVEY tool by design: reads every sibling's live "
 
 # path -> why this SIBLING-REPO reference is allowed to survive.
 ALLOWED_SIBLING = {
-    "tools/tests/harness_guard_test.sh": _MGBA,
-    "tools/tests/run_egg_e2e.sh": _MGBA,
-    "tools/tests/run_pc_e2e.sh": _MGBA,
-    "tools/tests/run_roster_e2e.sh": _MGBA,
-    "tools/tests/mugshot_render_test.py": _MGBA,
+    "tools/build_mgba.sh":
+        "COMMENT only -- provenance: the patch it applies is the one Seaglass "
+        "carries, at the same upstream commit. It clones mGBA from upstream; "
+        "no sibling path is opened.",
     "tools/survey_engine_ow.py": _SURVEY,
     "tools/survey_engine_assets.py": _SURVEY,
     "tools/stage_donor_art.py":

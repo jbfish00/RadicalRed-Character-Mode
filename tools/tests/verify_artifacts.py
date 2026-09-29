@@ -140,7 +140,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 125  # +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 135  # +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -1194,6 +1194,44 @@ def main():
     _qt = "".join(cmap.get(b, "?") for b in _d[_q - 0x08000000:_q - 0x08000000 + 64].split(b"\xff")[0])
     check("its prompt reads 'View your Character Mode roster?'",
           _qt == "View your Character Mode roster?", repr(_qt))
+
+    # == 17. Compiled shim constants ==
+    # ⚠️ _fp*-prefixed locals: a bare name can shadow a counter the summary reads.
+    print("== 17. compiled shim constants (read back out of the built ROM) ==")
+    # Every other section checks an emitted .bin, a patched range, or source
+    # TEXT. None reads what the COMPILER baked in -- the gap that let Seaglass
+    # ship a stale WILDPOOL_STRIDE and Lazarus a stale TOBIAS_CHAR_ID behind
+    # green suites. Each shim exports a fingerprint (.text.cm_fingerprint, last
+    # in its file); found here by its magic, inside that shim's own blob.
+    _fp_bm = (ROOT / "tools" / "character_mode" / "rosters_expanded.bin").read_bytes()
+    _fp_mk = (ROOT / "tools" / "character_mode" / "marker_strings.bin").read_bytes()
+    _fp_units = (("main shim", 0x4D435346, SHIM_ADDR, 0x2000, 4),
+                 ("battle marker", 0x4D435342, 0x08378CA8, 0x08379000 - 0x08378CA8, 5),
+                 ("wild shim", 0x4D435357, WILD_SHIM_ADDR, 0x1000, 2))
+    _fp = {}
+    for _fp_name, _fp_magic, _fp_base, _fp_len, _fp_words in _fp_units:
+        _fp_blob = bytes(patched[_fp_base - 0x08000000:_fp_base - 0x08000000 + _fp_len])
+        _fp_n = _fp_blob.count(struct.pack("<I", _fp_magic))
+        check(f"{_fp_name}: exactly one build fingerprint in its blob ({_fp_n} found)", _fp_n == 1)
+        if _fp_n == 1:
+            _fp[_fp_name] = struct.unpack_from(
+                "<%dI" % _fp_words, _fp_blob, _fp_blob.find(struct.pack("<I", _fp_magic)))
+    for _fp_name in _fp:
+        check(f"{_fp_name} compiled NUM_CHARACTERS={_fp[_fp_name][1]} == manifest {NUM_CHARS}",
+              _fp[_fp_name][1] == NUM_CHARS)
+    for _fp_name in ("main shim", "battle marker"):
+        if _fp_name not in _fp:
+            continue
+        _fp_n, _fp_bs, _fp_ns = _fp[_fp_name][1:4]
+        check(f"{_fp_name} compiled BITMAP_STRIDE={_fp_bs}: x{_fp_n} == rosters_expanded.bin "
+              f"({len(_fp_bm)} B), and == ceil(NUM_SPECIES {_fp_ns} / 8)",
+              _fp_bs * _fp_n == len(_fp_bm) and _fp_bs == (_fp_ns + 7) // 8)
+    if "main shim" in _fp and "battle marker" in _fp:
+        check("the main shim and the battle marker compiled the SAME NUM_SPECIES and BITMAP_STRIDE",
+              _fp["main shim"][2:4] == _fp["battle marker"][2:4])
+        check(f"battle marker compiled MARKER_STRIDE={_fp['battle marker'][4]}: "
+              f"x{NUM_CHARS} == marker_strings.bin ({len(_fp_mk)} B)",
+              _fp["battle marker"][4] * NUM_CHARS == len(_fp_mk))
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

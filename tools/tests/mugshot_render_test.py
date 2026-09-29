@@ -32,7 +32,8 @@ from cm_tally import assert_cases
 
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
-MGBA = ROOT.parent / "Seaglass-Character-Mode" / "tools" / "mgba_src" / "build" / "mgba-headless"
+MGBA = Path(os.environ.get("MGBA_HEADLESS") or
+            ROOT / "tools" / "mgba_src" / "build" / "mgba-headless")
 TEST_ROM = BUILD / "radicalred_cm_mugshot_test.gba"
 STATE = Path("/tmp/rr_ss_bedroom.ss")
 
@@ -83,7 +84,8 @@ def main():
     # ⚠️ Exit 2, not 0. A layer that could not run has not passed; this used to
     # print SKIP and exit 0, which reads as green to anything that checks $?.
     if not MGBA.is_file():
-        print(f"COULD NOT RUN: mgba-headless not found at {MGBA}")
+        print(f"COULD NOT RUN: mgba-headless not found at {MGBA} -- build it with "
+              "'sh tools/build_mgba.sh', or set MGBA_HEADLESS")
         return 2
     if not (BUILD / "radicalred_cm.gba").is_file():
         print("building ROM first...")

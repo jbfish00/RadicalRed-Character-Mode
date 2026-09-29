@@ -103,3 +103,18 @@ void CM_BattleStringGated(const u8 *src)
     OrigExpandString(src);
 }
 
+
+/* Build fingerprint: the values this unit ACTUALLY compiled with, parked in
+   the blob so verify_artifacts reads them back out of the BUILT ROM instead of
+   the source text or an emitted .bin. Ported from Seaglass via Lazarus
+   (2026-09-29), where it caught a stale TOBIAS_CHAR_ID on its first run.
+   .text.* (not .rodata, which ld would put outside the extracted .text), and
+   LAST in the file so no function moves. */
+__attribute__((used, section(".text.cm_fingerprint")))
+const u32 CM_MarkerFingerprint[5] = {
+    0x4D435342u,          /* 'BSCM' */
+    NUM_CHARACTERS,
+    BITMAP_STRIDE,
+    NUM_SPECIES,
+    MARKER_STRIDE,
+};

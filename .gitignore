@@ -36,3 +36,6 @@ tools/tests/wild_encounter_shim_test.gdb
 
 # Local Claude Code handoff notes (kept out of the public repo)
 CLAUDE.md
+
+# this repo's own patched headless mGBA (tools/build_mgba.sh); only the patch is tracked
+tools/mgba_src/

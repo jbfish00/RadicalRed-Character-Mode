@@ -13,9 +13,9 @@
 # EVERYTHING would also pass cases 1 and 4 and look correct.
 set -u
 cd "$(dirname "$0")/../.." || exit 1
-MGBA="${MGBA:-../Seaglass-Character-Mode/tools/mgba_src/build/mgba-headless}"
+MGBA="${MGBA_HEADLESS:-tools/mgba_src/build/mgba-headless}"
 ROM="${ROM:-rom/radicalred 4.1.gba}"
-[ -x "$MGBA" ] || { echo "SKIP: mgba-headless not found at $MGBA"; exit 0; }
+[ -x "$MGBA" ] || { echo "no headless mGBA at $MGBA -- build it with 'sh tools/build_mgba.sh', or set MGBA_HEADLESS"; exit 2; }
 [ -f "$ROM" ]  || { echo "SKIP: ROM not found: $ROM"; exit 0; }
 
 fail=0

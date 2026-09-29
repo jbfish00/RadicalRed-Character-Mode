@@ -147,11 +147,24 @@ INVENTORY = {
                  "back from gSaveBlock1Ptr. Restores the player's OWN saved "
                  "party after a link/facility swap-out; everything it "
                  "restores was gated when first acquired"),
-    0x00050828: ("EXEMPT",
-                 "inside 0x0805080C (3 BL callers): computes two "
-                 "gPlayerParty slot pointers and copies between them -- a "
-                 "party SLOT SWAP. It moves mons the player already owns; "
-                 "no species enters from outside"),
+    0x00050828: ("UNVERIFIED",
+                 "TradeMons(playerIdx, partnerIdx) at 0x0805080C -- NOT a "
+                 "party slot swap. ⚠️ Until 2026-09-29 this row was EXEMPT "
+                 "and said the routine 'computes two gPlayerParty slot "
+                 "pointers'. The SECOND pointer's pool (0x080508DC) holds "
+                 "0x0202402C, which is gEnemyParty: r7 = &gPlayerParty[a], "
+                 "r5 = &gEnemyParty[b], then memcpy(tmp, r7, 100), "
+                 "memcpy(r7, r5, 100) at 0x08050878 -- a mon from OUTSIDE "
+                 "the party enters it, with the party count unchanged "
+                 "(Platinum's lesson #1) -- and memcpy(r5, tmp, 100). Three "
+                 "BL callers: 0x08052242 and 0x0805369E pass "
+                 "(gSpecialVar_0x8005 0x020370C2, 0), the IN-GAME trade, "
+                 "gated at the script level by the trade wrapper at "
+                 "0x08C8E000; 0x08053DCE passes (x, y % 6) through "
+                 "__umodsi3, the LINK trade, which nothing in Character "
+                 "Mode gates. Whether a link trade is reachable here is not "
+                 "measured. Same shape as Seaglass 0x00208786 and Lazarus "
+                 "0x00224d26, both UNVERIFIED"),
     0x00092fe2: ("UNGATED",
                  "THE PC WITHDRAW. 0x08092FD4 is a Pokemon Storage System "
                  "routine: when its first argument is 25 it does "
@@ -293,9 +306,25 @@ INVENTORY = {
                  "exactly what it exists for. \u26a0\ufe0f That is a "
                  "property of the DATA: re-check it if the roster pipeline "
                  "ever stops expanding branch evolutions"),
+
+    # --- found 2026-09-29 by porting Seaglass's primitive fixes (high
+    # registers, WINDOW 48 -> 96, k*MON_SIZE) via Lazarus ---
+    0x000937f0: ("EXEMPT",
+                 "CompactPartySlots (pokefirered pokemon_storage_system.c) at "
+                 "0x080937DC, matching the source line for line: for each of "
+                 "the 6 slots, GetMonData(&gPlayerParty[i], 11 = "
+                 "MON_DATA_SPECIES); if non-empty and i != last, "
+                 "CopyMon(&gPlayerParty[last], &gPlayerParty[i], 100) at "
+                 "0x0809381C; then ZeroMonData 0x0803D994 on the tail, and "
+                 "return the first empty slot or -1. A permutation of the "
+                 "player's OWN party: every mon written was in it a moment "
+                 "earlier. Its twins are EXEMPT in Seaglass (0x001c32d8) and "
+                 "Lazarus (0x001dd4c4). Hidden until now because gPlayerParty "
+                 "is parked in r8 (`mov r8,r1`), which only the format-5 "
+                 "decoder follows"),
 }
 
-WINDOW = 48
+WINDOW = 96
 BACK = 1024
 PRE = 32
 
@@ -363,14 +392,35 @@ def size_seed(b, i):
     hand were all leftovers of that multiply.
     """
     s = set()
+    imm = {}
+    bulk = [False]
     for k in range(max(0, i - PRE * 2), i, 2):
         v = u16(b, k)
         if (v & 0xF800) == 0x2000:                       # movs rD,#imm
             d, imm8 = (v >> 8) & 7, v & 0xFF
+            imm[d] = imm8
+            if d == 2 and imm8 % MON_SIZE == 0 and 2 <= imm8 // MON_SIZE <= 6:
+                bulk[0] = True
+            elif d == 2:
+                bulk[0] = False
             if d >= 4:
                 s.add(d) if imm8 == MON_SIZE else s.discard(d)
+        elif (v & 0xF800) == 0x0000 and ((v >> 6) & 0x1F):   # lsls rD,rS,#n
+            d, sr, sh = v & 7, (v >> 3) & 7, (v >> 6) & 0x1F
+            val = imm.get(sr, 0) << sh
+            imm[d] = val
+            if d >= 4:
+                s.add(d) if val == MON_SIZE else s.discard(d)
         elif (v & 0xFFC0) == 0x0000 and v != 0:          # movs rD,rS (lsls #0)
+            # ⚠️ ONE branch for this encoding. Seaglass's port of the bulk rule
+            # added a second `elif` with this same test AHEAD of the r4-r7
+            # rule, which made the r4-r7 rule unreachable (the CreateShedinja
+            # blind spot in the docstring came back silently). Keep them merged.
             d, sr = v & 7, (v >> 3) & 7
+            if d == 2:
+                _val = imm.get(sr)
+                bulk[0] = (_val is not None and _val % MON_SIZE == 0
+                           and 2 <= _val // MON_SIZE <= 6)
             if d >= 4:
                 s.add(d) if sr in s else s.discard(d)
         elif (v & 0xF800) == 0x4800:                     # ldr rD,[pc,#imm]
@@ -379,7 +429,7 @@ def size_seed(b, i):
               or (v & 0xF800) == 0xF000 or (v & 0xFF00) == 0x4700
               or (v & 0xFF00) == 0xBD00):
             s.clear()          # control can arrive here from anywhere else
-    return s
+    return s, bulk[0]
 
 
 def copies(b):
@@ -402,7 +452,9 @@ def copies(b):
             if (((i + 4) & ~3) + imm * 4) != pool:
                 continue
             tracked, r2_is_mon = {rX}, False
-            sized = size_seed(b, i)
+            sized, _bulk = size_seed(b, i)
+            if _bulk:
+                r2_is_mon = True
             r1_is_imm = False
             lit = {}                              # rN -> last pc-relative value
             for k in range(i + 2, min(i + 2 + WINDOW * 2, len(b) - 3), 2):
@@ -411,6 +463,20 @@ def copies(b):
                     r2_is_mon = True
                 elif (v & 0xFF00) == 0x2200:
                     r2_is_mon = False
+                # ⭐ THUMB FORMAT 12: `add rD, pc/sp, #imm` writes an ADDRESS
+                # into rD, so rD holds neither a mon size nor a party pointer.
+                # Undecoded, r2 kept its earlier "mon size" after
+                # `movs r2,#100 ; ... ; add r2,sp,#20`, and CFRU's
+                # CreateShedinja SetMonData loop (0x09093FA8, a field setter
+                # called as (mon, field, &data)) read as a mon copy once the
+                # window reached it (Radical Red, 2026-09-29). r1 already had
+                # this rule (0xA901 below); r2 did not.
+                if (v & 0xF000) == 0xA000:
+                    _rd = (v >> 8) & 7
+                    sized.discard(_rd)
+                    tracked.discard(_rd)
+                    if _rd == 2:
+                        r2_is_mon = False
                 # r1 = a small immediate means this is GetMonData/SetMonData
                 # (mon, FIELD, value), not memcpy(dst, src, n). Without this the
                 # inventory reports plain reads as copies whenever r2 still
@@ -444,6 +510,34 @@ def copies(b):
                     continue                              # adds rX,#imm
                 if (v & 0xFFC0) == 0x1C00 and ((v >> 3) & 7) in tracked:
                     tracked.add(v & 7); continue          # movs rD,rS
+                # ⭐⭐ THUMB FORMAT 5 -- HIGH REGISTERS. Everything above decodes
+                # only the 3-bit forms, i.e. r0-r7. A compiler is free to park a
+                # pointer in r8-r12, and this one does: Seaglass's in-game trade
+                # loads gPlayerParty into r2 and moves it to sl on the VERY NEXT
+                # instruction (`ldr r2,=gPlayerParty` @0x08208786 ; `mov sl,r2`
+                # @0x08208788), indexes it with `add sl,r3`, and calls
+                # CopyMon(&gPlayerParty[slot], &gEnemyParty[0], 100) 136 bytes
+                # later. Without this block the pointer leaves `tracked` two
+                # instructions after the load and the copy is invisible --
+                # measured live 2026-09-19 with a write watchpoint on the slot.
+                #   0100 01 op H1 H2 Rs Rd   op: 00 ADD, 01 CMP, 10 MOV
+                if 0x4400 <= v <= 0x46FF:
+                    op = (v >> 8) & 3
+                    rd = (v & 7) | ((v >> 4) & 8)
+                    rs = ((v >> 3) & 7) | ((v >> 3) & 8)
+                    if op != 1:                           # CMP writes nothing
+                        if op == 2:                       # MOV rD,rS
+                            tracked.add(rd) if rs in tracked else tracked.discard(rd)
+                            sized.add(rd) if rs in sized else sized.discard(rd)
+                            if rd == 2:
+                                r2_is_mon = 2 in sized
+                            if rd == 1:
+                                r1_is_imm = False
+                        else:                             # ADD rD,rS
+                            if rs in tracked or rd in tracked:
+                                tracked.add(rd)
+                            sized.discard(rd)
+                        continue
                 t = bl_target(b, k)
                 if t is not None:
                     if r2_is_mon and 0 in tracked and not r1_is_imm:
@@ -459,8 +553,11 @@ def copies(b):
                     # the window reads as a mon copy.
                     r2_is_mon = False
                     r1_is_imm = False
-                    sized -= {0, 1, 2, 3}
-                    tracked -= {0, 1, 2, 3}
+                    # r4-r11 are callee-saved under AAPCS, so a tracked
+                    # pointer parked in a high register SURVIVES the call --
+                    # only r0-r3 and r12 (ip) are clobbered.
+                    sized -= {0, 1, 2, 3, 12}
+                    tracked -= {0, 1, 2, 3, 12}
                     for r in (0, 1, 2, 3):
                         lit.pop(r, None)
                     continue
