@@ -27,6 +27,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from cm_tally import assert_cases
+
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
 MGBA = ROOT.parent / "Seaglass-Character-Mode" / "tools" / "mgba_src" / "build" / "mgba-headless"
@@ -57,6 +60,12 @@ CASES = [
     ("Ash", False, 8),      # no front pic staged -> must draw nothing, cleanly
 ]
 
+# How many CASES this runner must execute. A deliberate LITERAL (see
+# cm_tally.assert_cases): each case's assertion count is pinned inside the Lua,
+# but nothing pinned the case LIST, so deleting a row turned "4/4 rendered" into
+# "3/3 rendered", exit 0 (2026-09-28).
+EXPECT_CASES = 4
+
 
 def sh(cmd, **kw):
     return subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, **kw)
@@ -71,9 +80,11 @@ def template_addr():
 
 
 def main():
+    # ⚠️ Exit 2, not 0. A layer that could not run has not passed; this used to
+    # print SKIP and exit 0, which reads as green to anything that checks $?.
     if not MGBA.is_file():
-        print(f"SKIP: mgba-headless not found at {MGBA}")
-        return 0
+        print(f"COULD NOT RUN: mgba-headless not found at {MGBA}")
+        return 2
     if not (BUILD / "radicalred_cm.gba").is_file():
         print("building ROM first...")
         sh([sys.executable, "tools/inject_character_mode.py"], check=True)
@@ -85,7 +96,9 @@ def main():
     print(f"sMugshotTemplate @ {tmpl:#x}")
 
     failures = []
+    ran = 0
     for name, expect_sprite, expect_checks in CASES:
+        ran += 1
         assert name in chars, f"{name} is no longer in the roster -- update CASES"
         idx = chars.index(name)
         assert not manifest[idx].get("hidden"), \
@@ -125,9 +138,11 @@ def main():
             failures.append(name)
             print("  " + "\n  ".join(l for l in log if l.startswith("FAIL")) or "  no RESULT line")
 
-    print(f"\n{len(CASES) - len(failures)}/{len(CASES)} characters rendered as expected")
+    print(f"\n{ran - len(failures)}/{ran} characters rendered as expected")
     if failures:
         print("FAILURES: " + ", ".join(failures))
+    if assert_cases(ran, EXPECT_CASES, "mugshot_render_test"):
+        return 1
     return 1 if failures else 0
 
 

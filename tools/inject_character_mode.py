@@ -736,12 +736,12 @@ def main():
     _pre += _t_q
     splice(ROSTER_SCRIPT_ADDR, bytes(_pre), "roster pre-entry")
     _pat = struct.pack("<I", CONSOLE_SCRIPT)
-    _refs, _i = [], bytes(data).find(_pat)
+    _refs, _i = [], data.find(_pat)
     _own = range(ROSTER_SCRIPT_ADDR - 0x08000000, ROSTER_SCRIPT_ADDR - 0x08000000 + len(_pre))
     while _i != -1:
         if _i not in _own:
             _refs.append(_i)
-        _i = bytes(data).find(_pat, _i + 1)
+        _i = data.find(_pat, _i + 1)
     assert _refs == [CONSOLE_BG_PTR_OFF], (
         f"references to the console script {CONSOLE_SCRIPT:#x} are "
         f"{[hex(a) for a in _refs]}, expected only {CONSOLE_BG_PTR_OFF:#x}")

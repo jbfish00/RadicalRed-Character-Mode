@@ -152,6 +152,17 @@ def check(name, ok, detail=""):
         failures.append(name)
 
 
+def find_all(buf, pat):
+    """Every offset of `pat` in `buf`, UNALIGNED and overlapping -- the same
+    set a `for i in range(len(buf) - 3)` slice-compare loop yields, in C
+    (measured 7.1 s -> 0.02 s on the console scan, 2026-09-28)."""
+    out, i = [], buf.find(pat)
+    while i >= 0:
+        out.append(i)
+        i = buf.find(pat, i + 1)
+    return out
+
+
 def decode_bl(halfwords_bytes, site_rom_addr):
     hw1, hw2 = struct.unpack("<HH", halfwords_bytes)
     if (hw1 & 0xF800) != 0xF000 or (hw2 & 0xF800) != 0xF800:
@@ -1156,8 +1167,8 @@ def main():
           and any((h & 0xF8FF) == (0x2800 | (NUM_CHARS - 1)) for h in _hws))
     # Console: the only reference to the stock script is now the pre-entry's.
     _pat = struct.pack("<I", CONSOLE_SCRIPT)
-    _left = [i for i in range(len(patched) - 3) if patched[i:i + 4] == _pat
-             and not (ROSTER_SCRIPT_ADDR - 0x08000000 <= i
+    _left = [i for i in find_all(patched, _pat)
+             if not (ROSTER_SCRIPT_ADDR - 0x08000000 <= i
                       < ROSTER_SCRIPT_ADDR - 0x08000000 + ROSTER_SCRIPT_WINDOW)]
     check("console BG ptr -> pre-entry (it was the stock script), no other reference to it",
           struct.unpack_from("<I", orig, CONSOLE_BG_PTR_OFF)[0] == CONSOLE_SCRIPT
