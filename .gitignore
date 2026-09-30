@@ -39,3 +39,7 @@ CLAUDE.md
 
 # this repo's own patched headless mGBA (tools/build_mgba.sh); only the patch is tracked
 tools/mgba_src/
+
+# Negative tests write a patched verifier copy here per run (PID in the name).
+# A killed run can leave one behind; never commit it.
+tools/tests/_negtest_*.py

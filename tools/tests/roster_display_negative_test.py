@@ -73,7 +73,7 @@ def run(rom_path):
     src = open(VERIFY, encoding="utf-8").read()
     src = src.replace('ROM_OUT = ROOT / "build" / "radicalred_cm.gba"',
                       'ROM_OUT = Path(%r)' % rom_path, 1)
-    path = os.path.join(HERE, "_negtest_verify_roster.py")
+    path = os.path.join(HERE, "_negtest_verify_roster.%d.py" % os.getpid())  # unique per run; gitignored
     open(path, "w", encoding="utf-8").write(src)
     try:
         p = subprocess.run([sys.executable, path], capture_output=True,
