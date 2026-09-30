@@ -87,7 +87,7 @@ EXPECT_CALLEES = frozenset({0x08040b08, 0x081e5e78})
 
 # KNOWN HOLES, listed on purpose. Pinned so a second one cannot arrive silently
 # and the first cannot be quietly downgraded to EXEMPT without a decision.
-EXPECT_UNGATED = frozenset({0x00092fe2})
+EXPECT_UNGATED = frozenset({0x00092fe2, 0x00050828})   # + the link trade, §13.53
 
 # Sites the 2026-09-04 primitive fix removed because they are NOT copies at all.
 # Kept here so the site-count change is explained rather than silently absorbed
@@ -147,7 +147,17 @@ INVENTORY = {
                  "back from gSaveBlock1Ptr. Restores the player's OWN saved "
                  "party after a link/facility swap-out; everything it "
                  "restores was gated when first acquired"),
-    0x00050828: ("UNVERIFIED",
+    0x00050828: ("UNGATED",
+                 "🔴 A KNOWN HOLE, pinned 2026-09-29 (rowe_parity.md §13.53): "
+                 "the LINK trade is REACHABLE in Radical Red. The Cable Club is "
+                 "vanilla (TradeCenter 0x081BB6AB matches vanilla 119/120 bytes "
+                 "with pointers masked, special 0x1D TryTradeLinkup), and the "
+                 "Direct Corner attendant 0x081A8D02 stands on the Pokemon "
+                 "Center 2F maps, reached by stairs. 18 templates hide it under "
+                 "flag 0x1032, set from the randomizer-options menu; template "
+                 "0x083BF0E4 has flag 0. Nothing gates the link caller "
+                 "0x08053DCE. Closing this is §13.53's open gate. Original "
+                 "finding follows. "
                  "TradeMons(playerIdx, partnerIdx) at 0x0805080C -- NOT a "
                  "party slot swap. ⚠️ Until 2026-09-29 this row was EXEMPT "
                  "and said the routine 'computes two gPlayerParty slot "
