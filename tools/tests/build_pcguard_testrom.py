@@ -27,8 +27,12 @@ copied out of this ROM at build time.
 trampoline to the BASE ROM's bytes in the test ROM only: the layer's NEGATIVE
 CONTROL, which must fail (the deposit goes through).
 
-Usage: python3 tools/tests/build_pcguard_testrom.py [--no-guard]
-Writes build/radicalred_cm_pcguard.gba (or ..._pcguard_noguard.gba).
+`--no-link-sweep` restores only the link-trade BL in CB2_SaveAndEndTrade
+(LINK_TRADE_BL_SITE): the negative control for the link-trade sweep layer
+(tools/mgba_scripts/cm_link_trade_sweep_test.lua), which reuses this fixture.
+
+Usage: python3 tools/tests/build_pcguard_testrom.py [--no-guard | --no-link-sweep]
+Writes build/radicalred_cm_pcguard.gba (or ..._noguard / ..._nolinksweep).
 """
 import re
 import struct
@@ -63,6 +67,8 @@ def _inj(name):
 
 def main():
     no_guard = "--no-guard" in sys.argv
+    no_link_sweep = "--no-link-sweep" in sys.argv
+    assert not (no_guard and no_link_sweep), "one negative control at a time"
     sys.path.insert(0, str(ROOT / "tools" / "character_mode"))
     import egg_hook
     import pc_hook
@@ -113,6 +119,14 @@ def main():
         out = OUT.with_name(OUT.stem + "_noguard" + OUT.suffix)
         print("NEGATIVE CONTROL: the guard's BLs, tail and trampoline restored to "
               "the base ROM -- the guard is absent here.")
+
+    if no_link_sweep:
+        o = _inj("LINK_TRADE_BL_SITE")
+        assert d[o:o + 4] != base[o:o + 4], f"{o:#x} is not patched -- run the injector"
+        d[o:o + 4] = base[o:o + 4]
+        out = OUT.with_name(OUT.stem + "_nolinksweep" + OUT.suffix)
+        print("NEGATIVE CONTROL: CB2_SaveAndEndTrade's expand BL restored to the "
+              "base ROM -- the link-trade sweep is absent here.")
 
     restore_stock_console(d)
     out.write_bytes(bytes(d))

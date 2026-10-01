@@ -140,7 +140,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 143  # +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 149  # +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -299,6 +299,10 @@ def main():
                  _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 8),
                 *[(x, x + 4) for x in _pg_sites + (_inj("PSS_CANSHIFT_BL"),
                                                    _inj("PSS_CANSHIFT_TAIL"))],
+                # Link-trade sweep: its trampoline (CheckHeap+8) and one BL.
+                (_inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 8,
+                 _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 16),
+                (_inj("LINK_TRADE_BL_SITE"), _inj("LINK_TRADE_BL_SITE") + 4),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
@@ -1291,6 +1295,40 @@ def main():
     _glits = {struct.unpack_from("<I", _pg_rom, k)[0] for k in range(0, len(_pg_rom) - 3, 4)}
     check("compiled guard carries 0x0809395A, gStorage 0x020397B0, the count routine and BITMAPS_ADDR",
           {0x0809395A, 0x020397B0, _count | 1, BITMAPS_ADDR} <= _glits)
+
+    print("== 19. Link-trade sweep (rowe_parity.md §13.53, 2026-09-30) ==")
+    _lsite = _inj("LINK_TRADE_BL_SITE")
+    _sep = _inj("STRING_EXPAND_PLACEHOLDERS")
+    _lt = _tramp + 8
+    _lto = _lt - 0x08000000
+    _SAVE_END = 0x08053E8C            # CB2_SaveAndEndTrade
+    _case0 = struct.unpack_from("<I", orig, 0x053EB4)[0]   # its jump table, entry 0
+    _c0 = _case0 - 0x08000000
+    # case 0: ...; ldr r4,=gStringVar4; ldr r1,=<text>; b <the expand tail>
+    _c0_text = struct.unpack_from("<I", orig, ((_c0 + 14 + 4) & ~3) + 8)[0]
+    check("base: CB2_SaveAndEndTrade's state 0 loads \"Communication standby\" "
+          "and branches to the BL at the site",
+          _case0 == 0x0805404C and _c0_text == 0x0841E325
+          and bytes(orig[_c0 + 16:_c0 + 18]) == bytes.fromhex("45e0")
+          and decode_bl(bytes(orig[_lsite:_lsite + 4]), 0x08000000 + _lsite) == _sep)
+    check("base: CB2_SaveAndEndTrade has exactly one pointer to it "
+          "(CB2_TryLinkTradeEvolution's pool, 0x080537F8) and no BL callers",
+          find_all(orig, struct.pack("<I", _SAVE_END | 1)) == [0x0537F8]
+          and not _bl_to(orig, _SAVE_END))
+    check(f"base: CheckHeap+8 ({_lt:#x}) is vanilla and nothing branches or points to it",
+          bytes(orig[_lto:_lto + 8]) == bytes.fromhex("2868211c1031fff7")
+          and not _bl_to(orig, _lt)
+          and not find_all(orig, struct.pack("<I", _lt | 1)))
+    check(f"built: the site calls the link trampoline {_lt:#x}",
+          decode_bl(bytes(patched[_lsite:_lsite + 4]), 0x08000000 + _lsite) == _lt)
+    _lshim = int(re.search(r"^([0-9a-f]+) T CM_LinkTradeSweepThenExpand$", _gsym, re.M).group(1), 16)
+    check("link trampoline is ldr r3,[pc]; bx r3 -> CM_LinkTradeSweepThenExpand",
+          bytes(patched[_lto:_lto + 8]) == struct.pack("<HHI", 0x4B00, 0x4718, _lshim | 1))
+    _msym = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "character_mode.elf")],
+                           check=True, capture_output=True, text=True).stdout
+    _sweep = int(re.search(r"^([0-9a-f]+) T CM_SweepPartyToPC$", _msym, re.M).group(1), 16)
+    check("compiled link shim (read from the ROM) calls CM_SweepPartyToPC and StringExpandPlaceholders",
+          {_sweep | 1, _sep | 1} <= _glits)
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

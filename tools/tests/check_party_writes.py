@@ -87,7 +87,7 @@ EXPECT_CALLEES = frozenset({0x08040b08, 0x081e5e78})
 
 # KNOWN HOLES, listed on purpose. Pinned so a second one cannot arrive silently
 # and the first cannot be quietly downgraded to EXEMPT without a decision.
-EXPECT_UNGATED = frozenset({0x00092fe2, 0x00050828})   # + the link trade, §13.53
+EXPECT_UNGATED = frozenset({0x00092fe2})   # the link trade (0x00050828) is GATED since 2026-09-30
 
 # Sites the 2026-09-04 primitive fix removed because they are NOT copies at all.
 # Kept here so the site-count change is explained rather than silently absorbed
@@ -147,7 +147,18 @@ INVENTORY = {
                  "back from gSaveBlock1Ptr. Restores the player's OWN saved "
                  "party after a link/facility swap-out; everything it "
                  "restores was gated when first acquired"),
-    0x00050828: ("UNGATED",
+    0x00050828: ("GATED",
+                 "✅ GATED 2026-09-30 by the post-trade sweep (the user chose "
+                 "'sweep after the trade'): CB2_SaveAndEndTrade 0x08053E8C, the "
+                 "only callback the link trade installs after its animation and "
+                 "evolution, runs CM_LinkTradeSweepThenExpand (src/pc_guard.c) "
+                 "at state 0 through the BL at 0x080540EC, BEFORE "
+                 "LinkFullSave_Init, so the save holds the swept party and a "
+                 "reset cannot undo it. verify_artifacts section 19, "
+                 "link_trade_sweep_negative_test.py 6/6, live "
+                 "run_link_trade_sweep_e2e.sh (Red boxes Poliwag, Misty boxes "
+                 "Pikachu, CM off moves nothing, the no-hook ROM fails). The "
+                 "in-game callers stay gated at the script level. History: "
                  "🔴 A KNOWN HOLE, pinned 2026-09-29 (rowe_parity.md §13.53): "
                  "the LINK trade is REACHABLE in Radical Red. The Cable Club is "
                  "vanilla (TradeCenter 0x081BB6AB matches vanilla 119/120 bytes "

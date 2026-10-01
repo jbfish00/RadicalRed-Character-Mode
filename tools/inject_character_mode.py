@@ -194,6 +194,16 @@ PSS_CANSHIFT_TAIL      = 0x09395A           # lsls r0,#24 ; cmp r0,#0 -> b <epil
 PSS_GUARD_TRAMPOLINE_ADDR = 0x08002BEC      # CheckHeap (unused debug routine)
 PC_GUARD_ADDR          = 0x08CFC000         # src/pc_guard.c: its own unit (the main shim is capped at 1 KB)
 PSS_DEAD_FN_HEAD       = bytes.fromhex("30b508480468051c")
+# Link-trade sweep (src/pc_guard.c CM_LinkTradeSweepThenExpand; rowe_parity.md
+# §13.53, the user's "sweep after the trade" choice, 2026-09-30). The one BL to
+# StringExpandPlaceholders in CB2_SaveAndEndTrade (0x08053E8C), shared by state
+# 0 "Communication standby" and state 2 "Saving", both before LinkFullSave_Init.
+# Its trampoline is the second 8 bytes of CheckHeap (still inside the dead
+# routine, which ends at 0x08002C1B).
+LINK_TRADE_BL_SITE        = 0x0540EC
+STRING_EXPAND_PLACEHOLDERS = 0x08008FCC
+LINK_TRADE_TRAMPOLINE_ADDR = PSS_GUARD_TRAMPOLINE_ADDR + 8
+LINK_TRADE_DEAD_BYTES      = bytes.fromhex("2868211c1031fff7")  # CheckHeap +8..+15
 BL_SITE_LAND_MAIN   = 0x10C2FDA  # inside TryGenerateWildMon (primary)
 BL_SITE_LAND_DOUBLE = 0x10C30CE  # inside TryGenerateWildMon (double battle)
 BL_SITE_FISH_MAIN   = 0x10C3A94  # inside FishingWildEncounter (primary)
@@ -810,6 +820,7 @@ def main():
                     "-Wall", "-Wextra",
                     f"-DNUM_CHARACTERS={num_chars}",
                     f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
+                    f"-DSWEEP_PARTY_ADDR={SWEEP_PARTY | 1:#x}",
                     "-o", str(gobj), str(ROOT / "src" / "pc_guard.c")], check=True)
     subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{PC_GUARD_ADDR:#x}",
                     "--entry", "CM_PSSLastMonGuard", "-o", str(gelf), str(gobj)], check=True)
@@ -844,6 +855,23 @@ def main():
     data[PSS_CANSHIFT_TAIL:PSS_CANSHIFT_TAIL + 4] = struct.pack("<HH", 0xE01E, 0x46C0)
     print(f"PC second guard: IsRemovingLastPartyMon + CanShiftMon -> {PSS_GUARD:#x} "
           f"via {PSS_GUARD_TRAMPOLINE_ADDR:#x} (CheckHeap)")
+
+    # --- Link trade: sweep before the post-trade save ---
+    _ml = re.search(r"^([0-9a-f]+) T CM_LinkTradeSweepThenExpand$", _gsym, re.M)
+    assert _ml, _gsym
+    LINK_TRADE_SHIM = int(_ml.group(1), 16) | 1
+    assert PC_GUARD_ADDR <= (LINK_TRADE_SHIM & ~1) < PC_GUARD_ADDR + len(pc_guard)
+    _t = LINK_TRADE_TRAMPOLINE_ADDR - 0x08000000
+    assert bytes(data[_t:_t + 8]) == LINK_TRADE_DEAD_BYTES, (
+        "CheckHeap+8 is not the dead routine's bytes -- re-derive")
+    data[_t:_t + 8] = struct.pack("<HHI", 0x4B00, 0x4718, LINK_TRADE_SHIM)
+    _cur = bytes(data[LINK_TRADE_BL_SITE:LINK_TRADE_BL_SITE + 4])
+    _exp = thumb_bl(0x08000000 + LINK_TRADE_BL_SITE, STRING_EXPAND_PLACEHOLDERS)
+    assert _cur == _exp, f"link-trade site: {_cur.hex()} != {_exp.hex()}"
+    data[LINK_TRADE_BL_SITE:LINK_TRADE_BL_SITE + 4] = thumb_bl(
+        0x08000000 + LINK_TRADE_BL_SITE, LINK_TRADE_TRAMPOLINE_ADDR)
+    print(f"Link-trade sweep: CB2_SaveAndEndTrade's expand BL -> {LINK_TRADE_SHIM:#x} "
+          f"via {LINK_TRADE_TRAMPOLINE_ADDR:#x} (CheckHeap+8)")
 
     # BL retargets (verify current bytes first)
     for site in (BL_SITE_CATCH, BL_SITE_GIFT):

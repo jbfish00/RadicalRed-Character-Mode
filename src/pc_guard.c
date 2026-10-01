@@ -24,6 +24,9 @@
  *     on-roster mon out for an off-roster one".
  * With Character Mode off, both are exactly vanilla.
  *
+ * Also here (its own unit, near nothing else): CM_LinkTradeSweepThenExpand,
+ * the link-trade sweep at the end of this file.
+ *
  * ⚠️ RR's injector keeps ONLY .text: no statics, no string literals.
  */
 
@@ -36,6 +39,9 @@ typedef unsigned int u32;
 #endif
 #ifndef BITMAPS_ADDR
 #error "compile with -DBITMAPS_ADDR=0x08xxxxxx"
+#endif
+#ifndef SWEEP_PARTY_ADDR
+#error "compile with -DSWEEP_PARTY_ADDR=<CM_SweepPartyToPC | 1, from the main shim>"
 #endif
 
 /* Restated from src/character_mode.c (same ROM, same values). */
@@ -118,4 +124,31 @@ u32 CM_PSSLastMonGuard(u8 slot)
     if (alive != 0 && guarded)
         return 0;
     return alive;
+}
+
+/* ---- Link trade: sweep the party BEFORE the post-trade save (2026-09-30) ----
+ *
+ * The user chose "sweep after the trade" for link trades (rowe_parity.md
+ * §13.53). TradeMons's link caller (0x08053DCE) puts the partner's mon into
+ * the traded slot with nothing gating it. The sweep can't run there: the trade
+ * animation and any trade evolution read that slot afterwards. It also can't
+ * run after the trade's own save, or a reset would skip it.
+ *
+ * CB2_SaveAndEndTrade (0x08053E8C, installed only by CB2_TryLinkTradeEvolution
+ * 0x08053788, directly or as gCB2_AfterEvolution) runs after the animation and
+ * the evolution. Its state 0 ("Communication standby...") and state 2
+ * ("Saving...") share one BL to StringExpandPlaceholders at 0x080540EC, and
+ * both come before LinkFullSave_Init (state 50). That BL comes here through a
+ * trampoline at CheckHeap+8: sweep, then expand exactly as before. The save
+ * then writes the swept party, so a reset can't bring the mon back. The sweep
+ * is idempotent, so running at both states is harmless. With Character Mode
+ * off, CM_SweepPartyToPC returns at once: vanilla. FireRed has no separate
+ * wireless ender. */
+#define StringExpandPlaceholders ((u8 * (*)(u8 *, const u8 *)) 0x08008FCD)
+#define CM_SweepPartyToPC        ((void (*)(void)) SWEEP_PARTY_ADDR)
+
+u8 *CM_LinkTradeSweepThenExpand(u8 *dst, const u8 *src)
+{
+    CM_SweepPartyToPC();
+    return StringExpandPlaceholders(dst, src);
 }
