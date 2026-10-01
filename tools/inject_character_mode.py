@@ -176,6 +176,24 @@ CM_SPRITE_BLOBS_ADDR = 0x08952800   # LZ77 gfx+palette streams, concatenated
 # absolute `callnative` operand, not a relative branch.
 CM_SPRITE_SHIM_ADDR  = 0x08980000
 CREATEWILDMON_ADDR = 0x090C292C  # no Thumb bit, current BL target at all 4 sites
+
+# ROWE's second guard in the PC (src/character_mode.c CM_PSSLastMonGuard;
+# docs/ROUTINE_MAP.md "PC second guard"; rowe_parity.md §13.53). FireRed keeps
+# IsRemovingLastPartyMon as a real function, so exactly two calls to
+# CountPartyAliveNonEggMonsExcept (anchor: special 0x85's wrapper calls it) are
+# retargeted: its own and CanShiftMon's. Both go through one 8-byte trampoline
+# written over CheckHeap, a debug routine vanilla FireRed defines and never
+# calls: in this ROM it is byte-identical to vanilla with no BL callers, no
+# pointer to its entry and no short branch into it (verify_artifacts re-checks
+# all three on the base ROM). 0.6 MB from the sites. ⚠️ NOT a "0xFF run": those
+# turned out to be sprite pixels in the Emerald ports.
+PSS_COUNT_ALIVE_EXCEPT = 0x0808C184
+PSS_GUARD_BL_SITES     = (0x09391A,)        # IsRemovingLastPartyMon: bl Count
+PSS_CANSHIFT_BL        = 0x093956           # CanShiftMon: bl Count
+PSS_CANSHIFT_TAIL      = 0x09395A           # lsls r0,#24 ; cmp r0,#0 -> b <epilogue 0x0809399A> ; nop
+PSS_GUARD_TRAMPOLINE_ADDR = 0x08002BEC      # CheckHeap (unused debug routine)
+PC_GUARD_ADDR          = 0x08CFC000         # src/pc_guard.c: its own unit (the main shim is capped at 1 KB)
+PSS_DEAD_FN_HEAD       = bytes.fromhex("30b508480468051c")
 BL_SITE_LAND_MAIN   = 0x10C2FDA  # inside TryGenerateWildMon (primary)
 BL_SITE_LAND_DOUBLE = 0x10C30CE  # inside TryGenerateWildMon (double battle)
 BL_SITE_FISH_MAIN   = 0x10C3A94  # inside FishingWildEncounter (primary)
@@ -783,6 +801,49 @@ def main():
     splice(WILD_DATA_ADDR, wild_data, "wild-encounter data")
     splice(WILD_LEG_OFFSETS_ADDR, leg_offsets, "legendary-encounter offsets")
     splice(WILD_LEG_DATA_ADDR, leg_data, "legendary-encounter data")
+
+    # --- PC second guard: its own unit, a trampoline over CheckHeap, two BLs,
+    # one tail ---
+    gobj, gelf, gbin = BUILD / "pc_guard.o", BUILD / "pc_guard.elf", BUILD / "pc_guard.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    "-Wall", "-Wextra",
+                    f"-DNUM_CHARACTERS={num_chars}",
+                    f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
+                    "-o", str(gobj), str(ROOT / "src" / "pc_guard.c")], check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{PC_GUARD_ADDR:#x}",
+                    "--entry", "CM_PSSLastMonGuard", "-o", str(gelf), str(gobj)], check=True)
+    _gsec = subprocess.run(["arm-none-eabi-objdump", "-h", str(gelf)], check=True,
+                           capture_output=True, text=True).stdout
+    for _sec in (".rodata", ".data", ".bss"):
+        assert not re.search(rf"^\s*\d+\s+{re.escape(_sec)}\S*\s+0*[1-9a-f]", _gsec, re.M), (
+            f"pc_guard.elf has a non-empty {_sec}: objcopy --only-section=.text "
+            f"would silently drop it")
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(gelf), str(gbin)], check=True)
+    pc_guard = gbin.read_bytes()
+    _gsym = subprocess.run(["arm-none-eabi-nm", str(gelf)], check=True,
+                           capture_output=True, text=True).stdout
+    _mg = re.search(r"^([0-9a-f]+) T CM_PSSLastMonGuard$", _gsym, re.M)
+    assert _mg, _gsym
+    PSS_GUARD = int(_mg.group(1), 16) | 1
+    assert PC_GUARD_ADDR <= (PSS_GUARD & ~1) < PC_GUARD_ADDR + len(pc_guard)
+    splice(PC_GUARD_ADDR, pc_guard, "PC second-guard code")
+    _t = PSS_GUARD_TRAMPOLINE_ADDR - 0x08000000
+    assert bytes(data[_t:_t + 8]) == PSS_DEAD_FN_HEAD, (
+        "CheckHeap is not at %#x -- re-derive before overwriting it"
+        % PSS_GUARD_TRAMPOLINE_ADDR)
+    data[_t:_t + 8] = struct.pack("<HHI", 0x4B00, 0x4718, PSS_GUARD)
+    for _site in PSS_GUARD_BL_SITES + (PSS_CANSHIFT_BL,):
+        _cur = bytes(data[_site:_site + 4])
+        _exp = thumb_bl(0x08000000 + _site, PSS_COUNT_ALIVE_EXCEPT)
+        assert _cur == _exp, f"PC guard site {_site:#x}: {_cur.hex()} != {_exp.hex()}"
+        data[_site:_site + 4] = thumb_bl(0x08000000 + _site, PSS_GUARD_TRAMPOLINE_ADDR)
+    _cur = bytes(data[PSS_CANSHIFT_TAIL:PSS_CANSHIFT_TAIL + 4])
+    assert _cur == bytes.fromhex("00060028"), f"CanShiftMon tail: {_cur.hex()}"
+    data[PSS_CANSHIFT_TAIL:PSS_CANSHIFT_TAIL + 4] = struct.pack("<HH", 0xE01E, 0x46C0)
+    print(f"PC second guard: IsRemovingLastPartyMon + CanShiftMon -> {PSS_GUARD:#x} "
+          f"via {PSS_GUARD_TRAMPOLINE_ADDR:#x} (CheckHeap)")
 
     # BL retargets (verify current bytes first)
     for site in (BL_SITE_CATCH, BL_SITE_GIFT):

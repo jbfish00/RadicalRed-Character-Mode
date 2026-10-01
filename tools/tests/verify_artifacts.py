@@ -140,7 +140,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 135  # +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 143  # +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -286,7 +286,19 @@ def main():
     msend = msoff
     while not all(b == 0xFF for b in patched[msend:msend + 64]):
         msend += 64
+    _pg_bin = (ROOT / "build" / "pc_guard.bin").read_bytes()
+    _pg_sites = tuple(int(x, 16) for x in re.findall(
+        r"0x[0-9A-Fa-f]+", re.search(r"^PSS_GUARD_BL_SITES\s*=\s*\(([^)]*)\)",
+                                     _INJ_TXT, re.M).group(1)))
     intended = [(SHIM_ADDR - 0x08000000, SHIM_ADDR - 0x08000000 + shim_len),
+                # PC second guard: its own unit, the trampoline over CheckHeap,
+                # two retargeted BLs and CanShiftMon's tail.
+                (_inj("PC_GUARD_ADDR") - 0x08000000,
+                 _inj("PC_GUARD_ADDR") - 0x08000000 + len(_pg_bin)),
+                (_inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000,
+                 _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 8),
+                *[(x, x + 4) for x in _pg_sites + (_inj("PSS_CANSHIFT_BL"),
+                                                   _inj("PSS_CANSHIFT_TAIL"))],
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
@@ -1232,6 +1244,53 @@ def main():
         check(f"battle marker compiled MARKER_STRIDE={_fp['battle marker'][4]}: "
               f"x{NUM_CHARS} == marker_strings.bin ({len(_fp_mk)} B)",
               _fp["battle marker"][4] * NUM_CHARS == len(_fp_mk))
+
+    print("== 18. PC second guard (ROWE's IsRemovingLastAllowedPartyMon) ==")
+    _count = _inj("PSS_COUNT_ALIVE_EXCEPT")
+    _tramp = _inj("PSS_GUARD_TRAMPOLINE_ADDR")
+    _canbl, _tail = _inj("PSS_CANSHIFT_BL"), _inj("PSS_CANSHIFT_TAIL")
+    _pgaddr = _inj("PC_GUARD_ADDR")
+    _t = _tramp - 0x08000000
+
+    def _bl_to(rom, target):
+        out = []
+        for _m in re.finditer(rb"(?=[\x00-\xff][\xf0-\xf7][\x00-\xff][\xf8-\xff])", rom, re.S):
+            o = _m.start()
+            if not o & 1 and decode_bl(bytes(rom[o:o + 4]), 0x08000000 + o) == target:
+                out.append(o)
+        return out
+    # The trampoline overwrites CheckHeap: safe only while nothing calls it.
+    check(f"base: CheckHeap at {_tramp:#x} is vanilla (30b508480468051c)",
+          bytes(orig[_t:_t + 8]) == bytes.fromhex("30b508480468051c"))
+    check("base: CheckHeap has no BL callers and no pointer to its entry",
+          not _bl_to(orig, _tramp)
+          and not find_all(orig, struct.pack("<I", _tramp | 1))
+          and not find_all(orig, struct.pack("<I", _tramp)))
+    _w = struct.unpack_from("<I", orig, 0x15FD60 + 4 * 0x85)[0] & ~1
+    check(f"base: special 0x85's wrapper calls CountPartyAliveNonEggMonsExcept {_count:#x}",
+          any(decode_bl(bytes(orig[_w - 0x08000000 + k:_w - 0x08000000 + k + 4]), _w + k) == _count
+              for k in range(0, 12, 2)))
+    _sites = _pg_sites + (_canbl,)
+    check(f"base: both guard sites call {_count:#x}; built: both call the trampoline",
+          all(decode_bl(bytes(orig[x:x + 4]), 0x08000000 + x) == _count for x in _sites)
+          and all(decode_bl(bytes(patched[x:x + 4]), 0x08000000 + x) == _tramp for x in _sites))
+    _gsym = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "pc_guard.elf")],
+                           check=True, capture_output=True, text=True).stdout
+    _guard = int(re.search(r"^([0-9a-f]+) T CM_PSSLastMonGuard$", _gsym, re.M).group(1), 16)
+    check("trampoline is ldr r3,[pc]; bx r3 -> CM_PSSLastMonGuard",
+          bytes(patched[_t:_t + 8]) == struct.pack("<HHI", 0x4B00, 0x4718, _guard | 1))
+    check("CanShiftMon tail: lsls; cmp  ->  b <epilogue 0x0809399A> ; nop",
+          bytes(orig[_tail:_tail + 4]) == bytes.fromhex("00060028")
+          and bytes(patched[_tail:_tail + 4]) == struct.pack("<HH", 0xE01E, 0x46C0))
+    _go = _pgaddr - 0x08000000
+    check("pc_guard code in ROM == pc_guard.bin",
+          bytes(patched[_go:_go + len(_pg_bin)]) == _pg_bin)
+    # Read from the BUILT ROM, not pc_guard.bin: the negative test's case 5
+    # bends this literal in the ROM, and a check on the .bin cannot see it.
+    _pg_rom = bytes(patched[_go:_go + len(_pg_bin)])
+    _glits = {struct.unpack_from("<I", _pg_rom, k)[0] for k in range(0, len(_pg_rom) - 3, 4)}
+    check("compiled guard carries 0x0809395A, gStorage 0x020397B0, the count routine and BITMAPS_ADDR",
+          {0x0809395A, 0x020397B0, _count | 1, BITMAPS_ADDR} <= _glits)
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

@@ -103,12 +103,14 @@ negcase "selfcontained negtest: control"      tools/tests/check_repo_selfcontain
 negcase "selfcontained negtest: drift fails"  tools/tests/check_repo_selfcontained_negative_test.py 99999 1
 negcase "roster-display negtest: control"     tools/tests/roster_display_negative_test.py           ""    0
 negcase "roster-display negtest: drift fails" tools/tests/roster_display_negative_test.py           99999 1
+negcase "pc-guard negtest: control"           tools/tests/pc_guard_negative_test.py                 ""    0
+negcase "pc-guard negtest: drift fails"       tools/tests/pc_guard_negative_test.py                 99999 1
 
 # ⚠️ This file printed "$pass/$pass PASS" -- a total computed from what it
 # actually ran, so deleting cases reported a smaller number, still green (the
 # rowe_parity.md §13.46 defect). Pinned to a literal 2026-09-27, when the
 # roster display's cases were added.
-EXPECT_GUARD_CASES=${CM_EXPECT_GUARD_CASES:-18}
+EXPECT_GUARD_CASES=${CM_EXPECT_GUARD_CASES:-20}   # +2: pc-guard negtest (2026-09-29)
 if [ "$pass" != "$EXPECT_GUARD_CASES" ]; then
     echo "checker guard test: ran $pass passing cases, expected $EXPECT_GUARD_CASES --" \
          "a changed count is a regression until a human says otherwise"
