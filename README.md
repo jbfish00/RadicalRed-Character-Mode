@@ -115,11 +115,16 @@ their internal slot, so a save that already selected one still works.
 
 ## Known limitations
 
-- Your **overworld sprite and trainer card are unchanged** — you still look
-  like the stock player character. Only the selection screen shows your
-  character's portrait. This is deliberate: the patch touches none of the
-  game's own art tables, so real opponents' sprites are never swapped.
-- 54 of the 210 offered characters have no portrait yet.
+- **Overworld sprite.** 11 characters that Radical Red's own bedroom wardrobe
+  already dresses (Lucas, N, Ethan/"Gold", Alain, Nate, Lyra, Serena, Geeta,
+  Cynthia, Cyrus, Marnie) put that full costume on when you activate them:
+  walking, biking, surfing, fishing, battle back sprite and trainer card. 155
+  more get their own sprite while **walking and running only**; on a bike, when
+  surfing or fishing they use the stock player sprite, because their sprite
+  sheets have no frames for those. The rest (including Red, Leaf, Brendan, May
+  and Hilbert) keep the stock player sprite. The wardrobe still works and can
+  change your look afterwards. No opponent's sprite is ever touched.
+- 41 of the 210 offered characters have no portrait yet.
 
 (In-game trades ARE enforced: Radical Red v4.1 has exactly one live in-game
 trade — the Eternal Flower Floette console. It politely refuses while

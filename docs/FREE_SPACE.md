@@ -30,3 +30,9 @@ Run against `rom/radicalred 4.1.gba` (SHA1 `964f951a0fdaf209e4ea1344883ef0d557bb
 **Free space is not a bottleneck for this project.** 5.40 MiB of confirmed 0xFF-padding free space is over 3.5x what Unbound-Character-Mode had (~1.46 MiB), despite Radical Red having considerably denser game content (full Gen 1-9 species/moves, Mega Evolution, Z-Moves, Dynamax/Gigantamax, physical-special split). The two largest blocks alone (0x00B71D04, 1.63 MiB and 0x0085032B, ~1.02 MiB) comfortably exceed all of Unbound's combined free space and are the primary candidates for the roster data tables and injected enforcement code once Phase 1's hook-site RE is further along.
 
 This resolves the plan's open risk #1 ("free space unmeasured for Radical Red — could be tighter than Unbound's") favorably.
+
+## Usage note (2026-10-02)
+
+The overworld avatars (`rr_ow_player.py`) occupy `0x08B72000`–`0x08C80000`,
+the head of the 0xB71D04 block below the shim; the injector asserts the blob
+ends before `SHIM_ADDR`. Details: `docs/ROUTINE_MAP.md`, "Overworld avatars".

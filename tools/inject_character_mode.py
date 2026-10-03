@@ -5,6 +5,8 @@ Pipeline (all addresses CONFIRMED in docs/ROUTINE_MAP.md, pinned to rom.sha1):
   1. Compile src/character_mode.c (the GiveMonToPlayer gate shim) with
      arm-none-eabi-gcc, linked at SHIM_ADDR.
   2. Splice into a ROM copy:
+       overworld sheets     @ OW_PLAYER_ADDR (0x08B72000, below the shim;
+                              rr_ow_player.py, 2026-10-02)
        shim code            @ SHIM_ADDR    (0x08C80000)
        rosters_expanded.bin @ BITMAPS_ADDR (0x08C80400)
        selection script ext @ SCRIPT_ADDR  (0x08C90000)

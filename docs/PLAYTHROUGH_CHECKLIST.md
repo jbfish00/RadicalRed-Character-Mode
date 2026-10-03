@@ -186,11 +186,20 @@ Nothing here should differ from stock Radical Red — flag anything that does:
       cycles.
 - [ ] **8.3** RR systems untouched by the patch behave normally: level caps, boss
       fights, DexNav, shops, day-care, move relearner.
-- [ ] **8.4** **Character mugshots are installed** (156 of the 210 offered
-      characters have one) and appear **only** at the selection console. The
-      player's overworld sprite and trainer card are **stock** — the patch
-      deliberately touches no engine art table, so real opponents' sprites must be
-      unchanged all run. A wrong trainer sprite in any battle is a serious bug.
+- [ ] **8.4** **Character mugshots are installed** (169 of the 210 offered
+      characters have one) and appear **only** at the selection console. Real
+      opponents' sprites must be unchanged all run. A wrong trainer sprite in
+      any battle is a serious bug.
+- [ ] **8.5** **Overworld avatar (new 2026-10-02).** After activating, the
+      bedroom reloads and you stand on the same tile. A wardrobe character
+      (Lucas, N, Ethan, Alain, Nate, Lyra, Serena, Geeta, Cynthia, Cyrus,
+      Marnie) wears RR's costume in every state: walk, run, bike, surf,
+      fishing, Vs Seeker, battle back sprite, trainer card. Any other character
+      with a sheet (e.g. Misty, Mars) shows their own sprite **walking and
+      running in all four directions** (running sideways must show their side,
+      not their back) and the stock player on a bike, surfing and fishing. Red,
+      Leaf, Brendan, May, Hilbert and characters without a sheet (e.g. Paul)
+      look stock. Check that NPCs and opponents never change.
 
 ## 9. Sign-off
 

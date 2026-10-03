@@ -505,3 +505,32 @@ CFRU relocates are read through its redirect slots:
   - `run_roster_e2e.sh`: roster 11/11 as Misty (char 10), no 2/2, off 2/2,
     plus a negative control that fails when the console isn't repointed
   - egg/PC e2e, boot smoke and the mugshot render test are green on `75ea333a`
+
+
+## Overworld avatars (2026-10-02): ✅ SHIPPED, LIVE
+
+Measured on the base ROM; `tools/character_mode/rr_costumes.py` and
+`rr_ow_player.py` assert each of these before building.
+
+| what | address | notes |
+|---|---|---|
+| CFRU `GetCustomGraphicsIdByState` literal pool | `0x0907E4E4` | per-state avatar vars `0x501F` walk/run, `0x5020` bike, `0x5021` surf, `0x5022` field move, `0x5023` fishing, `0x5024` Vs Seeker on bike, `0x5025` underwater, `0x503D` Vs Seeker; a non-zero var replaces the gender default |
+| other costume vars | — | `0x5006` battle back sprite, `0x5026`/`0x5027` trainer card |
+| overworld graphics lookup | `0x0907E500` | 16-bit ids; the HIGH byte picks a table from the switcher |
+| table switcher | `0x091468CC` | slots 0–2 are RR's; **slot 3 was NULL** and now points at our table (ids `0x300+k`) |
+| Lucas's walk info (template for 16×32) | table 1 entry `0xE1` | anims = FireRed player walk/run `0x083A3470`, 20 frames |
+| Lucas's bike info (oam/subsprites for 32×32) | table 1 entry `0xE4` | |
+| `sObjectEventSpritePalettes` | `0x0835CCC8` | 451 `{data, tag}` entries ending at tag `0x11FF`; copied and extended with tags `0x1400+k` |
+| palette-table readers | `0x0805F4D8`, `0x0805F570`, `0x0805F5C8` | the only three literals; all repointed |
+| wardrobe script | `0x01051E8D`–`0x01052A00` (file) | decoded for the 12 costumes; each block ends `warpmuted 4,1` |
+| blob | `0x08B72000`–`0x08C80000` | 155 sheets + infos + palette table, inside the 0xB71D04 free run, ending at the shim |
+
+⚠️ **Run frames differ.** FireRed's run anims group stand+step+step per
+direction (south 9–11, north 12–14, west 15–17); pokeemerald's put the three
+stands at 9–11 and the steps after. `FRAME_MAP` remaps; a straight copy showed
+the player's back while running sideways. Frames 18–19 (RR's extra
+down-facing pose) point at frame 0.
+
+Activation tail: the costume `setvar` run, then `getplayerxy 0x8004 0x8005`,
+`warpmuted 4,1,0xFF,0x8004,0x8005` (x/y go through `VarGet`), `release`, `end`.
+Live: `tools/tests/run_costume_e2e.sh` (5 cases, 2 negative controls).
