@@ -232,7 +232,21 @@ ROSTER_SCRIPT_ADDR = 0x08CFA000   # the console pre-entry + its prompt
 CONSOLE_BG_PTR_OFF = 0x721C88
 CONSOLE_SCRIPT     = 0x0905006F
 VAR_CHARACTER_ID    = 0x51FD
-
+# Overworld sprite (2026-10-02): a character whose costume Radical Red itself
+# ships in the bedroom wardrobe gets that costume on activation -- RR's own
+# setvar run, read from the base ROM by tools/character_mode/rr_costumes.py, then
+# the same bedroom reload RR's wardrobe does (warpmuted 4,1), but to the
+# player's OWN tile (warp 0xFF + getplayerxy into 0x8004/0x8005; RR's warpmuted
+# VarGets both coordinates) so they stay at the console. Map 4.1 is the only
+# place activation runs: the console BG event is the chain's only entry.
+BEDROOM_MAP = (4, 1)
+# Walk/run sprites for every other character with a player-grade sheet
+# (tools/character_mode/rr_ow_player.py): RR's overworld table slot 3, the
+# palette table copy and the sheets, in the documented 1.63 MiB free run below
+# the CM block (FREE_BLOCK_END).
+OW_PLAYER_ADDR = 0x08B72000
+OW_PLAYER_END = 0x08C80000           # SHIM_ADDR: the sheets must stop before it
+VAR_COSTUME_X, VAR_COSTUME_Y = 0x8004, 0x8005
 # --- helpers ---
 
 def load_charmap():
@@ -281,6 +295,9 @@ def op_clearflag(f):        return bytes([0x2A]) + struct.pack("<H", f)
 def op_callstd(n):          return bytes([0x09, n])
 def op_callnative(addr):    return bytes([0x23]) + struct.pack("<I", addr)
 def op_release():           return bytes([0x6C])
+def op_getplayerxy(vx, vy): return bytes([0x42]) + struct.pack("<HH", vx, vy)
+def op_warpmuted(bank, num, warp, x, y):
+    return bytes([0x3A, bank, num, warp]) + struct.pack("<HH", x, y)
 def op_end():               return bytes([0x02])
 def op_givepokemon(species, level, item=0):
     return bytes([0x79]) + struct.pack("<HBH", species, level, item) + bytes(9)
@@ -625,6 +642,35 @@ def main():
                       + op_callnative(0)   # the activation party sweep
                       + op_callnative(0) + op_loadword(0) + op_callstd(6)
                       + op_callnative(0) + op_release() + op_end())
+    # A costume character's handler ends `goto <its costume tail>` (5 B) in
+    # place of `release; end` (2 B); the tails follow the handlers.
+    from character_mode.rr_costumes import costumes, costume_for_character
+    _costume_table = costumes()
+    char_costume = [costume_for_character(c["character"], _costume_table)
+                    for _, c in selectable]
+    # The rest get their own walk/run sprite where a sheet is staged: the same
+    # tail, with a synthetic run (walk/run = the new id, every other costume
+    # var cleared to the gender default).
+    from character_mode import rr_ow_player
+    ow_blob, ow_ids, ow_patches = rr_ow_player.build(
+        data, [c["character"] for j, (_, c) in enumerate(selectable) if not char_costume[j]],
+        OW_PLAYER_ADDR)
+    assert OW_PLAYER_ADDR + len(ow_blob) <= OW_PLAYER_END, (
+        f"overworld sheets ({len(ow_blob):,} B) run into the CM block")
+    for j, (_, c) in enumerate(selectable):
+        if not char_costume[j] and c["character"] in ow_ids:
+            gid = ow_ids[c["character"]]
+            char_costume[j] = {"walk": gid, "sets": rr_ow_player.avatar_sets(gid),
+                               "walk_only": True}
+    H_COSTUME_EXTRA = len(op_goto(0)) - len(op_release() + op_end())
+    def costume_tail(c):
+        b = bytearray()
+        for var, val in c["sets"]:
+            b += op_setvar(var, val)
+        b += op_getplayerxy(VAR_COSTUME_X, VAR_COSTUME_Y)
+        b += op_warpmuted(*BEDROOM_MAP, 0xFF, VAR_COSTUME_X, VAR_COSTUME_Y)
+        b += op_release() + op_end()
+        return bytes(b)
 
     chain_addr = SCRIPT_ADDR
     handlers_addr = chain_addr + chain_size
@@ -634,9 +680,14 @@ def main():
         h_addrs[code] = cur
         cur += H_OFF_SIZE if kind == "off" else H_GIVE_SIZE
     char_h_addrs = []
-    for _ in selectable:
+    for j in range(len(selectable)):
         char_h_addrs.append(cur)
-        cur += H_CHAR_SIZE
+        cur += H_CHAR_SIZE + (H_COSTUME_EXTRA if char_costume[j] else 0)
+    costume_tail_addrs = {}
+    for j in range(len(selectable)):
+        if char_costume[j]:
+            costume_tail_addrs[j] = cur
+            cur += len(costume_tail(char_costume[j]))
     strings_addr = cur
 
     # strings: debug code names + messages, alias names, per-char messages
@@ -701,15 +752,37 @@ def main():
         blob += op_loadword(str_addrs[f"msg:{j}"])
         blob += op_callstd(6)
         blob += op_callnative(HIDE_MUGSHOT)
-        blob += op_release() + op_end()
+        if char_costume[j]:
+            blob += op_goto(costume_tail_addrs[j])
+        else:
+            blob += op_release() + op_end()
+    for j in sorted(costume_tail_addrs):
+        assert SCRIPT_ADDR + len(blob) == costume_tail_addrs[j]
+        blob += costume_tail(char_costume[j])
     assert SCRIPT_ADDR + len(blob) == strings_addr
     blob += strings
+    # What each activation is meant to wear, for the live layer
+    # (tools/tests/run_costume_e2e.sh) -- which resolves the ids through the
+    # BUILT ROM's own overworld tables rather than trusting this file for that.
+    (BUILD / "avatar_manifest.json").write_text(json.dumps({
+        c["character"]: {"walk": char_costume[j]["walk"] if char_costume[j] else 0,
+                         "kind": ("none" if not char_costume[j] else
+                                  "walk_only" if char_costume[j].get("walk_only") else "costume")}
+        for j, (_, c) in enumerate(selectable)}, indent=1))
+    _worn = [j for j in sorted(costume_tail_addrs) if not char_costume[j].get("walk_only")]
+    print(f"overworld costumes: {len(_worn)} characters wear RR's own "
+          f"({', '.join(selectable[j][1]['character'] for j in _worn)}); "
+          f"{len(ow_ids)} more get a walk/run sprite ({len(ow_blob):,} B @ {OW_PLAYER_ADDR:#x})")
     print(f"script extension: {len(blob)} bytes @ {SCRIPT_ADDR:#x} "
           f"({n_checks} codes: {len(debug_codes)} debug + {len(selectable)} "
           f"selectable characters; {len(hidden)} hidden)")
 
     # --- 3. splice + patch ---
     spliced = []
+    # the overworld word patches: switcher slot 3 and the palette-table literals
+    for _off, _old, _new in ow_patches:
+        assert struct.unpack_from("<I", data, _off)[0] == _old, (hex(_off), _old)
+        struct.pack_into("<I", data, _off, _new)
 
     def splice(rom_addr, payload, label):
         off = rom_addr - 0x08000000
@@ -728,6 +801,7 @@ def main():
         data[off:off + len(payload)] = payload
 
     splice(SHIM_ADDR, shim, "shim")
+    splice(OW_PLAYER_ADDR, ow_blob, "overworld walk sprites")
     splice(BITMAPS_ADDR, bitmaps, "bitmaps")
     splice(SCRIPT_ADDR, blob, "script")
     splice(WILD_SHIM_ADDR, wild_shim, "wild-encounter shim")

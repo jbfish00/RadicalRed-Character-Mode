@@ -129,6 +129,11 @@ ROSTER_NAME_STRIDE = _inj("ROSTER_NAME_STRIDE")
 ROSTER_MENU_ADDR = _inj("ROSTER_MENU_ADDR")
 ROSTER_SCRIPT_ADDR = _inj("ROSTER_SCRIPT_ADDR")
 ROSTER_SCRIPT_WINDOW = 0x100
+OW_PLAYER_ADDR = _inj("OW_PLAYER_ADDR")
+OW_PLAYER_END = _inj("OW_PLAYER_END")
+# The word patches the walk sprites need, restated here on purpose: switcher
+# slot 3 and the three literals that read sObjectEventSpritePalettes.
+OW_WORD_PATCHES = (0x011468D8, 0x0005F4D8, 0x0005F570, 0x0005F5C8)
 _ROOTS = json.loads((HERE.parent / "character_mode" / "roster_roots_manifest.json").read_text())
 CONSOLE_BG_PTR_OFF = 0x721C88
 CONSOLE_SCRIPT = 0x0905006F
@@ -140,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 149  # +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 153  # +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -356,7 +361,9 @@ def main():
                  + len((ROOT / "build" / "roster_display.bin").read_bytes())),
                 (ROSTER_SCRIPT_ADDR - 0x08000000,
                  ROSTER_SCRIPT_ADDR - 0x08000000 + ROSTER_SCRIPT_WINDOW),
-                (CONSOLE_BG_PTR_OFF, CONSOLE_BG_PTR_OFF + 4)]
+                (CONSOLE_BG_PTR_OFF, CONSOLE_BG_PTR_OFF + 4),
+                (OW_PLAYER_ADDR - 0x08000000, OW_PLAYER_END - 0x08000000),
+                *[(o, o + 4) for o in OW_WORD_PATCHES]]
     stray = []
     i = 0
     n = len(orig)
@@ -504,6 +511,13 @@ def main():
         hidden_chars = [(i, c) for i, c in enumerate(chars) if c.get("hidden")]
         bad_alias = bad_handler = 0
         show_ops, hide_ops, sweep_ops = set(), set(), set()
+        # Overworld costumes (2026-10-02): RR's own wardrobe costumes, read from
+        # the BASE ROM, for the characters RR ships one for.
+        sys.path.insert(0, str(ROOT / "tools"))
+        from character_mode.rr_costumes import costumes, costume_for_character
+        _cos_table = costumes(orig)
+        costume_ok, costume_bad = [], []
+        walk_only = {}
         chain_aliases = set()
         for j, (i, c) in enumerate(selectable):
             saddr, haddr = checks_parsed[3 + j]
@@ -524,8 +538,37 @@ def main():
             # it, a party holding only an off-roster mon hits the never-empty
             # rule and nothing is boxed -- a silent no-op. Decoding positionally
             # is what makes a reordering edit fail here.
-            h = rd(haddr, 48)
-            ok = (h[0] == 0x16 and struct.unpack_from("<HH", h, 1) == (VAR_ID, i + 1)
+            h = rd(haddr, 51)
+            _cos = costume_for_character(c["character"], _cos_table)
+            if _cos:
+                # `goto` a tail that is RR's setvar run verbatim, then reloads the
+                # bedroom AT THE PLAYER'S OWN TILE (warp 0xFF, coordinates VarGet'd
+                # from the vars getplayerxy just filled).
+                _want = b"".join(bytes([0x16]) + struct.pack("<HH", v, x) for v, x in _cos["sets"])
+                _want += bytes([0x42]) + struct.pack("<HH", 0x8004, 0x8005)
+                _want += bytes([0x3A, 4, 1, 0xFF]) + struct.pack("<HH", 0x8004, 0x8005)
+                _want += bytes([0x6C, 0x02])
+                _tail_ok = (h[46] == 0x05
+                            and rd(struct.unpack_from("<I", h, 47)[0], len(_want)) == _want)
+                (costume_ok if _tail_ok else costume_bad).append(c["character"])
+            elif h[46] == 0x05:
+                # a walk/run sprite: setvar 0x501F <table-3 id>, every other
+                # costume var cleared, then the same bedroom reload
+                _tgt = struct.unpack_from("<I", h, 47)[0]
+                _w = struct.unpack_from("<H", rd(_tgt, 5), 3)[0]
+                _clear = (0x5020, 0x5021, 0x5022, 0x5023, 0x5024, 0x5025, 0x503D,
+                          0x5006, 0x5026, 0x5027)
+                _want = bytes([0x16]) + struct.pack("<HH", 0x501F, _w)
+                _want += b"".join(bytes([0x16]) + struct.pack("<HH", v, 0) for v in _clear)
+                _want += bytes([0x42]) + struct.pack("<HH", 0x8004, 0x8005)
+                _want += bytes([0x3A, 4, 1, 0xFF]) + struct.pack("<HH", 0x8004, 0x8005)
+                _want += bytes([0x6C, 0x02])
+                _tail_ok = (_w >> 8) == 3 and rd(_tgt, len(_want)) == _want
+                if _tail_ok:
+                    walk_only[c["character"]] = _w
+            else:
+                _tail_ok = h[46] == 0x6C and h[47] == 0x02   # release; end
+            ok = _tail_ok and (h[0] == 0x16 and struct.unpack_from("<HH", h, 1) == (VAR_ID, i + 1)
                   and h[5] == 0x29 and struct.unpack_from("<H", h, 6)[0] == FLAG_CM
                   and h[8] == 0x79
                   and struct.unpack_from("<H", h, 9)[0] == c["roster_species_ids"][0]
@@ -534,9 +577,7 @@ def main():
                   and h[28] == 0x23   # callnative CM_ShowCharacterMugshot
                   and h[33] == 0x0F   # loadword msg
                   and h[39] == 0x09   # callstd (blocks until the box is dismissed)
-                  and h[41] == 0x23   # callnative CM_HideCharacterMugshot
-                  and h[46] == 0x6C   # release
-                  and h[47] == 0x02)  # end
+                  and h[41] == 0x23)  # callnative CM_HideCharacterMugshot
             if ok:
                 sweep_ops.add(struct.unpack_from("<I", h, 24)[0])
                 show_ops.add(struct.unpack_from("<I", h, 29)[0])
@@ -551,6 +592,64 @@ def main():
         check(f"all {len(selectable)} handlers: setvar TABLE index, setflag, "
               "givepokemon(signature, L5), show-mugshot, msgbox, hide-mugshot",
               bad_handler == 0, f"{bad_handler} mismatches")
+        # A LITERAL, not len(costume_ok): RR's wardrobe has 12 costumes and 11
+        # are Character Mode characters (Elaine is not one). A parser or alias
+        # regression changes this count instead of silently shrinking the set.
+        check("11 costume characters' handlers goto RR's own costume run + a bedroom "
+              "reload at the player's tile (Ethan wears 'Gold')",
+              len(costume_ok) == 11 and not costume_bad and "Ethan" in costume_ok,
+              f"ok {costume_ok} bad {costume_bad}")
+
+        # Walk/run sprites (tools/character_mode/rr_ow_player.py), checked by
+        # resolving each id through the BUILT ROM's own lookup and comparing
+        # every frame with the staged sheet.
+        # FireRed run frames are stand+step+step per direction; the sheets are
+        # pokeemerald's (three stands, then the steps). Restated, not imported.
+        _FMAP = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 10, 14, 15, 11, 16, 17, 0, 0]
+        _ow_man = json.loads((ROOT / "sprites" / "ow_player" / "manifest.json").read_text())["characters"]
+        _sw3 = struct.unpack_from("<I", patched, 0x011468D8)[0]
+        _pt = struct.unpack_from("<I", patched, 0x0005F4D8)[0]
+        _pals, _o = {}, _pt - 0x08000000
+        while True:
+            _pp, _tg = struct.unpack_from("<IH", patched, _o)
+            _pals[_tg] = _pp
+            if _tg == 0x11FF:
+                break
+            _o += 8
+        _orig_n = 451
+        _bad_ow = []
+        for _name, _w in walk_only.items():
+            _e = _ow_man.get(_name)
+            _info = struct.unpack_from("<I", patched, _sw3 - 0x08000000 + (_w & 0xFF) * 4)[0]
+            _i = patched[_info - 0x08000000:_info - 0x08000000 + 0x24]
+            _tag, _size, _wd, _ht = struct.unpack_from("<H", _i, 2)[0], *struct.unpack_from("<Hhh", _i, 6)
+            _imgs = struct.unpack_from("<I", _i, 0x1C)[0] - 0x08000000
+            _sheet = (ROOT / "sprites" / "ow_player" / f"{_e['stem']}.4bpp").read_bytes() if _e else b""
+            _gbapal = (ROOT / "sprites" / "ow_player" / f"{_e['stem']}.gbapal").read_bytes() if _e else b""
+            _fb = (_e["width"] * _e["height"] // 2) if _e else 0
+            _ok = (_e is not None and (_wd, _ht) == (_e["width"], _e["height"]) and _size == _fb
+                   and _tag in _pals and patched[_pals[_tag] - 0x08000000:_pals[_tag] - 0x08000000 + 32] == _gbapal
+                   and struct.unpack_from("<I", _i, 0x18)[0] == 0x083A3470)     # FireRed player walk/run anims
+            for _f, _src in enumerate(_FMAP if _ok else []):
+                _d, _sz = struct.unpack_from("<IH", patched, _imgs + _f * 8)
+                if _sz != _fb or patched[_d - 0x08000000:_d - 0x08000000 + _fb] != _sheet[_src * _fb:(_src + 1) * _fb]:
+                    _ok = False
+                    break
+            if not _ok:
+                _bad_ow.append(_name)
+        # LITERALS: 155 walk-only characters; RR's 451 palettes kept in order.
+        check("155 walk/run sprites resolve through switcher slot 3 to the staged sheets, "
+              "FireRed run order, own palettes",
+              len(walk_only) == 155 and not _bad_ow
+              and OW_PLAYER_ADDR <= _sw3 < OW_PLAYER_END, f"{len(walk_only)} found, bad {_bad_ow[:5]}")
+        _orig_pals = orig[0x35CCC8:0x35CCC8 + _orig_n * 8]
+        check("the palette table is RR's 451 entries verbatim + ours + the 0x11FF terminator, "
+              "and all three readers point at it",
+              patched[_pt - 0x08000000:_pt - 0x08000000 + _orig_n * 8] == _orig_pals
+              and len(_pals) == _orig_n + 155 + 1
+              and all(struct.unpack_from("<I", patched, o)[0] == _pt for o in OW_WORD_PATCHES[1:])
+              and all(struct.unpack_from("<I", orig, o)[0] == 0x0835CCC8 for o in OW_WORD_PATCHES[1:])
+              and struct.unpack_from("<I", orig, 0x011468D8)[0] == 0)
         # One sweep native, shared by every handler, inside the shim and not
         # the same address as either mugshot op.
         check(f"every handler calls the same activation sweep, once, after the "
@@ -1174,6 +1273,11 @@ def main():
     check("roster_display.elf has nothing outside .text (objcopy keeps only .text)",
           [n for n, sz in _secs if int(sz, 16) and not n.startswith(".text")
            and n not in (".comment", ".ARM.attributes")] == [], str(_secs))
+    # The roots-only hint (user ruling 2026-10-02): the string AND a header
+    # window tall enough to show its second line, read from the ROM's code.
+    _hint = bytes(_k for _ch in "Evolutions count too." for _k, _v in cmap.items() if _v == _ch) + b"\xff"
+    check("compiled roster code holds the 'Evolutions count too.' hint and a 4-row header window",
+          _hint in _rd_code and bytes([0, 1, 1, 18, 4, 15]) in _rd_code, _hint.hex())
     _lits = {struct.unpack_from("<I", _rd_code, i)[0] for i in range(0, len(_rd_code) - 3, 4)}
     _hws = {struct.unpack_from("<H", _rd_code, i)[0] for i in range(0, len(_rd_code) - 1, 2)}
     check("compiled code carries the roots blob, roots[] start, the names blob and cmp #NUM_CHARS-1",

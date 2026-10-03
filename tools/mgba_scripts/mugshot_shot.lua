@@ -114,6 +114,15 @@ H.onFrame(function(f)
         -- Round two: selecting again must not leak OBJ tiles or a palette slot
         -- and must not leave two sprites stacked. This is what the defensive
         -- Hide() call at the top of Show() exists for.
+        -- Face the console again first: a character with an RR wardrobe
+        -- costume (Cynthia) ends activation with a bedroom reload, which leaves
+        -- the player facing south. For everyone else UP is a blocked step.
+        emu:addKey(K.UP)
+        step, at = "again0", f
+    elseif step == "again0" and f - at == 20 then
+        emu:clearKey(K.UP)
+        step, at = "again1", f
+    elseif step == "again1" and f - at == 30 then
         emu:addKey(K.A)
         step, at = "again2", f
     elseif step == "again2" and f - at == 12 then

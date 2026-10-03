@@ -127,6 +127,11 @@ struct ListMenuTemplate {
 #define MENU_WIDTH    13
 #define MENU_ROWS      6
 #define HEADER_WIDTH  18
+/* Two lines: "<name>'s roster", then sText_Hint. The list is family roots only
+ * while the gate allows every stage (user ruling 2026-10-02: say so with a hint
+ * line). Header frame rows 0-5 + list frame rows 6-19 fill the 20-tile screen. */
+#define HEADER_HEIGHT  4
+#define MENU_TOP      (1 + HEADER_HEIGHT + 2)
 #define ICON_WIN_LEFT 19
 #define ICON_WIN_TOP   8
 #define ICON_WIN_SIZE  5
@@ -145,15 +150,19 @@ struct ListMenuTemplate {
 #define tIconSpecies data[7]
 
 static const struct WindowTemplate sMenuWindow TEXT = {
-    0, 1, 5, MENU_WIDTH, 2 * MENU_ROWS, 15, 1 };
+    0, 1, MENU_TOP, MENU_WIDTH, 2 * MENU_ROWS, 15, 1 };
 static const struct WindowTemplate sHeaderWindow TEXT = {
-    0, 1, 1, HEADER_WIDTH, 2, 15, 1 + MENU_WIDTH * 2 * MENU_ROWS };
+    0, 1, 1, HEADER_WIDTH, HEADER_HEIGHT, 15, 1 + MENU_WIDTH * 2 * MENU_ROWS };
 static const struct WindowTemplate sIconWindow TEXT = {
     0, ICON_WIN_LEFT, ICON_WIN_TOP, ICON_WIN_SIZE, ICON_WIN_SIZE, 15,
-    1 + MENU_WIDTH * 2 * MENU_ROWS + HEADER_WIDTH * 2 };
+    1 + MENU_WIDTH * 2 * MENU_ROWS + HEADER_WIDTH * HEADER_HEIGHT };
 
 /* "'s roster" in the game charmap: ' s space r o s t e r */
 static const u8 sText_Suffix[] TEXT = { 0xB4, 0xE7, 0x00, 0xE6, 0xE3, 0xE7, 0xE8, 0xD9, 0xE6, EOS };
+
+/* "Evolutions count too." in the game charmap */
+static const u8 sText_Hint[] TEXT = { 0xBF, 0xEA, 0xE3, 0xE0, 0xE9, 0xE8, 0xDD, 0xE3, 0xE2, 0xE7, 0x00,
+                                      0xD7, 0xE3, 0xE9, 0xE2, 0xE8, 0x00, 0xE8, 0xE3, 0xE3, 0xAD, EOS };
 
 static void RosterMenu_HandleInput(u8 taskId);
 
@@ -212,6 +221,7 @@ static void DrawHeader(u8 windowId, u16 charId)
         buf[n + k] = sText_Suffix[k];
     FillWindowPixelBuffer(windowId, 0x11);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, buf, 0, 1, 0, 0);
+    AddTextPrinterParameterized(windowId, FONT_NORMAL, sText_Hint, 0, 16, 0, 0);
     CopyWindowToVram(windowId, 3);
 }
 
