@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 153  # +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 163  # +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -308,6 +308,14 @@ def main():
                 (_inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 8,
                  _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 16),
                 (_inj("LINK_TRADE_BL_SITE"), _inj("LINK_TRADE_BL_SITE") + 4),
+                # Field moves: their own unit, CheckHeap+16 and two BLs.
+                (_inj("FIELD_MOVES_ADDR") - 0x08000000,
+                 _inj("FIELD_MOVES_ADDR") - 0x08000000
+                 + len((ROOT / "build" / "field_moves.bin").read_bytes())),
+                (_inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 16,
+                 _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 24),
+                (_inj("FIELD_CANLEARN_BL_SITE"), _inj("FIELD_CANLEARN_BL_SITE") + 4),
+                (_inj("FIELD_KNOWS_BL_SITE"), _inj("FIELD_KNOWS_BL_SITE") + 4),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
@@ -1433,6 +1441,74 @@ def main():
     _sweep = int(re.search(r"^([0-9a-f]+) T CM_SweepPartyToPC$", _msym, re.M).group(1), 16)
     check("compiled link shim (read from the ROM) calls CM_SweepPartyToPC and StringExpandPlaceholders",
           {_sweep | 1, _sep | 1} <= _glits)
+
+    print("== 20. Field moves: any party mon uses an HM in the bag (2026-10-07) ==")
+    # ../game_plans/field_moves.md; docs/ROUTINE_MAP.md "Field moves".
+    _fl_site = _inj("FIELD_CANLEARN_BL_SITE")
+    _fk_site = _inj("FIELD_KNOWS_BL_SITE")
+    _canlearn = _inj("CAN_MON_LEARN_TM_TUTOR")
+    _knows = _inj("MON_KNOWS_MOVE")
+    _fk_tr = _tramp + 16
+    _fk_to = _fk_tr - 0x08000000
+    _faddr = _inj("FIELD_MOVES_ADDR")
+    _fbin = (ROOT / "build" / "field_moves.bin").read_bytes()
+    _fsym = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "field_moves.elf")],
+                           check=True, capture_output=True, text=True).stdout
+    _f_learn = int(re.search(r"^([0-9a-f]+) T CM_FieldMoveCanLearn$", _fsym, re.M).group(1), 16)
+    _f_knows = int(re.search(r"^([0-9a-f]+) T CM_FieldMoveKnows$", _fsym, re.M).group(1), 16)
+    # The census (2026-10-07): every bl to the two functions, in the base ROM.
+    _LEARN_CALLERS = [0x107A4B4, 0x10B25BC, 0x10B4FF0, 0x10B5028, 0x10C1012]
+    _KNOWS_CALLERS = [0x05C852, 0x06C0D0, 0x120B8C]
+    check("base: CanMonLearnTMTutor 0x090A5908 has exactly the 5 censused bl callers",
+          sorted(_bl_to(orig, _canlearn)) == _LEARN_CALLERS and _fl_site in _LEARN_CALLERS)
+    # PartyHasMonWithFieldMovePotential 0x090B2540: its 7 callers and the
+    # (move, item) each passes, as movs/lsls/adds immediates before the bl.
+    _PHM = 0x090B2540
+    _phm_callers = sorted(_bl_to(orig, _PHM))
+    check("base: PartyHasMonWithFieldMovePotential has 7 callers; it reaches "
+          "CanMonLearnTMTutor only at the hooked site, after CheckBagHasItem",
+          _phm_callers == [0x10B2622, 0x10B2760, 0x10B2834, 0x10B28A2,
+                           0x10B5226, 0x10B524E, 0x10B5276]
+          and [x for x in _LEARN_CALLERS if 0x10B2540 <= x < 0x10B25CC] == [_fl_site]
+          and struct.unpack_from("<I", orig, 0x10B25D0)[0] == 0x08099F41)
+    check(f"base: MonKnowsMove {_knows:#x} has exactly the 3 censused bl callers, "
+          "one of them in ScrCmd_checkpartymove (gScriptCmdTable[0x7C] = 0x0806C0A9)",
+          sorted(_bl_to(orig, _knows)) == _KNOWS_CALLERS
+          and struct.unpack_from("<I", orig, 0x15F9B4 + 4 * 0x7C)[0] == 0x0806C0A9
+          and 0x06C0A8 < _fk_site < 0x06C120)
+    # The vanilla obstacle scripts still on live maps: badge check, then
+    # checkpartymove (knows the move). Cut / Rock Smash / Strength.
+    check("base: FireRed's Cut, Rock Smash and Strength scripts check the badge, "
+          "then checkpartymove 15 / 249 / 70",
+          bytes(orig[0x1BDF22:0x1BDF2E]) == bytes.fromhex("2b2108060087df1b087c0f00")
+          and bytes(orig[0x1BE01B:0x1BE027]) == bytes.fromhex("2b2508060091e01b087cf900")
+          and bytes(orig[0x1BE12C:0x1BE141])
+          == bytes.fromhex("2b2308060085e11b082b050806018ee11b087c4600"))
+    check(f"base: CheckHeap+16 ({_fk_tr:#x}) is the dead routine and nothing branches or points to it",
+          bytes(orig[_fk_to:_fk_to + 8]) == bytes.fromhex("95ff002808d0e468")
+          and not _bl_to(orig, _fk_tr)
+          and not find_all(orig, struct.pack("<I", _fk_tr | 1)))
+    check("built: the field-potential site calls CM_FieldMoveCanLearn; the other 4 "
+          "CanMonLearnTMTutor callers are untouched",
+          decode_bl(bytes(patched[_fl_site:_fl_site + 4]), 0x08000000 + _fl_site) == _f_learn
+          and all(bytes(patched[x:x + 4]) == bytes(orig[x:x + 4])
+                  for x in _LEARN_CALLERS if x != _fl_site))
+    check("built: checkpartymove calls the CheckHeap+16 trampoline; the other 2 "
+          "MonKnowsMove callers are untouched",
+          decode_bl(bytes(patched[_fk_site:_fk_site + 4]), 0x08000000 + _fk_site) == _fk_tr
+          and all(bytes(patched[x:x + 4]) == bytes(orig[x:x + 4])
+                  for x in _KNOWS_CALLERS if x != _fk_site))
+    check("field trampoline is ldr r3,[pc]; bx r3 -> CM_FieldMoveKnows",
+          bytes(patched[_fk_to:_fk_to + 8]) == struct.pack("<HHI", 0x4B00, 0x4718, _f_knows | 1))
+    _fo = _faddr - 0x08000000
+    check("field_moves code in ROM == field_moves.bin",
+          bytes(patched[_fo:_fo + len(_fbin)]) == _fbin)
+    # Read from the BUILT ROM: the negative test bends a literal there.
+    _f_rom = bytes(patched[_fo:_fo + len(_fbin)])
+    _flits = {struct.unpack_from("<I", _f_rom, k)[0] for k in range(0, len(_f_rom) - 3, 4)}
+    check("compiled field hooks (read from the ROM) carry CanMonLearnTMTutor, MonKnowsMove, "
+          "CheckBagHasItem and the CM flag 0x18FE",
+          {_canlearn | 1, _knows | 1, 0x08099F41, 0x18FE} <= _flits)
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

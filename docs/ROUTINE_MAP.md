@@ -534,3 +534,71 @@ down-facing pose) point at frame 0.
 Activation tail: the costume `setvar` run, then `getplayerxy 0x8004 0x8005`,
 `warpmuted 4,1,0xFF,0x8004,0x8005` (x/y go through `VarGet`), `release`, `end`.
 Live: `tools/tests/run_costume_e2e.sh` (5 cases, 2 negative controls).
+
+
+## Field moves (2026-10-07): any party mon uses an HM in the bag
+
+User ruling 2026-10-04 (`../game_plans/field_moves.md`): with CM on, the HM in
+the bag + its badge lets any party mon use the field move. Measured on the base
+ROM; `verify_artifacts` §20 pins every address below.
+
+**What RR already does without a Pokémon** (its own design, no hook needed):
+
+| move | where | gate |
+|---|---|---|
+| Surf | CFRU `GetInteractedWaterScript`, RR-edited (`0x090B26B4`) | Surf badge (`0x090B5070`) + `CheckBagHasItem(HM03)`; no party check |
+| Surf from the party menu | `0x090B3618` | `CheckBagHasItem(HM03)` + facing water |
+| Waterfall | same function, `0x090B270A` | `CheckBagHasItem(HM07)` |
+| Flash | `0x090B1CA8` | `CheckBagHasItem(HM05)` |
+| Fly | bag use of HM02 (`0x090CD3C6` compares item 340) | no party check (the party menu only lists Dig and Teleport) |
+| RR's own Cut / Rock Smash / Strength objects | scripts `0x0904DDC8` / `0x0904DE08` / `0x0904DE58` (34 / 77 / 38 objects) | `checkflag` badge + `checkitem` HM01 / HM06 / HM04 |
+
+Item ids: HM01–HM08 = 339–346 (table `0x093C0000`, 44-byte entries). RR's HM05
+is Flash; Dive and Rock Climb both pass 346. TM28 Dig = 316, TM34 Teleport = 322.
+
+**The two gates that still asked for a Pokémon, both hooked** (`src/field_moves.c`,
+its own unit at `FIELD_MOVES_ADDR 0x08CFD000`):
+
+1. **CFRU `PartyHasMonWithFieldMovePotential` `0x090B2540`** (built with
+   `ONLY_CHECK_ITEM_FOR_HM_USAGE`: knows the move, or HM in the bag + can learn
+   it). The earlier note that it "never calls `CanMonLearnTMTutor`" was wrong:
+   RR's calls go through `bx r3`/`bx r7` veneers at `0x090B310E`, and the
+   compatibility call is a plain `bl 0x090A5908` at **`0x090B25BC`**, reached only
+   after `CheckBagHasItem(item)` (literal `0x08099F41` at `0x090B25D0`).
+   Callers (7): `0x090B2622` fast-current message (Surf, item 0), `0x090B2760`
+   Rock Climb (346), `0x090B2834`/`0x090B28A2` Dive (346), specials
+   `0x10A`/`0x10B`/`0x10C` at `0x090B5226` Cut (339) / `0x090B524E` Rock Smash
+   (344) / `0x090B5276` Strength (342).
+   → `0x090B25BC` now calls `CM_FieldMoveCanLearn`.
+2. **FireRed's `checkpartymove`** (`ScrCmd_checkpartymove` `0x0806C0A8`,
+   `gScriptCmdTable[0x7C]`): 67 objects on live maps still use FireRed's own
+   scripts, which check the badge and then require a mon that **knows** the move:
+   Cut tree `0x081BDF13` (9 objects, e.g. Viridian City), Rock Smash rock
+   `0x081BE00C` (34, Sevii dungeons), Strength boulder `0x081BE11D` (24).
+   Its `bl MonKnowsMove 0x08125AC0` at **`0x0806C0D0`** is too far for a direct
+   bl, so it goes through a third trampoline at **CheckHeap+16 (`0x08002BFC`)**
+   to `CM_FieldMoveKnows` (the original answer first; then yes for a non-egg mon
+   when the move is an HM move and its HM is in the bag).
+
+**Census (base ROM):**
+
+| function | bl callers | hooked |
+|---|---|---|
+| `CanMonLearnTMTutor` `0x090A5908` | `0x0907A4B4` (tutor/relearner), `0x090B25BC` (field potential), `0x090B4FF0` party menu Dig (TM28), `0x090B5028` party menu Teleport (TM34), `0x090C1012` TM-case display | `0x090B25BC` only |
+| `MonKnowsMove` `0x08125AC0` | `0x0805C852`, `0x0806C0D0` (checkpartymove), `0x08120B8C`; plus 2 literal refs (CFRU) | `0x0806C0D0` only |
+
+Also a veneer at `0x08120B20` (`ldr r3,=0x090A5909; bx r3`, 3 callers in the
+vanilla TM code): TM teaching, left alone.
+
+With Character Mode off, both hooks return the original function's answer.
+No type-gated field move (Unbound's lava) exists in RR.
+
+**Tests:** `verify_artifacts` §20 (10 checks, 153 → 163),
+`field_moves_negative_test.py` 8/8, live `tools/tests/run_field_move_e2e.sh`
+(`build_field_testrom.py` + `cm_field_move_test.lua`): a hatched Magikarp
+(Splash only) and every badge; the real `checkpartymove` for all 9 HM moves and
+specials `0x10A`–`0x10C`, without and with HM01–HM08. Red and Misty: slot 0 for
+all 12 with the HMs, none without; CM off: none; the `--no-hook` ROM fails on
+exactly those 12. The script then runs FireRed's Cut-tree script: with the hook
+the screenshot shows "Would you like to Cut it?", without it the script ends.
+Not tested live: an actual Dive spot or Rock Climb wall (same shared function).

@@ -61,6 +61,13 @@ Notes:
 - When you pick a character, their portrait is shown next to the
   confirmation message. 54 of the 210 have no artwork yet and simply show
   the message on its own.
+- **HMs**: any party Pokémon can use a field move once the HM is in your bag
+  and you have its badge. It needn't know or be able to learn the move. Radical
+  Red already lets you Surf, Waterfall, Fly and Flash with just the HM; this
+  adds the boulders, rocks and trees that still asked for a Pokémon that knows
+  the move (e.g. the Cut tree in Viridian City and the Sevii Islands' rocks and
+  boulders), and Dive. Only while Character Mode is on; Dig and Teleport (TMs)
+  are unchanged.
 
 ## Meeting your character's Pokemon in the wild
 

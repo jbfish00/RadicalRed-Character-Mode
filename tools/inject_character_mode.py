@@ -206,6 +206,17 @@ LINK_TRADE_BL_SITE        = 0x0540EC
 STRING_EXPAND_PLACEHOLDERS = 0x08008FCC
 LINK_TRADE_TRAMPOLINE_ADDR = PSS_GUARD_TRAMPOLINE_ADDR + 8
 LINK_TRADE_DEAD_BYTES      = bytes.fromhex("2868211c1031fff7")  # CheckHeap +8..+15
+# Field moves (src/field_moves.c; ../game_plans/field_moves.md): with CM on,
+# an HM in the bag + its badge lets any party mon use the field move. Two BLs:
+# CFRU's PartyHasMonWithFieldMovePotential -> CanMonLearnTMTutor (direct), and
+# ScrCmd_checkpartymove -> MonKnowsMove (through a third CheckHeap trampoline).
+FIELD_MOVES_ADDR          = 0x08CFD000         # its own unit, after pc_guard.c
+FIELD_CANLEARN_BL_SITE    = 0x10B25BC          # in 0x090B2540
+CAN_MON_LEARN_TM_TUTOR    = 0x090A5908
+FIELD_KNOWS_BL_SITE       = 0x06C0D0           # in ScrCmd_checkpartymove 0x0806C0A8
+MON_KNOWS_MOVE            = 0x08125AC0
+FIELD_KNOWS_TRAMPOLINE_ADDR = PSS_GUARD_TRAMPOLINE_ADDR + 16
+FIELD_KNOWS_DEAD_BYTES    = bytes.fromhex("95ff002808d0e468")  # CheckHeap +16..+23
 BL_SITE_LAND_MAIN   = 0x10C2FDA  # inside TryGenerateWildMon (primary)
 BL_SITE_LAND_DOUBLE = 0x10C30CE  # inside TryGenerateWildMon (double battle)
 BL_SITE_FISH_MAIN   = 0x10C3A94  # inside FishingWildEncounter (primary)
@@ -948,6 +959,50 @@ def main():
         0x08000000 + LINK_TRADE_BL_SITE, LINK_TRADE_TRAMPOLINE_ADDR)
     print(f"Link-trade sweep: CB2_SaveAndEndTrade's expand BL -> {LINK_TRADE_SHIM:#x} "
           f"via {LINK_TRADE_TRAMPOLINE_ADDR:#x} (CheckHeap+8)")
+
+    # --- Field moves: any party mon uses an HM in the bag (src/field_moves.c) ---
+    fobj, felf, fbin = BUILD / "field_moves.o", BUILD / "field_moves.elf", BUILD / "field_moves.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    "-Wall", "-Wextra",
+                    "-o", str(fobj), str(ROOT / "src" / "field_moves.c")], check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{FIELD_MOVES_ADDR:#x}",
+                    "--entry", "CM_FieldMoveCanLearn", "-o", str(felf), str(fobj)], check=True)
+    _fsec = subprocess.run(["arm-none-eabi-objdump", "-h", str(felf)], check=True,
+                           capture_output=True, text=True).stdout
+    for _sec in (".rodata", ".data", ".bss"):
+        assert not re.search(rf"^\s*\d+\s+{re.escape(_sec)}\S*\s+0*[1-9a-f]", _fsec, re.M), (
+            f"field_moves.elf has a non-empty {_sec}: objcopy --only-section=.text "
+            f"would silently drop it")
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(felf), str(fbin)], check=True)
+    field_moves = fbin.read_bytes()
+    _fsym = subprocess.run(["arm-none-eabi-nm", str(felf)], check=True,
+                           capture_output=True, text=True).stdout
+    _fl = re.search(r"^([0-9a-f]+) T CM_FieldMoveCanLearn$", _fsym, re.M)
+    _fk = re.search(r"^([0-9a-f]+) T CM_FieldMoveKnows$", _fsym, re.M)
+    assert _fl and _fk, _fsym
+    FIELD_CANLEARN = int(_fl.group(1), 16) | 1
+    FIELD_KNOWS = int(_fk.group(1), 16) | 1
+    for _a in (FIELD_CANLEARN, FIELD_KNOWS):
+        assert FIELD_MOVES_ADDR <= (_a & ~1) < FIELD_MOVES_ADDR + len(field_moves)
+    splice(FIELD_MOVES_ADDR, field_moves, "field-move hooks")
+    _cur = bytes(data[FIELD_CANLEARN_BL_SITE:FIELD_CANLEARN_BL_SITE + 4])
+    _exp = thumb_bl(0x08000000 + FIELD_CANLEARN_BL_SITE, CAN_MON_LEARN_TM_TUTOR)
+    assert _cur == _exp, f"field can-learn site: {_cur.hex()} != {_exp.hex()}"
+    data[FIELD_CANLEARN_BL_SITE:FIELD_CANLEARN_BL_SITE + 4] = thumb_bl(
+        0x08000000 + FIELD_CANLEARN_BL_SITE, FIELD_CANLEARN & ~1)
+    _t = FIELD_KNOWS_TRAMPOLINE_ADDR - 0x08000000
+    assert bytes(data[_t:_t + 8]) == FIELD_KNOWS_DEAD_BYTES, (
+        "CheckHeap+16 is not the dead routine's bytes -- re-derive")
+    data[_t:_t + 8] = struct.pack("<HHI", 0x4B00, 0x4718, FIELD_KNOWS)
+    _cur = bytes(data[FIELD_KNOWS_BL_SITE:FIELD_KNOWS_BL_SITE + 4])
+    _exp = thumb_bl(0x08000000 + FIELD_KNOWS_BL_SITE, MON_KNOWS_MOVE)
+    assert _cur == _exp, f"checkpartymove site: {_cur.hex()} != {_exp.hex()}"
+    data[FIELD_KNOWS_BL_SITE:FIELD_KNOWS_BL_SITE + 4] = thumb_bl(
+        0x08000000 + FIELD_KNOWS_BL_SITE, FIELD_KNOWS_TRAMPOLINE_ADDR)
+    print(f"Field moves: PartyHasMonWithFieldMovePotential -> {FIELD_CANLEARN:#x}; "
+          f"checkpartymove -> {FIELD_KNOWS:#x} via {FIELD_KNOWS_TRAMPOLINE_ADDR:#x} (CheckHeap+16)")
 
     # BL retargets (verify current bytes first)
     for site in (BL_SITE_CATCH, BL_SITE_GIFT):
