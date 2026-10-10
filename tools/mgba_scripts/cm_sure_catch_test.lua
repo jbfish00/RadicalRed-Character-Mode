@@ -12,6 +12,8 @@
 --   EXPECT=sure    -> odds 255, and the battle ends (caught)
 --   EXPECT=vanilla -> odds below 255; outcome not asserted
 --   EXPECT=miss    -> odds below 255 and the throw fails (still in battle)
+--   EXPECT=dodged  -> off-roster with CM on: CM_CatchFlagGet takes the ghost-dodge
+--                     path before any odds exist (uncatchable), still in battle
 -- Scyther is on Red's roster (1) and off Ash's (16).
 -- Env: CM_ON, CM_CHAR, SEED, EXPECT, CM_EXPECT_CHECKS, SHOTS (dir).
 local H = dofile("tools/mgba_scripts/harness.lua")
@@ -98,6 +100,9 @@ H.onFrame(function(f)
         if EXPECT == "sure" then
             H.assertEq("odds at the caught/shake decision", odds, 255)
             H.assertTrue("caught on the first throw at full HP (the battle ended)", caught)
+        elseif EXPECT == "dodged" then
+            H.assertTrue("the ball never reaches the odds (dodged: off-roster is uncatchable)", odds == nil)
+            H.assertTrue("not caught (still in battle)", not caught)
         elseif EXPECT == "miss" then
             H.assertTrue("odds are the ball's own (below 255)", odds ~= nil and odds < 255)
             H.assertTrue("this seed's vanilla roll breaks out (still in battle)", not caught)

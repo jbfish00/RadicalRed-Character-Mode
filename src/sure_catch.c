@@ -54,6 +54,37 @@ typedef unsigned int u32;
 #define MON_SIZE             100
 #define CATCH_ODDS_SURE      255
 
+/* Off-roster species are uncatchable (user, 2026-10-09: "you should only be
+ * able to catch pokemon on the roster"). atkEF_handleballthrow asks
+ * FlagGet(0x902) (CFRU's FLAG_NO_CATCHING) at 0x0907D0F2 through call_via_r5;
+ * a nonzero answer takes its own ghost-dodge path (EmitBallThrowAnim 6,
+ * "It dodged the thrown BALL! This POKEMON can't be caught!"). That BL comes
+ * here: the flag's own answer, or yes for an off-roster species with Character
+ * Mode on. Unbound does the same (CharacterMode_CatchFlagGet). Before this,
+ * RR caught the mon and the acquisition gate sent it to the PC. */
+static int cmOffRosterTarget(void)
+{
+    if (FlagGet(FLAG_CHARACTER_MODE)) {
+        u16 id = VarGet(VAR_CHARACTER_ID);
+        if (id >= 1 && id <= NUM_CHARACTERS) {
+            u8 *mon = gEnemyParty + gBattlerPartyIndexes[gBankTarget] * MON_SIZE;
+            u32 species = GetMonData(mon, MON_DATA_SPECIES, 0);
+            if (species > 0 && species < NUM_SPECIES) {
+                const u8 *bm = (const u8 *) BITMAPS_ADDR + (id - 1) * BITMAP_STRIDE;
+                return !(bm[species >> 3] & (1 << (species & 7)));
+            }
+        }
+    }
+    return 0;
+}
+
+__attribute__((noinline, used)) u8 CM_CatchFlagGet(u16 flagId)
+{
+    if (FlagGet(flagId))
+        return 1;
+    return cmOffRosterTarget();
+}
+
 __attribute__((noinline, used)) u32 CM_CatchOdds(u32 odds)
 {
     if (FlagGet(FLAG_CHARACTER_MODE)) {

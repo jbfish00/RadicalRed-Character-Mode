@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 169  # +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 171  # +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -325,6 +325,7 @@ def main():
                  _inj("SURE_CATCH_ADDR") - 0x08000000
                  + len((ROOT / "build" / "sure_catch.bin").read_bytes())),
                 (_inj("CATCH_ODDS_SITE"), _inj("CATCH_ODDS_SITE") + 4),
+                (_inj("NO_CATCH_BL_SITE"), _inj("NO_CATCH_BL_SITE") + 4),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
@@ -1562,6 +1563,16 @@ def main():
           and _sh[4] == 0x1C04 and _sh[5] == 0xBC02 and _sh[6] == 0x2CFE
           and _sh[7] == 0xD800 and _sh[8] == 0x313A and _sh[9] == 0x4708
           and 0x08000000 + _cs_site + 4 + 58 == 0x0907D590)
+    _nc = _inj("NO_CATCH_BL_SITE")
+    _cfg = int(re.search(r"^([0-9a-f]+) T CM_CatchFlagGet$", _cs_sym, re.M).group(1), 16)
+    check("base: handleballthrow asks FlagGet(0x902) (FLAG_NO_CATCHING, call_via_r5) at the "
+          "site and a nonzero answer goes to the ghost-dodge path (anim 6)",
+          decode_bl(bytes(orig[_nc:_nc + 4]), 0x08000000 + _nc) == 0x0907E49C
+          and struct.unpack_from("<I", orig, 0x107D340)[0] == 0x902
+          and orig[0x107D0F8:0x107D0FA] == bytes.fromhex("ebd1")
+          and orig[0x107D0D2:0x107D0D4] == bytes.fromhex("0621"))
+    check("built: that call goes to CM_CatchFlagGet (off-roster species are dodged)",
+          decode_bl(bytes(patched[_nc:_nc + 4]), 0x08000000 + _nc) == _cfg)
     _c_rom = bytes(patched[_cs_fn - 0x08000000:_so])
     _clits = {struct.unpack_from("<I", _c_rom, k)[0] for k in range(0, len(_c_rom) - 3, 4)}
     check("compiled CM_CatchOdds (read from the ROM) reads gBankTarget, gBattlerPartyIndexes, "

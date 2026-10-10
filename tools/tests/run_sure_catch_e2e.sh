@@ -2,7 +2,7 @@
 # LIVE layer: 100% catch for on-roster species (src/sure_catch.c; verify section 21).
 # The test ROM's bedroom console gives 10 Poke Balls and starts a wild Scyther
 # battle (catch rate 45, full HP); one ball is thrown through the real Bag.
-# Red (1) has Scyther on his roster, Ash (16) does not. The odds are read at
+# Red (1) has Scyther on his roster, Ash (16) does not: his ball is dodged. The odds are read at
 # the two successors of the hooked decision. A copy with the compare restored
 # must FAIL "sure" (the negative control).
 set -e
@@ -33,9 +33,9 @@ for seed in 1 2 3; do
         echo "[PASS] on-roster Scyther caught at full HP (Red, seed $seed)"
     else echo "[FAIL] sure catch, seed $seed (see /tmp/rr_sure_red$seed.log)"; fail=1; fi
 done
-if sure_case ash build/radicalred_cm_catchtest.gba 1 16 1 vanilla; then
-    echo "[PASS] off-roster (Ash) keeps the ball's own odds"
-else echo "[FAIL] off-roster odds (see /tmp/rr_sure_ash.log)"; fail=1; fi
+if sure_case ash build/radicalred_cm_catchtest.gba 1 16 1 dodged; then
+    echo "[PASS] off-roster (Ash): the ball is dodged, uncatchable"
+else echo "[FAIL] off-roster dodge (see /tmp/rr_sure_ash.log)"; fail=1; fi
 if sure_case off build/radicalred_cm_catchtest.gba 0 1 1 miss; then
     echo "[PASS] CM off: the ball's own odds, seed 1 breaks out"
 else echo "[FAIL] CM off control (see /tmp/rr_sure_off.log)"; fail=1; fi

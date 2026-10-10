@@ -218,6 +218,10 @@ SURE_CATCH_ADDR  = 0x08CFE000
 EXP_SHARE_ADDR   = 0x08CFE800
 CATCH_ODDS_SITE  = 0x107D552          # atkEF_handleballthrow: cmp r4,#254 ; bls 0x0907D590
 CATCH_ODDS_ORIG  = bytes.fromhex("fe2c1cd9")
+# Off-roster species uncatchable (2026-10-09): the FlagGet(FLAG_NO_CATCHING
+# 0x902) call in atkEF_handleballthrow (bl call_via_r5) -> CM_CatchFlagGet.
+NO_CATCH_BL_SITE = 0x107D0F2
+NO_CATCH_BL_ORIG_TARGET = 0x0907E49C   # call_via_r5 (bx r5)
 FIELD_CANLEARN_BL_SITE    = 0x10B25BC          # in 0x090B2540
 CAN_MON_LEARN_TM_TUTOR    = 0x090A5908
 FIELD_KNOWS_BL_SITE       = 0x06C0D0           # in ScrCmd_checkpartymove 0x0806C0A8
@@ -1054,13 +1058,21 @@ def main():
     _ssym = subprocess.run(["arm-none-eabi-nm", str(self_)], check=True,
                            capture_output=True, text=True).stdout
     _ss = re.search(r"^([0-9a-f]+) T CM_CatchOddsStub$", _ssym, re.M)
-    assert _ss, _ssym
+    _sf = re.search(r"^([0-9a-f]+) T CM_CatchFlagGet$", _ssym, re.M)
+    assert _ss and _sf, _ssym
     SURE_STUB = int(_ss.group(1), 16)
+    CATCH_FLAGGET = int(_sf.group(1), 16)
     splice(SURE_CATCH_ADDR, sure_catch, "100% roster catch")
     splice(EXP_SHARE_ADDR, exp_share, "early Exp. Share")
     _cur = bytes(data[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4])
     assert _cur == CATCH_ODDS_ORIG, f"handleballthrow odds compare: {_cur.hex()}"
     data[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4] = thumb_bl(0x08000000 + CATCH_ODDS_SITE, SURE_STUB)
+    _cur = bytes(data[NO_CATCH_BL_SITE:NO_CATCH_BL_SITE + 4])
+    assert _cur == thumb_bl(0x08000000 + NO_CATCH_BL_SITE, NO_CATCH_BL_ORIG_TARGET), (
+        f"FlagGet(FLAG_NO_CATCHING) call: {_cur.hex()}")
+    assert struct.unpack_from("<I", data, 0x107D340)[0] == 0x902, "FLAG_NO_CATCHING literal moved"
+    data[NO_CATCH_BL_SITE:NO_CATCH_BL_SITE + 4] = thumb_bl(0x08000000 + NO_CATCH_BL_SITE, CATCH_FLAGGET)
+    print(f"off-roster uncatchable: FlagGet(0x902) @ {0x08000000 + NO_CATCH_BL_SITE:#x} -> {CATCH_FLAGGET:#x}")
     print(f"100% roster catch: odds compare @ {0x08000000 + CATCH_ODDS_SITE:#x} -> "
           f"{SURE_STUB:#x} ({len(sure_catch)} B @ {SURE_CATCH_ADDR:#x})")
 
