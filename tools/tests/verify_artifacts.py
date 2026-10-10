@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 163  # +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 169  # +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -316,6 +316,15 @@ def main():
                  _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 24),
                 (_inj("FIELD_CANLEARN_BL_SITE"), _inj("FIELD_CANLEARN_BL_SITE") + 4),
                 (_inj("FIELD_KNOWS_BL_SITE"), _inj("FIELD_KNOWS_BL_SITE") + 4),
+                # Early Exp. Share: its own unit (the activation wrapper).
+                (_inj("EXP_SHARE_ADDR") - 0x08000000,
+                 _inj("EXP_SHARE_ADDR") - 0x08000000
+                 + len((ROOT / "build" / "exp_share.bin").read_bytes())),
+                # 100% roster catch (section 21): its own unit and the odds compare.
+                (_inj("SURE_CATCH_ADDR") - 0x08000000,
+                 _inj("SURE_CATCH_ADDR") - 0x08000000
+                 + len((ROOT / "build" / "sure_catch.bin").read_bytes())),
+                (_inj("CATCH_ODDS_SITE"), _inj("CATCH_ODDS_SITE") + 4),
                 (BITMAPS_ADDR - 0x08000000, BITMAPS_ADDR - 0x08000000 + len(bitmaps)),
                 (soff, send),
                 (woff, wend),
@@ -660,11 +669,27 @@ def main():
               and struct.unpack_from("<I", orig, 0x011468D8)[0] == 0)
         # One sweep native, shared by every handler, inside the shim and not
         # the same address as either mugshot op.
+        # Since 2026-10-09 that native is CM_ActivateSweepAndExpShare
+        # (src/exp_share.c, its own unit): the sweep, then the early Exp. Share.
         check(f"every handler calls the same activation sweep, once, after the "
               f"give", len(sweep_ops) == 1
-              and SHIM_ADDR < (next(iter(sweep_ops)) & ~1) < BITMAPS_ADDR
+              and (next(iter(sweep_ops)) & ~1) == _inj("EXP_SHARE_ADDR")
               and not (sweep_ops & show_ops) and not (sweep_ops & hide_ops),
               f"sweep={[hex(x) for x in sweep_ops][:4]}")
+        _xbin = (ROOT / "build" / "exp_share.bin").read_bytes()
+        _xo = _inj("EXP_SHARE_ADDR") - 0x08000000
+        _x_rom = bytes(patched[_xo:_xo + len(_xbin)])
+        _xlits = {struct.unpack_from("<I", _x_rom, k)[0] for k in range(0, len(_x_rom) - 3, 4)}
+        _sweep_sym = int(re.search(r"^([0-9a-f]+) T CM_SweepPartyToPC$", subprocess.run(
+            ["arm-none-eabi-nm", str(ROOT / "build" / "character_mode.elf")], check=True,
+            capture_output=True, text=True).stdout, re.M).group(1), 16)
+        check("the activation wrapper (read from the ROM) is exp_share.bin and calls "
+              "CM_SweepPartyToPC first, then FlagGet(CM 0x18FE), CheckBagHasItem / AddBagItem "
+              "(item 182) and FlagSet(0x906)",
+              _x_rom == _xbin
+              and {_sweep_sym | 1, 0x0806E6D1, 0x08099F41, 0x0809A085, 0x0806E681,
+                   0x18FE, 0x906} <= _xlits
+              and b"\xb6\x20" in _x_rom)
 
         # --- the egg-hatch sweep (game_plans/rowe_parity.md §13.16/§13.18) ---
         # Checked here rather than in its own section because the strongest
@@ -1509,6 +1534,41 @@ def main():
     check("compiled field hooks (read from the ROM) carry CanMonLearnTMTutor, MonKnowsMove, "
           "CheckBagHasItem and the CM flag 0x18FE",
           {_canlearn | 1, _knows | 1, 0x08099F41, 0x18FE} <= _flits)
+
+    print("== 21. 100% catch for on-roster species (2026-10-09) ==")
+    _cs_site = _inj("CATCH_ODDS_SITE")
+    _cs_addr = _inj("SURE_CATCH_ADDR")
+    _cs_bin = (ROOT / "build" / "sure_catch.bin").read_bytes()
+    _cs_sym = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "sure_catch.elf")],
+                             check=True, capture_output=True, text=True).stdout
+    _cs_stub = int(re.search(r"^([0-9a-f]+) T CM_CatchOddsStub$", _cs_sym, re.M).group(1), 16)
+    _cs_fn = int(re.search(r"^([0-9a-f]+) T CM_CatchOdds$", _cs_sym, re.M).group(1), 16)
+    check("base: atkEF_handleballthrow's `cmp r4,#254 ; bls 0x0907D590` is at the site, and "
+          "0x0907D590 tests FlagGet(0x109D) (literals 0x0907D73C / 0x0907D740)",
+          bytes(orig[_cs_site:_cs_site + 4]) == bytes.fromhex("fe2c1cd9")
+          and struct.unpack_from("<I", orig, 0x107D73C)[0] == 0x109D
+          and struct.unpack_from("<I", orig, 0x107D740)[0] == 0x0806E6D1)
+    check("built: the odds compare is a BL to CM_CatchOddsStub",
+          decode_bl(bytes(patched[_cs_site:_cs_site + 4]), 0x08000000 + _cs_site) == _cs_stub)
+    _co = _cs_addr - 0x08000000
+    check("sure_catch code in ROM == sure_catch.bin",
+          bytes(patched[_co:_co + len(_cs_bin)]) == _cs_bin)
+    _so = _cs_stub - 0x08000000
+    _sh = struct.unpack_from("<10H", patched, _so)
+    check("built: the stub passes r4 to CM_CatchOdds, writes it back, and returns to "
+          "0x0907D556 when it is above 254, else to 0x0907D590",
+          _sh[0] == 0xB500 and _sh[1] == 0x1C20
+          and decode_bl(bytes(patched[_so + 4:_so + 8]), _cs_stub + 4) == _cs_fn
+          and _sh[4] == 0x1C04 and _sh[5] == 0xBC02 and _sh[6] == 0x2CFE
+          and _sh[7] == 0xD800 and _sh[8] == 0x313A and _sh[9] == 0x4708
+          and 0x08000000 + _cs_site + 4 + 58 == 0x0907D590)
+    _c_rom = bytes(patched[_cs_fn - 0x08000000:_so])
+    _clits = {struct.unpack_from("<I", _c_rom, k)[0] for k in range(0, len(_c_rom) - 3, 4)}
+    check("compiled CM_CatchOdds (read from the ROM) reads gBankTarget, gBattlerPartyIndexes, "
+          "gEnemyParty and the bitmaps, under the CM flag 0x18FE, and returns 255",
+          {0x02023D6C, 0x02023BCE, 0x0202402C, BITMAPS_ADDR, 0x18FE} <= _clits
+          and any(struct.unpack_from("<H", _c_rom, k)[0] & 0xF8FF == 0x20FF
+                  for k in range(0, len(_c_rom) - 1, 2)))
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

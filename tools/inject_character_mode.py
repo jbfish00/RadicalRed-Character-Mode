@@ -211,6 +211,13 @@ LINK_TRADE_DEAD_BYTES      = bytes.fromhex("2868211c1031fff7")  # CheckHeap +8..
 # CFRU's PartyHasMonWithFieldMovePotential -> CanMonLearnTMTutor (direct), and
 # ScrCmd_checkpartymove -> MonKnowsMove (through a third CheckHeap trampoline).
 FIELD_MOVES_ADDR          = 0x08CFD000         # its own unit, after pc_guard.c
+# 100% catch for on-roster species (src/sure_catch.c; 2026-10-09). Its own unit
+# after field_moves.c, in BL reach of the hook (0x37F552 from 0x0907D552).
+SURE_CATCH_ADDR  = 0x08CFE000
+# Early party-wide Exp. Share (src/exp_share.c; 2026-10-09). Its own unit.
+EXP_SHARE_ADDR   = 0x08CFE800
+CATCH_ODDS_SITE  = 0x107D552          # atkEF_handleballthrow: cmp r4,#254 ; bls 0x0907D590
+CATCH_ODDS_ORIG  = bytes.fromhex("fe2c1cd9")
 FIELD_CANLEARN_BL_SITE    = 0x10B25BC          # in 0x090B2540
 CAN_MON_LEARN_TM_TUTOR    = 0x090A5908
 FIELD_KNOWS_BL_SITE       = 0x06C0D0           # in ScrCmd_checkpartymove 0x0806C0A8
@@ -392,6 +399,28 @@ def main():
     SWEEP_PARTY = int(_ms.group(1), 16) | 1
     assert SHIM_ADDR < (SWEEP_PARTY & ~1) < SHIM_ADDR + len(shim), \
         f"CM_SweepPartyToPC at {SWEEP_PARTY:#x} outside the shim blob"
+    # --- early party-wide Exp. Share (src/exp_share.c): the activation sweep
+    # callnative in every character handler goes through this wrapper. ---
+    xobj, xelf, xbin = BUILD / "exp_share.o", BUILD / "exp_share.elf", BUILD / "exp_share.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    "-Wall", "-Wextra", f"-DSWEEP_PARTY={SWEEP_PARTY:#x}",
+                    "-o", str(xobj), str(ROOT / "src" / "exp_share.c")], check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{EXP_SHARE_ADDR:#x}",
+                    "--entry", "CM_ActivateSweepAndExpShare", "-o", str(xelf), str(xobj)],
+                   check=True)
+    _xsec = subprocess.run(["arm-none-eabi-objdump", "-h", str(xelf)], check=True,
+                           capture_output=True, text=True).stdout
+    for _sec in (".rodata", ".data", ".bss"):
+        assert not re.search(rf"^\s*\d+\s+{re.escape(_sec)}\S*\s+0*[1-9a-f]", _xsec, re.M), (
+            f"exp_share.elf has a non-empty {_sec}")
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary", "--only-section=.text",
+                    str(xelf), str(xbin)], check=True)
+    exp_share = xbin.read_bytes()
+    _xs = re.search(r"^([0-9a-f]+) T CM_ActivateSweepAndExpShare$",
+                    subprocess.run(["arm-none-eabi-nm", str(xelf)], check=True,
+                                   capture_output=True, text=True).stdout, re.M)
+    ACTIVATE_SWEEP = int(_xs.group(1), 16) | 1
     # Explicit, because the only thing that caught the overrun was splice()'s
     # 0xFF precondition reporting it as "bitmaps: target not 0xFF", which reads
     # like a wrong base ROM rather than "the shim grew".
@@ -760,7 +789,7 @@ def main():
         blob += op_givepokemon(sig, 5)
         # Sweep AFTER the give, never before: beforehand a party holding only an
         # off-roster mon hits the never-empty rule and nothing is boxed.
-        blob += op_callnative(SWEEP_PARTY)
+        blob += op_callnative(ACTIVATE_SWEEP)   # the sweep, then the early Exp. Share
         blob += op_callnative(SHOW_MUGSHOT)
         blob += op_loadword(str_addrs[f"msg:{j}"])
         blob += op_callstd(6)
@@ -1004,6 +1033,37 @@ def main():
     print(f"Field moves: PartyHasMonWithFieldMovePotential -> {FIELD_CANLEARN:#x}; "
           f"checkpartymove -> {FIELD_KNOWS:#x} via {FIELD_KNOWS_TRAMPOLINE_ADDR:#x} (CheckHeap+16)")
 
+    # --- 100% catch for on-roster species (src/sure_catch.c) ---
+    sobj, self_, sbin = BUILD / "sure_catch.o", BUILD / "sure_catch.elf", BUILD / "sure_catch.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi",
+                    "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
+                    "-Wall", "-Wextra", f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
+                    f"-DNUM_CHARACTERS={num_chars}",
+                    "-o", str(sobj), str(ROOT / "src" / "sure_catch.c")], check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{SURE_CATCH_ADDR:#x}",
+                    "--entry", "CM_CatchOddsStub", "-o", str(self_), str(sobj)], check=True)
+    _ssec = subprocess.run(["arm-none-eabi-objdump", "-h", str(self_)], check=True,
+                           capture_output=True, text=True).stdout
+    for _sec in (".rodata", ".data", ".bss"):
+        assert not re.search(rf"^\s*\d+\s+{re.escape(_sec)}\S*\s+0*[1-9a-f]", _ssec, re.M), (
+            f"sure_catch.elf has a non-empty {_sec}: objcopy --only-section=.text "
+            f"would silently drop it")
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary",
+                    "--only-section=.text", str(self_), str(sbin)], check=True)
+    sure_catch = sbin.read_bytes()
+    _ssym = subprocess.run(["arm-none-eabi-nm", str(self_)], check=True,
+                           capture_output=True, text=True).stdout
+    _ss = re.search(r"^([0-9a-f]+) T CM_CatchOddsStub$", _ssym, re.M)
+    assert _ss, _ssym
+    SURE_STUB = int(_ss.group(1), 16)
+    splice(SURE_CATCH_ADDR, sure_catch, "100% roster catch")
+    splice(EXP_SHARE_ADDR, exp_share, "early Exp. Share")
+    _cur = bytes(data[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4])
+    assert _cur == CATCH_ODDS_ORIG, f"handleballthrow odds compare: {_cur.hex()}"
+    data[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4] = thumb_bl(0x08000000 + CATCH_ODDS_SITE, SURE_STUB)
+    print(f"100% roster catch: odds compare @ {0x08000000 + CATCH_ODDS_SITE:#x} -> "
+          f"{SURE_STUB:#x} ({len(sure_catch)} B @ {SURE_CATCH_ADDR:#x})")
+
     # BL retargets (verify current bytes first)
     for site in (BL_SITE_CATCH, BL_SITE_GIFT):
         cur_bl = bytes(data[site:site + 4])
@@ -1090,7 +1150,7 @@ def main():
     assert egg_entry == egg_hook.SCRIPT_ENTRY, (
         f"egg-hatch script pointer is {egg_entry:#x}, expected "
         f"{egg_hook.SCRIPT_ENTRY:#x} -- the hatch caller has moved")
-    egg_tail, egg_patches = egg_hook.build(EGG_TAIL_ADDR, SWEEP_PARTY)
+    egg_tail, egg_patches = egg_hook.build(EGG_TAIL_ADDR, ACTIVATE_SWEEP)
     splice(EGG_TAIL_ADDR, egg_tail, "egg-hatch tail")
     for off, orig, repl in egg_patches:
         seg = bytes(data[off:off + len(orig)])
@@ -1099,7 +1159,7 @@ def main():
             f"expected {orig.hex()} -- wrong ROM, or already patched")
         data[off:off + len(repl)] = repl
     print(f"egg-hatch sweep: tail {len(egg_tail)} B @ {EGG_TAIL_ADDR:#x}, "
-          f"splice @ {egg_hook.SPLICE_ROM_ADDR:#x} -> callnative {SWEEP_PARTY:#x}")
+          f"splice @ {egg_hook.SPLICE_ROM_ADDR:#x} -> callnative {ACTIVATE_SWEEP:#x}")
 
     # --- 3d. PC-exit sweep ---
     # Enforcement deliberately routes off-roster mons INTO the PC, and until
@@ -1118,7 +1178,7 @@ def main():
     assert pc_text == pc_hook.PC_TEXT_PTR, (
         f"PC script's message pointer is {pc_text:#x}, expected "
         f"{pc_hook.PC_TEXT_PTR:#x} -- the PC access script has moved")
-    pc_tail, pc_patches = pc_hook.build(PC_TAIL_ADDR, SWEEP_PARTY)
+    pc_tail, pc_patches = pc_hook.build(PC_TAIL_ADDR, ACTIVATE_SWEEP)
     splice(PC_TAIL_ADDR, pc_tail, "PC-exit tail")
     for off, orig, repl in pc_patches:
         seg = bytes(data[off:off + len(orig)])
@@ -1127,7 +1187,7 @@ def main():
             f"expected {orig.hex()} -- wrong ROM, or already patched")
         data[off:off + len(repl)] = repl
     print(f"PC-exit sweep: tail {len(pc_tail)} B @ {PC_TAIL_ADDR:#x}, "
-          f"splice @ {pc_hook.SPLICE_ROM_ADDR:#x} -> callnative {SWEEP_PARTY:#x}")
+          f"splice @ {pc_hook.SPLICE_ROM_ADDR:#x} -> callnative {ACTIVATE_SWEEP:#x}")
 
 
     # --- faster stat-change battle messages (user-approved 2026-09-01) ---
