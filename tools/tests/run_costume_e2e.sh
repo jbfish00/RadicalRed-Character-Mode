@@ -3,10 +3,12 @@
 # rr_ow_player.py; verify_artifacts "costume characters"). Lucas, whom Radical
 # Red's wardrobe ships a costume for, must be drawn in it after the bedroom
 # reload, on the same tile. Misty has no costume but has a walk/run sheet: she
-# must be drawn in that. Paul has neither: the avatar must not change. The two
-# negative controls are Lucas and Misty on ROMs whose handler ends `release;
-# end` instead of going to its tail: both must FAIL, or the layer is not testing
-# the tails.
+# must be drawn in that. Paul and Rose have GENERATED sheets (2026-10-10,
+# import_generated_ow.py): both must be drawn in them. Since then every offered
+# character has an avatar, so the old "Paul has neither" case is gone. The three
+# negative controls are Lucas, Misty and Rose on ROMs whose handler ends
+# `release; end` instead of going to its tail: all must FAIL, or the layer is not
+# testing the tails.
 set -e
 cd "$(dirname "$0")/../.."
 MGBA="${MGBA_HEADLESS:-tools/mgba_src/build/mgba-headless}"
@@ -77,9 +79,11 @@ EOF
 }
 costume_case lucas_costume Lucas PASS
 costume_case misty_walk_sprite Misty PASS
-costume_case paul_no_avatar Paul PASS
+costume_case paul_generated_sheet Paul PASS
+costume_case rose_generated_sheet Rose PASS
 costume_case NEGATIVE_CONTROL_tail_skipped Lucas FAIL neg
 costume_case NEGATIVE_CONTROL_walk_tail_skipped Misty FAIL neg
+costume_case NEGATIVE_CONTROL_generated_tail_skipped Rose FAIL neg
 # A literal: the case list is pinned, not counted from itself.
-[ "$ran" -eq 5 ] || { echo "  FAIL ran $ran costume cases, want 5"; fail=1; }
+[ "$ran" -eq 7 ] || { echo "  FAIL ran $ran costume cases, want 7"; fail=1; }
 exit $fail

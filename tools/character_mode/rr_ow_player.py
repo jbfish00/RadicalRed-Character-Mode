@@ -136,9 +136,15 @@ def build(rom, characters, base):
         fb = w * h // 2
         gfx = (SHEETS / f"{e['stem']}.4bpp").read_bytes()
         assert len(gfx) == 18 * fb, (name, len(gfx))
-        gfx_addr = base + cur
-        blob += gfx
-        cur += len(gfx)
+        # Each distinct frame is stored once: most sheets repeat their walk
+        # frames as run frames, and the image table only points at frame data.
+        frame_addr = {}
+        for src in range(18):
+            fr = gfx[src * fb:(src + 1) * fb]
+            if fr not in frame_addr:
+                frame_addr[fr] = base + cur
+                blob += fr
+                cur += fb
         pal_addr = base + cur
         blob += pal_data[k][1]
         cur += 32
@@ -148,7 +154,7 @@ def build(rom, characters, base):
         img_addr = base + img_off + k * RR_FRAMES * 8
         for f, src in enumerate(frames):
             struct.pack_into("<IHH", blob, img_off + k * RR_FRAMES * 8 + f * 8,
-                             gfx_addr + src * fb, fb, 0)
+                             frame_addr[gfx[src * fb:(src + 1) * fb]], fb, 0)
         info = bytearray(walk)
         struct.pack_into("<H", info, 2, PAL_TAG_BASE + k)          # paletteTag
         struct.pack_into("<H", info, 4, PAL_TAG_NONE)               # reflection tag

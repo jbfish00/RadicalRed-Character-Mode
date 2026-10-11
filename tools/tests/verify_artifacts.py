@@ -655,16 +655,16 @@ def main():
                     break
             if not _ok:
                 _bad_ow.append(_name)
-        # LITERALS: 155 walk-only characters; RR's 451 palettes kept in order.
-        check("155 walk/run sprites resolve through switcher slot 3 to the staged sheets, "
+        # LITERALS: 199 walk-only characters (155 ROWE sheets + 44 generated, 2026-10-10); RR's 451 palettes kept in order.
+        check("199 walk/run sprites resolve through switcher slot 3 to the staged sheets, "
               "FireRed run order, own palettes",
-              len(walk_only) == 155 and not _bad_ow
+              len(walk_only) == 199 and not _bad_ow
               and OW_PLAYER_ADDR <= _sw3 < OW_PLAYER_END, f"{len(walk_only)} found, bad {_bad_ow[:5]}")
         _orig_pals = orig[0x35CCC8:0x35CCC8 + _orig_n * 8]
         check("the palette table is RR's 451 entries verbatim + ours + the 0x11FF terminator, "
               "and all three readers point at it",
               patched[_pt - 0x08000000:_pt - 0x08000000 + _orig_n * 8] == _orig_pals
-              and len(_pals) == _orig_n + 155 + 1
+              and len(_pals) == _orig_n + 199 + 1
               and all(struct.unpack_from("<I", patched, o)[0] == _pt for o in OW_WORD_PATCHES[1:])
               and all(struct.unpack_from("<I", orig, o)[0] == 0x0835CCC8 for o in OW_WORD_PATCHES[1:])
               and struct.unpack_from("<I", orig, 0x011468D8)[0] == 0)
