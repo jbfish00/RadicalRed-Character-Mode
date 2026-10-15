@@ -48,7 +48,7 @@ select the BPS patch and your v4.1 ROM.)
 ## What happens after you activate
 
 From then on, catching or receiving any Pokemon **not on your character's
-roster sends it straight to the PC** instead of your party. Everything
+roster is refused or sent to the PC**: a wild off-roster Pokémon can't be caught at all, and off-roster gifts, eggs and trades go to the PC. Everything
 on-roster (including every evolution of a roster Pokemon) joins your party
 normally.
 
@@ -89,6 +89,15 @@ sweet scent and every fishing rod:
 
 `ENCOUNTERS.md` lists exactly what each character can meet, with level
 bands and effective rates.
+
+## Quality-of-life rules (added 2026-10)
+
+While Character Mode is on:
+- **Every on-roster Pokémon is caught at 100%**, with any ball. **Off-roster wild Pokémon cannot be caught at all**
+  (the ball is dodged or bounces off with no shakes). Gifts, eggs and trades keep their PC routing.
+- **TMs are reusable.** Native to Radical Red.
+- **Exp. Share, party-wide.** The Exp. Share is given when you pick a character and shared by the whole party.
+- **Overworld sprite**: you walk and run as your character (11 characters wear Radical Red's own wardrobe costumes; 155 more have their own walk/run sheets).
 
 ## Seeing your roster in-game
 

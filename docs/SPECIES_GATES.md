@@ -128,3 +128,49 @@ python3 tools/tests/check_species_gates_negative_test.py     # break it on purpo
 
 Both read the **base ROM** and this repo's own vendored `tools/charmap.txt`;
 they build nothing and change nothing.
+
+## The other 31 call sites (read 2026-10-14)
+
+Every site not in the table above, read from the base ROM (`rom.sha1` unchanged):
+the dialogue just before the call, and the script after `special 0x9f; waitstate`.
+**None of them is a species gate.** In all 31 the only compare on `0x8004` is
+`== 6` (nothing chosen) and the `0x800D` compares are the result of a `special` /
+`callasm` (0/1/2 menu answers, `412` = `SPECIES_EGG`); the small "species" the
+window primitive decodes (Bulbasaur..Charizard) are those constants. The rewards in
+their windows belong to neighbouring scripts (battles, puzzle rewards), not to
+the choice. These are not yet in `check_species_gates.py`'s `GATES` (its verdict
+counts are pinned); they are recorded here.
+
+| site | what it is | species evidence | verdict |
+|---|---|---|---|
+| `0x08168df0` | Daisy's grooming (vanilla) | none (egg check 412 only) | SERVICE |
+| `0x0816d8b8` | Move Deleter (special 0x148) | none | SERVICE |
+| `0x0816e370` | in-game trade, `setvar 0x8008 7` (Murkrow 198 -> Chatot 494) | requested species via special 0xFD/0xFE, compare `0x800B == 0x800D` | NPC_TRADE (trade wrapper's class, not a show-me gate) |
+| `0x081a8cbd` | shared in-game trade tail (index from caller's `0x8008`) | same trade idiom | NPC_TRADE |
+| `0x08801711` | EV checker (Exp. Share NPC block) | none | SERVICE |
+| `0x08801861` | EV/IV checker | none | SERVICE |
+| `0x09044fbe` | IV maxer ("max one of your Pokémon's IVs") | none (egg check 412) | SERVICE |
+| `0x09046a2d` | groomer (¥500) | none | SERVICE |
+| `0x0904aba6` | set one IV to 0 | none | SERVICE |
+| `0x0904ad11` | Poké Ball switcher (special 0x158) | none | SERVICE |
+| `0x0904c3ee` | nature changer (special 0x158) | none | SERVICE |
+| `0x0904c8f0` | debug menu: give species by number (callasm `0x090771C9`) | none | DEBUG |
+| `0x0904c90b` | debug menu (callasm `0x090773A5`, `0x090BC059`) | none | DEBUG |
+| `0x0904dd38` | level-cap setter (callasm `0x090772D1`) | none | SERVICE |
+| `0x090512da` | Deoxys meteorite form change (callasm `0x090B5CDD`) | Deoxys 410, tested in native code; no item | SPECIES_LOCKED |
+| `0x09051614`, `0x0905164b`, `0x09051716`, `0x0905174d`, `0x09051814`, `0x0905184b` | trial-area healers ("heal two of your Pokémon", callasm `0x09077FD1`) | none | SERVICE |
+| `0x09053612` | in-game trade, `setvar 0x8008 0` (Abra 63 -> Mr. Mime 1216) | same trade idiom | NPC_TRADE |
+| `0x090544aa` | hidden-ability swapper (needs a Bottle Cap; callasm `0x090B6005`/`0x090B5F8D`) | none | SERVICE |
+| `0x09054900` | EV subtractor | none | SERVICE |
+| `0x09054bf9` | EV checker | none | SERVICE |
+| `0x09054cbc` | IV checker | none | SERVICE |
+| `0x09055339` | Hidden Power IV configurer | none | SERVICE |
+| `0x090597b1`, `0x090597e8`, `0x0905987f`, `0x090598b6` | forest healers ("I can heal two Pokémon", callasm `0x09077FD1`) | none | SERVICE |
+
+Totals for all 43: **10 species gates** (the 9 above + Deoxys), 3 NOT_A_GATE,
+3 NPC_TRADE, 25 SERVICE, 2 DEBUG. The verdict is unchanged: no gate costs
+anything (Deoxys's is a form change, inert without the species).
+⚠️ Open, not settled here: `0x09053612` and `0x0816e370` select trades 0 and 7,
+while `CLAUDE.md` records Floette (#6) as the only live trade and the checker's
+`REACHABLE` uses trade #4. Whether those two scripts are reachable on a live map
+was not measured.
