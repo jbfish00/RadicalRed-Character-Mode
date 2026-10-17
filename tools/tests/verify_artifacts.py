@@ -145,8 +145,27 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 171  # +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 174  # +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
+
+
+# QoL 2026-10-17 (section 22): free money tutors, the egg-move tutor without its quest gate, the free Move Maniac
+FT_MONEY = [(0x09044EB0, 15000), (0x0904712D, 1500), (0x09048227, 10000), (0x0904A516, 10000), (0x090510D9, 3000),
+            (0x09054774, 7500), (0x09054862, 7500), (0x0905A33C, 2500), (0x0905A852, 10000)]
+FT_EGG_GATE, FT_EGG_TEACH = 0x09049FA2, 0x0904A23D
+FT_MANIAC = [(0x0817164F, 0x081716A5), (0x08171700, 0x0817179E)]       # (site, goto target)
+FT_MANIAC_PTRS, FT_TEXT = (0x08171640, 0x081717A0), 0x08CFF000
+
+
+def _free_tutor_regions(orig):
+    r = []
+    for a, n in FT_MONEY:
+        o = a - 0x08000000
+        rm = bytes(orig[o:o + 0x200]).find(b"\x91" + struct.pack("<I", n) + b"\x00")
+        r += [(o + 1, o + 5), (o + rm + 1, o + rm + 5)]
+    r += [(FT_EGG_GATE - 0x08000000, FT_EGG_GATE - 0x08000000 + 9), (FT_TEXT - 0x08000000, FT_TEXT - 0x08000000 + 0x100)]
+    r += [(a - 0x08000000, a - 0x08000000 + 5) for a, _t in FT_MANIAC] + [(a - 0x08000000, a - 0x08000000 + 4) for a in FT_MANIAC_PTRS]
+    return r
 
 
 def check(name, ok, detail=""):
@@ -381,7 +400,8 @@ def main():
                  ROSTER_SCRIPT_ADDR - 0x08000000 + ROSTER_SCRIPT_WINDOW),
                 (CONSOLE_BG_PTR_OFF, CONSOLE_BG_PTR_OFF + 4),
                 (OW_PLAYER_ADDR - 0x08000000, OW_PLAYER_END - 0x08000000),
-                *[(o, o + 4) for o in OW_WORD_PATCHES]]
+                *[(o, o + 4) for o in OW_WORD_PATCHES],
+                *_free_tutor_regions(orig)]
     stray = []
     i = 0
     n = len(orig)
@@ -1580,6 +1600,22 @@ def main():
           {0x02023D6C, 0x02023BCE, 0x0202402C, BITMAPS_ADDR, 0x18FE} <= _clits
           and any(struct.unpack_from("<H", _c_rom, k)[0] & 0xF8FF == 0x20FF
                   for k in range(0, len(_c_rom) - 1, 2)))
+
+    print("== 22. free move tutors (QoL 2026-10-17) ==")
+    _mt = []
+    for a, n_ in FT_MONEY:
+        o = a - 0x08000000
+        rm = bytes(orig[o:o + 0x200]).find(b"\x91" + struct.pack("<I", n_) + b"\x00")
+        _mt.append(bytes(patched[o:o + 6]) == b"\x92\0\0\0\0\0" and bytes(patched[o + rm:o + rm + 6]) == b"\x91\0\0\0\0\0"
+                   and b"\x25\x8d\x01" in bytes(orig[o - 0x80:o + 0x200]))
+    check("9 money move tutors charge 0 (base 1,500..15,000; each runs the tutor special 0x18D)", all(_mt), "%s" % _mt)
+    _g = FT_EGG_GATE - 0x08000000
+    check("egg-move tutor: the quest gate is a goto to its teaching path (base: checkflag 0x1096; goto_if)",
+          bytes(patched[_g:_g + 5]) == b"\x05" + struct.pack("<I", FT_EGG_TEACH) and bytes(orig[_g:_g + 3]) == bytes.fromhex("2b9610"))
+    check("Move Maniac: mushroom check -> goto ask, after teaching -> goto end, texts repointed (no mushrooms)",
+          all(bytes(patched[a - 0x08000000:a - 0x08000000 + 5]) == b"\x05" + struct.pack("<I", t) for a, t in FT_MANIAC)
+          and all(struct.unpack_from("<I", patched, a - 0x08000000)[0] >= FT_TEXT for a in FT_MANIAC_PTRS)
+          and bytes(orig[0x17164F:0x171654]) == bytes.fromhex("4768000100"))
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

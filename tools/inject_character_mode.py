@@ -333,6 +333,52 @@ def alias_for(display):
     return re.sub(r"[^A-Za-z0-9]", "", display)
 
 
+# ---- QoL (user 2026-10-17): move tutors, the move relearner and the egg-move tutor are free -------------------------
+# - nine money tutors (checkmoney N .. the tutor special 0x18D .. removemoney N; 1,500 to 15,000): N -> 0 in both
+# - the egg-move tutor (entry 0x09049F9E) teaches at once: its quest gate `checkflag 0x1096; goto_if` becomes a goto
+#   to its (already free) teaching path 0x0904A23D
+# - the Two Island Move Maniac (vanilla FireRed, mushrooms): skip the mushroom check, end after teaching, new texts
+# CM_NO_FREETUTOR=1 builds the control.
+FREE_MONEY_TUTORS = [(0x09044EB0, 15000), (0x0904712D, 1500), (0x09048227, 10000), (0x0904A516, 10000),
+                     (0x090510D9, 3000), (0x09054774, 7500), (0x09054862, 7500), (0x0905A33C, 2500),
+                     (0x0905A852, 10000)]
+EGG_TUTOR_GATE, EGG_TUTOR_TEACH = 0x09049FA2, 0x0904A23D
+MANIAC_CHECK, MANIAC_ASK, MANIAC_AFTER, MANIAC_END = 0x0817164F, 0x081716A5, 0x08171700, 0x0817179E
+MANIAC_INTRO_PTR, MANIAC_END_PTR = 0x08171640, 0x081717A0
+FREE_TEXT_ADDR = 0x08CFF000
+
+
+def free_tutors(data, cm):
+    import os
+    if os.environ.get("CM_NO_FREETUTOR") == "1":
+        return {}
+    def w(a, old, new):
+        o = a - 0x08000000
+        assert bytes(data[o:o + len(old)]) == old, "%08X holds %s, want %s" % (a, bytes(data[o:o + len(old)]).hex(), old.hex())
+        data[o:o + len(new)] = new
+    for a, n in FREE_MONEY_TUTORS:
+        o = a - 0x08000000
+        amt = struct.pack("<I", n)
+        tail = bytes(data[o:o + 0x200])
+        rm = tail.find(b"\x91" + amt + b"\x00")
+        assert tail[:6] == b"\x92" + amt + b"\x00" and rm > 0, "money tutor %08X" % a
+        assert b"\x25\x8d\x01" in bytes(data[o - 0x80:o + 0x200]), "money tutor %08X has no tutor special" % a
+        w(a + 1, amt, b"\x00\x00\x00\x00")
+        w(a + rm + 1, amt, b"\x00\x00\x00\x00")
+    w(EGG_TUTOR_GATE, bytes.fromhex("2b961006" "01dea10409"), b"\x05" + struct.pack("<I", EGG_TUTOR_TEACH) + b"\x00" * 4)
+    w(MANIAC_CHECK, bytes.fromhex("4768000100"), b"\x05" + struct.pack("<I", MANIAC_ASK))
+    w(MANIAC_AFTER, bytes.fromhex("2104800000"), b"\x05" + struct.pack("<I", MANIAC_END))
+    t = FREE_TEXT_ADDR
+    for ptr, old, txt in [(MANIAC_INTRO_PTR, 0x081A2B88, "I am the POKéMON MOVE MANIAC.\nI know every single move that\nPOKéMON learn growing up.\nI will teach one to your POKéMON\nfree of charge!"),
+                          (MANIAC_END_PTR, 0x081A2DE0, "If your POKéMON need to learn a move,\ncome back any time!")]:
+        e = enc_text(txt, cm)
+        assert set(data[t - 0x08000000:t - 0x08000000 + len(e)]) == {0xFF}, "text space %08X not blank" % t
+        data[t - 0x08000000:t - 0x08000000 + len(e)] = e
+        w(ptr, struct.pack("<I", old), struct.pack("<I", t))
+        t = (t + len(e) + 3) & ~3
+    return {"money_tutors": len(FREE_MONEY_TUTORS), "egg_tutor": 1, "move_maniac": 1}
+
+
 def main():
     data = bytearray(ROM_IN.read_bytes())
     got = hashlib.sha1(data).hexdigest()
@@ -1248,6 +1294,7 @@ def main():
     print("faster battle messages: %d sites reordered, wait %d -> %d frames"
           % (len(CM_BATTLE_MSG_SITES), CM_WAIT_OLD, CM_WAIT_NEW))
 
+    print("free tutors:", free_tutors(data, cm))
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")
