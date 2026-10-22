@@ -321,7 +321,7 @@ Tulip — in which case the trade proceeds normally.)
 | `Lysandre` | Lysandre | villain | Magikarp |
 | `Alain` | Alain | anime | Charmander |
 | `Sawyer` | Sawyer | anime | Treecko |
-| `Sycamore` | Sycamore | professor | random from roster |
+| `Sycamore` | Sycamore | professor | Gible |
 
 ### Generation 7
 

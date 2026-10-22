@@ -5484,6 +5484,7 @@
    "name_offset": 1238,
    "roster_offset": 5624,
    "roster_species_ids": [
+    496,
     350,
     1,
     10,
@@ -5493,7 +5494,6 @@
     761,
     769,
     764,
-    496,
     802,
     54,
     772,
@@ -5504,9 +5504,9 @@
     824
    ],
    "starter_count": 17,
-   "has_signature": false,
-   "signature_id": null,
-   "signature_name": null,
+   "has_signature": true,
+   "signature_id": 496,
+   "signature_name": "Gible",
    "sprite_asset_id": "TBD",
    "hidden": false
   },

@@ -12922,7 +12922,11 @@
         "id": 288,
         "name": "Zigzagoon"
       }
-    ]
+    ],
+    "signature": {
+      "id": 496,
+      "name": "Gible"
+    }
   },
   "Tate": {
     "page": "Tate and Liza + Tate (anime)",
