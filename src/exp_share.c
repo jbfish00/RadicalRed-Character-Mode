@@ -18,6 +18,14 @@
  * Only on that first grant -- a player who later turns it off keeps it off,
  * and the gym gift then just adds a second, harmless copy.
  *
+ * CM_NewGameExpShare (user, 2026-10-21: the early party-wide Exp. Share with
+ * Character Mode OFF too; the catch rules stay CM-only): NewGameInitData's last
+ * call (bl ResetTrainerTowerResults @ 0x08054B3E, after ClearBag and the map-flag
+ * reset) goes through a CheckHeap+24 trampoline to here. It runs that call, then
+ * gives every new game -- CM on or off -- one Exp. Share, switched on. Existing
+ * saves are untouched (they never run NewGameInitData again); a CM player who
+ * activates later already has it, so the activation grant above adds nothing.
+ *
  * Its own unit and link address (EXP_SHARE_ADDR): only .text survives the
  * injector, so no statics, strings or tables.
  */
@@ -32,6 +40,7 @@ typedef unsigned int u32;
 #define FlagSet          ((u8 (*)(u16))      0x0806E681)
 #define CheckBagHasItem  ((u8 (*)(u16, u16)) 0x08099F41)
 #define AddBagItem       ((u8 (*)(u16, u16)) 0x0809A085)
+#define ResetTrainerTowerResults ((void (*)(void)) 0x0815EE0D)
 
 #ifndef SWEEP_PARTY
 #error "compile with -DSWEEP_PARTY= (CM_SweepPartyToPC|1, from the main shim)"
@@ -43,5 +52,12 @@ void CM_ActivateSweepAndExpShare(void)
     SweepPartyToPC();
     if (FlagGet(FLAG_CHARACTER_MODE) && !CheckBagHasItem(ITEM_EXP_SHARE, 1)
         && AddBagItem(ITEM_EXP_SHARE, 1))
+        FlagSet(FLAG_EXP_SHARE);
+}
+
+void CM_NewGameExpShare(void)
+{
+    ResetTrainerTowerResults();
+    if (!CheckBagHasItem(ITEM_EXP_SHARE, 1) && AddBagItem(ITEM_EXP_SHARE, 1))
         FlagSet(FLAG_EXP_SHARE);
 }

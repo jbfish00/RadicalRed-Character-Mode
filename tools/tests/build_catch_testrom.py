@@ -11,6 +11,14 @@ by the Lua layer (tools/mgba_scripts/cm_sure_catch_test.lua), which also turns
 Character Mode on during the battle, before the throw. Optional --no-hook
 restores atkEF_handleballthrow's original `cmp r4,#254 ; bls` (the negative
 control). Never distributed.
+
+New-game Exp. Share (2026-10-21): every ROM built here has NewGameInitData's
+hook (bl -> CheckHeap+24 -> CM_NewGameExpShare) put back to the stock
+`bl ResetTrainerTowerResults`, so a bedroom checkpoint driven on one of them
+starts with no Exp. Share and the activation-wrapper cases above stay
+discriminating -- EXCEPT --newgame-probe, which keeps it: its console only
+records flag 0x906 / checkitem 182 (no CM, no wrapper) into vars 0x4011/0x4012
+for run_newgame_expshare_e2e.sh; --newgame-probe --no-newgame is its control.
 """
 import struct
 import sys
@@ -41,6 +49,21 @@ ITEM_POKE_BALL = 4
 OP_SETWILDBATTLE = 0xB6
 OP_DOWILDBATTLE = 0xB7
 OP_END = 0x02
+NEWGAME_BL_SITE = 0x054B3E          # NewGameInitData: bl ResetTrainerTowerResults (hooked)
+RESET_TRAINER_TOWER = 0x0815EE0C
+
+
+def _bl(src, dst):
+    off = dst - (src + 4)
+    imm = (off >> 1) & 0x3FFFFF
+    return struct.pack("<HH", 0xF000 | (imm >> 11), 0xF800 | (imm & 0x7FF))
+
+
+def revert_newgame(d):
+    stock = _bl(0x08000000 + NEWGAME_BL_SITE, RESET_TRAINER_TOWER)
+    assert bytes(d[NEWGAME_BL_SITE:NEWGAME_BL_SITE + 4]) != stock, \
+        "the source ROM has no new-game Exp. Share hook to remove"
+    d[NEWGAME_BL_SITE:NEWGAME_BL_SITE + 4] = stock
 
 
 def main():
@@ -60,8 +83,21 @@ def main():
     assert cur == CODE_ENTRY_CHAIN, \
         "goto_if operand is %#x, expected %#x" % (cur, CODE_ENTRY_CHAIN)
 
+    probe = "--newgame-probe" in sys.argv[1:]
     script = bytearray()
-    if expshare:
+    if probe:
+        # record only: var 0x4011 <- flag 0x906 set?, var 0x4012 <- checkitem 182
+        script += bytes([0x16]) + struct.pack("<HH", 0x4011, 0)
+        skip = TEST_SCRIPT_ADDR + len(script) + 3 + 6 + 5
+        script += bytes([0x2B]) + struct.pack("<H", 0x906)                # checkflag 0x906
+        script += bytes([0x06, 0x00]) + struct.pack("<I", skip)           # goto_if unset
+        script += bytes([0x16]) + struct.pack("<HH", 0x4011, 1)
+        assert TEST_SCRIPT_ADDR + len(script) == skip
+        script += bytes([0x47]) + struct.pack("<HH", 182, 1)              # checkitem 182,1
+        script += bytes([0x19]) + struct.pack("<HH", 0x4012, 0x800D)      # copyvar
+        script += bytes([0x02])
+        out_name = "radicalred_cm_ngprobe%s.gba" % ("_nohook" if "--no-newgame" in sys.argv[1:] else "")
+    elif expshare:
         # Early Exp. Share (src/exp_share.c): CM on as Red, the activation
         # wrapper, then record what it left behind for the Lua layer:
         #   var 0x4011 <- 1 if flag 0x906 (CFRU FLAG_EXP_SHARE) is set
@@ -102,6 +138,8 @@ def main():
 
     # Test-only: bypass the roster pre-entry (tools/tests/roster_console.py).
     restore_stock_console(d)
+    if not probe or "--no-newgame" in sys.argv[1:]:
+        revert_newgame(d)
     out = OUT if not out_name else BUILD / out_name
     if nohook:
         cur = bytes(d[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4])
@@ -110,7 +148,10 @@ def main():
         out = OUT_NOHOOK
     out.write_bytes(bytes(d))
     print("test ROM: %s" % out.name)
-    if expshare:
+    if probe:
+        print("  bedroom console -> record flag 0x906 / checkitem 182 (new-game hook %s)"
+              % ("REMOVED" if "--no-newgame" in sys.argv[1:] else "kept"))
+    elif expshare:
         print("  bedroom console -> %sCM_ActivateSweepAndExpShare ; record flag 0x906 / "
               "checkitem 182" % ("setflag CM ; setvar char 1 ; " if "--cm-off" not in sys.argv[1:] else ""))
     else:

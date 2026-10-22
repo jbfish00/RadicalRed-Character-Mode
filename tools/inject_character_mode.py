@@ -216,6 +216,12 @@ FIELD_MOVES_ADDR          = 0x08CFD000         # its own unit, after pc_guard.c
 SURE_CATCH_ADDR  = 0x08CFE000
 # Early party-wide Exp. Share (src/exp_share.c; 2026-10-09). Its own unit.
 EXP_SHARE_ADDR   = 0x08CFE800
+# Exp. Share with CM OFF too (user, 2026-10-21): NewGameInitData's last BL
+# (ResetTrainerTowerResults) -> CheckHeap+24 trampoline -> CM_NewGameExpShare.
+NEWGAME_EXPSHARE_BL_SITE  = 0x054B3E
+RESET_TRAINER_TOWER       = 0x0815EE0C
+NEWGAME_TRAMPOLINE_ADDR   = 0x08002C04        # CheckHeap+24 (dead tail, word-aligned)
+NEWGAME_TRAMPOLINE_DEAD   = bytes.fromhex("28688442f4d10120")  # CheckHeap +24..+31
 CATCH_ODDS_SITE  = 0x107D552          # atkEF_handleballthrow: cmp r4,#254 ; bls 0x0907D590
 CATCH_ODDS_ORIG  = bytes.fromhex("fe2c1cd9")
 # Off-roster species uncatchable (2026-10-09): the FlagGet(FLAG_NO_CATCHING
@@ -1110,6 +1116,23 @@ def main():
     CATCH_FLAGGET = int(_sf.group(1), 16)
     splice(SURE_CATCH_ADDR, sure_catch, "100% roster catch")
     splice(EXP_SHARE_ADDR, exp_share, "early Exp. Share")
+    _xsym = subprocess.run(["arm-none-eabi-nm", str(BUILD / "exp_share.elf")], check=True,
+                           capture_output=True, text=True).stdout
+    _ng = re.search(r"^([0-9a-f]+) T CM_NewGameExpShare$", _xsym, re.M)
+    assert _ng, _xsym
+    NEWGAME_EXPSHARE = int(_ng.group(1), 16) | 1
+    assert EXP_SHARE_ADDR <= (NEWGAME_EXPSHARE & ~1) < EXP_SHARE_ADDR + len(exp_share)
+    _t = NEWGAME_TRAMPOLINE_ADDR - 0x08000000
+    assert _t % 4 == 0 and bytes(data[_t:_t + 8]) == NEWGAME_TRAMPOLINE_DEAD, (
+        "CheckHeap+24 is not the dead routine's bytes -- re-derive")
+    data[_t:_t + 8] = struct.pack("<HHI", 0x4B00, 0x4718, NEWGAME_EXPSHARE)
+    _cur = bytes(data[NEWGAME_EXPSHARE_BL_SITE:NEWGAME_EXPSHARE_BL_SITE + 4])
+    assert _cur == thumb_bl(0x08000000 + NEWGAME_EXPSHARE_BL_SITE, RESET_TRAINER_TOWER), (
+        f"NewGameInitData's last BL: {_cur.hex()}")
+    data[NEWGAME_EXPSHARE_BL_SITE:NEWGAME_EXPSHARE_BL_SITE + 4] = thumb_bl(
+        0x08000000 + NEWGAME_EXPSHARE_BL_SITE, NEWGAME_TRAMPOLINE_ADDR)
+    print(f"New-game Exp. Share: NewGameInitData -> {NEWGAME_EXPSHARE:#x} via "
+          f"{NEWGAME_TRAMPOLINE_ADDR:#x} (CheckHeap+24)")
     _cur = bytes(data[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4])
     assert _cur == CATCH_ODDS_ORIG, f"handleballthrow odds compare: {_cur.hex()}"
     data[CATCH_ODDS_SITE:CATCH_ODDS_SITE + 4] = thumb_bl(0x08000000 + CATCH_ODDS_SITE, SURE_STUB)

@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 174  # +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 179  # +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -335,6 +335,10 @@ def main():
                  _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 24),
                 (_inj("FIELD_CANLEARN_BL_SITE"), _inj("FIELD_CANLEARN_BL_SITE") + 4),
                 (_inj("FIELD_KNOWS_BL_SITE"), _inj("FIELD_KNOWS_BL_SITE") + 4),
+                # Early Exp. Share with CM off (2026-10-21): CheckHeap+24 and one BL.
+                (_inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 24,
+                 _inj("PSS_GUARD_TRAMPOLINE_ADDR") - 0x08000000 + 32),
+                (_inj("NEWGAME_EXPSHARE_BL_SITE"), _inj("NEWGAME_EXPSHARE_BL_SITE") + 4),
                 # Early Exp. Share: its own unit (the activation wrapper).
                 (_inj("EXP_SHARE_ADDR") - 0x08000000,
                  _inj("EXP_SHARE_ADDR") - 0x08000000
@@ -1555,6 +1559,49 @@ def main():
     check("compiled field hooks (read from the ROM) carry CanMonLearnTMTutor, MonKnowsMove, "
           "CheckBagHasItem and the CM flag 0x18FE",
           {_canlearn | 1, _knows | 1, 0x08099F41, 0x18FE} <= _flits)
+
+    # --- Exp. Share for every new game, CM on or off (user, 2026-10-21) ---
+    _ng_site = _inj("NEWGAME_EXPSHARE_BL_SITE")
+    _ng_tr = _inj("NEWGAME_TRAMPOLINE_ADDR")
+    _ng_to = _ng_tr - 0x08000000
+    _ng_sym = subprocess.run(["arm-none-eabi-nm", str(ROOT / "build" / "exp_share.elf")],
+                             check=True, capture_output=True, text=True).stdout
+    _ng_fn = int(re.search(r"^([0-9a-f]+) T CM_NewGameExpShare$", _ng_sym, re.M).group(1), 16)
+    check("base: NewGameInitData's last call (0x08054B3E) is bl ResetTrainerTowerResults, "
+          "after ClearBag (0x08054B06) and RunScriptImmediately(ResetAllMapFlags) (0x08054B30)",
+          decode_bl(bytes(orig[_ng_site:_ng_site + 4]), 0x08000000 + _ng_site) == 0x0815EE0C
+          and decode_bl(bytes(orig[0x054B06:0x054B0A]), 0x08054B06) == 0x0809A2DC
+          and decode_bl(bytes(orig[0x054B30:0x054B34]), 0x08054B30) == 0x08069B48
+          and bytes(orig[0x054B42:0x054B4E]) == bytes.fromhex("02b008bc984670bc01bc0047"))
+    check(f"base: CheckHeap+24 ({_ng_tr:#x}) is the dead routine and nothing branches or points to it",
+          _ng_tr % 4 == 0
+          and bytes(orig[_ng_to:_ng_to + 8]) == bytes.fromhex("28688442f4d10120")
+          and not _bl_to(orig, _ng_tr)
+          # The only 5 hits of the bytes 05 2C 00 08 are inside one byte-packed data
+          # table at 0x09809F32-0x0980AAE7 (three of them are not word-aligned; all
+          # five sit in the same "01 05 2c 00 08" run). Pinned, so a new hit fails.
+          and sorted(find_all(orig, struct.pack("<I", _ng_tr | 1)))
+          == [0x1809F32, 0x1809F6E, 0x180AA7B, 0x180AAB4, 0x180AAE4]
+          # and 04 2C 00 08 only at two odd offsets of another data run.
+          and sorted(find_all(orig, struct.pack("<I", _ng_tr))) == [0x1805105, 0x1805135])
+    check("built: NewGameInitData calls the CheckHeap+24 trampoline; ResetTrainerTowerResults "
+          "keeps its other callers",
+          decode_bl(bytes(patched[_ng_site:_ng_site + 4]), 0x08000000 + _ng_site) == _ng_tr
+          and sorted(_bl_to(patched, 0x0815EE0C)) == sorted(
+              x for x in _bl_to(orig, 0x0815EE0C) if x != _ng_site))
+    check("new-game trampoline is ldr r3,[pc]; bx r3 -> CM_NewGameExpShare",
+          bytes(patched[_ng_to:_ng_to + 8]) == struct.pack("<HHI", 0x4B00, 0x4718, _ng_fn | 1))
+    _xo2 = _inj("EXP_SHARE_ADDR") - 0x08000000
+    _xb2 = (ROOT / "build" / "exp_share.bin").read_bytes()
+    _nfo = _ng_fn - 0x08000000
+    _nf_rom = bytes(patched[_nfo:_xo2 + len(_xb2)])
+    _nflits = {struct.unpack_from("<I", _nf_rom, k)[0] for k in range(0, len(_nf_rom) - 3, 4)
+               if (_ng_fn + k) % 4 == 0}
+    check("CM_NewGameExpShare (read from the ROM) calls ResetTrainerTowerResults, then "
+          "CheckBagHasItem / AddBagItem (item 182) and FlagSet(0x906), with NO Character Mode test",
+          {0x0815EE0D, 0x08099F41, 0x0809A085, 0x0806E681, 0x906} <= _nflits
+          and 0x18FE not in _nflits and 0x0806E6D1 not in _nflits
+          and b"\xb6\x20" in _nf_rom)
 
     print("== 21. 100% catch for on-roster species (2026-10-09) ==")
     _cs_site = _inj("CATCH_ODDS_SITE")

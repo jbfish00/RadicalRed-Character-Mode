@@ -3,8 +3,8 @@
 -- an mGBA savestate + position/party dump so later scripts can start from
 -- here instead of re-driving ~8000 frames every time.
 local H = dofile("tools/mgba_scripts/harness.lua")
-local SAV = "/tmp/rr_probe.sav"
-local OUT = "/tmp/rr_ss_bedroom.ss"
+local SAV = os.getenv("CHECKPOINT_SAV") or "/tmp/rr_probe.sav"
+local OUT = os.getenv("CHECKPOINT_OUT") or "/tmp/rr_ss_bedroom.ss"
 
 local loaded = false
 local function tapA(f, at)
@@ -33,7 +33,7 @@ H.onFrame(function(f)
             H.log(string.format("checkpoint pos x=%d y=%d map=%d.%d party=%d",
                 pos.x, pos.y, pos.grp, pos.num, emu:read8(H.gPlayerPartyCount)))
         end
-        emu:screenshot("/tmp/rr_ss_bedroom.png")
+        emu:screenshot((OUT:gsub("%.ss$", "")) .. ".png")
         emu:saveStateFile(OUT)
         H.log("saved " .. OUT)
         H.finish()
