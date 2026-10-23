@@ -1,6 +1,6 @@
 # Character Mode — Final-Evolution Rosters (Pokémon Radical Red v4.1)
 
-Every playable character and the **final evolutions** their complete roster resolves to, in **National Pokédex order**. Rosters were researched from Bulbapedia (union of all games, remakes, rematches, and anime) and cross-checked where possible. Regional/cosmetic forms show as their base species. Off-roster Pokémon are routed to your PC.
+Every playable character and the **final evolutions** their complete roster resolves to, in **National Pokédex order**. Rosters were researched from Bulbapedia (union of all games, remakes, rematches, and anime) and cross-checked where possible. Regional/cosmetic forms show as their base species. Off-roster wild Pokémon cannot be caught; off-roster gifts, eggs and trades go to your PC.
 
 **210 characters.** Sprite version: `ROSTERS_SPRITES.md`.
 

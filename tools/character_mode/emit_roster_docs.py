@@ -353,7 +353,8 @@ def main():
            "roster resolves to, in **National Pokédex order**. Rosters were "
            "researched from Bulbapedia (union of all games, remakes, rematches, "
            "and anime) and cross-checked where possible. Regional/cosmetic forms "
-           "show as their base species. Off-roster Pokémon are routed to your PC.",
+           "show as their base species. Off-roster wild Pokémon cannot be caught; off-roster gifts, "
+           "eggs and trades go to your PC.",
            "", "**%d characters.** Sprite version: `ROSTERS_SPRITES.md`." % len(chars),
            "", generated_note, ""] + coverage + ["", "## Contents"]
     for g in gens:
