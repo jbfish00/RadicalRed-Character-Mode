@@ -385,6 +385,25 @@ def free_tutors(data, cm):
     return {"money_tutors": len(FREE_MONEY_TUTORS), "egg_tutor": 1, "move_maniac": 1}
 
 
+# ---- QoL A2 (2026-10-24): the move relearner lists every level-up move, not only those at or below the mon's level --
+# CFRU's GetMoveRelearnerMoves (FireRed's entry 0x08043C84 jumps to 0x090A8AEC) reads the level byte (+84), then
+# `bl FlagGet(0x916); cmp r0,#0; beq` skips `movs r3,#250`: with flag 0x916 set it already lists every move (no RR
+# script sets it). The beq (0x090A8B0A) becomes a nop, so the level is always 250. Always on (Character Mode on or off).
+# CM_NO_ANYLEVEL=1 builds the control.
+RELEARN_ANYLEVEL_BEQ = 0x090A8B0A
+
+
+def relearn_any_level(data):
+    import os
+    if os.environ.get("CM_NO_ANYLEVEL") == "1":
+        return {}
+    o = RELEARN_ANYLEVEL_BEQ - 0x08000000
+    assert bytes(data[o - 2:o + 4]) == bytes.fromhex("002801d0fa23"), \
+        "relearner level gate %08X holds %s" % (RELEARN_ANYLEVEL_BEQ, bytes(data[o - 2:o + 4]).hex())
+    data[o:o + 2] = b"\xc0\x46"                     # nop
+    return {"relearner_any_level": 1}
+
+
 def main():
     data = bytearray(ROM_IN.read_bytes())
     got = hashlib.sha1(data).hexdigest()
@@ -1318,6 +1337,7 @@ def main():
           % (len(CM_BATTLE_MSG_SITES), CM_WAIT_OLD, CM_WAIT_NEW))
 
     print("free tutors:", free_tutors(data, cm))
+    print("relearner any level:", relearn_any_level(data))
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")

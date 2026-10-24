@@ -97,6 +97,8 @@ While Character Mode is on:
   (the ball is dodged or bounces off with no shakes). Gifts, eggs and trades keep their PC routing.
 - **TMs are reusable.** Native to Radical Red.
 - **Exp. Share, party-wide.** The Exp. Share is given when you pick a character and shared by the whole party.
+- **Move relearner, any level** (Character Mode on or off, 2026-10-24): the Two Island Move Maniac teaches every
+  level-up move of the Pokémon, not only the ones up to its current level.
 - **Overworld sprite**: you walk and run as your character (11 characters wear Radical Red's own wardrobe costumes; 155 more have their own walk/run sheets).
 
 ## Seeing your roster in-game
