@@ -422,6 +422,27 @@ def anim_default(data):
     return {"battle_anims_off_default": 1}
 
 
+# QoL A3 instant HP bar (2026-10-28): FireRed's MoveBattleBar (0x08049FD8) jumps at 0x0804A00C into CFRU's 0x09043400,
+# which passes CalcNewBarValue scale 6 (`movs r4,#6`) and a toAdd from 0x090681A0 (max HP / 48, rounded up). Scale 0 keeps
+# every bar on the integer path (no 1/48-of-a-bar steps below 48 max HP) and toAdd 255 replaces the call (`movs r4,#255;
+# nop; nop`; the push/pop around it stay): the bar settles in 1-3 frames. RR's own "Instant HP Bar" NPC setting (flag
+# 0x107A) was measured to change nothing on this path (54 calls on 54 frames either way), so it is not used.
+# CM_NO_INSTANTHP=1 builds the control.
+HPBAR_SCALE_SITE = (0x09043400, bytes.fromhex("0624"), bytes.fromhex("0024"))
+HPBAR_TOADD_SITE = (0x09043408, bytes.fromhex("24f0cafe041c"), bytes.fromhex("ff24c046c046"))
+
+
+def instant_hp(data):
+    import os
+    if os.environ.get("CM_NO_INSTANTHP") == "1":
+        return {}
+    for a, old, new in (HPBAR_SCALE_SITE, HPBAR_TOADD_SITE):
+        o = a - 0x08000000
+        assert bytes(data[o:o + len(old)]) == old, "%08X holds %s, want %s" % (a, bytes(data[o:o + len(old)]).hex(), old.hex())
+        data[o:o + len(new)] = new
+    return {"instant_hp_bar": 1}
+
+
 def main():
     data = bytearray(ROM_IN.read_bytes())
     got = hashlib.sha1(data).hexdigest()
@@ -1357,6 +1378,7 @@ def main():
     print("free tutors:", free_tutors(data, cm))
     print("relearner any level:", relearn_any_level(data))
     print("battle animations off on new games:", anim_default(data))
+    print("instant HP bar:", instant_hp(data))
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")

@@ -101,6 +101,7 @@ While Character Mode is on:
   level-up move of the Pokémon, not only the ones up to its current level.
 - **Battle animations off by default** (Character Mode on or off, 2026-10-28): a game with no save starts with
   battle animations off. Options turns them back on; an existing save keeps its own setting.
+- **Instant HP bar** (every save, 2026-10-28): the HP bar jumps straight to its new value in battle.
 - **Overworld sprite**: you walk and run as your character (11 characters wear Radical Red's own wardrobe costumes; 155 more have their own walk/run sheets).
 
 ## Seeing your roster in-game

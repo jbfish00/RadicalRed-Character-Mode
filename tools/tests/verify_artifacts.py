@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 181  # +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 182  # +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -168,6 +168,7 @@ def _free_tutor_regions(orig):
     r += [(a - 0x08000000, a - 0x08000000 + 5) for a, _t in FT_MANIAC] + [(a - 0x08000000, a - 0x08000000 + 4) for a in FT_MANIAC_PTRS]
     r += [(RELEARN_ANYLEVEL_BEQ - 0x08000000, RELEARN_ANYLEVEL_BEQ - 0x08000000 + 2)]
     r += [(0x5499C, 0x5499D)]          # QoL A3 2026-10-28: SetDefaultOptions' last +0x15 value
+    r += [(0x1043400, 0x1043402), (0x1043408, 0x104340E)]   # QoL A3 2026-10-28: CFRU HP-bar scale + toAdd
     return r
 
 
@@ -1673,6 +1674,11 @@ def main():
     check("new games start with battle animations off (QoL A3): SetDefaultOptions stores +0x15 = 7 (stereo, Set style, "
           "scene off; base: movs r0,#3)", bytes(orig[0x5499A:0x549A0]) == bytes.fromhex("404203205075")
           and bytes(patched[0x5499A:0x549A0]) == bytes.fromhex("404207205075"))
+    check("instant HP bar (QoL A3): CFRU's MoveBattleBar tail passes CalcNewBarValue scale 0 and toAdd 255 "
+          "(base: movs r4,#6 and the max-HP/48 call)",
+          bytes(orig[0x1043400:0x1043402]) == bytes.fromhex("0624") and bytes(patched[0x1043400:0x1043402]) == bytes.fromhex("0024")
+          and bytes(orig[0x1043408:0x104340E]) == bytes.fromhex("24f0cafe041c")
+          and bytes(patched[0x1043408:0x104340E]) == bytes.fromhex("ff24c046c046"))
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1
