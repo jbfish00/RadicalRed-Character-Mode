@@ -404,6 +404,24 @@ def relearn_any_level(data):
     return {"relearner_any_level": 1}
 
 
+# QoL A3 (2026-10-28): new games start with battle animations off. FireRed's SetDefaultOptions (0x08054954, run at
+# boot by CB2_InitCopyrightScreenAfterBootup and on a title-screen reset; a save's own options replace it) ends with
+# RR's `movs r0,#3 ; strb r0,[r2,#0x15]` (stereo + Set style). #7 adds optionsBattleSceneOff (+0x15 bit 2, as in
+# every Gen 3 SaveBlock2). The Options menu still turns animations on. CM_NO_ANIMDEFAULT=1 builds the control.
+ANIM_DEFAULT_SITE = 0x0805499C
+
+
+def anim_default(data):
+    import os
+    if os.environ.get("CM_NO_ANIMDEFAULT") == "1":
+        return {}
+    o = ANIM_DEFAULT_SITE - 0x08000000
+    assert bytes(data[o - 2:o + 4]) == bytes.fromhex("404203205075"), \
+        "SetDefaultOptions' last +0x15 store at %08X holds %s" % (ANIM_DEFAULT_SITE, bytes(data[o - 2:o + 4]).hex())
+    data[o] = 0x07                                 # movs r0,#7
+    return {"battle_anims_off_default": 1}
+
+
 def main():
     data = bytearray(ROM_IN.read_bytes())
     got = hashlib.sha1(data).hexdigest()
@@ -1338,6 +1356,7 @@ def main():
 
     print("free tutors:", free_tutors(data, cm))
     print("relearner any level:", relearn_any_level(data))
+    print("battle animations off on new games:", anim_default(data))
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")
