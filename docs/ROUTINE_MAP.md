@@ -602,3 +602,22 @@ all 12 with the HMs, none without; CM off: none; the `--no-hook` ROM fails on
 exactly those 12. The script then runs FireRed's Cut-tree script: with the hook
 the screenshot shows "Would you like to Cut it?", without it the script ends.
 Not tested live: an actual Dive spot or Rock Climb wall (same shared function).
+
+## EXP rate (2026-10-29): START RIGHT page row, all saves ✅ LIVE
+
+`src/exp_rate.c` (own unit) at `0x08CFF800`, data block at `0x08CFFE00` (both in the free run before
+`FREE_BLOCK_END`, direct BL reach). Rate in expanded var **`0x51FC`** (zero script/literal hits in 4.1, like
+`0x51FD`): 0 = x1, 1 = x1.5, 2 = x2, 3 = x3, 4 = x0.5.
+
+| what | addr | notes |
+|---|---|---|
+| award | BL MathMin `0x09094A82` (-> `0x090C1858`) in `atk23_getexp` `0x090946EC` | `min(0x190640, exp)` then `MathMax(1, x)`; the result is both the printed calculatedExp and gBattleMoveDamage. The hard-level-cap path (award 1) branches to `0x09094A88` (`b` at `0x0909495E`), past the MathMin, so it is never scaled. -> `CM_ExpRateMin` |
+| second page gate | `CanSetUpSecondaryStartMenu` `0x090BDCEC` | `FlagGet(0x91E) && FlagGet(0x829)`; callers `0x090BE06E` (RIGHT) and `0x090BE1F2` (exit row choice). Now `movs r0,#1; bx lr` |
+| row | shared BL `0x090BE1FC` (call_via_r4 = AppendToStartMenuItems) | appends 6 / 11 (Exit ->) / 12 (Exit <-); -> `CM_StartMenuAppendExit` adds row 13 before 12 |
+| table block | `0x09148FB4` = window template (8) + 13 descriptions + 13 actions (+0x3C) | CFRU's StartCB reads it base-relative from the literal `0x090BE158`: descriptions `[base+4i+8]`, callbacks `[base+8i+0x40]` (`ldr r3,[r3,#64]` at `0x090BE0D6`). Relocated with 14 descriptions and the actions at +0x40 (the load becomes #68); vanilla literals `0x0806EF9C/F374/F3F8` (actions) and `0x0806F138/F368` (descriptions) repointed. `0x090BDF14` (AddWindow of the template) keeps the old copy. |
+| list | `CM_ExpRateOpen` via `lockall; callnative; waitstate; releaseall; end` | fade cancelled (ResetPaletteFadeControl + unfaded -> faded), closed like Exit |
+
+⚠️ **RR party mons are unencrypted**: EXP is the raw u32 at +0x24 (the decrypting read gave garbage).
+Evidence: verify 186 (4 checks), `exprate_negative_test.py` 7/7, live `tools/tests/run_exprate_e2e.sh` 10/10
+(x1 4/4, x2 8/8, x0.5 2/2, x3 12/12, x1.5 6/6, no-hook control 4/4 + its negative, 3 START list layers).
+Unbound has the same getexp code (MathMin BL `0x089E2006`, cap path to `0x089E200C`).

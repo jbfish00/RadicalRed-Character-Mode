@@ -428,6 +428,27 @@ def anim_default(data):
 # nop; nop`; the push/pop around it stay): the bar settles in 1-3 frames. RR's own "Instant HP Bar" NPC setting (flag
 # 0x107A) was measured to change nothing on this path (54 calls on 54 frames either way), so it is not used.
 # CM_NO_INSTANTHP=1 builds the control.
+# EXP rate (src/exp_rate.c; user 2026-10-29, ../game_plans/EXP_RATE_PLAN.md). Code at EXP_RATE_ADDR, its data block
+# (relocated START tables, strings, the row's script) at EXP_RATE_DATA_ADDR, both in the free run before FREE_BLOCK_END
+# and in direct BL reach of every site. Sites (old bytes asserted):
+#  - atk23_getexp's MathMin(0x190640, exp) BL -> CM_ExpRateMin (the hard-level-cap path jumps past it)
+#  - SetUpStartMenu's shared AppendToStartMenuItems BL (EXIT / EXIT_RIGHT / EXIT_LEFT) -> CM_StartMenuAppendExit
+#  - CanSetUpSecondaryStartMenu -> `movs r0,#1; bx lr` (the RIGHT page, where Exp Rate lives, is always offered)
+#  - StartCB_HandleInput's callback load `ldr r3,[r3,#64]` -> #68 and its table-block literal -> the new block, whose
+#    descriptions (base+8) now hold 14 entries and whose action table sits at base+0x40; 5 vanilla literals follow
+EXP_RATE_ADDR      = 0x08CFF800
+EXP_RATE_DATA_ADDR = 0x08CFFE00
+EXPRATE_MIN_SITE   = (0x09094A82, 0x090C1858)          # BL MathMin in atk23_getexp
+EXPRATE_APPEND_SITE = (0x090BE1FC, 0x090BE39A)         # BL call_via_r4 (AppendToStartMenuItems)
+SECONDARY_MENU_FN  = (0x090BDCEC, bytes.fromhex("10b50648064c"), bytes.fromhex("01207047"))
+START_BLOCK_OLD    = 0x09148FB4                        # window template (8) + 13 descriptions + 13 actions
+START_BLOCK_LIT    = 0x090BE158                        # StartCB_HandleInput's literal for that block
+START_ACTION_LOAD  = (0x090BE0D6, bytes.fromhex("1b6c"), bytes.fromhex("5b6c"))   # ldr r3,[r3,#64] -> #68
+START_ACTION_LITS  = (0x0806EF9C, 0x0806F374, 0x0806F3F8)
+START_DESC_LITS    = (0x0806F138, 0x0806F368)
+EXPRATE_ROW        = 13
+
+
 HPBAR_SCALE_SITE = (0x09043400, bytes.fromhex("0624"), bytes.fromhex("0024"))
 HPBAR_TOADD_SITE = (0x09043408, bytes.fromhex("24f0cafe041c"), bytes.fromhex("ff24c046c046"))
 
@@ -1379,6 +1400,69 @@ def main():
     print("relearner any level:", relearn_any_level(data))
     print("battle animations off on new games:", anim_default(data))
     print("instant HP bar:", instant_hp(data))
+    # --- EXP rate (src/exp_rate.c) ---
+    _ed = bytearray()
+    _ea = {}
+
+    def _eput(name, b, align=4):
+        while len(_ed) % align:
+            _ed.append(0xFF)
+        _ea[name] = EXP_RATE_DATA_ADDR + len(_ed)
+        _ed.extend(b)
+    _blk_old = START_BLOCK_OLD - 0x08000000
+    _eput("block", bytes(data[_blk_old:_blk_old + 8]) + bytes(data[_blk_old + 8:_blk_old + 8 + 13 * 4])
+          + b"\0\0\0\0" + b"\0" * (14 * 8))          # template, 13+1 descriptions, then 14 actions at +0x40
+    _eput("script", b"\x69\x23\0\0\0\0\x27\x6B\x02", 1)
+    _eput("label", enc_text("Exp Rate", cm))
+    _eput("desc", enc_text("Change how much EXP battles give.", cm))
+    _eput("head", enc_text("EXP rate", cm))
+    _eput("items", b"".join(enc_text(x, cm) + b"\xFF" * (6 - len(enc_text(x, cm)))
+                            for x in ("x0.5", "x1", "x1.5", "x2", "x3")))
+    eobj, eelf, ebin = BUILD / "exp_rate.o", BUILD / "exp_rate.elf", BUILD / "exp_rate.bin"
+    subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi", "-mtune=arm7tdmi", "-O2",
+                    "-ffreestanding", "-fno-builtin", "-Wall", "-Wextra",
+                    f"-DEXPRATE_SCRIPT_ADDR={_ea['script']:#x}", f"-DEXPRATE_HEADER_ADDR={_ea['head']:#x}",
+                    f"-DEXPRATE_ITEMS_ADDR={_ea['items']:#x}",
+                    "-o", str(eobj), str(ROOT / "src" / "exp_rate.c")], check=True)
+    subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{EXP_RATE_ADDR:#x}", "--entry", "CM_ExpRateMin",
+                    "-o", str(eelf), str(eobj)], check=True)
+    _esec = subprocess.run(["arm-none-eabi-objdump", "-h", str(eelf)], check=True, capture_output=True, text=True).stdout
+    for _sec in (".rodata", ".data", ".bss"):
+        assert not re.search(rf"^\s*\d+\s+{re.escape(_sec)}\S*\s+0*[1-9a-f]", _esec, re.M), (
+            f"exp_rate.elf has a non-empty {_sec}: objcopy --only-section=.text would silently drop it")
+    subprocess.run(["arm-none-eabi-objcopy", "-O", "binary", "--only-section=.text", str(eelf), str(ebin)], check=True)
+    exp_rate = ebin.read_bytes()
+    assert EXP_RATE_ADDR + len(exp_rate) <= EXP_RATE_DATA_ADDR, "exp_rate code overruns its data block"
+    _esym = {m.group(2): int(m.group(1), 16) for m in re.finditer(
+        r"^([0-9a-f]+) T (CM_\w+)$", subprocess.run(["arm-none-eabi-nm", str(eelf)], check=True,
+                                                     capture_output=True, text=True).stdout, re.M)}
+    struct.pack_into("<I", _ed, _ea["script"] - EXP_RATE_DATA_ADDR + 2, _esym["CM_ExpRateOpen"] | 1)
+    _b = _ea["block"] - EXP_RATE_DATA_ADDR
+    struct.pack_into("<I", _ed, _b + 8 + EXPRATE_ROW * 4, _ea["desc"])
+    _ed[_b + 0x40:_b + 0x40 + 13 * 8] = data[_blk_old + 0x3C:_blk_old + 0x3C + 13 * 8]
+    struct.pack_into("<II", _ed, _b + 0x40 + EXPRATE_ROW * 8, _ea["label"], _esym["CM_StartMenuExpRate"] | 1)
+    assert struct.unpack_from("<I", data, _blk_old + 0x3C + 6 * 8 + 4)[0] == 0x0806F541, "START block: row 6 is not Exit"
+    assert EXP_RATE_DATA_ADDR + len(_ed) <= 0x08000000 + FREE_BLOCK_END
+    splice(EXP_RATE_ADDR, exp_rate, "EXP rate code")
+    splice(EXP_RATE_DATA_ADDR, bytes(_ed), "EXP rate data")
+    for (_site, _old_tgt), _fn in ((EXPRATE_MIN_SITE, "CM_ExpRateMin"), (EXPRATE_APPEND_SITE, "CM_StartMenuAppendExit")):
+        _o = _site - 0x08000000
+        assert bytes(data[_o:_o + 4]) == thumb_bl(_site, _old_tgt), f"EXP rate site {_site:#x}: {bytes(data[_o:_o + 4]).hex()}"
+        data[_o:_o + 4] = thumb_bl(_site, _esym[_fn])
+    for _a, _old, _new in (SECONDARY_MENU_FN, START_ACTION_LOAD):
+        _o = _a - 0x08000000
+        assert bytes(data[_o:_o + len(_old)]) == _old, f"EXP rate site {_a:#x}: {bytes(data[_o:_o + len(_old)]).hex()}"
+        data[_o:_o + len(_new)] = _new
+    assert struct.unpack_from("<I", data, START_BLOCK_LIT - 0x08000000)[0] == START_BLOCK_OLD
+    struct.pack_into("<I", data, START_BLOCK_LIT - 0x08000000, _ea["block"])
+    for _lits, _old, _new in ((START_ACTION_LITS, START_BLOCK_OLD + 0x3C, _ea["block"] + 0x40),
+                              (START_DESC_LITS, START_BLOCK_OLD + 8, _ea["block"] + 8)):
+        for _l in _lits:
+            assert struct.unpack_from("<I", data, _l - 0x08000000)[0] == _old, f"START literal {_l:#x}"
+            struct.pack_into("<I", data, _l - 0x08000000, _new)
+    print(f"EXP rate: {len(exp_rate)} B @ {EXP_RATE_ADDR:#x}, data {len(_ed)} B @ {EXP_RATE_DATA_ADDR:#x}; "
+          f"START row {EXPRATE_ROW} on the RIGHT page; getexp MathMin -> {_esym['CM_ExpRateMin']:#x}")
+
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")

@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 182  # +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 186  # +4: EXP rate (2026-10-29); +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -169,6 +169,11 @@ def _free_tutor_regions(orig):
     r += [(RELEARN_ANYLEVEL_BEQ - 0x08000000, RELEARN_ANYLEVEL_BEQ - 0x08000000 + 2)]
     r += [(0x5499C, 0x5499D)]          # QoL A3 2026-10-28: SetDefaultOptions' last +0x15 value
     r += [(0x1043400, 0x1043402), (0x1043408, 0x104340E)]   # QoL A3 2026-10-28: CFRU HP-bar scale + toAdd
+    # EXP rate 2026-10-29: code + data block, the getexp / START BLs, the secondary-menu gate, the callback load,
+    # StartCB's block literal and the five vanilla table literals
+    r += [(0xCFF800, 0xCFFC00), (0xCFFE00, 0xD00000), (0x1094A82, 0x1094A86), (0x10BE1FC, 0x10BE200),
+          (0x10BDCEC, 0x10BDCF0), (0x10BE0D6, 0x10BE0D8), (0x10BE158, 0x10BE15C)]
+    r += [(a, a + 4) for a in (0x6EF9C, 0x6F374, 0x6F3F8, 0x6F138, 0x6F368)]
     return r
 
 
@@ -1679,6 +1684,39 @@ def main():
           bytes(orig[0x1043400:0x1043402]) == bytes.fromhex("0624") and bytes(patched[0x1043400:0x1043402]) == bytes.fromhex("0024")
           and bytes(orig[0x1043408:0x104340E]) == bytes.fromhex("24f0cafe041c")
           and bytes(patched[0x1043408:0x104340E]) == bytes.fromhex("ff24c046c046"))
+
+    # EXP rate (2026-10-29, src/exp_rate.c): addresses restated here, symbols from the built ELF.
+    _es = {m.group(2): int(m.group(1), 16) for m in re.finditer(r"^([0-9a-f]+) T (CM_\w+)$", subprocess.run(
+        ["arm-none-eabi-nm", str(ROOT / "build" / "exp_rate.elf")], check=True, capture_output=True, text=True).stdout, re.M)}
+    _bl = lambda buf, a: decode_bl(bytes(buf[a - 0x08000000:a - 0x08000000 + 4]), a)
+    _fmin = _es["CM_ExpRateMin"] - 0x08000000
+    check("EXP rate: atk23_getexp's MathMin BL @ 0x09094A82 -> CM_ExpRateMin (base: MathMin 0x090C1858), which reads "
+          "var 0x51FC; the level-cap path still jumps past it (b 0x09094A88 @ 0x0909495E)",
+          _bl(orig, 0x09094A82) == 0x090C1858 and _bl(patched, 0x09094A82) == _es["CM_ExpRateMin"]
+          and struct.pack("<I", 0x51FC) in bytes(patched[_fmin:_fmin + 0x80])
+          and bytes(patched[0x109495E:0x1094960]) == bytes.fromhex("93e0"))
+    check("EXP rate: SetUpStartMenu's shared exit append BL @ 0x090BE1FC -> CM_StartMenuAppendExit (base: call_via_r4); "
+          "CanSetUpSecondaryStartMenu returns TRUE (movs r0,#1; bx lr)",
+          _bl(orig, 0x090BE1FC) == 0x090BE39A and _bl(patched, 0x090BE1FC) == _es["CM_StartMenuAppendExit"]
+          and bytes(orig[0x10BDCEC:0x10BDCF0]) == bytes.fromhex("10b50648") and bytes(patched[0x10BDCEC:0x10BDCF0]) == bytes.fromhex("01207047"))
+    _blk = struct.unpack_from("<I", patched, 0x10BE158)[0] - 0x08000000
+    _old = 0x1148FB4
+    _lab = struct.unpack_from("<I", patched, _blk + 0x40 + 13 * 8)[0] - 0x08000000
+    check("EXP rate: START block relocated (StartCB literal; callback load ldr #64 -> #68; 3 action + 2 description "
+          "literals); rows 0-12 and descriptions 0-12 = RR's own; row 13 = 'Exp Rate' -> CM_StartMenuExpRate + a description",
+          struct.unpack_from("<I", orig, 0x10BE158)[0] == 0x09148FB4 and _blk != _old
+          and bytes(orig[0x10BE0D6:0x10BE0D8]) == bytes.fromhex("1b6c") and bytes(patched[0x10BE0D6:0x10BE0D8]) == bytes.fromhex("5b6c")
+          and all(struct.unpack_from("<I", patched, a)[0] == _blk + 0x08000040 for a in (0x6EF9C, 0x6F374, 0x6F3F8))
+          and all(struct.unpack_from("<I", patched, a)[0] == _blk + 0x08000008 for a in (0x6F138, 0x6F368))
+          and bytes(patched[_blk + 0x40:_blk + 0x40 + 13 * 8]) == bytes(orig[_old + 0x3C:_old + 0x3C + 13 * 8])
+          and bytes(patched[_blk + 8:_blk + 8 + 13 * 4]) == bytes(orig[_old + 8:_old + 8 + 13 * 4])
+          and struct.unpack_from("<I", patched, _blk + 0x44 + 13 * 8)[0] == _es["CM_StartMenuExpRate"] | 1
+          and bytes(patched[_lab:_lab + 9]) == bytes.fromhex("bfece400ccd5e8d9ff")
+          and patched[struct.unpack_from("<I", patched, _blk + 8 + 13 * 4)[0] - 0x08000000] != 0xFF)
+    _scr = re.search(rb"\x69\x23" + re.escape(struct.pack("<I", _es["CM_ExpRateOpen"] | 1)) + rb"\x27\x6B\x02",
+                     bytes(patched[0xCFFE00:0xD004D7]))
+    check("EXP rate: the row's script (lockall; callnative CM_ExpRateOpen; waitstate; releaseall; end) is in the data block",
+          _scr is not None)
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1
