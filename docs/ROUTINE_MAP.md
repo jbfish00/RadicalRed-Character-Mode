@@ -621,3 +621,21 @@ Not tested live: an actual Dive spot or Rock Climb wall (same shared function).
 Evidence: verify 186 (4 checks), `exprate_negative_test.py` 7/7, live `tools/tests/run_exprate_e2e.sh` 10/10
 (x1 4/4, x2 8/8, x0.5 2/2, x3 12/12, x1.5 6/6, no-hook control 4/4 + its negative, 3 START list layers).
 Unbound has the same getexp code (MathMin BL `0x089E2006`, cap path to `0x089E200C`).
+
+## Wild-intro roster hint + the REAL intro path (2026-11-08, QoL B9): ✅ LIVE
+
+- **Finding:** RR's real wild intro never reaches the two vanilla strings the 2026-08-21 marker hooked
+  (`0x083FD284`/`0x083FD297`, via the BL at `0x080D77DE`). CFRU has its own `BufferStringBattle`
+  (`0x090715xx`) with "A wild {FD06} appeared!" strings: `0x090FF0D6`, `0x090FF125` (plain, two arms),
+  `0x090FF10E` (ends `{PAUSE 127}`), and the two-wild `0x090FF0EB`. Its common exit `0x0907159C`
+  (`movs r0,r3; ldr r3,=0x080D77F5; bl call_via_r3`) reads ONE pool word, `0x09071798`. So the
+  "destined for" marker had never appeared in a real battle; the GDB unit test entered the shim directly.
+- **Fix:** that pool word now points at `CM_BattleStringGated` (same wrapper, same `r0 = src`), and the
+  shim matches the three CFRU single-wild strings too (the two-wild ones are left alone). Marker text
+  now uses RR's voice: "A wild X appeared, / destined for NAME!".
+- **B9:** an off-roster wild mon (CM on, valid species, not in the character's bitmap) gets the shared
+  record `MARKER_ADDR + NUM_CHARACTERS*64` = `0x0837CB80`: "A wild X appeared! / It is not on your roster."
+  Same bitmap test as the catch gate. `CM_NO_OFFROSTER=1` builds the control.
+- Evidence: verify **190**, `shim_unit_test.py` **19/19**, live `tools/tests/run_intro_hint_e2e.sh` **5/5**
+  (Red marker, Ash off-roster line, CM off, control, negative control; decodes `gDisplayedStringBattle`
+  `0x0202298C`), screenshot: both lines fit the text box.

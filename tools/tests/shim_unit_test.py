@@ -42,7 +42,7 @@ import re
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 15
+EXPECT_CHECKS = 19  # +3 CFRU intro strings (2026-11-08), +1 QoL B9 off-roster cases (2026-11-08)
 import struct
 import subprocess
 import sys
@@ -332,9 +332,25 @@ def main():
         {"name": "CM on, on-roster, SECOND string copy -> marker", "flag": 1,
          "char_id": red_idx, "species": red_on, "src": TEXT_WILD_B,
          "expect": marker_for(red0)},
-        {"name": "CM on, OFF-roster mon -> vanilla string", "flag": 1,
+        # QoL B9 (2026-11-08): an off-roster mon gets the shared off-roster
+        # line (record NUM_CHARACTERS), on both copies of the intro string.
+        {"name": "CM on, OFF-roster mon -> the off-roster line", "flag": 1,
          "char_id": red_idx, "species": red_off, "src": TEXT_WILD_A,
-         "expect": TEXT_WILD_A},
+         "expect": marker_for(len(manifest["characters"]))},
+        # A species outside the bitmap is neither on nor off: vanilla.
+        {"name": "CM on, species past NUM_SPECIES -> vanilla string", "flag": 1,
+         "char_id": red_idx, "species": 0xFFF0, "src": TEXT_WILD_B,
+         "expect": TEXT_WILD_B},
+        # 2026-11-08: RR's real intro strings are CFRU's ("A wild X appeared!").
+        {"name": "CM on, on-roster, CFRU intro 0x090FF0D6 -> marker", "flag": 1,
+         "char_id": red_idx, "species": red_on, "src": 0x090FF0D6,
+         "expect": marker_for(red0)},
+        {"name": "CM on, off-roster, CFRU pause intro 0x090FF10E -> off-roster line", "flag": 1,
+         "char_id": red_idx, "species": red_off, "src": 0x090FF10E,
+         "expect": marker_for(len(manifest["characters"]))},
+        {"name": "CFRU two-wild string 0x090FF0EB is never substituted", "flag": 1,
+         "char_id": red_idx, "species": red_on, "src": 0x090FF0EB,
+         "expect": 0x090FF0EB},
         {"name": "CM off -> vanilla string", "flag": 0,
          "char_id": red_idx, "species": red_on, "src": TEXT_WILD_A,
          "expect": TEXT_WILD_A},

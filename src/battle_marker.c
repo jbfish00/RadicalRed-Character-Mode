@@ -71,6 +71,17 @@ typedef unsigned int u32;
 #define MARKER_STRIDE 64
 #define TEXT_WILD_APPEARED_A ((const u8 *) 0x083FD284)
 #define TEXT_WILD_APPEARED_B ((const u8 *) 0x083FD297)
+/* ⚠️ FOUND 2026-11-08 (QoL B9 live layer): RR's real intro never reaches the two
+   vanilla strings above. CFRU has its own BufferStringBattle (0x090715xx) whose
+   strings read "A wild {FD}{06} appeared!": 0x090FF0D6 and 0x090FF125 (plain,
+   two arms), 0x090FF10E (ends {PAUSE 127}). Its common exit 0x0907159C calls the
+   same wrapper 0x080D77F5 through ONE pool word (0x09071798), which the injector
+   now points here. Until then the "destined for" marker had never been shown in
+   a real battle (the GDB unit test entered the shim directly). The two-wild
+   CFRU string 0x090FF0EB is left alone, like its vanilla twin. */
+#define TEXT_CFRU_WILD_A     ((const u8 *) 0x090FF0D6)
+#define TEXT_CFRU_WILD_B     ((const u8 *) 0x090FF125)
+#define TEXT_CFRU_WILD_PAUSE ((const u8 *) 0x090FF10E)
 /* The wrapper the intro tail calls; it loads gDisplayedStringBattle and calls
    the real expander. */
 #define OrigExpandString ((void (*)(const u8 *)) 0x080D77F5)
@@ -83,7 +94,9 @@ typedef unsigned int u32;
 
 void CM_BattleStringGated(const u8 *src)
 {
-    if ((src == TEXT_WILD_APPEARED_A || src == TEXT_WILD_APPEARED_B)
+    if ((src == TEXT_WILD_APPEARED_A || src == TEXT_WILD_APPEARED_B
+         || src == TEXT_CFRU_WILD_A || src == TEXT_CFRU_WILD_B
+         || src == TEXT_CFRU_WILD_PAUSE)
         && FlagGet(FLAG_CHARACTER_MODE)) {
         u16 id = VarGet(VAR_CHARACTER_ID);
 
@@ -97,6 +110,15 @@ void CM_BattleStringGated(const u8 *src)
                 if (bm[species >> 3] & (1 << (species & 7)))
                     src = (const u8 *) (MARKER_ADDR
                                         + (u32) (id - 1) * MARKER_STRIDE);
+#ifndef CM_NO_OFFROSTER
+                /* QoL B9 (2026-11-08): an off-roster mon says so before the
+                   throw ("It is not on your roster."). One shared record,
+                   appended after the per-character ones; the same bitmap test
+                   the catch gate uses, so the hint and the dodge agree. */
+                else
+                    src = (const u8 *) (MARKER_ADDR
+                                        + (u32) NUM_CHARACTERS * MARKER_STRIDE);
+#endif
             }
         }
     }

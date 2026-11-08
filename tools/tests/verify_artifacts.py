@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 187  # +1 starter kit (QoL C11/C16, 2026-11-07);  # +4: EXP rate (2026-10-29); +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 190  # +1 CFRU intro pool word, +2 off-roster intro line (QoL B9, 2026-11-08); +1 starter kit (QoL C11/C16, 2026-11-07);  # +4: EXP rate (2026-10-29); +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -383,8 +383,9 @@ def main():
                 # encounter marker: its shim and the per-character intro
                 # strings share one free run low in the ROM, plus the single BL
                 # inside the battle-message code that it retargets.
-                (0x378CA8, 0x379000 + 238 * 64),
+                (0x378CA8, 0x379000 + 239 * 64),   # + the QoL B9 off-roster record
                 (0x0D77DE, 0x0D77DE + 4),
+                (0x1071798, 0x1071798 + 4),        # CFRU intro pool word (2026-11-08)
                 # faster stat-change battle messages: two 15-byte battle-script
                 # windows reordered in place (same length, so no pointer moves)
                 *[(a - 0x08000000, a - 0x08000000 + 15)
@@ -1232,8 +1233,8 @@ def main():
     _mk = (ROOT / "tools" / "character_mode" / "marker_strings.bin").read_bytes()
     _nchars = len(json.loads((ROOT / "tools" / "character_mode" /
                               "characters_manifest.json").read_text())["characters"])
-    check("marker_strings.bin is NUM_CHARACTERS x 64",
-          len(_mk) == _nchars * _MK_STRIDE, str(len(_mk)))
+    check("marker_strings.bin is (NUM_CHARACTERS + 1 off-roster record) x 64",
+          len(_mk) == (_nchars + 1) * _MK_STRIDE, str(len(_mk)))
     check("marker strings in ROM == marker_strings.bin",
           bytes(patched[_MK_ADDR - 0x08000000:
                         _MK_ADDR - 0x08000000 + len(_mk)]) == _mk)
@@ -1246,6 +1247,13 @@ def main():
     check("the intro BL now points into the marker shim",
           _bl_now is not None and _MK_SHIM <= _bl_now < _MK_ADDR,
           hex(_bl_now) if _bl_now else "None")
+    # 2026-11-08: RR's REAL intro is CFRU's BufferStringBattle, whose common exit
+    # calls the wrapper through pool word 0x09071798. Without this the marker
+    # never showed in a battle.
+    _pw = struct.unpack_from("<I", patched, 0x1071798)[0]
+    check("CFRU's intro pool word 0x09071798 points at the marker shim (was the wrapper)",
+          struct.unpack_from("<I", orig, 0x1071798)[0] == _MK_WRAPPER | 1
+          and _pw & 1 and _MK_SHIM <= (_pw & ~1) < _MK_ADDR and _pw - 1 == _bl_now, hex(_pw))
     check("and originally pointed at the vanilla wrapper",
           decode_bl(bytes(orig[_MK_BL:_MK_BL + 4]),
                     0x08000000 + _MK_BL) == _MK_WRAPPER)
@@ -1256,9 +1264,21 @@ def main():
     check("the whole marker region was 0xFF in the original",
           all(b == 0xFF for b in orig[_MK_SHIM - 0x08000000:
                                       _MK_ADDR - 0x08000000 + len(_mk)]))
-    _bad = [i for i in range(_nchars)
+    _bad = [i for i in range(_nchars + 1)
             if 0xFF not in _mk[i * _MK_STRIDE:(i + 1) * _MK_STRIDE]]
     check("every marker slot is 0xFF-terminated", not _bad, str(len(_bad)))
+    # QoL B9 (2026-11-08): the shared off-roster line is the last record, and
+    # the shim reads it at MARKER_ADDR + NUM_CHARACTERS * 64. Literal bytes:
+    # "A wild {FD06} appeared!\nIt is not on your roster.{FB}"
+    _off_want = bytes.fromhex("bb00ebdde0d800fd0600d5e4e4d9d5e6d9d8abfe"
+                              "c3e800dde700e2e3e800e3e200ede3e9e600e6e3e7e8d9e6adfbff")
+    check("the off-roster record reads 'A wild X appeared! / It is not on your roster.'",
+          _mk[_nchars * _MK_STRIDE:_nchars * _MK_STRIDE + len(_off_want)] == _off_want)
+    # The compiled shim must hold the record's address as a literal, unless
+    # this is the CM_NO_OFFROSTER control build.
+    _mk_shim = bytes(patched[_MK_SHIM - 0x08000000:_MK_ADDR - 0x08000000])
+    check("the marker shim loads the off-roster record's address (MARKER_ADDR + N*64)",
+          struct.pack("<I", _MK_ADDR + _nchars * _MK_STRIDE) in _mk_shim)
 
 
     print("== 16. roster display (roots, header names, code, console pre-entry) ==")
@@ -1418,7 +1438,7 @@ def main():
               _fp["main shim"][2:4] == _fp["battle marker"][2:4])
         check(f"battle marker compiled MARKER_STRIDE={_fp['battle marker'][4]}: "
               f"x{NUM_CHARS} == marker_strings.bin ({len(_fp_mk)} B)",
-              _fp["battle marker"][4] * NUM_CHARS == len(_fp_mk))
+              _fp["battle marker"][4] * (NUM_CHARS + 1) == len(_fp_mk))
 
     print("== 18. PC second guard (ROWE's IsRemovingLastAllowedPartyMon) ==")
     _count = _inj("PSS_COUNT_ALIVE_EXCEPT")

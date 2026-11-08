@@ -424,3 +424,6 @@ record.
 
 ## Starter kit (2026-11-07)
 Every new game (Character Mode on or off) starts with the Running Shoes, the Bicycle (the Cerulean bike shop then treats it as handed out), the Shiny Charm and the Oval Charm. Build 2026-11-07: `build/radicalred_cm.gba` sha1 `ef156ebfab44a72122ff3c05d69c440ca8a20d5c`, `build/radicalred_cm.bps` sha1 `72d934e2b71021c16e2447003c08a4324cfbf50c` (round trip checked). The kit comes with a new game only; an existing save keeps what it has. On My Boy!, keep the old ROM and save, and load the new ROM under the same file name so the `.sav` carries over.
+
+## Wild-intro roster hint (2026-11-08)
+With Character Mode on, a wild Pokémon off your character's roster says so in its intro ("A wild X appeared! / It is not on your roster."), so you know before you throw a ball that it can't be caught. On-roster Pokémon say "destined for <NAME>!". This also fixes the "destined for" line, which never actually showed in battle before (RR's battles use their own copy of the intro text). Build 2026-11-08: `build/radicalred_cm.gba` sha1 `755571320e0a0c2b914bd49c989a3480d62f5a12`, `build/radicalred_cm.bps` sha1 `59ecbd7b58973250b4fc53028e5aef6445364f82` (round trip checked). Save-compatible: on My Boy!, keep the old ROM and save, and load the new ROM under the same file name so the `.sav` carries over.

@@ -82,6 +82,12 @@ TERM = 0xFF
 
 STRIDE = 64          # generous; the longest name here is well inside it
 
+OFFROSTER_LINE = "It is not on your roster."   # QoL B9, second line of the intro
+# RR's own voice (CFRU's intro strings, 0x090FF0D6): "A wild X appeared!". The
+# markers said "Wild X," until 2026-11-08, matching the vanilla strings that RR's
+# real intro never reaches.
+INTRO_PREFIX = "A wild "
+
 
 def load_charmap():
     """Byte-for-byte the injector's loader. Deliberately not a second
@@ -121,7 +127,7 @@ def main():
         # something to say to the player mid-battle.
         shown = name.replace(" (anime)", "")
         s = bytearray()
-        s += enc("Wild ", cm)
+        s += enc(INTRO_PREFIX, cm)
         s += PLACEHOLDER
         s += enc(" appeared,", cm)
         s.append(NEWLINE)
@@ -138,13 +144,29 @@ def main():
         longest = max(longest, len(s))
         blob += s + b"\xFF" * (STRIDE - len(s))
 
+    # QoL B9 (user 2026-10-24, built 2026-11-08): ONE shared off-roster line,
+    # appended as record NUM_CHARACTERS (the shim reads it at
+    # MARKER_ADDR + NUM_CHARACTERS * STRIDE). It names nobody, so it needs no
+    # per-character copy. No apostrophe: the charmap loader cannot read '\''.
+    s = bytearray()
+    s += enc(INTRO_PREFIX, cm)
+    s += PLACEHOLDER
+    s += enc(" appeared!", cm)
+    s.append(NEWLINE)
+    s += enc(OFFROSTER_LINE, cm)
+    s.append(PARAGRAPH)
+    s.append(TERM)
+    assert len(s) <= STRIDE
+    blob += s + b"\xFF" * (STRIDE - len(s))
+
     out = os.path.join(HERE, "marker_strings.bin")
     with open(out, "wb") as f:
         f.write(blob)
     with open(os.path.join(HERE, "marker_strings_manifest.json"), "w") as f:
-        json.dump({"count": len(chars), "stride": STRIDE,
+        json.dump({"count": len(chars), "offroster_record": len(chars),
+                   "stride": STRIDE,
                    "longest_used": longest, "bytes": len(blob)}, f, indent=1)
-    print("marker_strings.bin: %d characters x %d = %d B (longest %d)"
+    print("marker_strings.bin: %d characters + 1 off-roster line x %d = %d B (longest %d)"
           % (len(chars), STRIDE, len(blob), longest))
 
 

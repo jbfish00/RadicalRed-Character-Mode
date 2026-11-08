@@ -35,6 +35,7 @@ Debug codes (mirroring ROWE's in-game debug-menu test method):
                 hardcoded: the previous literal (Meowth) became on-roster
                 when the roster grew and the test quietly stopped testing.
 """
+import os
 import hashlib
 import json
 import re
@@ -144,11 +145,13 @@ WILD_SHIM_ADDR    = 0x08CE0000
 # 84,224 bytes verified 0xFF from 0x08378CA8; nothing else in tools/ references
 # this region.
 MARKER_SHIM_ADDR  = 0x08378CA8
-MARKER_ADDR       = 0x08379000     # 238*64 = 15,232 B -> ends 0x0837CC00
+MARKER_ADDR       = 0x08379000     # (238+1)*64 = 15,296 B -> ends 0x0837CC40
+MARKER_REGION_FREE = 84224         # the verified-0xFF run from MARKER_SHIM_ADDR
 MARKER_STRIDE     = 64
 # ldr r0,=<string>; b 0x080D77DC ... 0x080D77DC: adds r0,r7,#0 ; bl wrapper
 MARKER_BL_SITE    = 0x0D77DE
 MARKER_WRAPPER    = 0x080D77F4
+MARKER_CFRU_POOL  = 0x09071798     # CFRU BufferStringBattle's expander pointer (src/battle_marker.c)
 # Two byte-identical copies of "Wild {FD}{06} appeared!{FB}"; the shim matches
 # both (src/battle_marker.c explains why picking one was not safe).
 TEXT_WILD_APPEARED = (0x083FD284, 0x083FD297)
@@ -625,6 +628,8 @@ def main():
                     f"-DBITMAP_STRIDE={_stride}",
                     f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
                     f"-DMARKER_ADDR={MARKER_ADDR:#x}",
+                    # QoL B9 control: no off-roster intro line.
+                    *(["-DCM_NO_OFFROSTER"] if os.environ.get("CM_NO_OFFROSTER") == "1" else []),
                     "-o", str(mobj), str(ROOT / "src" / "battle_marker.c")],
                    check=True)
     subprocess.run(["arm-none-eabi-gcc", "-mthumb", "-mcpu=arm7tdmi",
@@ -1052,9 +1057,12 @@ def main():
               f"table @ {CM_SPRITE_PTRS_ADDR:#x}")
     splice(MARKER_SHIM_ADDR, marker_shim, "encounter-marker shim")
     marker_blob = (HERE / "character_mode" / "marker_strings.bin").read_bytes()
-    assert len(marker_blob) == num_chars * MARKER_STRIDE, (
+    # + 1: the shared off-roster line (QoL B9) is record NUM_CHARACTERS.
+    assert len(marker_blob) == (num_chars + 1) * MARKER_STRIDE, (
         f"marker_strings.bin is {len(marker_blob)} B, expected "
-        f"{num_chars * MARKER_STRIDE} -- re-run emit_marker_strings.py")
+        f"{(num_chars + 1) * MARKER_STRIDE} -- re-run emit_marker_strings.py")
+    assert MARKER_ADDR + len(marker_blob) <= MARKER_SHIM_ADDR + MARKER_REGION_FREE, \
+        "marker strings run past the verified-free region"
     splice(MARKER_ADDR, marker_blob, "encounter marker strings")
     print(f"encounter marker: {len(marker_blob):,} B @ {MARKER_ADDR:#x}, "
           f"stride {MARKER_STRIDE}")
@@ -1245,6 +1253,13 @@ def main():
                               f"{cur_bl.hex()} != expected {expect.hex()}")
     data[MARKER_BL_SITE:MARKER_BL_SITE + 4] = thumb_bl(
         0x08000000 + MARKER_BL_SITE, marker_entry)
+    # 2026-11-08: CFRU's own BufferStringBattle exit (0x0907159C: movs r0,r3;
+    # ldr r3,=wrapper; bl call_via_r3) is what RR's real intro uses. One pool
+    # word, read by one ldr; same wrapper, same r0 = src convention.
+    _po = MARKER_CFRU_POOL - 0x08000000
+    assert struct.unpack_from("<I", data, _po)[0] == MARKER_WRAPPER | 1, \
+        f"CFRU intro pool word {MARKER_CFRU_POOL:#x} is not the wrapper"
+    struct.pack_into("<I", data, _po, marker_entry | 1)
 
     for site in (BL_SITE_LAND_MAIN, BL_SITE_LAND_DOUBLE, BL_SITE_FISH_MAIN, BL_SITE_FISH_DOUBLE):
         cur_bl = bytes(data[site:site + 4])
