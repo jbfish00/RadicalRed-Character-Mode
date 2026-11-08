@@ -18,6 +18,7 @@ H.onFrame(function(f)
     if f == 5 then
         emu:write16(emu:read32(0x03005008) + 0x1000 + 2 * (0x4011 - 0x4000), 0xFFFF)
         emu:write16(emu:read32(0x03005008) + 0x1000 + 2 * (0x4012 - 0x4000), 0xFFFF)
+        for v = 0x4013, 0x4017 do emu:write16(emu:read32(0x03005008) + 0x1000 + 2 * (v - 0x4000), 0xFFFF) end
         press(K.UP, 20); press(K.A, 70); press(K.A, 200); press(K.A, 330)
     end
     if f == 900 then
@@ -26,6 +27,13 @@ H.onFrame(function(f)
         local want = (EXPECT == "granted") and 1 or 0
         H.assertEq("Exp. Share switched on (flag 0x906)", on, want)
         H.assertEq("Exp. Share in the bag (checkitem 182)", has, want)
+        if os.getenv("KIT") == "1" then   -- QoL C11/C16 (2026-11-07, --newgame-probe ROMs): vars 0x4013..0x4017
+            H.assertEq("Bicycle in the bag (checkitem 360)", var(0x4013), want)
+            H.assertEq("Shiny Charm in the bag (checkitem 471)", var(0x4014), want)
+            H.assertEq("Oval Charm in the bag (checkitem 470)", var(0x4015), want)
+            H.assertEq("bike shop flag 0x271", var(0x4016), want)
+            H.assertEq("Running Shoes flag 0x82F", var(0x4017), want)
+        end
         H.finish()
     end
 end)

@@ -95,6 +95,16 @@ def main():
         assert TEST_SCRIPT_ADDR + len(script) == skip
         script += bytes([0x47]) + struct.pack("<HH", 182, 1)              # checkitem 182,1
         script += bytes([0x19]) + struct.pack("<HH", 0x4012, 0x800D)      # copyvar
+        # QoL C11/C16 (2026-11-07): the starter kit from the same hook -> vars 0x4013..0x4017:
+        # checkitem Bicycle 360 / Shiny Charm 471 / Oval Charm 470, flag 0x271 (bike shop), flag 0x82F (Running Shoes)
+        for v, it in ((0x4013, 360), (0x4014, 471), (0x4015, 470)):
+            script += bytes([0x47]) + struct.pack("<HH", it, 1) + bytes([0x19]) + struct.pack("<HH", v, 0x800D)
+        for v, fl in ((0x4016, 0x271), (0x4017, 0x82F)):
+            script += bytes([0x16]) + struct.pack("<HH", v, 0)
+            skip = TEST_SCRIPT_ADDR + len(script) + 3 + 6 + 5
+            script += bytes([0x2B]) + struct.pack("<H", fl) + bytes([0x06, 0x00]) + struct.pack("<I", skip)
+            script += bytes([0x16]) + struct.pack("<HH", v, 1)
+            assert TEST_SCRIPT_ADDR + len(script) == skip
         script += bytes([0x02])
         out_name = "radicalred_cm_ngprobe%s.gba" % ("_nohook" if "--no-newgame" in sys.argv[1:] else "")
     elif expshare:

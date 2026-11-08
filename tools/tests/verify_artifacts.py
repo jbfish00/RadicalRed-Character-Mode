@@ -145,7 +145,7 @@ checks_run = 0
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 186  # +4: EXP rate (2026-10-29); +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
+EXPECT_CHECKS = 187  # +1 starter kit (QoL C11/C16, 2026-11-07);  # +4: EXP rate (2026-10-29); +1: instant HP bar (QoL A3, 2026-10-28); +1: battle animations off on new games (QoL A3, 2026-10-28); +1: relearner any level (QoL A2, 2026-10-24); +5: new-game Exp. Share for CM on or off (2026-10-21); +3: section 22, free move tutors (2026-10-17); +2: section 21 off-roster dodge (2026-10-09); +1: the early Exp. Share wrapper (2026-10-09); +5: section 21, 100% roster catch (2026-10-09); +10: section 20, field moves (2026-10-07); +2: walk/run sprites (2026-10-02); +1: overworld costumes (2026-10-02); +1: section 16 roots-only hint (2026-10-02); +6: section 19, the link-trade sweep (2026-09-30); +8: section 18, the PC second guard (2026-09-29); +10: section 17, the build fingerprints (2026-09-29); +16: section 16, the roster display (2026-09-27)
                      # +5: the PC-exit sweep (2026-09-06)
 
 
@@ -1609,8 +1609,12 @@ def main():
     check("CM_NewGameExpShare (read from the ROM) calls ResetTrainerTowerResults, then "
           "CheckBagHasItem / AddBagItem (item 182) and FlagSet(0x906), with NO Character Mode test",
           {0x0815EE0D, 0x08099F41, 0x0809A085, 0x0806E681, 0x906} <= _nflits
-          and 0x18FE not in _nflits and 0x0806E6D1 not in _nflits
+          and 0x18FE not in _nflits                 # 2026-11-07: FlagGet is now read for the bike-shop flag (kit)
           and b"\xb6\x20" in _nf_rom)
+    check("CM_NewGameExpShare also gives the starter kit (QoL C11/C16 2026-11-07): Running Shoes 0x82F, the "
+          "bike-shop flag 0x271 (FlagGet + FlagSet) as literals; the items (360/470/471, built from immediates) are "
+          "proven live by run_newgame_expshare_e2e.sh",
+          {0x82F, 0x271, 0x0806E6D1} <= _nflits)
 
     print("== 21. 100% catch for on-roster species (2026-10-09) ==")
     _cs_site = _inj("CATCH_ODDS_SITE")

@@ -24,10 +24,10 @@ for pair in "ngprobe granted" "ngprobe_nohook none"; do
         --script tools/mgba_scripts/mk_checkpoint_bedroom.lua "$rom" > /tmp/rr_ng_$tag.ckpt.log 2>&1 || true
     if [ ! -f "$ss" ]; then echo "[FAIL] new game ($tag): the intro produced no checkpoint"; fail=$((fail+1)); continue; fi
     log=/tmp/rr_ng_$tag.log
-    CM_EXPECT_CHECKS=2 EXPECT=$want timeout 60 "$MGBA" --script tools/mgba_scripts/cm_exp_share_test.lua \
+    CM_EXPECT_CHECKS=7 KIT=1 EXPECT=$want timeout 60 "$MGBA" --script tools/mgba_scripts/cm_exp_share_test.lua \
         -t "$ss" "$rom" > "$log" 2>&1 || true
     if grep -aq "HARNESS RESULT: PASS" "$log"; then
-        echo "[PASS] new game, CM off: Exp. Share $want ($tag)"; pass=$((pass+1))
+        echo "[PASS] new game, CM off: Exp. Share + starter kit $want ($tag)"; pass=$((pass+1))
     else echo "[FAIL] new game, CM off: Exp. Share $want ($tag; see $log)"; fail=$((fail+1)); fi
 done
 echo "new-game Exp. Share live: $pass passed, $fail failed (want $EXPECT_CASES)"

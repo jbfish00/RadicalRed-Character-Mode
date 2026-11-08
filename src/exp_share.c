@@ -55,9 +55,30 @@ void CM_ActivateSweepAndExpShare(void)
         FlagSet(FLAG_EXP_SHARE);
 }
 
+/* QoL C11 + C16 (2026-11-07, the same new-game call, CM on or off): Running Shoes (FLAG_SYS_B_DASH 0x82F), the
+ * Bicycle (360) with the Cerulean bike shop's own flag (0x271: its vanilla script at 0x0816AC30 gives 360 and sets
+ * it, so the shop then says it was handed out), and the Shiny (471) + Oval (470) Charms -- RR's CFRU code asks the bag
+ * for both (CheckBagHasItem(471) at 0x0907785A, (470) at 0x090884AA). Written out call by call: this unit keeps
+ * only .text, no tables. CM_NO_STARTKIT builds the control. */
+#define FLAG_SYS_B_DASH 0x82F
+#define FLAG_GOT_BICYCLE 0x271
+#define ITEM_BICYCLE 360
+#define ITEM_OVAL_CHARM 470
+#define ITEM_SHINY_CHARM 471
+
 void CM_NewGameExpShare(void)
 {
     ResetTrainerTowerResults();
     if (!CheckBagHasItem(ITEM_EXP_SHARE, 1) && AddBagItem(ITEM_EXP_SHARE, 1))
         FlagSet(FLAG_EXP_SHARE);
+#ifndef CM_NO_STARTKIT
+    FlagSet(FLAG_SYS_B_DASH);
+    if (!FlagGet(FLAG_GOT_BICYCLE) && !CheckBagHasItem(ITEM_BICYCLE, 1))
+        AddBagItem(ITEM_BICYCLE, 1);
+    FlagSet(FLAG_GOT_BICYCLE);
+    if (!CheckBagHasItem(ITEM_SHINY_CHARM, 1))
+        AddBagItem(ITEM_SHINY_CHARM, 1);
+    if (!CheckBagHasItem(ITEM_OVAL_CHARM, 1))
+        AddBagItem(ITEM_OVAL_CHARM, 1);
+#endif
 }
