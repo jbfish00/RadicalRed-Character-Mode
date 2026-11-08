@@ -421,3 +421,6 @@ selection scripts, patched ROM, BPS) from a pinned v4.1 ROM at
 (`shim_unit_test.py`, `run_boot_smoke.sh`, `verify_artifacts.py`).
 See `CLAUDE.md` and `docs/ROUTINE_MAP.md` for the full reverse-engineering
 record.
+
+## Starter kit (2026-11-07)
+Every new game (Character Mode on or off) starts with the Running Shoes, the Bicycle (the Cerulean bike shop then treats it as handed out), the Shiny Charm and the Oval Charm. Build 2026-11-07: `build/radicalred_cm.gba` sha1 `ef156ebfab44a72122ff3c05d69c440ca8a20d5c`, `build/radicalred_cm.bps` sha1 `72d934e2b71021c16e2447003c08a4324cfbf50c` (round trip checked). The kit comes with a new game only; an existing save keeps what it has. On My Boy!, keep the old ROM and save, and load the new ROM under the same file name so the `.sav` carries over.
