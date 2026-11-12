@@ -1427,9 +1427,26 @@ def main():
     _blk_old = START_BLOCK_OLD - 0x08000000
     _eput("block", bytes(data[_blk_old:_blk_old + 8]) + bytes(data[_blk_old + 8:_blk_old + 8 + 13 * 4])
           + b"\0\0\0\0" + b"\0" * (14 * 8))          # template, 13+1 descriptions, then 14 actions at +0x40
-    _eput("script", b"\x69\x23\0\0\0\0\x27\x6B\x02", 1)
-    _eput("label", enc_text("Exp Rate", cm))
-    _eput("desc", enc_text("Change how much EXP battles give.", cm))
+    # 2026-11-11 (QoL round 2 item 3): the row is "Extras" = Exp. Rate / Heal party / PC (src/exp_rate.c CM_ExtrasOpen).
+    # lockall; callnative CM_ExtrasOpen (filled after link); waitstate; VAR_RESULT 1 -> heal, 2 -> PC; releaseall; end
+    # heal: special 0 (HealPlayerParty); message; waitmessage; waitbuttonpress; closemessage; releaseall; end
+    # pc:   special 0x3C (the storage system, what the PC script runs); waitstate; callnative CM_SweepPartyToPC (the
+    #       same undo-on-exit sweep the vanilla PC script's tail got, tools/character_mode/pc_hook.py); releaseall; end
+    _eput("healed", enc_text("Your party was healed.", cm))
+    _eput("script", b"\0" * 55, 1)
+    _es = _ea["script"]
+    _esb = (b"\x69\x23\0\0\0\0\x27"
+            + b"\x21\x0D\x80\x01\x00\x06\x01" + struct.pack("<I", _es + 31)
+            + b"\x21\x0D\x80\x02\x00\x06\x01" + struct.pack("<I", _es + 44)
+            + b"\x6B\x02"
+            + b"\x25\x00\x00\x67" + struct.pack("<I", _ea["healed"]) + b"\x66\x6D\x68\x6B\x02"
+            + b"\x25\x3C\x00\x27\x23" + struct.pack("<I", ACTIVATE_SWEEP) + b"\x6B\x02")
+    assert ACTIVATE_SWEEP & 1 and len(_esb) == 55 and _esb[31] == 0x25 and _esb[44:47] == b"\x25\x3C\x00"
+    _ed[_es - EXP_RATE_DATA_ADDR:_es - EXP_RATE_DATA_ADDR + 55] = _esb
+    _eput("label", enc_text("Extras", cm))
+    _eput("desc", enc_text("EXP rate, heal your party, use the PC.", cm))
+    _eput("xitems", b"".join(enc_text(x, cm) + b"\xFF" * (11 - len(enc_text(x, cm)))
+                             for x in ("Exp. Rate", "Heal party", "PC")))
     _eput("head", enc_text("EXP rate", cm))
     _eput("items", b"".join(enc_text(x, cm) + b"\xFF" * (6 - len(enc_text(x, cm)))
                             for x in ("x0.5", "x1", "x1.5", "x2", "x3")))
@@ -1437,7 +1454,8 @@ def main():
     subprocess.run(["arm-none-eabi-gcc", "-c", "-mthumb", "-mcpu=arm7tdmi", "-mtune=arm7tdmi", "-O2",
                     "-ffreestanding", "-fno-builtin", "-Wall", "-Wextra",
                     f"-DEXPRATE_SCRIPT_ADDR={_ea['script']:#x}", f"-DEXPRATE_HEADER_ADDR={_ea['head']:#x}",
-                    f"-DEXPRATE_ITEMS_ADDR={_ea['items']:#x}",
+                    f"-DEXPRATE_ITEMS_ADDR={_ea['items']:#x}", f"-DEXTRAS_ITEMS_ADDR={_ea['xitems']:#x}",
+                    *(["-DCM_NO_EXTRAS"] if os.environ.get("CM_NO_EXTRAS") == "1" else []),   # control (heal + PC anywhere)
                     "-o", str(eobj), str(ROOT / "src" / "exp_rate.c")], check=True)
     subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{EXP_RATE_ADDR:#x}", "--entry", "CM_ExpRateMin",
                     "-o", str(eelf), str(eobj)], check=True)
@@ -1451,7 +1469,7 @@ def main():
     _esym = {m.group(2): int(m.group(1), 16) for m in re.finditer(
         r"^([0-9a-f]+) T (CM_\w+)$", subprocess.run(["arm-none-eabi-nm", str(eelf)], check=True,
                                                      capture_output=True, text=True).stdout, re.M)}
-    struct.pack_into("<I", _ed, _ea["script"] - EXP_RATE_DATA_ADDR + 2, _esym["CM_ExpRateOpen"] | 1)
+    struct.pack_into("<I", _ed, _ea["script"] - EXP_RATE_DATA_ADDR + 2, _esym["CM_ExtrasOpen"] | 1)
     _b = _ea["block"] - EXP_RATE_DATA_ADDR
     struct.pack_into("<I", _ed, _b + 8 + EXPRATE_ROW * 4, _ea["desc"])
     _ed[_b + 0x40:_b + 0x40 + 13 * 8] = data[_blk_old + 0x3C:_blk_old + 0x3C + 13 * 8]

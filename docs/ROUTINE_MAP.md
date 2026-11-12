@@ -622,6 +622,17 @@ Evidence: verify 186 (4 checks), `exprate_negative_test.py` 7/7, live `tools/tes
 (x1 4/4, x2 8/8, x0.5 2/2, x3 12/12, x1.5 6/6, no-hook control 4/4 + its negative, 3 START list layers).
 Unbound has the same getexp code (MathMin BL `0x089E2006`, cap path to `0x089E200C`).
 
+## Extras: heal + PC anywhere (QoL round 2 item 3, 2026-11-11): ✅ LIVE
+
+User ruling: a START row, not a key item; every save, CM on or off; no heal limit. Row 13 ("Exp Rate" until now) is
+"Extras" (`src/exp_rate.c` `CM_ExtrasOpen`): a field list Exp. Rate / Heal party / PC; with no Pokemon (or
+`CM_NO_EXTRAS`) the rate list opens at once. Heal and PC set gSpecialVar_Result and the row's 55-byte script (data
+block) does the rest: `special 0` + message, or `special 0x3C; waitstate; callnative CM_SweepPartyToPC` (the vanilla PC
+tail's own sweep operand; the verifier compares the two). The unit grew past 0x400 B: its allowed region is now
+`0x08CFF800-0x08CFFE00` (still before the data block; the injector asserts it).
+Evidence: verify 190, `exprate_negative_test.py` 7/7, live `tools/tests/run_extras_e2e.sh` 6/6 (heal, PC, cancel, Exp.
+Rate through the list, no Pokemon, control asked for the heal fails), `run_exprate_e2e.sh` 10/10.
+
 ## Wild-intro roster hint + the REAL intro path (2026-11-08, QoL B9): ✅ LIVE
 
 - **Finding:** RR's real wild intro never reaches the two vanilla strings the 2026-08-21 marker hooked

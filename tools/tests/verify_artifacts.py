@@ -171,7 +171,7 @@ def _free_tutor_regions(orig):
     r += [(0x1043400, 0x1043402), (0x1043408, 0x104340E)]   # QoL A3 2026-10-28: CFRU HP-bar scale + toAdd
     # EXP rate 2026-10-29: code + data block, the getexp / START BLs, the secondary-menu gate, the callback load,
     # StartCB's block literal and the five vanilla table literals
-    r += [(0xCFF800, 0xCFFC00), (0xCFFE00, 0xD00000), (0x1094A82, 0x1094A86), (0x10BE1FC, 0x10BE200),
+    r += [(0xCFF800, 0xCFFE00), (0xCFFE00, 0xD00000), (0x1094A82, 0x1094A86), (0x10BE1FC, 0x10BE200),
           (0x10BDCEC, 0x10BDCF0), (0x10BE0D6, 0x10BE0D8), (0x10BE158, 0x10BE15C)]
     r += [(a, a + 4) for a in (0x6EF9C, 0x6F374, 0x6F3F8, 0x6F138, 0x6F368)]
     return r
@@ -1727,7 +1727,7 @@ def main():
     _old = 0x1148FB4
     _lab = struct.unpack_from("<I", patched, _blk + 0x40 + 13 * 8)[0] - 0x08000000
     check("EXP rate: START block relocated (StartCB literal; callback load ldr #64 -> #68; 3 action + 2 description "
-          "literals); rows 0-12 and descriptions 0-12 = RR's own; row 13 = 'Exp Rate' -> CM_StartMenuExpRate + a description",
+          "literals); rows 0-12 and descriptions 0-12 = RR's own; row 13 = 'Extras' -> CM_StartMenuExpRate + a description",
           struct.unpack_from("<I", orig, 0x10BE158)[0] == 0x09148FB4 and _blk != _old
           and bytes(orig[0x10BE0D6:0x10BE0D8]) == bytes.fromhex("1b6c") and bytes(patched[0x10BE0D6:0x10BE0D8]) == bytes.fromhex("5b6c")
           and all(struct.unpack_from("<I", patched, a)[0] == _blk + 0x08000040 for a in (0x6EF9C, 0x6F374, 0x6F3F8))
@@ -1735,12 +1735,25 @@ def main():
           and bytes(patched[_blk + 0x40:_blk + 0x40 + 13 * 8]) == bytes(orig[_old + 0x3C:_old + 0x3C + 13 * 8])
           and bytes(patched[_blk + 8:_blk + 8 + 13 * 4]) == bytes(orig[_old + 8:_old + 8 + 13 * 4])
           and struct.unpack_from("<I", patched, _blk + 0x44 + 13 * 8)[0] == _es["CM_StartMenuExpRate"] | 1
-          and bytes(patched[_lab:_lab + 9]) == bytes.fromhex("bfece400ccd5e8d9ff")
+          and bytes(patched[_lab:_lab + 7]) == bytes.fromhex("bfece8e6d5e7ff")
           and patched[struct.unpack_from("<I", patched, _blk + 8 + 13 * 4)[0] - 0x08000000] != 0xFF)
-    _scr = re.search(rb"\x69\x23" + re.escape(struct.pack("<I", _es["CM_ExpRateOpen"] | 1)) + rb"\x27\x6B\x02",
-                     bytes(patched[0xCFFE00:0xD004D7]))
-    check("EXP rate: the row's script (lockall; callnative CM_ExpRateOpen; waitstate; releaseall; end) is in the data block",
-          _scr is not None)
+    # 2026-11-11 (heal + PC anywhere): the row's script is the Extras one. lockall; callnative CM_ExtrasOpen; waitstate;
+    # VAR_RESULT 1 -> heal (+31), 2 -> pc (+44); releaseall; end; heal = special 0, message, waitmessage,
+    # waitbuttonpress, closemessage, releaseall, end; pc = special 0x3C, waitstate, releaseall, end
+    _dat = bytes(patched[0xCFFE00:0xD004D7])
+    _scr = re.search(rb"\x69\x23" + re.escape(struct.pack("<I", _es["CM_ExtrasOpen"] | 1)) + rb"\x27", _dat)
+    _sb = _dat[_scr.start():_scr.start() + 55] if _scr else b""
+    _pct = PC_TAIL_ADDR - 0x08000000        # the vanilla PC script's tail: special 0x3C; waitstate; callnative <sweep>
+    _sa = 0x08CFFE00 + (_scr.start() if _scr else 0)
+    check("EXP rate: the row's script (lockall; callnative CM_ExtrasOpen; waitstate; result 1 -> special 0 + message, "
+          "2 -> special 0x3C + waitstate + the PC-exit tail's own sweep callnative; releaseall; end) is in the data block",
+          _scr is not None and _sb[7:14] == bytes.fromhex("210d8001000601") and struct.unpack_from("<I", _sb, 14)[0] == _sa + 31
+          and _sb[18:25] == bytes.fromhex("210d8002000601") and struct.unpack_from("<I", _sb, 25)[0] == _sa + 44
+          and _sb[29:35] == bytes.fromhex("6b0225000067") and _sb[39:44] == bytes.fromhex("666d686b02")
+          and _sb[44:49] == bytes.fromhex("253c002723") and _sb[53:55] == bytes.fromhex("6b02")
+          and bytes(patched[_pct:_pct + 5]) == bytes.fromhex("253c002723") and _sb[49:53] == bytes(patched[_pct + 5:_pct + 9])
+          and bytes(orig[0x15FD60:0x15FD64]) == bytes(patched[0x15FD60:0x15FD64])
+          and bytes(orig[0x15FD60 + 0xF0:0x15FD64 + 0xF0]) == bytes(patched[0x15FD60 + 0xF0:0x15FD64 + 0xF0]))
 
     if assert_tally(checks_run, EXPECT_CHECKS, "verify_artifacts"):
         return 1

@@ -24,7 +24,7 @@ typedef signed int s32;
 #define TEXT __attribute__((section(".text")))
 
 #ifndef EXPRATE_SCRIPT_ADDR
-#error "compile with -DEXPRATE_SCRIPT_ADDR= -DEXPRATE_HEADER_ADDR= -DEXPRATE_ITEMS_ADDR= (injector data block)"
+#error "compile with -DEXPRATE_SCRIPT_ADDR= -DEXPRATE_HEADER_ADDR= -DEXPRATE_ITEMS_ADDR= -DEXTRAS_ITEMS_ADDR= (injector data block)"
 #endif
 #define EXPRATE_ITEM_STRIDE 6
 
@@ -186,5 +186,85 @@ void CM_ExpRateOpen(void)
     t.fontId = FONT_NORMAL;
     t.cursorKind = 0;
     gTasks[taskId].tRateList = ListMenuInit(&t, 0, sRateRow[rate <= 4 ? rate : 0]);
+    CopyWindowToVram(win, 3);
+}
+
+/* ------------------------------------------------------------ Extras (QoL round 2 item 3, user 2026-11-11)
+ * Heal + PC anywhere, every save (Character Mode on or off), as a START row (the user's choice over a key item;
+ * RR's own PC row on this page needs the Dexnav flag). Row 13 is now "Extras": a field list "Exp. Rate / Heal party /
+ * PC" (the last two only once the player has a Pokemon). Exp. Rate opens the list above; the other two set
+ * gSpecialVar_Result (1 heal, 2 PC) and the row's script runs the game's own specials (0 = HealPlayerParty,
+ * 0x3C = the storage system). CM_NO_EXTRAS (control, test ROMs only): the list has the Exp. Rate row alone. */
+#define gSpecialVar_Result (*(volatile u16 *) 0x020370D0)
+#define gPlayerPartyCount  (*(volatile u8 *) 0x02024029)
+#define EXTRAS_ITEM_STRIDE 11
+#define tExList data[0]
+#define tExWin  data[1]
+static const struct WindowTemplate sExtrasWindow TEXT = { 0, 1, 1, 11, 6, 15, 1 };
+static const struct ListMenuItem sExtrasItems[3] TEXT = {
+    { (const u8 *) EXTRAS_ITEMS_ADDR + 0 * EXTRAS_ITEM_STRIDE, 0 },
+    { (const u8 *) EXTRAS_ITEMS_ADDR + 1 * EXTRAS_ITEM_STRIDE, 1 },
+    { (const u8 *) EXTRAS_ITEMS_ADDR + 2 * EXTRAS_ITEM_STRIDE, 2 },
+};
+
+static void Extras_HandleInput(u8 taskId)
+{
+    s32 r = ListMenu_ProcessInput(gTasks[taskId].tExList);
+
+    if (r == LIST_NOTHING_CHOSEN)
+        return;
+    DestroyListMenuTask(gTasks[taskId].tExList, 0, 0);
+    ClearStdWindowAndFrame(gTasks[taskId].tExWin, 1);
+    RemoveWindow(gTasks[taskId].tExWin);
+    DestroyTask(taskId);
+    if (r == 0) {
+        CM_ExpRateOpen();                       /* its own task releases the script */
+        return;
+    }
+    if (r > 0)
+        gSpecialVar_Result = (u16) r;           /* B (LIST_CANCEL): stays 0, the script just ends */
+    EnableBothScriptContexts();
+}
+
+/* callnative from the row's script (lockall; callnative; waitstate; compare VAR_RESULT ...). */
+void CM_ExtrasOpen(void)
+{
+    struct ListMenuTemplate t;
+    u8 taskId, win;
+    u16 rows = 1;
+
+#ifndef CM_NO_EXTRAS
+    if (gPlayerPartyCount != 0)
+        rows = 3;
+#endif
+    gSpecialVar_Result = 0;
+    if (rows == 1) {                            /* the rate list alone (no Pokemon yet): open it at once, as before */
+        CM_ExpRateOpen();
+        return;
+    }
+    LoadStdWindowFrameGfx();
+    win = AddWindow(&sExtrasWindow);
+    DrawStdWindowFrame(win, 0);
+    taskId = CreateTask(Extras_HandleInput, 3);
+    gTasks[taskId].tExWin = win;
+    t.items = sExtrasItems;
+    t.moveCursorFunc = ListMenuDefaultCursorMoveFunc;
+    t.itemPrintFunc = 0;
+    t.totalItems = rows;
+    t.maxShowed = rows;
+    t.windowId = win;
+    t.header_X = 0;
+    t.item_X = 8;
+    t.cursor_X = 0;
+    t.upText_Y = 1;
+    t.cursorPal = 2;
+    t.fillValue = 1;
+    t.cursorShadowPal = 3;
+    t.lettersSpacing = 1;
+    t.itemVerticalPadding = 0;
+    t.scrollMultiple = 0;
+    t.fontId = FONT_NORMAL;
+    t.cursorKind = 0;
+    gTasks[taskId].tExList = ListMenuInit(&t, 0, 0);
     CopyWindowToVram(win, 3);
 }
