@@ -101,7 +101,7 @@ While Character Mode is on:
   level-up move of the Pokémon, not only the ones up to its current level.
 - **Battle animations off by default** (Character Mode on or off, 2026-10-28): a game with no save starts with
   battle animations off. Options turns them back on; an existing save keeps its own setting.
-- **Instant HP bar** (every save, 2026-10-28): the HP bar jumps straight to its new value in battle.
+- **Instant HP bar** (every save, 2026-10-28; fixed 2026-11-14): the HP bar jumps straight to its new value in battle; a Pokémon with under 48 max HP no longer starts a battle with a nearly empty red bar.
 - **Heal + PC anywhere** (every save, Character Mode on or off, 2026-11-11): START, then RIGHT to the second page,
   **Extras**: *Heal party* (a free full heal, any time outside battle) and *PC* (the Pokémon storage system) once you
   have a Pokémon, next to *Exp. Rate*.
@@ -430,3 +430,6 @@ Every new game (Character Mode on or off) starts with the Running Shoes, the Bic
 
 ## Wild-intro roster hint (2026-11-08)
 With Character Mode on, a wild Pokémon off your character's roster says so in its intro ("A wild X appeared! / It is not on your roster."), so you know before you throw a ball that it can't be caught. On-roster Pokémon say "destined for <NAME>!". This also fixes the "destined for" line, which never actually showed in battle before (RR's battles use their own copy of the intro text). Build 2026-11-08: `build/radicalred_cm.gba` sha1 `755571320e0a0c2b914bd49c989a3480d62f5a12`, `build/radicalred_cm.bps` sha1 `59ecbd7b58973250b4fc53028e5aef6445364f82` (round trip checked). Save-compatible: on My Boy!, keep the old ROM and save, and load the new ROM under the same file name so the `.sav` carries over.
+
+### Fix: instant HP bar drew low-max-HP bars red (2026-11-14)
+The 2026-10-28 instant HP bar drew any Pokémon with under 48 max HP (most early-game Pokémon) as a nearly empty red bar at the start of a battle, and after every hit. The bar is now drawn at its real value and is still instant. Build 2026-11-14: `build/radicalred_cm.gba` sha1 `788266458b9594bf626b9708c19cba57eedd3473`, `build/radicalred_cm.bps` sha1 `968f71f94a908c434625a59fa6ac9f238867d590` (round trip checked; differs from the old patch in 5 bytes). Save-compatible: on My Boy!, keep the old ROM and save, and load the new ROM under the same file name so the `.sav` carries over.

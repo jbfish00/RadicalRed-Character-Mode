@@ -425,12 +425,14 @@ def anim_default(data):
     return {"battle_anims_off_default": 1}
 
 
-# QoL A3 instant HP bar (2026-10-28): FireRed's MoveBattleBar (0x08049FD8) jumps at 0x0804A00C into CFRU's 0x09043400,
-# which passes CalcNewBarValue scale 6 (`movs r4,#6`) and a toAdd from 0x090681A0 (max HP / 48, rounded up). Scale 0 keeps
-# every bar on the integer path (no 1/48-of-a-bar steps below 48 max HP) and toAdd 255 replaces the call (`movs r4,#255;
-# nop; nop`; the push/pop around it stay): the bar settles in 1-3 frames. RR's own "Instant HP Bar" NPC setting (flag
-# 0x107A) was measured to change nothing on this path (54 calls on 54 frames either way), so it is not used.
-# CM_NO_INSTANTHP=1 builds the control.
+# QoL A3 instant HP bar (2026-10-28, fixed 2026-11-14): FireRed's MoveBattleBar (0x08049FD8) jumps at 0x0804A00C into
+# CFRU's 0x09043400, which passes CalcNewBarValue scale 6 (`movs r4,#6`) and a toAdd from 0x090681A0 (max HP / 48, rounded
+# up), then returns to FireRed's own CalcNewBarValue (0x0804A2F0). toAdd 255 replaces the call (`movs r4,#255; nop; nop`;
+# the push/pop around it stay). The scale STAYS 6: FireRed's MoveBattleBarGraphically/CalcBarFilledPixels reads currValue
+# as Q24.8 when max HP < 48, so the 10-28 "scale 0" drew every max-HP<48 bar as one red pixel at battle start (user report
+# 2026-11-14). Instead CalcNewBarValue's fixed-point step Q(max)/48 is a whole bar (`bl __divsi3` -> two `movs r0,r0`).
+# RR's own "Instant HP Bar" NPC setting (flag 0x107A) was measured to change nothing on this path. CM_NO_INSTANTHP=1 builds
+# the control; CM_OLD_HPBAR=1 builds the 10-28 patch (the red-bar control).
 # EXP rate (src/exp_rate.c; user 2026-10-29, ../game_plans/EXP_RATE_PLAN.md). Code at EXP_RATE_ADDR, its data block
 # (relocated START tables, strings, the row's script) at EXP_RATE_DATA_ADDR, both in the free run before FREE_BLOCK_END
 # and in direct BL reach of every site. Sites (old bytes asserted):
@@ -452,15 +454,18 @@ START_DESC_LITS    = (0x0806F138, 0x0806F368)
 EXPRATE_ROW        = 13
 
 
-HPBAR_SCALE_SITE = (0x09043400, bytes.fromhex("0624"), bytes.fromhex("0024"))
+HPBAR_SCALE_SITE = (0x09043400, bytes.fromhex("0624"), bytes.fromhex("0024"))     # CM_OLD_HPBAR control only
 HPBAR_TOADD_SITE = (0x09043408, bytes.fromhex("24f0cafe041c"), bytes.fromhex("ff24c046c046"))
+HPBAR_QSTEP_SITE = (0x0804A364, bytes.fromhex("99f158fe"), bytes.fromhex("00000000"))
 
 
 def instant_hp(data):
     import os
     if os.environ.get("CM_NO_INSTANTHP") == "1":
         return {}
-    for a, old, new in (HPBAR_SCALE_SITE, HPBAR_TOADD_SITE):
+    sites = ((HPBAR_SCALE_SITE, HPBAR_TOADD_SITE) if os.environ.get("CM_OLD_HPBAR") == "1"
+             else (HPBAR_TOADD_SITE, HPBAR_QSTEP_SITE))
+    for a, old, new in sites:
         o = a - 0x08000000
         assert bytes(data[o:o + len(old)]) == old, "%08X holds %s, want %s" % (a, bytes(data[o:o + len(old)]).hex(), old.hex())
         data[o:o + len(new)] = new

@@ -19,6 +19,23 @@ H.breakpoint("MoveBattleBar", 0x08049FD8, function()
     if H.frame() ~= lastFrame then frames = frames + 1; lastFrame = H.frame() end
     if emu:read32(bars + (emu:readRegister("r0") & 0xFF) * 20 + 16) == 0xFFFF8000 then updates = updates + 1 end
 end)
+-- WANT_FULL=1|0 (2026-11-14, user: bars low and red at battle start): right after MoveBattleBarGraphically's
+-- CalcBarFilledPixels (0x0804A116: r0 = filled pixels, r6 = battler) every HEALTH_BAR draw at full HP (old == max,
+-- received 0) must be 48/48, and the run must include a max HP < 48 mon (the L2 Magikarp: the fixed-point branch).
+local fullDraws, fullBad, fullSmall = 0, 0, 0
+if os.getenv("WANT_FULL") then
+    H.breakpoint("HpBarFilled", 0x0804A116, function()
+        local b = emu:read32(emu:read32(0x02024018) + 12) + (emu:readRegister("r6") & 0xFF) * 20
+        local mx, old, rcv = emu:read32(b + 4), emu:read32(b + 8), emu:read32(b + 12)
+        if old ~= mx or rcv ~= 0 or mx == 0 then return end
+        fullDraws = fullDraws + 1
+        if mx < 48 then fullSmall = fullSmall + 1 end
+        if emu:readRegister("r0") & 0xFF ~= 48 then
+            fullBad = fullBad + 1
+            H.log("full-HP bar drawn with " .. (emu:readRegister("r0") & 0xFF) .. "/48 px (max HP " .. mx .. ")")
+        end
+    end)
+end
 press(K.UP, 20); press(K.A, 70); press(K.A, 200); press(K.A, 330)
 H.onFrame(function(f)
     for _, k in ipairs(keys) do
@@ -26,6 +43,7 @@ H.onFrame(function(f)
     end
     local inb = (emu:read8(0x03003529) >> 1) & 1 == 1
     if not battleAt and f > 400 and inb then battleAt = f end
+    if battleAt and f == battleAt + 150 and os.getenv("SHOT_START") then emu:screenshot(os.getenv("SHOT_START")) end
     if battleAt and not endAt then
         if f > battleAt + 60 and f < battleAt + 600 then              -- lead move 1 = Tackle (+ PP): a sure KO
             emu:write16(0x02023BE4 + 0x0C, 33); emu:write8(0x02023BE4 + 0x24, 35)
@@ -42,6 +60,12 @@ H.onFrame(function(f)
             H.assertTrue("instant HP bar: at most 4 frames per update", updates > 0 and frames <= 4 * updates)
         else
             H.assertTrue("animated HP bar: more than 4 frames per update", updates > 0 and frames > 4 * updates)
+        end
+        if os.getenv("WANT_FULL") then
+            H.log("HP bar full draws: " .. fullDraws .. " (" .. fullSmall .. " with max HP < 48), " .. fullBad .. " not full")
+            H.assertTrue("a full-HP bar with max HP < 48 was drawn", fullSmall > 0)
+            if os.getenv("WANT_FULL") == "1" then H.assertEq("full-HP bars drawn short", fullBad, 0)
+            else H.assertTrue("full-HP bars drawn short (old patch)", fullBad > 0) end
         end
         H.finish()
     end

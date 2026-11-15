@@ -168,7 +168,7 @@ def _free_tutor_regions(orig):
     r += [(a - 0x08000000, a - 0x08000000 + 5) for a, _t in FT_MANIAC] + [(a - 0x08000000, a - 0x08000000 + 4) for a in FT_MANIAC_PTRS]
     r += [(RELEARN_ANYLEVEL_BEQ - 0x08000000, RELEARN_ANYLEVEL_BEQ - 0x08000000 + 2)]
     r += [(0x5499C, 0x5499D)]          # QoL A3 2026-10-28: SetDefaultOptions' last +0x15 value
-    r += [(0x1043400, 0x1043402), (0x1043408, 0x104340E)]   # QoL A3 2026-10-28: CFRU HP-bar scale + toAdd
+    r += [(0x1043408, 0x104340E), (0x4A364, 0x4A368)]   # QoL A3: CFRU HP-bar toAdd (10-28) + the fixed-point step (11-14)
     # EXP rate 2026-10-29: code + data block, the getexp / START BLs, the secondary-menu gate, the callback load,
     # StartCB's block literal and the five vanilla table literals
     r += [(0xCFF800, 0xCFFE00), (0xCFFE00, 0xD00000), (0x1094A82, 0x1094A86), (0x10BE1FC, 0x10BE200),
@@ -1703,11 +1703,12 @@ def main():
     check("new games start with battle animations off (QoL A3): SetDefaultOptions stores +0x15 = 7 (stereo, Set style, "
           "scene off; base: movs r0,#3)", bytes(orig[0x5499A:0x549A0]) == bytes.fromhex("404203205075")
           and bytes(patched[0x5499A:0x549A0]) == bytes.fromhex("404207205075"))
-    check("instant HP bar (QoL A3): CFRU's MoveBattleBar tail passes CalcNewBarValue scale 0 and toAdd 255 "
-          "(base: movs r4,#6 and the max-HP/48 call)",
-          bytes(orig[0x1043400:0x1043402]) == bytes.fromhex("0624") and bytes(patched[0x1043400:0x1043402]) == bytes.fromhex("0024")
+    check("instant HP bar (QoL A3, fixed 2026-11-14): CFRU's MoveBattleBar tail keeps scale 6 and passes toAdd 255; "
+          "CalcNewBarValue's fixed-point step (max HP < 48) is a whole bar (base: the max-HP/48 call, bl __divsi3)",
+          bytes(orig[0x1043400:0x1043402]) == bytes.fromhex("0624") and bytes(patched[0x1043400:0x1043402]) == bytes.fromhex("0624")
           and bytes(orig[0x1043408:0x104340E]) == bytes.fromhex("24f0cafe041c")
-          and bytes(patched[0x1043408:0x104340E]) == bytes.fromhex("ff24c046c046"))
+          and bytes(patched[0x1043408:0x104340E]) == bytes.fromhex("ff24c046c046")
+          and bytes(orig[0x4A364:0x4A368]) == bytes.fromhex("99f158fe") and bytes(patched[0x4A364:0x4A368]) == bytes.fromhex("00000000"))
 
     # EXP rate (2026-10-29, src/exp_rate.c): addresses restated here, symbols from the built ELF.
     _es = {m.group(2): int(m.group(1), 16) for m in re.finditer(r"^([0-9a-f]+) T (CM_\w+)$", subprocess.run(
