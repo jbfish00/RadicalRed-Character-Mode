@@ -44,15 +44,16 @@ if sure_case nohook build/radicalred_cm_catchtest_nohook.gba 1 1 1 sure; then
 else echo "[PASS] sure catch NEGATIVE CONTROL (compare restored -> odds below 255)"; fi
 
 # Early party-wide Exp. Share (src/exp_share.c): the activation wrapper puts
-# item 182 in the bag and sets flag 0x906 with CM on, and grants nothing off.
+# item 182 in the bag and sets flag 0x906. Since the user's 2026-10-21 ruling (f44a4b4) it is
+# granted with CM off too; the no-hook control lives in run_newgame_expshare_e2e.sh.
 python3 tools/tests/build_catch_testrom.py --expshare >/dev/null
 python3 tools/tests/build_catch_testrom.py --expshare --cm-off >/dev/null
-for pair in "build/radicalred_cm_expsharetest.gba granted" "build/radicalred_cm_expsharetest_off.gba none"; do
+for pair in "build/radicalred_cm_expsharetest.gba granted" "build/radicalred_cm_expsharetest_off.gba granted"; do
     rom=${pair% *}; want=${pair#* }
-    log=/tmp/rr_expshare_$want.log
+    log=/tmp/rr_expshare_$(basename "$rom" .gba).log
     CM_EXPECT_CHECKS=2 EXPECT=$want timeout 60 "$MGBA" --script tools/mgba_scripts/cm_exp_share_test.lua \
         -t "$STATE" "$rom" > "$log" 2>&1 || true
-    if grep -aq "HARNESS RESULT: PASS" "$log"; then echo "[PASS] early Exp. Share: $want"
-    else echo "[FAIL] early Exp. Share: $want (see $log)"; fail=1; fi
+    if grep -aq "HARNESS RESULT: PASS" "$log"; then echo "[PASS] early Exp. Share: $want ($(basename "$rom"))"
+    else echo "[FAIL] early Exp. Share: $want ($(basename "$rom"), see $log)"; fail=1; fi
 done
 exit $fail
