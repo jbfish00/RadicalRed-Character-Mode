@@ -89,10 +89,27 @@ static void cmEnforceModeExclusion(void)
 #error "compile with -DBITMAPS_ADDR=0x08xxxxxx"
 #endif
 
+/* True when any party slot holds a Pokemon. Reads the slots, not gPlayerPartyCount: a scripted loaner battle
+ * can blank gPlayerParty (SavePlayerParty + ZeroPlayerPartyMons or a native memcpy) and leave the count stale;
+ * boxing the loaner then starts the battle with an empty party (Gaia's Regigigas hang, 2026-11-19; the same
+ * gate shape is fixed here 2026-11-20). 0x02024284 = gPlayerParty (see the sweep below). */
+static int cmPartyHasMon(void)
+{
+    int i;
+
+#ifdef CM_OLD_GIFTGATE
+    return 1;
+#endif
+    for (i = 0; i < 6; i++)
+        if (GetMonData((u8 *) 0x02024284 + i * 100, MON_DATA_SPECIES, 0))
+            return 1;
+    return 0;
+}
+
 u8 CM_GiveMonToPlayerGated(void *mon)
 {
     cmEnforceModeExclusion();
-    if (FlagGet(FLAG_CHARACTER_MODE) && gPlayerPartyCount != 0) {
+    if (FlagGet(FLAG_CHARACTER_MODE) && gPlayerPartyCount != 0 && cmPartyHasMon()) {
         u16 id = VarGet(VAR_CHARACTER_ID);
 
         if (id >= 1 && id <= NUM_CHARACTERS

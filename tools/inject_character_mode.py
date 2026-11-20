@@ -521,6 +521,8 @@ def main():
                     "-mtune=arm7tdmi", "-O2", "-ffreestanding", "-fno-builtin",
                     f"-DBITMAPS_ADDR={BITMAPS_ADDR:#x}",
                     f"-DNUM_CHARACTERS={num_chars}",
+                    # control (2026-11-20): the old count-only gift gate (boxes a loaner given into a blanked party)
+                    *(["-DCM_OLD_GIFTGATE"] if os.environ.get("CM_OLD_GIFTGATE") == "1" else []),
                     "-o", str(obj), str(ROOT / "src" / "character_mode.c")],
                    check=True)
     subprocess.run(["arm-none-eabi-ld", "-Ttext", f"{SHIM_ADDR:#x}",

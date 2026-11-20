@@ -42,7 +42,7 @@ import re
 # recomputed from the data the checks iterate: such a total drifts in lockstep
 # with what it is meant to pin and therefore cannot fail. Bump it in the same
 # commit that adds or removes a check. See tools/tests/cm_tally.py.
-EXPECT_CHECKS = 19  # +3 CFRU intro strings (2026-11-08), +1 QoL B9 off-roster cases (2026-11-08)
+EXPECT_CHECKS = 20  # +1 blanked party with a stale count (loaner battle, 2026-11-20), +3 CFRU intro strings (2026-11-08), +1 QoL B9 off-roster cases (2026-11-08)
 import struct
 import subprocess
 import sys
@@ -183,6 +183,14 @@ def build_mon(species, is_egg=False):
     return bytes(mon)
 
 
+PLAYER_PARTY = 0x02024284
+
+
+def partyhex(c):
+    slot0 = build_mon(25) if c["party"] and not c.get("blank") else bytes(100)
+    return (slot0 + bytes(500)).hex()
+
+
 def gdb_script(cases, marker_cases, marker_entry):
     # ARM->Thumb entry trampoline in scratch EWRAM: mGBA's stub ignores manual
     # CPSR T-bit writes, so the first shim entry goes through a real BX (which
@@ -213,6 +221,9 @@ def gdb_script(cases, marker_cases, marker_entry):
             f'set *(unsigned char*){FLAG_BYTE:#x} = {FLAG_MASK if c["flag"] else 0:#x}',
             f'set *(unsigned short*){VAR_ADDR:#x} = {c["char_id"]}',
             f'set *(unsigned char*){PARTY_COUNT:#x} = {c["party"]}',
+            # party slots (2026-11-20: the gate reads them, not just the count). Slot 0 holds a Pikachu when
+            # the count says the party is non-empty, unless the case blanks it (a loaner cutscene's shape).
+            f'python gdb.selected_inferior().write_memory({PLAYER_PARTY:#x}, bytes.fromhex("{partyhex(c)}"))',
             # point CPU at shim in Thumb state
             f'set $r0 = {MON_ADDR:#x}',
             'set $sp = 0x03007F00',
@@ -266,6 +277,7 @@ def main():
         {"name": "party empty -> give (soft-lock guard)",  "flag": 1, "char_id": red_idx, "party": 0, "species": 52, "expect": BP_GIVE},
         {"name": "Red + Pikachu -> give (on roster)",      "flag": 1, "char_id": red_idx, "party": 1, "species": 25, "expect": BP_GIVE},
         {"name": "Red + Sandshrew -> PC (off roster)",     "flag": 1, "char_id": red_idx, "party": 1, "species": 27, "expect": BP_SENDPC},  # was Meowth(52) until 2026-07-23: Persian joined Red's curated roster
+        {"name": "Red + Sandshrew, count 1 but every slot blank -> give (loaner battle)", "flag": 1, "char_id": red_idx, "party": 1, "blank": True, "species": 27, "expect": BP_GIVE},
         {"name": "char 0 -> give",                         "flag": 1, "char_id": 0,       "party": 1, "species": 52, "expect": BP_GIVE},
         {"name": "Red + Meowth EGG -> give (eggs exempt)", "flag": 1, "char_id": red_idx, "party": 1, "species": 52, "egg": True, "expect": BP_GIVE},
         # DERIVED: the first index past the table, not a literal. A hardcoded 211
