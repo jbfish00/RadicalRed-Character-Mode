@@ -118,7 +118,8 @@
   "Agatha": {
    "Alakazam": {
     "owned_form": "Alakazam",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Zensho",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Arbok": {
     "owned_form": "Arbok",
@@ -1512,19 +1513,23 @@
    },
    "Charizard": {
     "owned_form": "Charizard",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Clefable": {
-    "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "owned_form": "Clefairy",
+    "source": "as Clefairy — Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Clefairy": {
-    "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "owned_form": "Clefairy",
+    "source": "Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Flareon": {
     "owned_form": "Flareon",
-    "source": "Pokémon Stadium 2"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Golem": {
     "owned_form": "Golem",
@@ -1645,8 +1650,9 @@
     "source": "Yellow"
    },
    "Eevee": {
-    "owned_form": "Eevee",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Flareon",
+    "source": "as Flareon — Yellow",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Electabuzz": {
     "owned_form": "Electabuzz",
@@ -1662,7 +1668,8 @@
    },
    "Gengar": {
     "owned_form": "Gengar",
-    "source": "Pokémon Stadium 2"
+    "source": "Pokémon Generations",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Gyarados": {
     "owned_form": "Gyarados",
@@ -2088,11 +2095,13 @@
    },
    "Golbat": {
     "owned_form": "Golbat",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Golem": {
     "owned_form": "Golem",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Graveler": {
     "owned_form": "Graveler",
@@ -2104,7 +2113,8 @@
    },
    "Kabuto": {
     "owned_form": "Kabuto",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Kabutops": {
     "owned_form": "Kabutops",
@@ -2121,11 +2131,13 @@
    },
    "Ninetales": {
     "owned_form": "Ninetales",
-    "source": "Pokémon Stadium"
+    "source": "Anime",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Omanyte": {
-    "owned_form": "Omanyte",
-    "source": "Pokémon Stadium"
+    "owned_form": "Omastar",
+    "source": "as Omastar — Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Omastar": {
     "owned_form": "Omastar",
@@ -2152,8 +2164,9 @@
     "source": "HeartGold/SoulSilver"
    },
    "Rhydon": {
-    "owned_form": "Rhydon",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Rhyperior",
+    "source": "as Rhyperior — Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Rhyhorn": {
     "owned_form": "Rhyhorn",
@@ -2173,7 +2186,8 @@
    },
    "Steelix": {
     "owned_form": "Steelix",
-    "source": "Pokémon Stadium 2"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Tyranitar": {
     "owned_form": "Tyranitar",
@@ -2189,7 +2203,8 @@
    },
    "Vulpix": {
     "owned_form": "Vulpix",
-    "source": "Pokémon Stadium"
+    "source": "Anime",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Zubat": {
     "owned_form": "Crobat",
@@ -2202,16 +2217,19 @@
     "source": "Pokémon Stadium 2"
    },
    "Clefable": {
-    "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "owned_form": "Clefairy",
+    "source": "as Clefairy — Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Exeggutor": {
-    "owned_form": "Exeggutor",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Exeggcute",
+    "source": "as Exeggcute — Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Golem": {
     "owned_form": "Golem",
-    "source": "Pokémon Stadium"
+    "source": "Let's Go",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Granbull": {
     "owned_form": "Granbull",
@@ -2335,11 +2353,13 @@
    },
    "Beedrill": {
     "owned_form": "Beedrill",
-    "source": "Pokémon Stadium"
+    "source": "Masters EX",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Butterfree": {
     "owned_form": "Butterfree",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Gold & Silver: The Golden Boys",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Caterpie": {
     "owned_form": "Caterpie",
@@ -2351,7 +2371,8 @@
    },
    "Heracross": {
     "owned_form": "Heracross",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Kakuna": {
     "owned_form": "Kakuna",
@@ -2367,7 +2388,8 @@
    },
    "Pinsir": {
     "owned_form": "Pinsir",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Pupitar": {
     "owned_form": "Pupitar",
@@ -3114,7 +3136,8 @@
    },
    "Machoke": {
     "owned_form": "Machoke",
-    "source": "Pokémon Stadium"
+    "source": "Pokémon the Series",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Medicham": {
     "owned_form": "Medicham",
@@ -4332,12 +4355,14 @@
     "source": "Pokémon Stadium 2"
    },
    "Clefable": {
-    "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "owned_form": "Clefairy",
+    "source": "as Clefairy — Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Clefairy": {
-    "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "owned_form": "Clefairy",
+    "source": "Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Comfey": {
     "owned_form": "Comfey",
@@ -4356,12 +4381,14 @@
     "source": "Masters EX"
    },
    "Exeggcute": {
-    "owned_form": "Exeggutor",
-    "source": "Pokémon Stadium"
+    "owned_form": "Exeggcute",
+    "source": "Pokémon the Series",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Exeggutor": {
     "owned_form": "Exeggutor",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Gloom": {
     "owned_form": "Vileplume",
@@ -4389,7 +4416,8 @@
    },
    "Marowak": {
     "owned_form": "Marowak",
-    "source": "Pokémon Stadium 2"
+    "source": "Anime",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Ninetales": {
     "owned_form": "Ninetales",
@@ -4428,8 +4456,9 @@
     "source": "HeartGold/SoulSilver"
    },
    "Vaporeon": {
-    "owned_form": "Vaporeon",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Leafeon",
+    "source": "as Leafeon — Masters EX",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Venusaur": {
     "owned_form": "Venusaur",
@@ -4530,7 +4559,8 @@
    },
    "Charizard": {
     "owned_form": "Charizard",
-    "source": "Pokémon Stadium"
+    "source": "Pokémon the Series",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Crobat": {
     "owned_form": "Crobat",
@@ -4538,19 +4568,23 @@
    },
    "Delibird": {
     "owned_form": "Delibird",
-    "source": "Pokémon Stadium"
+    "source": "Pokémon VS",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Dodrio": {
     "owned_form": "Dodrio",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Farfetch'd": {
     "owned_form": "Farfetch'd",
-    "source": "Pokémon Stadium"
+    "source": "Pokémon VS",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Fearow": {
     "owned_form": "Fearow",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Gligar": {
     "owned_form": "Gligar",
@@ -4574,7 +4608,8 @@
    },
    "Noctowl": {
     "owned_form": "Noctowl",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Pelipper": {
     "owned_form": "Pelipper",
@@ -4582,7 +4617,8 @@
    },
    "Pidgeot": {
     "owned_form": "Pidgeot",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Pidgeotto": {
     "owned_form": "Pidgeotto",
@@ -4594,7 +4630,8 @@
    },
    "Skarmory": {
     "owned_form": "Skarmory",
-    "source": "Pokémon Stadium"
+    "source": "Pokémon VS",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Staraptor": {
     "owned_form": "Staraptor",
@@ -4606,7 +4643,8 @@
    },
    "Togetic": {
     "owned_form": "Togetic",
-    "source": "Pokémon Stadium"
+    "source": "Pokémon VS",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Xatu": {
     "owned_form": "Xatu",
@@ -7239,7 +7277,8 @@
    },
    "Forretress": {
     "owned_form": "Forretress",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Girafarig": {
     "owned_form": "Girafarig",
@@ -7258,8 +7297,9 @@
     "source": "Pokémon Stadium"
    },
    "Muk": {
-    "owned_form": "Muk",
-    "source": "Pokémon Stadium"
+    "owned_form": "Grimer",
+    "source": "as Grimer — Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Nidoqueen": {
     "owned_form": "Nidoqueen",
@@ -7275,7 +7315,8 @@
    },
    "Tentacruel": {
     "owned_form": "Tentacruel",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Toxicroak": {
     "owned_form": "Toxicroak",
@@ -7300,8 +7341,9 @@
     "source": "Masters EX"
    },
    "Blastoise": {
-    "owned_form": "Blastoise",
-    "source": "Pokémon Stadium"
+    "owned_form": "Wartortle",
+    "source": "as Wartortle — Manga — Pokémon Gold & Silver: The Golden Boys",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Bronzong": {
     "owned_form": "Bronzong",
@@ -7329,7 +7371,8 @@
    },
    "Forretress": {
     "owned_form": "Forretress",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Klinklang": {
     "owned_form": "Klinklang",
@@ -7965,8 +8008,9 @@
     "source": "Manga — Pokémon Adventures"
    },
    "Electrode": {
-    "owned_form": "Electrode",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Voltorb",
+    "source": "as Voltorb — Pokémon the Series",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Forretress": {
     "owned_form": "Forretress",
@@ -7982,7 +8026,8 @@
    },
    "Golbat": {
     "owned_form": "Golbat",
-    "source": "Pokémon Stadium 2"
+    "source": "Let's Go",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Grimer": {
     "owned_form": "Grimer",
@@ -8409,7 +8454,8 @@
    },
    "Lapras": {
     "owned_form": "Lapras",
-    "source": "Pokémon Stadium"
+    "source": "Anime",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Lugia": {
     "owned_form": "Lugia",
@@ -8441,7 +8487,8 @@
    },
    "Tyranitar": {
     "owned_form": "Tyranitar",
-    "source": "Pokémon Stadium 2"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    }
   },
   "Larry": {
@@ -8870,7 +8917,8 @@
    },
    "Jolteon": {
     "owned_form": "Jolteon",
-    "source": "Pokémon Stadium 2"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Kingler": {
     "owned_form": "Kingler",
@@ -8878,15 +8926,17 @@
    },
    "Lanturn": {
     "owned_form": "Lanturn",
-    "source": "Pokémon Stadium 2"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Lickitung": {
     "owned_form": "Lickitung",
     "source": "Pokémon Stadium"
    },
    "Magnemite": {
-    "owned_form": "Magnezone",
-    "source": "Pokémon Stadium"
+    "owned_form": "Magnemite",
+    "source": "Let's Go",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Magneton": {
     "owned_form": "Magnezone",
@@ -8914,7 +8964,8 @@
    },
    "Poliwrath": {
     "owned_form": "Poliwrath",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Porygon": {
     "owned_form": "Porygon2",
@@ -10162,7 +10213,8 @@
    },
    "Blastoise": {
     "owned_form": "Blastoise",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Carracosta": {
     "owned_form": "Carracosta",
@@ -10183,11 +10235,13 @@
    },
    "Dewgong": {
     "owned_form": "Dewgong",
-    "source": "Pokémon Stadium"
+    "source": "Let's Go",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Dragonair": {
     "owned_form": "Dragonair",
-    "source": "Pokémon Stadium 2"
+    "source": "Anime",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Dugtrio": {
     "owned_form": "Dugtrio",
@@ -10215,7 +10269,8 @@
    },
    "Horsea": {
     "owned_form": "Horsea",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Zensho",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Jellicent": {
     "owned_form": "Jellicent",
@@ -10259,24 +10314,28 @@
     "source": "Manga - Pokemon Adventures"
    },
    "Politoed": {
-    "owned_form": "Politoed",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Poliwhirl",
+    "source": "as Poliwhirl — Manga — The Electric Tale of Pikachu",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Poliwhirl": {
     "owned_form": "Poliwhirl",
-    "source": "Pokémon Stadium 2"
+    "source": "Manga — The Electric Tale of Pikachu",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Psyduck": {
     "owned_form": "Psyduck",
-    "source": "Pokémon Stadium"
+    "source": "Let's Go",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Quagsire": {
     "owned_form": "Quagsire",
     "source": "Gold/Silver"
    },
    "Seadra": {
-    "owned_form": "Seadra",
-    "source": "Pokémon Stadium"
+    "owned_form": "Horsea",
+    "source": "as Horsea — Manga — Pokémon Zensho",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Seaking": {
     "owned_form": "Seaking",
@@ -10284,7 +10343,8 @@
    },
    "Seel": {
     "owned_form": "Seel",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Zensho",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Shellder": {
     "owned_form": "Shellder",
@@ -10324,15 +10384,17 @@
    },
    "Togetic": {
     "owned_form": "Togetic",
-    "source": "Pokémon Stadium 2"
+    "source": "Anime",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Vaporeon": {
     "owned_form": "Vaporeon",
     "source": "Let's Go"
    },
    "Wigglytuff": {
-    "owned_form": "Wigglytuff",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Jigglypuff",
+    "source": "as Jigglypuff — Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    }
   },
   "Molayne": {
@@ -10420,7 +10482,8 @@
    },
    "Girafarig": {
     "owned_form": "Girafarig",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Granbull": {
     "owned_form": "Granbull",
@@ -10452,7 +10515,8 @@
    },
    "Misdreavus": {
     "owned_form": "Misdreavus",
-    "source": "Pokémon Stadium"
+    "source": "Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Mismagius": {
     "owned_form": "Mismagius",
@@ -12533,8 +12597,9 @@
     "source_ported_from": "ROWE"
    },
    "Jolteon": {
-    "owned_form": "Jolteon",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Espeon",
+    "source": "as Espeon — Gold/Silver",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Kabuto": {
     "owned_form": "Kabutops",
@@ -13527,7 +13592,8 @@
    },
    "Exeggutor": {
     "owned_form": "Exeggutor",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Furret": {
     "owned_form": "Furret",
@@ -13547,11 +13613,13 @@
    },
    "Hypno": {
     "owned_form": "Hypno",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Jynx": {
     "owned_form": "Jynx",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Kadabra": {
     "owned_form": "Alakazam",
@@ -13578,8 +13646,9 @@
     "source": "Pokémon Stadium 2"
    },
    "Scizor": {
-    "owned_form": "Scizor",
-    "source": "Pokémon Stadium 2"
+    "owned_form": "Scyther",
+    "source": "as Scyther — Manga — Pokémon Adventures",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Sigilyph": {
     "owned_form": "Sigilyph",
@@ -13587,11 +13656,13 @@
    },
    "Slowbro": {
     "owned_form": "Slowbro",
-    "source": "Pokémon Stadium 2"
+    "source": "Let's Go",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Slowking": {
     "owned_form": "Slowking",
-    "source": "Pokémon Stadium 2"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Snorlax": {
     "owned_form": "Snorlax",
@@ -14286,7 +14357,8 @@
    },
    "Ho-Oh": {
     "owned_form": "Ho-Oh",
-    "source": "Pokémon Stadium"
+    "source": "Masters EX",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Kadabra": {
     "owned_form": "Alakazam",
@@ -15392,7 +15464,8 @@
    },
    "Clefable": {
     "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Clefairy": {
     "owned_form": "Clefairy",
@@ -15427,8 +15500,9 @@
     "source": "Pokémon Stadium"
    },
    "Golduck": {
-    "owned_form": "Golduck",
-    "source": "Pokémon Stadium"
+    "owned_form": "Psyduck",
+    "source": "as Psyduck — Manga — Ash & Pikachu",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Igglybuff": {
     "owned_form": "Igglybuff",
@@ -15476,7 +15550,8 @@
    },
    "Tauros": {
     "owned_form": "Tauros",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Ursaring": {
     "owned_form": "Ursaring",
@@ -15488,7 +15563,8 @@
    },
    "Wigglytuff": {
     "owned_form": "Wigglytuff",
-    "source": "Pokémon Stadium"
+    "source": "Black 2/White 2",
+    "relabelled": "stadium rule 2026-11-20"
    }
   },
   "Wikstrom": {
@@ -15539,8 +15615,9 @@
     "source": "Pokémon Stadium"
    },
    "Clefable": {
-    "owned_form": "Clefable",
-    "source": "Pokémon Stadium"
+    "owned_form": "Clefairy",
+    "source": "as Clefairy — Manga — Pokémon Pocket Monsters",
+    "relabelled": "stadium rule 2026-11-20"
    },
    "Electabuzz": {
     "owned_form": "Electabuzz",

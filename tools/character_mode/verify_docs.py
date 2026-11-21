@@ -50,6 +50,11 @@ NUM_SPECIES = erd.NUM_SPECIES
 REGION_RE = re.compile(r"^(Alolan|Galarian|Hisuian|Paldean)\s+")
 
 
+EEVEELUTIONS = {"Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon",
+                "Glaceon", "Sylveon"}
+EEVEE_ROW = "Eevee (any evolution)"
+
+
 def read(path):
     with open(path, encoding="utf-8") as f:
         return f.read()
@@ -126,6 +131,10 @@ def main():
             sid = s if erd.regional_form(species[s]) else \
                 canonical.get(species[s].get("dexID") or s, s)
             shown.add(row_name(sid))
+        # Eevee's evolutions are one doc row (user 2026-11-20; emit_roster_docs.py):
+        # any allowed Eeveelution final must appear as "Eevee (any evolution)".
+        if shown & EEVEELUTIONS:
+            shown = (shown - EEVEELUTIONS) | {EEVEE_ROW}
         rom_finals[rec["character"]] = shown
 
     doc = parse_doc(read(os.path.join(ROOT, "ROSTERS.md")))
@@ -167,6 +176,16 @@ def main():
             char, {erd.display(species[s]["name"]) for s in rom_allowed[char]}
             | {row_name(s) for s in rom_allowed[char]})
         for mon in listed:
+            if mon == EEVEE_ROW and not (names & EEVEELUTIONS):
+                fails.append("%s: doc lists %s, but its in-ROM bitmap allows no "
+                             "Eevee evolution" % (char, mon))
+                continue
+            if mon == EEVEE_ROW:
+                continue
+            if mon in EEVEELUTIONS:
+                fails.append("%s: doc lists %s on its own row; Eevee's evolutions "
+                             "are one '%s' row" % (char, mon, EEVEE_ROW))
+                continue
             if mon not in names and REGION_RE.sub("", mon) not in names:
                 fails.append("%s: doc lists %s, which its in-ROM bitmap does not "
                              "allow" % (char, mon))

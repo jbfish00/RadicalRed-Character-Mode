@@ -1,7 +1,7 @@
 #!/bin/sh
 # LIVE layer (QoL B9, 2026-11-08): the wild-intro roster hint in a real battle
 # (src/battle_marker.c; tools/mgba_scripts/cm_intro_hint_test.lua). Wild Scyther from the
-# catch test ROM's bedroom console. Scyther is on Red's roster (1), off Ash's (16).
+# catch test ROM's bedroom console. Scyther is on Bugsy's roster (by name), off Ash's (16).
 #   shipped, Red            -> "destined for RED"
 #   shipped, Ash            -> "It is not on your roster."
 #   shipped, CM off         -> vanilla
@@ -13,6 +13,10 @@ MGBA="${MGBA_HEADLESS:-tools/mgba_src/build/mgba-headless}"
 SCRIPT=tools/mgba_scripts/cm_intro_hint_test.lua
 STATE=/tmp/rr_ss_bedroom.ss
 [ -x "$MGBA" ] || { echo "no headless mGBA at $MGBA -- build it with 'sh tools/build_mgba.sh', or set MGBA_HEADLESS"; exit 2; }
+# The on-roster character: Scyther must be canon for them. Red's Scyther was Pokemon Stadium 2 only, so the
+# Stadium rule (user 2026-11-20) took it off his roster; Bugsy owns Scyther in the main series. Looked up by name
+# (CM_CHAR = manifest index + 1) so a roster or order change can't silently swap the character.
+ONR=$(python3 -I -c "import json; m=json.load(open('tools/character_mode/characters_manifest.json')); r=m['characters'] if isinstance(m,dict) else m; i=[x['character'] for x in r].index('Bugsy'); m2=json.load(open('tools/character_mode/rosters_mapped.json')); assert 'Scyther' in {s['name'] for s in m2['Bugsy']['species']}, 'Scyther not on Bugsy'; print(i+1)") || { echo "cannot resolve the on-roster character"; exit 2; }
 [ -f build/radicalred_cm.gba ] || { echo "build first: python3 tools/inject_character_mode.py"; exit 1; }
 CM_NO_OFFROSTER=1 python3 tools/inject_character_mode.py >/dev/null
 python3 tools/tests/build_catch_testrom.py >/dev/null
@@ -37,7 +41,7 @@ hint_case() {  # name rom CM_ON CM_CHAR EXPECT
 }
 ok()  { echo "[PASS] $1"; pass=$((pass+1)); }
 bad() { echo "[FAIL] $1"; fail=$((fail+1)); }
-if hint_case red build/radicalred_cm_catchtest.gba 1 1 marker; then ok "Red: on-roster Scyther is 'destined for RED'"; else bad "Red marker (/tmp/rr_hint_red.log)"; fi
+if hint_case red build/radicalred_cm_catchtest.gba 1 $ONR marker; then ok "Bugsy: on-roster Scyther is 'destined for BUGSY'"; else bad "Bugsy marker (/tmp/rr_hint_red.log)"; fi
 if hint_case ash build/radicalred_cm_catchtest.gba 1 16 offroster; then ok "Ash: off-roster Scyther says 'It is not on your roster.'"; else bad "Ash off-roster line (/tmp/rr_hint_ash.log)"; fi
 if hint_case off build/radicalred_cm_catchtest.gba 0 16 vanilla; then ok "CM off: vanilla intro"; else bad "CM off (/tmp/rr_hint_off.log)"; fi
 if hint_case nooff build/radicalred_cm_hinttest_nooff.gba 1 16 vanilla; then ok "CM_NO_OFFROSTER control: Ash gets the vanilla intro"; else bad "control (/tmp/rr_hint_nooff.log)"; fi

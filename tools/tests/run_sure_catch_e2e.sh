@@ -2,7 +2,7 @@
 # LIVE layer: 100% catch for on-roster species (src/sure_catch.c; verify section 21).
 # The test ROM's bedroom console gives 10 Poke Balls and starts a wild Scyther
 # battle (catch rate 45, full HP); one ball is thrown through the real Bag.
-# Red (1) has Scyther on his roster, Ash (16) does not: his ball is dodged. The odds are read at
+# Bugsy has Scyther on his roster, Ash (16) does not: his ball is dodged. The odds are read at
 # the two successors of the hooked decision. A copy with the compare restored
 # must FAIL "sure" (the negative control).
 set -e
@@ -11,6 +11,10 @@ MGBA="${MGBA_HEADLESS:-tools/mgba_src/build/mgba-headless}"
 SCRIPT=tools/mgba_scripts/cm_sure_catch_test.lua
 STATE=/tmp/rr_ss_bedroom.ss
 [ -x "$MGBA" ] || { echo "no headless mGBA at $MGBA -- build it with 'sh tools/build_mgba.sh', or set MGBA_HEADLESS"; exit 2; }
+# The on-roster character: Scyther must be canon for them. Red's Scyther was Pokemon Stadium 2 only, so the
+# Stadium rule (user 2026-11-20) took it off his roster; Bugsy owns Scyther in the main series. Looked up by name
+# (CM_CHAR = manifest index + 1) so a roster or order change can't silently swap the character.
+ONR=$(python3 -I -c "import json; m=json.load(open('tools/character_mode/characters_manifest.json')); r=m['characters'] if isinstance(m,dict) else m; i=[x['character'] for x in r].index('Bugsy'); m2=json.load(open('tools/character_mode/rosters_mapped.json')); assert 'Scyther' in {s['name'] for s in m2['Bugsy']['species']}, 'Scyther not on Bugsy'; print(i+1)") || { echo "cannot resolve the on-roster character"; exit 2; }
 [ -f build/radicalred_cm.gba ] || { echo "build first: python3 tools/inject_character_mode.py"; exit 1; }
 python3 tools/tests/build_catch_testrom.py >/dev/null
 python3 tools/tests/build_catch_testrom.py --no-hook >/dev/null
@@ -29,8 +33,8 @@ sure_case() {  # name rom CM_ON CM_CHAR SEED EXPECT
     grep -aq "HARNESS RESULT: PASS" "$log"
 }
 for seed in 1 2 3; do
-    if sure_case red$seed build/radicalred_cm_catchtest.gba 1 1 $seed sure; then
-        echo "[PASS] on-roster Scyther caught at full HP (Red, seed $seed)"
+    if sure_case red$seed build/radicalred_cm_catchtest.gba 1 $ONR $seed sure; then
+        echo "[PASS] on-roster Scyther caught at full HP (Bugsy, seed $seed)"
     else echo "[FAIL] sure catch, seed $seed (see /tmp/rr_sure_red$seed.log)"; fail=1; fi
 done
 if sure_case ash build/radicalred_cm_catchtest.gba 1 16 1 dodged; then
@@ -39,7 +43,7 @@ else echo "[FAIL] off-roster dodge (see /tmp/rr_sure_ash.log)"; fail=1; fi
 if sure_case off build/radicalred_cm_catchtest.gba 0 1 1 miss; then
     echo "[PASS] CM off: the ball's own odds, seed 1 breaks out"
 else echo "[FAIL] CM off control (see /tmp/rr_sure_off.log)"; fail=1; fi
-if sure_case nohook build/radicalred_cm_catchtest_nohook.gba 1 1 1 sure; then
+if sure_case nohook build/radicalred_cm_catchtest_nohook.gba 1 $ONR 1 sure; then
     echo "[FAIL] NEGATIVE CONTROL: the no-hook ROM passed 'sure'"; fail=1
 else echo "[PASS] sure catch NEGATIVE CONTROL (compare restored -> odds below 255)"; fi
 

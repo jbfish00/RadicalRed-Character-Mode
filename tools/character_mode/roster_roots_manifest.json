@@ -1,9 +1,9 @@
 {
  "characters": 238,
- "total_roots": 2898,
+ "total_roots": 2727,
  "entry_size_bytes": 4,
  "roots_offset_bytes": 952,
- "blob_size_bytes": 6748,
+ "blob_size_bytes": 6406,
  "max_roots_per_character": 89,
  "empty_roster": [],
  "collapsed_duplicate_roots": [],

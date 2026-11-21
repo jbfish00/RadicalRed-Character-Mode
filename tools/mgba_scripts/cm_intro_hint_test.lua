@@ -6,7 +6,7 @@
 --   * r0 at the expander wrapper 0x080D77F4 (the shim's decision, in a real battle), and
 --   * gDisplayedStringBattle (0x0202298C, the wrapper's literal) after the intro is expanded,
 --     decoded, so the asserted text is what the player reads.
--- EXPECT=marker    -> "destined for <NAME>"  (Scyther is on Red's roster, char 1)
+-- EXPECT=marker    -> "destined for <NAME>"  (Scyther is on Bugsy's roster; the runner resolves him by name)
 -- EXPECT=offroster -> "It is not on your roster."  (off Ash's, char 16)
 -- EXPECT=vanilla   -> neither line (CM off, or the CM_NO_OFFROSTER control ROM)
 -- Env: CM_ON, CM_CHAR, EXPECT, CM_EXPECT_CHECKS, SHOTS (dir).

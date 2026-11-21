@@ -32,13 +32,9 @@ Agatha,elite4,Crobat,Crobat,Zubat,Y
 Agatha,elite4,Gastly,Gastly,Gastly,Y
 Agatha,elite4,Gengar,Gengar,Gastly,Y
 Agatha,elite4,Golbat,Golbat,Zubat,Y
-Agatha,elite4,Gyarados,Gyarados,Magikarp,Y
 Agatha,elite4,Haunter,Haunter,Gastly,Y
-Agatha,elite4,Jynx,Jynx,Smoochum,Y
 Agatha,elite4,Marowak,Marowak,Cubone,Y
 Agatha,elite4,Misdreavus,Misdreavus,Misdreavus,Y
-Agatha,elite4,Muk,Muk,Grimer,Y
-Agatha,elite4,Venusaur,Venusaur,Bulbasaur,Y
 Agatha,elite4,Weezing,Weezing,Koffing,Y
 Akari,protagonist,Clefairy,Clefairy,Cleffa,Y
 Akari,protagonist,Empoleon,Empoleon,Piplup,Y
@@ -97,19 +93,11 @@ Archer,villain,Electrode,Electrode,Voltorb,Y
 Archer,villain,Golbat,Golbat,Zubat,Y
 Archer,villain,Houndoom,Houndoom,Houndour,Y
 Archer,villain,Houndour,Houndour,Houndour,Y
-Archer,villain,Hypno,Hypno,Drowzee,Y
 Archer,villain,Koffing,Koffing,Koffing,Y
 Archer,villain,Magmar,Magmar,Magby,Y
-Archer,villain,Misdreavus,Misdreavus,Misdreavus,Y
 Archer,villain,Muk,Muk,Grimer,Y
-Archer,villain,Octillery,Octillery,Remoraid,Y
-Archer,villain,Parasect,Parasect,Paras,Y
-Archer,villain,Persian,Persian,Meowth,Y
 Archer,villain,Raticate,Raticate,Rattata,Y
-Archer,villain,Tyranitar,Tyranitar,Larvitar,Y
-Archer,villain,Victreebel,Victreebel,Bellsprout,Y
 Archer,villain,Weezing,Weezing,Koffing,Y
-Archer,villain,Wobbuffet,Wobbuffet,Wynaut,Y
 Archie,villain,Crobat,Crobat,Zubat,Y
 Archie,villain,Golbat,Golbat,Zubat,Y
 Archie,villain,Kyogre,Kyogre,Kyogre,Y
@@ -129,16 +117,9 @@ Argenta,frontier,Skarmory,Skarmory,Skarmory,Y
 Ariana,villain,Arbok,Arbok,Ekans,Y
 Ariana,villain,Drowzee,Drowzee,Drowzee,Y
 Ariana,villain,Gloom,Gloom,Oddish,Y
-Ariana,villain,Golbat,Golbat,Zubat,Y
 Ariana,villain,Grimer,Grimer,Grimer,Y
-Ariana,villain,Kabutops,Kabutops,Kabuto,Y
-Ariana,villain,Lickitung,Lickitung,Lickitung,Y
-Ariana,villain,Magcargo,Magcargo,Slugma,Y
 Ariana,villain,Muk,Muk,Grimer,Y
 Ariana,villain,Murkrow,Murkrow,Murkrow,Y
-Ariana,villain,Raticate,Raticate,Rattata,Y
-Ariana,villain,Sneasel,Sneasel,Sneasel,Y
-Ariana,villain,Victreebel,Victreebel,Bellsprout,Y
 Ariana,villain,Vileplume,Vileplume,Oddish,Y
 Arven,rival,Cloyster,Cloyster,Shellder,Y
 Arven,rival,Garganacl,Garganacl,Nacli,Y
@@ -376,7 +357,6 @@ Birch,professor,Zigzagoon,Zigzagoon,Zigzagoon,Y
 Blaine,gymleader,Arcanine,Arcanine,Growlithe,Y
 Blaine,gymleader,Articuno,Articuno,Articuno,Y
 Blaine,gymleader,Camerupt,Camerupt,Numel,Y
-Blaine,gymleader,Chansey,Chansey,Happiny,Y
 Blaine,gymleader,Charizard,Charizard,Charmander,Y
 Blaine,gymleader,Clefable,Clefable,Cleffa,Y
 Blaine,gymleader,Clefairy,Clefairy,Cleffa,Y
@@ -384,54 +364,38 @@ Blaine,gymleader,Flareon,Flareon,Eevee,Y
 Blaine,gymleader,Golem,Golem,Geodude,Y
 Blaine,gymleader,Growlithe,Growlithe,Growlithe,Y
 Blaine,gymleader,Houndoom,Houndoom,Houndour,Y
-Blaine,gymleader,Kangaskhan,Kangaskhan,Kangaskhan,Y
 Blaine,gymleader,Magcargo,Magcargo,Slugma,Y
 Blaine,gymleader,Magmar,Magmar,Magby,Y
 Blaine,gymleader,Magmortar,Magmortar,Magby,Y
 Blaine,gymleader,Meowth,Meowth,Meowth,Y
-Blaine,gymleader,Moltres,Moltres,Moltres,Y
-Blaine,gymleader,Mr. Mime,Mr. Mime,Mime Jr.,Y
 Blaine,gymleader,Ninetales,Ninetales,Vulpix,Y
-Blaine,gymleader,Octillery,Octillery,Remoraid,Y
-Blaine,gymleader,Parasect,Parasect,Paras,Y
 Blaine,gymleader,Ponyta,Ponyta,Ponyta,Y
 Blaine,gymleader,Primeape,Primeape,Mankey,Y
 Blaine,gymleader,Rapidash,Rapidash,Ponyta,Y
 Blaine,gymleader,Rhydon,Rhydon,Rhyhorn,Y
 Blaine,gymleader,Rotom,Rotom,Rotom,Y
-Blaine,gymleader,Tangela,Tangela,Tangela,Y
 Blaine,gymleader,Torkoal,Torkoal,Torkoal,Y
-Blaine,gymleader,Vileplume,Vileplume,Oddish,Y
 Blaine,gymleader,Voltorb,Voltorb,Voltorb,Y
 Blue,champion,Aerodactyl,Aerodactyl,Aerodactyl,Y
 Blue,champion,Alakazam,Alakazam,Abra,Y
 Blue,champion,Arcanine,Arcanine,Growlithe,Y
 Blue,champion,Blastoise,Blastoise,Squirtle,Y
 Blue,champion,Charizard,Charizard,Charmander,Y
-Blue,champion,Clefable,Clefable,Cleffa,Y
 Blue,champion,Cloyster,Cloyster,Shellder,Y
 Blue,champion,Eevee,Eevee,Eevee,Y
-Blue,champion,Electabuzz,Electabuzz,Elekid,Y
 Blue,champion,Exeggutor,Exeggutor,Exeggcute,Y
 Blue,champion,Flareon,Flareon,Eevee,Y
 Blue,champion,Gengar,Gengar,Gastly,Y
 Blue,champion,Gyarados,Gyarados,Magikarp,Y
 Blue,champion,Heracross,Heracross,Heracross,Y
-Blue,champion,Houndoom,Houndoom,Houndour,Y
 Blue,champion,Jolteon,Jolteon,Eevee,Y
-Blue,champion,Kingdra,Kingdra,Horsea,Y
 Blue,champion,Machamp,Machamp,Machop,Y
 Blue,champion,Magneton,Magneton,Magnemite,Y
-Blue,champion,Miltank,Miltank,Miltank,Y
 Blue,champion,Ninetales,Ninetales,Vulpix,Y
 Blue,champion,Pidgeot,Pidgeot,Pidgey,Y
-Blue,champion,Piloswine,Piloswine,Swinub,Y
-Blue,champion,Pinsir,Pinsir,Pinsir,Y
 Blue,champion,Rhydon,Rhydon,Rhyhorn,Y
 Blue,champion,Rhyperior,Rhyperior,Rhyhorn,Y
 Blue,champion,Sandslash,Sandslash,Sandshrew,Y
-Blue,champion,Scyther,Scyther,Scyther,Y
-Blue,champion,Slowbro,Slowbro,Slowpoke,Y
 Blue,champion,Tauros,Tauros,Tauros,Y
 Blue,champion,Tyranitar,Tyranitar,Larvitar,Y
 Blue,champion,Vaporeon,Vaporeon,Eevee,Y
@@ -511,15 +475,11 @@ Brock,gymleader,Chansey,Chansey,Happiny,Y
 Brock,gymleader,Comfey,Comfey,Comfey,Y
 Brock,gymleader,Croagunk,Croagunk,Croagunk,Y
 Brock,gymleader,Crobat,Crobat,Zubat,Y
-Brock,gymleader,Cubone,Cubone,Cubone,Y
-Brock,gymleader,Dugtrio,Dugtrio,Diglett,Y
-Brock,gymleader,Forretress,Forretress,Pineco,Y
 Brock,gymleader,Geodude,Geodude,Geodude,Y
 Brock,gymleader,Golbat,Golbat,Zubat,Y
 Brock,gymleader,Golem,Golem,Geodude,Y
 Brock,gymleader,Graveler,Graveler,Geodude,Y
 Brock,gymleader,Happiny,Happiny,Happiny,Y
-Brock,gymleader,Heracross,Heracross,Heracross,Y
 Brock,gymleader,Kabuto,Kabuto,Kabuto,Y
 Brock,gymleader,Kabutops,Kabutops,Kabuto,Y
 Brock,gymleader,Lombre,Lombre,Lotad,Y
@@ -532,50 +492,36 @@ Brock,gymleader,Omanyte,Omanyte,Omanyte,Y
 Brock,gymleader,Omastar,Omastar,Omanyte,Y
 Brock,gymleader,Onix,Onix,Onix,Y
 Brock,gymleader,Pikachu,Pikachu,Pichu,Y
-Brock,gymleader,Pineco,Pineco,Pineco,Y
-Brock,gymleader,Pinsir,Pinsir,Pinsir,Y
 Brock,gymleader,Rampardos,Rampardos,Cranidos,Y
 Brock,gymleader,Relicanth,Relicanth,Relicanth,Y
 Brock,gymleader,Rhydon,Rhydon,Rhyhorn,Y
 Brock,gymleader,Rhyhorn,Rhyhorn,Rhyhorn,Y
 Brock,gymleader,Rhyperior,Rhyperior,Rhyhorn,Y
-Brock,gymleader,Shuckle,Shuckle,Shuckle,Y
-Brock,gymleader,Slowbro,Slowbro,Slowpoke,Y
 Brock,gymleader,Steelix,Steelix,Onix,Y
 Brock,gymleader,Sudowoodo,Sudowoodo,Bonsly,Y
 Brock,gymleader,Tyranitar,Tyranitar,Larvitar,Y
-Brock,gymleader,Ursaring,Ursaring,Teddiursa,Y
 Brock,gymleader,Vileplume,Vileplume,Oddish,Y
 Brock,gymleader,Vulpix,Vulpix,Vulpix,Y
 Brock,gymleader,Zubat,Zubat,Zubat,Y
-Bruno,elite4,Blastoise,Blastoise,Squirtle,Y
 Bruno,elite4,Clefable,Clefable,Cleffa,Y
 Bruno,elite4,Clefairy,Clefairy,Cleffa,Y
 Bruno,elite4,Exeggcute,Exeggcute,Exeggcute,Y
 Bruno,elite4,Exeggutor,Exeggutor,Exeggcute,Y
 Bruno,elite4,Geodude,Geodude,Geodude,Y
 Bruno,elite4,Golem,Golem,Geodude,Y
-Bruno,elite4,Granbull,Granbull,Snubbull,Y
 Bruno,elite4,Hariyama,Hariyama,Makuhita,Y
-Bruno,elite4,Heracross,Heracross,Heracross,Y
 Bruno,elite4,Hitmonchan,Hitmonchan,Tyrogue,Y
 Bruno,elite4,Hitmonlee,Hitmonlee,Tyrogue,Y
 Bruno,elite4,Hitmontop,Hitmontop,Tyrogue,Y
-Bruno,elite4,Kangaskhan,Kangaskhan,Kangaskhan,Y
 Bruno,elite4,Lucario,Lucario,Riolu,Y
 Bruno,elite4,Machamp,Machamp,Machop,Y
 Bruno,elite4,Machoke,Machoke,Machop,Y
 Bruno,elite4,Machop,Machop,Machop,Y
-Bruno,elite4,Muk,Muk,Grimer,Y
 Bruno,elite4,Onix,Onix,Onix,Y
 Bruno,elite4,Poliwrath,Poliwrath,Poliwag,Y
-Bruno,elite4,Primeape,Primeape,Mankey,Y
-Bruno,elite4,Rhydon,Rhydon,Rhyhorn,Y
 Bruno,elite4,Shellder,Shellder,Shellder,Y
-Bruno,elite4,Slowbro,Slowbro,Slowpoke,Y
 Bruno,elite4,Steelix,Steelix,Onix,Y
 Bruno,elite4,Tyrogue,Tyrogue,Tyrogue,Y
-Bruno,elite4,Ursaring,Ursaring,Teddiursa,Y
 Brycen,gymleader,Beartic,Beartic,Cubchoo,Y
 Brycen,gymleader,Cryogonal,Cryogonal,Cryogonal,Y
 Brycen,gymleader,Dewgong,Dewgong,Seel,Y
@@ -594,19 +540,14 @@ Bugsy,gymleader,Kakuna,Kakuna,Weedle,Y
 Bugsy,gymleader,Kricketune,Kricketune,Kricketot,Y
 Bugsy,gymleader,Metapod,Metapod,Caterpie,Y
 Bugsy,gymleader,Pinsir,Pinsir,Pinsir,Y
-Bugsy,gymleader,Pupitar,Pupitar,Larvitar,Y
-Bugsy,gymleader,Quagsire,Quagsire,Wooper,Y
-Bugsy,gymleader,Raticate,Raticate,Rattata,Y
 Bugsy,gymleader,Scizor,Scizor,Scyther,Y
 Bugsy,gymleader,Scyther,Scyther,Scyther,Y
 Bugsy,gymleader,Shedinja,Shedinja,Nincada,Y
 Bugsy,gymleader,Shuckle,Shuckle,Shuckle,Y
 Bugsy,gymleader,Spinarak,Spinarak,Spinarak,Y
-Bugsy,gymleader,Sudowoodo,Sudowoodo,Bonsly,Y
 Bugsy,gymleader,Unown,Unown,Unown,Y
 Bugsy,gymleader,Vespiquen,Vespiquen,Combee,Y
 Bugsy,gymleader,Weedle,Weedle,Weedle,Y
-Bugsy,gymleader,Weepinbell,Weepinbell,Bellsprout,Y
 Bugsy,gymleader,Yanmega,Yanmega,Yanma,Y
 Burgh,gymleader,Accelgor,Accelgor,Shelmet,Y
 Burgh,gymleader,Crustle,Crustle,Dwebble,Y
@@ -776,22 +717,17 @@ Chloe,anime,Sylveon,Sylveon,Eevee,Y
 Chloe,anime,Umbreon,Umbreon,Eevee,Y
 Chloe,anime,Vaporeon,Vaporeon,Eevee,Y
 Chloe,anime,Yamper,Yamper,Yamper,Y
-Chuck,gymleader,Ampharos,Ampharos,Mareep,Y
 Chuck,gymleader,Breloom,Breloom,Shroomish,Y
 Chuck,gymleader,Conkeldurr,Conkeldurr,Timburr,Y
-Chuck,gymleader,Granbull,Granbull,Snubbull,Y
 Chuck,gymleader,Hitmonchan,Hitmonchan,Tyrogue,Y
 Chuck,gymleader,Hitmonlee,Hitmonlee,Tyrogue,Y
 Chuck,gymleader,Hitmontop,Hitmontop,Tyrogue,Y
-Chuck,gymleader,Hypno,Hypno,Drowzee,Y
 Chuck,gymleader,Machamp,Machamp,Machop,Y
 Chuck,gymleader,Machoke,Machoke,Machop,Y
 Chuck,gymleader,Medicham,Medicham,Meditite,Y
 Chuck,gymleader,Poliwrath,Poliwrath,Poliwag,Y
 Chuck,gymleader,Primeape,Primeape,Mankey,Y
-Chuck,gymleader,Sandslash,Sandslash,Sandshrew,Y
 Chuck,gymleader,Tyrogue,Tyrogue,Tyrogue,Y
-Chuck,gymleader,Ursaring,Ursaring,Teddiursa,Y
 Cilan,gymleader,Basculin,Basculin,Basculin,Y
 Cilan,gymleader,Crustle,Crustle,Dwebble,Y
 Cilan,gymleader,Dwebble,Dwebble,Dwebble,Y
@@ -807,8 +743,6 @@ Cilan,gymleader,Stunfisk,Stunfisk,Stunfisk,Y
 Cilan,gymleader,Whimsicott,Whimsicott,Cottonee,Y
 Clair,gymleader,Aerodactyl,Aerodactyl,Aerodactyl,Y
 Clair,gymleader,Altaria,Altaria,Swablu,Y
-Clair,gymleader,Ampharos,Ampharos,Mareep,Y
-Clair,gymleader,Arcanine,Arcanine,Growlithe,Y
 Clair,gymleader,Charizard,Charizard,Charmander,Y
 Clair,gymleader,Dragonair,Dragonair,Dratini,Y
 Clair,gymleader,Dragonite,Dragonite,Dratini,Y
@@ -819,9 +753,6 @@ Clair,gymleader,Garchomp,Garchomp,Gible,Y
 Clair,gymleader,Gible,Gible,Gible,Y
 Clair,gymleader,Gyarados,Gyarados,Magikarp,Y
 Clair,gymleader,Kingdra,Kingdra,Horsea,Y
-Clair,gymleader,Lapras,Lapras,Lapras,Y
-Clair,gymleader,Nidoking,Nidoking,Nidoran♂,Y
-Clair,gymleader,Rhydon,Rhydon,Rhyhorn,Y
 Clair,gymleader,Salamence,Salamence,Bagon,Y
 Clair,gymleader,Seadra,Seadra,Horsea,Y
 Clay,gymleader,Claydol,Claydol,Baltoy,Y
@@ -1072,14 +1003,11 @@ Elm,professor,Tyranitar,Tyranitar,Larvitar,Y
 Erika,gymleader,Abomasnow,Abomasnow,Snover,Y
 Erika,gymleader,Bellossom,Bellossom,Oddish,Y
 Erika,gymleader,Bellsprout,Bellsprout,Bellsprout,Y
-Erika,gymleader,Blissey,Blissey,Happiny,Y
 Erika,gymleader,Bulbasaur,Bulbasaur,Bulbasaur,Y
-Erika,gymleader,Chansey,Chansey,Happiny,Y
 Erika,gymleader,Clefable,Clefable,Cleffa,Y
 Erika,gymleader,Clefairy,Clefairy,Cleffa,Y
 Erika,gymleader,Comfey,Comfey,Comfey,Y
 Erika,gymleader,Cradily,Cradily,Lileep,Y
-Erika,gymleader,Dewgong,Dewgong,Seel,Y
 Erika,gymleader,Eevee,Eevee,Eevee,Y
 Erika,gymleader,Exeggcute,Exeggcute,Exeggcute,Y
 Erika,gymleader,Exeggutor,Exeggutor,Exeggcute,Y
@@ -1088,9 +1016,7 @@ Erika,gymleader,Jumpluff,Jumpluff,Hoppip,Y
 Erika,gymleader,Leafeon,Leafeon,Eevee,Y
 Erika,gymleader,Lilligant,Lilligant,Petilil,Y
 Erika,gymleader,Lurantis,Lurantis,Fomantis,Y
-Erika,gymleader,Mantine,Mantine,Mantyke,Y
 Erika,gymleader,Marowak,Marowak,Cubone,Y
-Erika,gymleader,Ninetales,Ninetales,Vulpix,Y
 Erika,gymleader,Oddish,Oddish,Oddish,Y
 Erika,gymleader,Paras,Paras,Paras,Y
 Erika,gymleader,Parasect,Parasect,Paras,Y
@@ -1128,7 +1054,6 @@ Falkner,gymleader,Delibird,Delibird,Delibird,Y
 Falkner,gymleader,Dodrio,Dodrio,Doduo,Y
 Falkner,gymleader,Farfetch'd,Farfetch’d,Farfetch’d,Y
 Falkner,gymleader,Fearow,Fearow,Spearow,Y
-Falkner,gymleader,Gligar,Gligar,Gligar,Y
 Falkner,gymleader,Honchkrow,Honchkrow,Murkrow,Y
 Falkner,gymleader,Hoothoot,Hoothoot,Hoothoot,Y
 Falkner,gymleader,Lugia,Lugia,Lugia,Y
@@ -1143,7 +1068,6 @@ Falkner,gymleader,Staraptor,Staraptor,Starly,Y
 Falkner,gymleader,Swellow,Swellow,Taillow,Y
 Falkner,gymleader,Togetic,Togetic,Togepi,Y
 Falkner,gymleader,Xatu,Xatu,Natu,Y
-Falkner,gymleader,Zapdos,Zapdos,Zapdos,Y
 Fantina,gymleader,Banette,Banette,Shuppet,Y
 Fantina,gymleader,Corphish,Corphish,Corphish,Y
 Fantina,gymleader,Crawdaunt,Crawdaunt,Corphish,Y
@@ -1302,7 +1226,6 @@ Giovanni,villain,Dugtrio,Dugtrio,Diglett,Y
 Giovanni,villain,Exeggutor,Exeggutor,Exeggcute,Y
 Giovanni,villain,Frillish,Frillish,Frillish,Y
 Giovanni,villain,Garchomp,Garchomp,Gible,Y
-Giovanni,villain,Gengar,Gengar,Gastly,Y
 Giovanni,villain,Gliscor,Gliscor,Gligar,Y
 Giovanni,villain,Golem,Golem,Geodude,Y
 Giovanni,villain,Guzzlord,Guzzlord,Guzzlord,Y
@@ -1317,7 +1240,6 @@ Giovanni,villain,Machamp,Machamp,Machop,Y
 Giovanni,villain,Marowak,Marowak,Cubone,Y
 Giovanni,villain,Meowth,Meowth,Meowth,Y
 Giovanni,villain,Mewtwo,Mewtwo,Mewtwo,Y
-Giovanni,villain,Moltres,Moltres,Moltres,Y
 Giovanni,villain,Nidoking,Nidoking,Nidoran♂,Y
 Giovanni,villain,Nidoqueen,Nidoqueen,Nidoran♀,Y
 Giovanni,villain,Nidorino,Nidorino,Nidoran♂,Y
@@ -1327,7 +1249,6 @@ Giovanni,villain,Rhydon,Rhydon,Rhyhorn,Y
 Giovanni,villain,Rhyhorn,Rhyhorn,Rhyhorn,Y
 Giovanni,villain,Rhyperior,Rhyperior,Rhyhorn,Y
 Giovanni,villain,Sandslash,Sandslash,Sandshrew,Y
-Giovanni,villain,Tauros,Tauros,Tauros,Y
 Giovanni,villain,Woobat,Woobat,Woobat,Y
 Giovanni,villain,Yamask,Yamask,Yamask,Y
 Glacia,elite4,Abomasnow,Abomasnow,Snover,Y
@@ -1853,24 +1774,18 @@ Janine,gymleader,Ariados,Ariados,Spinarak,Y
 Janine,gymleader,Crobat,Crobat,Zubat,Y
 Janine,gymleader,Drapion,Drapion,Skorupi,Y
 Janine,gymleader,Forretress,Forretress,Pineco,Y
-Janine,gymleader,Girafarig,Girafarig,Girafarig,Y
-Janine,gymleader,Gligar,Gligar,Gligar,Y
 Janine,gymleader,Grimer,Grimer,Grimer,Y
-Janine,gymleader,Meganium,Meganium,Chikorita,Y
 Janine,gymleader,Muk,Muk,Grimer,Y
 Janine,gymleader,Nidoqueen,Nidoqueen,Nidoran♀,Y
 Janine,gymleader,Roserade,Roserade,Budew,Y
-Janine,gymleader,Stantler,Stantler,Stantler,Y
 Janine,gymleader,Tentacruel,Tentacruel,Tentacool,Y
 Janine,gymleader,Toxicroak,Toxicroak,Croagunk,Y
-Janine,gymleader,Vaporeon,Vaporeon,Eevee,Y
 Janine,gymleader,Venomoth,Venomoth,Venonat,Y
 Janine,gymleader,Weezing,Weezing,Koffing,Y
 Jasmine,gymleader,Ampharos,Ampharos,Mareep,Y
 Jasmine,gymleader,Blastoise,Blastoise,Squirtle,Y
 Jasmine,gymleader,Bronzong,Bronzong,Bronzor,Y
 Jasmine,gymleader,Celesteela,Celesteela,Celesteela,Y
-Jasmine,gymleader,Corsola,Corsola,Corsola,Y
 Jasmine,gymleader,Empoleon,Empoleon,Piplup,Y
 Jasmine,gymleader,Excadrill,Excadrill,Drilbur,Y
 Jasmine,gymleader,Ferrothorn,Ferrothorn,Ferroseed,Y
@@ -1880,15 +1795,10 @@ Jasmine,gymleader,Lucario,Lucario,Riolu,Y
 Jasmine,gymleader,Magnemite,Magnemite,Magnemite,Y
 Jasmine,gymleader,Magneton,Magneton,Magnemite,Y
 Jasmine,gymleader,Magnezone,Magnezone,Magnemite,Y
-Jasmine,gymleader,Mantine,Mantine,Mantyke,Y
 Jasmine,gymleader,Mawile,Mawile,Mawile,Y
 Jasmine,gymleader,Metagross,Metagross,Beldum,Y
 Jasmine,gymleader,Onix,Onix,Onix,Y
-Jasmine,gymleader,Rapidash,Rapidash,Ponyta,Y
-Jasmine,gymleader,Scizor,Scizor,Scyther,Y
 Jasmine,gymleader,Skarmory,Skarmory,Skarmory,Y
-Jasmine,gymleader,Slowbro,Slowbro,Slowpoke,Y
-Jasmine,gymleader,Stantler,Stantler,Stantler,Y
 Jasmine,gymleader,Steelix,Steelix,Onix,Y
 Jasmine,gymleader,Togepi,Togepi,Togepi,Y
 Jasmine,gymleader,Togetic,Togetic,Togepi,Y
@@ -1993,18 +1903,12 @@ Kamado,villain,Snorlax,Snorlax,Munchlax,Y
 Kamado,villain,Ursaluna,Ursaluna,Teddiursa,Y
 Karen,elite4,Absol,Absol,Absol,Y
 Karen,elite4,Eevee,Eevee,Eevee,Y
-Karen,elite4,Electrode,Electrode,Voltorb,Y
 Karen,elite4,Gengar,Gengar,Gastly,Y
 Karen,elite4,Honchkrow,Honchkrow,Murkrow,Y
 Karen,elite4,Houndoom,Houndoom,Houndour,Y
-Karen,elite4,Magmar,Magmar,Magby,Y
-Karen,elite4,Misdreavus,Misdreavus,Misdreavus,Y
 Karen,elite4,Murkrow,Murkrow,Murkrow,Y
-Karen,elite4,Persian,Persian,Meowth,Y
-Karen,elite4,Slowbro,Slowbro,Slowpoke,Y
 Karen,elite4,Spiritomb,Spiritomb,Spiritomb,Y
 Karen,elite4,Umbreon,Umbreon,Eevee,Y
-Karen,elite4,Victreebel,Victreebel,Bellsprout,Y
 Karen,elite4,Vileplume,Vileplume,Oddish,Y
 Karen,elite4,Weavile,Weavile,Sneasel,Y
 Katy,gymleader,Araquanid,Araquanid,Dewpider,Y
@@ -2041,27 +1945,17 @@ Koga,elite4,Electrode,Electrode,Voltorb,Y
 Koga,elite4,Forretress,Forretress,Pineco,Y
 Koga,elite4,Gastly,Gastly,Gastly,Y
 Koga,elite4,Gengar,Gengar,Gastly,Y
-Koga,elite4,Gligar,Gligar,Gligar,Y
 Koga,elite4,Golbat,Golbat,Zubat,Y
 Koga,elite4,Grimer,Grimer,Grimer,Y
-Koga,elite4,Hypno,Hypno,Drowzee,Y
 Koga,elite4,Koffing,Koffing,Koffing,Y
-Koga,elite4,Lanturn,Lanturn,Chinchou,Y
-Koga,elite4,Lapras,Lapras,Lapras,Y
-Koga,elite4,Magmar,Magmar,Magby,Y
 Koga,elite4,Muk,Muk,Grimer,Y
-Koga,elite4,Nidorina,Nidorina,Nidoran♀,Y
-Koga,elite4,Nidorino,Nidorino,Nidoran♂,Y
 Koga,elite4,Ninetales,Ninetales,Vulpix,Y
-Koga,elite4,Parasect,Parasect,Paras,Y
 Koga,elite4,Rhydon,Rhydon,Rhyhorn,Y
 Koga,elite4,Rhyhorn,Rhyhorn,Rhyhorn,Y
 Koga,elite4,Scizor,Scizor,Scyther,Y
 Koga,elite4,Scyther,Scyther,Scyther,Y
 Koga,elite4,Skuntank,Skuntank,Stunky,Y
-Koga,elite4,Stantler,Stantler,Stantler,Y
 Koga,elite4,Swalot,Swalot,Gulpin,Y
-Koga,elite4,Tangela,Tangela,Tangela,Y
 Koga,elite4,Tentacruel,Tentacruel,Tentacool,Y
 Koga,elite4,Toxicroak,Toxicroak,Croagunk,Y
 Koga,elite4,Venomoth,Venomoth,Venonat,Y
@@ -2136,21 +2030,17 @@ Lana (anime),anime,Shellder,Shellder,Shellder,Y
 Lana (anime),anime,Xurkitree,Xurkitree,Xurkitree,Y
 Lance,champion,Aerodactyl,Aerodactyl,Aerodactyl,Y
 Lance,champion,Altaria,Altaria,Swablu,Y
-Lance,champion,Arcanine,Arcanine,Growlithe,Y
 Lance,champion,Charizard,Charizard,Charmander,Y
 Lance,champion,Dragonair,Dragonair,Dratini,Y
 Lance,champion,Dragonite,Dragonite,Dratini,Y
 Lance,champion,Dratini,Dratini,Dratini,Y
-Lance,champion,Electabuzz,Electabuzz,Elekid,Y
 Lance,champion,Exeggutor,Exeggutor,Exeggcute,Y
-Lance,champion,Feraligatr,Feraligatr,Totodile,Y
 Lance,champion,Flygon,Flygon,Trapinch,Y
 Lance,champion,Garchomp,Garchomp,Gible,Y
 Lance,champion,Gyarados,Gyarados,Magikarp,Y
 Lance,champion,Haxorus,Haxorus,Axew,Y
 Lance,champion,Horsea,Horsea,Horsea,Y
 Lance,champion,Hydreigon,Hydreigon,Deino,Y
-Lance,champion,Kangaskhan,Kangaskhan,Kangaskhan,Y
 Lance,champion,Kingdra,Kingdra,Horsea,Y
 Lance,champion,Lapras,Lapras,Lapras,Y
 Lance,champion,Lugia,Lugia,Lugia,Y
@@ -2158,8 +2048,6 @@ Lance,champion,Magikarp,Magikarp,Magikarp,Y
 Lance,champion,Pupitar,Pupitar,Larvitar,Y
 Lance,champion,Salamence,Salamence,Bagon,Y
 Lance,champion,Seadra,Seadra,Horsea,Y
-Lance,champion,Snorlax,Snorlax,Munchlax,Y
-Lance,champion,Steelix,Steelix,Onix,Y
 Lance,champion,Tyranitar,Tyranitar,Larvitar,Y
 Larry,gymleader,Altaria,Altaria,Swablu,Y
 Larry,gymleader,Braviary,Braviary,Rufflet,Y
@@ -2249,23 +2137,17 @@ Liza,gymleader,Slowking,Slowking,Slowpoke,Y
 Liza,gymleader,Slowpoke,Slowpoke,Slowpoke,Y
 Liza,gymleader,Spoink,Spoink,Spoink,Y
 Liza,gymleader,Xatu,Xatu,Natu,Y
-Lorelei,elite4,Articuno,Articuno,Articuno,Y
 Lorelei,elite4,Cloyster,Cloyster,Shellder,Y
 Lorelei,elite4,Dewgong,Dewgong,Seel,Y
-Lorelei,elite4,Exeggutor,Exeggutor,Exeggcute,Y
 Lorelei,elite4,Jynx,Jynx,Smoochum,Y
 Lorelei,elite4,Lapras,Lapras,Lapras,Y
-Lorelei,elite4,Omastar,Omastar,Omanyte,Y
 Lorelei,elite4,Piloswine,Piloswine,Swinub,Y
 Lorelei,elite4,Sandslash,Sandslash,Sandshrew,Y
 Lorelei,elite4,Seel,Seel,Seel,Y
 Lorelei,elite4,Shellder,Shellder,Shellder,Y
 Lorelei,elite4,Slowbro,Slowbro,Slowpoke,Y
 Lorelei,elite4,Slowpoke,Slowpoke,Slowpoke,Y
-Lorelei,elite4,Starmie,Starmie,Staryu,Y
-Lorelei,elite4,Wigglytuff,Wigglytuff,Igglybuff,Y
 Lt. Surge,gymleader,Ampharos,Ampharos,Mareep,Y
-Lt. Surge,gymleader,Dodrio,Dodrio,Doduo,Y
 Lt. Surge,gymleader,Electabuzz,Electabuzz,Elekid,Y
 Lt. Surge,gymleader,Electivire,Electivire,Elekid,Y
 Lt. Surge,gymleader,Electrode,Electrode,Voltorb,Y
@@ -2273,7 +2155,6 @@ Lt. Surge,gymleader,Horsea,Horsea,Horsea,Y
 Lt. Surge,gymleader,Jolteon,Jolteon,Eevee,Y
 Lt. Surge,gymleader,Kingler,Kingler,Krabby,Y
 Lt. Surge,gymleader,Lanturn,Lanturn,Chinchou,Y
-Lt. Surge,gymleader,Lickitung,Lickitung,Lickitung,Y
 Lt. Surge,gymleader,Magnemite,Magnemite,Magnemite,Y
 Lt. Surge,gymleader,Magneton,Magneton,Magnemite,Y
 Lt. Surge,gymleader,Magnezone,Magnezone,Magnemite,Y
@@ -2282,14 +2163,9 @@ Lt. Surge,gymleader,Pachirisu,Pachirisu,Pachirisu,Y
 Lt. Surge,gymleader,Pikachu,Pikachu,Pichu,Y
 Lt. Surge,gymleader,Poliwhirl,Poliwhirl,Poliwag,Y
 Lt. Surge,gymleader,Poliwrath,Poliwrath,Poliwag,Y
-Lt. Surge,gymleader,Porygon,Porygon,Porygon,Y
-Lt. Surge,gymleader,Porygon2,Porygon2,Porygon,Y
-Lt. Surge,gymleader,Quagsire,Quagsire,Wooper,Y
 Lt. Surge,gymleader,Raichu,Raichu,Pichu,Y
 Lt. Surge,gymleader,Raikou,Raikou,Raikou,Y
 Lt. Surge,gymleader,Seel,Seel,Seel,Y
-Lt. Surge,gymleader,Tangela,Tangela,Tangela,Y
-Lt. Surge,gymleader,Victreebel,Victreebel,Bellsprout,Y
 Lt. Surge,gymleader,Voltorb,Voltorb,Voltorb,Y
 Lt. Surge,gymleader,Zapdos,Zapdos,Zapdos,Y
 Lucas,protagonist,Absol,Absol,Absol,Y
@@ -2592,7 +2468,6 @@ Milo,gymleader,Ludicolo,Ludicolo,Lotad,Y
 Milo,gymleader,Shiftry,Shiftry,Seedot,Y
 Milo,gymleader,Tsareena,Tsareena,Bounsweet,Y
 Milo,gymleader,Wooloo,Wooloo,Wooloo,Y
-Misty,gymleader,Ampharos,Ampharos,Mareep,Y
 Misty,gymleader,Azurill,Azurill,Azurill,Y
 Misty,gymleader,Blastoise,Blastoise,Squirtle,Y
 Misty,gymleader,Carracosta,Carracosta,Tirtouga,Y
@@ -2602,8 +2477,6 @@ Misty,gymleader,Corsola,Corsola,Corsola,Y
 Misty,gymleader,Dewgong,Dewgong,Seel,Y
 Misty,gymleader,Dragonair,Dragonair,Dratini,Y
 Misty,gymleader,Dragonite,Dragonite,Dratini,Y
-Misty,gymleader,Dugtrio,Dugtrio,Diglett,Y
-Misty,gymleader,Exeggutor,Exeggutor,Exeggcute,Y
 Misty,gymleader,Floatzel,Floatzel,Buizel,Y
 Misty,gymleader,Frillish,Frillish,Frillish,Y
 Misty,gymleader,Goldeen,Goldeen,Goldeen,Y
@@ -2617,7 +2490,6 @@ Misty,gymleader,Lapras,Lapras,Lapras,Y
 Misty,gymleader,Luvdisc,Luvdisc,Luvdisc,Y
 Misty,gymleader,Magikarp,Magikarp,Magikarp,Y
 Misty,gymleader,Milotic,Milotic,Feebas,Y
-Misty,gymleader,Nidoqueen,Nidoqueen,Nidoran♀,Y
 Misty,gymleader,Omanyte,Omanyte,Omanyte,Y
 Misty,gymleader,Omastar,Omastar,Omanyte,Y
 Misty,gymleader,Politoed,Politoed,Poliwag,Y
@@ -2634,7 +2506,6 @@ Misty,gymleader,Slowbro,Slowbro,Slowpoke,Y
 Misty,gymleader,Starmie,Starmie,Staryu,Y
 Misty,gymleader,Staryu,Staryu,Staryu,Y
 Misty,gymleader,Suicune,Suicune,Suicune,Y
-Misty,gymleader,Sunflora,Sunflora,Sunkern,Y
 Misty,gymleader,Swanna,Swanna,Ducklett,Y
 Misty,gymleader,Tentacool,Tentacool,Tentacool,Y
 Misty,gymleader,Tentacruel,Tentacruel,Tentacool,Y
@@ -2652,30 +2523,22 @@ Molayne,elite4,Metagross,Metagross,Beldum,Y
 Molayne,elite4,Metang,Metang,Beldum,Y
 Molayne,elite4,Sandslash,Sandslash,Sandshrew,Y
 Molayne,elite4,Skarmory,Skarmory,Skarmory,Y
-Morty,gymleader,Ariados,Ariados,Spinarak,Y
 Morty,gymleader,Banette,Banette,Shuppet,Y
 Morty,gymleader,Chandelure,Chandelure,Litwick,Y
 Morty,gymleader,Cofagrigus,Cofagrigus,Yamask,Y
 Morty,gymleader,Cyndaquil,Cyndaquil,Cyndaquil,Y
 Morty,gymleader,Drifblim,Drifblim,Drifloon,Y
 Morty,gymleader,Dusknoir,Dusknoir,Duskull,Y
-Morty,gymleader,Exeggutor,Exeggutor,Exeggcute,Y
 Morty,gymleader,Froslass,Froslass,Snorunt,Y
 Morty,gymleader,Gastly,Gastly,Gastly,Y
 Morty,gymleader,Gengar,Gengar,Gastly,Y
 Morty,gymleader,Girafarig,Girafarig,Girafarig,Y
-Morty,gymleader,Granbull,Granbull,Snubbull,Y
 Morty,gymleader,Haunter,Haunter,Gastly,Y
 Morty,gymleader,Ho-Oh,Ho-Oh,Ho-Oh,Y
 Morty,gymleader,Jellicent,Jellicent,Frillish,Y
-Morty,gymleader,Lapras,Lapras,Lapras,Y
-Morty,gymleader,Mantine,Mantine,Mantyke,Y
-Morty,gymleader,Marowak,Marowak,Cubone,Y
 Morty,gymleader,Misdreavus,Misdreavus,Misdreavus,Y
 Morty,gymleader,Mismagius,Mismagius,Misdreavus,Y
-Morty,gymleader,Noctowl,Noctowl,Hoothoot,Y
 Morty,gymleader,Sableye,Sableye,Sableye,Y
-Morty,gymleader,Sudowoodo,Sudowoodo,Bonsly,Y
 Morty,gymleader,Typhlosion,Typhlosion,Cyndaquil,Y
 N,rival,Abomasnow,Abomasnow,Snover,Y
 N,rival,Arcanine,Arcanine,Growlithe,Y
@@ -3061,26 +2924,19 @@ Poppy,elite4,Rookidee,Rookidee,Rookidee,Y
 Poppy,elite4,Tinkaton,Tinkaton,Tinkatink,Y
 Poppy,elite4,Tinkatuff,Tinkatuff,Tinkatink,Y
 Pryce,gymleader,Abomasnow,Abomasnow,Snover,Y
-Pryce,gymleader,Articuno,Articuno,Articuno,Y
 Pryce,gymleader,Celebi,Celebi,Celebi,Y
 Pryce,gymleader,Cloyster,Cloyster,Shellder,Y
 Pryce,gymleader,Delibird,Delibird,Delibird,Y
 Pryce,gymleader,Dewgong,Dewgong,Seel,Y
-Pryce,gymleader,Donphan,Donphan,Phanpy,Y
 Pryce,gymleader,Froslass,Froslass,Snorunt,Y
-Pryce,gymleader,Girafarig,Girafarig,Girafarig,Y
 Pryce,gymleader,Glalie,Glalie,Snorunt,Y
-Pryce,gymleader,Hitmontop,Hitmontop,Tyrogue,Y
 Pryce,gymleader,Jynx,Jynx,Smoochum,Y
 Pryce,gymleader,Lapras,Lapras,Lapras,Y
 Pryce,gymleader,Mamoswine,Mamoswine,Swinub,Y
 Pryce,gymleader,Piloswine,Piloswine,Swinub,Y
-Pryce,gymleader,Quagsire,Quagsire,Wooper,Y
 Pryce,gymleader,Seel,Seel,Seel,Y
 Pryce,gymleader,Shellder,Shellder,Shellder,Y
 Pryce,gymleader,Swinub,Swinub,Swinub,Y
-Pryce,gymleader,Tentacruel,Tentacruel,Tentacool,Y
-Pryce,gymleader,Ursaring,Ursaring,Teddiursa,Y
 Pryce,gymleader,Walrein,Walrein,Spheal,Y
 Pryce,gymleader,Weavile,Weavile,Sneasel,Y
 Raihan,gymleader,Archaludon,Archaludon,Duraludon,Y
@@ -3111,13 +2967,10 @@ Red,protagonist,Charizard,Charizard,Charmander,Y
 Red,protagonist,Charmander,Charmander,Charmander,Y
 Red,protagonist,Dodrio,Dodrio,Doduo,Y
 Red,protagonist,Doduo,Doduo,Doduo,Y
-Red,protagonist,Dragonite,Dragonite,Dratini,Y
 Red,protagonist,Eevee,Eevee,Eevee,Y
 Red,protagonist,Ekans,Ekans,Ekans,Y
-Red,protagonist,Entei,Entei,Entei,Y
 Red,protagonist,Espeon,Espeon,Eevee,Y
 Red,protagonist,Fearow,Fearow,Spearow,Y
-Red,protagonist,Feraligatr,Feraligatr,Totodile,Y
 Red,protagonist,Gastly,Gastly,Gastly,Y
 Red,protagonist,Gengar,Gengar,Gastly,Y
 Red,protagonist,Happiny,Happiny,Happiny,Y
@@ -3129,7 +2982,6 @@ Red,protagonist,Kabutops,Kabutops,Kabuto,Y
 Red,protagonist,Lapras,Lapras,Lapras,Y
 Red,protagonist,Machamp,Machamp,Machop,Y
 Red,protagonist,Magikarp,Magikarp,Magikarp,Y
-Red,protagonist,Meganium,Meganium,Chikorita,Y
 Red,protagonist,Meowth,Meowth,Meowth,Y
 Red,protagonist,Mewtwo,Mewtwo,Mewtwo,Y
 Red,protagonist,Moltres,Moltres,Moltres,Y
@@ -3140,18 +2992,12 @@ Red,protagonist,Pidgey,Pidgey,Pidgey,Y
 Red,protagonist,Pikachu,Pikachu,Pichu,Y
 Red,protagonist,Ponyta,Ponyta,Ponyta,Y
 Red,protagonist,Psyduck,Psyduck,Psyduck,Y
-Red,protagonist,Raikou,Raikou,Raikou,Y
 Red,protagonist,Rapidash,Rapidash,Ponyta,Y
 Red,protagonist,Rattata,Rattata,Rattata,Y
-Red,protagonist,Scizor,Scizor,Scyther,Y
-Red,protagonist,Scyther,Scyther,Scyther,Y
 Red,protagonist,Snorlax,Snorlax,Munchlax,Y
 Red,protagonist,Spearow,Spearow,Spearow,Y
 Red,protagonist,Squirtle,Squirtle,Squirtle,Y
-Red,protagonist,Suicune,Suicune,Suicune,Y
-Red,protagonist,Tauros,Tauros,Tauros,Y
 Red,protagonist,Tentacool,Tentacool,Tentacool,Y
-Red,protagonist,Typhlosion,Typhlosion,Cyndaquil,Y
 Red,protagonist,Tyrogue,Tyrogue,Tyrogue,Y
 Red,protagonist,Venusaur,Venusaur,Bulbasaur,Y
 Red,protagonist,Victreebel,Victreebel,Bellsprout,Y
@@ -3348,10 +3194,8 @@ Sabrina,gymleader,Chingling,Chingling,Chingling,Y
 Sabrina,gymleader,Drowzee,Drowzee,Drowzee,Y
 Sabrina,gymleader,Espeon,Espeon,Eevee,Y
 Sabrina,gymleader,Exeggutor,Exeggutor,Exeggcute,Y
-Sabrina,gymleader,Furret,Furret,Sentret,Y
 Sabrina,gymleader,Gallade,Gallade,Ralts,Y
 Sabrina,gymleader,Haunter,Haunter,Gastly,Y
-Sabrina,gymleader,Hitmonlee,Hitmonlee,Tyrogue,Y
 Sabrina,gymleader,Hypno,Hypno,Drowzee,Y
 Sabrina,gymleader,Jynx,Jynx,Smoochum,Y
 Sabrina,gymleader,Kadabra,Kadabra,Abra,Y
@@ -3359,17 +3203,13 @@ Sabrina,gymleader,Metagross,Metagross,Beldum,Y
 Sabrina,gymleader,Mewtwo,Mewtwo,Mewtwo,Y
 Sabrina,gymleader,Moltres,Moltres,Moltres,Y
 Sabrina,gymleader,Mr. Mime,Mr. Mime,Mime Jr.,Y
-Sabrina,gymleader,Sandslash,Sandslash,Sandshrew,Y
 Sabrina,gymleader,Scizor,Scizor,Scyther,Y
 Sabrina,gymleader,Scyther,Scyther,Scyther,Y
 Sabrina,gymleader,Sigilyph,Sigilyph,Sigilyph,Y
 Sabrina,gymleader,Slowbro,Slowbro,Slowpoke,Y
 Sabrina,gymleader,Slowking,Slowking,Slowpoke,Y
-Sabrina,gymleader,Snorlax,Snorlax,Munchlax,Y
 Sabrina,gymleader,Swoobat,Swoobat,Woobat,Y
-Sabrina,gymleader,Typhlosion,Typhlosion,Cyndaquil,Y
 Sabrina,gymleader,Venomoth,Venomoth,Venonat,Y
-Sabrina,gymleader,Wigglytuff,Wigglytuff,Igglybuff,Y
 Sabrina,gymleader,Wobbuffet,Wobbuffet,Wynaut,Y
 Sabrina,gymleader,Woobat,Woobat,Woobat,Y
 Sada,professor,Brute Bonnet,Brute Bonnet,Brute Bonnet,Y
@@ -3543,11 +3383,9 @@ Silver,rival,Golbat,Golbat,Zubat,Y
 Silver,rival,Haunter,Haunter,Gastly,Y
 Silver,rival,Ho-Oh,Ho-Oh,Ho-Oh,Y
 Silver,rival,Kadabra,Kadabra,Abra,Y
-Silver,rival,Lugia,Lugia,Lugia,Y
 Silver,rival,Magnemite,Magnemite,Magnemite,Y
 Silver,rival,Magneton,Magneton,Magnemite,Y
 Silver,rival,Meganium,Meganium,Chikorita,Y
-Silver,rival,Mewtwo,Mewtwo,Mewtwo,Y
 Silver,rival,Nidoking,Nidoking,Nidoran♂,Y
 Silver,rival,Quilava,Quilava,Cyndaquil,Y
 Silver,rival,Sneasel,Sneasel,Sneasel,Y
@@ -3819,23 +3657,17 @@ Whitney,gymleader,Clefairy,Clefairy,Cleffa,Y
 Whitney,gymleader,Cleffa,Cleffa,Cleffa,Y
 Whitney,gymleader,Delcatty,Delcatty,Skitty,Y
 Whitney,gymleader,Ditto,Ditto,Ditto,Y
-Whitney,gymleader,Dodrio,Dodrio,Doduo,Y
-Whitney,gymleader,Donphan,Donphan,Phanpy,Y
 Whitney,gymleader,Girafarig,Girafarig,Girafarig,Y
-Whitney,gymleader,Gloom,Gloom,Oddish,Y
 Whitney,gymleader,Golduck,Golduck,Psyduck,Y
 Whitney,gymleader,Igglybuff,Igglybuff,Igglybuff,Y
 Whitney,gymleader,Lickilicky,Lickilicky,Lickitung,Y
 Whitney,gymleader,Lopunny,Lopunny,Buneary,Y
 Whitney,gymleader,Magby,Magby,Magby,Y
 Whitney,gymleader,Miltank,Miltank,Miltank,Y
-Whitney,gymleader,Mr. Mime,Mr. Mime,Mime Jr.,Y
 Whitney,gymleader,Nidorina,Nidorina,Nidoran♀,Y
-Whitney,gymleader,Persian,Persian,Meowth,Y
 Whitney,gymleader,Psyduck,Psyduck,Psyduck,Y
 Whitney,gymleader,Sawsbuck,Sawsbuck,Deerling,Y
 Whitney,gymleader,Smeargle,Smeargle,Smeargle,Y
-Whitney,gymleader,Stantler,Stantler,Stantler,Y
 Whitney,gymleader,Tauros,Tauros,Tauros,Y
 Whitney,gymleader,Ursaring,Ursaring,Teddiursa,Y
 Whitney,gymleader,Watchog,Watchog,Patrat,Y
@@ -3850,19 +3682,12 @@ Wikstrom,elite4,Probopass,Probopass,Nosepass,Y
 Wikstrom,elite4,Scizor,Scizor,Scyther,Y
 Wikstrom,elite4,Scyther,Scyther,Scyther,Y
 Will,elite4,Bronzong,Bronzong,Bronzor,Y
-Will,elite4,Chansey,Chansey,Happiny,Y
 Will,elite4,Clefable,Clefable,Cleffa,Y
 Will,elite4,Clefairy,Clefairy,Cleffa,Y
-Will,elite4,Electabuzz,Electabuzz,Elekid,Y
 Will,elite4,Exeggutor,Exeggutor,Exeggcute,Y
-Will,elite4,Flareon,Flareon,Eevee,Y
 Will,elite4,Gardevoir,Gardevoir,Ralts,Y
-Will,elite4,Girafarig,Girafarig,Girafarig,Y
 Will,elite4,Grumpig,Grumpig,Spoink,Y
-Will,elite4,Hypno,Hypno,Drowzee,Y
 Will,elite4,Jynx,Jynx,Smoochum,Y
-Will,elite4,Kadabra,Kadabra,Abra,Y
-Will,elite4,Mantine,Mantine,Mantyke,Y
 Will,elite4,Natu,Natu,Natu,Y
 Will,elite4,Slowbro,Slowbro,Slowpoke,Y
 Will,elite4,Xatu,Xatu,Natu,Y

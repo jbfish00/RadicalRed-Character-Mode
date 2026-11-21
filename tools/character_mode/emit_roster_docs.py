@@ -295,8 +295,18 @@ def main():
         ordered = sorted(finals, key=lambda s: (dex_of(s), species[s]["name"], s))
         char_sources = sources.get(rec["character"], {})
         rows = []
+        eevee_done = False
         for s in ordered:
             base_name = display(species[finals[s]]["name"])
+            # Eevee's evolutions stay allowed in game but are not listed one by
+            # one (user, 2026-11-20: "take them off the documentation rosters, so
+            # as not to clog it up"): one "Eevee (any evolution)" row instead.
+            if base_name == "Eevee":
+                if not eevee_done:
+                    eevee_done = True
+                    info = pick_source(char_sources, "Eevee", "Eevee")
+                    rows.append(("Eevee (any evolution)", 133, source_cell(info, "Eevee")))
+                continue
             region = regional_form(species[s])
             shown_name = display(species[s]["name"])
             if region:

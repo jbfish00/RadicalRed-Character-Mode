@@ -140,6 +140,26 @@
     "confidence": "high",
     "reason": "Blue's Scyther, used to Slash her Gastly in Adventures",
     "species": "Scyther"
+   },
+   {
+    "species": "Gyarados",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Jynx",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Muk",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Venusaur",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Alain": [
@@ -308,6 +328,46 @@
     "confidence": "high",
     "reason": "Jō's Totodile, which beat Archer's Houndoom in a spin-off manga",
     "species": "Totodile"
+   },
+   {
+    "species": "Hypno",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Misdreavus",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Octillery",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Parasect",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Persian",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tyranitar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Victreebel",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Wobbuffet",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Archie": [
@@ -377,6 +437,41 @@
     "confidence": "high",
     "reason": "Silver's Rhyperior (originally Blue's), used to send Ariana flying",
     "species": "Rhyperior"
+   },
+   {
+    "species": "Golbat",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Kabutops",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Lickitung",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Magcargo",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Raticate",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Sneasel",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Victreebel",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Arven": [
@@ -940,6 +1035,46 @@
     "confidence": "high",
     "reason": "Misty's Togepi; only a bystander mention in his anime section",
     "species": "Togepi"
+   },
+   {
+    "species": "Chansey",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium / Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Kangaskhan",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Moltres",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mr. Mime",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Octillery",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Parasect",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium / Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tangela",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Vileplume",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Blue": [
@@ -967,6 +1102,51 @@
     "confidence": "high",
     "reason": "Red's Pikachu, fought by his Eevee in the Stadium 2 credits",
     "species": "Pikachu"
+   },
+   {
+    "species": "Clefable",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Electabuzz",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Houndoom",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Kingdra",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Miltank",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Piloswine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Pinsir",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Scyther",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Slowbro",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Brassius": [
@@ -1225,6 +1405,46 @@
     "confidence": "high",
     "reason": "another trainer's/wild Yungoos in the Sun & Moon era",
     "species": "Yungoos"
+   },
+   {
+    "species": "Cubone",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Dugtrio",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Forretress",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Heracross",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Pinsir",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Shuckle",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Slowbro",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Ursaring",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Bruno": [
@@ -1287,6 +1507,51 @@
     "confidence": "high",
     "reason": "Red's Scyther in Pokémon Origins",
     "species": "Scyther"
+   },
+   {
+    "species": "Blastoise",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Granbull",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Heracross",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Kangaskhan",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Muk",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Primeape",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Rhydon",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Slowbro",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Ursaring",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Brycen": [
@@ -1461,6 +1726,31 @@
     "confidence": "high",
     "reason": "manga-only (Pokémon Adventures), out of scope",
     "species": "Weavile"
+   },
+   {
+    "species": "Pupitar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Quagsire",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Raticate",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Sudowoodo",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Weepinbell",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Burgh": [
@@ -1944,6 +2234,31 @@
     "confidence": "high",
     "reason": "Silver's Weavile, defeated by Chuck's Hitmontop",
     "species": "Weavile"
+   },
+   {
+    "species": "Ampharos",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Granbull",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Hypno",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Sandslash",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Ursaring",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Cilan": [
@@ -2088,6 +2403,31 @@
     "confidence": "high",
     "reason": "Red's Tyrogue in Pokémon Pocket Monsters",
     "species": "Tyrogue"
+   },
+   {
+    "species": "Ampharos",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Arcanine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Lapras",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Nidoking",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Rhydon",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Clay": [
@@ -3237,6 +3577,31 @@
     "confidence": "high",
     "reason": "Another trainer's Pokémon named in Pokémon Adventures prose; manga is out of scope anyway",
     "species": "Swinub"
+   },
+   {
+    "species": "Blissey",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Chansey",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Dewgong",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mantine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Ninetales",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Ethan": [
@@ -3331,6 +3696,16 @@
     "confidence": "high",
     "reason": "manga-only (The Golden Boys), out of scope",
     "species": "Totodile"
+   },
+   {
+    "species": "Gligar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Zapdos",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Fantina": [
@@ -3711,6 +4086,21 @@
     "confidence": "high",
     "reason": "Jessie's Yanma — filed under 'Rejected'; he refused the offer and it went back to Jessie",
     "species": "Yanma"
+   },
+   {
+    "species": "Gengar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Moltres",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tauros",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Glacia": [
@@ -4924,6 +5314,31 @@
     "confidence": "high",
     "reason": "manga-only ownership (Pokémon Adventures), out of scope",
     "species": "Suicune"
+   },
+   {
+    "species": "Girafarig",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Gligar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Meganium",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Stantler",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Vaporeon",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Jasmine": [
@@ -4956,6 +5371,36 @@
     "confidence": "high",
     "reason": "Team Rocket's Wobbuffet mecha that her Steelix stopped",
     "species": "Wobbuffet"
+   },
+   {
+    "species": "Corsola",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mantine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Rapidash",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Scizor",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Slowbro",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Stantler",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Jessie": [
@@ -5509,6 +5954,36 @@
     "confidence": "high",
     "reason": "borrowed in Pokémon Adventures — manga, and explicitly not-owned",
     "species": "Zapdos"
+   },
+   {
+    "species": "Electrode",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Magmar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Misdreavus",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Persian",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Slowbro",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Victreebel",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Katy": [
@@ -5717,6 +6192,56 @@
     "confidence": "high",
     "reason": "Adventures-only, and released; manga out of scope",
     "species": "Zapdos"
+   },
+   {
+    "species": "Gligar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Hypno",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Lanturn",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Lapras",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Magmar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Nidorina",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Nidorino",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Parasect",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Stantler",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tangela",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Korrina": [
@@ -6157,6 +6682,36 @@
     "confidence": "high",
     "reason": "Adventures-only, and released; manga out of scope",
     "species": "Suicune"
+   },
+   {
+    "species": "Arcanine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium / Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Electabuzz",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Feraligatr",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Kangaskhan",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium / Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Snorlax",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Steelix",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Larry": [
@@ -6619,6 +7174,31 @@
     "confidence": "high",
     "reason": "the Unown Sird released from the Tanoby Chambers to distract her",
     "species": "Unown"
+   },
+   {
+    "species": "Articuno",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Exeggutor",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Omastar",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Starmie",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Wigglytuff",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Lt. Surge": [
@@ -6666,6 +7246,41 @@
     "confidence": "high",
     "reason": "Only appears in the Pokémon Adventures manga section, which is out of scope",
     "species": "Onix"
+   },
+   {
+    "species": "Dodrio",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Lickitung",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Porygon",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Porygon2",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Quagsire",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tangela",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Victreebel",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Lucas": [
@@ -7478,6 +8093,31 @@
     "confidence": "high",
     "reason": "James's Yamask, which Misty held off in JN145",
     "species": "Yamask"
+   },
+   {
+    "species": "Ampharos",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Dugtrio",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Exeggutor",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Nidoqueen",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Sunflora",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Molayne": [
@@ -7567,6 +8207,46 @@
     "confidence": "high",
     "reason": "Jō's Totodile, which Morty's Haunter and Gengar battled",
     "species": "Totodile"
+   },
+   {
+    "species": "Ariados",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Exeggutor",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Granbull",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Lapras",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mantine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Marowak",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Noctowl",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Sudowoodo",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "N": [
@@ -8339,6 +9019,41 @@
     "confidence": "high",
     "reason": "Ash's Totodile, which broke his fall",
     "species": "Totodile"
+   },
+   {
+    "species": "Articuno",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Donphan",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Girafarig",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Hitmontop",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Quagsire",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tentacruel",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Ursaring",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Raihan": [
@@ -8490,6 +9205,51 @@
     "confidence": "high",
     "reason": "a Pokémon his Pikachu battled against",
     "species": "Wooper"
+   },
+   {
+    "species": "Dragonite",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Entei",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Feraligatr",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Meganium",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Raikou",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Scizor",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Suicune",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Tauros",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Typhlosion",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Rika": [
@@ -8837,6 +9597,36 @@
     "confidence": "high",
     "reason": "Wild legendary bird from the Adventures manga, released back to the wild; manga is out of scope anyway",
     "species": "Zapdos"
+   },
+   {
+    "species": "Furret",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Hitmonlee",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Sandslash",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Snorlax",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Typhlosion",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Wigglytuff",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium / Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Samson Oak": [
@@ -9210,6 +10000,16 @@
     "confidence": "high",
     "reason": "Kris's Suicune, which his Ho-Oh faces in the Stadium 2 end credits",
     "species": "Suicune"
+   },
+   {
+    "species": "Lugia",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mewtwo",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Skyla": [
@@ -9937,6 +10737,36 @@
     "confidence": "high",
     "reason": "manga-only (Pokémon Adventures), out of scope",
     "species": "Suicune"
+   },
+   {
+    "species": "Dodrio",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Donphan",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Gloom",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mr. Mime",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Persian",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Stantler",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Wikstrom": [
@@ -9991,6 +10821,41 @@
     "confidence": "high",
     "reason": "borrowed in Pokémon Adventures — manga, and explicitly not-owned",
     "species": "Zapdos"
+   },
+   {
+    "species": "Chansey",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Electabuzz",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Flareon",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Girafarig",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Hypno",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Kadabra",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
+   },
+   {
+    "species": "Mantine",
+    "confidence": "rule",
+    "reason": "Pokemon Stadium 2 only: the Stadium games do not count (user 2026-11-20)"
    }
   ],
   "Winona": [
