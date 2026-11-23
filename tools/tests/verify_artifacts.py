@@ -158,6 +158,21 @@ FT_MANIAC_PTRS, FT_TEXT = (0x08171640, 0x081717A0), 0x08CFF000
 RELEARN_ANYLEVEL_BEQ = 0x090A8B0A      # QoL A2 2026-10-24: CFRU relearner's `beq` past `movs r3,#250` -> nop
 
 
+def _move_best_regions():
+    """Move best-version (2026-11-23): the exact bytes of each applied move_changes.json row (tools/tests/check_move_best.py
+    checks their values and that nothing else in the table moved)."""
+    import json as _j, sys as _s
+    _s.path.insert(0, str(ROOT / "tools"))
+    import movepatch
+    sl = _j.load((ROOT / "tools/character_mode/move_changes.json").open())
+    todo = movepatch.plan(sl, "cfru")[0]
+    out = []
+    for c in todo:
+        r = movepatch.touched_bytes("cfru", 0x11521d0, c["hack_move_id"], c["field"], {})
+        out.append((r.start, r.stop))
+    return out
+
+
 def _free_tutor_regions(orig):
     r = []
     for a, n in FT_MONEY:
@@ -415,7 +430,8 @@ def main():
                 (CONSOLE_BG_PTR_OFF, CONSOLE_BG_PTR_OFF + 4),
                 (OW_PLAYER_ADDR - 0x08000000, OW_PLAYER_END - 0x08000000),
                 *[(o, o + 4) for o in OW_WORD_PATCHES],
-                *_free_tutor_regions(orig)]
+                *_free_tutor_regions(orig),
+                *_move_best_regions()]
     stray = []
     i = 0
     n = len(orig)

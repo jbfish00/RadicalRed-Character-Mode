@@ -1503,6 +1503,18 @@ def main():
     print(f"EXP rate: {len(exp_rate)} B @ {EXP_RATE_ADDR:#x}, data {len(_ed)} B @ {EXP_RATE_DATA_ADDR:#x}; "
           f"START row {EXPRATE_ROW} on the RIGHT page; getexp MathMin -> {_esym['CM_ExpRateMin']:#x}")
 
+    # Move "best version" (user 2026-11-23: raise every move to its best value), cheap tier: numbers + type + priority +
+    # never-miss (CFRU: accuracy 0 always hits). Edits from tools/character_mode/move_changes.json; each asserts the byte
+    # it replaces. CM_NO_MOVEBEST=1 builds the control (the hack's own move table).
+    if os.environ.get("CM_NO_MOVEBEST") != "1":
+        sys.path.insert(0, str(ROOT / "tools"))
+        import movepatch
+        _refs = bytes(data).count(struct.pack("<I", 0x091521d0))
+        assert _refs >= 400, f"move table has only {_refs} literal refs"   # live gBattleMoves (428 refs, 2026-11-23)
+        _mb = movepatch.apply(data, json.load(open(os.path.join(str(ROOT / "tools"), "character_mode", "move_changes.json"))),
+                              0x11521d0, "cfru")
+        print(f"move best-version: {_mb['applied']} applied, {_mb['deferred']} deferred")
+
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)
     print(f"wrote {out_rom} sha1={hashlib.sha1(data).hexdigest()}")
