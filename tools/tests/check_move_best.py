@@ -14,7 +14,7 @@ import movepatch
 
 BASE = ROOT / "rom" / "radicalred 4.1.gba"
 TABLE = 0x11521D0                 # live gBattleMoves file offset (428 literal refs)
-EXPECT = (538, 0)         # (applied, deferred), pinned 2026-11-23
+EXPECT = (538 + 34, 0)   # (applied, deferred), pinned 2026-11-23 (cheap + medium flags/target)
 SL = json.load((ROOT / "tools/character_mode/move_changes.json").open())
 N = max(c["hack_move_id"] for c in SL["changes"])
 
@@ -41,13 +41,15 @@ def main():
         off, _ = movepatch.LAYOUTS["cfru"]["fields"][c["field"]]
         t1 = bytearray(built); o = TABLE + 12 * c["hack_move_id"] + off; t1[o] = base[o]
         t2 = bytearray(built); t2[TABLE + 12 * 200 + 11] ^= 0x40
+        cm = next(x for x in todo if x.get("tier") == "medium" and x["field"] == "flags")   # a medium-tier row too
+        t3 = bytearray(built); o = TABLE + 12 * cm["hack_move_id"] + movepatch.LAYOUTS["cfru"]["fields"]["flags"][0]; t3[o] = base[o]
         ok = 0
         for name, t in [(f"an applied edit reverted ({c['move']} {c['field']})", t1), ("a stray move-table byte", t2),
-                        ("the unpatched base ROM's table", bytearray(base))]:
+                        ("the unpatched base ROM's table", bytearray(base)), (f"a medium flags edit reverted ({cm['move']})", t3)]:
             f = check(base, t)[0]
             print("caught" if f else "MISSED", name, len(f)); ok += bool(f)
-        print(f"negative controls: {ok}/3")
-        rc |= ok != 3
+        print(f"negative controls: {ok}/4")
+        rc |= ok != 4
     sys.exit(rc)
 
 

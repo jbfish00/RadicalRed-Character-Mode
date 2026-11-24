@@ -4325,8 +4325,315 @@
    "from": 10,
    "to": 16,
    "why": "custom_lower"
+  },
+  {
+   "hack_move_id": 18,
+   "move": "Whirlwind",
+   "field": "flags",
+   "from": 20,
+   "to": 16,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 46,
+   "move": "Roar",
+   "field": "flags",
+   "from": 20,
+   "to": 16,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 50,
+   "move": "Disable",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 57,
+   "move": "Surf",
+   "field": "target",
+   "from": 32,
+   "to": 8,
+   "why": "card: allAdjacentFoes",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 169,
+   "move": "Spider Web",
+   "field": "flags",
+   "from": 22,
+   "to": 20,
+   "why": "-protect (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 180,
+   "move": "Spite",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 191,
+   "move": "Spikes",
+   "field": "flags",
+   "from": 4,
+   "to": 0,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 193,
+   "move": "Foresight",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 227,
+   "move": "Encore",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 259,
+   "move": "Torment",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 269,
+   "move": "Taunt",
+   "field": "flags",
+   "from": 22,
+   "to": 2,
+   "why": "-reflectable (card); -mirror (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 273,
+   "move": "Wish",
+   "field": "flags",
+   "from": 72,
+   "to": 64,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 278,
+   "move": "Recycle",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 286,
+   "move": "Imprison",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 298,
+   "move": "Teeter Dance",
+   "field": "flags",
+   "from": 18,
+   "to": 2,
+   "why": "-mirror (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 316,
+   "move": "Odor Sleuth",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 457,
+   "move": "Miracle Eye",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 468,
+   "move": "Stealth Rock",
+   "field": "flags",
+   "from": 4,
+   "to": 0,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 469,
+   "move": "Toxic Spikes",
+   "field": "flags",
+   "from": 4,
+   "to": 0,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 470,
+   "move": "Healing Wish",
+   "field": "flags",
+   "from": 72,
+   "to": 64,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 471,
+   "move": "Lunar Dance",
+   "field": "flags",
+   "from": 72,
+   "to": 64,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 488,
+   "move": "Feint",
+   "field": "flags",
+   "from": 16,
+   "to": 0,
+   "why": "-mirror (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 516,
+   "move": "Defog",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 524,
+   "move": "Power Trick",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 639,
+   "move": "Aqua Ring",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 647,
+   "move": "Heal Block",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 649,
+   "move": "Lucky Chant",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 650,
+   "move": "Magnet Rise",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 665,
+   "move": "Embargo",
+   "field": "flags",
+   "from": 22,
+   "to": 18,
+   "why": "-reflectable (card)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 727,
+   "move": "Coaching",
+   "field": "flags",
+   "from": 16,
+   "to": 0,
+   "why": "-mirror (never)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 732,
+   "move": "Jungle Healing",
+   "field": "flags",
+   "from": 72,
+   "to": 64,
+   "why": "-snatch (never)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 768,
+   "move": "Hyper Drill",
+   "field": "flags",
+   "from": 19,
+   "to": 17,
+   "why": "-protect (never)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 780,
+   "move": "Revival Blessing",
+   "field": "flags",
+   "from": 72,
+   "to": 64,
+   "why": "-snatch (never)",
+   "tier": "medium"
+  },
+  {
+   "hack_move_id": 803,
+   "move": "Tidy Up",
+   "field": "flags",
+   "from": 8,
+   "to": 0,
+   "why": "-snatch (never)",
+   "tier": "medium"
   }
  ],
  "hack": "radicalred",
- "source": "game_plans/move_ability_best_2026-11-22/APPLY_MANIFEST.json (user: raise every move to best, 2026-11-23)"
+ "source": "game_plans/move_ability_best_2026-11-22/APPLY_MANIFEST.json (user: raise every move to best, 2026-11-23)",
+ "source_medium": "game_plans/move_ability_best_2026-11-22/medium/MEDIUM_MANIFEST.json (flags/target, rules RULES.md, 2026-11-23)"
 }
