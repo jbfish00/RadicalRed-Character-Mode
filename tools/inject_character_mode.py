@@ -306,6 +306,30 @@ def enc_text(s, cm):
     return bytes(out)
 
 
+# Move best-version crit +2 (2026-11-24): see the crit block before the ROM is written
+CHECK_TABLE_FOR_MOVE = 0x090C1884       # CFRU CheckTableForMove(move, table) -> 0/1 (no Thumb bit)
+HIGH_CRIT_TABLE = 0x090400B8            # gHighCriticalChanceMoves (0xFEFE-ended)
+CRIT_BL_SITES = (0x09081D48, 0x090826C0)
+CRIT_STUB_ADDR = 0x08D00100             # inside the verified free block (FREE_BLOCK_END), after the EXP-rate data
+
+
+def crit_stub(at, ids):
+    """Thumb: r0 = move, r1 = table. move in ids -> 2; else tail-jump to CheckTableForMove(r0, r1)."""
+    import tempfile
+    asm = (".thumb\n.syntax unified\n.global _start\n_start:\n"
+           "  push {r4, lr}\n  lsls r0, r0, #16\n  lsrs r0, r0, #16\n  ldr r2, =L\n"
+           "1: ldrh r3, [r2]\n  adds r2, #2\n  cmp r3, r0\n  beq 2f\n  ldr r4, =0xFFFF\n  cmp r3, r4\n  bne 1b\n"
+           "  pop {r4}\n  pop {r3}\n  mov lr, r3\n  ldr r3, =%#x\n  bx r3\n"
+           "2: movs r0, #2\n  pop {r4, pc}\n.ltorg\n.balign 2\nL: .hword %s\n"
+           % (CHECK_TABLE_FOR_MOVE | 1, ", ".join(str(i) for i in list(ids) + [0xFFFF])))
+    with tempfile.TemporaryDirectory() as d:
+        open(d + "/s.s", "w").write(asm)
+        subprocess.run(["arm-none-eabi-as", "-mcpu=arm7tdmi", "-o", d + "/s.o", d + "/s.s"], check=True)
+        subprocess.run(["arm-none-eabi-ld", "-Ttext", hex(at), "-o", d + "/s.elf", d + "/s.o"], check=True)
+        subprocess.run(["arm-none-eabi-objcopy", "-O", "binary", "-j", ".text", d + "/s.elf", d + "/s.bin"], check=True)
+        return open(d + "/s.bin", "rb").read()
+
+
 def thumb_bl(src_rom_addr, dst_rom_addr):
     off = dst_rom_addr - (src_rom_addr + 4)
     assert -0x400000 <= off < 0x400000, f"BL out of range: {off:#x}"
@@ -1514,6 +1538,26 @@ def main():
         _mb = movepatch.apply(data, json.load(open(os.path.join(str(ROOT / "tools"), "character_mode", "move_changes.json"))),
                               0x11521d0, "cfru")
         print(f"move best-version: {_mb['applied']} applied, {_mb['deferred']} deferred")
+
+    # Move best-version crit +2 (2026-11-24): CFRU adds CheckTableForMove(move, gHighCriticalChanceMoves) (0/1) to the crit
+    # stage in both crit routines (the battle's 0x09081D48 and the damage preview's 0x090826C0). Those two BLs go to
+    # CRIT_STUB_ADDR: a move in the slice's crit_list (the moves any generation gave a high crit ratio) answers 2, any
+    # other call tail-jumps to CheckTableForMove with its arguments untouched (RR's own Drill Peck / Razor Shell keep 1).
+    # CM_NO_MOVEBEST=1 or CM_NO_CRITPLUS2=1: the control (both BLs keep CheckTableForMove).
+    if os.environ.get("CM_NO_MOVEBEST") != "1" and os.environ.get("CM_NO_CRITPLUS2") != "1":
+        _ids = json.load(open(os.path.join(str(ROOT / "tools"), "character_mode", "move_changes.json")))["crit_list"]["ids"]
+        _stub = crit_stub(CRIT_STUB_ADDR, _ids)
+        _o = CRIT_STUB_ADDR - 0x08000000
+        assert _o + len(_stub) <= FREE_BLOCK_END and set(data[_o:_o + len(_stub)]) == {0xFF}, "crit stub area not blank"
+        data[_o:_o + len(_stub)] = _stub
+        for _site in CRIT_BL_SITES:
+            _so = _site - 0x08000000
+            assert bytes(data[_so:_so + 4]) == thumb_bl(_site, CHECK_TABLE_FOR_MOVE), f"crit BL {_site:#x} moved"
+            _p = next(p_ for p_ in range(_so - 2, _so - 14, -2) if data[p_ + 1] == 0x49)    # the ldr r1,[pc,#imm] before it
+            lit = struct.unpack_from("<I", data, ((0x08000000 + _p + 4) & ~3) + data[_p] * 4 - 0x08000000)[0]
+            assert lit == HIGH_CRIT_TABLE, f"crit BL {_site:#x}: r1 is not gHighCriticalChanceMoves ({lit})"
+            data[_so:_so + 4] = thumb_bl(_site, CRIT_STUB_ADDR)
+        print(f"crit +2: {len(_ids)} moves, stub {len(_stub)} B @ {CRIT_STUB_ADDR:#x}, BLs {[hex(x) for x in CRIT_BL_SITES]}")
 
     out_rom = BUILD / "radicalred_cm.gba"
     out_rom.write_bytes(data)

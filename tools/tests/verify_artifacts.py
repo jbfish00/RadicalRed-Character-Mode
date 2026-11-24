@@ -170,6 +170,12 @@ def _move_best_regions():
     for c in todo:
         r = movepatch.touched_bytes("cfru", 0x11521d0, c["hack_move_id"], c["field"], {})
         out.append((r.start, r.stop))
+    # crit +2 (2026-11-24): the two crit routines' CheckTableForMove BLs and the stub (check_move_best.py pins their bytes)
+    from inject_character_mode import crit_stub, CRIT_BL_SITES, CRIT_STUB_ADDR
+    for cs in CRIT_BL_SITES:
+        out.append((cs - 0x08000000, cs - 0x08000000 + 4))
+    n = len(crit_stub(CRIT_STUB_ADDR, sl["crit_list"]["ids"]))
+    out.append((CRIT_STUB_ADDR - 0x08000000, CRIT_STUB_ADDR - 0x08000000 + n))
     return out
 
 

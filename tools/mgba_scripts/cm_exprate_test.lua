@@ -10,6 +10,17 @@ local RATE = tonumber(os.getenv("RATE") or "0")
 -- reads 1000 there; the decrypting read gave garbage).
 local function exp(i) return emu:read32(0x02024284 + i * 100 + 0x24) end
 local battleAt, endAt, e0, e1 = nil, nil, nil, nil
+-- crit +2 (2026-11-24, tools/tests/run_crit_e2e.sh): FORCE_MOVE replaces Tackle; CRIT_BP = the instruction after the
+-- crit routine's CheckTableForMove(move, gHighCriticalChanceMoves) BL, r0 = that move's crit stage from the list.
+local FORCE = tonumber(os.getenv("FORCE_MOVE") or "33")
+local critSeen = {}
+if os.getenv("CRIT_BP") then
+    H.breakpoint("crit_join", tonumber(os.getenv("CRIT_BP")), function()
+        local mv = emu:read16(emu:readRegister("sp") + 12)   -- the routine's move argument (ldr r0,[sp,#12] before the BL)
+        critSeen[mv] = emu:readRegister("r0")
+        H.log("CRIT move " .. mv .. " stage " .. critSeen[mv])
+    end)
+end
 local keys = {}
 local function press(k, at) keys[#keys + 1] = {k, at, at + 20} end
 press(K.UP, 20); press(K.A, 70); press(K.A, 200); press(K.A, 330)
@@ -24,7 +35,7 @@ H.onFrame(function(f)
         if f == battleAt + 50 then e0 = exp(0); e1 = exp(1) end
         if os.getenv("SHOTS") and (f - battleAt) % 150 == 0 and f < battleAt + 1500 then emu:screenshot(string.format("%s_%05d.png", os.getenv("SHOTS"), f - battleAt)) end
         if f > battleAt + 60 and f < battleAt + 600 then              -- lead move 1 = Tackle (+ PP): a sure KO
-            emu:write16(0x02023BE4 + 0x0C, 33); emu:write8(0x02023BE4 + 0x24, 35)
+            emu:write16(0x02023BE4 + 0x0C, FORCE); emu:write8(0x02023BE4 + 0x24, 35)
         end
         if (f - battleAt) % 40 == 0 then emu:addKey(K.A) elseif (f - battleAt) % 40 == 8 then emu:clearKey(K.A) end
         if f > battleAt + 120 and not inb then endAt = f; emu:clearKey(K.A) end
@@ -38,6 +49,7 @@ H.onFrame(function(f)
         if os.getenv("SHOTS") then emu:screenshot(os.getenv("SHOTS") .. "_end.png") end
         H.log("GAINS " .. g0 .. " " .. g1)
         H.assertTrue("both mons gained EXP", g0 > 0 and g1 > 0)
+        if os.getenv("WANT_CRIT") then H.assertEq("crit stage of move " .. FORCE, critSeen[FORCE], tonumber(os.getenv("WANT_CRIT"))) end
         if os.getenv("WANT_GAIN0") then H.assertEq("active mon's EXP gain", g0, tonumber(os.getenv("WANT_GAIN0"))) end
         if os.getenv("WANT_GAIN1") then H.assertEq("benched mon's EXP gain", g1, tonumber(os.getenv("WANT_GAIN1"))) end
         H.finish()

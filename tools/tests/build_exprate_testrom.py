@@ -10,7 +10,8 @@ The Lua puts the rate in gSpecialVar_0x8004 first, so one ROM (and one bedroom c
 0x906 is CFRU's party-wide Exp. Share, so the benched Magikarp gains through the share. Built from whatever
 build/radicalred_cm.gba holds; `nohook` restores atk23_getexp's MathMin BL (the control: the rate is ignored).
 
-usage: build_exprate_testrom.py <on|nohook>   -> build/radicalred_cm_exprate_<tag>.gba. Never distributed.
+usage: build_exprate_testrom.py <on|nohook|nocrit>   -> build/radicalred_cm_exprate_<tag>.gba. Never distributed.
+`nocrit` (2026-11-24) restores both crit +2 BLs (tools/tests/run_crit_e2e.sh's control).
 """
 import struct
 import sys
@@ -18,7 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from roster_console import restore_stock_console  # noqa: E402
-from inject_character_mode import thumb_bl, EXPRATE_MIN_SITE  # noqa: E402
+from inject_character_mode import thumb_bl, EXPRATE_MIN_SITE, CRIT_BL_SITES, CHECK_TABLE_FOR_MOVE  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / "build"
@@ -30,8 +31,8 @@ TEST_SCRIPT_ADDR = 0x08CF3900      # the test builders' 0x08CF0000-0x08CF3FFF pa
 
 
 def main():
-    if len(sys.argv) != 2 or sys.argv[1] not in ("on", "nohook"):
-        sys.exit("usage: build_exprate_testrom.py <on|nohook>")
+    if len(sys.argv) != 2 or sys.argv[1] not in ("on", "nohook", "nocrit"):
+        sys.exit("usage: build_exprate_testrom.py <on|nohook|nocrit>")
     tag = sys.argv[1]
     d = bytearray(SRC.read_bytes())
     s = d[CONSOLE_SCRIPT_OFF:CONSOLE_SCRIPT_OFF + 21]
@@ -43,6 +44,11 @@ def main():
     assert bytes(d[o:o + 4]) != thumb_bl(site, orig), "build/radicalred_cm.gba has no EXP rate hook"
     if tag == "nohook":
         d[o:o + 4] = thumb_bl(site, orig)
+    if tag == "nocrit":            # crit +2 control (2026-11-24): both crit BLs back at CheckTableForMove
+        for cs in CRIT_BL_SITES:
+            co = cs - 0x08000000
+            assert bytes(d[co:co + 4]) != thumb_bl(cs, CHECK_TABLE_FOR_MOVE), "build/radicalred_cm.gba has no crit hook"
+            d[co:co + 4] = thumb_bl(cs, CHECK_TABLE_FOR_MOVE)
 
     script = b"\x19" + struct.pack("<HH", 0x51FC, 0x8004) + b"\x29" + struct.pack("<H", 0x906)
     script += b"\x79" + struct.pack("<HBH", 25, 10, 0) + b"\0" * 9        # CFRU givemon: + 9 bytes
