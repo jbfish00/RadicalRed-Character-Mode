@@ -176,6 +176,11 @@ def _move_best_regions():
         out.append((cs - 0x08000000, cs - 0x08000000 + 4))
     n = len(crit_stub(CRIT_STUB_ADDR, sl["crit_list"]["ids"]))
     out.append((CRIT_STUB_ADDR - 0x08000000, CRIT_STUB_ADDR - 0x08000000 + n))
+    # behaviour cards (2026-11-26): the exact bytes of each tools/character_mode/behaviour_cards.json edit;
+    # tools/tests/check_behaviour.py checks their values against the CM_NO_BEHAVIOUR control and decodes them
+    for _e in json.load(open(ROOT / "tools" / "character_mode" / "behaviour_cards.json"))["edits"]:
+        _o = int(_e["addr"], 16) - 0x08000000
+        out.append((_o, _o + len(_e["to"]) // 2))
     return out
 
 

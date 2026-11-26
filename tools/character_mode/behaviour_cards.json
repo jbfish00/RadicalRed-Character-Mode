@@ -1,0 +1,192 @@
+{
+ "hack": "radicalred",
+ "engine": "CFRU binary",
+ "generator": "game_plans/move_ability_best_2026-11-22/behaviour_all/gba/make_cfru.py",
+ "block": "0x08cff700",
+ "edits": [
+  {
+   "card": "Double-Edge (Gen I)",
+   "kind": "data",
+   "addr": "0x090401e6",
+   "from": "24004200a70121025801fefe2600b2016901bf01ed02fc02fefe",
+   "to": "24004200a701210258012600fefeb2016901bf01ed02fc02fefe",
+   "why": "r25 list + Double-Edge; r33 list without it, now at 0x090401F4"
+  },
+  {
+   "card": "Double-Edge (Gen I)",
+   "kind": "repoint",
+   "addr": "0x09073bf8",
+   "from": "f2010409",
+   "to": "f4010409",
+   "why": "gPercent33RecoilMoves literal -> +2"
+  },
+  {
+   "card": "Double-Edge (Gen I)",
+   "kind": "repoint",
+   "addr": "0x09081058",
+   "from": "f2010409",
+   "to": "f4010409",
+   "why": "gPercent33RecoilMoves literal -> +2"
+  },
+  {
+   "card": "Double-Edge (Gen I)",
+   "kind": "repoint",
+   "addr": "0x090cb5b8",
+   "from": "f2010409",
+   "to": "f4010409",
+   "why": "gPercent33RecoilMoves literal -> +2"
+  },
+  {
+   "card": "Astonish (Gen III)",
+   "kind": "blob",
+   "addr": "0x08cff700",
+   "from": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+   "to": "2200e60184022002a401170014027b03a102360146012e01e901fefe",
+   "why": "new gAlwaysHitWhenMinimizedMoves list: the 9 + Astonish, Extrasensory, Needle Arm, Phantom Force"
+  },
+  {
+   "card": "Astonish (Gen III)",
+   "kind": "repoint",
+   "addr": "0x09060c14",
+   "from": "22010409",
+   "to": "00f7cf08",
+   "why": "minimize list literal -> new list"
+  },
+  {
+   "card": "Astonish (Gen III)",
+   "kind": "repoint",
+   "addr": "0x090866e0",
+   "from": "22010409",
+   "to": "00f7cf08",
+   "why": "minimize list literal -> new list"
+  },
+  {
+   "card": "Substitute (Gen II-V)",
+   "kind": "inplace",
+   "addr": "0x0907467a",
+   "from": "0dd1",
+   "to": "c046",
+   "why": "sound moves no longer bypass a Substitute (bne -> nop); Infiltrator kept"
+  },
+  {
+   "card": "Protect / Detect / Endure (Gen IV)",
+   "kind": "imm",
+   "addr": "0x0909f9bc",
+   "from": "072b",
+   "to": "032b",
+   "why": "loop cap 7 -> 3 (divisor stops at 8)"
+  },
+  {
+   "card": "Protect / Detect / Endure (Gen IV)",
+   "kind": "imm",
+   "addr": "0x0909fa66",
+   "from": "0322",
+   "to": "0222",
+   "why": "per-use divisor x3 -> x2 (1, 1/2, 1/4, 1/8 floor)"
+  },
+  {
+   "card": "Aerilate / Pixilate / Refrigerate (Gen VI)",
+   "kind": "inplace",
+   "addr": "0x0908558a",
+   "from": "0ce7",
+   "to": "d7e7",
+   "why": "-ate result -> the x1.3 block (Galvanize too)"
+  },
+  {
+   "card": "Parental Bond (Gen VI)",
+   "kind": "imm",
+   "addr": "0x09086ac8",
+   "from": "9b08",
+   "to": "5b08",
+   "why": "second strike damage / 4 -> / 2"
+  },
+  {
+   "card": "High Jump Kick / Jump Kick (Gen I)",
+   "kind": "blob",
+   "addr": "0x08cff71c",
+   "from": "ffffffffffffffffffffffffffff",
+   "to": "fa503d020201000000282e440009",
+   "why": "setword gBattleMoveDamage 1; goto back (crash = 1 HP)"
+  },
+  {
+   "card": "High Jump Kick / Jump Kick (Gen I)",
+   "kind": "script",
+   "addr": "0x09004429",
+   "from": "ff13010200",
+   "to": "281cf7cf08",
+   "why": "setdamagetobankhealthfraction -> goto the 1 HP script"
+  },
+  {
+   "card": "Gale Wings (Gen VI)",
+   "kind": "inplace",
+   "addr": "0x0906f086",
+   "from": "d0d1",
+   "to": "c046",
+   "why": "PriorityCalc: no full-HP test"
+  },
+  {
+   "card": "Gale Wings (Gen VI)",
+   "kind": "inplace",
+   "addr": "0x0906f124",
+   "from": "d8d1",
+   "to": "c046",
+   "why": "PriorityCalcMon: no full-HP test"
+  },
+  {
+   "card": "Heal Bell / Soundproof (Gen V)",
+   "kind": "inplace",
+   "addr": "0x090a20c4",
+   "from": "61d0",
+   "to": "c046",
+   "why": "Soundproof holder is cured too (test 0: beq -> nop)"
+  },
+  {
+   "card": "Heal Bell / Soundproof (Gen V)",
+   "kind": "inplace",
+   "addr": "0x090a2118",
+   "from": "43d0",
+   "to": "c046",
+   "why": "Soundproof holder is cured too (test 1: beq -> nop)"
+  },
+  {
+   "card": "Heal Bell / Soundproof (Gen V)",
+   "kind": "inplace",
+   "addr": "0x090a2168",
+   "from": "04d0",
+   "to": "c046",
+   "why": "Soundproof holder is cured too (test 2: beq -> nop)"
+  },
+  {
+   "card": "Leaf Guard (Gen IV)",
+   "kind": "inplace",
+   "addr": "0x090a0286",
+   "from": "03d0",
+   "to": "c046",
+   "why": "Leaf Guard no longer stops Rest in sun (beq -> nop: falls to the default arm)"
+  },
+  {
+   "card": "Parting Shot (Gen VI)",
+   "kind": "script",
+   "addr": "0x09005703",
+   "from": "00",
+   "to": "ff",
+   "why": "the no-stat-lowered exit never matches (ANIM_TARGETS_HIT is 0/1): always switches"
+  },
+  {
+   "card": "Destiny Bond (Gen III-VI)",
+   "kind": "inplace",
+   "addr": "0x090a1e8c",
+   "from": "02d0",
+   "to": "02e0",
+   "why": "consecutive use no longer fails (beq -> b)"
+  },
+  {
+   "card": "Disguise (Gen VII)",
+   "kind": "imm",
+   "addr": "0x0909d8e6",
+   "from": "c308",
+   "to": "0023",
+   "why": "breaking the disguise costs 0 HP (HP/8 -> 0)"
+  }
+ ]
+}
